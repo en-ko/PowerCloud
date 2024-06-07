@@ -1,20 +1,18 @@
 [
   {
     "object": "config",
-    "pageCount": 5,
+    "pageCount": 4,
     "pageTitle_1": [
       "Monitoring",
       "Set Point",
       "Configuration",
-      "Protections",
-      "Parameter Charts"
+      "Protections"
     ],
     "pageTitle_2": [
       "Monitoring",
       "Set Point",
       "Configuration",
-      "Protections",
-      "Parameter Charts"
+      "Protections"
     ],
     "bootModeAddress": 200,
     "encryptModbus": false
@@ -577,19 +575,6 @@
       "IDMT",
       "MSF",
       "RDF"
-    ]
-  },
-  {
-    "object": "linechart",
-    "page": 5,
-    "row": 1,
-    "min": 0,
-    "max": 100,
-    "paramId": [
-      2,
-      8,
-      20,
-      37
     ]
   }
 ]

@@ -743,7 +743,7 @@
     "id": 54,
     "version": 4013,
     "name_1": "ERROR SCM",
-    "name_2": "MB_ADDR_CONTROLLER_ERROR_SCM",
+    "name_2": "ERROR SCM",
     "group_1": "Monitoring",
     "group_2": "Monitoring",
     "unit_1": "",
@@ -1852,13 +1852,13 @@
       },
       {
         "value": 2,
-        "mask_1": "0V – 10V",
-        "mask_2": "0V – 10V"
+        "mask_1": "4mA – 20mA",
+        "mask_2": "4mA – 20mA"
       },
       {
         "value": 3,
-        "mask_1": "4mA – 20mA",
-        "mask_2": "4mA – 20mA"
+        "mask_1": "0V – 10V",
+        "mask_2": "0V – 10V"
       }
     ],
     "dataOperation": {
@@ -2438,7 +2438,7 @@
     "id": 278,
     "version": 4013,
     "name_1": "ADT B Value",
-    "name_2": "MB_ADDR_INPUTADT_B_VALUE",
+    "name_2": "ADT B Value",
     "group_1": "Temperatures",
     "group_2": "Temperatures",
     "unit_1": "",
@@ -2464,7 +2464,7 @@
     "id": 279,
     "version": 4013,
     "name_1": "ADT B Temperature",
-    "name_2": "MB_ADDR_TEMPERATUREADT_B_AVERAGEVALUE",
+    "name_2": "ADT B Temperature",
     "group_1": "Temperatures",
     "group_2": "Temperatures",
     "unit_1": "°C",
