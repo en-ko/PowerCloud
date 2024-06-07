@@ -377,16 +377,6 @@
     ]
   },
   {
-    "object": "datacard",
-    "page": 1,
-    "row": 9,
-    "side": "left",
-    "paramId": [
-      95,
-      94
-    ]
-  },
-  {
     "object": "multidatacard",
     "page": 1,
     "row": 8,
