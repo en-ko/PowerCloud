@@ -1776,7 +1776,7 @@
     "signed": false,
     "minValue": 0,
     "maxValue": 0.3,
-    "defaultValue": 30,
+    "defaultValue": 0.3,
     "valueMask": [],
     "dataOperation": {
       "operation": "/",
@@ -1802,7 +1802,7 @@
     "signed": false,
     "minValue": 0,
     "maxValue": 0.3,
-    "defaultValue": 30,
+    "defaultValue": 0.3,
     "valueMask": [],
     "dataOperation": {
       "operation": "/",
@@ -1828,7 +1828,7 @@
     "signed": false,
     "minValue": 0,
     "maxValue": 0.3,
-    "defaultValue": 30,
+    "defaultValue": 0.3,
     "valueMask": [],
     "dataOperation": {
       "operation": "/",
