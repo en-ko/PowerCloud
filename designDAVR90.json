@@ -19,8 +19,6 @@
     "bootModeAddress": 200,
     "encryptModbus": false
   },
- 
-  
   {
     "object": "indicator",
     "page": 1,
@@ -28,9 +26,11 @@
     "side": "left",
     "title_1": "Status Indicator",
     "title_2": "Status Indicator",
-    "width" : 250,
-    "height" : 370,
-    "paramId": [68],
+    "width": 250,
+    "height": 440,
+    "paramId": [
+      68
+    ],
     "menu": [
       {
         "name_1": "AVR Ready",
@@ -122,9 +122,11 @@
     "side": "right",
     "title_1": "Error Indicator",
     "title_2": "Error Indicator",
-    "width" : 250,
-    "height" : 370,
-    "paramId": [68],
+    "width": 250,
+    "height": 440,
+    "paramId": [
+      68
+    ],
     "menu": [
       {
         "name_1": "Over Excitation",
@@ -232,30 +234,56 @@
     "page": 1,
     "row": 1,
     "side": "center",
-    "paramId": [0, 1, 2],
+    "paramId": [
+      0,
+      1,
+      2
+    ],
     "min": 0,
     "max": 500,
-    "scale": [0, 100, 200, 300, 400, 500]
+    "scale": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500
+    ]
   },
   {
     "object": "roundguage",
     "page": 1,
     "row": 2,
     "side": "center",
-    "paramId": [6, 7, 8],
+    "paramId": [
+      6,
+      7,
+      8
+    ],
     "min": 0,
     "max": 75,
-    "scale": [0, 50, 75]
+    "scale": [
+      0,
+      50,
+      75
+    ]
   },
   {
     "object": "roundguage",
     "page": 1,
     "row": 3,
     "side": "center",
-    "paramId": [14, 20],
+    "paramId": [
+      14,
+      20
+    ],
     "min": 0,
     "max": 10,
-    "scale": [0, 5, 10]
+    "scale": [
+      0,
+      5,
+      10
+    ]
   },
   {
     "object": "statuscard",
@@ -265,7 +293,9 @@
     "width": 0,
     "staticText_1": "",
     "staticText_2": "",
-    "paramId": [35],
+    "paramId": [
+      35
+    ],
     "menu": [
       {
         "message_1": "Pre Init",
@@ -344,21 +374,33 @@
     "page": 1,
     "row": 5,
     "side": "center",
-    "paramId": [25, 26, 33]
+    "paramId": [
+      25,
+      26,
+      33
+    ]
   },
   {
     "object": "datacard",
     "page": 1,
     "row": 6,
     "side": "center",
-    "paramId": [27, 28, 29]
+    "paramId": [
+      27,
+      28,
+      29
+    ]
   },
   {
     "object": "datacard",
     "page": 1,
     "row": 7,
     "side": "center",
-    "paramId": [37, 272, 279]
+    "paramId": [
+      37,
+      272,
+      279
+    ]
   },
   {
     "object": "multidatacard",
@@ -368,7 +410,14 @@
     "name": "Generator Working Time",
     "unit": true,
     "separator": ":",
-    "paramId": [99, 98, 97, 96, 95, 94]
+    "paramId": [
+      99,
+      98,
+      97,
+      96,
+      95,
+      94
+    ]
   },
   {
     "object": "multidatacard",
@@ -378,77 +427,117 @@
     "name": "Device HW/SW version",
     "unit": false,
     "separator": ":",
-    "paramId": [9975,9976]
+    "paramId": [
+      9975,
+      9976
+    ]
   },
-
-
   {
     "object": "datacard",
     "page": 2,
     "row": 1,
     "side": "center",
-    "paramId": [100, 110, 111, 112]
+    "paramId": [
+      100,
+      110,
+      111,
+      112
+    ]
   },
   {
     "object": "datacard",
     "page": 2,
     "row": 2,
     "side": "center",
-    "paramId": [121, 113, 114, 115]
+    "paramId": [
+      121,
+      113,
+      114,
+      115
+    ]
   },
   {
     "object": "datacard",
     "page": 2,
     "row": 3,
     "side": "center",
-    "paramId": [104, 105, 106, 107]
+    "paramId": [
+      104,
+      105,
+      106,
+      107
+    ]
   },
   {
     "object": "datacard",
     "page": 2,
     "row": 4,
     "side": "center",
-    "paramId": [117, 118, 119, 120]
+    "paramId": [
+      117,
+      118,
+      119,
+      120
+    ]
   },
   {
     "object": "datacard",
     "page": 2,
     "row": 5,
     "side": "center",
-    "paramId": [122, 108]
+    "paramId": [
+      122,
+      108
+    ]
   },
-
-  
   {
     "object": "datacard",
     "page": 3,
     "row": 2,
     "side": "center",
-    "paramId": [101, 102, 103, 135]
+    "paramId": [
+      101,
+      102,
+      103,
+      135
+    ]
   },
   {
     "object": "datacard",
     "page": 3,
     "row": 3,
     "side": "center",
-    "paramId": [139, 140, 141, 142]
+    "paramId": [
+      139,
+      140,
+      141,
+      142
+    ]
   },
   {
     "object": "datacard",
     "page": 3,
     "row": 4,
     "side": "center",
-    "paramId": [123, 124, 137, 138]
+    "paramId": [
+      123,
+      124,
+      137,
+      138
+    ]
   },
   {
     "object": "datacard",
     "page": 3,
     "row": 5,
     "side": "center",
-    "paramId": [270, 271, 277, 278]
+    "paramId": [
+      270,
+      271,
+      277,
+      278
+    ]
   },
-
-
   {
     "object": "table",
     "page": 4,
@@ -490,16 +579,17 @@
       "RDF"
     ]
   },
-
-
   {
     "object": "linechart",
     "page": 5,
     "row": 1,
-    "min" : 0,
-    "max" : 100,
-    "paramId": [2, 8, 20, 37]
+    "min": 0,
+    "max": 100,
+    "paramId": [
+      2,
+      8,
+      20,
+      37
+    ]
   }
-
-
 ]

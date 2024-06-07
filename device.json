@@ -1,41 +1,48 @@
 [
-    {
-        "name" : "POWER CLOUD MK2",
-        "majorVersion" : 1,
-        "minorVersion" : 9,
-        "patchVersion" : 7
-    },
-    {
-        "name" : "DAVR40",
-        "version" : 1000
-    },
-    {
-        "name" : "DAVR90",
-        "version" : 1000
-    },
-    {
-        "name" : "AMF-S",
-        "version" : 1000
-    },
-    {
-        "name" : "ATS-S",
-        "version" : 1000
-    },
-    {
-        "name" : "ESU-S",
-        "version" : 1000
-    },
-    {
-        "name" : "AMF-L",
-        "version" : 1000
-    },
-    {
-        "name" : "CCS-S",
-        "version" : 1000
-    },
-    {
-        "name" : "MODEM",
-        "version" : 1000
-    }
-    
+  {
+    "name": "POWER CLOUD MK2",
+    "majorVersion": 1,
+    "minorVersion": 9,
+    "patchVersion": 7
+  },
+  {
+    "name": "DAVR40",
+    "version": 1000
+  },
+  {
+    "name": "DAVR90",
+    "version": 1000
+  },
+  {
+    "name": "DAVR20",
+    "version": 1000
+  },
+  {
+    "name": "DAVR100",
+    "version": 1000
+  },
+  {
+    "name": "AMF-S",
+    "version": 1000
+  },
+  {
+    "name": "ATS-S",
+    "version": 1000
+  },
+  {
+    "name": "ESU-S",
+    "version": 1000
+  },
+  {
+    "name": "AMF-L",
+    "version": 1000
+  },
+  {
+    "name": "CCS-S",
+    "version": 1000
+  },
+  {
+    "name": "MODEM",
+    "version": 1000
+  }
 ]
