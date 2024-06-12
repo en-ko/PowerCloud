@@ -1,0 +1,1316 @@
+[
+	{
+		"id" : 1,
+		"version" : 1000,
+		"name_1" : "Fabrika Ayarları",
+		"name_2" : "Factory Settings",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Varsayılan",
+				"mask_2" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Fabrika Ayarlarına Dön",
+				"mask_2" : "Factory Reset"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazı fabrikadan çıkan değerlere döndürür.",
+		"comment_2" : "Returns the device to factory default values.",
+		"relation" : []
+	},
+	{
+		"id" : 3,
+		"version" : 1000,
+		"name_1" : "DHCP Seçimi",
+		"name_2" : "DHCP Selection",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Seçilmemiş",
+				"mask_2" : "Non Selected"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Seçilmiş",
+				"mask_2" : "Selected"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Bu parametre 1 set edilirse modem cihaza IP ataması yapar.",
+		"comment_2" : "If this parameter is set to 1, the modem assigns IP to the device.",
+		"relation" : []
+	},
+	{
+		"id" : 4,
+		"version" : 1000,
+		"name_1" : "Source IP Adres 0",
+		"name_2" : "Source  IP Address 0",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 192,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan kullanıcı tarafından değiştirilebilen statik IP adresinin ilk hanesidir.",
+		"comment_2" : "It is the first digit of the user-changeable static IP address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 5,
+		"version" : 1000,
+		"name_1" : "Source  IP Adres 1",
+		"name_2" : "Source  IP Address 1",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 168,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan kullanıcı tarafından değiştirilebilen statik IP adresinin ikinci hanesidir.",
+		"comment_2" : "It is the second digit of the static IP address that can be changed by the user defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 6,
+		"version" : 1000,
+		"name_1" : "Source  IP Adres 2",
+		"name_2" : "Source  IP Address 2",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan kullanıcı tarafından değiştirilebilen statik IP adresinin üçüncü hanesidir.",
+		"comment_2" : "It is the third digit of the static IP address that can be changed by the user defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1000,
+		"name_1" : "Source  IP Adres 3",
+		"name_2" : "Source  IP Address 3",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan kullanıcı tarafından değiştirilebilen statik IP adresinin dördücü hanesidir.",
+		"comment_2" : "This is the fourth digit of the user-changeable static IP address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 8,
+		"version" : 1000,
+		"name_1" : "Netmask Adres 0",
+		"name_2" : "Netmask Address 0",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 106,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 255,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Netmask adresinin ilk hanesidir.",
+		"comment_2" : "The first digit of the Netmask address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 9,
+		"version" : 1000,
+		"name_1" : "Netmask Adres 1",
+		"name_2" : "Netmask Address 1",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 255,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Netmask adresinin ikinci hanesidir.",
+		"comment_2" : "The second digit of the Netmask address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 10,
+		"version" : 1000,
+		"name_1" : "Netmask Adres 2",
+		"name_2" : "Netmask Address 2",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 108,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 255,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Netmask adresinin üçüncü hanesidir.",
+		"comment_2" : "The third digit of the Netmask address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 11,
+		"version" : 1000,
+		"name_1" : "Netmask Adres 3",
+		"name_2" : "Netmask Address 3",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Netmask adresinin dördüncü hanesidir.",
+		"comment_2" : "The fourth digit of the Netmask address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 12,
+		"version" : 1000,
+		"name_1" : "Gateway Adres 0",
+		"name_2" : "Gateway Address 0",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 192,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Gateway adresinin ilk hanesidir.",
+		"comment_2" : "The first digit of the Gateway address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 13,
+		"version" : 1000,
+		"name_1" : "Gateway Adres 1",
+		"name_2" : "Gateway Address 1",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 168,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Gateway adresinin ikinci hanesidir.",
+		"comment_2" : "The second digit of the Gateway address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 14,
+		"version" : 1000,
+		"name_1" : "Gateway Adres 2",
+		"name_2" : "Gateway Address 2",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 112,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Gateway adresinin üçüncü hanesidir.",
+		"comment_2" : "The third digit of the Gateway address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 15,
+		"version" : 1000,
+		"name_1" : "Gateway Adres 3",
+		"name_2" : "Gateway Address 3",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 113,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet için tanımlanan Gateway adresinin dördüncü hanesidir.",
+		"comment_2" : "The fourth digit of the Gateway address defined for Ethernet.",
+		"relation" : []
+	},
+	{
+		"id" : 20,
+		"version" : 1000,
+		"name_1" : "Ethernet Zaman Gecikmesi",
+		"name_2" : "Ethernet Timeout",
+		"group_1" : "Ethernet",
+		"group_2" : "Ethernet",
+		"unit_1" : "saniye",
+		"unit_2" : "second",
+		"modbusAddress" : 118,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 32767,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ethernet Modbus TCP haberleşmesi için tanımlanan zaman aşımı süresidir. Sorgu süresinden büyük bir değer girilmelidir.",
+		"comment_2" : "It is the timeout period defined for Ethernet Modbus TCP communication. A value greater than the query time must be entered.",
+		"relation" : []
+	},
+	{
+		"id" : 21,
+		"version" : 1000,
+		"name_1" : "Baud Rate",
+		"name_2" : "Baud Rate",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 7,
+		"defaultValue" : 7,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "4800",
+				"mask_2" : "4800"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "9600",
+				"mask_2" : "9600"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "14400",
+				"mask_2" : "14400"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "19200",
+				"mask_2" : "19200"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "38400",
+				"mask_2" : "38400"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "56000",
+				"mask_2" : "56000"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "57600",
+				"mask_2" : "57600"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "115200",
+				"mask_2" : "115200"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 22,
+		"version" : 1000,
+		"name_1" : "Data Bit",
+		"name_2" : "Data Bit",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "7 Bit",
+				"mask_2" : "7 Bit"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "8 Bit",
+				"mask_2" : "8 Bit"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "9 Bit",
+				"mask_2" : "9 Bit"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 23,
+		"version" : 1000,
+		"name_1" : "Stop Bit",
+		"name_2" : "Stop Bit",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "0.5",
+				"mask_2" : "0.5"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "1",
+				"mask_2" : "1"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "1.5",
+				"mask_2" : "1.5"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "2",
+				"mask_2" : "2"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 24,
+		"version" : 1000,
+		"name_1" : "Parity Bit",
+		"name_2" : "Parity Bit",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hiçbiri",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Çift",
+				"mask_2" : "Even"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Tek",
+				"mask_2" : "Odd"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 25,
+		"version" : 1000,
+		"name_1" : "Slave ID",
+		"name_2" : "Slave ID",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 255,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 26,
+		"version" : 1000,
+		"name_1" : "RS485 Zaman Gecikmesi",
+		"name_2" : "RS485 Timeout",
+		"group_1" : "RS485 Seri port",
+		"group_2" : "RS485 Serial Port",
+		"unit_1" : "saniye",
+		"unit_2" : "second",
+		"modbusAddress" : 206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 32767,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Slave cihaz ile RS485 haberleşmesi için tanımlanan zaman aşımı süresidir. Sorgu süresinden büyük bir değer girilmelidir.",
+		"comment_2" : "It is the timeout period defined for RS485 communication with the slave device. A value greater than the query time must be entered.",
+		"relation" : []
+	},
+	{
+		"id" : 27,
+		"version" : 1000,
+		"name_1" : "GSM Kaynak IP",
+		"name_2" : "GSM Source IP",
+		"group_1" : "LTE",
+		"group_2" : "LTE",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 301,
+		"dataLength" : 16,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "ascii",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 43,
+		"version" : 1000,
+		"name_1" : "GSM APN",
+		"name_2" : "GSM APN",
+		"group_1" : "LTE",
+		"group_2" : "LTE",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 317,
+		"dataLength" : 32,
+		"coef" : 0,
+		"signed" : true,
+        "view" : "ascii",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 75,
+		"version" : 1000,
+		"name_1" : "GSM PIN",
+		"name_2" : "GSM PIN",
+		"group_1" : "LTE",
+		"group_2" : "LTE",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 349,
+		"dataLength" : 4,
+		"coef" : 0,
+		"signed" : true,
+		"view": "ascii",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 79,
+		"version" : 1000,
+		"name_1" : "GSM PUK",
+		"name_2" : "GSM PUK",
+		"group_1" : "LTE",
+		"group_2" : "LTE",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 353,
+		"dataLength" : 8,
+		"coef" : 0,
+		"signed" : true,
+		"view": "ascii",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 87,
+		"version" : 1000,
+		"name_1" : "GSM Zaman Gecikmesi",
+		"name_2" : "GSM Timeout",
+		"group_1" : "LTE",
+		"group_2" : "LTE",
+		"unit_1" : "saniye",
+		"unit_2" : "second",
+		"modbusAddress" : 361,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+        "view" : "decimal",
+		"minValue" : 1,
+		"maxValue" : 32767,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "GSM Modbus TCP haberleşmesi için tanımlanan zaman aşımı süresidir. Sorgu süresinden büyük bir değer girilmelidir.",
+		"comment_2" : "GSM is the timeout period defined for Modbus TCP communication. A value greater than the query time must be entered.",
+		"relation" : []
+	},
+	{
+		"id" : 88,
+		"version" : 1000,
+		"name_1" : "RS485 Zaman Aşımı Durumu",
+		"name_2" : "RS485 Timeout Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 401,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hata Yok",
+				"mask_2" : "No Error"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Hata Var",
+				"mask_2" : "Error"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 89,
+		"version" : 1000,
+		"name_1" : "Ethernet Zaman Aşımı Durumu",
+		"name_2" : "Ethernet Timeout Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 402,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hata Yok",
+				"mask_2" : "No Error"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Hata Var",
+				"mask_2" : "Error"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 90,
+		"version" : 1000,
+		"name_1" : "GSM Zaman Aşımı Durumu",
+		"name_2" : "GSM Timeout Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 403,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hata Yok",
+				"mask_2" : "No Error"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Hata Var",
+				"mask_2" : "Error"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 91,
+		"version" : 1000,
+		"name_1" : "Modem Çalışma Durumu",
+		"name_2" : "Modem Working Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 404,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hiçbiri Çalışmıyor",
+				"mask_2" : "None of them work"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "RS485 Çalışmıyor",
+				"mask_2" : "RS485 Not Working"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "GSM-RS485 Çalışıyor",
+				"mask_2" : "GSM-RS485 Working"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Etherntet-RS485 Çalışıyor",
+				"mask_2" : "Etherntet-RS485 Working"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "GSM-RS485-Ethernet Çalışıyor",
+				"mask_2" : "GSM-RS485-Ethernet Working"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "PIN Girin",
+				"mask_2" : "PIN Entry"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Hatalı PIN",
+				"mask_2" : "PIN Incorrect"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "PUK Girin",
+				"mask_2" : "PUK Entry"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Bekleniyor…",
+				"mask_2" : "Waiting…"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "SIM Çıkarıldı",
+				"mask_2" : "SIM Removed"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "GSM Bağlanmaya Hazır",
+				"mask_2" : "Ready to Connect GSM"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Ethernet Bağlanmaya Hazır",
+				"mask_2" : "Ready to Connect Ethernet"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "GSM-Ethernet Bağlanmaya Hazır",
+				"mask_2" : "Ready to Connect GSM-Ethernet"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 92,
+		"version" : 1000,
+		"name_1" : "Ethernet Durumu",
+		"name_2" : "Ethernet Ready Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 405,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Ethernet Bağlanmaya Hazır Değil",
+				"mask_2" : "Ethernet Not Ready to Connect"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ethernet Bağlanmaya Hazır",
+				"mask_2" : "Ethernet Ready to Connect"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 93,
+		"version" : 1000,
+		"name_1" : "GSM Durumu",
+		"name_2" : "GSM Ready Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 406,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "GSM Bağlanmaya Hazır Değil",
+				"mask_2" : "GSM Not Ready to Connect"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "GSM Bağlanmaya Hazır",
+				"mask_2" : "GSM Ready to Connect"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 94,
+		"version" : 1000,
+		"name_1" : "MAC Adres 0",
+		"name_2" : "MAC Address 0",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 407,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 95,
+		"version" : 1000,
+		"name_1" : "MAC Adres 1",
+		"name_2" : "MAC Address 1",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 408,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 96,
+		"version" : 1000,
+		"name_1" : "MAC Adres 2",
+		"name_2" : "MAC Address 2",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 409,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 97,
+		"version" : 1000,
+		"name_1" : "MAC Adres 3",
+		"name_2" : "MAC Address 3",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 410,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 98,
+		"version" : 1000,
+		"name_1" : "MAC Adres 4",
+		"name_2" : "MAC Address 4",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 411,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 99,
+		"version" : 1000,
+		"name_1" : "MAC Adres 5",
+		"name_2" : "MAC Address 5",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 412,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 100,
+		"version" : 1000,
+		"name_1" : "Batarya Voltajı",
+		"name_2" : "Battery Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 413,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 101,
+		"version" : 1000,
+		"name_1" : "MCU Sıcaklığı",
+		"name_2" : "MCU Temperature",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
+		"modbusAddress" : 414,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 102,
+		"version" : 1000,
+		"name_1" : "GSM Sinyal Seviyesi",
+		"name_2" : "GSM Signal Level",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 415,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	}
+]
