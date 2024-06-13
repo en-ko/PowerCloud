@@ -1,0 +1,7236 @@
+[
+	{
+		"id" : 1,
+		"version" : 1004,
+		"name_1" : "Basınç Sensör Tipi",
+		"name_2" : "Pressure Sensor Type",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 1,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 116,
+		"maxValue" : 870,
+		"defaultValue" : 160,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Basınç ölçmek için kullanılan sensörün tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 2,
+		"version" : 1004,
+		"name_1" : "Boşa Geçme Basıncı",
+		"name_2" : "Idle Pressure",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 2,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 870,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Boşa geçme basıncı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3,
+		"version" : 1004,
+		"name_1" : "Yüke Geçme Basıncı",
+		"name_2" : "Onload Pressure",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 3,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 870,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüke geçme basıncı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 4,
+		"version" : 1004,
+		"name_1" : "Şebeke Basınç Hata Değeri",
+		"name_2" : "Line Alarm Value",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 4,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 2,
+		"maxValue" : 870,
+		"defaultValue" : 85,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke basıncının hataya geçtiği değer",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 5,
+		"version" : 1004,
+		"name_1" : "Şebeke Basınç Uyarı Değeri",
+		"name_2" : "Line Warning Value",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 5,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 870,
+		"defaultValue" : 80,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke basıncının uyarıya geçtiği değer",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 6,
+		"version" : 1004,
+		"name_1" : "Vida Sensör Kullanımı",
+		"name_2" : "Screw Sensor Control",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 6,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Pasif",
+				"mask_2" : "Pasive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Vida Sensörünün kullanıp kulllanılmadığını belirten parametre",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1004,
+		"name_1" : "Basınç Birimi",
+		"name_2" : "Pressure Unit",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 7,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Bar",
+				"mask_2" : "Bar"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "PSI",
+				"mask_2" : "PSI"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Baınç birimi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 8,
+		"version" : 1004,
+		"name_1" : "Standart Basınç Yükle",
+		"name_2" : "Standard Pressure Value Load",
+		"group_1" : "Basınç",
+		"group_2" : "Pressure",
+		"unit_1" : "Bar",
+		"unit_2" : "",
+		"modbusAddress" : 8,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 50,
+		"maxValue" : 870,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yükteki standart basınç değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 9,
+		"version" : 1004,
+		"name_1" : "Başlama Gecikmesi",
+		"name_2" : "Start Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 2,
+		"maxValue" : 60,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Başlatma yapıldığında beklenilen süre",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 10,
+		"version" : 1004,
+		"name_1" : "Durma Süresi",
+		"name_2" : "Stopping Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 180,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Durmak için gereken süre",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 11,
+		"version" : 1004,
+		"name_1" : "Hava Tahliye Süresi",
+		"name_2" : "Air Discharge Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 60,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Hava tahliyesinin yapılma süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 12,
+		"version" : 1004,
+		"name_1" : "Boşta Çalışma Süresi",
+		"name_2" : "Idle Working Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 300,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Boşta çalışma Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 13,
+		"version" : 1004,
+		"name_1" : "Tekrar Yüke Geçme Süresi",
+		"name_2" : "Pass Again Onload Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 60,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Tekrar yüke geçmek için gereken süre",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 14,
+		"version" : 1004,
+		"name_1" : "Otomatik Bekleme Gecikmesi",
+		"name_2" : "Auto Waiting Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 106,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1200,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Otomatik bekleme süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 15,
+		"version" : 1004,
+		"name_1" : "Elektrik Kesildi Gecikmesi",
+		"name_2" : "Power Cut Restart Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 60,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Elektrik kesildikten sonra beklenen süre",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 16,
+		"version" : 1004,
+		"name_1" : "Yıldız Çalışma Süresi",
+		"name_2" : "Star Duration Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 108,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 30,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yıldız Çalışma Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 17,
+		"version" : 1004,
+		"name_1" : "Ana Kontaktör Çekme Gecikmesi",
+		"name_2" : "Main Contactor Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "milisaniye",
+		"unit_2" : "",
+		"modbusAddress" : 109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ana Kontaktör Çekme Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 18,
+		"version" : 1004,
+		"name_1" : "Yıldız Üçgen Geçişi",
+		"name_2" : "Triangle Transfer Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "milisaniye",
+		"unit_2" : "",
+		"modbusAddress" : 110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yıldız Üçgen Geçişi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 19,
+		"version" : 1004,
+		"name_1" : "Ön Isıtma Yükte Süresi",
+		"name_2" : "Preheat Onload Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 60,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yükteyken yapılan ön ısıtma süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 20,
+		"version" : 1004,
+		"name_1" : "Ön Isıtma Boşta Süresi",
+		"name_2" : "Preheat Idle Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 112,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 120,
+		"defaultValue" : 15,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Boştayken yapılan ön ısıtma süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 21,
+		"version" : 1004,
+		"name_1" : "Şebeke Basıncı Hata Gecikmesi",
+		"name_2" : "Line Pressure Alarm Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 113,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke Basıncı Hatasında verieln hatanın verilme süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 22,
+		"version" : 1004,
+		"name_1" : "Fan Maksimum Çalışma Süresi",
+		"name_2" : "Fan Maksimum Working Time",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 114,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1200,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Fan Maksimum Çalışma Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 23,
+		"version" : 1004,
+		"name_1" : "Korna Süresi",
+		"name_2" : "Horn Duration",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 115,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 999,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Korna Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 24,
+		"version" : 1004,
+		"name_1" : "Kurutucu Süresi",
+		"name_2" : "Dryer Duration",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "dakika",
+		"unit_2" : "",
+		"modbusAddress" : 116,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 60,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kurutucu Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 25,
+		"version" : 1004,
+		"name_1" : "Booster Gecikme",
+		"name_2" : "Booster Delay",
+		"group_1" : "Gecikme",
+		"group_2" : "Delay",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 117,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 120,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Booster Gecikme Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 26,
+		"version" : 1004,
+		"name_1" : "Giriş Fonksiyon1",
+		"name_2" : "Input Function1",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Seperatör Filtre",
+				"mask_2" : "Seperator Filter"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Basıncı",
+				"mask_2" : "Oil Pressure"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Faz Sırası",
+				"mask_2" : "Phase Sequence"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Motor Termik",
+				"mask_2" : "MotorThermic"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Uzak Çalıştırma",
+				"mask_2" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Başlat Butonu",
+				"mask_2" : "Start Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Durdur Butonu",
+				"mask_2" : "Stop Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzak Yük",
+				"mask_2" : "Remote Load"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Yedek-1",
+				"mask_2" : "Reserve-1"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Yedek-2",
+				"mask_2" : "Reserve-2"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Şebeke Sivici",
+				"mask_2" : "Şebeke Sivici"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Vida Sivici",
+				"mask_2" : "Vida Sivici"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete error"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Kapak Açıldı",
+				"mask_2" : "Cover opened"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Düşük Basınç",
+				"mask_2" : "Low pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 1’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 27,
+		"version" : 1004,
+		"name_1" : "Giriş Gecikme1",
+		"name_2" : "Input Delay1",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 1’in Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 28,
+		"version" : 1004,
+		"name_1" : "Giriş Kontak Tipi1",
+		"name_2" : "Input Contactor Type1",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 1’in  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 29,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 30,
+		"version" : 1004,
+		"name_1" : "Giriş Fonksiyon2",
+		"name_2" : "Input Function2",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 5,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Seperatör Filtre",
+				"mask_2" : "Seperator Filter"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Basıncı",
+				"mask_2" : "Oil Pressure"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Faz Sırası",
+				"mask_2" : "Phase Sequence"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Motor Termik",
+				"mask_2" : "MotorThermic"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Uzak Çalıştırma",
+				"mask_2" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Başlat Butonu",
+				"mask_2" : "Start Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Durdur Butonu",
+				"mask_2" : "Stop Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzak Yük",
+				"mask_2" : "Remote Load"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Yedek-1",
+				"mask_2" : "Reserve-1"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Yedek-2",
+				"mask_2" : "Reserve-2"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Şebeke Sivici",
+				"mask_2" : "Şebeke Sivici"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Vida Sivici",
+				"mask_2" : "Vida Sivici"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete error"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Kapak Açıldı",
+				"mask_2" : "Cover opened"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Düşük Basınç",
+				"mask_2" : "Low pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 2’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 31,
+		"version" : 1004,
+		"name_1" : "Giriş Gecikme2",
+		"name_2" : "Input Delay2",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 2’nin Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 32,
+		"version" : 1004,
+		"name_1" : "Giriş Kontak Tipi2",
+		"name_2" : "Input Contactor Type2",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 2’nin  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 33,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 34,
+		"version" : 1004,
+		"name_1" : "Giriş Fonksiyon3",
+		"name_2" : "Input Function3",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Seperatör Filtre",
+				"mask_2" : "Seperator Filter"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Basıncı",
+				"mask_2" : "Oil Pressure"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Faz Sırası",
+				"mask_2" : "Phase Sequence"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Motor Termik",
+				"mask_2" : "MotorThermic"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Uzak Çalıştırma",
+				"mask_2" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Başlat Butonu",
+				"mask_2" : "Start Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Durdur Butonu",
+				"mask_2" : "Stop Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzak Yük",
+				"mask_2" : "Remote Load"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Yedek-1",
+				"mask_2" : "Reserve-1"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Yedek-2",
+				"mask_2" : "Reserve-2"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Şebeke Sivici",
+				"mask_2" : "Şebeke Sivici"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Vida Sivici",
+				"mask_2" : "Vida Sivici"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete error"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Kapak Açıldı",
+				"mask_2" : "Cover opened"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Düşük Basınç",
+				"mask_2" : "Low pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 3’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 35,
+		"version" : 1004,
+		"name_1" : "Giriş Gecikme3",
+		"name_2" : "Input Delay3",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 210,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 3’ün Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 36,
+		"version" : 1004,
+		"name_1" : "Giriş Kontak Tipi3",
+		"name_2" : "Input Contactor Type3",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 3’ün  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 37,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 38,
+		"version" : 1004,
+		"name_1" : "Giriş Fonksiyon4",
+		"name_2" : "Input Function4",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Seperatör Filtre",
+				"mask_2" : "Seperator Filter"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Basıncı",
+				"mask_2" : "Oil Pressure"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Faz Sırası",
+				"mask_2" : "Phase Sequence"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Motor Termik",
+				"mask_2" : "MotorThermic"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Uzak Çalıştırma",
+				"mask_2" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Başlat Butonu",
+				"mask_2" : "Start Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Durdur Butonu",
+				"mask_2" : "Stop Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzak Yük",
+				"mask_2" : "Remote Load"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Yedek-1",
+				"mask_2" : "Reserve-1"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Yedek-2",
+				"mask_2" : "Reserve-2"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Şebeke Sivici",
+				"mask_2" : "Şebeke Sivici"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Vida Sivici",
+				"mask_2" : "Vida Sivici"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete error"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Kapak Açıldı",
+				"mask_2" : "Cover opened"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Düşük Basınç",
+				"mask_2" : "Low pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 4’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 39,
+		"version" : 1004,
+		"name_1" : "Giriş Gecikme4",
+		"name_2" : "Input Delay4",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 4’ün Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 40,
+		"version" : 1004,
+		"name_1" : "Giriş Kontak Tipi4",
+		"name_2" : "Input Contactor Type4",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 215,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 4’ün  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 41,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 216,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 42,
+		"version" : 1004,
+		"name_1" : "Giriş Fonksiyon5",
+		"name_2" : "Input Function5",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 217,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 11,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Seperatör Filtre",
+				"mask_2" : "Seperator Filter"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Basıncı",
+				"mask_2" : "Oil Pressure"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Faz Sırası",
+				"mask_2" : "Phase Sequence"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Motor Termik",
+				"mask_2" : "MotorThermic"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Uzak Çalıştırma",
+				"mask_2" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Başlat Butonu",
+				"mask_2" : "Start Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Durdur Butonu",
+				"mask_2" : "Stop Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzak Yük",
+				"mask_2" : "Remote Load"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Yedek-1",
+				"mask_2" : "Reserve-1"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Yedek-2",
+				"mask_2" : "Reserve-2"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Şebeke Sivici",
+				"mask_2" : "Şebeke Sivici"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Vida Sivici",
+				"mask_2" : "Vida Sivici"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete error"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Kapak Açıldı",
+				"mask_2" : "Cover opened"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Düşük Basınç",
+				"mask_2" : "Low pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 5’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 43,
+		"version" : 1004,
+		"name_1" : "Giriş Gecikme5",
+		"name_2" : "Input Delay5",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 218,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 5’in Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 44,
+		"version" : 1004,
+		"name_1" : "Giriş Kontak Tipi5",
+		"name_2" : "Input Contactor Type5",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 219,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş 5’in  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 45,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 220,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 46,
+		"version" : 1004,
+		"name_1" : "Çıkış Fonksiyon1",
+		"name_2" : "Output Function1",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 21,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ana Kontaktör",
+				"mask_2" : "Main contactor"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yıldız Kontaktör",
+				"mask_2" : "Star contactor"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Üçgen Kontaktör",
+				"mask_2" : "Triangle contactor"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yük Valfi",
+				"mask_2" : "Load Valf"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete Error"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uyarı",
+				"mask_2" : "Warning"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Hata + Uyarı",
+				"mask_2" : "Fault+Warning"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yükte",
+				"mask_2" : "Onload"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Yüksüz",
+				"mask_2" : "Unloaded"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Çalışıyor",
+				"mask_2" : "Working"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Kurutucu-Zamanlama",
+				"mask_2" : "Dryer-Timing"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Uzak Çalıştırma Aktif",
+				"mask_2" : "Remote Start Active"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Sıcaklık Düşük Hata",
+				"mask_2" : "Low Temperature Fault"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Sıcaklık Yüksek Hata",
+				"mask_2" : "High Temperature Fault"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Sıcaklık Düşük Uyarı",
+				"mask_2" : "Low Temperature Warning"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Sıcaklık Yüksek Uyarı",
+				"mask_2" : "High Temperature Warning"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Sıcaklık Sensör Hata",
+				"mask_2" : "Temperature Sensro Fault"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Vida Basınç Sensör Hata",
+				"mask_2" : "Screw pressure sensor fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 1’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 47,
+		"version" : 1004,
+		"name_1" : "Çıkış Gecikme1",
+		"name_2" : "Output Delay1",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 1’in Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 48,
+		"version" : 1004,
+		"name_1" : "Çıkış Kontak Tipi1",
+		"name_2" : "Output Contactor Type1",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 1’in  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 49,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 50,
+		"version" : 1004,
+		"name_1" : "Çıkış Fonksiyon2",
+		"name_2" : "Output Function2",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 21,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ana Kontaktör",
+				"mask_2" : "Main contactor"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yıldız Kontaktör",
+				"mask_2" : "Star contactor"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Üçgen Kontaktör",
+				"mask_2" : "Triangle contactor"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yük Valfi",
+				"mask_2" : "Load Valf"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete Error"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uyarı",
+				"mask_2" : "Warning"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Hata + Uyarı",
+				"mask_2" : "Fault+Warning"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yükte",
+				"mask_2" : "Onload"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Yüksüz",
+				"mask_2" : "Unloaded"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Çalışıyor",
+				"mask_2" : "Working"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Kurutucu-Zamanlama",
+				"mask_2" : "Dryer-Timing"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Uzak Çalıştırma Aktif",
+				"mask_2" : "Remote Start Active"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Sıcaklık Düşük Hata",
+				"mask_2" : "Low Temperature Fault"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Sıcaklık Yüksek Hata",
+				"mask_2" : "High Temperature Fault"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Sıcaklık Düşük Uyarı",
+				"mask_2" : "Low Temperature Warning"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Sıcaklık Yüksek Uyarı",
+				"mask_2" : "High Temperature Warning"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Sıcaklık Sensör Hata",
+				"mask_2" : "Temperature Sensro Fault"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Vida Basınç Sensör Hata",
+				"mask_2" : "Screw pressure sensor fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 2’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 51,
+		"version" : 1004,
+		"name_1" : "Çıkış Gecikme2",
+		"name_2" : "Output Delay2",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 306,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 2’nin Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 52,
+		"version" : 1004,
+		"name_1" : "Çıkış Kontak Tipi2",
+		"name_2" : "Output Contactor Type2",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 2’nin  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 53,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 54,
+		"version" : 1004,
+		"name_1" : "Çıkış Fonksiyon3",
+		"name_2" : "Output Function3",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 309,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 21,
+		"defaultValue" : 3,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ana Kontaktör",
+				"mask_2" : "Main contactor"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yıldız Kontaktör",
+				"mask_2" : "Star contactor"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Üçgen Kontaktör",
+				"mask_2" : "Triangle contactor"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yük Valfi",
+				"mask_2" : "Load Valf"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete Error"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uyarı",
+				"mask_2" : "Warning"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Hata + Uyarı",
+				"mask_2" : "Fault+Warning"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yükte",
+				"mask_2" : "Onload"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Yüksüz",
+				"mask_2" : "Unloaded"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Çalışıyor",
+				"mask_2" : "Working"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Kurutucu-Zamanlama",
+				"mask_2" : "Dryer-Timing"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Uzak Çalıştırma Aktif",
+				"mask_2" : "Remote Start Active"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Sıcaklık Düşük Hata",
+				"mask_2" : "Low Temperature Fault"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Sıcaklık Yüksek Hata",
+				"mask_2" : "High Temperature Fault"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Sıcaklık Düşük Uyarı",
+				"mask_2" : "Low Temperature Warning"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Sıcaklık Yüksek Uyarı",
+				"mask_2" : "High Temperature Warning"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Sıcaklık Sensör Hata",
+				"mask_2" : "Temperature Sensro Fault"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Vida Basınç Sensör Hata",
+				"mask_2" : "Screw pressure sensor fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 3’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 55,
+		"version" : 1004,
+		"name_1" : "Çıkış Gecikme3",
+		"name_2" : "Output Delay3",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 310,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 3’ün Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 56,
+		"version" : 1004,
+		"name_1" : "Çıkış Kontak Tipi3",
+		"name_2" : "Output Contactor Type3",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 3’ün  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 57,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 312,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 58,
+		"version" : 1004,
+		"name_1" : "Çıkış Fonksiyon4",
+		"name_2" : "Output Function4",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 313,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 21,
+		"defaultValue" : 8,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ana Kontaktör",
+				"mask_2" : "Main contactor"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yıldız Kontaktör",
+				"mask_2" : "Star contactor"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Üçgen Kontaktör",
+				"mask_2" : "Triangle contactor"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yük Valfi",
+				"mask_2" : "Load Valf"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete Error"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uyarı",
+				"mask_2" : "Warning"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Hata + Uyarı",
+				"mask_2" : "Fault+Warning"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yükte",
+				"mask_2" : "Onload"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Yüksüz",
+				"mask_2" : "Unloaded"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Çalışıyor",
+				"mask_2" : "Working"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Kurutucu-Zamanlama",
+				"mask_2" : "Dryer-Timing"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Uzak Çalıştırma Aktif",
+				"mask_2" : "Remote Start Active"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Sıcaklık Düşük Hata",
+				"mask_2" : "Low Temperature Fault"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Sıcaklık Yüksek Hata",
+				"mask_2" : "High Temperature Fault"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Sıcaklık Düşük Uyarı",
+				"mask_2" : "Low Temperature Warning"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Sıcaklık Yüksek Uyarı",
+				"mask_2" : "High Temperature Warning"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Sıcaklık Sensör Hata",
+				"mask_2" : "Temperature Sensro Fault"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Vida Basınç Sensör Hata",
+				"mask_2" : "Screw pressure sensor fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 4’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 59,
+		"version" : 1004,
+		"name_1" : "Çıkış Gecikme4",
+		"name_2" : "Output Delay4",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 314,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 4’ün Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 60,
+		"version" : 1004,
+		"name_1" : "Çıkış Kontak Tipi4",
+		"name_2" : "Output Contactor Type4",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 315,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 4’ün  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 61,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 316,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 62,
+		"version" : 1004,
+		"name_1" : "Çıkış Fonksiyon5",
+		"name_2" : "Output Function5",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 317,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 21,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Yok",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Ana Kontaktör",
+				"mask_2" : "Main contactor"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yıldız Kontaktör",
+				"mask_2" : "Star contactor"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Üçgen Kontaktör",
+				"mask_2" : "Triangle contactor"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yük Valfi",
+				"mask_2" : "Load Valf"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Hata Silme",
+				"mask_2" : "Delete Error"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uyarı",
+				"mask_2" : "Warning"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Hata + Uyarı",
+				"mask_2" : "Fault+Warning"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Fan Termik",
+				"mask_2" : "Fan Thermic"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yükte",
+				"mask_2" : "Onload"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Yüksüz",
+				"mask_2" : "Unloaded"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Çalışıyor",
+				"mask_2" : "Working"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Kurutucu-Zamanlama",
+				"mask_2" : "Dryer-Timing"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Uzak Çalıştırma Aktif",
+				"mask_2" : "Remote Start Active"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Sıcaklık Düşük Hata",
+				"mask_2" : "Low Temperature Fault"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Sıcaklık Yüksek Hata",
+				"mask_2" : "High Temperature Fault"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Sıcaklık Düşük Uyarı",
+				"mask_2" : "Low Temperature Warning"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Sıcaklık Yüksek Uyarı",
+				"mask_2" : "High Temperature Warning"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Sıcaklık Sensör Hata",
+				"mask_2" : "Temperature Sensro Fault"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Vida Basınç Sensör Hata",
+				"mask_2" : "Screw pressure sensor fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 5’e atanan fonksiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 63,
+		"version" : 1004,
+		"name_1" : "Çıkış Gecikme5",
+		"name_2" : "Output Delay5",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "saniye",
+		"unit_2" : "",
+		"modbusAddress" : 318,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 5’in Gecikmesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 64,
+		"version" : 1004,
+		"name_1" : "Çıkış Kontak Tipi5",
+		"name_2" : "Output Contactor Type5",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 319,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NO(Normalde Açık)",
+				"mask_2" : "NO(Normally Open)"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "NC(Normalde Kapalı)",
+				"mask_2" : "NC(Normally Closed)"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış 5’in  Kontak Tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 65,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 320,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 66,
+		"version" : 1004,
+		"name_1" : "Sıcaklık1 Yüksek Hata",
+		"name_2" : "Temperature High Alarm",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 401,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 3920,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek Sıcaklık Hatası",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 67,
+		"version" : 1004,
+		"name_1" : "Sıcaklık1 Yüksek Uyarı",
+		"name_2" : "Temperature High Warning",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 402,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 3920,
+		"defaultValue" : 900,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek Sıcaklık Uyarısı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 68,
+		"version" : 1004,
+		"name_1" : "Sıcaklık1 Düşük Hata",
+		"name_2" : "Temperature Low Alarm",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 403,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 3920,
+		"defaultValue" : -200,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Düşük Sıcaklık Hatası",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 69,
+		"version" : 1004,
+		"name_1" : "Sıcaklık1 Düşük Uyarı",
+		"name_2" : "Temperature Low Warning",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 404,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 3920,
+		"defaultValue" : -100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Düşük Sıcaklık Uyarısı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 70,
+		"version" : 1004,
+		"name_1" : "Sıcaklık Ön Isıtma",
+		"name_2" : "Preheat Limit",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 405,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 3920,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Ön ısıtma sıcaklığı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 71,
+		"version" : 1004,
+		"name_1" : "Sıcaklık1 Sensör Tipi",
+		"name_2" : "Temperature Sensor Type",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 406,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "NTC",
+				"mask_2" : "NTC"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "KTY81",
+				"mask_2" : "KTY81"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "KTY105",
+				"mask_2" : "KTY105"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Sıcaklık Sensörü tipi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 72,
+		"version" : 1004,
+		"name_1" : "Sıcaklık Birimi",
+		"name_2" : "Temperature Unit",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 407,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Celcius",
+				"mask_2" : "Celcius"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Fahrenheit",
+				"mask_2" : "Fahrenheit"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Sıcaklık Birimi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 73,
+		"version" : 1004,
+		"name_1" : "Fan Çalışma Sıcaklığı",
+		"name_2" : "Fan Start Temperature",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 408,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 2000,
+		"defaultValue" : 800,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Fan Çalışma Sıcaklığı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 74,
+		"version" : 1004,
+		"name_1" : "Fan Durma Sıcaklığı",
+		"name_2" : "Fan Stop Temperature",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 409,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 2000,
+		"defaultValue" : 600,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Fan Durma Sıcaklığı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 75,
+		"version" : 1004,
+		"name_1" : "Sıcaklık Kompanzasyon Değeri",
+		"name_2" : "Pressure Compensation Temperature",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 410,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 2000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Sıcaklık Kompanzasyon Değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 76,
+		"version" : 1004,
+		"name_1" : "Vida Yağı Donma Önleme",
+		"name_2" : "Oil Freeze Prevent",
+		"group_1" : "Sıcaklık",
+		"group_2" : "Temperature",
+		"unit_1" : "C",
+		"unit_2" : "",
+		"modbusAddress" : 411,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -3280,
+		"maxValue" : 100,
+		"defaultValue" : -999,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Vida Yağı Donma Önleme",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 77,
+		"version" : 1004,
+		"name_1" : "Servis Genel Süresi",
+		"name_2" : "General Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 501,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Genel Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 78,
+		"version" : 1004,
+		"name_1" : "Servis Rulman Süresi",
+		"name_2" : "Roller Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 502,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 30000,
+		"defaultValue" : 20000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Rulman Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 79,
+		"version" : 1004,
+		"name_1" : "Servis Yağ Değişim Süresi",
+		"name_2" : "Oil Change Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 503,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 30000,
+		"defaultValue" : 5000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Yağ Değişim Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 80,
+		"version" : 1004,
+		"name_1" : "Servis Hava Filtresi Süresi",
+		"name_2" : "Air Filter Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 504,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 30000,
+		"defaultValue" : 5000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Hava Filtresi Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 81,
+		"version" : 1004,
+		"name_1" : "Servis Yağ Filtresi Süresi",
+		"name_2" : "Oil Filter Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 505,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Yağ Filtresi Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 82,
+		"version" : 1004,
+		"name_1" : "Servis Seperatör Filtre Süresi",
+		"name_2" : "Seperator Filter Maintenance",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "saat",
+		"unit_2" : "",
+		"modbusAddress" : 506,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 200,
+		"maxValue" : 32000,
+		"defaultValue" : 5000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Seperatör Filtre Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 83,
+		"version" : 1004,
+		"name_1" : "Servis Hata Aktivasyon",
+		"name_2" : "Service Alarm Activation",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 507,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Pasif",
+				"mask_2" : "Pasive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Hata Aktivasyonu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 84,
+		"version" : 1004,
+		"name_1" : "Servis Zamanı Sıfırlama",
+		"name_2" : "Maintenance Reset",
+		"group_1" : "Servis",
+		"group_2" : "Service",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 508,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 6,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Genel Bakım Sıfırlama",
+				"mask_2" : "General Maintenance Reset"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Rulman Bakım Sıfırlama",
+				"mask_2" : "Rulman Bakım Sıfırlama"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Yağ Değişim Sıfırlama",
+				"mask_2" : "Oil change reset"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Hava Filtresi Sıfırlama",
+				"mask_2" : "Air Filter  Reset"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Yağ Filtresi Sıfırlama",
+				"mask_2" : "Oil Filter Reset"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Seperatör Filtresi Sıfırlama",
+				"mask_2" : "Seperator Filter Reset"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Servis Zamanı Sıfırlama",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 89,
+		"version" : 1004,
+		"name_1" : "Maksimum Saatte Kalkış Sayısı",
+		"name_2" : "Maximum Startup",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 605,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 2,
+		"maxValue" : 9999,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Maksimum Saatte Kalkış Sayısı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 90,
+		"version" : 1004,
+		"name_1" : "Kompresör Çalıştırma Kaynağı",
+		"name_2" : "Compressor Start Source",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 606,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Panel-Dijital Giriş-Modbus",
+				"mask_2" : "Panel-Digital IO-Modbus"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Panel",
+				"mask_2" : "Panel"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Digital Giriş",
+				"mask_2" : "Digital IO"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Modbus",
+				"mask_2" : "Modbus"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Dijital Giriş – Modbus",
+				"mask_2" : "Digital IO – Modbus"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör Çalıştırma Kaynağı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 91,
+		"version" : 1004,
+		"name_1" : "Kompresör Çalışma Modu",
+		"name_2" : "Working Mode",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 607,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Manuel",
+				"mask_2" : "Manual"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Otomatik",
+				"mask_2" : "Auotomatic"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör Çalışma Modu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 92,
+		"version" : 1004,
+		"name_1" : "Boşta Çalışma Süresi S/D",
+		"name_2" : "Idle Time S/D",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 608,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Pasif",
+				"mask_2" : "Pasive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Boşta Çalışma Süresi S/D",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 93,
+		"version" : 1004,
+		"name_1" : "Korna Modu",
+		"name_2" : "Horn Mode",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 609,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Sürekli",
+				"mask_2" : "Continues"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Darbeli",
+				"mask_2" : "Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Korna Modu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 94,
+		"version" : 1004,
+		"name_1" : "Basınç Kaybı Önleme",
+		"name_2" : "Pressure Loss Prevent",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 610,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Pasif",
+				"mask_2" : "Pasive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Adım",
+				"mask_2" : "Step"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Eğim",
+				"mask_2" : "Slope"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Basınç Kaybı Önleme Parametresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 95,
+		"version" : 1004,
+		"name_1" : "Parametre Kaydet/Kullan",
+		"name_2" : "Parameters Save",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 611,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Yedekle",
+				"mask_2" : "Back up"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kullan",
+				"mask_2" : "Use it"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Parametre Kaydet/Kullan",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 96,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Not Used",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 612,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 97,
+		"version" : 1004,
+		"name_1" : "Lisan Seçimi",
+		"name_2" : "Language Selection",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 613,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "İngilizce",
+				"mask_2" : "English"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User defined"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Lisan Seçimi Parametresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 98,
+		"version" : 1004,
+		"name_1" : "Fabrika Ayarlarına Dön",
+		"name_2" : "Reload Factory Value",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 614,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "ENKO",
+				"mask_2" : "ENKO"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Fabrika Ayarlarına Dön",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 99,
+		"version" : 1004,
+		"name_1" : "Arıza Kayıtlarını Temizle",
+		"name_2" : "Reset Alarm History",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 615,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Evet",
+				"mask_2" : "Yes"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Arıza Kayıtlarını Temizle",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 100,
+		"version" : 1004,
+		"name_1" : "Motor Çalışma Sürelerini Sıfırlama",
+		"name_2" : "Reset Motor Time",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Evet",
+				"mask_2" : "Yes"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Motor Çalışma Sürelerini Sıfırlama",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 101,
+		"version" : 1004,
+		"name_1" : "Menu Logout Süresi",
+		"name_2" : "Menu Logout Time",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "dakika",
+		"unit_2" : "",
+		"modbusAddress" : 617,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Menu Logout Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 102,
+		"version" : 1004,
+		"name_1" : "Menu Logout",
+		"name_2" : "Menu Logout",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 618,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Evet",
+				"mask_2" : "Yes"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Menu Logout",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 103,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 619,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 104,
+		"version" : 1004,
+		"name_1" : "Rezerve",
+		"name_2" : "Reserved",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 620,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 5,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Rezerve",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 105,
+		"version" : 1004,
+		"name_1" : "Kalibrasyon Şebeke Basınç Offset",
+		"name_2" : "Calibration Pressure Offset",
+		"group_1" : "Kalibrasyon",
+		"group_2" : "Calibration",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 701,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kalibrasyon Şebeke Basınç Offset Değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 106,
+		"version" : 1004,
+		"name_1" : "Kalibrasyon Şebeke Basınç Kazanç",
+		"name_2" : "Calibration Pressure Coefficient",
+		"group_1" : "Kalibrasyon",
+		"group_2" : "Calibration",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 702,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kalibrasyon Şebeke Basınç Kazanç Değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 107,
+		"version" : 1004,
+		"name_1" : "Kalibrasyon Sıcaklık Offset",
+		"name_2" : "Calibration Temperature Offset",
+		"group_1" : "Kalibrasyon",
+		"group_2" : "Calibration",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 703,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kalibrasyon Sıcaklık Offset Değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 108,
+		"version" : 1004,
+		"name_1" : "Kalibrasyon Sıcaklık Kazanç",
+		"name_2" : "Calibration Temperature Coefficient",
+		"group_1" : "Kalibrasyon",
+		"group_2" : "Calibration",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 704,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kalibrasyon Sıcaklık Kazanç Değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 109,
+		"version" : 1004,
+		"name_1" : "Müşteri numarası 5",
+		"name_2" : "Costumer Number 5",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9920,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri numarası 5",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 110,
+		"version" : 1004,
+		"name_1" : "Müşteri numarası 4",
+		"name_2" : "Costumer Number 4",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9921,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri numarası 4",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 111,
+		"version" : 1004,
+		"name_1" : "Müşteri numarası 3",
+		"name_2" : "Costumer Number 3",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9922,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri numarası 3",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 112,
+		"version" : 1004,
+		"name_1" : "Müşteri numarası 2",
+		"name_2" : "Costumer Number 2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9923,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri numarası 2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 113,
+		"version" : 1004,
+		"name_1" : "Müşteri numarası 1",
+		"name_2" : "Costumer Number 1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9924,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri numarası 1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 114,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 10",
+		"name_2" : "CostumerText 10",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9925,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 10",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 115,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 9",
+		"name_2" : "CostumerText 9",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9926,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 9",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 116,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 8",
+		"name_2" : "CostumerText 8",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9927,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 8",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 117,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 7",
+		"name_2" : "CostumerText 7",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9928,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 7",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 118,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 6",
+		"name_2" : "CostumerText 6",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9929,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 6",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 119,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 5",
+		"name_2" : "CostumerText 5",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9930,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 5",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 120,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 4",
+		"name_2" : "CostumerText 4",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9931,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 4",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 121,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 3",
+		"name_2" : "CostumerText 3",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9932,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 3",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 122,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 2",
+		"name_2" : "CostumerText 2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9933,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 123,
+		"version" : 1004,
+		"name_1" : "Müşteri mesaj 1",
+		"name_2" : "CostumerText 1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9934,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri metni 1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 124,
+		"version" : 1004,
+		"name_1" : "Toplam Parametre Sayısı",
+		"name_2" : "Total Parameter Count",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9935,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 108,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Total Parametre Sayısı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 125,
+		"version" : 1004,
+		"name_1" : "Default Vals başlangıç adresi",
+		"name_2" : "Default Vals Start Adress",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9936,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Default Vals başlangıç adresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 126,
+		"version" : 1004,
+		"name_1" : "Maks Vals başlangıç adresi",
+		"name_2" : "Max Vals Start Adress",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9937,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 13000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Maks Vals başlangıç adresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 127,
+		"version" : 1004,
+		"name_1" : "Min Vals başlangıç adresi",
+		"name_2" : "Min Vals Start Adress",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9938,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 16000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Min Vals başlangıç adresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 128,
+		"version" : 1004,
+		"name_1" : "COEF Vals başlangıç adresi",
+		"name_2" : "COEF Vals Start Adress",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9939,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 19000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "COEF Vals başlangıç adresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 129,
+		"version" : 1004,
+		"name_1" : "DYNPASS Kullanıcı kodu",
+		"name_2" : "DYNPASS User Code",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9951,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Kullanıcı kodu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 130,
+		"version" : 1004,
+		"name_1" : "DYNPASS Servis Kodu",
+		"name_2" : "DYNPASS Service Code",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9952,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Servis Kodu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 131,
+		"version" : 1004,
+		"name_1" : "DYNPASS Fabrika Kodu",
+		"name_2" : "DYNPASS Factory Code",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9953,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Fabrika Kodu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 132,
+		"version" : 1004,
+		"name_1" : "DYNPASS Enko kodu",
+		"name_2" : "DYNPASS Enko Code",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9954,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Enko kodu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 133,
+		"version" : 1004,
+		"name_1" : "DYNPASS Kullanıcı geçişi",
+		"name_2" : "DYNPASS UserPass",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9955,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Kullanıcı geçişi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 134,
+		"version" : 1004,
+		"name_1" : "DYNPASS Servis Geçişi",
+		"name_2" : "DYNPASS ServicePass",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9956,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Servis Geçişi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 135,
+		"version" : 1004,
+		"name_1" : "DYNPASS Fabrika geçişi",
+		"name_2" : "DYNPASS FactoryPass",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9957,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Fabrika geçişi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 136,
+		"version" : 1004,
+		"name_1" : "DYNPASS Enko Geçişi",
+		"name_2" : "DYNPASS EnkoPass",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9958,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "DYNPASS Enko Geçişi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 141,
+		"version" : 1004,
+		"name_1" : "Giriş Yapan Müşteri Şifresi Reg1",
+		"name_2" : "Login password entry costumer REG1",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9963,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş Yapan Müşteri Şifresi Reg1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 142,
+		"version" : 1004,
+		"name_1" : "Giriş Yapan Müşteri Şifresi Reg2",
+		"name_2" : "Login password entry costumer REG2",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9964,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş Yapan Müşteri Şifresi Reg2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 143,
+		"version" : 1004,
+		"name_1" : "Müşteri Güvenliği REG1",
+		"name_2" : "Login Security Costumer REG1",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9965,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 21930,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri Güvenliği REG1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 144,
+		"version" : 1004,
+		"name_1" : "Müşteri Güvenliği REG2",
+		"name_2" : "Login Security Costumer REG2",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9966,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 43605,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Müşteri Güvenliği REG2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 145,
+		"version" : 1004,
+		"name_1" : "Giriş Yapan Enko Şifresi Reg1",
+		"name_2" : "Login password entry Enko REG1",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9967,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş Yapan Enko Şifresi Reg1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 146,
+		"version" : 1004,
+		"name_1" : "Giriş Yapan Enko Şifresi Reg2",
+		"name_2" : "Login password entry Enko REG2",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9968,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş Yapan Enko Şifresi Reg2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 147,
+		"version" : 1004,
+		"name_1" : "Enko Güvenliği REG1",
+		"name_2" : "Login Security Enko REG1",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9969,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 26299,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Enko Güvenliği REG1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 148,
+		"version" : 1004,
+		"name_1" : "Enko Güvenliği REG2",
+		"name_2" : "Login Security Enko REG2",
+		"group_1" : "Giriş",
+		"group_2" : "Login",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9970,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 47974,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Enko Güvenliği REG2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 149,
+		"version" : 1004,
+		"name_1" : "Opsionel modül",
+		"name_2" : "Optinal module",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9971,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Opsionel modül",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 150,
+		"version" : 1004,
+		"name_1" : "Hardware versiyon reg1",
+		"name_2" : "Hardware version Reg1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9972,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 31,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Hardware versiyon reg1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 151,
+		"version" : 1004,
+		"name_1" : "Hardware versiyon reg2",
+		"name_2" : "Hardware version Reg2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9973,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Hardware versiyon reg2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 152,
+		"version" : 1004,
+		"name_1" : "Bootlader versiyon",
+		"name_2" : "Bootlader version",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9974,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Bootlader versiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 153,
+		"version" : 1004,
+		"name_1" : "Software versiyon",
+		"name_2" : "Software version",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9975,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Software versiyon",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 154,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG1",
+		"name_2" : "IDCPU version REG1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9976,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 155,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG2",
+		"name_2" : "IDCPU version REG2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9977,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 156,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG3",
+		"name_2" : "IDCPU version REG3",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9978,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG3",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 157,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG4",
+		"name_2" : "IDCPU version REG4",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9979,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG4",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 158,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG5",
+		"name_2" : "IDCPU version REG5",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9980,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG5",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 159,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG6",
+		"name_2" : "IDCPU version REG6",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9981,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG6",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 160,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG7",
+		"name_2" : "IDCPU version REG7",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9982,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG7",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 161,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG8",
+		"name_2" : "IDCPU version REG8",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9983,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG8",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 162,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG9",
+		"name_2" : "IDCPU version REG9",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9984,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG9",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 163,
+		"version" : 1004,
+		"name_1" : "IDCPU versiyon REG10",
+		"name_2" : "IDCPU version REG10",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9985,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDCPU versiyon REG10",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 164,
+		"version" : 1004,
+		"name_1" : "IDENKO Reg1",
+		"name_2" : "IDENKO Reg1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9986,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 2020,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDENKO Reg1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 165,
+		"version" : 1004,
+		"name_1" : "IDENKO Reg2",
+		"name_2" : "IDENKO Reg2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9987,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 12,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDENKO Reg2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 166,
+		"version" : 1004,
+		"name_1" : "IDENKO Reg3",
+		"name_2" : "IDENKO Reg3",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9988,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "IDENKO Reg3",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 167,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg1",
+		"name_2" : "Model name Reg1",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9989,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 17219,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg1",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 168,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg2",
+		"name_2" : "Model name Reg2",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9990,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 11603,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg2",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 169,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg3",
+		"name_2" : "Model name Reg3",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9991,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 83,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg3",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 170,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg4",
+		"name_2" : "Model name Reg4",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9992,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg4",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 171,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg5",
+		"name_2" : "Model name Reg5",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9993,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg5",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 172,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg6",
+		"name_2" : "Model name Reg6",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9994,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg6",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 173,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg7",
+		"name_2" : "Model name Reg7",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9995,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg7",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 174,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg8",
+		"name_2" : "Model name Reg8",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9996,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg8",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 175,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg9",
+		"name_2" : "Model name Reg9",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9997,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg9",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 176,
+		"version" : 1004,
+		"name_1" : "Model Adı Reg10",
+		"name_2" : "Model name Reg10",
+		"group_1" : "Cihaz",
+		"group_2" : "Device",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9998,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Model Adı Reg10",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 177,
+		"version" : 1004,
+		"name_1" : "Kompresör start stop",
+		"name_2" : "Compressor start stop",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Hayır",
+				"mask_2" : "No"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Start Normal",
+				"mask_2" : "Start Normal"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Stop Normal",
+				"mask_2" : "Stop Normal"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Stop Hard",
+				"mask_2" : "Stop Hard"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Clear Error",
+				"mask_2" : "Clear Error"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör start stop",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 178,
+		"version" : 1004,
+		"name_1" : "Kompresör yük değeri",
+		"name_2" : "Compressor Load Value",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör yük değeri",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 179,
+		"version" : 1004,
+		"name_1" : "Kompresör durumu",
+		"name_2" : "Compressor status",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 6,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Duruyor",
+				"mask_2" : "Stopping"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Otomatik Bekleme",
+				"mask_2" : "Auto Waiting"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Boşta Çalışıyor",
+				"mask_2" : "Idle running"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Boşta Ön ısıtma Yapıyor",
+				"mask_2" : "Idle preheating"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Yükte Çalışıyor",
+				"mask_2" : "Running on load"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Duracak",
+				"mask_2" : "İt will stop"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Vida Basıncı Kontrol Ediliyor",
+				"mask_2" : "Checking screw pressure"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör durumu",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 180,
+		"version" : 1004,
+		"name_1" : "Kompresör durum ledi",
+		"name_2" : "Compressor status led",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Arıza Ledi ve Durum Ledi Yanmıyor",
+				"mask_2" : "Fault led and status led are not on"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Durum Ledi Yanıyor,Arıza Ledi Yanmıyor",
+				"mask_2" : "Fault led is not on and status led is on"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Şu an böyle bir durum yok",
+				"mask_2" : "There is no such situation now"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şu an böyle bir durum yok",
+				"mask_2" : "There is no such situation now"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Arıza Ledi Yanıyor,Durum Ledi Yanmıyor",
+				"mask_2" : "Fault led is on,status led is not on"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Arıza Ledi ve Durum Ledi Yanıyor",
+				"mask_2" : "Fault led and statusled is on"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör durum ledi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 181,
+		"version" : 1004,
+		"name_1" : "Kompresör durum biti",
+		"name_2" : "Compressor status bit",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör durum biti",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 182,
+		"version" : 1004,
+		"name_1" : "Kompresör cpca_coll_ındex",
+		"name_2" : "Compressor CPCA_COLL_INDEX",
+		"group_1" : "Kompresör",
+		"group_2" : "Compressor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3306,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 0,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Kompresör cpca_coll_ındex",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 183,
+		"version" : 1004,
+		"name_1" : "FaultMB_LOGINDEX",
+		"name_2" : "FaultMB_LOGINDEX",
+		"group_1" : "Hata",
+		"group_2" : "Fault",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 15,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "FaultMB_LOGINDEX",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 184,
+		"version" : 1004,
+		"name_1" : "FaultMB_ACTIVES",
+		"name_2" : "FaultMB_ACTIVES",
+		"group_1" : "Hata",
+		"group_2" : "Fault",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 999,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "FaultMB_ACTIVES",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 185,
+		"version" : 1004,
+		"name_1" : "FaultMB_CODE",
+		"name_2" : "FaultMB_CODE",
+		"group_1" : "Hata",
+		"group_2" : "Fault",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3309,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 999,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "FaultMB_CODE",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 186,
+		"version" : 1004,
+		"name_1" : "FaultMB_TIME_MSB",
+		"name_2" : "FaultMB_TIME_MSB",
+		"group_1" : "Hata",
+		"group_2" : "Fault",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3310,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "FaultMB_TIME_MSB",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 187,
+		"version" : 1004,
+		"name_1" : "FaultMB_TIME_LSB",
+		"name_2" : "FaultMB_TIME_LSB",
+		"group_1" : "Hata",
+		"group_2" : "Fault",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "FaultMB_TIME_LSB",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 188,
+		"version" : 1004,
+		"name_1" : "Test_mode",
+		"name_2" : "Test_mode",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3312,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_mode",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 189,
+		"version" : 1004,
+		"name_1" : "Test_name",
+		"name_2" : "Test_name",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3313,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_name",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 190,
+		"version" : 1004,
+		"name_1" : "Test_stage",
+		"name_2" : "Test_stage",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3314,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_stage",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 191,
+		"version" : 1004,
+		"name_1" : "Test_ınput",
+		"name_2" : "Test_ınput",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3315,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_ınput",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 192,
+		"version" : 1004,
+		"name_1" : "Test_result",
+		"name_2" : "Test_result",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3316,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_result",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 193,
+		"version" : 1004,
+		"name_1" : "Test_tft",
+		"name_2" : "Test_tft",
+		"group_1" : "Test",
+		"group_2" : "Test",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3317,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 2,
+		"maxValue" : 2,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Test_tft",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 195,
+		"version" : 1004,
+		"name_1" : "Basınç",
+		"name_2" : "Line Pressure",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3001,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -1,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Hat basıncı göstergesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 196,
+		"version" : 1004,
+		"name_1" : "Sensör Besleme Gerilimi",
+		"name_2" : "Supply Sensor",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3002,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Basınç sensörü besleme gerilimi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 197,
+		"version" : 1004,
+		"name_1" : "Supply Voltage",
+		"name_2" : "Supply Voltage",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3003,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Besleme gerilimi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 198,
+		"version" : 1004,
+		"name_1" : "Input",
+		"name_2" : "Input",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3004,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "İnput göstergesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 199,
+		"version" : 1004,
+		"name_1" : "Output",
+		"name_2" : "Output",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3005,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Output göstergesi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 200,
+		"version" : 1004,
+		"name_1" : "Sıcaklık",
+		"name_2" : "Temperature",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3006,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 3333,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Vida Sıcaklığı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 201,
+		"version" : 1004,
+		"name_1" : "Totalwork_MSB",
+		"name_2" : "Totalwork_MSB",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3007,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Toplam çalışma MSB biti",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 202,
+		"version" : 1004,
+		"name_1" : "Totalwork_LSB",
+		"name_2" : "Totalwork_LSB",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3008,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Toplam çalışma LSB biti",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 203,
+		"version" : 1004,
+		"name_1" : "Onloadwork_MSB",
+		"name_2" : "Onloadwork_MSB",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3009,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Yükte çalışma MSB biti",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 204,
+		"version" : 1004,
+		"name_1" : "Onloadwork_LSB",
+		"name_2" : "Onloadwork_LSB",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3010,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Yükte çalışma LSB biti",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 205,
+		"version" : 1004,
+		"name_1" : "Compansation_Slope",
+		"name_2" : "Compansation_Slope",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3011,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon eğimi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 206,
+		"version" : 1004,
+		"name_1" : "Compansation_Time",
+		"name_2" : "Compansation_Time",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3012,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon zamanı",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 207,
+		"version" : 1004,
+		"name_1" : "Compansation_PressT0",
+		"name_2" : "Compansation_PressT0",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3013,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon basınç T0",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 208,
+		"version" : 1004,
+		"name_1" : "Compansation_PressT8",
+		"name_2" : "Compansation_PressT8",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3014,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon basınç T8",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 209,
+		"version" : 1004,
+		"name_1" : "Compansation_Pestimated",
+		"name_2" : "Compansation_Pestimated",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3015,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon olasılık hesaplama",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 210,
+		"version" : 1004,
+		"name_1" : "Compansation_DeltaB",
+		"name_2" : "Compansation_DeltaB",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3016,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Kompanzasyon DELTAP",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 211,
+		"version" : 1004,
+		"name_1" : "Genel Bakım",
+		"name_2" : "Service General",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3017,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Genel Servis Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 212,
+		"version" : 1004,
+		"name_1" : "Rulman Bakımı",
+		"name_2" : "Service Roller",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3018,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Rulman Servis Süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 213,
+		"version" : 1004,
+		"name_1" : "Yağ Değişimi",
+		"name_2" : "Service OilChange",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3019,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Yağ değişim süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 214,
+		"version" : 1004,
+		"name_1" : "Hava Filtresi Bakımı",
+		"name_2" : "Service AirFilter",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3020,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Hava filtresi bakım süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 215,
+		"version" : 1004,
+		"name_1" : "Yağ Filtresi Bakımı",
+		"name_2" : "Service OilFilter",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3021,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Yağ filtresi bakım süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 216,
+		"version" : 1004,
+		"name_1" : "Seperator Bakımı",
+		"name_2" : "Service Seperator",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3022,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32760,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "Seperatör süresi",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3201,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3202,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3203,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3204,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3205,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3206,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3207,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3207,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3208,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3209,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3210,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3210,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3211,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3212,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	}
+	,
+	{
+		"id" : 3213,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	}
+	,
+	{
+		"id" : 3214,
+		"version" : 1005,
+		"name_1" : "Alarm-1",
+		"name_2" : "Alarm-1",
+		"group_1" : "Generator Monitor",
+		"group_2" : "Generator Monitor",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	}
+]

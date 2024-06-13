@@ -1,0 +1,842 @@
+[
+  {
+    "object" : "config",
+    "pageCount" : 4,
+    "pageTitle_1" : ["İzleme","Sık Kullanılanlar","Parametreler","Grafik"],
+    "pageTitle_2" : ["Monitor","Favorites","Parameters","Graph"],
+    "bootModeAddress" : 19,
+    "encryptModbus" : true
+},
+{
+  "object" : "statuscard",
+  "page" : 1,
+  "row" : 3,
+  "side" : "center",
+  "width" : 0,
+  "staticText_1" : "Kompresör Durum >> ",
+  "staticText_2" : "Compressor Status >> ",
+  "paramId" : [179],
+  "menu" : [
+    {
+      "message_1" : "Duruyor",
+      "message_2" : "Stopping",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 0,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Otomatik Bekleme",
+      "message_2" : "Auto Waiting",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 1,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Boşta Çalışıyor",
+      "message_2" : "Idle running",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 2,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Boşta Ön ısıtma Yapıyor",
+      "message_2" : "Idle preheating",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 3,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Yükte Çalışıyor",
+      "message_2" : "Running on load",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 4,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Duracak",
+      "message_2" : "It will stop",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 5,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    },
+    {
+      "message_1" : "Vida Basıncı Kontrol Ediliyor",
+      "message_2" : "Checking screw pressure",
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 6,
+      "bit" : 1,
+      "bitValue" : 1,
+      "blink" : false
+    }
+    
+  
+
+  ]
+},
+
+
+{
+  "object" : "mimic",
+  "mimicId" : 5,
+  "page" : 1,
+  "row" :2,  
+  "side" : "center",      
+  "paramId" : [179],
+  "topLeftParamId" : [],
+  "topRightParamId" : [],
+  "bottomLeftParamId" : [],
+  "bottomRightParamId" : [],
+  "menu" : [
+    {
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 0,
+      "bit" : 0,
+      "bitValue" : 1,
+      "blink" : false,
+      "efect" : "rotate"
+    },
+    {
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 0,
+      "bit" : 2,
+      "bitValue" : 1,
+      "blink" : false,
+      "efect" : "fadee-ffect"
+    },
+    {
+        "paramId" : 179,
+        "dataType" : "value",
+        "value" : 0,
+        "bit" : 2,
+        "bitValue" : 1,
+        "blink" : false,
+        "efect" : "fadee-ffect"
+    },
+    {
+        "paramId" : 179,
+        "dataType" : "value",
+        "value" : 0,
+        "bit" : 2,
+        "bitValue" : 1,
+        "blink" : false
+    },
+    {
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 0,
+      "bit" : 2,
+      "bitValue" : 1,
+      "blink" : false
+  },
+  {
+      "paramId" : 179,
+      "dataType" : "value",
+      "value" : 0,
+      "bit" : 2,
+      "bitValue" : 1,
+      "blink" : false,
+      "efect" : "rotate"
+  }
+  ]
+},
+{
+  "object" : "datalogic",
+  "page" : 1,
+  "row" : 7,
+  "side" : "center",
+  "paramId" : [195],
+  "logicalOperation" : "or",
+  "dataOperation" : [
+    {
+      "paramId" : 195,
+      "operation" : "<",
+      "operationBit" : 0,
+      "operationValue" : -1,
+      "passive" : true,
+      "color" : "red",
+      "value" : "Baglantı yok",
+      "valueParamId" : 0
+    }
+  ]
+},
+{
+  "object" : "datalogic",
+  "page" : 1,
+  "row" : 7,
+  "side" : "center",
+  "paramId" : [200],
+  "logicalOperation" : "or",
+  "dataOperation" : [
+    {
+      "paramId" : 200,
+      "operation" : ">",
+      "operationBit" : 0,
+      "operationValue" : 330,
+      "passive" : true,
+      "color" : "red",
+      "value" : "Baglantı yok",
+      "valueParamId" : 0
+    }
+  ]
+},
+
+
+{
+  "object" : "statictext",
+  "page" : 1,
+  "row" : 7,
+  "side" : "right",
+  "width" : 330,
+  "text_1" : "Servis Parametreleri",
+  "text_2" : "Service"
+},
+{
+  "object" : "datacard",
+  "page" : 1,
+  "row" : 8,
+  "side" : "right",
+  "paramId" : [211,212]
+},
+{
+  "object" : "datacard",
+  "page" : 1,
+  "row" : 9,
+  "side" : "right",
+  "paramId" : [213,214]
+},
+{
+  "object" : "datacard",
+  "page" : 1,
+  "row" : 10,
+  "side" : "right",
+  "paramId" : [215,216]
+},
+
+{
+  "object" : "indicator",
+  "page" : 1,
+  "row" : 1,
+  "side" : "right",
+  "title_1" : "Girişler",
+  "title_2" : "Inputs",
+  "paramId" : [198],
+  "menu" : [
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 26,
+      "paramId" : 198,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 30,
+      "paramId" : 198,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 34,
+      "paramId" : 198,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+  
+
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 38,
+      "paramId" : 198,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 42,
+      "paramId" : 198,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    }
+
+
+  ]
+},
+
+
+{
+  "object" : "indicator",
+  "page" : 1,
+  "row" : 1,
+  "side" : "right",
+  "width":200,
+  "title_1" : "Çıkışlar",
+  "title_2" : "Outputs",
+  "paramId" : [199],
+  "menu" : [
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 46,
+      "paramId" : 199,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 50,
+      "paramId" : 199,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 54,
+      "paramId" : 199,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 58,
+      "paramId" : 199,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    },
+    {
+      "name_1" : "",
+      "name_2" : "",
+      "nameParamId" : 62,
+      "paramId" : 199,
+      "bit" : 1,
+      "bitValue" : 1,
+      "color" : "red",
+      "blink" : false
+    }
+  ]
+},
+
+
+
+{
+  "object" : "statictext",
+  "page" : 1,
+  "row" : 5,
+  "side" : "left",
+  "width" : 330,
+  "text_1" : "Alarm Göstergeleri",
+  "text_2" : "Alarm Indicator"
+},
+{
+  "object" : "statictext",
+  "page" : 1,
+  "row" : 8,
+  "side" : "center",
+  "width" : 240,
+  "text_1" : "Durum Butonları",
+  "text_2" : "Status Buttons"
+},
+{
+  "object" : "indicator",
+  "page" : 1,
+  "row" : 6,
+  "side" : "left",
+  "width" : 320,
+  "height" : 600,
+  "inactiveHide" : true,
+  "title_1" : "",
+  "title_2" : "",
+  "paramId" : [3201,3202,3203,3204,3205,3206,3207,3208,3209,3210,3211,3212,3213,3214],
+  "menu" : [
+    {
+	    "name_1" : "Yüksek Sıcaklık Uyarısı",
+      "name_2" : "High Temperature",
+      "paramId" : 3201,
+      "bit" : 8,
+      "bitValue" : 1,
+      "color" : "green",
+      "blink" : false
+    },
+    {
+      "name_1" : "Düşük Sıcaklık Uyarısı",
+      "name_2" : "Low Temperature",
+      "paramId" : 3202,
+      "bit" : 0,
+      "bitValue" : 1,
+      "color" : "green",
+      "blink" : false
+    },
+    {
+      "name_1" : "Güç Kesintisi",
+      "name_2" : "Power Cut",
+      "paramId" : 3202,
+      "bit" : 8,
+      "bitValue" : 1,
+      "color" : "green",
+      "blink" : false
+     },
+     {
+       "name_1" : "Servis Hatası Level 1",
+       "name_2" : "Service Fault Level 1",
+       "paramId" : 3203,
+       "bit" : 0,
+       "bitValue" : 1,
+       "color" : "green",
+       "blink" : false
+      },
+      {
+       "name_1" : "Motor Termik",
+       "name_2" : "Motor Thermic",
+       "paramId" : 3203,
+       "bit" : 8,
+       "bitValue" : 1,
+       "color" : "green",
+       "blink" : false
+      },
+      {
+        "name_1" : "Seperator",
+        "name_2" : "Seperator",
+        "paramId" : 3204,
+        "bit" : 0,
+        "bitValue" : 1,
+        "color" : "green",
+        "blink" : false
+       },
+       {
+        "name_1" : "Fan Termik",
+        "name_2" : "Fan Thermic",
+        "paramId" : 3204,
+        "bit" : 8,
+        "bitValue" : 1,
+        "color" : "green",
+        "blink" : false
+       },
+       {
+         "name_1" : "Faz",
+         "name_2" : "Phase",
+         "paramId" : 3205,
+         "bit" : 0,
+         "bitValue" : 1,
+         "color" : "green",
+         "blink" : false
+        },
+        {
+         "name_1" : "Rezerve",
+         "name_2" : "Reserved",
+         "paramId" : 3205,
+         "bit" : 8,
+         "bitValue" : 1,
+         "color" : "green",
+         "blink" : false
+        },
+        {
+          "name_1" : "Hat Alarmı",
+          "name_2" : "Line Alarm",
+          "paramId" : 3206,
+          "bit" : 0,
+          "bitValue" : 1,
+          "color" : "green",
+          "blink" : false
+         },
+         {
+          "name_1" : "Yüksek Sıcaklık Alarmı",
+          "name_2" : "High Temperature Alarm",
+          "paramId" : 3206,
+          "bit" : 8,
+          "bitValue" : 1,
+          "color" : "green",
+          "blink" : false
+         },
+         {
+          "name_1" : "Düşük Sıcaklık Alarmı",
+          "name_2" : "Low Temperature",
+          "paramId" : 3207,
+          "bit" : 0,
+          "bitValue" : 1,
+          "color" : "green",
+          "blink" : false
+         },
+         {
+          "name_1" : "Hata Müşteri 1",
+          "name_2" : "Custom 1",
+          "paramId" : 3207,
+          "bit" : 8,
+          "bitValue" : 1,
+          "color" : "green",
+          "blink" : false
+         },
+         {
+           "name_1" : "Hata Müşteri 2",
+           "name_2" : "Custom 2",
+           "paramId" : 3208,
+           "bit" : 0,
+           "bitValue" : 1,
+           "color" : "green",
+           "blink" : false
+          },
+          {
+           "name_1" : "1 saatteki Start Sayısı Aşım Arızası",
+           "name_2" : "SS PER HOUR",
+           "paramId" : 3208,
+           "bit" : 8,
+           "bitValue" : 1,
+           "color" : "green",
+           "blink" : false
+          },
+          {
+            "name_1" : "Başınç Hattı Yok",
+            "name_2" : "Press Line Broke",
+            "paramId" : 3209,
+            "bit" : 0,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+           },
+           {
+            "name_1" : "Düşük Basınç Alarmı",
+            "name_2" : "Low pressure",
+            "paramId" : 3209,
+            "bit" : 8,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+           },
+           {
+            "name_1" : "Servis Hatası Level 2",
+            "name_2" : "Service Fault Level 2",
+            "paramId" : 3210,
+            "bit" : 0,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+           },
+           {
+             "name_1" : "Servis Hatası Level 3",
+             "name_2" : "Service Fault Level 3",
+             "paramId" : 3210,
+             "bit" : 8,
+             "bitValue" : 1,
+             "color" : "green",
+             "blink" : false
+            },
+            {
+             "name_1" : "Servis Hatası Level 4",
+             "name_2" : "Service Fault Level 4",
+             "paramId" : 3211,
+             "bit" : 0,
+             "bitValue" : 1,
+             "color" : "green",
+             "blink" : false
+            },
+            {
+              "name_1" : "Servis Hatası Level 5",
+              "name_2" : "Service Fault Level 5",
+              "paramId" : 3211,
+              "bit" : 8,
+              "bitValue" : 1,
+              "color" : "green",
+              "blink" : false
+             },
+             {
+               "name_1" : "Acil Durdurma ",
+               "name_2" : "Emergency Stop",
+               "paramId" : 3212,
+               "bit" : 0,
+               "bitValue" : 1,
+               "color" : "green",
+               "blink" : false
+              },
+              {
+               "name_1" : "Sıcaklık Sensörü koptu",
+               "name_2" : "Temperature Sensor broke",
+               "paramId" : 3212,
+               "bit" : 8,
+               "bitValue" : 1,
+               "color" : "green",
+               "blink" : false
+              },
+              {
+                "name_1" : "Yağ Basıncı ",
+                "name_2" : "Oil Pressure",
+                "paramId" : 3213,
+                "bit" : 0,
+                "bitValue" : 1,
+                "color" : "green",
+                "blink" : false
+               },
+               {
+                "name_1" : "Kapı Açık",
+                "name_2" : "Door Open",
+                "paramId" : 3213,
+                "bit" : 8,
+                "bitValue" : 1,
+                "color" : "green",
+                "blink" : false
+               },
+               {
+                "name_1" : "İçerdeki Düşük Basınç",
+                "name_2" : "FAULT Press In",
+                "paramId" : 3214,
+                "bit" : 0,
+                "bitValue" : 1,
+                "color" : "green",
+                "blink" : false
+               }    
+
+  ]
+},
+{
+  "object" : "space",
+  "page" : 1,
+  "row" : 4,
+  "width" : 100,
+  "height" : 20,
+  "side" : "right"
+},
+{
+  "object" : "space",
+  "page" : 1,
+  "row" : 6,
+  "width" : 100,
+  "height" : 20,
+  "side" : "right"
+},
+
+{
+  "object" : "buttonbar",
+  "page" : 1,
+  "row" : 9,
+  "side" : "center",
+  "paramId" : [177],
+  "menu" : [
+    {
+      "message_1" : "Başla",
+      "message_2" : "Start",
+      "paramId" : 177,
+      "dataType" : "value",
+      "value" : 1,
+      "bit" : 1,
+      "bitValue" : 1,
+      "puls" : false,
+      "image" : "start"
+    },
+    {
+      "message_1" : "Dur",
+      "message_2" : "Stop",
+      "paramId" : 177,
+      "dataType" : "value",
+      "value" : 2,
+      "bit" : 0,
+      "bitValue" : 1,
+      "puls" : false,
+      "image" : "stop"
+    },
+    {
+      "message_1" : "Hemen Dur",
+      "message_2" : "Emergency Stop",
+      "paramId" : 177,
+      "dataType" : "value",
+      "value" : 3,
+      "bit" : 2,
+      "bitValue" : 1,
+      "puls" : false,
+      "image" : "hardstop"
+    },
+    {
+      "message_1" : "Alarm Sil",
+      "message_2" : "Delete Alarm",
+      "paramId" : 177,
+      "dataType" : "value",
+      "value" : 4,
+      "bit" : 2,
+      "bitValue" : 1,
+      "puls" : false,
+      "image" : "horn"
+    }
+  ]
+},
+
+{
+  "object" : "statictext",
+  "page" : 2,
+  "row" : 1,
+  "side" : "left",
+  "width" : 330,
+  "text_1" : "Gecikme Parametreleri",
+  "text_2" : "Delay Parameters"
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 2,
+  "side" : "left",
+  "paramId" : [9,10]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 3,
+  "side" : "left",
+  "paramId" : [11,12]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 4,
+  "side" : "left",
+  "paramId" : [13,14]
+},
+
+{
+  "object" : "statictext",
+  "page" : 2,
+  "row" : 1,
+  "side" : "center",
+  "width" : 330,
+  "text_1" : "Genel Parametreler",
+  "text_2" : "General Parameters"
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 2,
+  "side" : "center",
+  "paramId" : [97,99]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 3,
+  "side" : "center",
+  "paramId" : [100,101]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 4,
+  "side" : "center",
+  "paramId" : [66,67]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 5,
+  "side" : "center",
+  "paramId" : [68,69]
+},
+
+
+
+{
+  "object" : "statictext",
+  "page" : 2,
+  "row" : 1,
+  "side" : "right",
+  "width" : 330,
+  "text_1" : "Kalibrasyon",
+  "text_2" : "Calibration"
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 2,
+  "side" : "right",
+  "paramId" : [105,106]
+},
+{
+  "object" : "datacard",
+  "page" : 2,
+  "row" : 3,
+  "side" : "right",
+  "paramId" : [107,108]
+},
+
+
+    {
+      "object" : "table",
+      "page" : 3,
+      "row" : 1,
+      "filter" : true,
+      "paramId" : [],
+      "paramGroup_1" : ["Basınç","Sıcaklık","Gecikme","Servis","Dijital Giriş","Dijital Çıkış","Monitoring","Kompresör","Genel","Kalibrasyon","Cihaz","Test","Hata","Giriş"],
+      "paramGroup_2" : ["Pressure","Temperature","Delay","Service","Digital Input","Digital Output","Monitoring","Compressor","General","Calibration","Device","Test","Fault","Login"]
+    },
+
+    {
+      "object" : "linechart",
+      "page" : 4,
+      "row" : 1,
+      "side" : "center",
+      "paramId" : [195],
+      "min" : 0,
+      "max" : 5000,
+      "scale" : [0,1000,2000,3000,4000,5000]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
