@@ -1,0 +1,5082 @@
+[
+	{
+		"id" : 5,
+		"version" : 1005,
+		"name_1" : "Parametre Kayıt",
+		"name_2" : "Parameter Save",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 5,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Varsayılan",
+				"mask_2" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Yedekle",
+				"mask_2" : "Backup"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yedekten Oku",
+				"mask_2" : "Read from Backup"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz parametrelerini kaydetmek ve kaydedilen parametreleri geri çağırmak için bu parametre kullanılır.",
+		"comment_2" : "This parameter is used to save device parameters and recall saved parameters.",
+		"relation" : []
+	},
+	{
+		"id" : 6,
+		"version" : 1005,
+		"name_1" : "Dil",
+		"name_2" : "Language",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 6,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "İngilizce",
+				"mask_2" : "English"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Türkçe",
+				"mask_2" : "Custom"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazın dilinin ayarlandığı parametredir. Standart olarak cihazda İngilizce dili mevcuttur.Kullanıcı tanımlı olarak seçildiğinde USB üzerinden yüklenen 1. Dil aktif hale gelir.",
+		"comment_2" : "This parameter sets the language of the device. English language is available as standard. When user-defined is selected the 1st language loaded via USB becomes active.",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1005,
+		"name_1" : "Fabrika Ayarlarına Dönüş",
+		"name_2" : "Parameter Return Factory",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 7,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Varsayılan",
+				"mask_2" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Fabrika Ayarlarına Dön",
+				"mask_2" : "Factory Reset"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazda gömülü yer alan varsayılan değer atamaları yapılır.",
+		"comment_2" : "Default value assignments embedded in the device are made.",
+		"relation" : []
+	},
+	{
+		"id" : 8,
+		"version" : 1005,
+		"name_1" : "Log Temizleme",
+		"name_2" : "Log Clear",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 8,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Varsayılan",
+				"mask_2" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Log Temizle",
+				"mask_2" : "Clear Log"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazdaki tüm arıza kayıtları bu parametre ile silinir.",
+		"comment_2" : "All fault records in the device are deleted with this parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 9,
+		"version" : 1005,
+		"name_1" : "Motor Saat Ayarı",
+		"name_2" : "Motor Time Setting",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 9,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazdaki motor çalışma ve yükte çalışma süreleri bu parametreye girilen değer sonucunda istenildiği gibi set edilebilir. Parametreyi kaydettikten sonra parametre değeri sıfırlanacak ve çalışma saati değeri güncellenecektir.",
+		"comment_2" : "Motor running and load running times in the device can be set as desired as a result of the value entered in this parameter. After saving the parameter the parameter value will be reset and the operating hour value will be updated.",
+		"relation" : []
+	},
+	{
+		"id" : 10,
+		"version" : 1005,
+		"name_1" : "Menü Zaman Aşımı",
+		"name_2" : "Menu Timeout",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "dk",
+		"unit_2" : "min",
+		"modbusAddress" : 10,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 30,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz menüde kaldığı zaman diliminde bu parametre ile belirlenen süre boyunca herhangi bir tuşa basılmadığında menüden otomatik olarak çıkılır. Ayrıca menü için giriş yapıldıktan sonra Menu Logout parametresi ile çıkış yapılmazsa burada belirtilen süre zarfı içinde şifresiz menüye giriş yapılabilir.",
+		"comment_2" : "When no key is pressed during the time period specified with this parameter the device will automatically exit the menu. In addition after logging in to the menu if you do not log out with the Menu Logout parameter you can log in to the menu without a password within the time period specified here.",
+		"relation" : []
+	},
+	{
+		"id" : 11,
+		"version" : 1005,
+		"name_1" : "Menüden Çıkış Yap",
+		"name_2" : "Menu Logout",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 11,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Varsayılan",
+				"mask_2" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Çıkış Yap",
+				"mask_2" : "Sign Out"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Manuel olarak menüden çıkışı sağlar. Böylece yapılacak bir sonraki menü girişinde şifre girişi ihtiyacı doğar.",
+		"comment_2" : "Allows manual exit from the menu. Thus password entry is required for the next menu entry.",
+		"relation" : []
+	},
+	{
+		"id" : 20,
+		"version" : 1005,
+		"name_1" : "Şebeke Kapalı Mod Seçimi",
+		"name_2" : "Mains Off Mode Selection",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif Değil",
+				"mask_2" : "Inactive"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihazda ATS modülü tanımlı iken kapalı modda şebekenin aktif olup olmayacağı seçimidir.",
+		"comment_2" : "When the amplifier module is defined in the device it is the selection of whether the network will be active in off mode.",
+		"relation" : []
+	},
+	{
+		"id" : 21,
+		"version" : 1005,
+		"name_1" : "Şebeke Yüksek Gerilim Alarm Seviyesi",
+		"name_2" : "Mains Overvoltage Alarm Level",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 115,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke yüksek gerilim alarmının verileceği eşik değeridir. Bu parametre Bağlantı Tipi Parametresine bağlı olarak Nominal Gerilim parametresiyle ilişkili olarak değer almaktadır.",
+		"comment_2" : "It is the threshold value at which mains high voltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 22,
+		"version" : 1005,
+		"name_1" : "Şebeke Düşük Gerilim Alarm Seviyesi",
+		"name_2" : "Mains Undervoltage Alarm Level",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 85,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke düşük gerilim alarmının verileceği eşik değeridir. Bu parametre Bağlantı Tipi Parametresine bağlı olarak Nominal Gerilim parametresiyle ilişkili olarak değer almaktadır.",
+		"comment_2" : "It is the threshold value at which mains undervoltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 23,
+		"version" : 1005,
+		"name_1" : "Şebeke Yüksek Frekans Alarm Seviyesi",
+		"name_2" : "Mains Overfrequency Alarm Level",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 104,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke yüksek frekans alarmının verileceği eşik değeridir. Bu parametre Nominal Frekans parametresiyle ilişkili olarak değer almaktadır.",
+		"comment_2" : "It is the threshold value at which network high frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 24,
+		"version" : 1005,
+		"name_1" : "Şebeke Düşük Frekans Alarm Seviyesi",
+		"name_2" : "Mains Underfrequency Alarm Level",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 96,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke düşük frekans alarmının verileceği eşik değeridir. Bu parametre Nominal Frekans parametresiyle ilişkili olarak değer almaktadır.",
+		"comment_2" : "It is the threshold value at which mains low frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 29,
+		"version" : 1005,
+		"name_1" : "Şebeke Faz Sırası Kontrol Aksiyonu",
+		"name_2" : "Mains Phase Sequence Control Action",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktif Değil",
+				"mask_2" : "Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Faz sırası uyarısı aksiyon seçimi yapılır.",
+		"comment_2" : "Phase sequence warning action selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 30,
+		"version" : 1005,
+		"name_1" : "Şebeke Bağlantı Tipi",
+		"name_2" : "Mains Connection Type",
+		"group_1" : "Şebeke",
+		"group_2" : "Mains",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Faz-Nötr",
+				"mask_2" : "Phase-Neutral"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Faz-Faz",
+				"mask_2" : "Phase-Phase"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebekenin bağlantı tipinin seçildiği parametredir.",
+		"comment_2" : "This parameter selects the connection type of the network.",
+		"relation" : []
+	},
+	{
+		"id" : 33,
+		"version" : 1005,
+		"name_1" : "Nominal Gerilim",
+		"name_2" : "Nominal Voltage",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 85,
+		"maxValue" : 240,
+		"defaultValue" : 220,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratörün çalışacağı nominal faz-notr gerilim değeridir.",
+		"comment_2" : "The nominal phase-notr voltage value at which the generator will operate.",
+		"relation" : []
+	},
+	{
+		"id" : 35,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Gerilim Alarm Aksiyonu",
+		"name_2" : "Generator Overvoltage Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör yüksek voltaj alarm aksiyonudur.",
+		"comment_2" : "Generator high voltage alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 36,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Gerilim Alarm Seviyesi",
+		"name_2" : "Generator Overvoltage Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 115,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör yüksek gerilim alarmının verileceği eşik değeridir. Bütün fazlar tek tek değerlendirilip maksimum olan değer kullanılır. Çıkış gerilimi girilmiş olan değerin üzerine çıktığında yüksek gerilim alarm durumu ortaya çıkar ve aksiyon programı işlemeye başlar.",
+		"comment_2" : "This is the threshold value at which a generator high voltage alarm will be given. All phases are evaluated one by one and the maximum value is used. When the output voltage exceeds the entered value a high voltage alarm condition occurs and the action program starts to operate.",
+		"relation" : []
+	},
+	{
+		"id" : 37,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Gerilim Alarm Aksiyonu",
+		"name_2" : "Generator Undervoltage Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör düşük voltaj alarm aksiyonudur.",
+		"comment_2" : "Generator low voltage alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 38,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Gerilim Alarm Seviyesi",
+		"name_2" : "Generator Undervoltage Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 85,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör düşük gerilim alarmının verileceği eşik değeridir. Bütün fazlar tek tek değerlendirilip minimum olan değer kullanılır. Çıkış gerilimi girilmiş olan değerin altına indiğinde düşük gerilim alarm durumu ortaya çıkar ve aksiyon programı işlemeye başlar.",
+		"comment_2" : "This is the threshold value at which a generator undervoltage alarm will be given. All phases are evaluated one by one and the minimum value is used. When the output voltage goes below the entered value a low voltage alarm condition occurs and the action program starts to operate.",
+		"relation" : []
+	},
+	{
+		"id" : 39,
+		"version" : 1005,
+		"name_1" : "Nominal Frekans",
+		"name_2" : "Nominal Frequency",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 209,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 300,
+		"maxValue" : 600,
+		"defaultValue" : 500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratörün çalışacağı nominal frekans değeridir.",
+		"comment_2" : "The nominal frequency value at which the generator will operate.",
+		"relation" : []
+	},
+	{
+		"id" : 41,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Frekans Alarm Aksiyonu",
+		"name_2" : "Generator Overfrequency Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör yüksek frekans alarm aksiyonudur.",
+		"comment_2" : "Generator high frequency alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 42,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Frekans Alarm Seviyesi",
+		"name_2" : "Generator Overfrequency Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 101,
+		"maxValue" : 130,
+		"defaultValue" : 106,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Nominal Frekans parametresiyle ilişkili olarak değer alan jeneratör yüksek frekans alarm eşik değeridir.",
+		"comment_2" : "It is the generator high frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 43,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Frekans Alarm Aksiyonu",
+		"name_2" : "Generator Underfrequency Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör düşük frekans alarm aksiyonudur.",
+		"comment_2" : "Generator low frequency alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 44,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Frekans Alarm Seviyesi",
+		"name_2" : "Generator Underfrequency Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 94,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Nominal Frekans parametresiyle ilişkili olarak değer alan jeneratör düşük frekans alarm eşik değeridir.",
+		"comment_2" : "It is the generator low frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 49,
+		"version" : 1005,
+		"name_1" : "Jeneratör Faz Sırası Kontrol Aksiyonu",
+		"name_2" : "Generator Phase Sequence Control Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 219,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Faz sırası uyarısı aksiyon seçimi yapılır.",
+		"comment_2" : "Phase sequence warning action selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 50,
+		"version" : 1005,
+		"name_1" : "Jeneratör Aşırı Akım Alarmı Aksiyonu",
+		"name_2" : "Generator OverCurrent Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 220,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek akım alarm aksiyonudur.",
+		"comment_2" : "High current is alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 51,
+		"version" : 1005,
+		"name_1" : "Jeneratör Aşırı Akım Alarm Seviyesi",
+		"name_2" : "Generator OverCurrent Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 221,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 2500,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek akım alarm eşik değeridir.",
+		"comment_2" : "High current is the alarm threshold.",
+		"relation" : []
+	},
+	{
+		"id" : 52,
+		"version" : 1005,
+		"name_1" : "Jeneratör Aşırı Güç Alarmı Aksiyonu",
+		"name_2" : "Generator OverPower Alarm Action",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 222,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek güç alarm aksiyonudur.",
+		"comment_2" : "High power alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 53,
+		"version" : 1005,
+		"name_1" : "Jeneratör Aşırı Güç Alarm Seviyesi",
+		"name_2" : "Generator OverPower Alarm Level",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 223,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 32000,
+		"defaultValue" : 300,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek güç alarm eşik değeridir.",
+		"comment_2" : "High power is the alarm threshold.",
+		"relation" : []
+	},
+	{
+		"id" : 57,
+		"version" : 1005,
+		"name_1" : "Jeneratör Akım Trafosu Oranı",
+		"name_2" : "Generator Current Transformer Ratio",
+		"group_1" : "Jeneratör",
+		"group_2" : "Generator",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 227,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 500,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yük akımını okuyabilmek için cihazın akım girişine girilen akım trafosunun sarım oranıdır.",
+		"comment_2" : "Winding ratio of the current transformer input to the current input of the device to read the load current.",
+		"relation" : []
+	},
+	{
+		"id" : 58,
+		"version" : 1005,
+		"name_1" : "Jeneratör Bağlantı Tipi",
+		"name_2" : "Generator Connection Type",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Faz-Nötr",
+				"mask_2" : "Phase-Neutral"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Faz-Faz",
+				"mask_2" : "Phase-Phase"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör bağlantı tipi seçimidir.",
+		"comment_2" : "Generator connection type selection.",
+		"relation" : []
+	},
+	{
+		"id" : 61,
+		"version" : 1005,
+		"name_1" : "Mod Fonksiyonu",
+		"name_2" : "Mode Function",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Stop Mode"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz mod seçimidir.",
+		"comment_2" : "Device mode selection.",
+		"relation" : []
+	},
+	{
+		"id" : 85,
+		"version" : 1005,
+		"name_1" : "Nominal Batarya Voltajı",
+		"name_2" : "Nominal Battery Voltage",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 328,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 100,
+		"maxValue" : 260,
+		"defaultValue" : 130,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Nominal batarya voltajıdır",
+		"comment_2" : "Nominal battery voltage",
+		"relation" : []
+	},
+	{
+		"id" : 86,
+		"version" : 1005,
+		"name_1" : "Batarya Yüksek Gerilim Alarm Aksiyonu",
+		"name_2" : "Battery Overvoltage Alarm Action",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 329,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yüksek batarya voltajı alarm aksiyonudur.",
+		"comment_2" : "High battery voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 87,
+		"version" : 1005,
+		"name_1" : "Batarya Yüksek Gerilim Alarm Seviyesi",
+		"name_2" : "Battery Overvoltage Alarm Level",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 330,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 101,
+		"maxValue" : 125,
+		"defaultValue" : 125,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Batarya yüksek gerilim alarmının verileceği eşik değeridir.",
+		"comment_2" : "This is the threshold at which a battery high voltage alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 88,
+		"version" : 1005,
+		"name_1" : "Batarya Düşük Gerilim Alarm Aksiyonu",
+		"name_2" : "Battery Undervoltage Alarm Action",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 331,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Düşük batarya voltajı alarm aksiyonudur.",
+		"comment_2" : "Low battery voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 89,
+		"version" : 1005,
+		"name_1" : "Batarya Düşük Gerilim Alarm Seviyesi",
+		"name_2" : "Battery Undervoltage Alarm Level",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 332,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 75,
+		"maxValue" : 99,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Batarya düşük gerilim alarmının verileceği eşik değeridir.",
+		"comment_2" : "The threshold at which a battery low voltage alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 105,
+		"version" : 1005,
+		"name_1" : "Şebeke Alarm Gecikmesi",
+		"name_2" : "Mains Fail Delay",
+		"group_1" : "Şebeke Zamanlayıcısı",
+		"group_2" : "Mains Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 401,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 500,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke herhangi bir hatanın verileceği gecikme süresidir.",
+		"comment_2" : "Mains is the delay time for any fault to be given.",
+		"relation" : []
+	},
+	{
+		"id" : 108,
+		"version" : 1005,
+		"name_1" : "Şebeke Faz Sırası Hata Gecikmesi",
+		"name_2" : "Mains Phase Sequence Failure Delay",
+		"group_1" : "Şebeke Zamanlayıcısı",
+		"group_2" : "Mains Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 404,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke faz sırası hatasının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for a mains phase sequence fault.",
+		"relation" : []
+	},
+	{
+		"id" : 109,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Gerilim Alarm Gecikmesi",
+		"name_2" : "Generator Overvoltage Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 501,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör yüksek gerilim alarmının verileceği gecikme süresidir.",
+		"comment_2" : "This is the delay time for a generator high voltage alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 110,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Gerilim Alarm Gecikmesi",
+		"name_2" : "Generator Undervoltage Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 502,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör düşük gerilim alarmının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for generator low voltage alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 111,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Frekans Alarm Gecikmesi",
+		"name_2" : "Generator Overfrequency Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 503,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör yüksek frekans alarmının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for generator high frequency alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 112,
+		"version" : 1005,
+		"name_1" : "Jeneratör Düşük Frekans Alarm Gecikmesi",
+		"name_2" : "Generator Underfrequency Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 504,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör düşük frekans alarmının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for generator low frequency alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 113,
+		"version" : 1005,
+		"name_1" : "Jeneratör Devre Kesmesi Kapatma Ouput Darbe Süresi",
+		"name_2" : "Generator Circuit Break Close Ouput Pulse Time",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 505,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör devre kesici için kapalı çıkış darbe süresidir.",
+		"comment_2" : "Closed output pulse duration for generator circuit breaker.",
+		"relation" : []
+	},
+	{
+		"id" : 115,
+		"version" : 1005,
+		"name_1" : "Jeneratör Faz Sırası Hata Gecikmesi",
+		"name_2" : "Generator Phase Sequence Failure Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 507,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör faz sırası hatasının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for genset phase sequence fault.",
+		"relation" : []
+	},
+	{
+		"id" : 116,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Akım Alarm Gecikmesi",
+		"name_2" : "Generator OverCurrent Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 508,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yükün üzerinden geçen akım alarmının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for the current passing through the load alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 117,
+		"version" : 1005,
+		"name_1" : "Jeneratör Yüksek Güç Alarm Gecikmesi",
+		"name_2" : "Generator OverPower Alarm Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 509,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Yük üzerinde hesaplanan güç değer alarmının verileceği gecikme süresidir.",
+		"comment_2" : "Delay time for the power value alarm calculated on the load.",
+		"relation" : []
+	},
+	{
+		"id" : 118,
+		"version" : 1005,
+		"name_1" : "Başlatma Gecikmesi",
+		"name_2" : "Start Delay",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 601,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 6000,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz şebeke hatasına düştükten ne kadar süre sonra otomatik başlatma yapılacağı parametresi.",
+		"comment_2" : "Parameter for how long after a mains fault the device will auto-start.",
+		"relation" : []
+	},
+	{
+		"id" : 119,
+		"version" : 1005,
+		"name_1" : "Şebeke Stabilizasyon Süresi",
+		"name_2" : "Mains Return Delay",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 602,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 18000,
+		"defaultValue" : 200,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Bu parametre şebeke stabilizasyon süresidir. Zamanlayıcı şebeke geri geldiğinde saymaya başlar. Bu süre boyunca şebekede herhangi bir problem yoksa ATS çalışma modu bitirilir.",
+		"comment_2" : "This parameter is the mains stabilization time. The timer starts counting when the mains is restored. If there is no mains problem during this time ATS operation mode is finished.",
+		"relation" : []
+	},
+	{
+		"id" : 123,
+		"version" : 1005,
+		"name_1" : "Arıza Kontrol Gecikmesi",
+		"name_2" : "Safety On Delay",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 606,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Başlatma sırasında kontrolörün yağ basıncı motor devri ve diğer gecikmeli alarmları göz ardı ettiği süredir. Bu parametre korumalar etkinleştirilmeden önce motorun nominal devrine ulaşmasını sağlamak için kullanılır. Bu parametre 0 değerine ayarlandığında bu fonksiyon pasif olacaktır.",
+		"comment_2" : "The time the controller ignores oil pressure engine speed and other delayed alarms during starting. This parameter is used to allow the engine to reach its rated speed before the protections are activated. When this parameter is set to 0 this function will be inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 130,
+		"version" : 1005,
+		"name_1" : "Soğutma Süresi",
+		"name_2" : "Cooling Time",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 613,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 18000,
+		"defaultValue" : 300,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratörü durdurmadan önce yüksüz şekilde yapılacak soğutma süresidir.",
+		"comment_2" : "This is the no-load cooling time before stopping the generator.",
+		"relation" : []
+	},
+	{
+		"id" : 132,
+		"version" : 1005,
+		"name_1" : "Aktarma Zamanı",
+		"name_2" : "Transfer Time",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 615,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 6000,
+		"defaultValue" : 7,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Bir yük anahtarının açılması ile diğerinin kapanması arasındaki süredir. Jeneratöre ve jeneratörden yapılan yük aktarımı sırasında kullanılır.",
+		"comment_2" : "The time between the opening of one load switch and the closing of the other. Used during load transfer to and from the genset.",
+		"relation" : []
+	},
+	{
+		"id" : 133,
+		"version" : 1005,
+		"name_1" : "Korna Süresi",
+		"name_2" : "Horn Time",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 900,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Alarm oluştuğunda korna çıkışının ne kadar süre ile aktif olacağı bu parametre ile belirlenmektedir.",
+		"comment_2" : "When an alarm occurs this parameter determines how long the horn output will be active.",
+		"relation" : []
+	},
+	{
+		"id" : 154,
+		"version" : 1005,
+		"name_1" : "ATS Durmama Gecikmesi",
+		"name_2" : "ATS Don’t Stop Delay",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 637,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz tarafından herhangi bir durumda durdurma isteği oluştuğunda jeneratör bu süre boyunca durmadıysa duramama hatası oluşacaktır.",
+		"comment_2" : "When a stop request is generated by the device in any case if the genset has not stopped during this time a failure to stop error will occur.",
+		"relation" : []
+	},
+	{
+		"id" : 155,
+		"version" : 1005,
+		"name_1" : "ATS Başlamama Gecikmesi",
+		"name_2" : "ATS Don’t Start Delay",
+		"group_1" : "Motor Zamanlayıcısı",
+		"group_2" : "Engine Timer",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 638,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : 10,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Cihaz tarafından herhangi bir durumda başlatma isteği oluştuğunda jeneratör bu süre boyunca başlamadıysa başlamama hatası oluşacaktır.",
+		"comment_2" : "When a start request is generated by the device in any case if the genset has not started during this time a non-start error will occur.",
+		"relation" : []
+	},
+	{
+		"id" : 182,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-1 Kaynağı",
+		"name_2" : "Digital Output-1 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-1 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-1 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 183,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-1 Polaritesi",
+		"name_2" : "Digital Output-1 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-1 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-1 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 184,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-2 Kaynağı",
+		"name_2" : "Digital Output-2 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-2 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-2 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 185,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-2 Polaritesi",
+		"name_2" : "Digital Output-2 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-2 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-2 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 186,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-3 Kaynağı",
+		"name_2" : "Digital Output-3 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-3 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-3 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 187,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-3 Polaritesi",
+		"name_2" : "Digital Output-3 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1106,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-3 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-3 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 188,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-4 Kaynağı",
+		"name_2" : "Digital Output-4 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 3,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-4 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-4 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 189,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-4 Polaritesi",
+		"name_2" : "Digital Output-4 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1108,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-4 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-4 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 190,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-5 Kaynağı",
+		"name_2" : "Digital Output-5 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-5 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-5 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 191,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-5 Polaritesi",
+		"name_2" : "Digital Output-5 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-5 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-5 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 192,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-6 Kaynağı",
+		"name_2" : "Digital Output-6 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 38,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Şebeke Kontak Çıkış",
+				"mask_2" : "MCB Open Out"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start Stop"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Ortak Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Kapalı Mod",
+				"mask_2" : "Off Mode"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manual Mode"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Şebeke Hatası",
+				"mask_2" : "Mains Failure"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Motor Çalışıyor",
+				"mask_2" : "Engine Running"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jeneratör Yükte",
+				"mask_2" : "Generator On Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Şebeke Yükte",
+				"mask_2" : "Mains On Load"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Jeneratör Uygun",
+				"mask_2" : "Generator Available"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Şebeke Uygun",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Jeneratör Engellendi",
+				"mask_2" : "Gen. Load Inhibited"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Engellendi",
+				"mask_2" : "Mains Load Inhibited"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Jen. Yüksek Frekans",
+				"mask_2" : "Gen. Over Freq."
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Yüksek Voltaj",
+				"mask_2" : "Gen. Over Volt."
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Jen. Alçak Frekans",
+				"mask_2" : "Gen. Under Freq."
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Jen. Alçak Voltaj",
+				"mask_2" : "Gen. Under Volt."
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Şeb. Yüksek Frekans",
+				"mask_2" : "Mains Over Freq."
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Şeb. Yüksek Voltaj",
+				"mask_2" : "Mains Over Volt."
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Şeb. Alçak Frekans",
+				"mask_2" : "Mains Under Freq."
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Şeb. Alçak Voltaj",
+				"mask_2" : "Mains Under Volt."
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Şebeke Geliyor",
+				"mask_2" : "Mains Return Delay"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Başla ve Çalış",
+				"mask_2" : "Start And Run"
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Başlatma Gecikmesi",
+				"mask_2" : "Start Delay"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Jeneratör Beklemede",
+				"mask_2" : "Waiting for Gen."
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Manuel Geri Yükleme",
+				"mask_2" : "Waiting Man.Restore"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Modül Enerjili",
+				"mask_2" : "Module Energised"
+			},
+			{
+				"value" : 31,
+				"mask_1" : "Batarya Yüksek Voltaj",
+				"mask_2" : "Battery High Voltage"
+			},
+			{
+				"value" : 32,
+				"mask_1" : "Batarya Alçak Voltaj",
+				"mask_2" : "Battery Low Voltage"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Cooling Down"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatma Hatası",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurma Hatası",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 36,
+				"mask_1" : "Yüksek Güç",
+				"mask_2" : "Gen. OverPower"
+			},
+			{
+				"value" : 37,
+				"mask_1" : "Yüksek Akım",
+				"mask_2" : "Gen. OverCurrent"
+			},
+			{
+				"value" : 38,
+				"mask_1" : "CB 0 Pozisyon Darbesi",
+				"mask_2" : "CB 0 Position Pulse"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-6 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-6 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 193,
+		"version" : 1005,
+		"name_1" : "Dijital Çıkış-6 Polaritesi",
+		"name_2" : "Digital Output-6 Polarity",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1112,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktifken Enerjili",
+				"mask_2" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasifken Enerjili",
+				"mask_2" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-6 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-6 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 194,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-1 Kaynağı",
+		"name_2" : "Digital Input-1 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 40,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jeneratör Hazır",
+				"mask_2" : "Ready to Load"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Access Lock"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Şebeke Kontak Bilgisi",
+				"mask_2" : "MCB Feedback"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Jen. Kontak Bilgisi",
+				"mask_2" : "GCB Feedback"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Başlatma Butonu",
+				"mask_2" : "Sim. Start Button"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Durdurma Butonu",
+				"mask_2" : "Sim. Stop Button"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Şeb. Kontak Butonu",
+				"mask_2" : "Sim. MCB Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Jen. Kontak Butonu",
+				"mask_2" : "Sim. GCB Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Uzaktan Çalış/Yükle",
+				"mask_2" : "Remote Start/Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Kapalı Mod Girişi",
+				"mask_2" : "Remote Off"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Manuel Mod Girişi",
+				"mask_2" : "Remote Manual"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Oto Mod Girişi",
+				"mask_2" : "Remote Auto"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Şebeke Uygun Girişi",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Hata Girişi",
+				"mask_2" : "Mains Fail"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Şebeke Kontak Kilitli",
+				"mask_2" : "MCB Lock"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Kontak Kilitli",
+				"mask_2" : "GCB Lock"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Korna Susturma",
+				"mask_2" : "Alarm Mute"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Savaş Modu",
+				"mask_2" : "Alarm Disable"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Alarm Silme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Configured"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-1 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-1 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 195,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-1 Polaritesi",
+		"name_2" : "Digital Input-1 Polarity",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Normalde Açık",
+				"mask_2" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Normalde Kapalı",
+				"mask_2" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-1 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-1 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 196,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-1 Aksiyonu",
+		"name_2" : "Digital Input-1 Action",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-1 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa seçime göre alarm aksiyon fonksiyonu çalışacaktır.",
+		"comment_2" : "Input-1 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 197,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-1 Kontrol Zamanlaması",
+		"name_2" : "Digital Input-1 Arming",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Daima",
+				"mask_2" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Güvenli Çalışmadan İtibaren",
+				"mask_2" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Marşlamadan İtibaren",
+				"mask_2" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Asla",
+				"mask_2" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-1 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa zamanlama seçimine göre girişe ait hata fonksiyonu aktif olacaktır.",
+		"comment_2" : "Input-1 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 198,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-2 Kaynağı",
+		"name_2" : "Digital Input-2 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 40,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jeneratör Hazır",
+				"mask_2" : "Ready to Load"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Access Lock"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Şebeke Kontak Bilgisi",
+				"mask_2" : "MCB Feedback"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Jen. Kontak Bilgisi",
+				"mask_2" : "GCB Feedback"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Başlatma Butonu",
+				"mask_2" : "Sim. Start Button"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Durdurma Butonu",
+				"mask_2" : "Sim. Stop Button"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Şeb. Kontak Butonu",
+				"mask_2" : "Sim. MCB Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Jen. Kontak Butonu",
+				"mask_2" : "Sim. GCB Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Uzaktan Çalış/Yükle",
+				"mask_2" : "Remote Start/Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Kapalı Mod Girişi",
+				"mask_2" : "Remote Off"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Manuel Mod Girişi",
+				"mask_2" : "Remote Manual"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Oto Mod Girişi",
+				"mask_2" : "Remote Auto"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Şebeke Uygun Girişi",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Hata Girişi",
+				"mask_2" : "Mains Fail"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Şebeke Kontak Kilitli",
+				"mask_2" : "MCB Lock"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Kontak Kilitli",
+				"mask_2" : "GCB Lock"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Korna Susturma",
+				"mask_2" : "Alarm Mute"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Savaş Modu",
+				"mask_2" : "Alarm Disable"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Alarm Silme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Configured"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-2 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-2 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 199,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-2 Polaritesi",
+		"name_2" : "Digital Input-2 Polarity",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Normalde Açık",
+				"mask_2" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Normalde Kapalı",
+				"mask_2" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-2 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-2 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 200,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-2 Aksiyonu",
+		"name_2" : "Digital Input-2 Action",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-2 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa seçime göre alarm aksiyon fonksiyonu çalışacaktır.",
+		"comment_2" : "Input-2 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 201,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-2 Kontrol Zamanlaması",
+		"name_2" : "Digital Input-2 Arming",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Daima",
+				"mask_2" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Güvenli Çalışmadan İtibaren",
+				"mask_2" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Marşlamadan İtibaren",
+				"mask_2" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Asla",
+				"mask_2" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-2 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa zamanlama seçimine göre girişe ait hata fonksiyonu aktif olacaktır.",
+		"comment_2" : "Input-2 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 202,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-3 Kaynağı",
+		"name_2" : "Digital Input-3 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 40,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jeneratör Hazır",
+				"mask_2" : "Ready to Load"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Access Lock"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Şebeke Kontak Bilgisi",
+				"mask_2" : "MCB Feedback"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Jen. Kontak Bilgisi",
+				"mask_2" : "GCB Feedback"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Başlatma Butonu",
+				"mask_2" : "Sim. Start Button"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Durdurma Butonu",
+				"mask_2" : "Sim. Stop Button"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Şeb. Kontak Butonu",
+				"mask_2" : "Sim. MCB Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Jen. Kontak Butonu",
+				"mask_2" : "Sim. GCB Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Uzaktan Çalış/Yükle",
+				"mask_2" : "Remote Start/Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Kapalı Mod Girişi",
+				"mask_2" : "Remote Off"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Manuel Mod Girişi",
+				"mask_2" : "Remote Manual"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Oto Mod Girişi",
+				"mask_2" : "Remote Auto"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Şebeke Uygun Girişi",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Hata Girişi",
+				"mask_2" : "Mains Fail"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Şebeke Kontak Kilitli",
+				"mask_2" : "MCB Lock"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Kontak Kilitli",
+				"mask_2" : "GCB Lock"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Korna Susturma",
+				"mask_2" : "Alarm Mute"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Savaş Modu",
+				"mask_2" : "Alarm Disable"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Alarm Silme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Configured"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-3 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-3 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 203,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-3 Polaritesi",
+		"name_2" : "Digital Input-3 Polarity",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1210,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Normalde Açık",
+				"mask_2" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Normalde Kapalı",
+				"mask_2" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-3 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-3 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 204,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-3 Aksiyonu",
+		"name_2" : "Digital Input-3 Action",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-3 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa seçime göre alarm aksiyon fonksiyonu çalışacaktır.",
+		"comment_2" : "Input-3 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 205,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-3 Kontrol Zamanlaması",
+		"name_2" : "Digital Input-3 Arming",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Daima",
+				"mask_2" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Güvenli Çalışmadan İtibaren",
+				"mask_2" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Marşlamadan İtibaren",
+				"mask_2" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Asla",
+				"mask_2" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-3 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa zamanlama seçimine göre girişe ait hata fonksiyonu aktif olacaktır.",
+		"comment_2" : "Input-3 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 206,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-4 Kaynağı",
+		"name_2" : "Digital Input-4 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 40,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Jeneratör Hazır",
+				"mask_2" : "Ready to Load"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Access Lock"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Şebeke Kontak Bilgisi",
+				"mask_2" : "MCB Feedback"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Jen. Kontak Bilgisi",
+				"mask_2" : "GCB Feedback"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Başlatma Butonu",
+				"mask_2" : "Sim. Start Button"
+			},
+			{
+				"value" : 7,
+				"mask_1" : "Durdurma Butonu",
+				"mask_2" : "Sim. Stop Button"
+			},
+			{
+				"value" : 8,
+				"mask_1" : "Şeb. Kontak Butonu",
+				"mask_2" : "Sim. MCB Button"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Jen. Kontak Butonu",
+				"mask_2" : "Sim. GCB Button"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Uzaktan Çalış/Dur",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Uzaktan Çalış/Yükle",
+				"mask_2" : "Remote Start/Load"
+			},
+			{
+				"value" : 12,
+				"mask_1" : "Kapalı Mod Girişi",
+				"mask_2" : "Remote Off"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Manuel Mod Girişi",
+				"mask_2" : "Remote Manual"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Oto Mod Girişi",
+				"mask_2" : "Remote Auto"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Şebeke Uygun Girişi",
+				"mask_2" : "Mains Available"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Şebeke Hata Girişi",
+				"mask_2" : "Mains Fail"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Şebeke Kontak Kilitli",
+				"mask_2" : "MCB Lock"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Jen. Kontak Kilitli",
+				"mask_2" : "GCB Lock"
+			},
+			{
+				"value" : 19,
+				"mask_1" : "Korna Susturma",
+				"mask_2" : "Alarm Mute"
+			},
+			{
+				"value" : 20,
+				"mask_1" : "Savaş Modu",
+				"mask_2" : "Alarm Disable"
+			},
+			{
+				"value" : 21,
+				"mask_1" : "Alarm Silme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Configured"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-4 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-4 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 207,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-4 Polaritesi",
+		"name_2" : "Digital Input-4 Polarity",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Normalde Açık",
+				"mask_2" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Normalde Kapalı",
+				"mask_2" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-4 polarite seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-4 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 208,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-4 Aksiyonu",
+		"name_2" : "Digital Input-4 Action",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1215,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Geçici Uyarı",
+				"mask_2" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Durdurma",
+				"mask_2" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-4 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa seçime göre alarm aksiyon fonksiyonu çalışacaktır.",
+		"comment_2" : "Input-4 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 209,
+		"version" : 1005,
+		"name_1" : "Dijital Giriş-4 Kontrol Zamanlaması",
+		"name_2" : "Digital Input-4 Arming",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1216,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Daima",
+				"mask_2" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Güvenli Çalışmadan İtibaren",
+				"mask_2" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Marşlamadan İtibaren",
+				"mask_2" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Asla",
+				"mask_2" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-4 eğer giriş kaynağı kullanıcı tarafından yapılandırılmış olarak ayarlandıysa zamanlama seçimine göre girişe ait hata fonksiyonu aktif olacaktır.",
+		"comment_2" : "Input-4 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 3001,
+		"version" : 1005,
+		"name_1" : "Şebeke RS Voltajı",
+		"name_2" : "Mains RS Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3001,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3002,
+		"version" : 1005,
+		"name_1" : "Şebeke ST Voltajı",
+		"name_2" : "Mains ST Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3002,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3003,
+		"version" : 1005,
+		"name_1" : "Şebeke RT Voltajı",
+		"name_2" : "Mains RT Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3003,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3004,
+		"version" : 1005,
+		"name_1" : "Şebeke Frekansı",
+		"name_2" : "Mains Frequency",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 3004,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3005,
+		"version" : 1005,
+		"name_1" : "Şebeke RS Akımı",
+		"name_2" : "Mains RS Current",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3005,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3006,
+		"version" : 1005,
+		"name_1" : "Jeneratör UV Voltajı",
+		"name_2" : "Generator UV Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3006,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3007,
+		"version" : 1005,
+		"name_1" : "Jeneratör VW Voltajı",
+		"name_2" : "Generator VW Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3007,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3008,
+		"version" : 1005,
+		"name_1" : "Jeneratör UW Voltajı",
+		"name_2" : "Generator UW Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3008,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3009,
+		"version" : 1005,
+		"name_1" : "Jeneratör Frekansı",
+		"name_2" : "Generator Frequency",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 3009,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3010,
+		"version" : 1005,
+		"name_1" : "Jeneratör UV Akımı",
+		"name_2" : "Generator UV Current",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3010,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3011,
+		"version" : 1005,
+		"name_1" : "Total KVA",
+		"name_2" : "Total KVA",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3011,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3012,
+		"version" : 1005,
+		"name_1" : "Total KW",
+		"name_2" : "Total KW",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3012,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3013,
+		"version" : 1005,
+		"name_1" : "Total KVAR",
+		"name_2" : "Total KVAR",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3013,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3014,
+		"version" : 1005,
+		"name_1" : "Total Güç Faktörü",
+		"name_2" : "Total Power Factor",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "PF",
+		"unit_2" : "PF",
+		"modbusAddress" : 3014,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3015,
+		"version" : 1005,
+		"name_1" : "Batarya Voltajı",
+		"name_2" : "Battery Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3016,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3016,
+		"version" : 1005,
+		"name_1" : "İşlemci Sıcaklığı",
+		"name_2" : "MCU Temperature",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
+		"modbusAddress" : 3017,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3017,
+		"version" : 1005,
+		"name_1" : "Total Çalışma Süresi(MSB)",
+		"name_2" : "Total Working Time(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "saat",
+		"unit_2" : "hours",
+		"modbusAddress" : 3018,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3018,
+		"version" : 1005,
+		"name_1" : "Total Çalışma Süresi(LSB)",
+		"name_2" : "Total Working Time(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "saat",
+		"unit_2" : "hours",
+		"modbusAddress" : 3019,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3019,
+		"version" : 1005,
+		"name_1" : "Yükte Çalışma Süresi(MSB)",
+		"name_2" : "Working Time at Load(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "saat",
+		"unit_2" : "hours",
+		"modbusAddress" : 3020,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3020,
+		"version" : 1005,
+		"name_1" : "Yükte Çalışma Süresi(LSB)",
+		"name_2" : "Working Time at Load(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "saat",
+		"unit_2" : "hours",
+		"modbusAddress" : 3021,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3021,
+		"version" : 1005,
+		"name_1" : "Jeneratör Durum",
+		"name_2" : "Generator Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3022,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3022,
+		"version" : 1005,
+		"name_1" : "Motor Hızı",
+		"name_2" : "Engine Speed",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "rpm",
+		"unit_2" : "rpm",
+		"modbusAddress" : 3023,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3023,
+		"version" : 1005,
+		"name_1" : "Giriş",
+		"name_2" : "Inputs",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3024,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3024,
+		"version" : 1005,
+		"name_1" : "Çıkış",
+		"name_2" : "Outputs",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3025,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3025,
+		"version" : 1005,
+		"name_1" : "Led İndikatör",
+		"name_2" : "Led Indicator",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3026,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : "",
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	}
+]
