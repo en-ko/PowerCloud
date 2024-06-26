@@ -1,0 +1,5762 @@
+[
+	{
+		"id" : 1,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Çıkışlar",
+		"text_2" : "Outputs"
+	},
+	{
+		"id" : 2,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Girişler",
+		"text_2" : "Inputs"
+	},
+	{
+		"id" : 3,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alarmlar",
+		"text_2" : "Alarms"
+	},
+	{
+		"id" : 4,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Olaylar",
+		"text_2" : "Events"
+	},
+	{
+		"id" : 5,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bakım",
+		"text_2" : "Maintenance"
+	},
+	{
+		"id" : 6,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke",
+		"text_2" : "Mains"
+	},
+	{
+		"id" : 7,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jeneratör",
+		"text_2" : "Generator"
+	},
+	{
+		"id" : 8,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor",
+		"text_2" : "Engine"
+	},
+	{
+		"id" : 9,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şifre",
+		"text_2" : "Password"
+	},
+	{
+		"id" : 10,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Menü",
+		"text_2" : "Menu"
+	},
+	{
+		"id" : 11,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RÖLE1",
+		"text_2" : "RELAY1"
+	},
+	{
+		"id" : 12,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RÖLE2",
+		"text_2" : "RELAY2"
+	},
+	{
+		"id" : 13,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RÖLE3",
+		"text_2" : "RELAY3"
+	},
+	{
+		"id" : 14,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RÖLE4",
+		"text_2" : "RELAY4"
+	},
+	{
+		"id" : 15,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ1",
+		"text_2" : "DO1"
+	},
+	{
+		"id" : 16,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ2",
+		"text_2" : "DO2"
+	},
+	{
+		"id" : 17,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ3",
+		"text_2" : "DO3"
+	},
+	{
+		"id" : 18,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ4",
+		"text_2" : "DO4"
+	},
+	{
+		"id" : 19,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 20,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Marş",
+		"text_2" : "Starter"
+	},
+	{
+		"id" : 21,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Selenoidi",
+		"text_2" : "Fuel Solenoid"
+	},
+	{
+		"id" : 22,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Selenoidi",
+		"text_2" : "Stop Solenoid"
+	},
+	{
+		"id" : 23,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Korna",
+		"text_2" : "Horn"
+	},
+	{
+		"id" : 24,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Kont. Açma Çık.",
+		"text_2" : "GCB Close Out"
+	},
+	{
+		"id" : 25,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Kont. Kapatma Çık.",
+		"text_2" : "GCB Open Out"
+	},
+	{
+		"id" : 26,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Kont. Açma Çık.",
+		"text_2" : "MCB Close Out"
+	},
+	{
+		"id" : 27,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Kont. Kapatma Çık.",
+		"text_2" : "MCB Open Out"
+	},
+	{
+		"id" : 28,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yük Hazır",
+		"text_2" : "Ready To Load"
+	},
+	{
+		"id" : 29,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma",
+		"text_2" : "Prestart"
+	},
+	{
+		"id" : 30,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jikle",
+		"text_2" : "Choke"
+	},
+	{
+		"id" : 31,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kızdırma Bujisi",
+		"text_2" : "Glowplugs"
+	},
+	{
+		"id" : 32,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Gaz Ateşleme",
+		"text_2" : "Gas Ignition"
+	},
+	{
+		"id" : 33,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Fanı",
+		"text_2" : "Cooling Fan"
+	},
+	{
+		"id" : 34,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Pompası",
+		"text_2" : "Fuel Pump"
+	},
+	{
+		"id" : 35,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Alarm",
+		"text_2" : "Common Alarm"
+	},
+	{
+		"id" : 36,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Elektriksel Alarm",
+		"text_2" : "Common Elect. Trip"
+	},
+	{
+		"id" : 37,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Durdurucu Alarm",
+		"text_2" : "Common Shutdown"
+	},
+	{
+		"id" : 38,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Gecici Uyarı",
+		"text_2" : "Common Temp. Warning"
+	},
+	{
+		"id" : 39,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Kalıcı Uyarı",
+		"text_2" : "Common Perm. Warning"
+	},
+	{
+		"id" : 40,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Aktif",
+		"text_2" : "DI1 Active"
+	},
+	{
+		"id" : 41,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Aktif",
+		"text_2" : "DI2 Active"
+	},
+	{
+		"id" : 42,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Aktif",
+		"text_2" : "DI3 Active"
+	},
+	{
+		"id" : 43,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Aktif",
+		"text_2" : "DI4 Active"
+	},
+	{
+		"id" : 44,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Aktif",
+		"text_2" : "DI5 Active"
+	},
+	{
+		"id" : 45,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Aktif",
+		"text_2" : "DI6 Active"
+	},
+	{
+		"id" : 46,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Aktif",
+		"text_2" : "DI7 Active"
+	},
+	{
+		"id" : 47,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG8 Aktif",
+		"text_2" : "DI8 Active"
+	},
+	{
+		"id" : 48,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG9 Aktif",
+		"text_2" : "DI9 Active"
+	},
+	{
+		"id" : 49,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG10 Aktif",
+		"text_2" : "DI10 Active"
+	},
+	{
+		"id" : 50,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG11 Aktif",
+		"text_2" : "DI11 Active"
+	},
+	{
+		"id" : 51,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Acil Durdurma",
+		"text_2" : "Emergency Stop"
+	},
+	{
+		"id" : 52,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Çalıştır Durdur",
+		"text_2" : "Fail to Start"
+	},
+	{
+		"id" : 53,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Çalıştır Yükle",
+		"text_2" : "Fail to Stop"
+	},
+	{
+		"id" : 54,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Vol. Arıza",
+		"text_2" : "Gen. OV Alarm"
+	},
+	{
+		"id" : 55,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Frek. Arıza",
+		"text_2" : "Gen. OF Alarm"
+	},
+	{
+		"id" : 56,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Vol. Arıza",
+		"text_2" : "Gen. UV Alarm"
+	},
+	{
+		"id" : 57,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Frek. Arıza",
+		"text_2" : "Gen. UF Alarm"
+	},
+	{
+		"id" : 58,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Yağ Bas. Arıza",
+		"text_2" : "Low Oil Press. Alarm"
+	},
+	{
+		"id" : 59,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Soğ. Sıc. Arıza",
+		"text_2" : "High Cool. Temp. Al."
+	},
+	{
+		"id" : 60,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Yakıt Sev. Arıza",
+		"text_2" : "Low Fuel Lvl. Alarm"
+	},
+	{
+		"id" : 61,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Hız Arıza",
+		"text_2" : "Underspeed Alarm"
+	},
+	{
+		"id" : 62,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Hız Arıza",
+		"text_2" : "Overspeed Alarm"
+	},
+	{
+		"id" : 63,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Yüks. Vol. Arıza",
+		"text_2" : "Battery OV Alarm"
+	},
+	{
+		"id" : 64,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Alç. Vol. Arıza",
+		"text_2" : "Battery UV Alarm"
+	},
+	{
+		"id" : 65,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. Yüks. Vol. Arz.",
+		"text_2" : "Charge Alt. OV Al."
+	},
+	{
+		"id" : 66,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj. Alt. Alç. Vol. Arz.",
+		"text_2" : "Charge Alt. UV Al."
+	},
+	{
+		"id" : 67,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Sen. Arz.",
+		"text_2" : "Oil Press. Send. OC."
+	},
+	{
+		"id" : 68,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Sıc. Sen. Arz.",
+		"text_2" : "Cool. Temp. Send. OC."
+	},
+	{
+		"id" : 69,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Sev. Sen. Arz.",
+		"text_2" : "Fuel Lvl. Send. OC."
+	},
+	{
+		"id" : 70,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Kullanıcı Tanımlı",
+		"text_2" : "DI1 User Configured"
+	},
+	{
+		"id" : 71,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Kullanıcı Tanımlı",
+		"text_2" : "DI2 User Configured"
+	},
+	{
+		"id" : 72,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Kullanıcı Tanımlı",
+		"text_2" : "DI3 User Configured"
+	},
+	{
+		"id" : 73,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Kullanıcı Tanımlı",
+		"text_2" : "DI4 User Configured"
+	},
+	{
+		"id" : 74,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Kullanıcı Tanımlı",
+		"text_2" : "DI5 User Configured"
+	},
+	{
+		"id" : 75,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Kullanıcı Tanımlı",
+		"text_2" : "DI6 User Configured"
+	},
+	{
+		"id" : 76,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Kullanıcı Tanımlı",
+		"text_2" : "DI7 User Configured"
+	},
+	{
+		"id" : 77,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG8 Kullanıcı Tanımlı",
+		"text_2" : "DI8 User Configured"
+	},
+	{
+		"id" : 78,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG9 Kullanıcı Tanımlı",
+		"text_2" : "DI9 User Configured"
+	},
+	{
+		"id" : 79,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG10 Kullanıcı Tanımlı",
+		"text_2" : "DI10 User Configured"
+	},
+	{
+		"id" : 80,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG11 Kullanıcı Tanımlı",
+		"text_2" : "DI11 User Configured"
+	},
+	{
+		"id" : 81,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bakım Alarmı",
+		"text_2" : "Maintenance Oil Al."
+	},
+	{
+		"id" : 82,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hava Bakım Alarmı",
+		"text_2" : "Maintenance Air Al."
+	},
+	{
+		"id" : 83,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Bakım Alarmı",
+		"text_2" : "Maintenance Fuel Al."
+	},
+	{
+		"id" : 84,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Bakım Alarmı",
+		"text_2" : "Maint. Common Al."
+	},
+	{
+		"id" : 85,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Modu",
+		"text_2" : "Stop Mode"
+	},
+	{
+		"id" : 86,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Otomatik Mod",
+		"text_2" : "Auto Mode"
+	},
+	{
+		"id" : 87,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Manual Mod",
+		"text_2" : "Manual Mode"
+	},
+	{
+		"id" : 88,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Modu",
+		"text_2" : "Test Mode"
+	},
+	{
+		"id" : 89,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sesli Uyarı",
+		"text_2" : "Sound Warning"
+	},
+	{
+		"id" : 90,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMF Hazır",
+		"text_2" : "AMF Ready"
+	},
+	{
+		"id" : 91,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Isıtıcısı",
+		"text_2" : "Oil Heater"
+	},
+	{
+		"id" : 92,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU Çalışıyor",
+		"text_2" : "APU Running"
+	},
+	{
+		"id" : 93,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU Arızalı",
+		"text_2" : "APU Broken"
+	},
+	{
+		"id" : 94,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Muharebe Modu",
+		"text_2" : "War Mode"
+	},
+	{
+		"id" : 95,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU Kapatma",
+		"text_2" : "APU Shutdown"
+	},
+	{
+		"id" : 96,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1",
+		"text_2" : "DI1"
+	},
+	{
+		"id" : 97,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2",
+		"text_2" : "DI2"
+	},
+	{
+		"id" : 98,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3",
+		"text_2" : "DI3"
+	},
+	{
+		"id" : 99,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4",
+		"text_2" : "DI4"
+	},
+	{
+		"id" : 100,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5",
+		"text_2" : "DI5"
+	},
+	{
+		"id" : 101,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6",
+		"text_2" : "DI6"
+	},
+	{
+		"id" : 102,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7",
+		"text_2" : "DI7"
+	},
+	{
+		"id" : 103,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG8",
+		"text_2" : "DI8"
+	},
+	{
+		"id" : 104,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG9",
+		"text_2" : "DI9"
+	},
+	{
+		"id" : 105,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG10",
+		"text_2" : "DI10"
+	},
+	{
+		"id" : 106,
+		"pixel" : 100,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG11",
+		"text_2" : "DI11"
+	},
+	{
+		"id" : 107,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 108,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Acil Durdurma",
+		"text_2" : "Emergency Stop"
+	},
+	{
+		"id" : 109,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Çalıştır Durdur",
+		"text_2" : "Remote Start Stop"
+	},
+	{
+		"id" : 110,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Çalıştır Yükle",
+		"text_2" : "Remote Start Load"
+	},
+	{
+		"id" : 111,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Panel Kilidi",
+		"text_2" : "Panel Lock"
+	},
+	{
+		"id" : 112,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMF Bloklama",
+		"text_2" : "AMF Blocked"
+	},
+	{
+		"id" : 113,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Kont. Geribesleme",
+		"text_2" : "MCB Feedback"
+	},
+	{
+		"id" : 114,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Kont. Geribesleme",
+		"text_2" : "GCB Feedback"
+	},
+	{
+		"id" : 115,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AVR Voltaj Seçimi",
+		"text_2" : "AVR Voltage Selection"
+	},
+	{
+		"id" : 116,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Çıkış Butonu Sim.",
+		"text_2" : "Sim. Esc Button"
+	},
+	{
+		"id" : 117,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Oto. Butonu Sim.",
+		"text_2" : "Sim. Auto Button"
+	},
+	{
+		"id" : 118,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Aşağı Butonu Sim.",
+		"text_2" : "Sim. Down Button"
+	},
+	{
+		"id" : 119,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yukarı Butonu Sim.",
+		"text_2" : "Sim. Up Button"
+	},
+	{
+		"id" : 120,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlatma Butonu Sim.",
+		"text_2" : "Sim. Start Button"
+	},
+	{
+		"id" : 121,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Butonu Sim.",
+		"text_2" : "Sim. Stop Button"
+	},
+	{
+		"id" : 122,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Var Sim.",
+		"text_2" : "Sim. Mains Available"
+	},
+	{
+		"id" : 123,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Yok Sim.",
+		"text_2" : "Sim. Mains Unavailable"
+	},
+	{
+		"id" : 124,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sol Buton Sim.",
+		"text_2" : "Sim. Left Button"
+	},
+	{
+		"id" : 125,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sağ Buton Sim.",
+		"text_2" : "Sim. Right Button"
+	},
+	{
+		"id" : 126,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yük Butonu Sim.",
+		"text_2" : "Sim. Gen. Load Button"
+	},
+	{
+		"id" : 127,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Yük Butonu Sim.",
+		"text_2" : "Sim. Mains Load Button"
+	},
+	{
+		"id" : 128,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alarm Sust. Butonu Sim.",
+		"text_2" : "Sim. Alarm Button"
+	},
+	{
+		"id" : 129,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Man. Mod Butonu Sim.",
+		"text_2" : "Sim. Manual Button"
+	},
+	{
+		"id" : 130,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hakkında Butonu Sim.",
+		"text_2" : "Sim. Info Button"
+	},
+	{
+		"id" : 131,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alarm Pasif",
+		"text_2" : "Alarm Mute"
+	},
+	{
+		"id" : 132,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alarm Sıfırlama",
+		"text_2" : "Alarm Reset"
+	},
+	{
+		"id" : 133,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Muharebe Modu",
+		"text_2" : "War Mode"
+	},
+	{
+		"id" : 134,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Karartma Modu",
+		"text_2" : "Light Off Mode"
+	},
+	{
+		"id" : 135,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU Kapısı",
+		"text_2" : "APU Door"
+	},
+	{
+		"id" : 136,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı",
+		"text_2" : "User Configured"
+	},
+	{
+		"id" : 137,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 138,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Acil Durdurma",
+		"text_2" : "Emergency Stop"
+	},
+	{
+		"id" : 139,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Sen. Arz.",
+		"text_2" : "Oil Pressure OC"
+	},
+	{
+		"id" : 140,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Sıc. Sen. Arz.",
+		"text_2" : "Coolant Temp. OC"
+	},
+	{
+		"id" : 141,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Sev. Sen. Arz.",
+		"text_2" : "Fuel Level OC"
+	},
+	{
+		"id" : 142,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yedek Sıc. Sen. Arz.",
+		"text_2" : "Aux Temperature OC"
+	},
+	{
+		"id" : 143,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüksek Voltaj",
+		"text_2" : "Gen. Over Volt."
+	},
+	{
+		"id" : 144,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alçak Voltaj",
+		"text_2" : "Gen. Under Volt."
+	},
+	{
+		"id" : 145,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüksek Frekans",
+		"text_2" : "Gen. Over Freq."
+	},
+	{
+		"id" : 146,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alçak Frekans",
+		"text_2" : "Gen. Under Freq."
+	},
+	{
+		"id" : 147,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Yağ Basıncı",
+		"text_2" : "Low Oil Pressure"
+	},
+	{
+		"id" : 148,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Yağ Basıncı",
+		"text_2" : "High Oil Pressure"
+	},
+	{
+		"id" : 149,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Soğ. Sıcaklığı",
+		"text_2" : "High Cool Temp."
+	},
+	{
+		"id" : 150,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Yakıt Seviyesi",
+		"text_2" : "Low Fuel Level"
+	},
+	{
+		"id" : 151,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Yedek Sıcaklık",
+		"text_2" : "High Aux Temp."
+	},
+	{
+		"id" : 152,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Batarya Yüksek Voltaj",
+		"text_2" : "Battery Over Volt"
+	},
+	{
+		"id" : 153,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Batarya Alçak Voltaj",
+		"text_2" : "Battery Under Volt"
+	},
+	{
+		"id" : 154,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. Yüksek Voltaj",
+		"text_2" : "Charge Alt. OV"
+	},
+	{
+		"id" : 155,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. Alçak Voltaj",
+		"text_2" : "Charge Alt. UV"
+	},
+	{
+		"id" : 156,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 1",
+		"text_2" : "User Conf. 1"
+	},
+	{
+		"id" : 157,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 2",
+		"text_2" : "User Conf. 2"
+	},
+	{
+		"id" : 158,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 3",
+		"text_2" : "User Conf. 3"
+	},
+	{
+		"id" : 159,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 4",
+		"text_2" : "User Conf. 4"
+	},
+	{
+		"id" : 160,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 5",
+		"text_2" : "User Conf. 5"
+	},
+	{
+		"id" : 161,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 6",
+		"text_2" : "User Conf. 6"
+	},
+	{
+		"id" : 162,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 7",
+		"text_2" : "User Conf. 7"
+	},
+	{
+		"id" : 163,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 8",
+		"text_2" : "User Conf. 8"
+	},
+	{
+		"id" : 164,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 9",
+		"text_2" : "User Conf. 9"
+	},
+	{
+		"id" : 165,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 10",
+		"text_2" : "User Conf. 10"
+	},
+	{
+		"id" : 166,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı 11",
+		"text_2" : "User Conf. 11"
+	},
+	{
+		"id" : 167,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlatma Arızası",
+		"text_2" : "Fail To Start"
+	},
+	{
+		"id" : 168,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Hız Arızası",
+		"text_2" : "Fail ToStop Speed"
+	},
+	{
+		"id" : 169,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Alt. Arızası",
+		"text_2" : "Fail To Stop Alt"
+	},
+	{
+		"id" : 170,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durdurma Yağ Bas. Arz.",
+		"text_2" : "Fail To Stop Oil"
+	},
+	{
+		"id" : 171,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Bakım",
+		"text_2" : "Svcs. Common"
+	},
+	{
+		"id" : 172,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Değişim Bakımı",
+		"text_2" : "Svcs. Oil Chnge"
+	},
+	{
+		"id" : 173,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hava Filtre Bakımı",
+		"text_2" : "Svcs. Air Chnge"
+	},
+	{
+		"id" : 174,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Filtre Bakımı",
+		"text_2" : "Svcs. Fuel Chng"
+	},
+	{
+		"id" : 175,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Faz Sırası Hatası",
+		"text_2" : "Mains Phase Seq."
+	},
+	{
+		"id" : 176,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Faz Sırası Hatası",
+		"text_2" : "Gen. Phase Seq."
+	},
+	{
+		"id" : 177,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Genel Arıza",
+		"text_2" : "Ecu General"
+	},
+	{
+		"id" : 178,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Haberleşme Arızası",
+		"text_2" : "Ecu Comm. Error"
+	},
+	{
+		"id" : 179,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Servis Seviye1",
+		"text_2" : "Service Level1"
+	},
+	{
+		"id" : 180,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Servis Seviye2",
+		"text_2" : "Service Level2"
+	},
+	{
+		"id" : 181,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Geçiş",
+		"text_2" : "Synchronous Transition"
+	},
+	{
+		"id" : 182,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Yüksek Hız",
+		"text_2" : "Engine Overspeed"
+	},
+	{
+		"id" : 183,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Düşük Hız",
+		"text_2" : "Engine Underspeed"
+	},
+	{
+		"id" : 184,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüksek Akım",
+		"text_2" : "Gen. Over Current"
+	},
+	{
+		"id" : 185,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüksek Güç",
+		"text_2" : "Gen. Over Power"
+	},
+	{
+		"id" : 186,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU Kapısı Açık",
+		"text_2" : "APU Door Open"
+	},
+	{
+		"id" : 187,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RS485 Haberleşme Arz.",
+		"text_2" : "RS485 Comm. Error"
+	},
+	{
+		"id" : 188,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Canbus Haberleşme Arz.",
+		"text_2" : "Canbus Comm. Error"
+	},
+	{
+		"id" : 189,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ethernet Haberleşme Arz.",
+		"text_2" : "Ethernet Comm. Error"
+	},
+	{
+		"id" : 190,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 1",
+		"text_2" : "AMFL1 User Conf. 1"
+	},
+	{
+		"id" : 191,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 2",
+		"text_2" : "AMFL1 User Conf. 2"
+	},
+	{
+		"id" : 192,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 3",
+		"text_2" : "AMFL1 User Conf. 3"
+	},
+	{
+		"id" : 193,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 4",
+		"text_2" : "AMFL1 User Conf. 4"
+	},
+	{
+		"id" : 194,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 5",
+		"text_2" : "AMFL1 User Conf. 5"
+	},
+	{
+		"id" : 195,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 6",
+		"text_2" : "AMFL1 User Conf. 6"
+	},
+	{
+		"id" : 196,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 7",
+		"text_2" : "AMFL1 User Conf. 7"
+	},
+	{
+		"id" : 197,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 8",
+		"text_2" : "AMFL1 User Conf. 8"
+	},
+	{
+		"id" : 198,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 9",
+		"text_2" : "AMFL1 User Conf. 9"
+	},
+	{
+		"id" : 199,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 10",
+		"text_2" : "AMFL1 User Conf. 10"
+	},
+	{
+		"id" : 200,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMFL1 Kullanıcı Tanımlı 11",
+		"text_2" : "AMFL1 User Conf. 11"
+	},
+	{
+		"id" : 201,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 202,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Mevcut",
+		"text_2" : "Mains Okey"
+	},
+	{
+		"id" : 203,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Yüksek Hata",
+		"text_2" : "Mains High Fail"
+	},
+	{
+		"id" : 204,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Alçak Hata",
+		"text_2" : "Mains Low Fail"
+	},
+	{
+		"id" : 205,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Manuel Başlatma",
+		"text_2" : "Manuel Start"
+	},
+	{
+		"id" : 206,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Başlatma",
+		"text_2" : "Remote Start"
+	},
+	{
+		"id" : 207,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMF Başlatma",
+		"text_2" : "AMF Start"
+	},
+	{
+		"id" : 208,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Manuel Durdurma",
+		"text_2" : "Manuel Stop"
+	},
+	{
+		"id" : 209,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzaktan Durdurma",
+		"text_2" : "Remote Stop"
+	},
+	{
+		"id" : 210,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AMF Durdurma",
+		"text_2" : "AMF Stop"
+	},
+	{
+		"id" : 211,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Otomatik Mod Aktif",
+		"text_2" : "Auto On"
+	},
+	{
+		"id" : 212,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Otomatik Mod Pasif",
+		"text_2" : "Auto Off"
+	},
+	{
+		"id" : 213,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Cihaz Başlatıldı",
+		"text_2" : "Power On"
+	},
+	{
+		"id" : 214,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ada Modu",
+		"text_2" : "Island Oper."
+	},
+	{
+		"id" : 215,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Savaş Modu Aktif",
+		"text_2" : "War Mode On"
+	},
+	{
+		"id" : 216,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Savaş Modu Pasif",
+		"text_2" : "War Mode Off"
+	},
+	{
+		"id" : 217,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Bakım",
+		"text_2" : "Common"
+	},
+	{
+		"id" : 218,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Değişim",
+		"text_2" : "Oil Change"
+	},
+	{
+		"id" : 219,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hava Filtre Değişim",
+		"text_2" : "Air Filter"
+	},
+	{
+		"id" : 220,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Filtre Değişim",
+		"text_2" : "Fuel Change"
+	},
+	{
+		"id" : 221,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sıfırlandı",
+		"text_2" : "Clear"
+	},
+	{
+		"id" : 222,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "",
+		"text_2" : ""
+	},
+	{
+		"id" : 223,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "sn",
+		"text_2" : "sec"
+	},
+	{
+		"id" : 224,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "V",
+		"text_2" : "V"
+	},
+	{
+		"id" : 225,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hz",
+		"text_2" : "Hz"
+	},
+	{
+		"id" : 226,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "rpm",
+		"text_2" : "rpm"
+	},
+	{
+		"id" : 227,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "bar",
+		"text_2" : "bar"
+	},
+	{
+		"id" : 228,
+		"pixel" : 25,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "psi",
+		"text_2" : "psi"
+	},
+	{
+		"id" : 229,
+		"pixel" : 15,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "°C",
+		"text_2" : "°C"
+	},
+	{
+		"id" : 230,
+		"pixel" : 15,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "%",
+		"text_2" : "%"
+	},
+	{
+		"id" : 231,
+		"pixel" : 15,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "°F",
+		"text_2" : "°F"
+	},
+	{
+		"id" : 232,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Volt. Alarm Sev.",
+		"text_2" : "OV Alarm Level"
+	},
+	{
+		"id" : 233,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alçak Volt. Alarm Sev.",
+		"text_2" : "UV Alarm Level"
+	},
+	{
+		"id" : 234,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Frek. Alarm Sev.",
+		"text_2" : "OF Alarm Level"
+	},
+	{
+		"id" : 235,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alçak Frek. Alarm Sev.",
+		"text_2" : "UF Alarm Level"
+	},
+	{
+		"id" : 236,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hata Gecikmesi",
+		"text_2" : "Fail Delay"
+	},
+	{
+		"id" : 237,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Stabilizasyon Süresi",
+		"text_2" : "Return Delay"
+	},
+	{
+		"id" : 238,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Nominal Voltaj",
+		"text_2" : "Nominal Voltage"
+	},
+	{
+		"id" : 239,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Volt. Alarm Sev.",
+		"text_2" : "OV Alarm Level"
+	},
+	{
+		"id" : 240,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alçak Volt. Alarm Sev.",
+		"text_2" : "UV Alarm Level"
+	},
+	{
+		"id" : 241,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Nominal Frekans",
+		"text_2" : "Nominal Frequency"
+	},
+	{
+		"id" : 242,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüksek Frek. Alarm Sev.",
+		"text_2" : "OF Alarm Level"
+	},
+	{
+		"id" : 243,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alçak Frek. Alarm Sev.",
+		"text_2" : "UF Alarm Level"
+	},
+	{
+		"id" : 244,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bağlantı Tipi",
+		"text_2" : "Connection Type"
+	},
+	{
+		"id" : 245,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Tipi",
+		"text_2" : "Engine Type"
+	},
+	{
+		"id" : 246,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma Aksiyonu",
+		"text_2" : "Prestart Action"
+	},
+	{
+		"id" : 247,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Düşük Alarm Sev.",
+		"text_2" : "Low Fuel Level"
+	},
+	{
+		"id" : 248,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Düşük Pompa Sev.",
+		"text_2" : "Fuel Pump Low"
+	},
+	{
+		"id" : 249,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Yüksek Pompa Sev.",
+		"text_2" : "Fuel Pump High"
+	},
+	{
+		"id" : 250,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlatma Gecikmesi",
+		"text_2" : "Start Delay"
+	},
+	{
+		"id" : 251,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma Zamanı",
+		"text_2" : "Prestart Time"
+	},
+	{
+		"id" : 252,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jikle Süresi",
+		"text_2" : "Choke Time"
+	},
+	{
+		"id" : 253,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Süresi",
+		"text_2" : "Cooling Time"
+	},
+	{
+		"id" : 254,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Parametreler",
+		"text_2" : "Parameters"
+	},
+	{
+		"id" : 255,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "PARAMETRELER",
+		"text_2" : "PARAMETERS"
+	},
+	{
+		"id" : 256,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Olaylar-Alarmlar",
+		"text_2" : "Events-Alarms"
+	},
+	{
+		"id" : 257,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "OLAYLAR-ALARMLAR",
+		"text_2" : "EVENTS-ALARMS"
+	},
+	{
+		"id" : 258,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bakım",
+		"text_2" : "Maintenance"
+	},
+	{
+		"id" : 259,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "BAKIM",
+		"text_2" : "MAINTENANCE"
+	},
+	{
+		"id" : 260,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Digital G/Ç",
+		"text_2" : "Digital I/O"
+	},
+	{
+		"id" : 261,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DIGITAL G/Ç",
+		"text_2" : "DIGITAL I/O"
+	},
+	{
+		"id" : 262,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Panel Ayarları",
+		"text_2" : "Panel Settings"
+	},
+	{
+		"id" : 263,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "PANEL AYARLARI",
+		"text_2" : "PANEL SETTINGS"
+	},
+	{
+		"id" : 264,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke",
+		"text_2" : "Mains"
+	},
+	{
+		"id" : 265,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jenerator",
+		"text_2" : "Generator"
+	},
+	{
+		"id" : 266,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor",
+		"text_2" : "Engine"
+	},
+	{
+		"id" : 267,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Param No Giriş",
+		"text_2" : "General"
+	},
+	{
+		"id" : 268,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hazır",
+		"text_2" : "Ready"
+	},
+	{
+		"id" : 269,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlama Gecikmesi",
+		"text_2" : "Start Delay"
+	},
+	{
+		"id" : 270,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sesli Uyarı",
+		"text_2" : "Sound Warn."
+	},
+	{
+		"id" : 271,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma",
+		"text_2" : "Prestart"
+	},
+	{
+		"id" : 272,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Marşlanıyor",
+		"text_2" : "Cranking"
+	},
+	{
+		"id" : 273,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Marş Bekleme",
+		"text_2" : "Crank Pause"
+	},
+	{
+		"id" : 274,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Çalışıyor",
+		"text_2" : "Running"
+	},
+	{
+		"id" : 275,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yükte",
+		"text_2" : "Loaded"
+	},
+	{
+		"id" : 276,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutuluyor",
+		"text_2" : "Cooling"
+	},
+	{
+		"id" : 277,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Transfer",
+		"text_2" : "Transfer"
+	},
+	{
+		"id" : 278,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durduruluyor",
+		"text_2" : "Stopping"
+	},
+	{
+		"id" : 279,
+		"pixel" : 150,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Prm No:",
+		"text_2" : "Prm No:"
+	},
+	{
+		"id" : 280,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Parametre Kaydediliyor",
+		"text_2" : "Saving Parameter..."
+	},
+	{
+		"id" : 281,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Param. Maks. Sınırı Geçti",
+		"text_2" : "Parameter Over Max Value"
+	},
+	{
+		"id" : 282,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Parametre Min. Sınır Altında",
+		"text_2" : "Parameter Under Min Value"
+	},
+	{
+		"id" : 283,
+		"pixel" : 60,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MIN",
+		"text_2" : "MIN"
+	},
+	{
+		"id" : 284,
+		"pixel" : 60,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAKS",
+		"text_2" : "MAX"
+	},
+	{
+		"id" : 285,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "",
+		"text_2" : ""
+	},
+	{
+		"id" : 286,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yanlış Şifre",
+		"text_2" : "Wrong Password"
+	},
+	{
+		"id" : 287,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Sev. Onayı",
+		"text_2" : "User Level Login"
+	},
+	{
+		"id" : 288,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Servis Sev. Onayı",
+		"text_2" : "Service Level Login"
+	},
+	{
+		"id" : 289,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Fabrika Sev. Onayı",
+		"text_2" : "Factory Level Login"
+	},
+	{
+		"id" : 290,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Üretici Sev. Onayı",
+		"text_2" : "Manufacter Level Login"
+	},
+	{
+		"id" : 291,
+		"pixel" : 160,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "SEV1",
+		"text_2" : "LVL1"
+	},
+	{
+		"id" : 292,
+		"pixel" : 160,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "SEV2",
+		"text_2" : "LVL2"
+	},
+	{
+		"id" : 293,
+		"pixel" : 160,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "SEV3",
+		"text_2" : "LVL3"
+	},
+	{
+		"id" : 294,
+		"pixel" : 64,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Saat",
+		"text_2" : "Hour"
+	},
+	{
+		"id" : 295,
+		"pixel" : 64,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Dk.",
+		"text_2" : "Min"
+	},
+	{
+		"id" : 296,
+		"pixel" : 64,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yıl",
+		"text_2" : "Year"
+	},
+	{
+		"id" : 297,
+		"pixel" : 64,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ay",
+		"text_2" : "Month"
+	},
+	{
+		"id" : 298,
+		"pixel" : 64,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Gün",
+		"text_2" : "Day"
+	},
+	{
+		"id" : 299,
+		"pixel" : 320,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Rtc Ayarları",
+		"text_2" : "Rtc Setting"
+	},
+	{
+		"id" : 300,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Dil",
+		"text_2" : "Language"
+	},
+	{
+		"id" : 301,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "RTC Ayarları",
+		"text_2" : "RTC Settings"
+	},
+	{
+		"id" : 302,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ethernet",
+		"text_2" : "Ethernet"
+	},
+	{
+		"id" : 303,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Servis",
+		"text_2" : "Service"
+	},
+	{
+		"id" : 304,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Cihaz Bilgisi",
+		"text_2" : "Device Information"
+	},
+	{
+		"id" : 305,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Çıkış",
+		"text_2" : "Logout"
+	},
+	{
+		"id" : 306,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "İngilizce",
+		"text_2" : "English"
+	},
+	{
+		"id" : 307,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Tanımlı",
+		"text_2" : "Custom"
+	},
+	{
+		"id" : 308,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU ön ısıtma devrede",
+		"text_2" : "APU is preheating"
+	},
+	{
+		"id" : 309,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "APU ön ısıtma gerekli",
+		"text_2" : "APU needs preheating"
+	},
+	{
+		"id" : 704,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yazılım Versiyonu",
+		"text_2" : "Software Version"
+	},
+	{
+		"id" : 705,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Donanım Versiyonu",
+		"text_2" : "Hardware Version"
+	},
+	{
+		"id" : 706,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bootloader Versiyonu",
+		"text_2" : "Bootloader Version"
+	},
+	{
+		"id" : 707,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TFT Sürücü Versiyonu",
+		"text_2" : "TFT Driver Version"
+	},
+	{
+		"id" : 708,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Üretim Tarihi",
+		"text_2" : "Manufacture Date"
+	},
+	{
+		"id" : 709,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hammadde Numarası",
+		"text_2" : "Raw Material No."
+	},
+	{
+		"id" : 710,
+		"pixel" : 230,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sıra No.",
+		"text_2" : "Sequence No."
+	},
+	{
+		"id" : 711,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Top. Çalış. Zamanı",
+		"text_2" : "Total Working Time"
+	},
+	{
+		"id" : 712,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Basıncı",
+		"text_2" : "Oil Pressure"
+	},
+	{
+		"id" : 713,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Sıc.",
+		"text_2" : "Coolant Temp."
+	},
+	{
+		"id" : 714,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Seviye",
+		"text_2" : "Fuel Level"
+	},
+	{
+		"id" : 715,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yedek Sıcaklık",
+		"text_2" : "Aux Temp."
+	},
+	{
+		"id" : 716,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alternatörü",
+		"text_2" : "Charge Alt."
+	},
+	{
+		"id" : 717,
+		"pixel" : 180,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Batarya",
+		"text_2" : "Battery"
+	},
+	{
+		"id" : 718,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alarm",
+		"text_2" : "Alarm"
+	},
+	{
+		"id" : 719,
+		"pixel" : 225,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlatılıyor",
+		"text_2" : "Starting"
+	},
+	{
+		"id" : 720,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Güç Özeti",
+		"text_2" : "Power Summary"
+	},
+	{
+		"id" : 310,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Üretici Şifresi",
+		"text_2" : "Manufacturer Password"
+	},
+	{
+		"id" : 311,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Fabrika Şifresi",
+		"text_2" : "Factory Password"
+	},
+	{
+		"id" : 312,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Servis Şifresi",
+		"text_2" : "Service Password"
+	},
+	{
+		"id" : 313,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Kullanıcı Şifresi",
+		"text_2" : "User Password"
+	},
+	{
+		"id" : 314,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Parametre Kayıt",
+		"text_2" : "Parameter Save"
+	},
+	{
+		"id" : 315,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Dil",
+		"text_2" : "Language"
+	},
+	{
+		"id" : 316,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Parametre Fab. Ayar. Dönüş",
+		"text_2" : "Parameter Return Fact."
+	},
+	{
+		"id" : 317,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hata Sıfırlama",
+		"text_2" : "Fault Clear"
+	},
+	{
+		"id" : 318,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Zamanı Ayarlama",
+		"text_2" : "Motor Time Setting"
+	},
+	{
+		"id" : 319,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Menu Zaman Aşımı",
+		"text_2" : "Menu Timeout"
+	},
+	{
+		"id" : 320,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Menu Çıkış",
+		"text_2" : "Menu Logout"
+	},
+	{
+		"id" : 321,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Dinamik Şifre Tipi",
+		"text_2" : "Dynamic Password Type"
+	},
+	{
+		"id" : 322,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Delay Task Onesec",
+		"text_2" : "Delay Task Onesec"
+	},
+	{
+		"id" : 323,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Modu Açık/Kapalı",
+		"text_2" : "Test Mode On/Off"
+	},
+	{
+		"id" : 324,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test İsmi",
+		"text_2" : "Test Name"
+	},
+	{
+		"id" : 325,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Aşaması",
+		"text_2" : "Test Stage"
+	},
+	{
+		"id" : 326,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Girişi",
+		"text_2" : "Test Input"
+	},
+	{
+		"id" : 327,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Sonucu",
+		"text_2" : "Test Result"
+	},
+	{
+		"id" : 328,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yazılım Güncelleme",
+		"text_2" : "Software Update"
+	},
+	{
+		"id" : 329,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzak Komuta Butonları",
+		"text_2" : "Remote Buttons"
+	},
+	{
+		"id" : 330,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Uzak Komuta Durumları",
+		"text_2" : "Remote Status"
+	},
+	{
+		"id" : 331,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Kapalı Mod Seçimi",
+		"text_2" : "Mains Off Mode Selection"
+	},
+	{
+		"id" : 332,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Yüks. Vol. Alarm Sev.",
+		"text_2" : "Mains OV Alarm Level"
+	},
+	{
+		"id" : 333,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Seb. Alç. Vol. Alarm Sev.",
+		"text_2" : "Mains UV Alarm Level"
+	},
+	{
+		"id" : 334,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Yüks. Frek. Alarm Sev.",
+		"text_2" : "Mains OF Alarm Level"
+	},
+	{
+		"id" : 335,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Alç. Frek. Alarm Sev.",
+		"text_2" : "Mains UF Alarm Level"
+	},
+	{
+		"id" : 336,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. L1 Vol. Kalib. Değ.",
+		"text_2" : "Mains L1 Voltage Cal. Const."
+	},
+	{
+		"id" : 337,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. L2 Vol. Kalib. Değ.",
+		"text_2" : "Mains L2 Voltage Cal. Const."
+	},
+	{
+		"id" : 338,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. L3 Vol. Kalib. Değ.",
+		"text_2" : "Mains L3 Voltage Cal. Const."
+	},
+	{
+		"id" : 339,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Frekans Kalib. Değ.",
+		"text_2" : "Mains Frequency Cal. Const."
+	},
+	{
+		"id" : 340,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Faz Sır. Kont. Aks.",
+		"text_2" : "Mains Phase Seq. Ctrl. Actn."
+	},
+	{
+		"id" : 341,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Bağlantı Tipi",
+		"text_2" : "Mains Connection Type"
+	},
+	{
+		"id" : 342,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alternatör Seçimi",
+		"text_2" : "Alternator Fitted"
+	},
+	{
+		"id" : 343,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Alternatör Kutup Sayısı",
+		"text_2" : "Alternator Poles"
+	},
+	{
+		"id" : 344,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Nominal Gerilim",
+		"text_2" : "Nominal Voltage"
+	},
+	{
+		"id" : 345,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yükleme Gerilimi",
+		"text_2" : "Loading Voltage"
+	},
+	{
+		"id" : 346,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Vol. Alarm Aks.",
+		"text_2" : "Gen. OV Alarm Action"
+	},
+	{
+		"id" : 347,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Vol. Alarm Sev.",
+		"text_2" : "Gen. OV Alarm Level"
+	},
+	{
+		"id" : 348,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Vol. Alarm Aks.",
+		"text_2" : "Gen. UV Alarm Action"
+	},
+	{
+		"id" : 349,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Vol. Alarm Sev.",
+		"text_2" : "Gen. UV Alarm Level"
+	},
+	{
+		"id" : 350,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Nominal Frekans",
+		"text_2" : "Nominal Frequency"
+	},
+	{
+		"id" : 351,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yükleme Frekansı",
+		"text_2" : "Loading Frequency"
+	},
+	{
+		"id" : 352,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Frek. Alarm Aks.",
+		"text_2" : "Gen. OF Alarm Action"
+	},
+	{
+		"id" : 353,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Frek. Alarm Sev.",
+		"text_2" : "Gen. OF Alarm Level"
+	},
+	{
+		"id" : 354,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Frek. Alarm Aks.",
+		"text_2" : "Gen. UF Alarm Action"
+	},
+	{
+		"id" : 355,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Frek. Alarm Sev.",
+		"text_2" : "Gen. UF Alarm Level"
+	},
+	{
+		"id" : 356,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L1 Vol. Kalib. Değ.",
+		"text_2" : "Gen. L1 Voltage Cal. Const."
+	},
+	{
+		"id" : 357,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L2 Vol. Kalib. Değ.",
+		"text_2" : "Gen. L2 Voltage Cal. Const."
+	},
+	{
+		"id" : 358,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L3 Vol. Kalib. Değ.",
+		"text_2" : "Gen. L3 Voltage Cal. Const."
+	},
+	{
+		"id" : 359,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Frekans Kalib. Değ.",
+		"text_2" : "Gen. Frequency Cal. Const."
+	},
+	{
+		"id" : 360,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Faz Sır. Kont. Aks.",
+		"text_2" : "Gen. Phase Seq. Ctrl. Actn."
+	},
+	{
+		"id" : 361,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Akım Alarm Aks.",
+		"text_2" : "Gen. OC Alarm Action"
+	},
+	{
+		"id" : 362,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Akım Alarm Sev.",
+		"text_2" : "Gen. OC Alarm Level"
+	},
+	{
+		"id" : 363,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Güç Alarm Aks.",
+		"text_2" : "Gen. OP Alarm Action"
+	},
+	{
+		"id" : 364,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Güç Alarm Sev.",
+		"text_2" : "Gen. OP Alarm Level"
+	},
+	{
+		"id" : 365,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L1 Akım Kalib. Değ.",
+		"text_2" : "Gen. L1 Current Cal. Const."
+	},
+	{
+		"id" : 366,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L2 Akım Kalib. Değ.",
+		"text_2" : "Gen. L2 Current Cal. Const."
+	},
+	{
+		"id" : 367,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. L3 Akım Kalib. Değ.",
+		"text_2" : "Gen. L3 Current Cal. Const."
+	},
+	{
+		"id" : 368,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Akım Trafosu Oranı",
+		"text_2" : "Gen. Cur. Transformer Ratio"
+	},
+	{
+		"id" : 369,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Geçiş Seçimi",
+		"text_2" : "Sync. Transition Selection"
+	},
+	{
+		"id" : 370,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Frekans Farkı",
+		"text_2" : "Sync. Frequency Difference"
+	},
+	{
+		"id" : 371,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Maks. Frek. Farkı",
+		"text_2" : "Sync. Max. Freq. Difference"
+	},
+	{
+		"id" : 372,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Maks. Vol. Farkı",
+		"text_2" : "Sync. Max. Volt. Difference"
+	},
+	{
+		"id" : 373,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Geçiş Alarm Aks.",
+		"text_2" : "Sync. Trans. Alarm Action"
+	},
+	{
+		"id" : 374,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jeneratör Bağlantı Tipi",
+		"text_2" : "Generator Connection Type"
+	},
+	{
+		"id" : 375,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Tipi",
+		"text_2" : "Engine Type"
+	},
+	{
+		"id" : 376,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Modül Fonksiyonu",
+		"text_2" : "Module Function"
+	},
+	{
+		"id" : 377,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Mod Fonksiyonu",
+		"text_2" : "Mode Function"
+	},
+	{
+		"id" : 378,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma Aksiyonu",
+		"text_2" : "Prestart Action"
+	},
+	{
+		"id" : 379,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Frek. Marş Kes. Sev.",
+		"text_2" : "St. Cut Lvl. From Gen. Freq."
+	},
+	{
+		"id" : 380,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Hız. Marş Kes. Sev.",
+		"text_2" : "St. Cut Lvl. From Eng. Spd."
+	},
+	{
+		"id" : 381,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Vol. Marş Kes. Sev.",
+		"text_2" : "St. Cut Lvl. From Gen. Volt."
+	},
+	{
+		"id" : 382,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. Marş Kes. Sev.",
+		"text_2" : "St. Cut Lvl. From Chg. Alt."
+	},
+	{
+		"id" : 383,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Marş Kes. Sev.",
+		"text_2" : "St. Cut Lvl. From Oil Pr."
+	},
+	{
+		"id" : 384,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Maks. Marş Deneme Sayısı",
+		"text_2" : "Max. Num. Of Crank Attempts"
+	},
+	{
+		"id" : 385,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Korna Çıkışı Seçimi",
+		"text_2" : "Intermittent Horn Output"
+	},
+	{
+		"id" : 386,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Basıncı Birimi",
+		"text_2" : "Oil Pressure Unit"
+	},
+	{
+		"id" : 387,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düş. Yağ Bas. Alarm Aks.",
+		"text_2" : "Low Oil Pr. Alarm Actn."
+	},
+	{
+		"id" : 388,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düş. Yağ Bas. Alarm Sev.",
+		"text_2" : "Low Oil Pr. Alarm Lvl."
+	},
+	{
+		"id" : 389,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Sen. Kopma Aks.",
+		"text_2" : "Oil Pr. Sen. OC Actn."
+	},
+	{
+		"id" : 390,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Sıcaklık Birimi",
+		"text_2" : "Temperature Unit"
+	},
+	{
+		"id" : 391,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Soğ. Sıc. Alarm Aks.",
+		"text_2" : "HI Cool. Temp. Alarm Actn."
+	},
+	{
+		"id" : 392,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Soğ. Sıc. Alarm Sev.",
+		"text_2" : "HI Cool. Temp. Alarm Lvl."
+	},
+	{
+		"id" : 393,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Sıc. Sen. Kopma Aks.",
+		"text_2" : "Cool. Temp. Sen. OC Actn."
+	},
+	{
+		"id" : 394,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düş. Yakıt Sev. Alarm Aks.",
+		"text_2" : "Low Fuel Lvl. Alarm Actn."
+	},
+	{
+		"id" : 395,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düş. Yakıt Sev. Alarm Sev.",
+		"text_2" : "Low Fuel Lvl. Alarm Lvl."
+	},
+	{
+		"id" : 396,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Sev. Sen. Kopma Aks.",
+		"text_2" : "Fuel Lvl. Sen. OC Actn."
+	},
+	{
+		"id" : 397,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Pompası Alt Sev.",
+		"text_2" : "Fuel Pump Low Limit"
+	},
+	{
+		"id" : 398,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Pompası Üst Sev.",
+		"text_2" : "Fuel Pump High Limit"
+	},
+	{
+		"id" : 399,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Fanı Alt Sev.",
+		"text_2" : "Cool. Fan Low Limit"
+	},
+	{
+		"id" : 400,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Fanı Üst Sev.",
+		"text_2" : "Cool. Fan High Limit"
+	},
+	{
+		"id" : 401,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Nominal Batarya Voltajı",
+		"text_2" : "Nominal Battery Voltage"
+	},
+	{
+		"id" : 402,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Yüks. Vol. Alarm Aks.",
+		"text_2" : "Battery OV Alarm Actn."
+	},
+	{
+		"id" : 403,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Yüks. Vol. Alarm Sev.",
+		"text_2" : "Battery OV Alarm Lvl."
+	},
+	{
+		"id" : 404,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Alç. Vol. Alarm Aks.",
+		"text_2" : "Battery UV Alarm Actn."
+	},
+	{
+		"id" : 405,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Alç. Vol. Alarm Sev.",
+		"text_2" : "Battery UV Alarm Lvl."
+	},
+	{
+		"id" : 406,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Voltaj Kalib. Değ.",
+		"text_2" : "Battery Voltage Cal. Const."
+	},
+	{
+		"id" : 407,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. YV Alarm Aks.",
+		"text_2" : "Chg. Alt. OV Alarm Actn."
+	},
+	{
+		"id" : 408,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. YV Alarm Sev.",
+		"text_2" : "Chg. Alt. OV Alarm Lvl."
+	},
+	{
+		"id" : 409,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. AV Alarm Aks.",
+		"text_2" : "Chg. Alt. UV Alarm Actn."
+	},
+	{
+		"id" : 410,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. AV Alarm Sev.",
+		"text_2" : "Chg. Alt. UV Alarm Lvl."
+	},
+	{
+		"id" : 411,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. Vol. Kalib. Değ.",
+		"text_2" : "Chg. Alt. Vol. Cal. Const."
+	},
+	{
+		"id" : 412,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Yüks. Hız Alarm Aks.",
+		"text_2" : "Engine OS Alarm Actn."
+	},
+	{
+		"id" : 413,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Yüks. Hız Alarm Sev.",
+		"text_2" : "Engine OS Alarm Lvl."
+	},
+	{
+		"id" : 414,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Alç. Hız Alarm Aks.",
+		"text_2" : "Engine US Alarm Actn."
+	},
+	{
+		"id" : 415,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Alç. Hız Alarm Sev.",
+		"text_2" : "Engine US Alarm Lvl."
+	},
+	{
+		"id" : 416,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Bakım Alarm Aks.",
+		"text_2" : "Maint. Common Alarm Actn."
+	},
+	{
+		"id" : 417,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bakımı Alarm Aks.",
+		"text_2" : "Maint. Oil Alarm Actn."
+	},
+	{
+		"id" : 418,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hava Bakımı Alarm Aks.",
+		"text_2" : "Maint. Air Alarm Actn."
+	},
+	{
+		"id" : 419,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Bakımı Alarm Aks.",
+		"text_2" : "Maint. Fuel Alarm Actn."
+	},
+	{
+		"id" : 420,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Güç Tasarruf Modu",
+		"text_2" : "Power Save Mode"
+	},
+	{
+		"id" : 421,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Volan Diş Sayısı",
+		"text_2" : "Flywheel Teeth"
+	},
+	{
+		"id" : 422,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Test Modu Yük Seçimi",
+		"text_2" : "Test Mode Load Selection"
+	},
+	{
+		"id" : 423,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Isıt. Sıc. Alt Sev.",
+		"text_2" : "Oil Heater Low Temp. Limit"
+	},
+	{
+		"id" : 424,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Isıt. Sıc. Üst Sev.",
+		"text_2" : "Oil Heater High Temp. Limit"
+	},
+	{
+		"id" : 425,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Yed. Sıc. Alarm Aks.",
+		"text_2" : "High Aux Temp. Alarm Actn."
+	},
+	{
+		"id" : 426,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Yed. Sıc. Alarm Sev.",
+		"text_2" : "High Aux Temp. Alarm Lvl."
+	},
+	{
+		"id" : 427,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yedek Sıc. Sen. Kopma Aks.",
+		"text_2" : "Aux Temp. Sen. OC Actn."
+	},
+	{
+		"id" : 428,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "İzole 0-10V Kalib. Değ.",
+		"text_2" : "Isolated 0-10V Cal. Const."
+	},
+	{
+		"id" : 429,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Alarm Gecikmesi",
+		"text_2" : "Mains Fail Delay"
+	},
+	{
+		"id" : 430,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Kont. Kapatma Puls Sür.",
+		"text_2" : "MCB Close Out. Pulse Time"
+	},
+	{
+		"id" : 431,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Kont. Açma Puls Sür.",
+		"text_2" : "MCB Open Out. Pulse Time"
+	},
+	{
+		"id" : 432,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şeb. Faz Sırası Hata Gec.",
+		"text_2" : "Mains Ph. Seq. Fail. Dly."
+	},
+	{
+		"id" : 433,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Vol. Alarm Gec.",
+		"text_2" : "Gen. OV Alarm Delay"
+	},
+	{
+		"id" : 434,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Vol. Alarm Gec.",
+		"text_2" : "Gen. UV Alarm Delay"
+	},
+	{
+		"id" : 435,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Frek. Alarm Gec.",
+		"text_2" : "Gen. OF Alarm Delay"
+	},
+	{
+		"id" : 436,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Alç. Frek. Alarm Gec.",
+		"text_2" : "Gen. UF Alarm. Delay"
+	},
+	{
+		"id" : 437,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Kont. Kapatma Puls Sür.",
+		"text_2" : "GCB Close Out. Pulse Time"
+	},
+	{
+		"id" : 438,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Kont. Açma Puls Sür.",
+		"text_2" : "GCB Open Out. Pulse Time"
+	},
+	{
+		"id" : 439,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Faz Sırası Hata Gec.",
+		"text_2" : "Gen. Ph. Seq. Fail. Dly."
+	},
+	{
+		"id" : 440,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Akım Alarm Gec.",
+		"text_2" : "Gen. OC Alarm Delay"
+	},
+	{
+		"id" : 441,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jen. Yüks. Güç Alarm Gec.",
+		"text_2" : "Gen. OP Alarm Delay"
+	},
+	{
+		"id" : 442,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Maks. Bekl. Zamanı",
+		"text_2" : "Sync. Max. Waiting Tİme"
+	},
+	{
+		"id" : 443,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Geçiş Zamanı",
+		"text_2" : "Sync. Transition Time"
+	},
+	{
+		"id" : 444,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Kontaktör Gec.",
+		"text_2" : "Sync. Contactor Delay"
+	},
+	{
+		"id" : 445,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Senkron Geçiş Alarm Gec.",
+		"text_2" : "Sync. Trans. Alarm Delay"
+	},
+	{
+		"id" : 446,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Başlatma Gecikmesi",
+		"text_2" : "Start Delay"
+	},
+	{
+		"id" : 447,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şebeke Stab. Süresi",
+		"text_2" : "Mains Return Delay"
+	},
+	{
+		"id" : 448,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Ön Başlatma Süresi",
+		"text_2" : "Prestart Time"
+	},
+	{
+		"id" : 449,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Maks. Marş Süresi",
+		"text_2" : "Max. Cranking Time"
+	},
+	{
+		"id" : 450,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Marş Ara Bekl. Süresi",
+		"text_2" : "Cranking Wait Time"
+	},
+	{
+		"id" : 451,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Arıza Kontrol Gecikm.",
+		"text_2" : "Safety On Delay"
+	},
+	{
+		"id" : 452,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Jikle Süresi",
+		"text_2" : "Choke Timer"
+	},
+	{
+		"id" : 453,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Marş Kes. Gec.",
+		"text_2" : "St. Cut Oil Pr. Delay"
+	},
+	{
+		"id" : 454,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Gaz Ateşleme Gecikm.",
+		"text_2" : "Gas On Delay"
+	},
+	{
+		"id" : 455,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Gaz Ateşl. Kap. Gecikm.",
+		"text_2" : "Gas Ignition Off Delay"
+	},
+	{
+		"id" : 456,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Durd. Solenoidi Süresi",
+		"text_2" : "Stop Solenoid Timer"
+	},
+	{
+		"id" : 457,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Isınma Süresi",
+		"text_2" : "Warm Up Time"
+	},
+	{
+		"id" : 458,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğutma Süresi",
+		"text_2" : "Cooling Time"
+	},
+	{
+		"id" : 459,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Fanı Durma Gecikm.",
+		"text_2" : "Cooling Fan Stop Delay"
+	},
+	{
+		"id" : 460,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Transfer Süresi",
+		"text_2" : "Transfer Time"
+	},
+	{
+		"id" : 461,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Korna Süresi",
+		"text_2" : "Horn Time"
+	},
+	{
+		"id" : 462,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Horn Int. On Time",
+		"text_2" : "Horn Int. On Time"
+	},
+	{
+		"id" : 463,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Horn Int. Off Time",
+		"text_2" : "Horn Int. Off Time"
+	},
+	{
+		"id" : 464,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düşük Yag. Bas. Alarm Gec.",
+		"text_2" : "Low Oil Pr. Alarm Dly."
+	},
+	{
+		"id" : 465,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yag. Bas. Sen. Kopma Gec.",
+		"text_2" : "Oil Pr. Sen. OC Dly."
+	},
+	{
+		"id" : 466,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Soğ. Sıc. Alarm Gec.",
+		"text_2" : "HI Cool. Temp. Alarm Dly."
+	},
+	{
+		"id" : 467,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Sıc. Sen. Kopma Gec.",
+		"text_2" : "Cool. Temp. Sen. OC Dly."
+	},
+	{
+		"id" : 468,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Düsük Yak. Sev. Alarm Gec.",
+		"text_2" : "Low Fuel Lvl. Alarm Dly."
+	},
+	{
+		"id" : 469,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yak. Sev. Sen. Kopma Gec.",
+		"text_2" : "Fuel Lvl. Sen. OC Dly."
+	},
+	{
+		"id" : 470,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Yüks. Vol. Alarm Gec.",
+		"text_2" : "Battery OV Alarm Dly."
+	},
+	{
+		"id" : 471,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bat. Alç. Vol. Alarm Gec.",
+		"text_2" : "Battery UV Alarm Dly."
+	},
+	{
+		"id" : 472,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. YV Alarm Gec.",
+		"text_2" : "Chg. Alt. OV Alarm Dly."
+	},
+	{
+		"id" : 473,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Şarj Alt. AV Alarm Gec.",
+		"text_2" : "Chg. Alt. UV Alarm Dly."
+	},
+	{
+		"id" : 474,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Yüks. Hız Alarm Gec.",
+		"text_2" : "Engine OS Alarm Dly."
+	},
+	{
+		"id" : 475,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Alç. Hız Alarm Gec.",
+		"text_2" : "Engine US Alarm Dly."
+	},
+	{
+		"id" : 476,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bakımı Alarm Süresi",
+		"text_2" : "Maint. Oil Alarm Time"
+	},
+	{
+		"id" : 477,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hava Bakımı Alarm Süresi",
+		"text_2" : "Maint. Air Alarm Time"
+	},
+	{
+		"id" : 478,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yakıt Bakımı Alarm Süresi",
+		"text_2" : "Maint. Fuel Alarm Time"
+	},
+	{
+		"id" : 479,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Genel Bakım Alarm Süresi",
+		"text_2" : "Maint. Common Alarm Time"
+	},
+	{
+		"id" : 480,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Bakım Zamanı Sıfırlama Sec",
+		"text_2" : "Service Time Reset"
+	},
+	{
+		"id" : 481,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Güç Tasarruf Modu Gecikm.",
+		"text_2" : "Power Save Mode Delay"
+	},
+	{
+		"id" : 482,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yüks. Yedek Sıc. Alarm Gec.",
+		"text_2" : "High Aux Temp. Alarm Dly."
+	},
+	{
+		"id" : 483,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yedek Sıc. Sen. Kopma Gec.",
+		"text_2" : "Aux. Temp. Sen. OC Dly."
+	},
+	{
+		"id" : 484,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay1 Aktivasyon Gecikm.",
+		"text_2" : "Relay1 Activation Dly."
+	},
+	{
+		"id" : 485,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay2 Aktivasyon Gecikm.",
+		"text_2" : "Relay2 Activation Dly."
+	},
+	{
+		"id" : 486,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay3 Aktivasyon Gecikm.",
+		"text_2" : "Relay3 Activation Dly."
+	},
+	{
+		"id" : 487,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay4 Aktivasyon Gecikm.",
+		"text_2" : "Relay4 Activation Dly."
+	},
+	{
+		"id" : 488,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ1 Aktivasyon Gecikm.",
+		"text_2" : "DO1 Activation Dly."
+	},
+	{
+		"id" : 489,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ2 Aktivasyon Gecikm.",
+		"text_2" : "DO2 Activation Dly."
+	},
+	{
+		"id" : 490,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ3 Aktivasyon Gecikm.",
+		"text_2" : "DO3 Activation Dly."
+	},
+	{
+		"id" : 491,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ4 Aktivasyon Gecikm.",
+		"text_2" : "DO4 Activation Dly."
+	},
+	{
+		"id" : 492,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Aktivasyon Gecikm.",
+		"text_2" : "DI1 Activation Dly."
+	},
+	{
+		"id" : 493,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Aktivasyon Gecikm.",
+		"text_2" : "DI2 Activation Dly."
+	},
+	{
+		"id" : 494,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Aktivasyon Gecikm.",
+		"text_2" : "DI3 Activation Dly."
+	},
+	{
+		"id" : 495,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Aktivasyon Gecikm.",
+		"text_2" : "DI4 Activation Dly."
+	},
+	{
+		"id" : 496,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Aktivasyon Gecikm.",
+		"text_2" : "DI5 Activation Dly."
+	},
+	{
+		"id" : 497,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Aktivasyon Gecikm.",
+		"text_2" : "DI6 Activation Dly."
+	},
+	{
+		"id" : 498,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Aktivasyon Gecikm.",
+		"text_2" : "DI7 Activation Dly."
+	},
+	{
+		"id" : 499,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Aktivasyon Gecikm.",
+		"text_2" : "AI1 Activation Dly."
+	},
+	{
+		"id" : 500,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Aktivasyon Gecikm.",
+		"text_2" : "AI2 Activation Dly."
+	},
+	{
+		"id" : 501,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Aktivasyon Gecikm.",
+		"text_2" : "AI3 Activation Dly."
+	},
+	{
+		"id" : 502,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Aktivasyon Gecikm.",
+		"text_2" : "AI4 Activation Dly."
+	},
+	{
+		"id" : 503,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "J1939 ECU Tipi",
+		"text_2" : "J1939 ECU Type"
+	},
+	{
+		"id" : 504,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Baud Hızı",
+		"text_2" : "Baudrate"
+	},
+	{
+		"id" : 505,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Cihaz Adresi",
+		"text_2" : "Device Address"
+	},
+	{
+		"id" : 506,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Kontrol Adresi",
+		"text_2" : "Engine Control Address"
+	},
+	{
+		"id" : 507,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Uzak Kontrol Seç.",
+		"text_2" : "ECU Remote Ctrl. Sel."
+	},
+	{
+		"id" : 508,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hız Kontrol Seç.",
+		"text_2" : "Speed Control Sel."
+	},
+	{
+		"id" : 509,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Yağ Bas. Kontrol Seç.",
+		"text_2" : "Oil Pressure Ctrl. Sel."
+	},
+	{
+		"id" : 510,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Soğ. Sıc. Kontrol Seç.",
+		"text_2" : "Temp. Ctrl. Sel."
+	},
+	{
+		"id" : 511,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Hızı Set Değeri",
+		"text_2" : "Engine Speed Setpoint"
+	},
+	{
+		"id" : 512,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Motor Hızı Düzeltme Değ.",
+		"text_2" : "Engine Speed Correction"
+	},
+	{
+		"id" : 513,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Hab. Hata Aksiyonu",
+		"text_2" : "ECU Comm. Fail Actn."
+	},
+	{
+		"id" : 514,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Droop Seçimi",
+		"text_2" : "ECU Droop Sel."
+	},
+	{
+		"id" : 515,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "ECU Droop Yüzdesi",
+		"text_2" : "ECU Droop Percent"
+	},
+	{
+		"id" : 516,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Kaynak Adresi",
+		"text_2" : "Can Source Address"
+	},
+	{
+		"id" : 517,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve2",
+		"text_2" : "Can Blank2"
+	},
+	{
+		"id" : 518,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve3",
+		"text_2" : "Can Blank3"
+	},
+	{
+		"id" : 519,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve4",
+		"text_2" : "Can Blank4"
+	},
+	{
+		"id" : 520,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve5",
+		"text_2" : "Can Blank5"
+	},
+	{
+		"id" : 521,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve6",
+		"text_2" : "Can Blank6"
+	},
+	{
+		"id" : 522,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Can Rezerve7",
+		"text_2" : "Can Blank7"
+	},
+	{
+		"id" : 523,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DHCP Seçimi",
+		"text_2" : "DHCP Selection"
+	},
+	{
+		"id" : 524,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "IP Adres 0",
+		"text_2" : "IP Address 0"
+	},
+	{
+		"id" : 525,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "IP Adres 1",
+		"text_2" : "IP Address 1"
+	},
+	{
+		"id" : 526,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "IP Adres 2",
+		"text_2" : "IP Address 2"
+	},
+	{
+		"id" : 527,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "IP Adres 3",
+		"text_2" : "IP Address 3"
+	},
+	{
+		"id" : 528,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "NETMASK Adres 0",
+		"text_2" : "NETMASK Address 0"
+	},
+	{
+		"id" : 529,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "NETMASK Adres 1",
+		"text_2" : "NETMASK Address 1"
+	},
+	{
+		"id" : 530,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "NETMASK Adres 2",
+		"text_2" : "NETMASK Address 2"
+	},
+	{
+		"id" : 531,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "NETMASK Adres 3",
+		"text_2" : "NETMASK Address 3"
+	},
+	{
+		"id" : 532,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "GATEWAY Adres 0",
+		"text_2" : "GATEWAY Address 0"
+	},
+	{
+		"id" : 533,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "GATEWAY Adres 1",
+		"text_2" : "GATEWAY Address 1"
+	},
+	{
+		"id" : 534,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "GATEWAY Adres 2",
+		"text_2" : "GATEWAY Address 2"
+	},
+	{
+		"id" : 535,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "GATEWAY Adres 3",
+		"text_2" : "GATEWAY Address 3"
+	},
+	{
+		"id" : 536,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 0",
+		"text_2" : "MAC Address 0"
+	},
+	{
+		"id" : 537,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 1",
+		"text_2" : "MAC Address 1"
+	},
+	{
+		"id" : 538,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 2",
+		"text_2" : "MAC Address 2"
+	},
+	{
+		"id" : 539,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 3",
+		"text_2" : "MAC Address 3"
+	},
+	{
+		"id" : 540,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 4",
+		"text_2" : "MAC Address 4"
+	},
+	{
+		"id" : 541,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "MAC Adres 5",
+		"text_2" : "MAC Address 5"
+	},
+	{
+		"id" : 542,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Hedef IP Adres 0",
+		"text_2" : "TCP Dest. IP Address 0"
+	},
+	{
+		"id" : 543,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Hedef IP Adres 1",
+		"text_2" : "TCP Dest. IP Address 1"
+	},
+	{
+		"id" : 544,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Hedef IP Adres 2",
+		"text_2" : "TCP Dest. IP Address 2"
+	},
+	{
+		"id" : 545,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Hedef IP Adres 3",
+		"text_2" : "TCP Dest. IP Address 3"
+	},
+	{
+		"id" : 546,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Hedef ID Numarası",
+		"text_2" : "TCP Dest. ID Number"
+	},
+	{
+		"id" : 547,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "TCP Kaynak ID Numarası",
+		"text_2" : "TCP Source ID Number"
+	},
+	{
+		"id" : 548,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay1 Kaynağı",
+		"text_2" : "Relay1 Source"
+	},
+	{
+		"id" : 549,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay1 Polaritesi",
+		"text_2" : "Relay1 Polarity"
+	},
+	{
+		"id" : 550,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay2 Kaynağı",
+		"text_2" : "Relay2 Source"
+	},
+	{
+		"id" : 551,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay2 Polaritesi",
+		"text_2" : "Relay2 Polarity"
+	},
+	{
+		"id" : 552,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay3 Kaynağı",
+		"text_2" : "Relay3 Source"
+	},
+	{
+		"id" : 553,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay3 Polaritesi",
+		"text_2" : "Relay3 Polarity"
+	},
+	{
+		"id" : 554,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay4 Kaynağı",
+		"text_2" : "Relay4 Source"
+	},
+	{
+		"id" : 555,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Relay4 Polaritesi",
+		"text_2" : "Relay4 Polarity"
+	},
+	{
+		"id" : 556,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ1 Kaynağı",
+		"text_2" : "Digital Output1 Source"
+	},
+	{
+		"id" : 557,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ1 Polaritesi",
+		"text_2" : "Digital Output1 Polarity"
+	},
+	{
+		"id" : 558,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ2 Kaynağı",
+		"text_2" : "Digital Output2 Source"
+	},
+	{
+		"id" : 559,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ2 Polaritesi",
+		"text_2" : "Digital Output2 Polarity"
+	},
+	{
+		"id" : 560,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ3 Kaynağı",
+		"text_2" : "Digital Output3 Source"
+	},
+	{
+		"id" : 561,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ3 Polaritesi",
+		"text_2" : "Digital Output3 Polarity"
+	},
+	{
+		"id" : 562,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ4 Kaynağı",
+		"text_2" : "Digital Output4 Source"
+	},
+	{
+		"id" : 563,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DÇ4 Polaritesi",
+		"text_2" : "Digital Output4 Polarity"
+	},
+	{
+		"id" : 564,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Kaynağı",
+		"text_2" : "Digital Input1 Source"
+	},
+	{
+		"id" : 565,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Polaritesi",
+		"text_2" : "Digital Input1 Polarity"
+	},
+	{
+		"id" : 566,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Aksiyonu",
+		"text_2" : "Digital Input1 Action"
+	},
+	{
+		"id" : 567,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG1 Kontrol Zamanlaması",
+		"text_2" : "Digital Input1 Arming"
+	},
+	{
+		"id" : 568,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Kaynağı",
+		"text_2" : "Digital Input2 Source"
+	},
+	{
+		"id" : 569,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Polaritesi",
+		"text_2" : "Digital Input2 Polarity"
+	},
+	{
+		"id" : 570,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Aksiyonu",
+		"text_2" : "Digital Input2 Action"
+	},
+	{
+		"id" : 571,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG2 Kontrol Zamanlaması",
+		"text_2" : "Digital Input2 Arming"
+	},
+	{
+		"id" : 572,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Kaynağı",
+		"text_2" : "Digital Input3 Source"
+	},
+	{
+		"id" : 573,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Polaritesi",
+		"text_2" : "Digital Input3 Polarity"
+	},
+	{
+		"id" : 574,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Aksiyonu",
+		"text_2" : "Digital Input3 Action"
+	},
+	{
+		"id" : 575,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG3 Kontrol Zamanlaması",
+		"text_2" : "Digital Input3 Arming"
+	},
+	{
+		"id" : 576,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Kaynağı",
+		"text_2" : "Digital Input4 Source"
+	},
+	{
+		"id" : 577,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Polaritesi",
+		"text_2" : "Digital Input4 Polarity"
+	},
+	{
+		"id" : 578,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Aksiyonu",
+		"text_2" : "Digital Input4 Action"
+	},
+	{
+		"id" : 579,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG4 Kontrol Zamanlaması",
+		"text_2" : "Digital Input4 Arming"
+	},
+	{
+		"id" : 580,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Kaynağı",
+		"text_2" : "Digital Input5 Source"
+	},
+	{
+		"id" : 581,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Polaritesi",
+		"text_2" : "Digital Input5 Polarity"
+	},
+	{
+		"id" : 582,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Aksiyonu",
+		"text_2" : "Digital Input5 Action"
+	},
+	{
+		"id" : 583,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG5 Kontrol Zamanlaması",
+		"text_2" : "Digital Input5 Arming"
+	},
+	{
+		"id" : 584,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Kaynağı",
+		"text_2" : "Digital Input6 Source"
+	},
+	{
+		"id" : 585,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Polaritesi",
+		"text_2" : "Digital Input6 Polarity"
+	},
+	{
+		"id" : 586,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Aksiyonu",
+		"text_2" : "Digital Input6 Action"
+	},
+	{
+		"id" : 587,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG6 Kontrol Zamanlaması",
+		"text_2" : "Digital Input6 Arming"
+	},
+	{
+		"id" : 588,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Kaynağı",
+		"text_2" : "Digital Input7 Source"
+	},
+	{
+		"id" : 589,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Polaritesi",
+		"text_2" : "Digital Input7 Polarity"
+	},
+	{
+		"id" : 590,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Aksiyonu",
+		"text_2" : "Digital Input7 Action"
+	},
+	{
+		"id" : 591,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "DG7 Kontrol Zamanlaması",
+		"text_2" : "Digital Input7 Arming"
+	},
+	{
+		"id" : 592,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Tipi",
+		"text_2" : "AI1 Sensor Type"
+	},
+	{
+		"id" : 593,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Seçimi",
+		"text_2" : "AI1 Sensor Sel."
+	},
+	{
+		"id" : 594,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sens. Kalib. Değeri",
+		"text_2" : "AI1 Sensor Cal. Const."
+	},
+	{
+		"id" : 595,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Kaynağı",
+		"text_2" : "AI1 Source"
+	},
+	{
+		"id" : 596,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Polaritesi",
+		"text_2" : "AI1 Polarity"
+	},
+	{
+		"id" : 597,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Aksiyonu",
+		"text_2" : "AI1 Action"
+	},
+	{
+		"id" : 598,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Kontrol Zamanlaması",
+		"text_2" : "AI1 Arming"
+	},
+	{
+		"id" : 599,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Tablo Uzunluğu",
+		"text_2" : "AI1 Table Length"
+	},
+	{
+		"id" : 600,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci1",
+		"text_2" : "AI1 Sender Resistor1"
+	},
+	{
+		"id" : 601,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri1",
+		"text_2" : "AI1 Sender Value1"
+	},
+	{
+		"id" : 602,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci2",
+		"text_2" : "AI1 Sender Resistor2"
+	},
+	{
+		"id" : 603,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri2",
+		"text_2" : "AI1 Sender Value2"
+	},
+	{
+		"id" : 604,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci3",
+		"text_2" : "AI1 Sender Resistor3"
+	},
+	{
+		"id" : 605,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri3",
+		"text_2" : "AI1 Sender Value3"
+	},
+	{
+		"id" : 606,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci4",
+		"text_2" : "AI1 Sender Resistor4"
+	},
+	{
+		"id" : 607,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri4",
+		"text_2" : "AI1 Sender Value4"
+	},
+	{
+		"id" : 608,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci5",
+		"text_2" : "AI1 Sender Resistor5"
+	},
+	{
+		"id" : 609,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri5",
+		"text_2" : "AI1 Sender Value5"
+	},
+	{
+		"id" : 610,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci6",
+		"text_2" : "AI1 Sender Resistor6"
+	},
+	{
+		"id" : 611,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri6",
+		"text_2" : "AI1 Sender Value6"
+	},
+	{
+		"id" : 612,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci7",
+		"text_2" : "AI1 Sender Resistor7"
+	},
+	{
+		"id" : 613,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri7",
+		"text_2" : "AI1 Sender Value7"
+	},
+	{
+		"id" : 614,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci8",
+		"text_2" : "AI1 Sender Resistor8"
+	},
+	{
+		"id" : 615,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri8",
+		"text_2" : "AI1 Sender Value8"
+	},
+	{
+		"id" : 616,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci9",
+		"text_2" : "AI1 Sender Resistor9"
+	},
+	{
+		"id" : 617,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri9",
+		"text_2" : "AI1 Sender Value9"
+	},
+	{
+		"id" : 618,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Direnci10",
+		"text_2" : "AI1 Sender Resistor10"
+	},
+	{
+		"id" : 619,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG1 Sensör Değeri10",
+		"text_2" : "AI1 Sender Value10"
+	},
+	{
+		"id" : 620,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Tipi",
+		"text_2" : "AI2 Sensor Type"
+	},
+	{
+		"id" : 621,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Seçimi",
+		"text_2" : "AI2 Sensor Sel."
+	},
+	{
+		"id" : 622,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sens. Kalib. Değeri",
+		"text_2" : "AI2 Sensor Cal. Const."
+	},
+	{
+		"id" : 623,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Kaynağı",
+		"text_2" : "AI2 Source"
+	},
+	{
+		"id" : 624,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Polaritesi",
+		"text_2" : "AI2 Polarity"
+	},
+	{
+		"id" : 625,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Aksiyonu",
+		"text_2" : "AI2 Action"
+	},
+	{
+		"id" : 626,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Kontrol Zamanlaması",
+		"text_2" : "AI2 Arming"
+	},
+	{
+		"id" : 627,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Tablo Uzunluğu",
+		"text_2" : "AI2 Table Length"
+	},
+	{
+		"id" : 628,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci1",
+		"text_2" : "AI2 Sender Resistor1"
+	},
+	{
+		"id" : 629,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri1",
+		"text_2" : "AI2 Sender Value1"
+	},
+	{
+		"id" : 630,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci2",
+		"text_2" : "AI2 Sender Resistor2"
+	},
+	{
+		"id" : 631,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri2",
+		"text_2" : "AI2 Sender Value2"
+	},
+	{
+		"id" : 632,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci3",
+		"text_2" : "AI2 Sender Resistor3"
+	},
+	{
+		"id" : 633,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri3",
+		"text_2" : "AI2 Sender Value3"
+	},
+	{
+		"id" : 634,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci4",
+		"text_2" : "AI2 Sender Resistor4"
+	},
+	{
+		"id" : 635,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri4",
+		"text_2" : "AI2 Sender Value4"
+	},
+	{
+		"id" : 636,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci5",
+		"text_2" : "AI2 Sender Resistor5"
+	},
+	{
+		"id" : 637,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri5",
+		"text_2" : "AI2 Sender Value5"
+	},
+	{
+		"id" : 638,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci6",
+		"text_2" : "AI2 Sender Resistor6"
+	},
+	{
+		"id" : 639,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri6",
+		"text_2" : "AI2 Sender Value6"
+	},
+	{
+		"id" : 640,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci7",
+		"text_2" : "AI2 Sender Resistor7"
+	},
+	{
+		"id" : 641,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri7",
+		"text_2" : "AI2 Sender Value7"
+	},
+	{
+		"id" : 642,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci8",
+		"text_2" : "AI2 Sender Resistor8"
+	},
+	{
+		"id" : 643,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri8",
+		"text_2" : "AI2 Sender Value8"
+	},
+	{
+		"id" : 644,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci9",
+		"text_2" : "AI2 Sender Resistor9"
+	},
+	{
+		"id" : 645,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri9",
+		"text_2" : "AI2 Sender Value9"
+	},
+	{
+		"id" : 646,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Direnci10",
+		"text_2" : "AI2 Sender Resistor10"
+	},
+	{
+		"id" : 647,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG2 Sensör Değeri10",
+		"text_2" : "AI2 Sender Value10"
+	},
+	{
+		"id" : 648,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Tipi",
+		"text_2" : "AI3 Sensor Type"
+	},
+	{
+		"id" : 649,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Seçimi",
+		"text_2" : "AI3 Sensor Sel."
+	},
+	{
+		"id" : 650,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sens. Kalib. Değeri",
+		"text_2" : "AI3 Sensor Cal. Const."
+	},
+	{
+		"id" : 651,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Kaynağı",
+		"text_2" : "AI3 Source"
+	},
+	{
+		"id" : 652,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Polaritesi",
+		"text_2" : "AI3 Polarity"
+	},
+	{
+		"id" : 653,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Aksiyonu",
+		"text_2" : "AI3 Action"
+	},
+	{
+		"id" : 654,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Kontrol Zamanlaması",
+		"text_2" : "AI3 Arming"
+	},
+	{
+		"id" : 655,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Tablo Uzunluğu",
+		"text_2" : "AI3 Table Length"
+	},
+	{
+		"id" : 656,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci1",
+		"text_2" : "AI3 Sender Resistor1"
+	},
+	{
+		"id" : 657,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri1",
+		"text_2" : "AI3 Sender Value1"
+	},
+	{
+		"id" : 658,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci2",
+		"text_2" : "AI3 Sender Resistor2"
+	},
+	{
+		"id" : 659,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri2",
+		"text_2" : "AI3 Sender Value2"
+	},
+	{
+		"id" : 660,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci3",
+		"text_2" : "AI3 Sender Resistor3"
+	},
+	{
+		"id" : 661,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri3",
+		"text_2" : "AI3 Sender Value3"
+	},
+	{
+		"id" : 662,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci4",
+		"text_2" : "AI3 Sender Resistor4"
+	},
+	{
+		"id" : 663,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri4",
+		"text_2" : "AI3 Sender Value4"
+	},
+	{
+		"id" : 664,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci5",
+		"text_2" : "AI3 Sender Resistor5"
+	},
+	{
+		"id" : 665,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri5",
+		"text_2" : "AI3 Sender Value5"
+	},
+	{
+		"id" : 666,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci6",
+		"text_2" : "AI3 Sender Resistor6"
+	},
+	{
+		"id" : 667,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri6",
+		"text_2" : "AI3 Sender Value6"
+	},
+	{
+		"id" : 668,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci7",
+		"text_2" : "AI3 Sender Resistor7"
+	},
+	{
+		"id" : 669,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri7",
+		"text_2" : "AI3 Sender Value7"
+	},
+	{
+		"id" : 670,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci8",
+		"text_2" : "AI3 Sender Resistor8"
+	},
+	{
+		"id" : 671,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri8",
+		"text_2" : "AI3 Sender Value8"
+	},
+	{
+		"id" : 672,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci9",
+		"text_2" : "AI3 Sender Resistor9"
+	},
+	{
+		"id" : 673,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri9",
+		"text_2" : "AI3 Sender Value9"
+	},
+	{
+		"id" : 674,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Direnci10",
+		"text_2" : "AI3 Sender Resistor10"
+	},
+	{
+		"id" : 675,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG3 Sensör Değeri10",
+		"text_2" : "AI3 Sender Value10"
+	},
+	{
+		"id" : 676,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Tipi",
+		"text_2" : "AI4 Sensor Type"
+	},
+	{
+		"id" : 677,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Seçimi",
+		"text_2" : "AI4 Sensor Sel."
+	},
+	{
+		"id" : 678,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sens. Kalib. Değeri",
+		"text_2" : "AI4 Sensor Cal. Const."
+	},
+	{
+		"id" : 679,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Kaynağı",
+		"text_2" : "AI4 Source"
+	},
+	{
+		"id" : 680,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Polaritesi",
+		"text_2" : "AI4 Polarity"
+	},
+	{
+		"id" : 681,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Aksiyonu",
+		"text_2" : "AI4 Action"
+	},
+	{
+		"id" : 682,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Kontrol Zamanlaması",
+		"text_2" : "AI4 Arming"
+	},
+	{
+		"id" : 683,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Tablo Uzunluğu",
+		"text_2" : "AI4 Table Length"
+	},
+	{
+		"id" : 684,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci1",
+		"text_2" : "AI4 Sender Resistor1"
+	},
+	{
+		"id" : 685,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri1",
+		"text_2" : "AI4 Sender Value1"
+	},
+	{
+		"id" : 686,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci2",
+		"text_2" : "AI4 Sender Resistor2"
+	},
+	{
+		"id" : 687,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri2",
+		"text_2" : "AI4 Sender Value2"
+	},
+	{
+		"id" : 688,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci3",
+		"text_2" : "AI4 Sender Resistor3"
+	},
+	{
+		"id" : 689,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri3",
+		"text_2" : "AI4 Sender Value3"
+	},
+	{
+		"id" : 690,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci4",
+		"text_2" : "AI4 Sender Resistor4"
+	},
+	{
+		"id" : 691,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri4",
+		"text_2" : "AI4 Sender Value4"
+	},
+	{
+		"id" : 692,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci5",
+		"text_2" : "AI4 Sender Resistor5"
+	},
+	{
+		"id" : 693,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri5",
+		"text_2" : "AI4 Sender Value5"
+	},
+	{
+		"id" : 694,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci6",
+		"text_2" : "AI4 Sender Resistor6"
+	},
+	{
+		"id" : 695,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri6",
+		"text_2" : "AI4 Sender Value6"
+	},
+	{
+		"id" : 696,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci7",
+		"text_2" : "AI4 Sender Resistor7"
+	},
+	{
+		"id" : 697,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri7",
+		"text_2" : "AI4 Sender Value7"
+	},
+	{
+		"id" : 698,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci8",
+		"text_2" : "AI4 Sender Resistor8"
+	},
+	{
+		"id" : 699,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri8",
+		"text_2" : "AI4 Sender Value8"
+	},
+	{
+		"id" : 700,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci9",
+		"text_2" : "AI4 Sender Resistor9"
+	},
+	{
+		"id" : 701,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri9",
+		"text_2" : "AI4 Sender Value9"
+	},
+	{
+		"id" : 702,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Direnci10",
+		"text_2" : "AI4 Sender Resistor10"
+	},
+	{
+		"id" : 703,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "AG4 Sensör Değeri10",
+		"text_2" : "AI4 Sender Value10"
+	}
+]
