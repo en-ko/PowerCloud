@@ -171,33 +171,6 @@
         "bitValue": 1,
         "color": "red",
         "blink": false
-      },
-      {
-        "name_1": "Jeneratör Akım Limiti",
-        "name_2": "Generator Current Limit",
-        "paramId": 61,
-        "bit": 0,
-        "bitValue": 1,
-        "color": "red",
-        "blink": false
-      },
-      {
-        "name_1": "Sargı Sıcaklık Alarmı",
-        "name_2": "Winding Temp. Alarm",
-        "paramId": 64,
-        "bit": 0,
-        "bitValue": 1,
-        "color": "red",
-        "blink": false
-      },
-      {
-        "name_1": "Sargı Sıcaklık Limiti",
-        "name_2": "Winding Temp. Limit",
-        "paramId": 65,
-        "bit": 0,
-        "bitValue": 1,
-        "color": "red",
-        "blink": false
       }
     ]
   },
