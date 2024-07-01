@@ -1,524 +1,541 @@
 [
-    {
-      "object": "config",
-      "pageCount": 4,
-      "pageTitle_1": [
-        "Monitoring",
-        "Set Point",
-        "Configuration",
-        "Protections"
-      ],
-      "pageTitle_2": [
-        "Monitoring",
-        "Set Point",
-        "Configuration",
-        "Protections"
-      ],
-      "bootModeAddress": 200,
-      "encryptModbus": false
-    },
-    {
-      "object": "indicator",
-      "page": 1,
-      "row": 1,
-      "side": "left",
-      "title_1": "Status Indicator",
-      "title_2": "Status Indicator",
-      "width": 250,
-      "height": 440,
-      "paramId": [
-        68
-      ],
-      "menu": [
-        {
-          "name_1": "AVR Ready",
-          "name_2": "AVR Ready",
-          "paramId": 43,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "green",
-          "blink": false
-        },
-        {
-          "name_1": "Calibration Ready",
-          "name_2": "Calibration Ready",
-          "paramId": 41,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "green",
-          "blink": false
-        },
-        {
-          "name_1": "Configuration Ready",
-          "name_2": "Configuration Ready",
-          "paramId": 42,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "green",
-          "blink": false
-        },
-        {
-          "name_1": "Communication Ready",
-          "name_2": "Communication Ready",
-          "paramId": 44,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "green",
-          "blink": false
-        },
-        {
-          "name_1": "Ext. Pot Connected",
-          "name_2": "Ext. Pot Connected",
-          "paramId": 34,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "green",
-          "blink": false
-        },
-        {
-          "name_1": "Short Circuit",
-          "name_2": "Short Circuit",
-          "paramId": 50,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "yellow",
-          "blink": true
-        },
-        {
-          "name_1": "UFRO Tripped",
-          "name_2": "UFRO Tripped",
-          "paramId": 49,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "yellow",
-          "blink": false
-        },
-        {
-          "name_1": "Relay Tripped",
-          "name_2": "Relay Tripped",
-          "paramId": 51,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": true
-        },
-        {
-          "name_1": "Output Tripped",
-          "name_2": "Output Tripped",
-          "paramId": 52,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": true
-        }
-      ]
-    },
-    {
-      "object": "indicator",
-      "page": 1,
-      "row": 1,
-      "side": "right",
-      "title_1": "Error Indicator",
-      "title_2": "Error Indicator",
-      "width": 250,
-      "height": 440,
-      "paramId": [
-        68
-      ],
-      "menu": [
-        {
-          "name_1": "Over Excitation",
-          "name_2": "Over Excitation",
-          "paramId": 55,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Loss Of Sense",
-          "name_2": "Loss Of Sense",
-          "paramId": 57,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Generator Over Voltage",
-          "name_2": "Generator Over Voltage",
-          "paramId": 58,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Gen. Under Voltage",
-          "name_2": "Gen. Under Voltage",
-          "paramId": 59,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Stator Unbalance",
-          "name_2": "Stator Unbalance",
-          "paramId": 60,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Generator Current Limit",
-          "name_2": "Generator Current Limit",
-          "paramId": 61,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Winding Temp. Alarm",
-          "name_2": "Winding Temp. Alarm",
-          "paramId": 64,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Winding Temp. Limit",
-          "name_2": "Winding Temp. Limit",
-          "paramId": 65,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Motor Start Failure",
-          "name_2": "Motor Start Failure",
-          "paramId": 62,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "Rotating Diode Failure",
-          "name_2": "Rotating Diode Failure",
-          "paramId": 63,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        },
-        {
-          "name_1": "SCM Mode Enabled",
-          "name_2": "SCM Mode Enabled",
-          "paramId": 54,
-          "bit": 0,
-          "bitValue": 1,
-          "color": "red",
-          "blink": false
-        }
-      ]
-    },
-    {
-      "object": "roundguage",
-      "page": 1,
-      "row": 1,
-      "side": "center",
-      "paramId": [
-        0,
-        1,
-        2
-      ],
-      "min": 0,
-      "max": 500,
-      "scale": [
-        0,
-        100,
-        200,
-        300,
-        400,
-        500
-      ]
-    },
-    {
-      "object": "roundguage",
-      "page": 1,
-      "row": 2,
-      "side": "center",
-      "paramId": [
-        6,
-        7,
-        8
-      ],
-      "min": 0,
-      "max": 75,
-      "scale": [
-        0,
-        50,
-        75
-      ]
-    },
-    {
-      "object": "statuscard",
-      "page": 1,
-      "row": 4,
-      "side": "center",
-      "width": 0,
-      "staticText_1": "",
-      "staticText_2": "",
-      "paramId": [
-        35
-      ],
-      "menu": [
-        {
-          "message_1": "Pre Init",
-          "message_2": "Pre Init",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 0,
-          "bit": 1,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Init",
-          "message_2": "Init",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 1,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Startup",
-          "message_2": "Startup",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 2,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Standby",
-          "message_2": "Standby",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 3,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Soft Start Delay",
-          "message_2": "Soft Start Delay",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 4,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Soft Start",
-          "message_2": "Soft Start",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 5,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        },
-        {
-          "message_1": "Normal Operation",
-          "message_2": "Normal Operation",
-          "paramId": 35,
-          "dataType": "value",
-          "value": 6,
-          "bit": 2,
-          "bitValue": 1,
-          "blink": false
-        }
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 1,
-      "row": 5,
-      "side": "center",
-      "paramId": [
-        37,
-        25,
-        33
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 1,
-      "row": 6,
-      "side": "center",
-      "paramId": [
-        14,
-        27,
-        28
-      ]
-    },
-    {
-      "object": "multidatacard",
-      "page": 1,
-      "row": 8,
-      "side": "left",
-      "name": "Generator Working Time",
-      "unit": true,
-      "separator": ":",
-      "paramId": [
-        99,
-        98,
-        97,
-        96,
-        95,
-        94
-      ]
-    },
-    {
-      "object": "multidatacard",
-      "page": 1,
-      "row": 8,
-      "side": "right",
-      "name": "Device HW/SW version",
-      "unit": false,
-      "separator": ":",
-      "paramId": [
-        9975,
-        9976
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 2,
-      "row": 1,
-      "side": "center",
-      "paramId": [
-        100,
-        110,
-        111,
-        112
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 2,
-      "row": 2,
-      "side": "center",
-      "paramId": [
-        121,
-        113,
-        114,
-        115
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 2,
-      "row": 3,
-      "side": "center",
-      "paramId": [
-        104,
-        105,
-        106,
-        107
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 2,
-      "row": 4,
-      "side": "center",
-      "paramId": [
-        117,
-        118,
-        119,
-        120
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 2,
-      "row": 5,
-      "side": "center",
-      "paramId": [
-        122,
-        108
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 3,
-      "row": 2,
-      "side": "center",
-      "paramId": [
-        101,
-        102,
-        103
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 3,
-      "row": 3,
-      "side": "center",
-      "paramId": [
-        139,
-        140,
-        142
-      ]
-    },
-    {
-      "object": "datacard",
-      "page": 3,
-      "row": 4,
-      "side": "center",
-      "paramId": [
-        123,
-        124
-      ]
-    },
-    {
-      "object": "table",
-      "page": 4,
-      "row": 1,
-      "filter": true,
-      "paramId": [],
-      "paramGroup_1": [
-        "Monitoring",
-        "Setpoint",
-        "Configuration",
-        "Temperatures",
-        "OEX",
-        "LOS",
-        "GOV",
-        "SVU",
-        "GUV"
-      ],
-      "paramGroup_2": [
-        "Monitoring",
-        "Setpoint",
-        "Configuration",
-        "Temperatures",
-        "OEX",
-        "LOS",
-        "GOV",
-        "SVU",
-        "GUV"
-      ]
-    }
-  ]
+  {
+    "object": "config",
+    "pageCount": 4,
+    "pageTitle_1": [
+      "Monitor",
+      "Çalışma Noktası",
+      "Konfigürasyon",
+      "Korumalar"
+    ],
+    "pageTitle_2": [
+      "Monitoring",
+      "Set Point",
+      "Configuration",
+      "Protections"
+    ],
+    "bootModeAddress": 200,
+    "encryptModbus": false
+  },
+
+  {
+    "object": "indicator",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "title_1": "AVR Durumu",
+    "title_2": "Status Indicator",
+    "width": 250,
+    "height": 440,
+    "paramId": [
+      68
+    ],
+    "menu": [
+      {
+        "name_1": "AVR Hazır",
+        "name_2": "AVR Ready",
+        "paramId": 43,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "Kalibrasyon Hazır",
+        "name_2": "Calibration Ready",
+        "paramId": 41,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "Konfigürasyon Hazır",
+        "name_2": "Configuration Ready",
+        "paramId": 42,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "USB Haberleşme",
+        "name_2": "Communication Ready",
+        "paramId": 44,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "Harici Pot Bağlı",
+        "name_2": "Ext. Pot Connected",
+        "paramId": 34,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "Çıkış Kısa Devre",
+        "name_2": "Short Circuit",
+        "paramId": 50,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "yellow",
+        "blink": true
+      },
+      {
+        "name_1": "UFRO Devrede",
+        "name_2": "UFRO Tripped",
+        "paramId": 49,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "yellow",
+        "blink": false
+      },
+      {
+        "name_1": "Röle Devrede",
+        "name_2": "Relay Tripped",
+        "paramId": 51,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": true
+      },
+      {
+        "name_1": "İkaz Çıkışı Kesildi",
+        "name_2": "Output Tripped",
+        "paramId": 52,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": true
+      }
+    ]
+  },
+  {
+    "object": "indicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "title_1": "Koruma Durumu",
+    "title_2": "Error Indicator",
+    "width": 250,
+    "height": 440,
+    "paramId": [
+      68
+    ],
+    "menu": [
+      {
+        "name_1": "Aşırı İkaz",
+        "name_2": "Over Excitation",
+        "paramId": 55,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Sens Kaybı",
+        "name_2": "Loss Of Sense",
+        "paramId": 57,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "jeneratör Yüksek Voltaj",
+        "name_2": "Generator Over Voltage",
+        "paramId": 58,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Jeneratör Alçak Voltaj",
+        "name_2": "Gen. Under Voltage",
+        "paramId": 59,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Jeneratör Dengesiz Voltaj",
+        "name_2": "Stator Unbalance",
+        "paramId": 60,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Jeneratör Akım Limiti",
+        "name_2": "Generator Current Limit",
+        "paramId": 61,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Sargı Sıcaklık Alarmı",
+        "name_2": "Winding Temp. Alarm",
+        "paramId": 64,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "name_1": "Sargı Sıcaklık Limiti",
+        "name_2": "Winding Temp. Limit",
+        "paramId": 65,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "red",
+        "blink": false
+      }
+    ]
+  },
+  {
+    "object": "roundguage",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      0,
+      1,
+      2
+    ],
+    "min": 0,
+    "max": 500,
+    "scale": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500
+    ]
+  },
+  {
+    "object": "roundguage",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      6,
+      7,
+      8
+    ],
+    "min": 0,
+    "max": 75,
+    "scale": [
+      0,
+      50,
+      75
+    ]
+  },
+  {
+    "object": "roundguage",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      14,
+      20
+    ],
+    "min": 0,
+    "max": 10,
+    "scale": [
+      0,
+      5,
+      10
+    ]
+  },
+  {
+    "object": "statuscard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": 0,
+    "staticText_1": "",
+    "staticText_2": "",
+    "paramId": [
+      35
+    ],
+    "menu": [
+      {
+        "message_1": "Pre Init",
+        "message_2": "Pre Init",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 0,
+        "bit": 1,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Init",
+        "message_2": "Init",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 1,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Startup",
+        "message_2": "Startup",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 2,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Standby",
+        "message_2": "Standby",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 3,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Soft Start Delay",
+        "message_2": "Soft Start Delay",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 4,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Soft Start",
+        "message_2": "Soft Start",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 5,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Normal Operation",
+        "message_2": "Normal Operation",
+        "paramId": 35,
+        "dataType": "value",
+        "value": 6,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      25,
+      26,
+      33
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 6,
+    "side": "center",
+    "paramId": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 7,
+    "side": "center",
+    "paramId": [
+      37,
+      272
+    ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 8,
+    "side": "left",
+    "name": "Jeneratör Çalışma Saati",
+    "unit": true,
+    "separator": ":",
+    "paramId": [
+      99,
+      98,
+      97,
+      96,
+      95,
+      94
+    ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 8,
+    "side": "right",
+    "name": "AVR Cihaz Versiyonu",
+    "unit": false,
+    "separator": ":",
+    "paramId": [
+      9975,
+      9976
+    ]
+  },
+
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      100,
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      121,
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      104,
+      105,
+      106,
+      107
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      122,
+      108
+    ]
+  },
+
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      101,
+      102,
+      103,
+      135
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      139,
+      140,
+      141,
+      142
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      123,
+      124,
+      137,
+      138
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      270,
+      271,
+      277,
+      278
+    ]
+  },
+  {
+    "object": "table",
+    "page": 4,
+    "row": 1,
+    "filter": true,
+    "paramId": [],
+    "paramGroup_1": [
+      "Monitoring",
+      "Setpoint",
+      "Configuration",
+      "OEX",
+      "LOS",
+      "GOV",
+      "SVU",
+      "GUV"
+    ],
+    "paramGroup_2": [
+      "Monitoring",
+      "Setpoint",
+      "Configuration",
+      "OEX",
+      "LOS",
+      "GOV",
+      "SVU",
+      "GUV"
+    ]
+  }
+]

@@ -4,18 +4,22 @@
     "majorVersion": 1,
     "minorVersion": 0,
     "patchVersion": 1,
-    "jsonFileVersion" : 4
+    "jsonFileVersion": 4
+  },
+  {
+    "name": "DAVR20",
+    "version": 1000
   },
   {
     "name": "DAVR40",
     "version": 1000
   },
   {
-    "name": "DAVR90",
+    "name": "DAVR45",
     "version": 1000
   },
   {
-    "name": "DAVR20",
+    "name": "DAVR90",
     "version": 1000
   },
   {
