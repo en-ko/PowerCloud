@@ -3,10 +3,10 @@
     "object": "config",
     "pageCount": 4,
     "pageTitle_1": [
-      "Monitoring",
-      "Set Point",
-      "Configuration",
-      "Protections"
+      "Monitor",
+      "Çalışma Noktası",
+      "Konfigürasyon",
+      "Korumalar"
     ],
     "pageTitle_2": [
       "Monitoring",
@@ -22,7 +22,7 @@
     "page": 1,
     "row": 1,
     "side": "left",
-    "title_1": "Status Indicator",
+    "title_1": "AVR Durumu",
     "title_2": "Status Indicator",
     "width": 250,
     "height": 440,
@@ -31,7 +31,7 @@
     ],
     "menu": [
       {
-        "name_1": "AVR Ready",
+        "name_1": "AVR Hazır",
         "name_2": "AVR Ready",
         "paramId": 43,
         "bit": 0,
@@ -40,7 +40,7 @@
         "blink": false
       },
       {
-        "name_1": "Calibration Ready",
+        "name_1": "Kalibrasyon Hazır",
         "name_2": "Calibration Ready",
         "paramId": 41,
         "bit": 0,
@@ -49,7 +49,7 @@
         "blink": false
       },
       {
-        "name_1": "Configuration Ready",
+        "name_1": "Konfigürasyon Hazır",
         "name_2": "Configuration Ready",
         "paramId": 42,
         "bit": 0,
@@ -58,7 +58,7 @@
         "blink": false
       },
       {
-        "name_1": "Communication Ready",
+        "name_1": "USB Haberleşme",
         "name_2": "Communication Ready",
         "paramId": 44,
         "bit": 0,
@@ -67,7 +67,7 @@
         "blink": false
       },
       {
-        "name_1": "Ext. Pot Connected",
+        "name_1": "Harici Pot Bağlı",
         "name_2": "Ext. Pot Connected",
         "paramId": 34,
         "bit": 0,
@@ -76,7 +76,7 @@
         "blink": false
       },
       {
-        "name_1": "Short Circuit",
+        "name_1": "Çıkış Kısa Devre",
         "name_2": "Short Circuit",
         "paramId": 50,
         "bit": 0,
@@ -85,7 +85,7 @@
         "blink": true
       },
       {
-        "name_1": "UFRO Tripped",
+        "name_1": "UFRO Devrede",
         "name_2": "UFRO Tripped",
         "paramId": 49,
         "bit": 0,
@@ -94,7 +94,7 @@
         "blink": false
       },
       {
-        "name_1": "Relay Tripped",
+        "name_1": "Röle Devrede",
         "name_2": "Relay Tripped",
         "paramId": 51,
         "bit": 0,
@@ -103,7 +103,7 @@
         "blink": true
       },
       {
-        "name_1": "Output Tripped",
+        "name_1": "İkaz Çıkışı Kesildi",
         "name_2": "Output Tripped",
         "paramId": 52,
         "bit": 0,
@@ -118,7 +118,7 @@
     "page": 1,
     "row": 1,
     "side": "right",
-    "title_1": "Error Indicator",
+    "title_1": "Koruma Durumu",
     "title_2": "Error Indicator",
     "width": 250,
     "height": 440,
@@ -127,7 +127,7 @@
     ],
     "menu": [
       {
-        "name_1": "Over Excitation",
+        "name_1": "Aşırı İkaz",
         "name_2": "Over Excitation",
         "paramId": 55,
         "bit": 0,
@@ -136,7 +136,7 @@
         "blink": false
       },
       {
-        "name_1": "Loss Of Sense",
+        "name_1": "Sens Kaybı",
         "name_2": "Loss Of Sense",
         "paramId": 57,
         "bit": 0,
@@ -145,7 +145,7 @@
         "blink": false
       },
       {
-        "name_1": "Generator Over Voltage",
+        "name_1": "jeneratör Yüksek Voltaj",
         "name_2": "Generator Over Voltage",
         "paramId": 58,
         "bit": 0,
@@ -154,7 +154,7 @@
         "blink": false
       },
       {
-        "name_1": "Gen. Under Voltage",
+        "name_1": "Jeneratör Alçak Voltaj",
         "name_2": "Gen. Under Voltage",
         "paramId": 59,
         "bit": 0,
@@ -163,7 +163,7 @@
         "blink": false
       },
       {
-        "name_1": "Stator Unbalance",
+        "name_1": "Jeneratör Dengesiz Voltaj",
         "name_2": "Stator Unbalance",
         "paramId": 60,
         "bit": 0,
@@ -172,7 +172,7 @@
         "blink": false
       },
       {
-        "name_1": "Generator Current Limit",
+        "name_1": "Jeneratör Akım Limiti",
         "name_2": "Generator Current Limit",
         "paramId": 61,
         "bit": 0,
@@ -181,7 +181,7 @@
         "blink": false
       },
       {
-        "name_1": "Winding Temp. Alarm",
+        "name_1": "Sargı Sıcaklık Alarmı",
         "name_2": "Winding Temp. Alarm",
         "paramId": 64,
         "bit": 0,
@@ -190,7 +190,7 @@
         "blink": false
       },
       {
-        "name_1": "Winding Temp. Limit",
+        "name_1": "Sargı Sıcaklık Limiti",
         "name_2": "Winding Temp. Limit",
         "paramId": 65,
         "bit": 0,
@@ -199,7 +199,7 @@
         "blink": false
       },
       {
-        "name_1": "Motor Start Failure",
+        "name_1": "Motor Başlatma Hatası",
         "name_2": "Motor Start Failure",
         "paramId": 62,
         "bit": 0,
@@ -208,7 +208,7 @@
         "blink": false
       },
       {
-        "name_1": "Rotating Diode Failure",
+        "name_1": "Döner Diyot Hatası",
         "name_2": "Rotating Diode Failure",
         "paramId": 63,
         "bit": 0,
@@ -217,7 +217,7 @@
         "blink": false
       },
       {
-        "name_1": "SCM Mode Enabled",
+        "name_1": "Stator IDMT Tetiklendi",
         "name_2": "SCM Mode Enabled",
         "paramId": 54,
         "bit": 0,
