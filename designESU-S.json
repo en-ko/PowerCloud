@@ -1,0 +1,464 @@
+[
+    {
+      "object" : "config",
+      "pageCount" : 3,
+      "pageTitle_1" : ["İzleme", "Parametreler","Grafik"],
+      "pageTitle_2" : ["Monitor", "Parameters","Graph"],
+      "bootModeAddress" : 19,
+      "encryptModbus" : true
+  },
+    
+  {
+    "object" : "roundguage",
+    "page" : 1,
+    "row" : 1,
+    "side" : "center",
+    "paramId" : [3005],
+    "min" : 0,
+    "max" : 400,
+    "scale" : [0,100,200,300,400]
+  },
+  {
+    "object" : "roundguage",
+    "page" : 1,
+    "row" : 1,
+    "side" : "center",
+    "paramId" : [3006],
+    "min" : 0,
+    "max" : 100,
+    "scale" : [0,25,50,75,100]
+  },
+  {
+    "object" : "roundguage",
+    "page" : 1,
+    "row" : 1,
+    "side" : "center",
+    "paramId" : [3018],
+    "min" : 0,
+    "max" : 3000,
+    "scale" : [0,1500,3000]
+  },
+  
+  
+    {
+      "object" : "mimic",
+      "mimicId" : 2,
+      "page" : 1,
+      "row" :2,  
+      "side" : "center",      
+      "paramId" : [3017,3030,3027,3028],
+      "topLeftParamId" : [],
+      "topRightParamId" : [],
+      "bottomLeftParamId" : [3005,3006],
+      "bottomRightParamId" : [3018,3011],
+      "menu" : [
+        {
+          "paramId" : 3017,
+          "dataType" : "value",
+          "value" : 7,
+          "bit" : 0,
+          "bitValue" : 1,
+          "blink" : false
+        },
+        {
+          "paramId" : 3017,
+          "dataType" : "value",
+          "value" : 7,
+          "bit" : 2,
+          "bitValue" : 1,
+          "blink" : false
+        },
+        {
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 7,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+          "paramId" : 3030,
+          "dataType" : "value",
+          "value" : 1,
+          "bit" : 2,
+          "bitValue" : 1,
+          "blink" : false
+      },
+      {
+          "paramId" : 3027,
+          "dataType" : "value",
+          "value" : 1,
+          "bit" : 2,
+          "bitValue" : 1,
+          "blink" : false
+      },
+      {
+        "paramId" : 3028,
+        "dataType" : "value",
+        "value" : 1,
+        "bit" : 2,
+        "bitValue" : 1,
+        "blink" : false
+    }
+      ]
+    },
+    {
+      "object" : "statuscard",
+      "page" : 1,
+      "row" : 3,
+      "side" : "center",
+      "width" : 410,
+      "staticText_1" : "Jeneratör Durum >> ",
+      "staticText_2" : "Generator Status >> ",
+      "paramId" : [3017],
+      "menu" : [
+        {
+          "message_1" : "Hazır",
+          "message_2" : "Ready",
+          "paramId" : 3017,
+          "dataType" : "value",
+          "value" : 0,
+          "bit" : 1,
+          "bitValue" : 1,
+          "blink" : false
+        },
+        {
+          "message_1" : "Başlatma Sayım",
+          "message_2" : "Start Delay",
+          "paramId" : 3017,
+          "dataType" : "value",
+          "value" : 1,
+          "bit" : 2,
+          "bitValue" : 1,
+          "blink" : false
+        },
+        {
+            "message_1" : "Sesli Uyarı",
+            "message_2" : "Sound Warning",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 2,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Ön Başlatma",
+            "message_2" : "Prestart",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 3,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Marş",
+            "message_2" : "Cranking",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 4,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Marş Durma",
+            "message_2" : "Crank Pause",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 5,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Çalışıyor",
+            "message_2" : "Starting",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 6,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Yükte",
+            "message_2" : "Loaded",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 7,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : true
+        },
+        {
+            "message_1" : "Soğutma",
+            "message_2" : "Cooling",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 8,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Transfer",
+            "message_2" : "Transfer",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 9,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        },
+        {
+            "message_1" : "Durdurma",
+            "message_2" : "Stop",
+            "paramId" : 3017,
+            "dataType" : "value",
+            "value" : 10,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+        }
+      ]
+    },
+    {
+      "object" : "datacard",
+      "page" : 1,
+      "row" : 4,
+      "side" : "center",
+      "paramId" : [3007,3008,3009,3010,3011]
+    },
+    {
+        "object" : "statuscard",
+        "page" : 1,
+        "row" : 5,
+        "side" : "right",
+        "width" : 290,
+        "staticText_1" : "",
+        "staticText_2" : "",
+        "paramId" : [52],
+        "menu" : [
+          {
+            "message_1" : "Manuel Mod",
+            "message_2" : "Manual Mode",
+            "paramId" : 52,
+            "dataType" : "value",
+            "value" : 0,
+            "bit" : 1,
+            "bitValue" : 1,
+            "blink" : true
+          },
+          {
+            "message_1" : "Otomatik Mod",
+            "message_2" : "Auto Mode",
+            "paramId" : 52,
+            "dataType" : "value",
+            "value" : 1,
+            "bit" : 2,
+            "bitValue" : 1,
+            "blink" : false
+          }
+        ]
+      },
+      {
+        "object" : "indicator",
+        "page" : 1,
+        "row" : 1,
+        "side" : "left",
+        "width" : 300,
+        "title_1" : "Alarm İndikatör",
+        "title_2" : "Alarm Indicator",
+        "paramId" : [10],
+        "menu" : [
+          {
+            "name_1" : "Yüksek Yağ Basıncı",
+            "name_2" : "High Oil Pressure",
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+          },
+          {
+            "name_1" : "Yüksek Soğutma Sıcaklığı",
+            "name_2" : "High Cool Temperature", 
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+          },
+          {
+            "name_1" : "Düşük Batarya Voltajı.",
+            "name_2" : "Battery Under Voltage",
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+          },
+          {
+            "name_1" : "Acil Durdurma",
+            "name_2" : "Emergency Stop",
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : true
+          },
+          {
+            "name_1" : "Jeneratör Yüksek Voltaj",
+            "name_2" : "Generator Over Voltage",
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+          },
+          {
+            "name_1" : "Düşük Yağ Basıncı",
+            "name_2" : "Low Oil Pressure",
+            "paramId" : 10,
+            "bit" : 15,
+            "bitValue" : 1,
+            "color" : "green",
+            "blink" : false
+          }
+        ]
+      },
+      {
+        "object" : "indicator",
+        "page" : 1,
+        "row" : 1,
+        "side" : "right",
+        "width" : 310,
+        "title_1" : "Çıkışlar",
+        "title_2" : "Outputs",
+        "paramId" : [3024],
+        "menu" : [
+          {
+            "name_1" : "Dijital Çıkış-1",
+            "name_2" : "Digital Out-1",
+            "paramId" : 3024,
+            "bit" : 0,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : true
+          },
+          {
+            "name_1" : "Dijital Çıkış-2",
+            "name_2" : "Digital Out-2",
+            "paramId" : 3024,
+            "bit" : 1,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : false
+          },
+          {
+            "name_1" : "Dijital Çıkış-3",
+            "name_2" : "Digital Out-3",
+            "paramId" : 3024,
+            "bit" : 2,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : true
+          },
+          {
+            "name_1" : "Dijital Çıkış-4",
+            "name_2" : "Digital Out-4",
+            "paramId" : 3024,
+            "bit" : 3,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : false
+          },
+          {
+            "name_1" : "Dijital Çıkış-5",
+            "name_2" : "Digital Out-5",
+            "paramId" : 3024,
+            "bit" : 4,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : false
+          },
+          {
+            "name_1" : "Dijital Çıkış-6",
+            "name_2" : "Digital Out-6",
+            "paramId" : 3024,
+            "bit" : 5,
+            "bitValue" : 1,
+            "color" : "red",
+            "blink" : false
+          }
+        ]
+      },
+      {
+        "object" : "buttonbar",
+        "page" : 1,
+        "row" : 7,
+        "side" : "left",
+        "paramId" : [52],
+        "menu" : [
+          {
+            "message_1" : "Dur",
+            "message_2" : "Stop",
+            "paramId" : 52,
+            "dataType" : "value",
+            "value" : 0,
+            "bit" : 0,
+            "bitValue" : 1,
+            "puls" : false,
+            "image" : "stop"
+          },
+          {
+            "message_1" : "Oto",
+            "message_2" : "Auto",
+            "paramId" : 52,
+            "dataType" : "value",
+            "value" : 1,
+            "bit" : 2,
+            "bitValue" : 1,
+            "puls" : false,
+            "image" : "auto"
+          }
+        ]
+      },
+   
+  
+      {
+        "object" : "table",
+        "page" : 2,
+        "row" : 1,
+        "filter" : true,
+        "paramId" : [],
+        "paramGroup_1" : ["Genel","Jeneratör","Motor","Jeneratör Zamanlayıcısı","Motor Zamanlayıcısı","Haberleşme","Dijital Çıkış","Dijital Giriş","Analog Giriş-1","Analog Giriş-2","Analog Giriş-3"],
+        "paramGroup_2" : ["General","Generator","Engine","Generator Timer","Engine Timer","Communication","Digital Output","Digital Input","Analog Input-1","Analog Input-2","Analog Input-3"]
+  
+      },
+      {
+        "object" : "linechart",
+        "page" : 3,
+        "row" : 1,
+        "side" : "center",
+        "paramId" : [3005],
+        "min" : 0,
+        "max" : 5000,
+        "scale" : [0,1000,2000,3000,4000,5000]
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ]
