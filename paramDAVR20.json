@@ -1570,8 +1570,8 @@
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
-			"operation" : ">>",
-			"operationValue" : "6"
+			"operation" : "/",
+			"operationValue" : "10.24"
 		},
 		"readOnly" : false,
 		"comment_1" : "AVR çıkış voltajı düzeltme rampası oranıdır. UFRO tetiklendikten sonra voltajı düzeltmek için ani blok yük girişlerinde kullanılır.",
