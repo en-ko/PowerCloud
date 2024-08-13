@@ -448,6 +448,30 @@
 		"text_2" : "CB 0 Position Pulse"
 	},
 	{
+		"id" : 228,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "GCB Timer1 Çıkışı",
+		"text_2" : "GCB Timer1 Output"
+	},
+	{
+		"id" : 229,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "GCB Timer2 Çıkışı",
+		"text_2" : "GCB Timer2 Output"
+	},
+	{
+		"id" : 230,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "GCB Timer3 Çıkışı",
+		"text_2" : "GCB Timer3 Output"
+	},
+	{
 		"id" : 57,
 		"pixel" : 40,
 		"font" : "Calibri",
@@ -740,7 +764,7 @@
 		"pixel" : 120,
 		"font" : "Calibri",
 		"fontSize" : "16",
-		"text_1" : "Yüksek Voltaj",
+		"text_1" : "Yüksek Güç",
 		"text_2" : "Over Power"
 	},
 	{

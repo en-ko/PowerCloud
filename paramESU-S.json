@@ -1,6 +1,7 @@
 [
 	{
 		"id" : 5,
+		"version" : 1004,
 		"name_1" : "Parametre Kayıt",
 		"name_2" : "Parameter Save",
 		"group_1" : "Genel",
@@ -11,18 +12,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 2,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 2,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -52,6 +43,7 @@
 	},
 	{
 		"id" : 6,
+		"version" : 1004,
 		"name_1" : "Dil",
 		"name_2" : "Language",
 		"group_1" : "Genel",
@@ -62,18 +54,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -98,6 +80,7 @@
 	},
 	{
 		"id" : 7,
+		"version" : 1004,
 		"name_1" : "Fabrika Ayarlarına Dönüş",
 		"name_2" : "Parameter Return Factory",
 		"group_1" : "Genel",
@@ -108,18 +91,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -144,6 +117,7 @@
 	},
 	{
 		"id" : 8,
+		"version" : 1004,
 		"name_1" : "Log Temizleme",
 		"name_2" : "Log Clear",
 		"group_1" : "Genel",
@@ -154,18 +128,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -190,6 +154,7 @@
 	},
 	{
 		"id" : 9,
+		"version" : 1004,
 		"name_1" : "Motor Saat Ayarı",
 		"name_2" : "Motor Time Setting",
 		"group_1" : "Genel",
@@ -200,18 +165,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 32000,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -236,6 +191,7 @@
 	},
 	{
 		"id" : 10,
+		"version" : 1004,
 		"name_1" : "Menü Zaman Aşımı",
 		"name_2" : "Menu Timeout",
 		"group_1" : "Genel",
@@ -246,18 +202,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 30,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 30,
 		"defaultValue" : 5,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -271,6 +217,7 @@
 	},
 	{
 		"id" : 11,
+		"version" : 1004,
 		"name_1" : "Menüden Çıkış Yap",
 		"name_2" : "Menu Logout",
 		"group_1" : "Genel",
@@ -281,18 +228,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -317,6 +254,7 @@
 	},
 	{
 		"id" : 30,
+		"version" : 1004,
 		"name_1" : "Alternatör Seçimi",
 		"name_2" : "Alternator Fitted",
 		"group_1" : "Jeneratör",
@@ -327,18 +265,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -363,6 +291,7 @@
 	},
 	{
 		"id" : 31,
+		"version" : 1004,
 		"name_1" : "Alternator Kutup Sayısı",
 		"name_2" : "Alternator Poles",
 		"group_1" : "Jeneratör",
@@ -373,18 +302,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 7,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 7,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -439,6 +358,7 @@
 	},
 	{
 		"id" : 32,
+		"version" : 1004,
 		"name_1" : "Nominal Gerilim",
 		"name_2" : "Nominal Voltage",
 		"group_1" : "Jeneratör",
@@ -449,18 +369,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 85,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 240,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 85,
+		"maxValue" : 240,
 		"defaultValue" : 220,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -474,6 +384,7 @@
 	},
 	{
 		"id" : 34,
+		"version" : 1004,
 		"name_1" : "Jeneratör Yüksek Gerilim Alarm Aksiyonu",
 		"name_2" : "Generator Overvoltage Alarm Action",
 		"group_1" : "Jeneratör",
@@ -484,18 +395,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -535,6 +436,7 @@
 	},
 	{
 		"id" : 35,
+		"version" : 1004,
 		"name_1" : "Jeneratör Yüksek Gerilim Alarm Seviyesi",
 		"name_2" : "Generator Overvoltage Alarm Level",
 		"group_1" : "Jeneratör",
@@ -545,18 +447,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 101,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 150,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 101,
+		"maxValue" : 150,
 		"defaultValue" : 115,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -578,6 +470,7 @@
 	},
 	{
 		"id" : 36,
+		"version" : 1004,
 		"name_1" : "Jeneratör Düşük Gerilim Alarm Aksiyonu",
 		"name_2" : "Generator Undervoltage Alarm Action",
 		"group_1" : "Jeneratör",
@@ -588,18 +481,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -639,6 +522,7 @@
 	},
 	{
 		"id" : 37,
+		"version" : 1004,
 		"name_1" : "Jeneratör Düşük Gerilim Alarm Seviyesi",
 		"name_2" : "Generator Undervoltage Alarm Level",
 		"group_1" : "Jeneratör",
@@ -649,18 +533,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 50,
+		"maxValue" : 99,
 		"defaultValue" : 85,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -682,6 +556,7 @@
 	},
 	{
 		"id" : 38,
+		"version" : 1004,
 		"name_1" : "Nominal Frekans",
 		"name_2" : "Nominal Frequency",
 		"group_1" : "Jeneratör",
@@ -692,18 +567,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 300,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 300,
+		"maxValue" : 600,
 		"defaultValue" : 500,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -716,172 +581,8 @@
 		"relation" : []
 	},
 	{
-		"id" : 40,
-		"name_1" : "Jeneratör Yüksek Frekans Alarm Aksiyonu",
-		"name_2" : "Generator Overfrequency Alarm Action",
-		"group_1" : "Jeneratör",
-		"group_2" : "Generator",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 211,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : 4,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "Kapalı",
-				"mask_2" : "Closed"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "Geçici Uyarı",
-				"mask_2" : "Temporary Warning"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "Kalıcı Uyarı",
-				"mask_2" : "Permanent Warning"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "Elektriksel Arıza",
-				"mask_2" : "Electrical Trip"
-			},
-			{
-				"value" : 4,
-				"mask_1" : "Durdurma",
-				"mask_2" : "Shutdown"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Jeneratör yüksek frekans alarm aksiyonudur.",
-		"comment_2" : "Generator high frequency alarm action.",
-		"relation" : []
-	},
-	{
-		"id" : 41,
-		"name_1" : "Jeneratör Yüksek Frekans Alarm Seviyesi",
-		"name_2" : "Generator Overfrequency Alarm Level",
-		"group_1" : "Jeneratör",
-		"group_2" : "Generator",
-		"unit_1" : "%",
-		"unit_2" : "%",
-		"modbusAddress" : 212,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minControl" : {
-			"minValue" : 101,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 130,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : 106,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Nominal Frekans parametresiyle ilişkili olarak değer alan jeneratör yüksek frekans alarm eşik değeridir.",
-		"comment_2" : "It is the generator high frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
-		"relation" : [
-			{
-				"relationParamId" : "38",
-				"relationValue" : "",
-				"relation" : "%",
-				"comment_1" : "Nominal Frekans(P38) değerinin bu parametre değeri ile çarpılıp 100’e bölümü Jeneratör Yüksek Frekans Seviyesini verir.",
-				"comment_2" : "Nominal Frequency(P38) value multiplied by this parameter value and divided by 100 gives Generator High Frequency Level."
-			}
-		]
-	},
-	{
-		"id" : 42,
-		"name_1" : "Jeneratör Düşük Frekans Alarm Aksiyonu",
-		"name_2" : "Generator Underfrequency Alarm Action",
-		"group_1" : "Jeneratör",
-		"group_2" : "Generator",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 213,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : 4,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "Kapalı",
-				"mask_2" : "Closed"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "Geçici Uyarı",
-				"mask_2" : "Temporary Warning"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "Kalıcı Uyarı",
-				"mask_2" : "Permanent Warning"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "Elektriksel Arıza",
-				"mask_2" : "Electrical Trip"
-			},
-			{
-				"value" : 4,
-				"mask_1" : "Durdurma",
-				"mask_2" : "Shutdown"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Jeneratör düşük frekans alarm aksiyonudur.",
-		"comment_2" : "Generator low frequency alarm action.",
-		"relation" : []
-	},
-	{
 		"id" : 43,
+		"version" : 1004,
 		"name_1" : "Jeneratör Düşük Frekans Alarm Seviyesi",
 		"name_2" : "Generator Underfrequency Alarm Level",
 		"group_1" : "Jeneratör",
@@ -892,18 +593,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 50,
+		"maxValue" : 99,
 		"defaultValue" : 94,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -925,6 +616,7 @@
 	},
 	{
 		"id" : 49,
+		"version" : 1004,
 		"name_1" : "Jeneratör Bağlantı Tipi",
 		"name_2" : "Generator Connection Type",
 		"group_1" : "Motor",
@@ -935,18 +627,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -971,6 +653,7 @@
 	},
 	{
 		"id" : 50,
+		"version" : 1004,
 		"name_1" : "Motor Tipi",
 		"name_2" : "Engine Type",
 		"group_1" : "Motor",
@@ -981,18 +664,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1016,7 +689,50 @@
 		"relation" : []
 	},
 	{
+		"id" : 51,
+		"version" : 1008,
+		"name_1" : "Modül Fonksiyonu",
+		"name_2" : "Module Function",
+		"group_1" : "Motor",
+		"group_2" : "Engine",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "ESU-S",
+				"mask_2" : "ESU-S"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pompa",
+				"mask_2" : "Pump"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yangın Pompası",
+				"mask_2" : "Fire Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "ESU-S Pompa ve Yangın Pompası cihaz yazılım seçimidir.",
+		"comment_2" : "ESU-S Pump and Fire Pump are firmware selections.",
+		"relation" : []
+	},
+	{
 		"id" : 52,
+		"version" : 1004,
 		"name_1" : "Mod Fonksiyonu",
 		"name_2" : "Mode Function",
 		"group_1" : "Motor",
@@ -1027,18 +743,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1063,6 +769,7 @@
 	},
 	{
 		"id" : 53,
+		"version" : 1004,
 		"name_1" : "Ön Başlatma Aksiyonu",
 		"name_2" : "Prestart Action",
 		"group_1" : "Motor",
@@ -1073,18 +780,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 2,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 2,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1114,6 +811,7 @@
 	},
 	{
 		"id" : 54,
+		"version" : 1004,
 		"name_1" : "Jeneratör Frekansından Marş Kesme Seviyesi",
 		"name_2" : "Starter Cut Level From Generator Frequency",
 		"group_1" : "Motor",
@@ -1124,18 +822,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 150,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 750,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 150,
+		"maxValue" : 750,
 		"defaultValue" : 150,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1149,6 +837,7 @@
 	},
 	{
 		"id" : 55,
+		"version" : 1004,
 		"name_1" : "Jeneratör Hızından Marş Kesme Seviyesi",
 		"name_2" : "Starter Cut Level From Engine Speed",
 		"group_1" : "Motor",
@@ -1159,18 +848,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 500,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 6000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 500,
+		"maxValue" : 6000,
 		"defaultValue" : 500,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1184,6 +863,7 @@
 	},
 	{
 		"id" : 56,
+		"version" : 1004,
 		"name_1" : "Jeneratör Geriliminden Marş Kesme Seviyesi",
 		"name_2" : "Starter Cut Level From Generator Voltage",
 		"group_1" : "Motor",
@@ -1194,18 +874,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 60,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 500,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 60,
+		"maxValue" : 500,
 		"defaultValue" : 173,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1219,6 +889,7 @@
 	},
 	{
 		"id" : 57,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatör Geriliminden Marş Kesme Seviyesi",
 		"name_2" : "Starter Cut Level From Charge Alternator Voltage",
 		"group_1" : "Motor",
@@ -1229,18 +900,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 60,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 300,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 60,
+		"maxValue" : 300,
 		"defaultValue" : 60,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1254,6 +915,7 @@
 	},
 	{
 		"id" : 58,
+		"version" : 1004,
 		"name_1" : "Yağ Basıncından Marş Kesme Seviyesi",
 		"name_2" : "Starter Cut Level From Oil Pressure",
 		"group_1" : "Motor",
@@ -1264,18 +926,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 10,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 10,
+		"maxValue" : 100,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1289,6 +941,7 @@
 	},
 	{
 		"id" : 59,
+		"version" : 1004,
 		"name_1" : "Maksimum Marş Deneme Sayısı",
 		"name_2" : "Maximum Number of Cranking Attempts",
 		"group_1" : "Motor",
@@ -1299,18 +952,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 10,
 		"defaultValue" : 3,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1324,6 +967,7 @@
 	},
 	{
 		"id" : 60,
+		"version" : 1004,
 		"name_1" : "Kesikli Korna Çıkışı",
 		"name_2" : "Intermittent Horn Output",
 		"group_1" : "Motor",
@@ -1334,18 +978,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1370,6 +1004,7 @@
 	},
 	{
 		"id" : 61,
+		"version" : 1004,
 		"name_1" : "Yağ Basınç Birimi",
 		"name_2" : "Oil Pressure Unit",
 		"group_1" : "Motor",
@@ -1380,18 +1015,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1416,6 +1041,7 @@
 	},
 	{
 		"id" : 62,
+		"version" : 1004,
 		"name_1" : "Düşük Yağ Basıncı Alarm Aksiyonu",
 		"name_2" : "Low Oil Pressure Alarm Action",
 		"group_1" : "Motor",
@@ -1426,18 +1052,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1477,6 +1093,7 @@
 	},
 	{
 		"id" : 63,
+		"version" : 1004,
 		"name_1" : "Düşük Yağ Basıncı Alarm Seviyesi",
 		"name_2" : "Low Oil Pressure Alarm Level",
 		"group_1" : "Motor",
@@ -1487,18 +1104,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 5,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 95,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 5,
+		"maxValue" : 95,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1512,6 +1119,7 @@
 	},
 	{
 		"id" : 64,
+		"version" : 1004,
 		"name_1" : "Yağ Basınç Müşiri Açık Devre Aksiyonu",
 		"name_2" : "Oil Pressure Sender Open Circuit Action",
 		"group_1" : "Motor",
@@ -1522,18 +1130,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1573,6 +1171,7 @@
 	},
 	{
 		"id" : 65,
+		"version" : 1004,
 		"name_1" : "Sıcaklık Birimi",
 		"name_2" : "Temperature Unit",
 		"group_1" : "Motor",
@@ -1583,18 +1182,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1619,6 +1208,7 @@
 	},
 	{
 		"id" : 66,
+		"version" : 1004,
 		"name_1" : "Yüksek Soğutma Sıvısı Sıcaklığı Alarm Aksiyonu",
 		"name_2" : "High Coolant Temperature Alarm Action",
 		"group_1" : "Motor",
@@ -1629,18 +1219,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1680,6 +1260,7 @@
 	},
 	{
 		"id" : 67,
+		"version" : 1004,
 		"name_1" : "Yüksek Soğutma Sıvısı Sıcaklığı Alarm Seviyesi",
 		"name_2" : "High Coolant Temperature Alarm Level",
 		"group_1" : "Motor",
@@ -1690,18 +1271,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 5,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 150,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 5,
+		"maxValue" : 150,
 		"defaultValue" : 110,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1715,6 +1286,7 @@
 	},
 	{
 		"id" : 68,
+		"version" : 1004,
 		"name_1" : "Soğutma Sıvısı Sıcaklık Müşiri Açık Devre Aksiyonu",
 		"name_2" : "Coolant Temperature Sender Open Circuit Action",
 		"group_1" : "Motor",
@@ -1725,18 +1297,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1776,6 +1338,7 @@
 	},
 	{
 		"id" : 69,
+		"version" : 1004,
 		"name_1" : "Düşük Yakıt Seviyesi Alarm Aksiyonu",
 		"name_2" : "Low Fuel Level Alarm Action",
 		"group_1" : "Motor",
@@ -1786,18 +1349,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1837,6 +1390,7 @@
 	},
 	{
 		"id" : 70,
+		"version" : 1004,
 		"name_1" : "Düşük Yakıt Seviyesi Alarm Seviyesi",
 		"name_2" : "Low Fuel Level Alarm Level",
 		"group_1" : "Motor",
@@ -1847,18 +1401,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 45,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 45,
 		"defaultValue" : 5,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1872,6 +1416,7 @@
 	},
 	{
 		"id" : 71,
+		"version" : 1004,
 		"name_1" : "Yakıt Seviye Müşiri Açık Devre Aksiyonu",
 		"name_2" : "Fuel Level Sender Open Circuit Action",
 		"group_1" : "Motor",
@@ -1882,18 +1427,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -1933,6 +1468,7 @@
 	},
 	{
 		"id" : 72,
+		"version" : 1004,
 		"name_1" : "Yakıt Pompası Alt Limiti",
 		"name_2" : "Fuel Pump Low Limit",
 		"group_1" : "Motor",
@@ -1943,18 +1479,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 90,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 90,
 		"defaultValue" : 20,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1976,6 +1502,7 @@
 	},
 	{
 		"id" : 73,
+		"version" : 1004,
 		"name_1" : "Yakıt Pompası Üst Limiti",
 		"name_2" : "Fuel Pump High Limit",
 		"group_1" : "Motor",
@@ -1986,18 +1513,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 5,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 95,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 5,
+		"maxValue" : 95,
 		"defaultValue" : 80,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2019,6 +1536,7 @@
 	},
 	{
 		"id" : 74,
+		"version" : 1004,
 		"name_1" : "Soğutma Fanı Düşük Limit",
 		"name_2" : "Coolant Fan Low Limit",
 		"group_1" : "Motor",
@@ -2029,18 +1547,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 240,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 240,
 		"defaultValue" : 65,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2062,6 +1570,7 @@
 	},
 	{
 		"id" : 75,
+		"version" : 1004,
 		"name_1" : "Soğutma Fanı Yüksek Limit",
 		"name_2" : "Coolant Fan High Limiit",
 		"group_1" : "Motor",
@@ -2072,18 +1581,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 5,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 245,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 5,
+		"maxValue" : 245,
 		"defaultValue" : 100,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2105,6 +1604,7 @@
 	},
 	{
 		"id" : 76,
+		"version" : 1004,
 		"name_1" : "Nominal Batarya Voltajı",
 		"name_2" : "Nominal Battery Voltage",
 		"group_1" : "Motor",
@@ -2115,18 +1615,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 100,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 260,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 100,
+		"maxValue" : 260,
 		"defaultValue" : 130,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2140,6 +1630,7 @@
 	},
 	{
 		"id" : 77,
+		"version" : 1004,
 		"name_1" : "Batarya Yüksek Gerilim Alarm Aksiyonu",
 		"name_2" : "Battery Overvoltage Alarm Action",
 		"group_1" : "Motor",
@@ -2150,18 +1641,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -2201,6 +1682,7 @@
 	},
 	{
 		"id" : 78,
+		"version" : 1004,
 		"name_1" : "Batarya Yüksek Gerilim Alarm Seviyesi",
 		"name_2" : "Battery Overvoltage Alarm Level",
 		"group_1" : "Motor",
@@ -2211,18 +1693,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 101,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 125,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 101,
+		"maxValue" : 125,
 		"defaultValue" : 125,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2244,6 +1716,7 @@
 	},
 	{
 		"id" : 79,
+		"version" : 1004,
 		"name_1" : "Batarya Düşük Gerilim Alarm Aksiyonu",
 		"name_2" : "Battery Undervoltage Alarm Action",
 		"group_1" : "Motor",
@@ -2254,18 +1727,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -2305,6 +1768,7 @@
 	},
 	{
 		"id" : 80,
+		"version" : 1004,
 		"name_1" : "Batarya Düşük Gerilim Alarm Seviyesi",
 		"name_2" : "Battery Undervoltage Alarm Level",
 		"group_1" : "Motor",
@@ -2315,18 +1779,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 75,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 75,
+		"maxValue" : 99,
 		"defaultValue" : 75,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2348,6 +1802,7 @@
 	},
 	{
 		"id" : 82,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatörü Yüksek Gerilim Alarm Aksiyonu",
 		"name_2" : "Charge Alternator Overvoltage Alarm Action",
 		"group_1" : "Motor",
@@ -2358,18 +1813,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2409,6 +1854,7 @@
 	},
 	{
 		"id" : 83,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatörü Yüksek Gerilim Alarm Seviyesi",
 		"name_2" : "Charge Alternator Overvoltage Alarm Level",
 		"group_1" : "Motor",
@@ -2419,18 +1865,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 101,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 125,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 101,
+		"maxValue" : 125,
 		"defaultValue" : 125,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2452,6 +1888,7 @@
 	},
 	{
 		"id" : 84,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatörü Düşük Gerilim Alarm Aksiyonu",
 		"name_2" : "Charge Alternator Undervoltage Alarm Action",
 		"group_1" : "Motor",
@@ -2462,18 +1899,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2513,6 +1940,7 @@
 	},
 	{
 		"id" : 85,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatörü Düşük Gerilim Alarm Seviyesi",
 		"name_2" : "Charge Alternator Undervoltage Alarm Level",
 		"group_1" : "Motor",
@@ -2523,18 +1951,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 75,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 75,
+		"maxValue" : 99,
 		"defaultValue" : 75,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2556,6 +1974,7 @@
 	},
 	{
 		"id" : 87,
+		"version" : 1004,
 		"name_1" : "Motor Yüksek Hız Alarm Aksiyonu",
 		"name_2" : "Engine Over Speed Alarm Action",
 		"group_1" : "Motor",
@@ -2566,18 +1985,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -2617,6 +2026,7 @@
 	},
 	{
 		"id" : 88,
+		"version" : 1004,
 		"name_1" : "Motor Yüksek Hız Alarm Seviyesi",
 		"name_2" : "Engine Over Speed Alarm Level",
 		"group_1" : "Motor",
@@ -2627,18 +2037,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 110,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 150,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 110,
+		"maxValue" : 150,
 		"defaultValue" : 120,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2652,6 +2052,7 @@
 	},
 	{
 		"id" : 89,
+		"version" : 1004,
 		"name_1" : "Motor Düşük Hız Alarm Aksiyonu",
 		"name_2" : "Engine Under Speed Alarm Action",
 		"group_1" : "Motor",
@@ -2662,18 +2063,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -2713,6 +2104,7 @@
 	},
 	{
 		"id" : 90,
+		"version" : 1004,
 		"name_1" : "Motor Düşük Hız Alarm Seviyesi",
 		"name_2" : "Engine Under Speed Alarm Level",
 		"group_1" : "Motor",
@@ -2723,18 +2115,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 90,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 50,
+		"maxValue" : 90,
 		"defaultValue" : 80,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2748,6 +2130,7 @@
 	},
 	{
 		"id" : 91,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Yağ) Aksiyonu",
 		"name_2" : "Maintenance Alarm(Oil) Action",
 		"group_1" : "Motor",
@@ -2758,18 +2141,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -2809,6 +2182,7 @@
 	},
 	{
 		"id" : 92,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Hava) Aksiyonu",
 		"name_2" : "Maintenance Alarm(Air) Action",
 		"group_1" : "Motor",
@@ -2819,18 +2193,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -2870,6 +2234,7 @@
 	},
 	{
 		"id" : 93,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Yakıt) Aksiyonu",
 		"name_2" : "Maintenance Alarm(Fuel) Action",
 		"group_1" : "Motor",
@@ -2880,18 +2245,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -2931,6 +2286,7 @@
 	},
 	{
 		"id" : 94,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Genel) Aksiyonu",
 		"name_2" : "Maintenance Alarm(Common) Action",
 		"group_1" : "Motor",
@@ -2941,18 +2297,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -2992,6 +2338,7 @@
 	},
 	{
 		"id" : 96,
+		"version" : 1004,
 		"name_1" : "Volan Diş Sayısı",
 		"name_2" : "Number of Flywheel Teeth",
 		"group_1" : "Motor",
@@ -3002,18 +2349,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1000,
 		"defaultValue" : 100,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3027,6 +2364,7 @@
 	},
 	{
 		"id" : 101,
+		"version" : 1004,
 		"name_1" : "Jeneratör Yüksek Gerilim Alarm Gecikmesi",
 		"name_2" : "Generator Overvoltage Alarm Delay",
 		"group_1" : "Jeneratör Zamanlayıcısı",
@@ -3037,18 +2375,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 1000,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3062,6 +2390,7 @@
 	},
 	{
 		"id" : 102,
+		"version" : 1004,
 		"name_1" : "Jeneratör Düşük Gerilim Alarm Gecikmesi",
 		"name_2" : "Generator Undervoltage Alarm Delay",
 		"group_1" : "Jeneratör Zamanlayıcısı",
@@ -3072,18 +2401,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 1000,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3097,6 +2416,7 @@
 	},
 	{
 		"id" : 103,
+		"version" : 1004,
 		"name_1" : "Jeneratör Yüksek Frekans Alarm Gecikmesi",
 		"name_2" : "Generator Overfrequency Alarm Delay",
 		"group_1" : "Jeneratör Zamanlayıcısı",
@@ -3107,18 +2427,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 1000,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3132,6 +2442,7 @@
 	},
 	{
 		"id" : 104,
+		"version" : 1004,
 		"name_1" : "Jeneratör Düşük Frekans Alarm Gecikmesi",
 		"name_2" : "Generator Underfrequency Alarm Delay",
 		"group_1" : "Jeneratör Zamanlayıcısı",
@@ -3142,18 +2453,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 1000,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3167,6 +2468,7 @@
 	},
 	{
 		"id" : 108,
+		"version" : 1004,
 		"name_1" : "Başlatma Gecikmesi",
 		"name_2" : "Start Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3177,18 +2479,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 6000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 6000,
 		"defaultValue" : 50,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3202,6 +2494,7 @@
 	},
 	{
 		"id" : 110,
+		"version" : 1004,
 		"name_1" : "Ön Çalıştırma Zamanı",
 		"name_2" : "Prestart Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3212,18 +2505,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 6000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 6000,
 		"defaultValue" : 20,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3237,6 +2520,7 @@
 	},
 	{
 		"id" : 111,
+		"version" : 1004,
 		"name_1" : "Maksimum Marş Süresi",
 		"name_2" : "Maximum Cranking Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3247,18 +2531,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 600,
 		"defaultValue" : 50,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3272,6 +2546,7 @@
 	},
 	{
 		"id" : 112,
+		"version" : 1004,
 		"name_1" : "Marş Bekleme Süresi",
 		"name_2" : "Cranking Wait Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3282,18 +2557,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 990,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 50,
+		"maxValue" : 990,
 		"defaultValue" : 100,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3307,6 +2572,7 @@
 	},
 	{
 		"id" : 113,
+		"version" : 1004,
 		"name_1" : "Arıza Kontrol Gecikmesi",
 		"name_2" : "Safety On Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3317,18 +2583,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1000,
 		"defaultValue" : 100,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3342,6 +2598,7 @@
 	},
 	{
 		"id" : 114,
+		"version" : 1004,
 		"name_1" : "Jikle Süresi",
 		"name_2" : "Choke Timer",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3352,18 +2609,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 600,
 		"defaultValue" : 20,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3377,6 +2624,7 @@
 	},
 	{
 		"id" : 115,
+		"version" : 1004,
 		"name_1" : "Yağ Basınç  Switch Marş Kesme Süresi",
 		"name_2" : "Starter Cut Level Oil Pressure Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3387,18 +2635,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 50,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 50,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3412,6 +2650,7 @@
 	},
 	{
 		"id" : 119,
+		"version" : 1004,
 		"name_1" : "Motor Isınma Zamanı",
 		"name_2" : "Warm Up Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3422,18 +2661,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3600,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3447,6 +2676,7 @@
 	},
 	{
 		"id" : 120,
+		"version" : 1004,
 		"name_1" : "Soğutma Süresi",
 		"name_2" : "Cooling Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3457,18 +2687,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18000,
 		"defaultValue" : 300,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3482,6 +2702,7 @@
 	},
 	{
 		"id" : 123,
+		"version" : 1004,
 		"name_1" : "Korna Süresi",
 		"name_2" : "Horn Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3492,18 +2713,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 10,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 900,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 10,
+		"maxValue" : 900,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3517,6 +2728,7 @@
 	},
 	{
 		"id" : 126,
+		"version" : 1004,
 		"name_1" : "Düşük Yağ Basıncı Alarm Gecikmesi",
 		"name_2" : "Low Oil Pressure Alarm Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3527,18 +2739,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3552,6 +2754,7 @@
 	},
 	{
 		"id" : 127,
+		"version" : 1004,
 		"name_1" : "Yağ Basınç Müşiri Açık Devre Gecikmesi",
 		"name_2" : "Oil Pressure Sender Open Circuit Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3562,18 +2765,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3587,6 +2780,7 @@
 	},
 	{
 		"id" : 128,
+		"version" : 1004,
 		"name_1" : "Yüksek Soğutma Sıvısı Sıcaklığı Alarm Gecikmesi",
 		"name_2" : "High Coolant Temperature Alarm Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3597,18 +2791,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 50,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3622,6 +2806,7 @@
 	},
 	{
 		"id" : 129,
+		"version" : 1004,
 		"name_1" : "Soğutma Sıvısı Sıcaklık Müşiri Açık Devre Gecikmesi",
 		"name_2" : "Coolant Temperature Sender Open Circuit Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3632,18 +2817,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 50,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3657,6 +2832,7 @@
 	},
 	{
 		"id" : 130,
+		"version" : 1004,
 		"name_1" : "Düşük Yakıt Seviyesi Alarm Gecikmesi",
 		"name_2" : "Low Fuel Level Alarm Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3667,18 +2843,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3692,6 +2858,7 @@
 	},
 	{
 		"id" : 131,
+		"version" : 1004,
 		"name_1" : "Yakıt Seviye Müşiri Açık Devre Gecikmesi",
 		"name_2" : "Fuel Level Sender Open Circuit Delay",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3702,18 +2869,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 600,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3727,6 +2884,7 @@
 	},
 	{
 		"id" : 138,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Yağ) Saati",
 		"name_2" : "Maintenance Alarm(Oil) Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3737,18 +2895,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 200,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 200,
+		"maxValue" : 10000,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3762,6 +2910,7 @@
 	},
 	{
 		"id" : 139,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Hava) Saati",
 		"name_2" : "Maintenance Alarm(Air) Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3772,18 +2921,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 200,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 200,
+		"maxValue" : 10000,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3797,6 +2936,7 @@
 	},
 	{
 		"id" : 140,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Yakıt) Saati",
 		"name_2" : "Maintenance Alarm(Fuel) Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3807,18 +2947,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 200,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 200,
+		"maxValue" : 10000,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3832,6 +2962,7 @@
 	},
 	{
 		"id" : 141,
+		"version" : 1004,
 		"name_1" : "Bakım Alarm(Genel) Saati",
 		"name_2" : "Maintenance Alarm(Common) Time",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3842,18 +2973,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 200,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 200,
+		"maxValue" : 10000,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3867,6 +2988,7 @@
 	},
 	{
 		"id" : 142,
+		"version" : 1004,
 		"name_1" : "Servis Zaman Yenileme",
 		"name_2" : "Service Time Reset",
 		"group_1" : "Motor Zamanlayıcısı",
@@ -3877,18 +2999,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -3928,6 +3040,7 @@
 	},
 	{
 		"id" : 156,
+		"version" : 1004,
 		"name_1" : "J1939  Ecu Tip",
 		"name_2" : "J1939 ECU Type",
 		"group_1" : "Haberleşme",
@@ -3938,18 +3051,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 17,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 17,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4054,6 +3157,7 @@
 	},
 	{
 		"id" : 161,
+		"version" : 1004,
 		"name_1" : "Ecu Hız Kontol Aktif",
 		"name_2" : "ECU Speed Control Enable",
 		"group_1" : "Haberleşme",
@@ -4064,18 +3168,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -4100,6 +3194,7 @@
 	},
 	{
 		"id" : 162,
+		"version" : 1004,
 		"name_1" : "Ecu Yağ Basınç Kontol Aktif",
 		"name_2" : "ECU Oil Pressure Control Enable",
 		"group_1" : "Haberleşme",
@@ -4110,18 +3205,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4146,6 +3231,7 @@
 	},
 	{
 		"id" : 163,
+		"version" : 1004,
 		"name_1" : "Ecu Sıcaklık Kontrol Aktif",
 		"name_2" : "ECU Temperature Control Enable",
 		"group_1" : "Haberleşme",
@@ -4156,18 +3242,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4192,6 +3268,7 @@
 	},
 	{
 		"id" : 164,
+		"version" : 1004,
 		"name_1" : "Motor Hız Ayar Noktası",
 		"name_2" : "Engine Speed SetPoint",
 		"group_1" : "Haberleşme",
@@ -4202,18 +3279,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4238,6 +3305,7 @@
 	},
 	{
 		"id" : 165,
+		"version" : 1004,
 		"name_1" : "Motor Hız Düzeltme",
 		"name_2" : "Engine Speed Correction",
 		"group_1" : "Haberleşme",
@@ -4248,18 +3316,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 50,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4273,6 +3331,7 @@
 	},
 	{
 		"id" : 166,
+		"version" : 1004,
 		"name_1" : "Can Ecu Haberleşme Hata Aksiyonu",
 		"name_2" : "CAN ECU Communication Fail Action",
 		"group_1" : "Haberleşme",
@@ -4283,18 +3342,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 4,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4334,6 +3383,7 @@
 	},
 	{
 		"id" : 167,
+		"version" : 1004,
 		"name_1" : "Can Ecu Droop Aktif",
 		"name_2" : "CAN ECU Droop Enable",
 		"group_1" : "Haberleşme",
@@ -4344,18 +3394,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4380,6 +3420,7 @@
 	},
 	{
 		"id" : 168,
+		"version" : 1004,
 		"name_1" : "Can Ecu Droop Yüzde",
 		"name_2" : "Can Ecu Droop Percent",
 		"group_1" : "Haberleşme",
@@ -4390,18 +3431,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4415,6 +3446,7 @@
 	},
 	{
 		"id" : 169,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-1 Kaynağı",
 		"name_2" : "Digital Output-1 Source",
 		"group_1" : "Dijital Çıkış",
@@ -4425,18 +3457,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 10,
 		"valueMask" : [
 			{
@@ -4550,7 +3572,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 169,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-1 Kaynağı",
+		"name_2" : "Digital Output-1 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 10,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-1 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-1 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 170,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-1 Polaritesi",
 		"name_2" : "Digital Output-1 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -4561,18 +3816,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4597,6 +3842,7 @@
 	},
 	{
 		"id" : 171,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-2 Kaynağı",
 		"name_2" : "Digital Output-2 Source",
 		"group_1" : "Dijital Çıkış",
@@ -4607,18 +3853,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -4732,7 +3968,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 171,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-2 Kaynağı",
+		"name_2" : "Digital Output-2 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-2 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-2 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 172,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-2 Polaritesi",
 		"name_2" : "Digital Output-2 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -4743,18 +4212,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4779,6 +4238,7 @@
 	},
 	{
 		"id" : 173,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-3 Kaynağı",
 		"name_2" : "Digital Output-3 Source",
 		"group_1" : "Dijital Çıkış",
@@ -4789,18 +4249,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -4914,7 +4364,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 173,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-3 Kaynağı",
+		"name_2" : "Digital Output-3 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-3 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-3 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 174,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-3 Polaritesi",
 		"name_2" : "Digital Output-3 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -4925,18 +4608,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -4961,6 +4634,7 @@
 	},
 	{
 		"id" : 175,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-4 Kaynağı",
 		"name_2" : "Digital Output-4 Source",
 		"group_1" : "Dijital Çıkış",
@@ -4971,18 +4645,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 6,
 		"valueMask" : [
 			{
@@ -5096,7 +4760,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 175,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-4 Kaynağı",
+		"name_2" : "Digital Output-4 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 6,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-4 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-4 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 176,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-4 Polaritesi",
 		"name_2" : "Digital Output-4 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -5107,18 +5004,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -5143,6 +5030,7 @@
 	},
 	{
 		"id" : 177,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-5 Kaynağı",
 		"name_2" : "Digital Output-5 Source",
 		"group_1" : "Dijital Çıkış",
@@ -5153,18 +5041,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 9,
 		"valueMask" : [
 			{
@@ -5278,7 +5156,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 177,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-5 Kaynağı",
+		"name_2" : "Digital Output-5 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 9,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-5 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-5 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 178,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-5 Polaritesi",
 		"name_2" : "Digital Output-5 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -5289,18 +5400,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -5325,6 +5426,7 @@
 	},
 	{
 		"id" : 179,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-6 Kaynağı",
 		"name_2" : "Digital Output-6 Source",
 		"group_1" : "Dijital Çıkış",
@@ -5335,18 +5437,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 77,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 77,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -5378,11 +5470,6 @@
 				"value" : 6,
 				"mask_1" : "Jeneratör Kontaktörü",
 				"mask_2" : "Generator Contactor"
-			},
-			{
-				"value" : 8,
-				"mask_1" : "Şebeke Kontaktörü",
-				"mask_2" : "Mains Contactor"
 			},
 			{
 				"value" : 9,
@@ -5465,7 +5552,240 @@
 		"relation" : []
 	},
 	{
+		"id" : 179,
+		"version" : 1008,
+		"name_1" : "Dijital Çıkış-6 Kaynağı",
+		"name_2" : "Digital Output-6 Source",
+		"group_1" : "Dijital Çıkış",
+		"group_2" : "Digital Output",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 77,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Tanımsız",
+				"mask_2" : "None"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Marş",
+				"mask_2" : "Starter"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Yakıt Selenoidi",
+				"mask_2" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Durdurma Selenoidi",
+				"mask_2" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Korna",
+				"mask_2" : "Horn"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Oto Başlatma Engel",
+				"mask_2" : "Auto Start Inhibit"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Jen. Kontak Çıkışı",
+				"mask_2" : "GCB Open Out"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Yük Hazır",
+				"mask_2" : "Ready To Load"
+			},
+			{
+				"value" : 10,
+				"mask_1" : "Ön Başlatma",
+				"mask_2" : "Prestart"
+			},
+			{
+				"value" : 11,
+				"mask_1" : "Jikle",
+				"mask_2" : "Choke"
+			},
+			{
+				"value" : 14,
+				"mask_1" : "Soğutma Fanı",
+				"mask_2" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask_1" : "Yakıt Pompası",
+				"mask_2" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask_1" : "Genel Alarm",
+				"mask_2" : "Common Alarm"
+			},
+			{
+				"value" : 23,
+				"mask_1" : "Elektriksel Arıza",
+				"mask_2" : "Electrical Trip"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Durdurucu Arıza",
+				"mask_2" : "Shutdown"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Geçici uyarı",
+				"mask_2" : "Tempory Warning"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Kalıcı Uyarı",
+				"mask_2" : "Permanent Warn."
+			},
+			{
+				"value" : 27,
+				"mask_1" : "Soğutma",
+				"mask_2" : "Coolingdown"
+			},
+			{
+				"value" : 28,
+				"mask_1" : "Dijital Giriş1",
+				"mask_2" : "Digital Input1"
+			},
+			{
+				"value" : 29,
+				"mask_1" : "Dijital Giriş2",
+				"mask_2" : "Digital Input2"
+			},
+			{
+				"value" : 30,
+				"mask_1" : "Dijital Giriş3",
+				"mask_2" : "Digital Input3"
+			},
+			{
+				"value" : 33,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 34,
+				"mask_1" : "Başlatılamadı",
+				"mask_2" : "Fail to Start"
+			},
+			{
+				"value" : 35,
+				"mask_1" : "Durdurulamadı",
+				"mask_2" : "Fail to Stop"
+			},
+			{
+				"value" : 45,
+				"mask_1" : "Düşük Yağ Basıncı",
+				"mask_2" : "Low Oil Pressure"
+			},
+			{
+				"value" : 47,
+				"mask_1" : "Yüksek Soğutma Sıcaklığı.",
+				"mask_2" : "High Cool Temp."
+			},
+			{
+				"value" : 49,
+				"mask_1" : "Düşük Yakıt Hata",
+				"mask_2" : "Low Fuel Alarm"
+			},
+			{
+				"value" : 51,
+				"mask_1" : "Düşük Hız",
+				"mask_2" : "Under Speed"
+			},
+			{
+				"value" : 53,
+				"mask_1" : "Aşırı Hız",
+				"mask_2" : "Over Speed"
+			},
+			{
+				"value" : 55,
+				"mask_1" : "Akü Yüksek Volt",
+				"mask_2" : "Battery Over Volt"
+			},
+			{
+				"value" : 57,
+				"mask_1" : "Akü Düşük Volt",
+				"mask_2" : "Battery Under Volt"
+			},
+			{
+				"value" : 59,
+				"mask_1" : "Şarj Alt. Yüksek",
+				"mask_2" : "Charge Alt. OV"
+			},
+			{
+				"value" : 61,
+				"mask_1" : "Şarj Alt. Düşük",
+				"mask_2" : "Charge Alt. UV"
+			},
+			{
+				"value" : 70,
+				"mask_1" : "Yağ D. Bakım Hata",
+				"mask_2" : "Maint. Oil Al."
+			},
+			{
+				"value" : 71,
+				"mask_1" : "Hava D.Bakım Hata",
+				"mask_2" : "Maint. Air Al."
+			},
+			{
+				"value" : 72,
+				"mask_1" : "Yakıt D.Bakım Hata",
+				"mask_2" : "Maint. Fuel Al"
+			},
+			{
+				"value" : 73,
+				"mask_1" : "Genel Bakım Hata",
+				"mask_2" : "Maint. Cmmn Al"
+			},
+			{
+				"value" : 74,
+				"mask_1" : "Pompa Bekleniyor",
+				"mask_2" : "Waiting for Pump"
+			},
+			{
+				"value" : 75,
+				"mask_1" : "Oto Mod",
+				"mask_2" : "Auto Mode"
+			},
+			{
+				"value" : 76,
+				"mask_1" : "Manuel Mod",
+				"mask_2" : "Manuel Mode"
+			},
+			{
+				"value" : 77,
+				"mask_1" : "Sesli Uyarı",
+				"mask_2" : "Sound Warning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Çıkış-6 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Output-6 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 180,
+		"version" : 1004,
 		"name_1" : "Dijital Çıkış-6 Polaritesi",
 		"name_2" : "Digital Output-6 Polarity",
 		"group_1" : "Dijital Çıkış",
@@ -5476,18 +5796,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -5512,6 +5822,7 @@
 	},
 	{
 		"id" : 181,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-1 Kaynağı",
 		"name_2" : "Digital Input-1 Source",
 		"group_1" : "Dijital Giriş",
@@ -5522,18 +5833,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -5597,7 +5898,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 181,
+		"version" : 1008,
+		"name_1" : "Dijital Giriş-1 Kaynağı",
+		"name_2" : "Digital Input-1 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-1 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-1 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 182,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-1 Polaritesi",
 		"name_2" : "Digital Input-1 Polarity",
 		"group_1" : "Dijital Giriş",
@@ -5608,18 +6002,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -5644,6 +6028,7 @@
 	},
 	{
 		"id" : 183,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-1 Aksiyonu",
 		"name_2" : "Digital Input-1 Action",
 		"group_1" : "Dijital Giriş",
@@ -5654,18 +6039,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -5700,6 +6075,7 @@
 	},
 	{
 		"id" : 184,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-1 Kontrol Zamanlaması",
 		"name_2" : "Digital Input-1 Arming",
 		"group_1" : "Dijital Giriş",
@@ -5710,18 +6086,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -5756,6 +6122,7 @@
 	},
 	{
 		"id" : 185,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-2 Kaynağı",
 		"name_2" : "Digital Input-2 Source",
 		"group_1" : "Dijital Giriş",
@@ -5766,18 +6133,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 3,
 		"valueMask" : [
 			{
@@ -5841,7 +6198,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 185,
+		"version" : 1008,
+		"name_1" : "Dijital Giriş-2 Kaynağı",
+		"name_2" : "Digital Input-2 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 3,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-2 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-2 is the parameter for function selection.",
+		"relation" : []
+	},
+	{
 		"id" : 186,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-2 Polaritesi",
 		"name_2" : "Digital Input-2 Polarity",
 		"group_1" : "Dijital Giriş",
@@ -5852,18 +6302,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -5888,6 +6328,7 @@
 	},
 	{
 		"id" : 187,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-2 Aksiyonu",
 		"name_2" : "Digital Input-2 Action",
 		"group_1" : "Dijital Giriş",
@@ -5898,18 +6339,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -5944,6 +6375,7 @@
 	},
 	{
 		"id" : 188,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-2 Kontrol Zamanlaması",
 		"name_2" : "Digital Input-2 Arming",
 		"group_1" : "Dijital Giriş",
@@ -5954,18 +6386,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -6000,6 +6422,7 @@
 	},
 	{
 		"id" : 189,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-3 Kaynağı",
 		"name_2" : "Digital Input-3 Source",
 		"group_1" : "Dijital Giriş",
@@ -6010,18 +6433,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -6085,7 +6498,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 189,
+		"version" : 1008,
+		"name_1" : "Dijital Giriş-3 Kaynağı",
+		"name_2" : "Digital Input-3 Source",
+		"group_1" : "Dijital Giriş",
+		"group_2" : "Digital Input",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Giriş-3 fonksiyon seçiminin yapıldığı parametredir.",
+		"comment_2" : "Input-3 function selection parameter.",
+		"relation" : []
+	},
+	{
 		"id" : 190,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-3 Polaritesi",
 		"name_2" : "Digital Input-3 Polarity",
 		"group_1" : "Dijital Giriş",
@@ -6096,18 +6602,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -6132,6 +6628,7 @@
 	},
 	{
 		"id" : 191,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-3 Aksiyonu",
 		"name_2" : "Digital Input-3 Action",
 		"group_1" : "Dijital Giriş",
@@ -6142,18 +6639,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -6188,6 +6675,7 @@
 	},
 	{
 		"id" : 192,
+		"version" : 1004,
 		"name_1" : "Dijital Giriş-3 Kontrol Zamanlaması",
 		"name_2" : "Digital Input-3 Arming",
 		"group_1" : "Dijital Giriş",
@@ -6198,18 +6686,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -6244,6 +6722,7 @@
 	},
 	{
 		"id" : 193,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Tipi",
 		"name_2" : "Analogue Input-1 Sensor Type",
 		"group_1" : "Analog Giriş-1",
@@ -6254,18 +6733,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 2,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 2,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -6295,6 +6764,7 @@
 	},
 	{
 		"id" : 194,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Seçimi",
 		"name_2" : "Analogue Input-1 Sensor Selection",
 		"group_1" : "Analog Giriş-1",
@@ -6305,18 +6775,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 11,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 11,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -6391,6 +6851,7 @@
 	},
 	{
 		"id" : 196,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Kaynağı",
 		"name_2" : "Analogue Input-1 Source",
 		"group_1" : "Analog Giriş-1",
@@ -6401,18 +6862,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -6476,7 +6927,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 196,
+		"version" : 1008,
+		"name_1" : "Analog Giriş-1 Kaynağı",
+		"name_2" : "Analogue Input-1 Source",
+		"group_1" : "Analog Giriş-1",
+		"group_2" : "Analog Input-1",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Analog Giriş-1 Dijital Giriş Olarak Ayarlandığında giriş fonksiyon seçimin yapıldığı parametredir.",
+		"comment_2" : "When Analog Input-1 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
 		"id" : 197,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Polaritesi",
 		"name_2" : "Analogue Input-1 Polarity",
 		"group_1" : "Analog Giriş-1",
@@ -6487,18 +7031,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -6523,6 +7057,7 @@
 	},
 	{
 		"id" : 198,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Aksiyonu",
 		"name_2" : "Analogue Input-1 Action",
 		"group_1" : "Analog Giriş-1",
@@ -6533,18 +7068,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -6579,6 +7104,7 @@
 	},
 	{
 		"id" : 199,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Kontrol Zamanlaması",
 		"name_2" : "Analogue Input-1 Arming",
 		"group_1" : "Analog Giriş-1",
@@ -6589,18 +7115,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -6635,6 +7151,7 @@
 	},
 	{
 		"id" : 200,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Tablo Boyutu",
 		"name_2" : "Analogue Input-1 Table Len",
 		"group_1" : "Analog Giriş-1",
@@ -6645,18 +7162,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 10,
 		"defaultValue" : 2,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6670,6 +7177,7 @@
 	},
 	{
 		"id" : 201,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-1",
 		"name_2" : "Analogue Input-1 Sender Resistor-1",
 		"group_1" : "Analog Giriş-1",
@@ -6680,18 +7188,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6705,6 +7203,7 @@
 	},
 	{
 		"id" : 202,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-1",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-1",
 		"group_1" : "Analog Giriş-1",
@@ -6715,18 +7214,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6740,6 +7229,7 @@
 	},
 	{
 		"id" : 203,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-2",
 		"name_2" : "Analogue Input-1 Sender Resistor-2",
 		"group_1" : "Analog Giriş-1",
@@ -6750,18 +7240,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6775,6 +7255,7 @@
 	},
 	{
 		"id" : 204,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-2",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-2",
 		"group_1" : "Analog Giriş-1",
@@ -6785,18 +7266,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6810,6 +7281,7 @@
 	},
 	{
 		"id" : 205,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-3",
 		"name_2" : "Analogue Input-1 Sender Resistor-3",
 		"group_1" : "Analog Giriş-1",
@@ -6820,18 +7292,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6845,6 +7307,7 @@
 	},
 	{
 		"id" : 206,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-3",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-3",
 		"group_1" : "Analog Giriş-1",
@@ -6855,18 +7318,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6880,6 +7333,7 @@
 	},
 	{
 		"id" : 207,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-4",
 		"name_2" : "Analogue Input-1 Sender Resistor-4",
 		"group_1" : "Analog Giriş-1",
@@ -6890,18 +7344,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6915,6 +7359,7 @@
 	},
 	{
 		"id" : 208,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-4",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-4",
 		"group_1" : "Analog Giriş-1",
@@ -6925,18 +7370,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6950,6 +7385,7 @@
 	},
 	{
 		"id" : 209,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-5",
 		"name_2" : "Analogue Input-1 Sender Resistor-5",
 		"group_1" : "Analog Giriş-1",
@@ -6960,18 +7396,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -6985,6 +7411,7 @@
 	},
 	{
 		"id" : 210,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-5",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-5",
 		"group_1" : "Analog Giriş-1",
@@ -6995,18 +7422,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7020,6 +7437,7 @@
 	},
 	{
 		"id" : 211,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-6",
 		"name_2" : "Analogue Input-1 Sender Resistor-6",
 		"group_1" : "Analog Giriş-1",
@@ -7030,18 +7448,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7055,6 +7463,7 @@
 	},
 	{
 		"id" : 212,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-6",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-6",
 		"group_1" : "Analog Giriş-1",
@@ -7065,18 +7474,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7090,6 +7489,7 @@
 	},
 	{
 		"id" : 213,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-7",
 		"name_2" : "Analogue Input-1 Sender Resistor-7",
 		"group_1" : "Analog Giriş-1",
@@ -7100,18 +7500,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7125,6 +7515,7 @@
 	},
 	{
 		"id" : 214,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-7",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-7",
 		"group_1" : "Analog Giriş-1",
@@ -7135,18 +7526,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7160,6 +7541,7 @@
 	},
 	{
 		"id" : 215,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-8",
 		"name_2" : "Analogue Input-1 Sender Resistor-8",
 		"group_1" : "Analog Giriş-1",
@@ -7170,18 +7552,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7195,6 +7567,7 @@
 	},
 	{
 		"id" : 216,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-8",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-8",
 		"group_1" : "Analog Giriş-1",
@@ -7205,18 +7578,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7230,6 +7593,7 @@
 	},
 	{
 		"id" : 217,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-9",
 		"name_2" : "Analogue Input-1 Sender Resistor-9",
 		"group_1" : "Analog Giriş-1",
@@ -7240,18 +7604,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7265,6 +7619,7 @@
 	},
 	{
 		"id" : 218,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-9",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-9",
 		"group_1" : "Analog Giriş-1",
@@ -7275,18 +7630,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7300,6 +7645,7 @@
 	},
 	{
 		"id" : 219,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Müşir Direnci-10",
 		"name_2" : "Analogue Input-1 Sender Resistor-10",
 		"group_1" : "Analog Giriş-1",
@@ -7310,18 +7656,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7335,6 +7671,7 @@
 	},
 	{
 		"id" : 220,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-1 Yağ Basıncı Değeri-10",
 		"name_2" : "Analogue Input-1 Oil Pressure Value-10",
 		"group_1" : "Analog Giriş-1",
@@ -7345,18 +7682,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7370,6 +7697,7 @@
 	},
 	{
 		"id" : 221,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Tipi",
 		"name_2" : "Analogue Input-2 Sensor Type",
 		"group_1" : "Analog Giriş-2",
@@ -7380,18 +7708,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 2,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 2,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -7421,6 +7739,7 @@
 	},
 	{
 		"id" : 222,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Seçimi",
 		"name_2" : "Analogue Input-2 Sensor Selection",
 		"group_1" : "Analog Giriş-2",
@@ -7431,18 +7750,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 11,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 11,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -7517,6 +7826,7 @@
 	},
 	{
 		"id" : 224,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Kaynağı",
 		"name_2" : "Analogue Input-2 Source",
 		"group_1" : "Analog Giriş-2",
@@ -7527,18 +7837,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -7602,7 +7902,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 224,
+		"version" : 1008,
+		"name_1" : "Analog Giriş-2 Kaynağı",
+		"name_2" : "Analogue Input-2 Source",
+		"group_1" : "Analog Giriş-2",
+		"group_2" : "Analog Input-2",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1404,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Analog Giriş-2 Dijital Giriş Olarak Ayarlandığında giriş fonksiyon seçimin yapıldığı parametredir.",
+		"comment_2" : "When Analog Input-2 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
 		"id" : 225,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Polaritesi",
 		"name_2" : "Analogue Input-2 Polarity",
 		"group_1" : "Analog Giriş-2",
@@ -7613,18 +8006,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -7649,6 +8032,7 @@
 	},
 	{
 		"id" : 226,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Aksiyonu",
 		"name_2" : "Analogue Input-2 Action",
 		"group_1" : "Analog Giriş-2",
@@ -7659,18 +8043,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -7705,6 +8079,7 @@
 	},
 	{
 		"id" : 227,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Kontrol Zamanlaması",
 		"name_2" : "Analogue Input-2 Arming",
 		"group_1" : "Analog Giriş-2",
@@ -7715,18 +8090,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -7761,6 +8126,7 @@
 	},
 	{
 		"id" : 228,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Tablo Boyutu",
 		"name_2" : "Analogue Input-2 Table Len",
 		"group_1" : "Analog Giriş-2",
@@ -7771,18 +8137,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 10,
 		"defaultValue" : 2,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7796,6 +8152,7 @@
 	},
 	{
 		"id" : 229,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-1",
 		"name_2" : "Analogue Input-2 Sender Resistor-1",
 		"group_1" : "Analog Giriş-2",
@@ -7806,18 +8163,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7831,6 +8178,7 @@
 	},
 	{
 		"id" : 230,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-1",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-1",
 		"group_1" : "Analog Giriş-2",
@@ -7841,18 +8189,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7866,6 +8204,7 @@
 	},
 	{
 		"id" : 231,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-2",
 		"name_2" : "Analogue Input-2 Sender Resistor-2",
 		"group_1" : "Analog Giriş-2",
@@ -7876,18 +8215,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7901,6 +8230,7 @@
 	},
 	{
 		"id" : 232,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-2",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-2",
 		"group_1" : "Analog Giriş-2",
@@ -7911,18 +8241,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7936,6 +8256,7 @@
 	},
 	{
 		"id" : 233,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-3",
 		"name_2" : "Analogue Input-2 Sender Resistor-3",
 		"group_1" : "Analog Giriş-2",
@@ -7946,18 +8267,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -7971,6 +8282,7 @@
 	},
 	{
 		"id" : 234,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-3",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-3",
 		"group_1" : "Analog Giriş-2",
@@ -7981,18 +8293,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8006,6 +8308,7 @@
 	},
 	{
 		"id" : 235,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-4",
 		"name_2" : "Analogue Input-2 Sender Resistor-4",
 		"group_1" : "Analog Giriş-2",
@@ -8016,18 +8319,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8041,6 +8334,7 @@
 	},
 	{
 		"id" : 236,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-4",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-4",
 		"group_1" : "Analog Giriş-2",
@@ -8051,18 +8345,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8076,6 +8360,7 @@
 	},
 	{
 		"id" : 237,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-5",
 		"name_2" : "Analogue Input-2 Sender Resistor-5",
 		"group_1" : "Analog Giriş-2",
@@ -8086,18 +8371,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8111,6 +8386,7 @@
 	},
 	{
 		"id" : 238,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-5",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-5",
 		"group_1" : "Analog Giriş-2",
@@ -8121,18 +8397,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8146,6 +8412,7 @@
 	},
 	{
 		"id" : 239,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-6",
 		"name_2" : "Analogue Input-2 Sender Resistor-6",
 		"group_1" : "Analog Giriş-2",
@@ -8156,18 +8423,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8181,6 +8438,7 @@
 	},
 	{
 		"id" : 240,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-6",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-6",
 		"group_1" : "Analog Giriş-2",
@@ -8191,18 +8449,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8216,6 +8464,7 @@
 	},
 	{
 		"id" : 241,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-7",
 		"name_2" : "Analogue Input-2 Sender Resistor-7",
 		"group_1" : "Analog Giriş-2",
@@ -8226,18 +8475,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8251,6 +8490,7 @@
 	},
 	{
 		"id" : 242,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-7",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-7",
 		"group_1" : "Analog Giriş-2",
@@ -8261,18 +8501,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8286,6 +8516,7 @@
 	},
 	{
 		"id" : 243,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-8",
 		"name_2" : "Analogue Input-2 Sender Resistor-8",
 		"group_1" : "Analog Giriş-2",
@@ -8296,18 +8527,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8321,6 +8542,7 @@
 	},
 	{
 		"id" : 244,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-8",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-8",
 		"group_1" : "Analog Giriş-2",
@@ -8331,18 +8553,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8356,6 +8568,7 @@
 	},
 	{
 		"id" : 245,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-9",
 		"name_2" : "Analogue Input-2 Sender Resistor-9",
 		"group_1" : "Analog Giriş-2",
@@ -8366,18 +8579,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8391,6 +8594,7 @@
 	},
 	{
 		"id" : 246,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-9",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-9",
 		"group_1" : "Analog Giriş-2",
@@ -8401,18 +8605,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8426,6 +8620,7 @@
 	},
 	{
 		"id" : 247,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Müşir Direnci-10",
 		"name_2" : "Analogue Input-2 Sender Resistor-10",
 		"group_1" : "Analog Giriş-2",
@@ -8436,18 +8631,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8461,6 +8646,7 @@
 	},
 	{
 		"id" : 248,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-2 Soğutma Sıvısı Sıcaklığı Değeri-10",
 		"name_2" : "Analogue Input-2 Coolant Temperature Value-10",
 		"group_1" : "Analog Giriş-2",
@@ -8471,18 +8657,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -50,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 250,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : -50,
+		"maxValue" : 250,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8496,6 +8672,7 @@
 	},
 	{
 		"id" : 249,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Tipi",
 		"name_2" : "Analogue Input-3 Sensor Type",
 		"group_1" : "Analog Giriş-3",
@@ -8506,18 +8683,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 2,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 2,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -8547,6 +8714,7 @@
 	},
 	{
 		"id" : 250,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Seçimi",
 		"name_2" : "Analogue Input-3 Sensor Selection",
 		"group_1" : "Analog Giriş-3",
@@ -8557,18 +8725,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 9,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 9,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -8633,6 +8791,7 @@
 	},
 	{
 		"id" : 252,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Kaynağı",
 		"name_2" : "Analogue Input-3 Source",
 		"group_1" : "Analog Giriş-3",
@@ -8643,18 +8802,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 18,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 18,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -8718,7 +8867,100 @@
 		"relation" : []
 	},
 	{
+		"id" : 252,
+		"version" : 1008,
+		"name_1" : "Analog Giriş-3 Kaynağı",
+		"name_2" : "Analogue Input-3 Source",
+		"group_1" : "Analog Giriş-3",
+		"group_2" : "Analog Input-3",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 1504,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 26,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Giriş Aktif Değil",
+				"mask_2" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Acil Durdurma",
+				"mask_2" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Uzaktan Çalışma/Durdurma",
+				"mask_2" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Uzaktan Çalışma/Yükleme",
+				"mask_2" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Panel Kilidi",
+				"mask_2" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask_1" : "Başlatma Buton Simülasyonu",
+				"mask_2" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask_1" : "Durdurma Buton Simülasyonu",
+				"mask_2" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask_1" : "Alarm Devre Dışı",
+				"mask_2" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask_1" : "Alarm Resetleme",
+				"mask_2" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask_1" : "Kullanıcı Tanımlı",
+				"mask_2" : "User Defined"
+			},
+			{
+				"value" : 24,
+				"mask_1" : "Pompa Yükü Bırakma Girişi",
+				"mask_2" : "Pump Load Release Input"
+			},
+			{
+				"value" : 25,
+				"mask_1" : "Oto Modda Pompanın Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Pump Operation in Auto Mode Signal"
+			},
+			{
+				"value" : 26,
+				"mask_1" : "Oto Modda Pompanın Uzaktan Çalışmasını Engelle Sinyali",
+				"mask_2" : "Block Remote Operation of Pump in Auto Mode Signal"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Analog Giriş-3 Dijital Giriş Olarak Ayarlandığında giriş fonksiyon seçimin yapıldığı parametredir.",
+		"comment_2" : "When Analog Input-3 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
 		"id" : 253,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Polaritesi",
 		"name_2" : "Analogue Input-3 Polarity",
 		"group_1" : "Analog Giriş-3",
@@ -8729,18 +8971,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -8765,6 +8997,7 @@
 	},
 	{
 		"id" : 254,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Aksiyonu",
 		"name_2" : "Analogue Input-3 Action",
 		"group_1" : "Analog Giriş-3",
@@ -8775,18 +9008,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 4,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 1,
+		"maxValue" : 4,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -8821,6 +9044,7 @@
 	},
 	{
 		"id" : 255,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Kontrol Zamanlaması",
 		"name_2" : "Analogue Input-3 Arming",
 		"group_1" : "Analog Giriş-3",
@@ -8831,18 +9055,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -8877,6 +9091,7 @@
 	},
 	{
 		"id" : 256,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Tablo Boyutu",
 		"name_2" : "Analogue Input-3 Table Len",
 		"group_1" : "Analog Giriş-3",
@@ -8887,18 +9102,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 10,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 10,
 		"defaultValue" : 2,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8912,6 +9117,7 @@
 	},
 	{
 		"id" : 257,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-1",
 		"name_2" : "Analogue Input-3 Sender Resistor-1",
 		"group_1" : "Analog Giriş-3",
@@ -8922,18 +9128,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8947,6 +9143,7 @@
 	},
 	{
 		"id" : 258,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-1",
 		"name_2" : "Analogue Input-3 Percentage Value-1",
 		"group_1" : "Analog Giriş-3",
@@ -8957,18 +9154,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -8982,6 +9169,7 @@
 	},
 	{
 		"id" : 259,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-2",
 		"name_2" : "Analogue Input-3 Sender Resistor-2",
 		"group_1" : "Analog Giriş-3",
@@ -8992,18 +9180,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9017,6 +9195,7 @@
 	},
 	{
 		"id" : 260,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-2",
 		"name_2" : "Analogue Input-3 Percentage Value-2",
 		"group_1" : "Analog Giriş-3",
@@ -9027,18 +9206,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9052,6 +9221,7 @@
 	},
 	{
 		"id" : 261,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-3",
 		"name_2" : "Analogue Input-3 Sender Resistor-3",
 		"group_1" : "Analog Giriş-3",
@@ -9062,18 +9232,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9087,6 +9247,7 @@
 	},
 	{
 		"id" : 262,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-3",
 		"name_2" : "Analogue Input-3 Percentage Value-3",
 		"group_1" : "Analog Giriş-3",
@@ -9097,18 +9258,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9122,6 +9273,7 @@
 	},
 	{
 		"id" : 263,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-4",
 		"name_2" : "Analogue Input-3 Sender Resistor-4",
 		"group_1" : "Analog Giriş-3",
@@ -9132,18 +9284,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9157,6 +9299,7 @@
 	},
 	{
 		"id" : 264,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-4",
 		"name_2" : "Analogue Input-3 Percentage Value-4",
 		"group_1" : "Analog Giriş-3",
@@ -9167,18 +9310,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9192,6 +9325,7 @@
 	},
 	{
 		"id" : 265,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-5",
 		"name_2" : "Analogue Input-3 Sender Resistor-5",
 		"group_1" : "Analog Giriş-3",
@@ -9202,18 +9336,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9227,6 +9351,7 @@
 	},
 	{
 		"id" : 266,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-5",
 		"name_2" : "Analogue Input-3 Percentage Value-5",
 		"group_1" : "Analog Giriş-3",
@@ -9237,18 +9362,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9262,6 +9377,7 @@
 	},
 	{
 		"id" : 267,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-6",
 		"name_2" : "Analogue Input-3 Sender Resistor-6",
 		"group_1" : "Analog Giriş-3",
@@ -9272,18 +9388,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9297,6 +9403,7 @@
 	},
 	{
 		"id" : 268,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-6",
 		"name_2" : "Analogue Input-3 Percentage Value-6",
 		"group_1" : "Analog Giriş-3",
@@ -9307,18 +9414,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9332,6 +9429,7 @@
 	},
 	{
 		"id" : 269,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-7",
 		"name_2" : "Analogue Input-3 Sender Resistor-7",
 		"group_1" : "Analog Giriş-3",
@@ -9342,18 +9440,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9367,6 +9455,7 @@
 	},
 	{
 		"id" : 270,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-7",
 		"name_2" : "Analogue Input-3 Percentage Value-7",
 		"group_1" : "Analog Giriş-3",
@@ -9377,18 +9466,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9402,6 +9481,7 @@
 	},
 	{
 		"id" : 271,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-8",
 		"name_2" : "Analogue Input-3 Sender Resistor-8",
 		"group_1" : "Analog Giriş-3",
@@ -9412,18 +9492,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9437,6 +9507,7 @@
 	},
 	{
 		"id" : 272,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-8",
 		"name_2" : "Analogue Input-3 Percentage Value-8",
 		"group_1" : "Analog Giriş-3",
@@ -9447,18 +9518,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9472,6 +9533,7 @@
 	},
 	{
 		"id" : 273,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-9",
 		"name_2" : "Analogue Input-3 Sender Resistor-9",
 		"group_1" : "Analog Giriş-3",
@@ -9482,18 +9544,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9507,6 +9559,7 @@
 	},
 	{
 		"id" : 274,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-9",
 		"name_2" : "Analogue Input-3 Percentage Value-9",
 		"group_1" : "Analog Giriş-3",
@@ -9517,18 +9570,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9542,6 +9585,7 @@
 	},
 	{
 		"id" : 275,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Müşir Direnci-10",
 		"name_2" : "Analogue Input-3 Sender Resistor-10",
 		"group_1" : "Analog Giriş-3",
@@ -9552,18 +9596,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 540,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 540,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9577,6 +9611,7 @@
 	},
 	{
 		"id" : 276,
+		"version" : 1004,
 		"name_1" : "Analog Giriş-3 Yüzdesel Değeri-10",
 		"name_2" : "Analogue Input-3 Percentage Value-10",
 		"group_1" : "Analog Giriş-3",
@@ -9587,18 +9622,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -9611,7 +9636,45 @@
 		"relation" : []
 	},
 	{
+		"id" : 345,
+		"version" : 1008,
+		"name_1" : "Tüm Hatalar Kalıcı",
+		"name_2" : "All Faults Permanent",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 20,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Aktif",
+				"mask_2" : "Activate"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Pasif",
+				"mask_2" : "Passive"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Pasif seçilirse hata aksiyonları Level1 olacaktır. Aktif seçilirse hata aksiyonları Level4 olacaktır.",
+		"comment_2" : "If Passive is selected error actions will be Level1. If Active is selected error actions will be Level4.",
+		"relation" : []
+	},
+	{
 		"id" : 3005,
+		"version" : 1004,
 		"name_1" : "Jeneratör Voltajı",
 		"name_2" : "Generator Voltage",
 		"group_1" : "İzleme",
@@ -9622,19 +9685,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9647,6 +9700,7 @@
 	},
 	{
 		"id" : 3006,
+		"version" : 1004,
 		"name_1" : "Jeneratör Frekansı",
 		"name_2" : "Generator Frequency",
 		"group_1" : "İzleme",
@@ -9657,19 +9711,9 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9682,6 +9726,7 @@
 	},
 	{
 		"id" : 3007,
+		"version" : 1004,
 		"name_1" : "Yağ Basıncı",
 		"name_2" : "Oil Pressure",
 		"group_1" : "İzleme",
@@ -9692,19 +9737,9 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9717,6 +9752,7 @@
 	},
 	{
 		"id" : 3008,
+		"version" : 1004,
 		"name_1" : "Hararet",
 		"name_2" : "Coolant Temperature",
 		"group_1" : "İzleme",
@@ -9727,19 +9763,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9752,6 +9778,7 @@
 	},
 	{
 		"id" : 3009,
+		"version" : 1004,
 		"name_1" : "Yakıt Seviyesi",
 		"name_2" : "Fuel Level",
 		"group_1" : "İzleme",
@@ -9762,19 +9789,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9787,6 +9804,7 @@
 	},
 	{
 		"id" : 3010,
+		"version" : 1004,
 		"name_1" : "Şarj Alternatör Voltajı",
 		"name_2" : "Charge Alternator Voltage",
 		"group_1" : "İzleme",
@@ -9797,19 +9815,9 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9822,6 +9830,7 @@
 	},
 	{
 		"id" : 3011,
+		"version" : 1004,
 		"name_1" : "Batarya Voltajı",
 		"name_2" : "Battery Voltage",
 		"group_1" : "İzleme",
@@ -9832,19 +9841,9 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9857,6 +9856,7 @@
 	},
 	{
 		"id" : 3012,
+		"version" : 1004,
 		"name_1" : "İşlemci Sıcaklığı",
 		"name_2" : "MCU Temperature",
 		"group_1" : "İzleme",
@@ -9867,19 +9867,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9892,6 +9882,7 @@
 	},
 	{
 		"id" : 3013,
+		"version" : 1004,
 		"name_1" : "Total Çalışma Süresi(MSB)",
 		"name_2" : "Total Working Time(MSB)",
 		"group_1" : "İzleme",
@@ -9902,19 +9893,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9927,6 +9908,7 @@
 	},
 	{
 		"id" : 3014,
+		"version" : 1004,
 		"name_1" : "Total Çalışma Süresi(LSB)",
 		"name_2" : "Total Working Time(LSB)",
 		"group_1" : "İzleme",
@@ -9937,19 +9919,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9962,6 +9934,7 @@
 	},
 	{
 		"id" : 3015,
+		"version" : 1004,
 		"name_1" : "Yükte Çalışma Süresi(MSB)",
 		"name_2" : "Working Time at Load(MSB)",
 		"group_1" : "İzleme",
@@ -9972,19 +9945,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -9997,6 +9960,7 @@
 	},
 	{
 		"id" : 3016,
+		"version" : 1004,
 		"name_1" : "Yükte Çalışma Süresi(LSB)",
 		"name_2" : "Working Time at Load(LSB)",
 		"group_1" : "İzleme",
@@ -10007,19 +9971,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10032,6 +9986,7 @@
 	},
 	{
 		"id" : 3017,
+		"version" : 1004,
 		"name_1" : "Jeneratör Durum",
 		"name_2" : "Generator Status",
 		"group_1" : "İzleme",
@@ -10042,19 +9997,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10067,6 +10012,7 @@
 	},
 	{
 		"id" : 3018,
+		"version" : 1004,
 		"name_1" : "Motor Hızı",
 		"name_2" : "Engine Speed",
 		"group_1" : "İzleme",
@@ -10077,19 +10023,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10102,6 +10038,7 @@
 	},
 	{
 		"id" : 3019,
+		"version" : 1004,
 		"name_1" : "Genel Servis Süresi",
 		"name_2" : "Common Service Time",
 		"group_1" : "İzleme",
@@ -10112,19 +10049,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10137,6 +10064,7 @@
 	},
 	{
 		"id" : 3020,
+		"version" : 1004,
 		"name_1" : "Yağ Değişim Servis Süresi",
 		"name_2" : "Oil Change Service Time",
 		"group_1" : "İzleme",
@@ -10147,19 +10075,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10172,6 +10090,7 @@
 	},
 	{
 		"id" : 3021,
+		"version" : 1004,
 		"name_1" : "Hava Filtre Değişim Servis Süresi",
 		"name_2" : "Air Filter Change Service Time",
 		"group_1" : "İzleme",
@@ -10182,19 +10101,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10207,6 +10116,7 @@
 	},
 	{
 		"id" : 3022,
+		"version" : 1004,
 		"name_1" : "Yakıt Değişim Servis Süresi",
 		"name_2" : "Fuel Change Service Time",
 		"group_1" : "İzleme",
@@ -10217,19 +10127,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10242,6 +10142,7 @@
 	},
 	{
 		"id" : 3023,
+		"version" : 1004,
 		"name_1" : "Giriş",
 		"name_2" : "Inputs",
 		"group_1" : "İzleme",
@@ -10252,19 +10153,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10277,6 +10168,7 @@
 	},
 	{
 		"id" : 3024,
+		"version" : 1004,
 		"name_1" : "Çıkış",
 		"name_2" : "Outputs",
 		"group_1" : "İzleme",
@@ -10287,19 +10179,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -10312,6 +10194,7 @@
 	},
 	{
 		"id" : 3025,
+		"version" : 1004,
 		"name_1" : "Led İndikatör",
 		"name_2" : "Led Indicator",
 		"group_1" : "İzleme",
@@ -10322,19 +10205,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minControl" : {
-			"minValue" : -32768,
-			"minLimitControl" : false,
-			"minLimitColor" : "",
-			"minLimitAction" : ""
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "",
-			"maxLimitAction" : ""
-		},
-		"defaultValue" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",

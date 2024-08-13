@@ -1797,7 +1797,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1994,6 +1994,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -2056,7 +2071,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2253,6 +2268,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -2315,7 +2345,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 4,
 		"valueMask" : [
 			{
@@ -2512,6 +2542,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -2574,7 +2619,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 3,
 		"valueMask" : [
 			{
@@ -2771,6 +2816,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -2833,7 +2893,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
@@ -3030,6 +3090,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -3092,7 +3167,7 @@
 		"coef" : 0,
 		"signed" : true,
 		"minValue" : 0,
-		"maxValue" : 38,
+		"maxValue" : 41,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -3289,6 +3364,21 @@
 				"value" : 38,
 				"mask_1" : "CB 0 Pozisyon Darbesi",
 				"mask_2" : "CB 0 Position Pulse"
+			},
+			{
+				"value" : 39,
+				"mask_1" : "GCB Zamanlama Çıkış1",
+				"mask_2" : "GCB Timing Output1"
+			},
+			{
+				"value" : 40,
+				"mask_1" : "GCB Zamanlama Çıkış2",
+				"mask_2" : "GCB Timing Output2"
+			},
+			{
+				"value" : 41,
+				"mask_1" : "GCB Zamanlama Çıkış3",
+				"mask_2" : "GCB Timing Output3"
 			}
 		],
 		"dataOperation" : {
@@ -4430,6 +4520,121 @@
 		"relation" : []
 	},
 	{
+		"id" : 362,
+		"version" : 1008,
+		"name_1" : "Stop Butonu ile Kapalı Mod Seçimi",
+		"name_2" : "Off Mode Selection with Stop Button",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 20,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Stop Buton Mod Değişimi Aktif",
+				"mask_2" : "Stop Button Mode Change Active"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Stop Buton Mod Değişimi Pasif",
+				"mask_2" : "Stop Button Mode Change Passive"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Eğer bu parametre 0 seçilirse stop butonuna basıldığında cihaz kapalı moda da geçecektir. Eğer 1 seçilirse Stop butonuna basıldığında cihaz kapalı moda geçmeyecek ve sadece manuel modda durdurma işlemi yapacaktır.",
+		"comment_2" : "If 0 is selected the device will also switch to off mode when the stop button is pressed. If 1 is selected the device will not switch to off mode when the stop button is pressed and will only stop in manual mode.",
+		"relation" : []
+	},
+	{
+		"id" : 363,
+		"version" : 1009,
+		"name_1" : "GCB Zamanlama Çıkış1 Gecikmesi",
+		"name_2" : "GCB Timing Output1 Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 510,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke kesildikten son jeneratör çalıştığında GCB Zamanlama Çıkış1 fonksiyonu bu süre sonunda aktfi olacaktır.",
+		"comment_2" : "GCB Timing Output1 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+		"relation" : []
+	},
+	{
+		"id" : 364,
+		"version" : 1009,
+		"name_1" : "GCB Zamanlama Çıkış2 Gecikmesi",
+		"name_2" : "GCB Timing Output2 Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 511,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke kesildikten son jeneratör çalıştığında GCB Zamanlama Çıkış2 fonksiyonu bu süre sonunda aktfi olacaktır.",
+		"comment_2" : "GCB Timing Output2 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+		"relation" : []
+	},
+	{
+		"id" : 365,
+		"version" : 1009,
+		"name_1" : "GCB Zamanlama Çıkış3 Gecikmesi",
+		"name_2" : "GCB Timing Output3 Delay",
+		"group_1" : "Jeneratör Zamanlayıcısı",
+		"group_2" : "Generator Timer",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 512,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Şebeke kesildikten son jeneratör çalıştığında GCB Zamanlama Çıkış2 fonksiyonu bu süre sonunda aktfi olacaktır.",
+		"comment_2" : "GCB Timing Output2 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+		"relation" : []
+	},
+	{
 		"id" : 3001,
 		"version" : 1005,
 		"name_1" : "Şebeke RS Voltajı",
@@ -4444,7 +4649,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4470,7 +4675,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4496,7 +4701,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4522,7 +4727,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4548,7 +4753,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4574,7 +4779,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4600,7 +4805,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4626,7 +4831,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4652,7 +4857,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4678,7 +4883,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4704,7 +4909,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4730,7 +4935,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4756,7 +4961,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4782,7 +4987,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4808,7 +5013,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4834,7 +5039,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4860,7 +5065,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4886,7 +5091,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4912,7 +5117,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4938,7 +5143,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4964,7 +5169,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -4990,7 +5195,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -5016,7 +5221,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -5042,7 +5247,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -5068,7 +5273,7 @@
 		"signed" : true,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
