@@ -12,18 +12,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 600,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -48,18 +38,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 600,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -84,18 +64,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 600,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 600,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -120,18 +90,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 80,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 80,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -156,18 +116,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 80,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 80,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -192,18 +142,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 80,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 80,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -228,18 +168,8 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 10000,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -264,18 +194,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -300,18 +220,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 10,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 10,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -336,18 +246,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 20,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 20,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -372,18 +272,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -408,18 +298,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -444,18 +324,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -480,18 +350,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -516,18 +376,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -563,18 +413,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 6,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 6,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -635,18 +475,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 580,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 580,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -714,18 +544,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -750,18 +570,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -786,18 +596,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -822,18 +622,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -858,18 +648,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -894,18 +674,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -930,18 +700,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -966,18 +726,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1002,18 +752,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1038,18 +778,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1074,18 +804,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1110,18 +830,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1146,18 +856,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1182,18 +882,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1218,18 +908,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 85,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 85,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1254,18 +934,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 59,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 59,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1290,18 +960,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 23,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 23,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1326,18 +986,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 364,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 364,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1362,18 +1012,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 51,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 51,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1398,18 +1038,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 99,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1434,18 +1064,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 99,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 99,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1470,18 +1090,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 1000,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 4800,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 1000,
+		"maxValue" : 4800,
 		"defaultValue" : 100,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1506,18 +1116,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1553,18 +1153,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1600,18 +1190,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -1647,18 +1227,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 7200,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 7200,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1683,18 +1253,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 25,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 75,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 25,
+		"maxValue" : 75,
 		"defaultValue" : 25,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1719,18 +1279,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 1,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 7200,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 1,
+		"maxValue" : 7200,
 		"defaultValue" : 1,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1755,18 +1305,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0.01,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0.01,
+		"maxValue" : 1,
 		"defaultValue" : 0.5,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1791,18 +1331,8 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 4800,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 4800,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1827,18 +1357,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1863,18 +1383,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1899,18 +1409,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1935,18 +1435,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1971,18 +1461,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2007,18 +1487,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2043,18 +1513,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 40,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 40,
+		"maxValue" : 65,
 		"defaultValue" : 48,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2079,18 +1539,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 80,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 80,
 		"defaultValue" : 8,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2115,23 +1565,13 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 480,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 480,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
-			"operation" : ">>",
-			"operationValue" : "6"
+			"operation" : "/",
+			"operationValue" : "10.24"
 		},
 		"readOnly" : false,
 		"comment_1" : "AVR çıkış voltajı düzeltme rampası oranıdır. UFRO tetiklendikten sonra voltajı düzeltmek için ani blok yük girişlerinde kullanılır.",
@@ -2151,18 +1591,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -2198,18 +1628,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 1000,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 15000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 1000,
+		"maxValue" : 15000,
 		"defaultValue" : 4200,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2234,18 +1654,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 7,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 7,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -2296,18 +1706,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 3,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2353,18 +1753,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 100,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 100,
 		"defaultValue" : 38,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2389,18 +1779,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.3,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2425,18 +1805,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.3,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2461,18 +1831,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.3,
 		"defaultValue" : 30,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2497,18 +1857,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.3,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.3,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2533,18 +1883,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2580,18 +1920,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 65535,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2627,18 +1957,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2674,18 +1994,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2721,19 +2031,9 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 15000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 15000,
+		"defaultValue" : 5,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -2757,19 +2057,9 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 10000,
+		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -2793,18 +2083,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -2840,19 +2120,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -2887,19 +2157,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -2934,19 +2194,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -2981,19 +2231,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3028,19 +2268,9 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 25000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 3,
+		"minValue" : 0,
+		"maxValue" : 25000,
+		"defaultValue" : 5,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -3064,18 +2294,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -3111,19 +2331,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3158,19 +2368,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3205,19 +2405,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3252,19 +2442,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3299,18 +2479,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.5,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.5,
 		"defaultValue" : 0.2,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3335,18 +2505,8 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 10000,
 		"defaultValue" : 10,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3371,18 +2531,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -3418,18 +2568,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 65535,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -3465,19 +2605,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3512,19 +2642,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3559,19 +2679,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3606,18 +2716,8 @@
 		"dataLength" : 1,
 		"coef" : 2,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 0.5,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 0.5,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3642,18 +2742,8 @@
 		"dataLength" : 1,
 		"coef" : -3,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 10000,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 10000,
 		"defaultValue" : 10000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3678,18 +2768,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 1,
 		"valueMask" : [
 			{
@@ -3725,18 +2805,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 65535,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -3772,19 +2842,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3819,19 +2879,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3866,18 +2916,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 65535,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -3913,19 +2953,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -3960,19 +2990,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -4007,19 +3027,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -4054,19 +3064,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -4101,19 +3101,9 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 65535,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
-		"defaultValue" : 0,
+		"minValue" : 0,
+		"maxValue" : 65535,
+		"defaultValue" : 1,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -4148,18 +3138,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 9999,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 9999,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4184,18 +3164,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 9999,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 9999,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4220,18 +3190,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 9999,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 9999,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4256,18 +3216,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 9999,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 9999,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4292,18 +3242,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 0,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 1,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 0,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4328,18 +3268,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 1000,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 1000,
+		"maxValue" : 32767,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -4364,18 +3294,8 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
-		"minControl" : {
-			"minValue" : 1000,
-			"minLimitControl" : false,
-			"minLimitColor" : "RED",
-			"minLimitAction" : "blink"
-		},
-		"maxControl" : {
-			"maxValue" : 32767,
-			"maxLimitControl" : false,
-			"maxLimitColor" : "RED",
-			"maxLimitAction" : "blink"
-		},
+		"minValue" : 1000,
+		"maxValue" : 32767,
 		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
