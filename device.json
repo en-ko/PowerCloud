@@ -49,5 +49,9 @@
   {
     "name": "MODEM",
     "version": 1000
+  },
+  {
+    "name": "CCS-M",
+    "version": 1000
   }
 ]
