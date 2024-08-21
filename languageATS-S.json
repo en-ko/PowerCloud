@@ -688,6 +688,14 @@
 		"text_2" : "Alarm Reset"
 	},
 	{
+		"id" : 231,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jeneratör Uygun",
+		"text_2" : "Generator Available"
+	},
+	{
 		"id" : 84,
 		"pixel" : 120,
 		"font" : "Calibri",
