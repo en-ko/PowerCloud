@@ -4,54 +4,67 @@
     "majorVersion": 1,
     "minorVersion": 0,
     "patchVersion": 1,
-    "jsonFileVersion" : 11
+    "jsonFileVersion" : 11,
+    "type" : "software"
   },
   {
     "name": "DAVR20",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "DAVR40",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "DAVR45",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "DAVR90",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "DAVR100",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "AMF-S",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "ATS-S",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "ESU-S",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "AMF-L",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "CCS-S",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "MODEM",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   },
   {
     "name": "CCS-M",
-    "version": 1000
+    "version": 1000,
+    "type" : "device"
   }
 ]
