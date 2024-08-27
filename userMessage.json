@@ -5,7 +5,8 @@
         "minVersion" : 1000,
         "maxVersion" : 1002,
         "image": "image.png",
-        "message" : "Mesaj bilgisi AMF-S"
+        "message" : "Mesaj bilgisi AMF-S",
+        "lastDate": "2024-08-28"
     },
     {
         "id" : 2,
@@ -13,6 +14,7 @@
         "minVersion" : 1000,
         "maxVersion" : 1002,
         "image": "image.png",
-        "message" : "Mesaj bilgisi AMF-L"
+        "message" : "Mesaj bilgisi AMF-L",
+        "lastDate": "2024-08-26"
     }
 ]
