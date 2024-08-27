@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "device" : "AMF-S",
+        "minVersion" : 1000,
+        "maxVersion" : 1002,
+        "image": "image.png",
+        "message" : "Mesaj bilgisi AMF-S"
+    },
+    {
+        "id" : 2,
+        "device" : "AMF-L",
+        "minVersion" : 1000,
+        "maxVersion" : 1002,
+        "image": "image.png",
+        "message" : "Mesaj bilgisi AMF-L"
+    }
+]
