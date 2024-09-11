@@ -13,7 +13,7 @@
 		"coef" : -1,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 600,
+		"maxValue" : 6000,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -39,7 +39,7 @@
 		"coef" : -1,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 600,
+		"maxValue" : 6000,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -65,7 +65,7 @@
 		"coef" : -1,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 600,
+		"maxValue" : 6000,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -91,12 +91,12 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 80,
+		"maxValue" : 8038,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
+			"operation" : "/",
+			"operationValue" : "100.48"
 		},
 		"readOnly" : true,
 		"comment_1" : "Faz – Faz Frekans Ölçümü",
@@ -117,7 +117,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 80,
+		"maxValue" : 8038,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -143,7 +143,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 80,
+		"maxValue" : 8038,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -195,7 +195,7 @@
 		"coef" : 2,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 0.1,
+		"maxValue" : 100,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -476,7 +476,7 @@
 		"coef" : -1,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 580,
+		"maxValue" : 5800,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -534,8 +534,8 @@
 	{
 		"id" : 41,
 		"version" : 4013,
-		"name_1" : "CALIBRATION OK",
-		"name_2" : "CALIBRATION OK",
+		"name_1" : "Kalibrasyon Hazır",
+		"name_2" : "Calibration Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -560,8 +560,8 @@
 	{
 		"id" : 42,
 		"version" : 4013,
-		"name_1" : "CONFIGURATION OK",
-		"name_2" : "CONFIGURATION OK",
+		"name_1" : "Konfigürasyon Hazır",
+		"name_2" : "Configuration Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -586,8 +586,8 @@
 	{
 		"id" : 43,
 		"version" : 4013,
-		"name_1" : "AVR HAZIR",
-		"name_2" : "AVR READY",
+		"name_1" : "DAVR Hazır",
+		"name_2" : "DAVR Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -636,10 +636,36 @@
 		"relation" : []
 	},
 	{
+		"id" : 46,
+		"version" : 4013,
+		"name_1" : "12V Hazır",
+		"name_2" : "12V Ready",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 46,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
 		"id" : 49,
 		"version" : 4013,
-		"name_1" : "UFRO DEVREDE",
-		"name_2" : "UFRO EN",
+		"name_1" : "UFRO",
+		"name_2" : "UFRO",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -664,8 +690,8 @@
 	{
 		"id" : 50,
 		"version" : 4013,
-		"name_1" : "ÇIKIŞ KISA DEVRE",
-		"name_2" : "STATOR SHORT CIRCUIT",
+		"name_1" : "KISA DEVRE",
+		"name_2" : "SHORT CIRCUIT",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -717,7 +743,7 @@
 		"id" : 52,
 		"version" : 4013,
 		"name_1" : "ÇIKIŞ KAPALI",
-		"name_2" : "TRIP",
+		"name_2" : "OUT TRIP",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -743,7 +769,7 @@
 		"id" : 54,
 		"version" : 4013,
 		"name_1" : "SCM",
-		"name_2" : "ERROR SCM",
+		"name_2" : "SCM",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -769,7 +795,7 @@
 		"id" : 55,
 		"version" : 4013,
 		"name_1" : "OEX",
-		"name_2" : "ERROR OEX",
+		"name_2" : "OEX",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -795,7 +821,7 @@
 		"id" : 57,
 		"version" : 4013,
 		"name_1" : "LOS",
-		"name_2" : "ERROR LOS",
+		"name_2" : "LOS",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -821,7 +847,7 @@
 		"id" : 58,
 		"version" : 4013,
 		"name_1" : "GOV",
-		"name_2" : "ERROR GOV",
+		"name_2" : "GOV",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -847,7 +873,7 @@
 		"id" : 59,
 		"version" : 4013,
 		"name_1" : "GUV",
-		"name_2" : "ERROR GUV",
+		"name_2" : "GUV",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -873,7 +899,7 @@
 		"id" : 60,
 		"version" : 4013,
 		"name_1" : "SVU",
-		"name_2" : "ERROR SVU",
+		"name_2" : "SVU",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -899,7 +925,7 @@
 		"id" : 61,
 		"version" : 4013,
 		"name_1" : "GCL",
-		"name_2" : "ERROR GCL",
+		"name_2" : "GCL",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -925,7 +951,7 @@
 		"id" : 62,
 		"version" : 4013,
 		"name_1" : "MSF",
-		"name_2" : "ERROR MSF",
+		"name_2" : "MSF",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -951,7 +977,7 @@
 		"id" : 63,
 		"version" : 4013,
 		"name_1" : "RDF",
-		"name_2" : "ERROR RDF",
+		"name_2" : "RDF",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -977,7 +1003,7 @@
 		"id" : 64,
 		"version" : 4013,
 		"name_1" : "WTA",
-		"name_2" : "ERROR WTA",
+		"name_2" : "WTA",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -1003,7 +1029,7 @@
 		"id" : 65,
 		"version" : 4013,
 		"name_1" : "WTL",
-		"name_2" : "ERROR WTL",
+		"name_2" : "WTL",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -1222,7 +1248,7 @@
 		"signed" : false,
 		"minValue" : 1000,
 		"maxValue" : 4800,
-		"defaultValue" : 100,
+		"defaultValue" : 1000,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -1433,7 +1459,7 @@
 		"unit_2" : "V/S",
 		"modbusAddress" : 107,
 		"dataLength" : 1,
-		"coef" : 2,
+		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0.01,
 		"maxValue" : 1,
@@ -1469,10 +1495,44 @@
 			"operation" : "",
 			"operationValue" : ""
 		},
-		"readOnly" : false,
+		"readOnly" : true,
 		"comment_1" : "İzin Verilecek Minimum RMS Referans Değeri. UFRO / LAM / DROOP gibi fonksiyonlar bu limitin altına düşemezler.",
 		"comment_2" : "Reference Voltage minimum set point limit. LAM / UFRO modules can’t regulate under this minimum limit while it is active.",
 		"relation" : []
+	},
+	{
+		"id" : 109,
+		"version" : 4018,
+		"name_1" : "Minimum Referans Yüzdesi",
+		"name_2" : "Minimum Reference Percentage",
+		"group_1" : "Setpoint",
+		"group_2" : "Setpoint",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Minimum Referans Limiti Ayarlama Parametresi. Referans RMS değerin yüzdesi olarak minimum izin verilecek referansı ayarlar.",
+		"comment_2" : "Sets Minimum Reference setpoint limit percentage according to Reference RMS.",
+		"relation" : [
+			{
+				"relationParamId" : "108",
+				"relationValue" : "",
+				"relation" : "-",
+				"comment_1" : "",
+				"comment_2" : ""
+			}
+		]
 	},
 	{
 		"id" : 110,
@@ -1488,8 +1548,8 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
+		"maxValue" : 2048,
+		"defaultValue" : 425,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -1514,8 +1574,8 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
+		"maxValue" : 2048,
+		"defaultValue" : 250,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -1540,8 +1600,8 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
+		"maxValue" : 2048,
+		"defaultValue" : 125,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -1566,7 +1626,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
+		"maxValue" : 2048,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1592,7 +1652,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
+		"maxValue" : 2048,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -1618,7 +1678,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 32767,
+		"maxValue" : 2048,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2224,7 +2284,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 1,
 		"defaultValue" : 0,
 		"valueMask" : [
 			{
@@ -2248,86 +2308,12 @@
 		"relation" : []
 	},
 	{
-		"id" : 206,
-		"version" : 4013,
-		"name_1" : "Kalibrasyon",
-		"name_2" : "Verify Calibration",
-		"group_1" : "Setpoint",
-		"group_2" : "Setpoint",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 206,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : false,
-		"minValue" : 0,
-		"maxValue" : 1,
-		"defaultValue" : 0,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "N / A",
-				"mask_2" : "N / A"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "VERIFY",
-				"mask_2" : "VERIFY"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Verify flag for calibrations",
-		"comment_2" : "Verify flag for calibrations",
-		"relation" : []
-	},
-	{
-		"id" : 207,
-		"version" : 4013,
-		"name_1" : "Konfigürasyon",
-		"name_2" : "Verify Configuration",
-		"group_1" : "Setpoint",
-		"group_2" : "Setpoint",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 207,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : false,
-		"minValue" : 0,
-		"maxValue" : 1,
-		"defaultValue" : 0,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "N / A",
-				"mask_2" : "N / A"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "VERIFY",
-				"mask_2" : "VERIFY"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Verify flag for configurations",
-		"comment_2" : "Verify flag for configurations",
-		"relation" : []
-	},
-	{
 		"id" : 218,
 		"version" : 4013,
 		"name_1" : "CANBus Cihaz Adresi",
 		"name_2" : "Canbus Source Address",
-		"group_1" : "CANBus",
-		"group_2" : "CANBus",
+		"group_1" : "Configuration",
+		"group_2" : "Configuration",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 218,
@@ -2335,7 +2321,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 127,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2352,8 +2338,8 @@
 		"version" : 4013,
 		"name_1" : "CANBus Hedef Adresi",
 		"name_2" : "Canbus Destination Address",
-		"group_1" : "CANBus",
-		"group_2" : "CANBus",
+		"group_1" : "Configuration",
+		"group_2" : "Configuration",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 219,
@@ -2361,7 +2347,7 @@
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 127,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2392,33 +2378,38 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Sargı Sıcaklığı",
-				"mask_2" : "Winding Temp"
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Ek Sıcaklık",
-				"mask_2" : "Aux Temp"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "Uzaktan Başlatma",
-				"mask_2" : "External Start"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "Uzaktan Durdurma",
-				"mask_2" : "External Trip"
-			},
-			{
-				"value" : 4,
 				"mask_1" : "Analog",
 				"mask_2" : "Analog"
 			},
 			{
-				"value" : 5,
+				"value" : 2,
 				"mask_1" : "Dijital",
 				"mask_2" : "Digital"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Sargı Sıcaklığı",
+				"mask_2" : "Winding Temp"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Ek Sıcaklık",
+				"mask_2" : "Aux Temp"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Uzaktan Başlatma",
+				"mask_2" : "External Start"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uzaktan Durdurma",
+				"mask_2" : "External Stop"
 			}
 		],
 		"dataOperation" : {
@@ -2437,14 +2428,14 @@
 		"name_2" : "ADT A Temperature",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "",
-		"unit_2" : "",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
 		"modbusAddress" : 271,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2463,14 +2454,14 @@
 		"name_2" : "ADT A Value",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "°C",
-		"unit_2" : "°C",
+		"unit_1" : "",
+		"unit_2" : "",
 		"modbusAddress" : 272,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2501,33 +2492,38 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Sargı Sıcaklığı",
-				"mask_2" : "Winding Temp"
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Ek Sıcaklık",
-				"mask_2" : "Aux Temp"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "Uzaktan Başlatma",
-				"mask_2" : "External Start"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "Uzaktan Durdurma",
-				"mask_2" : "External Trip"
-			},
-			{
-				"value" : 4,
 				"mask_1" : "Analog",
 				"mask_2" : "Analog"
 			},
 			{
-				"value" : 5,
+				"value" : 2,
 				"mask_1" : "Dijital",
 				"mask_2" : "Digital"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Sargı Sıcaklığı",
+				"mask_2" : "Winding Temp"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Ek Sıcaklık",
+				"mask_2" : "Aux Temp"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Uzaktan Başlatma",
+				"mask_2" : "External Start"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uzaktan Durdurma",
+				"mask_2" : "External Stop"
 			}
 		],
 		"dataOperation" : {
@@ -2546,14 +2542,14 @@
 		"name_2" : "ADT B Temperature",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "",
-		"unit_2" : "",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
 		"modbusAddress" : 278,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2572,14 +2568,14 @@
 		"name_2" : "ADT B Value",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "°C",
-		"unit_2" : "°C",
+		"unit_1" : "",
+		"unit_2" : "",
 		"modbusAddress" : 279,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2610,33 +2606,38 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Winding Temp",
-				"mask_2" : "Winding Temp"
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Aux Temp",
-				"mask_2" : "Aux Temp"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "External Start",
-				"mask_2" : "External Start"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "External Trip",
-				"mask_2" : "External Trip"
-			},
-			{
-				"value" : 4,
 				"mask_1" : "Analog",
 				"mask_2" : "Analog"
 			},
 			{
-				"value" : 5,
-				"mask_1" : "Digital",
+				"value" : 2,
+				"mask_1" : "Dijital",
 				"mask_2" : "Digital"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Sargı Sıcaklığı",
+				"mask_2" : "Winding Temp"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Ek Sıcaklık",
+				"mask_2" : "Aux Temp"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Uzaktan Başlatma",
+				"mask_2" : "External Start"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uzaktan Durdurma",
+				"mask_2" : "External Stop"
 			}
 		],
 		"dataOperation" : {
@@ -2655,14 +2656,14 @@
 		"name_2" : "ADT C Temperature",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "",
-		"unit_2" : "",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
 		"modbusAddress" : 285,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2681,14 +2682,14 @@
 		"name_2" : "ADT C Value",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "°C",
-		"unit_2" : "°C",
+		"unit_1" : "",
+		"unit_2" : "",
 		"modbusAddress" : 286,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : false,
 		"minValue" : 0,
-		"maxValue" : 65535,
+		"maxValue" : 255,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -3623,6 +3624,58 @@
 		"relation" : []
 	},
 	{
+		"id" : 441,
+		"version" : 4013,
+		"name_1" : "SVU Yüzde Limiti",
+		"name_2" : "SVU Percentage",
+		"group_1" : "SVU",
+		"group_2" : "SVU",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 441,
+		"dataLength" : 1,
+		"coef" : 2,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 0.5,
+		"defaultValue" : 0.2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "/",
+			"operationValue" : "16384"
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör Voltaj Dengesiz Koruması Yüzdesel Limiti",
+		"comment_2" : "Stator Voltage Unbalance Trigger Level",
+		"relation" : []
+	},
+	{
+		"id" : 442,
+		"version" : 4013,
+		"name_1" : "SVU Gecikmesi",
+		"name_2" : "SVU Delay",
+		"group_1" : "SVU",
+		"group_2" : "SVU",
+		"unit_1" : "S",
+		"unit_2" : "S",
+		"modbusAddress" : 442,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 30000,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör Voltaj Dengesiz Koruması Gecikmesi",
+		"comment_2" : "Stator Voltage Unbalance Delay Time",
+		"relation" : []
+	},
+	{
 		"id" : 443,
 		"version" : 4013,
 		"name_1" : "SVU Devrede",
@@ -4536,6 +4589,11 @@
 		"defaultValue" : 2,
 		"valueMask" : [
 			{
+				"value" : 0,
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
+			},
+			{
 				"value" : 1,
 				"mask_1" : "I*t",
 				"mask_2" : "I*t"
@@ -4544,6 +4602,16 @@
 				"value" : 2,
 				"mask_1" : "I^2*t",
 				"mask_2" : "I^2*t"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "I^2*t 0.375",
+				"mask_2" : "I^2*t 0.375"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "I^2*t 0.449",
+				"mask_2" : "I^2*t 0.449"
 			}
 		],
 		"dataOperation" : {

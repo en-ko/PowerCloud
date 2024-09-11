@@ -485,7 +485,8 @@
     "side": "center",
     "paramId": [
       122,
-      108
+      108,
+      109
     ]
   },
   {
@@ -550,8 +551,8 @@
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV",
+      "SVU",
       "GCL",
       "WTA",
       "WTL",
@@ -567,8 +568,8 @@
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV",
+      "SVU",
       "GCL",
       "WTA",
       "WTL",

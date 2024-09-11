@@ -17,7 +17,6 @@
     "bootModeAddress": 200,
     "encryptModbus": false
   },
-
   {
     "object": "indicator",
     "page": 1,
@@ -376,7 +375,6 @@
       9976
     ]
   },
-
   {
     "object": "datacard",
     "page": 2,
@@ -432,10 +430,10 @@
     "side": "center",
     "paramId": [
       122,
-      108
+      108,
+      109
     ]
   },
-
   {
     "object": "datacard",
     "page": 3,
@@ -497,7 +495,6 @@
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV"
     ],
     "paramGroup_2": [
@@ -507,7 +504,6 @@
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV"
     ]
   }

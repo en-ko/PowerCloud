@@ -95,8 +95,8 @@
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
+			"operation" : "/",
+			"operationValue" : "100.48"
 		},
 		"readOnly" : true,
 		"comment_1" : "Faz – Faz Frekans Ölçümü",
@@ -534,8 +534,8 @@
 	{
 		"id" : 41,
 		"version" : 4013,
-		"name_1" : "CALIBRATION OK",
-		"name_2" : "CALIBRATION OK",
+		"name_1" : "Kalibrasyon Hazır",
+		"name_2" : "Calibration Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -560,8 +560,8 @@
 	{
 		"id" : 42,
 		"version" : 4013,
-		"name_1" : "CONFIGURATION OK",
-		"name_2" : "CONFIGURATION OK",
+		"name_1" : "Konfigürasyon Hazır",
+		"name_2" : "Configuration Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -586,8 +586,8 @@
 	{
 		"id" : 43,
 		"version" : 4013,
-		"name_1" : "AVR HAZIR",
-		"name_2" : "AVR READY",
+		"name_1" : "DAVR Hazır",
+		"name_2" : "DAVR Ready",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -636,10 +636,36 @@
 		"relation" : []
 	},
 	{
+		"id" : 46,
+		"version" : 4013,
+		"name_1" : "12V Hazır",
+		"name_2" : "12V Ready",
+		"group_1" : "Monitoring",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 46,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
 		"id" : 49,
 		"version" : 4013,
-		"name_1" : "UFRO DEVREDE",
-		"name_2" : "UFRO EN",
+		"name_1" : "UFRO",
+		"name_2" : "UFRO",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -664,8 +690,8 @@
 	{
 		"id" : 50,
 		"version" : 4013,
-		"name_1" : "ÇIKIŞ KISA DEVRE",
-		"name_2" : "STATOR SHORT CIRCUIT",
+		"name_1" : "KISA DEVRE",
+		"name_2" : "SHORT CIRCUIT",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -717,7 +743,7 @@
 		"id" : 52,
 		"version" : 4013,
 		"name_1" : "ÇIKIŞ KAPALI",
-		"name_2" : "TRIP",
+		"name_2" : "OUT TRIP",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -743,7 +769,7 @@
 		"id" : 55,
 		"version" : 4013,
 		"name_1" : "OEX",
-		"name_2" : "ERROR OEX",
+		"name_2" : "OEX",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -769,7 +795,7 @@
 		"id" : 57,
 		"version" : 4013,
 		"name_1" : "LOS",
-		"name_2" : "ERROR LOS",
+		"name_2" : "LOS",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -795,7 +821,7 @@
 		"id" : 58,
 		"version" : 4013,
 		"name_1" : "GOV",
-		"name_2" : "ERROR GOV",
+		"name_2" : "GOV",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -821,7 +847,7 @@
 		"id" : 59,
 		"version" : 4013,
 		"name_1" : "GUV",
-		"name_2" : "ERROR GUV",
+		"name_2" : "GUV",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -847,7 +873,7 @@
 		"id" : 60,
 		"version" : 4013,
 		"name_1" : "SVU",
-		"name_2" : "ERROR SVU",
+		"name_2" : "SVU",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -873,7 +899,7 @@
 		"id" : 61,
 		"version" : 4013,
 		"name_1" : "GCL",
-		"name_2" : "ERROR GCL",
+		"name_2" : "GCL",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -899,7 +925,7 @@
 		"id" : 63,
 		"version" : 4013,
 		"name_1" : "RDF",
-		"name_2" : "ERROR RDF",
+		"name_2" : "RDF",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -925,7 +951,7 @@
 		"id" : 64,
 		"version" : 4013,
 		"name_1" : "WTA",
-		"name_2" : "ERROR WTA",
+		"name_2" : "WTA",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -951,7 +977,7 @@
 		"id" : 65,
 		"version" : 4013,
 		"name_1" : "WTL",
-		"name_2" : "ERROR WTL",
+		"name_2" : "WTL",
 		"group_1" : "Monitoring",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
@@ -2293,80 +2319,6 @@
 		"relation" : []
 	},
 	{
-		"id" : 206,
-		"version" : 4013,
-		"name_1" : "Kalibrasyon",
-		"name_2" : "Verify Calibration",
-		"group_1" : "Setpoint",
-		"group_2" : "Setpoint",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 206,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : false,
-		"minValue" : 0,
-		"maxValue" : 1,
-		"defaultValue" : 0,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "N / A",
-				"mask_2" : "N / A"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "VERIFY",
-				"mask_2" : "VERIFY"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Verify flag for calibrations",
-		"comment_2" : "Verify flag for calibrations",
-		"relation" : []
-	},
-	{
-		"id" : 207,
-		"version" : 4013,
-		"name_1" : "Konfigürasyon",
-		"name_2" : "Verify Configuration",
-		"group_1" : "Setpoint",
-		"group_2" : "Setpoint",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 207,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : false,
-		"minValue" : 0,
-		"maxValue" : 1,
-		"defaultValue" : 0,
-		"valueMask" : [
-			{
-				"value" : 0,
-				"mask_1" : "N / A",
-				"mask_2" : "N / A"
-			},
-			{
-				"value" : 1,
-				"mask_1" : "VERIFY",
-				"mask_2" : "VERIFY"
-			}
-		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment_1" : "Verify flag for configurations",
-		"comment_2" : "Verify flag for configurations",
-		"relation" : []
-	},
-	{
 		"id" : 270,
 		"version" : 4013,
 		"name_1" : "ADT A Mod",
@@ -2385,33 +2337,38 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Sargı Sıcaklığı",
-				"mask_2" : "Winding Temp"
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Ek Sıcaklık",
-				"mask_2" : "Aux Temp"
-			},
-			{
-				"value" : 2,
-				"mask_1" : "Uzaktan Başlatma",
-				"mask_2" : "External Start"
-			},
-			{
-				"value" : 3,
-				"mask_1" : "Uzaktan Durdurma",
-				"mask_2" : "External Trip"
-			},
-			{
-				"value" : 4,
 				"mask_1" : "Analog",
 				"mask_2" : "Analog"
 			},
 			{
-				"value" : 5,
+				"value" : 2,
 				"mask_1" : "Dijital",
 				"mask_2" : "Digital"
+			},
+			{
+				"value" : 3,
+				"mask_1" : "Sargı Sıcaklığı",
+				"mask_2" : "Winding Temp"
+			},
+			{
+				"value" : 4,
+				"mask_1" : "Ek Sıcaklık",
+				"mask_2" : "Aux Temp"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Uzaktan Başlatma",
+				"mask_2" : "External Start"
+			},
+			{
+				"value" : 6,
+				"mask_1" : "Uzaktan Durdurma",
+				"mask_2" : "External Stop"
 			}
 		],
 		"dataOperation" : {
@@ -2430,8 +2387,8 @@
 		"name_2" : "ADT A Temperature",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "",
-		"unit_2" : "",
+		"unit_1" : "°C",
+		"unit_2" : "°C",
 		"modbusAddress" : 271,
 		"dataLength" : 1,
 		"coef" : 0,
@@ -2456,8 +2413,8 @@
 		"name_2" : "ADT A Value",
 		"group_1" : "Temperatures",
 		"group_2" : "Temperatures",
-		"unit_1" : "°C",
-		"unit_2" : "°C",
+		"unit_1" : "",
+		"unit_2" : "",
 		"modbusAddress" : 272,
 		"dataLength" : 1,
 		"coef" : 0,
@@ -3395,6 +3352,58 @@
 		"readOnly" : false,
 		"comment_1" : "Jeneratör Alçak Voltaj Koruması AVR Çıkış Kesme. Hata Tetiklendiğinde İkaz Akımı Kesilir.",
 		"comment_2" : "Generator Under Voltage Output Trip Flag",
+		"relation" : []
+	},
+	{
+		"id" : 441,
+		"version" : 4013,
+		"name_1" : "SVU Yüzde Limiti",
+		"name_2" : "SVU Percentage",
+		"group_1" : "SVU",
+		"group_2" : "SVU",
+		"unit_1" : "%",
+		"unit_2" : "%",
+		"modbusAddress" : 441,
+		"dataLength" : 1,
+		"coef" : 2,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 0.5,
+		"defaultValue" : 0.2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "/",
+			"operationValue" : "16384"
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör Voltaj Dengesiz Koruması Yüzdesel Limiti",
+		"comment_2" : "Stator Voltage Unbalance Trigger Level",
+		"relation" : []
+	},
+	{
+		"id" : 442,
+		"version" : 4013,
+		"name_1" : "SVU Gecikmesi",
+		"name_2" : "SVU Delay",
+		"group_1" : "SVU",
+		"group_2" : "SVU",
+		"unit_1" : "S",
+		"unit_2" : "S",
+		"modbusAddress" : 442,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : false,
+		"minValue" : 0,
+		"maxValue" : 30000,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Jeneratör Voltaj Dengesiz Koruması Gecikmesi",
+		"comment_2" : "Stator Voltage Unbalance Delay Time",
 		"relation" : []
 	},
 	{

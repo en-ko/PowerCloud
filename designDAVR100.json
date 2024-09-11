@@ -431,7 +431,6 @@
       9976
     ]
   },
-
   {
     "object": "datacard",
     "page": 2,
@@ -487,10 +486,10 @@
     "side": "center",
     "paramId": [
       122,
-      108
+      108,
+      109
     ]
   },
-
   {
     "object": "datacard",
     "page": 3,
@@ -560,13 +559,12 @@
       "Monitoring",
       "Setpoint",
       "Configuration",
-      "CANBus",
       "Temperatures",
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV",
+      "SVU",
       "GCL",
       "WTA",
       "WTL",
@@ -578,13 +576,12 @@
       "Monitoring",
       "Setpoint",
       "Configuration",
-      "CANBus",
       "Temperatures",
       "OEX",
       "LOS",
       "GOV",
-      "SVU",
       "GUV",
+      "SVU",
       "GCL",
       "WTA",
       "WTL",
