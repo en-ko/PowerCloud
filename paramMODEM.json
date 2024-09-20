@@ -18,8 +18,8 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Varsayılan",
-				"mask_2" : "Default"
+				"mask_1" : "Pasif",
+				"mask_2" : "Passive"
 			},
 			{
 				"value" : 1,
@@ -55,13 +55,13 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Seçilmemiş",
-				"mask_2" : "Non Selected"
+				"mask_1" : "Pasif",
+				"mask_2" : "Passive"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Seçilmiş",
-				"mask_2" : "Selected"
+				"mask_1" : "Aktif",
+				"mask_2" : "Activate"
 			}
 		],
 		"dataOperation" : {
@@ -671,10 +671,9 @@
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 301,
-		"dataLength" : 16,
+		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "ascii",
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -698,10 +697,9 @@
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 317,
-		"dataLength" : 32,
+		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-        "view" : "ascii",
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -725,10 +723,9 @@
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 349,
-		"dataLength" : 4,
+		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view": "ascii",
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -752,10 +749,9 @@
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 353,
-		"dataLength" : 8,
+		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view": "ascii",
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -782,7 +778,6 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-        "view" : "decimal",
 		"minValue" : 1,
 		"maxValue" : 32767,
 		"defaultValue" : 60,
@@ -815,13 +810,13 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Hata Yok",
-				"mask_2" : "No Error"
+				"mask_1" : "Durum: Sorunsuz",
+				"mask_2" : "Status: All Clear"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Hata Var",
-				"mask_2" : "Error"
+				"mask_1" : "Durum: Hata Algılandı",
+				"mask_2" : "Status: Error Detected"
 			}
 		],
 		"dataOperation" : {
@@ -852,13 +847,13 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Hata Yok",
-				"mask_2" : "No Error"
+				"mask_1" : "Durum: Sorunsuz",
+				"mask_2" : "Status: All Clear"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Hata Var",
-				"mask_2" : "Error"
+				"mask_1" : "Durum: Hata Algılandı",
+				"mask_2" : "Status: Error Detected"
 			}
 		],
 		"dataOperation" : {
@@ -889,13 +884,13 @@
 		"valueMask" : [
 			{
 				"value" : 0,
-				"mask_1" : "Hata Yok",
-				"mask_2" : "No Error"
+				"mask_1" : "Durum: Sorunsuz",
+				"mask_2" : "Status: All Clear"
 			},
 			{
 				"value" : 1,
-				"mask_1" : "Hata Var",
-				"mask_2" : "Error"
+				"mask_1" : "Durum: Hata Algılandı",
+				"mask_2" : "Status: Error Detected"
 			}
 		],
 		"dataOperation" : {
@@ -1086,7 +1081,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1113,7 +1108,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1140,7 +1135,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1167,7 +1162,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1194,7 +1189,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1221,7 +1216,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"view" : "hexadecimal",
+		"view": "hexadecimal",
 		"minValue" : -32768,
 		"maxValue" : 32767,
 		"defaultValue" : 0,
@@ -1309,8 +1304,8 @@
 			"operationValue" : ""
 		},
 		"readOnly" : false,
-		"comment_1" : "",
-		"comment_2" : "",
+		"comment_1" : "Sinyal seviyesi 0-8 arası ise sinyal seviyesi düşüktür,haberleşme olmaz. 8-32 arası ise sinyal seviyesi normaldir.",
+		"comment_2" : "If the signal level is between 0-8, the signal is weak and there will be no communication. If it is between 8-32, the signal level is normal",
 		"relation" : []
 	}
 ]

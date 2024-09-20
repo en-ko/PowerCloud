@@ -1,505 +1,524 @@
 [
-    {
-        "object" : "config",
-        "pageCount" : 2,
-        "pageTitle_1" : ["İzleme","Parametreler"],
-        "pageTitle_2" : ["Monitoring","Parameters"],
-        "bootModeAddress" : 2,
-        "encryptModbus" : true
-    },
-    
-
-    {
-      "object" : "image",
-      "page" : 1,
-      "row" : 1,
-      "side" : "left",
-      "width" : 100,
-      "height" : 100,
-      "image" : "dhcp_false.png",
-      "paramId": [3],
-      "topParamId" : [],
-      "bottomParamId" : [],
-      "effect" : "",
-      "menu" : [
-        {
-          "paramId" : 3,
-          "image" : "dhcp_false.png",
-          "dataType" : "value",
-          "value" : 0,
-          "bit" : 0,
-          "bitValue" : 0,
-          "blink" : false,
-          "effect" : ""
-        },
-        {
-          "paramId" : 3,
-          "image" : "dhcp_true.png",
-          "dataType" : "value",
-          "value" : 1,
-          "bit" : 0,
-          "bitValue" : 1,
-          "blink" : false,
-          "effect" : ""
-        }
-      ]
-    },
-
+  {
+    "object": "config",
+    "pageCount": 2,
+    "pageTitle_1": [
+      "İzleme",
+      "Parametreler"
+    ],
+    "pageTitle_2": [
+      "Monitoring",
+      "Parameters"
+    ],
+    "bootModeAddress": 2,
+    "encryptModbus": true
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": 100,
+    "height": 100,
+    "image": "dhcp_false.png",
+    "paramId": [
+      3
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
       {
-        "object": "multidatacard",
-        "page": 1,
-        "row": 2,
-        "side": "left",
-        "name": "IP",
-        "unit": false,
-        "width": 260,
-        "separator": ":",
-        "paramId": [
-          4,
-          5,
-          6,
-          7
-        ]
+        "paramId": 3,
+        "image": "dhcp_false.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": ""
       },
-
       {
-        "object": "multidatacard",
-        "page": 1,
-        "row": 3,
-        "side": "left",
-        "name": "Netmask",
-        "unit": false,
-        "width": 260,
-        "separator": ":",
-        "paramId": [
-          8,
-          9,
-          10,
-          11
-        ]
-      },
-
-      {
-        "object": "multidatacard",
-        "page": 1,
-        "row": 4,
-        "side": "left",
-        "name": "Gateway",
-        "unit": false,
-        "width": 260,
-        "separator": ":",
-        "paramId": [
-          12,
-          13,
-          14,
-          15
-        ]
-      },
-
-      {
-        "object": "multidatacard",
-        "page": 1,
-        "row": 5,
-        "side": "left",
-        "name": "MAC ID",
-        "unit": false,
-        "width": 260,
-        "separator": ":",
-        "paramId": [
-          94,
-          95,
-          96,
-          97,
-          98,
-          99
-        ]
-      },
-
-      {
-        "object" : "datalist",
-        "page" : 1,
-        "row" : 6,
-        "side" : "left",
-        "title_1" : "GSM",
-        "title_2" : "GSM",
-        "width" : 260,
-        "paramId" : [27,43,87]
-      },
-    
-    {
-      "object" : "statuscard",
-      "page" : 1,
-      "row" : 1,
-      "side" : "center",
-      "width" : 0,
-      "staticText_1" : "Modem Çalışma Durumu >> ",
-      "staticText_2" : "Modem Working Status >> ",
-      "paramId" : [91],
-      "menu" : [
-        {
-          "message_1" : "Çalışmıyor",
-          "message_2" : "Don't work",
-          "paramId" : 91,
-          "dataType" : "value",
-          "value" : 0,
-          "bit" : 1,
-          "bitValue" : 1,
-          "blink" : false
-        },
-        {
-          "message_1" : "RS485 Çalışmıyor",
-          "message_2" : "RS485 Not Working",
-          "paramId" : 91,
-          "dataType" : "value",
-          "value" : 1,
-          "bit" : 2,
-          "bitValue" : 1,
-          "blink" : false
-        },
-        {
-            "message_1" : "GSM-RS485 Çalışıyor",
-            "message_2" : "GSM-RS485 Working",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 2,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "Etherntet-RS485 Çalışıyor",
-            "message_2" : "Etherntet-RS485 Working",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 3,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "GSM-RS485-Ethernet Çalışıyor",
-            "message_2" : "GSM-RS485-Ethernet Working",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 4,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "PIN Girin",
-            "message_2" : "PIN Entry",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 5,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "Hatalı PIN",
-            "message_2" : "PIN Incorrect",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 6,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "PUK Girin",
-            "message_2" : "PUK Entry",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 7,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : true
-        },
-        {
-            "message_1" : "Bekleniyor…",
-            "message_2" : "Waiting…",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 8,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-            "message_1" : "SIM Çıkarıldı",
-            "message_2" : "SIM Removed",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 9,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        },
-        {
-          "message_1" : "GSM Bağlanmaya Hazır",
-          "message_2" : "Ready to Connect GSM",
-          "paramId" : 91,
-          "dataType" : "value",
-          "value" : 10,
-          "bit" : 2,
-          "bitValue" : 1,
-          "blink" : false
-        },
-        {
-          "message_1" : "Ethernet Bağlanmaya Hazır",
-          "message_2" : "Ready to Connect Ethernet",
-          "paramId" : 91,
-          "dataType" : "value",
-          "value" : 11,
-          "bit" : 2,
-          "bitValue" : 1,
-          "blink" : false
-        },
-        {
-            "message_1" : "GSM-Ethernet Bağlanmaya Hazır",
-            "message_2" : "Ready to Connect GSM-Ethernet",
-            "paramId" : 91,
-            "dataType" : "value",
-            "value" : 12,
-            "bit" : 2,
-            "bitValue" : 1,
-            "blink" : false
-        }
-      ]
-    },
-
-    {
-        "object": "datacard",
-        "page": 1,
-        "row": 2,
-        "side": "center",
-        "paramId": [
-          100,
-          101,
-          102
-        ]
-    },
-
-    {
-      "object" : "image",
-      "page" : 1,
-      "row" : 4,
-      "side" : "center",
-      "width" : 200,
-      "height" : 200,
-      "image" : "rs485_icon_red.png",
-      "paramId": [88],
-      "topParamId" : [],
-      "bottomParamId" : [],
-      "effect" : "",
-      "menu" : [
-
-        {
-          "paramId" : 88,
-          "image" : "rs485_icon_green.png",
-          "dataType" : "value",
-          "value" : 0,
-          "bit" : 0,
-          "bitValue" : 0,
-          "blink" : false,
-          "effect" : ""
-        },
-        {
-          "paramId" : 88,
-          "image" : "rs485_icon_red.png",
-          "dataType" : "value",
-          "value" : 1,
-          "bit" : 0,
-          "bitValue" : 1,
-          "blink" : false,
-          "effect" : "pulseEffect"
-        }
-
-      ]
-    },
-
-    {
-      "object" : "image",
-      "page" : 1,
-      "row" : 3,
-      "side" : "center",
-      "width" : 200,
-      "height" : 200,
-      "image" : "ethernet_icon_red.png",
-      "paramId": [92],
-      "topParamId" : [],
-      "bottomParamId" : [],
-      "effect" : "",
-      "menu" : [
-        {
-          "paramId" : 92,
-          "image" : "ethernet_icon_red.png",
-          "dataType" : "value",
-          "value" : 0,
-          "bit" : 0,
-          "bitValue" : 0,
-          "blink" : false,
-          "effect" : "pulseEffect"
-        },
-        {
-          "paramId" : 92,
-          "image" : "ethernet_icon_green.png",
-          "dataType" : "value",
-          "value" : 1,
-          "bit" : 0,
-          "bitValue" : 1,
-          "blink" : false,
-          "effect" : "fadeEffect"
-        }
-      ]
-    },
-
-    {
-      "object" : "image",
-      "page" : 1,
-      "row" : 4,
-      "side" : "center",
-      "width" : 200,
-      "height" : 200,
-      "image" : "gsm_modem_icon.png",
-      "paramId": [],
-      "topParamId" : [],
-      "bottomParamId" : [],
-      "effect" : "blurEffect ",
-      "menu" : [
-
-      ]
-    },
-
-    {
-      "object" : "image",
-      "page" : 1,
-      "row" : 5,
-      "side" : "center",
-      "width" : 200,
-      "height" : 200,
-      "image" : "gsm_communication_red.png",
-      "paramId": [93],
-      "topParamId" : [],
-      "bottomParamId" : [],
-      "effect" : "",
-      "menu" : [
-
-        {
-          "paramId" : 93,
-          "image" : "gsm_communication_green.png",
-          "dataType" : "value",
-          "value" : 1,
-          "bit" : 0,
-          "bitValue" : 1,
-          "blink" : false,
-          "effect" : "flipEffect"
-        },
-        {
-          "paramId" : 93,
-          "image" : "gsm_communication_red.png",
-          "dataType" : "value",
-          "value" : 0,
-          "bit" : 0,
-          "bitValue" : 0,
-          "blink" : false,
-          "effect" : "pulseEffect"
-        }
-
-      ]
-    },
-        
-    {
-      "object" : "indicator",
-      "page" : 1,
-      "row" : 1,
-      "side" : "right",
-      "width" : 260,
-      "title_1" : "Hata Durumu",
-      "title_2" : "Fault Status",
-      "paramId" : [88],
-      "menu" : [
-        {
-          "name_1" : "RS485",
-          "name_2" : "RS485",
-          "paramId" : 88,
-          "bit" : 0,
-          "bitValue" : 1,
-          "color" : "green",
-          "blink" : false
-        },
-        {
-          "name_1" : "ETHERNET",
-          "name_2" : "ETHERNET",
-          "paramId" : 89,
-          "bit" : 0,
-          "bitValue" : 1,
-          "color" : "green",
-          "blink" : false
-        },
-        {
-          "name_1" : "GSM",
-          "name_2" : "GSM",          
-          "paramId" : 90,
-          "bit" : 0,
-          "bitValue" : 1,
-          "color" : "green",
-          "blink" : false
-        }
-      ]
-    },
-
-    {
-      "object" : "indicator",
-      "page" : 1,
-      "row" : 2,
-      "side" : "right",
-      "width" : 260,
-      "title_1" : "Bağlanmaya Hazır Bilgisi",
-      "title_2" : "Ready to Connection Knowledge",
-      "paramId" : [92],
-      "menu" : [
-        {
-          "name_1" : "ETHERNET",
-          "name_2" : "ETHERNET",
-          "paramId" : 92,
-          "bit" : 0,
-          "bitValue" : 1,
-          "color" : "green",
-          "blink" : true
-        },
-        {
-          "name_1" : "GSM",
-          "name_2" : "GSM",          
-          "paramId" : 93,
-          "bit" : 0,
-          "bitValue" : 1,
-          "color" : "green",
-          "blink" : true
-        }
-      ]
-    },
-
-    {
-      "object" : "datalist",
-      "page" : 1,
-      "row" : 3,
-      "side" : "right",
-      "title_1" : "Seri Port",
-      "title_2" : "Serial Port",
-      "width" : 260,
-      "paramId" : [21,22,23,24,25,26]
-    },
-    
-    {
-      "object" : "table",
-      "page" : 2,
-      "row" : 1,
-      "filter" : true,
-      "paramId" : [],
-      "paramGroup_1" : ["Genel","Ethernet","RS485 Seri port","LTE","İzleme"],
-      "paramGroup_2" : ["General","Ethernet","RS485 Serial Port","LTE","Monitoring"]
-    }
-    
+        "paramId": 3,
+        "image": "dhcp_true.png",
+        "dataType": "value",
+        "value": 1,
+        "bit": 0,
+        "bitValue": 1,
+        "blink": false,
+        "effect": ""
+      }
     ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "name": "IP",
+    "unit": false,
+    "width": 260,
+    "separator": ":",
+    "paramId": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "name": "Netmask",
+    "unit": false,
+    "width": 260,
+    "separator": ":",
+    "paramId": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "name": "Gateway",
+    "unit": false,
+    "width": 260,
+    "separator": ":",
+    "paramId": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "object": "multidatacard",
+    "page": 1,
+    "row": 5,
+    "side": "left",
+    "name": "MAC ID",
+    "unit": false,
+    "width": 260,
+    "separator": ":",
+    "paramId": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "title_1": "GSM",
+    "title_2": "GSM",
+    "width": 260,
+    "paramId": [
+      27,
+      43,
+      87
+    ]
+  },
+  {
+    "object": "statuscard",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": 0,
+    "staticText_1": "Modem Çalışma Durumu >> ",
+    "staticText_2": "Modem Working Status >> ",
+    "paramId": [
+      91
+    ],
+    "menu": [
+      {
+        "message_1": "Çalışmıyor",
+        "message_2": "Don't work",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 0,
+        "bit": 1,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "RS485 Çalışmıyor",
+        "message_2": "RS485 Not Working",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 1,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "GSM-RS485 Çalışıyor",
+        "message_2": "GSM-RS485 Working",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 2,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Etherntet-RS485 Çalışıyor",
+        "message_2": "Etherntet-RS485 Working",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 3,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "GSM-RS485-Ethernet Çalışıyor",
+        "message_2": "GSM-RS485-Ethernet Working",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 4,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "PIN Girin",
+        "message_2": "PIN Entry",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 5,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Hatalı PIN",
+        "message_2": "PIN Incorrect",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 6,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "PUK Girin",
+        "message_2": "PUK Entry",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 7,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": true
+      },
+      {
+        "message_1": "Bekleniyor…",
+        "message_2": "Waiting…",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 8,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "SIM Çıkarıldı",
+        "message_2": "SIM Removed",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 9,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "GSM Bağlanmaya Hazır",
+        "message_2": "Ready to Connect GSM",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 10,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "Ethernet Bağlanmaya Hazır",
+        "message_2": "Ready to Connect Ethernet",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 11,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      },
+      {
+        "message_1": "GSM-Ethernet Bağlanmaya Hazır",
+        "message_2": "Ready to Connect GSM-Ethernet",
+        "paramId": 91,
+        "dataType": "value",
+        "value": 12,
+        "bit": 2,
+        "bitValue": 1,
+        "blink": false
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": 200,
+    "height": 200,
+    "image": "rs485_icon_red.png",
+    "paramId": [
+      88
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
+      {
+        "paramId": 88,
+        "image": "rs485_icon_green.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": ""
+      },
+      {
+        "paramId": 88,
+        "image": "rs485_icon_red.png",
+        "dataType": "value",
+        "value": 1,
+        "bit": 0,
+        "bitValue": 1,
+        "blink": false,
+        "effect": "pulseEffect"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": 200,
+    "height": 200,
+    "image": "ethernet_icon_red.png",
+    "paramId": [
+      92
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
+      {
+        "paramId": 92,
+        "image": "ethernet_icon_red.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": "pulseEffect"
+      },
+      {
+        "paramId": 92,
+        "image": "ethernet_icon_green.png",
+        "dataType": "value",
+        "value": 1,
+        "bit": 0,
+        "bitValue": 1,
+        "blink": false,
+        "effect": "fadeEffect"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": 200,
+    "height": 200,
+    "image": "gsm_modem_icon.png",
+    "paramId": [],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": " ",
+    "menu": []
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": 200,
+    "height": 200,
+    "image": "gsm_communication_red.png",
+    "paramId": [
+      93
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
+      {
+        "paramId": 93,
+        "image": "gsm_communication_green.png",
+        "dataType": "value",
+        "value": 1,
+        "bit": 0,
+        "bitValue": 1,
+        "blink": false,
+        "effect": "flipEffect"
+      },
+      {
+        "paramId": 93,
+        "image": "gsm_communication_red.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": "pulseEffect"
+      }
+    ]
+  },
+  {
+    "object": "indicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": 260,
+    "title_1": "Hata Durumu",
+    "title_2": "Fault Status",
+    "paramId": [
+      88
+    ],
+    "menu": [
+      {
+        "name_1": "RS485",
+        "name_2": "RS485",
+        "paramId": 88,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "ETHERNET",
+        "name_2": "ETHERNET",
+        "paramId": 89,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "name_1": "GSM",
+        "name_2": "GSM",
+        "paramId": 90,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": false
+      }
+    ]
+  },
+  {
+    "object": "indicator",
+    "page": 1,
+    "row": 2,
+    "side": "right",
+    "width": 260,
+    "title_1": "Bağlanmaya Hazır Bilgisi",
+    "title_2": "Ready to Connection Knowledge",
+    "paramId": [
+      92
+    ],
+    "menu": [
+      {
+        "name_1": "ETHERNET",
+        "name_2": "ETHERNET",
+        "paramId": 92,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": true
+      },
+      {
+        "name_1": "GSM",
+        "name_2": "GSM",
+        "paramId": 93,
+        "bit": 0,
+        "bitValue": 1,
+        "color": "green",
+        "blink": true
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "title_1": "Seri Port",
+    "title_2": "Serial Port",
+    "width": 260,
+    "paramId": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "filter": true,
+    "paramId": [],
+    "paramGroup_1": [
+      "Genel",
+      "Ethernet",
+      "RS485 Seri port",
+      "LTE",
+      "İzleme"
+    ],
+    "paramGroup_2": [
+      "General",
+      "Ethernet",
+      "RS485 Serial Port",
+      "LTE",
+      "Monitoring"
+    ]
+  }
+]
