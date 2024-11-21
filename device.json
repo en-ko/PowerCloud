@@ -4,7 +4,7 @@
     "majorVersion": 1,
     "minorVersion": 0,
     "patchVersion": 1,
-    "jsonFileVersion": 18,
+    "jsonFileVersion": 19,
     "type": "software"
   },
   {
@@ -69,6 +69,11 @@
   },
   {
     "name": "CCS-M",
+    "version": 1000,
+    "type": "device"
+  },
+  {
+    "name": "DBC2",
     "version": 1000,
     "type": "device"
   }
