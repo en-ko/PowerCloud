@@ -3,84 +3,102 @@
         "object": "config",
         "pageCount": 2,
         "pageTitle_1": [
-          "Monitor",
-          "Monitor"
+          "Monitoring",
+          "Calibration"
         ],
         "pageTitle_2": [
-          "Monitor",
-          "Monitor"
+          "Monitoring",
+          "Calibration"
         ],
         "bootModeAddress": 45,
         "encryptModbus": true
       },
-    {
-        "object" : "datacard",
-        "page": 1,
-        "row" : 1,
-        "side": "center",
-        "paramId" : [1,2,4,5,6]
-    },
+  
+      {
+          "object": "roundguage",
+          "page": 1,
+          "row": 1,
+          "side": "center",
+          "paramId": [
+            1
+          ],
+          "min": 0,
+          "max": 30,
+          "scale": [
+            0,
+            10,
+            20,
+            30
+          ]
+        },
+        {
+          "object": "roundguage",
+          "page": 1,
+          "row": 1,
+          "side": "center",
+          "paramId": [
+            2
+          ],
+          "min": 0,
+          "max": 10,
+          "scale": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+  
+  
     {
         "object" : "datacard",
         "page": 1,
         "row" : 2,
         "side": "center",
-        "paramId" : [7,8,11,20,19,30]
+        "paramId" : [7,8,11,41,42]
     },
     {
         "object" : "datacard",
         "page": 1,
         "row" : 3,
         "side": "center",
-        "paramId" : [13,14,15,16,27]
-    },
-    {
-        "object" : "datacard",
-        "page": 1,
-        "row" : 4,
-        "side": "center",
-        "paramId" : [12,32,18,31,35,36]
+        "paramId" : [26,27,28,12,32]
     },
     {
         "object" : "datacard",
         "page": 1,
         "row" : 5,
         "side": "center",
-        "paramId" : [26,28,21,33,34]
+        "paramId" : [9,10,29,35,36]
     },
     {
         "object" : "datacard",
         "page": 1,
         "row" : 6,
         "side": "center",
-        "paramId" : [38,39,40]
+        "paramId" : [21,33,34,37,40]
     },
   
     {
-        "object" : "datacard",
-        "page": 2,
-        "row" : 1,
-        "side": "center",
-        "paramId" : [9,10,29]
-    },
-    {
       "object" : "datacard",
-      "page": 2,
-      "row" : 2,
+      "page": 1,
+      "row" : 8,
       "side": "center",
-      "paramId" : [22,23,24]
+      "paramId" : [22,23,24,25]
   },
   {
       "object" : "datacard",
       "page": 2,
-      "row" : 3,
+      "row" : 1,
       "side": "center",
-      "paramId" : [25,37]
+      "paramId" : [13,14,15,16]
   },
     {
         "object" : "indicator",
         "page": 1,
-        "row" : 7,
+        "row" : 1,
         "side": "left",
         "width": 250,
         "title_1" : "Warning Indicator",
@@ -136,9 +154,50 @@
         ]
     },
     {
+      "object": "datalist",
+      "page": 1,
+      "row": 2,
+      "side": "left",
+      "title_1": "Temperature",
+      "title_2": "Temperature",
+      "width": 250,
+      "paramId": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 3,
+      "side": "left",
+      "title_1": "Error/Warning",
+      "title_2": "Error/Warning",
+      "width": 250,
+      "paramId": [
+          19,20
+      ]
+    },
+    {
+      "object" : "space",
+      "page" : 1,
+      "row" : 4,
+      "width" : 100,
+      "height" : 30,
+      "side" : "left"
+    },
+    {
+      "object" : "datacard",
+      "page": 1,
+      "row" : 5,
+      "side": "left",
+      "paramId" : [38,39]
+  },
+    {
         "object" : "indicator",
         "page": 1,
-        "row" : 7,
+        "row" : 1,
         "side": "right",
         "width": 250,
         "title_1" : "Error Indicator",
@@ -174,5 +233,47 @@
             "blink" : false
         }
         ]
-    }
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 2,
+      "side": "right",
+      "title_1": "Calibration",
+      "title_2": "Calibration",
+      "width": 250,
+      "paramId": [
+          13,
+          14,
+          15,
+          16
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 3,
+      "side": "right",
+      "title_1": "",
+      "title_2": "",
+      "width": 250,
+      "paramId": [
+          30
+      ]
+    },
+    {
+      "object" : "space",
+      "page" : 1,
+      "row" : 5,
+      "width" : 100,
+      "height" : 95,
+      "side" : "right"
+    },
+    {
+      "object" : "datacard",
+      "page": 1,
+      "row" : 6,
+      "side": "right",
+      "paramId" : [18,31]
+  }
   ]
