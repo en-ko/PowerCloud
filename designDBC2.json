@@ -217,7 +217,7 @@
     "page": 2,
     "row": 3,
     "side": "center",
-    "paramId": [16, 17, 18, 19]
+    "paramId": [16, 17, 19]
   },
   {
     "object": "datacard",
