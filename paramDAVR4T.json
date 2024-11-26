@@ -2230,6 +2230,98 @@
 		"relation" : []
 	},
 	{
+		"id" : 151,
+		"version" : 4018,
+		"name_1" : "Turbo Mod",
+		"name_2" : "Turbo Mode",
+		"group_1" : "Parameters",
+		"group_2" : "Parameters",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 151,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"view" : "decimal",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Devre Dışı",
+				"mask_2" : "Disabled"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Devrede",
+				"mask_2" : "Enabled"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Turbo fonksiyonunu devreye sokar. Dikkat bu fonksiyon aktifken röle hata durumları devre dışı kalır. Röle sadece Turbo fonksiyonunu aktive etmek için tetiklenir.",
+		"comment_2" : "Enables Turbo function. Attention enabling this will cause relay to not operate on error states but only on this function.",
+		"relation" : []
+	},
+	{
+		"id" : 152,
+		"version" : 4018,
+		"name_1" : "Turbo Devreden Çıkış Frekansı",
+		"name_2" : "Turbo Recovery Frequency",
+		"group_1" : "Parameters",
+		"group_2" : "Parameters",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 152,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"view" : "decimal",
+		"minValue" : 0,
+		"maxValue" : 80,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "/",
+			"operationValue" : "100.48"
+		},
+		"readOnly" : false,
+		"comment_1" : "Turbo fonksiyonunun devreden çıkma frekansı. Ölçülen frekans bu değerin üstüne çıktığında röle bırakır.",
+		"comment_2" : "Turbo function disable frequency. Above this limit relay will be off state.",
+		"relation" : []
+	},
+	{
+		"id" : 153,
+		"version" : 4018,
+		"name_1" : "Turbo Devreye Giriş Frekansı",
+		"name_2" : "Turbo Start Frequency",
+		"group_1" : "Parameters",
+		"group_2" : "Parameters",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 153,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : false,
+		"view" : "decimal",
+		"minValue" : 0,
+		"maxValue" : 80,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "/",
+			"operationValue" : "100.48"
+		},
+		"readOnly" : false,
+		"comment_1" : "Turbo fonksiyonunun devreye girme frekansı. Ölçülen frekans bu değerin altına indiğinde röle tetiklenir.",
+		"comment_2" : "Turbo function enable frequency. Below this limit relay will be on state.",
+		"relation" : []
+	},
+	{
 		"id" : 203,
 		"version" : 4013,
 		"name_1" : "Tüm Parametreleri Sıfırla",
