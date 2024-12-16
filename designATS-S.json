@@ -22,9 +22,9 @@
     "side": "left",
     "paramId": [
       3015,
-      3016
+      7
     ]
-  }, 
+  },
   {
     "object": "statuscard",
     "page": 1,
@@ -68,7 +68,7 @@
         "blink": false
       }
     ]
-  }, 
+  },
   {
     "object": "buttonbar",
     "page": 1,
@@ -109,8 +109,8 @@
     "row": 4,
     "side": "left",
     "width": 320,
-    "height": 500,
-    "inactiveHide": true,    
+    "height": 530,
+    "inactiveHide": true,
     "title_1": "Aktif Alarm Listesi",
     "title_2": "Active Alarm List",
     "paramId": [
@@ -404,13 +404,25 @@
     ]
   },
   {
+    "object": "datalist",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "title_1": "ŞEBEKE",
+    "title_2": "MAINS",
+    "width": 250,
+    "paramId": [
+      3001,3002,3003,3004
+    ]
+  },
+  {
     "object": "image",
     "page": 1,
     "row": 2,
     "side": "center",
-    "width": 180,
-    "height": 180,
-    "image": "genset-white.png",
+    "width": 400,
+    "height": 210,
+    "image": "mimic_not_ok.png",
     "paramId": [
       3005
     ],
@@ -420,7 +432,7 @@
     "menu": [
       {
         "paramId": 3005,
-        "image": "genset-white.png",
+        "image": "mimic_not_ok.png",
         "dataType": "value",
         "value": 0,
         "bit": 0,
@@ -430,62 +442,60 @@
       },
       {
         "paramId": 3005,
-        "image": "genset-green.png",
+        "image": "mains_ok.png",
+        "dataType": "value",
+        "value": 1,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": " "
+      },
+      {
+        "paramId": 3005,
+        "image": "genset_ok.png",
         "dataType": "value",
         "value": 2,
         "bit": 0,
-        "bitValue": 1,
+        "bitValue": 2,
         "blink": false,
-        "effect": "pulseEffect"
+        "effect": ""
       }
     ]
   },
   {
-    "object": "roundguage",
+    "object": "datalist",
     "page": 1,
     "row": 2,
     "side": "center",
+    "title_1": "JENERATÖR",
+    "title_2": "GENERATOR",
+    "width": 250,
     "paramId": [
-      3006
-    ],
-    "min": 0,
-    "max": 600,
-    "scale": [
-      0,
-      100,
-      200,
-      300,
-      400,
-      500,
-      600
+      3006,3007,3008,3009
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      3028,
+      3029,
+      3030,
+      3031,
+      3037,
+      3027
     ]
   },
   {
     "object": "roundguage",
     "page": 1,
-    "row": 2,
+    "row": 4,
     "side": "center",
     "paramId": [
-      3007
-    ],
-    "min": 0,
-    "max": 600,
-    "scale": [
-      0,
-      100,
-      200,
-      300,
-      400,
-      500,
-      600
-    ]
-  },
-  {
-    "object": "roundguage",
-    "page": 1,
-    "row": 2,
-    "side": "center",
-    "paramId": [
+      3006,
+      3007,
       3008
     ],
     "min": 0,
@@ -499,11 +509,11 @@
       500,
       600
     ]
-  },  
+  },
   {
     "object": "roundguage",
     "page": 1,
-    "row": 2,
+    "row": 4,
     "side": "center",
     "paramId": [
       3009
@@ -512,54 +522,16 @@
     "max": 75,
     "scale": [
       0,
-      15,
-      30,
-      45,
-      60,
-      75
-    ]
-  },
-  {
-    "object": "image",
-    "page": 1,
-    "row": 3,
-    "side": "center",
-    "width": 180,
-    "height": 180,
-    "image": "mains.png",
-    "paramId": [
-      3005
-    ],
-    "topParamId": [],
-    "bottomParamId": [],
-    "effect": "",
-    "menu": [
-      {
-        "paramId": 3005,
-        "image": "mains.png",
-        "dataType": "value",
-        "value": 0,
-        "bit": 0,
-        "bitValue": 0,
-        "blink": false,
-        "effect": " "
-      },
-      {
-        "paramId": 3005,
-        "image": "mains-green.png",
-        "dataType": "value",
-        "value": 1,
-        "bit": 0,
-        "bitValue": 1,
-        "blink": false,
-        "effect": "pulseEffect"
-      }
+      25,
+      50,
+      75,
+      100
     ]
   },
   {
     "object": "roundguage",
     "page": 1,
-    "row": 3,
+    "row": 5,
     "side": "center",
     "paramId": [
       3001,
@@ -581,7 +553,7 @@
   {
     "object": "roundguage",
     "page": 1,
-    "row": 3,
+    "row": 5,
     "side": "center",
     "paramId": [
       3004
@@ -594,57 +566,6 @@
       50,
       75,
       100
-    ]
-  },
-  {
-    "object": "image",
-    "page": 1,
-    "row": 4,
-    "side": "center",
-    "width": 180,
-    "height": 180,
-    "image": "factory.png",
-    "paramId": [
-      3
-    ],
-    "topParamId": [],
-    "bottomParamId": [],
-    "effect": "",
-    "menu": [
-      {
-        "paramId": 3,
-        "image": "factory.png",
-        "dataType": "value",
-        "value": 0,
-        "bit": 0,
-        "bitValue": 0,
-        "blink": false,
-        "effect": ""
-      },
-      {
-        "paramId": 3,
-        "image": "factory.png",
-        "dataType": "value",
-        "value": 1,
-        "bit": 0,
-        "bitValue": 1,
-        "blink": false,
-        "effect": ""
-      }
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 5,
-    "side": "center",
-    "paramId": [
-      3028,
-      3029,
-      3030,
-      3031,
-      3037,
-      3027
     ]
   },
   {
@@ -728,7 +649,7 @@
     "row": 3,
     "side": "right",
     "width": 320,
-    "height": 290,
+    "height": 320,
     "title_1": "Girişler",
     "title_2": "Inputs",
     "paramId": [
@@ -831,6 +752,80 @@
       3000,
       4000,
       5000
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "width": 50,
+    "height": 50,
+    "image": "ledgray_1.png",
+    "paramId": [
+      61
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
+      {
+        "paramId": 61,
+        "image": "ledgray_1.png",
+        "dataType": "value",
+        "value": 2,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": " "
+      },
+      {
+        "paramId": 61,
+        "image": "ledred.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": " "
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "width": 50,
+    "height": 50,
+    "image": "ledgray_1.png",
+    "paramId": [
+      61
+    ],
+    "topParamId": [],
+    "bottomParamId": [],
+    "effect": "",
+    "menu": [
+      {
+        "paramId": 61,
+        "image": "ledgray_1.png",
+        "dataType": "value",
+        "value": 0,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": " "
+      },
+      {
+        "paramId": 61,
+        "image": "ledgreen.png",
+        "dataType": "value",
+        "value": 2,
+        "bit": 0,
+        "bitValue": 0,
+        "blink": false,
+        "effect": " "
+      }
     ]
   }
 ]
