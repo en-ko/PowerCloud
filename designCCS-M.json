@@ -1606,7 +1606,8 @@
       "Bakım",
       "Sıcaklık",
       "Şebeke",
-      "Genel"
+      "Genel",
+      "İnvertör"
     ],
     "paramGroup_2": [
       "Pressure",
@@ -1616,7 +1617,8 @@
       "Maintenance",
       "Temperature",
       "Mains",
-      "General"
+      "General",
+      "Inverter"
     ]
   }
 ]
