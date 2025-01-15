@@ -76,5 +76,10 @@
     "name": "DBC2",
     "version": 1000,
     "type": "device"
+  },
+  {
+    "name": "LEAKWISE",
+    "version": 1000,
+    "type": "device"
   }
 ]
