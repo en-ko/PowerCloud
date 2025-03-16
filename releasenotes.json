@@ -1,0 +1,17 @@
+[
+    {
+        "version" : "1.0",
+        "comment" : "İlk Versiyon",
+        "date" : "2025-01-01"
+    },
+    {
+        "version" : "1.1",
+        "comment" : "İkinci versiyon",
+        "date" : "2025-01-05"
+    },
+    {
+        "version" : "1.2",
+        "comment" : "Translate özelliği eklendi",
+        "date" : "2025-01-10"
+    }
+]
