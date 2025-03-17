@@ -11,7 +11,7 @@
     {
         "device" : "DAVR40",
         "minVersion" : 1000,
-        "maxVersion" : 1500,
+        "maxVersion" : 1100,
         "paramId" : [1,2,3],
         "name" : "Dokuman İsmi",
         "language":"Eng",
@@ -39,7 +39,7 @@
         "device" : "CCS-M",
         "minVersion" : 1000,
         "maxVersion" : 1500,
-        "paramId" : [1,2,3],
+        "paramId" : [1,2,4],
         "name" : "Dokuman - 4",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
