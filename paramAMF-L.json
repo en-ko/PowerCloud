@@ -12,6 +12,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 0,
@@ -54,6 +55,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -91,6 +93,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -128,6 +131,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -165,6 +169,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 32000,
 		"defaultValue" : 0,
@@ -202,6 +207,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 30,
 		"defaultValue" : 5,
@@ -228,6 +234,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -253,6 +260,33 @@
 		"relation" : []
 	},
 	{
+		"id" : 20,
+		"version" : 1011,
+		"name_1" : "UKB Butonlar",
+		"name_2" : "Remote Buttons",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 20,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : 0,
+		"maxValue" : 18,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
 		"id" : 22,
 		"version" : 1011,
 		"name_1" : "Şebeke Kapalı Mod Seçimi",
@@ -265,6 +299,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -302,6 +337,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 150,
 		"defaultValue" : 115,
@@ -336,6 +372,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 99,
 		"defaultValue" : 85,
@@ -370,6 +407,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 150,
 		"defaultValue" : 104,
@@ -404,6 +442,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 99,
 		"defaultValue" : 96,
@@ -438,6 +477,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -475,6 +515,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -512,6 +553,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 7,
 		"defaultValue" : 1,
@@ -579,6 +621,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 85,
 		"maxValue" : 240,
 		"defaultValue" : 220,
@@ -605,6 +648,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -657,6 +701,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 150,
 		"defaultValue" : 115,
@@ -691,6 +736,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -743,6 +789,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 99,
 		"defaultValue" : 85,
@@ -777,6 +824,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 300,
 		"maxValue" : 600,
 		"defaultValue" : 500,
@@ -803,6 +851,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -855,6 +904,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 130,
 		"defaultValue" : 106,
@@ -889,6 +939,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -941,6 +992,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 99,
 		"defaultValue" : 94,
@@ -975,9 +1027,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
-		"defaultValue" : 2,
+		"defaultValue" : 4,
 		"valueMask" : [
 			{
 				"value" : 0,
@@ -1027,6 +1080,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -1079,6 +1133,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 10000,
 		"defaultValue" : 50,
@@ -1105,6 +1160,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -1157,6 +1213,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 10000,
 		"defaultValue" : 50,
@@ -1183,6 +1240,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 9999,
 		"defaultValue" : 20,
@@ -1209,6 +1267,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1246,6 +1305,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 3,
 		"maxValue" : 10,
 		"defaultValue" : 3,
@@ -1272,6 +1332,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 3,
 		"maxValue" : 15,
 		"defaultValue" : 10,
@@ -1298,6 +1359,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 50,
 		"defaultValue" : 50,
@@ -1324,6 +1386,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 2,
@@ -1376,6 +1439,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -1413,6 +1477,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1450,6 +1515,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1487,6 +1553,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -1534,6 +1601,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 0,
@@ -1576,6 +1644,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 150,
 		"maxValue" : 750,
 		"defaultValue" : 150,
@@ -1602,6 +1671,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 500,
 		"maxValue" : 6000,
 		"defaultValue" : 500,
@@ -1628,6 +1698,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 60,
 		"maxValue" : 500,
 		"defaultValue" : 300,
@@ -1654,6 +1725,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 60,
 		"maxValue" : 300,
 		"defaultValue" : 60,
@@ -1680,6 +1752,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 10,
 		"maxValue" : 100,
 		"defaultValue" : 30,
@@ -1706,6 +1779,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 10,
 		"defaultValue" : 3,
@@ -1732,6 +1806,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1769,6 +1844,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1806,6 +1882,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -1858,6 +1935,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 5,
 		"maxValue" : 95,
 		"defaultValue" : 10,
@@ -1884,6 +1962,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -1936,6 +2015,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -1973,6 +2053,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2025,6 +2106,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 5,
 		"maxValue" : 150,
 		"defaultValue" : 110,
@@ -2051,6 +2133,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2103,6 +2186,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2155,6 +2239,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 45,
 		"defaultValue" : 5,
@@ -2181,6 +2266,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2233,6 +2319,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 90,
 		"defaultValue" : 20,
@@ -2267,6 +2354,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 5,
 		"maxValue" : 95,
 		"defaultValue" : 80,
@@ -2301,6 +2389,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 240,
 		"defaultValue" : 65,
@@ -2335,6 +2424,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 5,
 		"maxValue" : 245,
 		"defaultValue" : 100,
@@ -2369,6 +2459,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 100,
 		"maxValue" : 260,
 		"defaultValue" : 130,
@@ -2395,6 +2486,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2447,6 +2539,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 125,
 		"defaultValue" : 125,
@@ -2481,6 +2574,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2533,6 +2627,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 75,
 		"maxValue" : 99,
 		"defaultValue" : 75,
@@ -2567,6 +2662,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2619,6 +2715,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 101,
 		"maxValue" : 125,
 		"defaultValue" : 125,
@@ -2653,6 +2750,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2705,6 +2803,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 75,
 		"maxValue" : 99,
 		"defaultValue" : 75,
@@ -2739,6 +2838,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2791,6 +2891,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 110,
 		"maxValue" : 150,
 		"defaultValue" : 120,
@@ -2817,6 +2918,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -2869,6 +2971,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 90,
 		"defaultValue" : 80,
@@ -2895,6 +2998,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 2,
@@ -2947,6 +3051,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 2,
@@ -2999,6 +3104,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 2,
@@ -3051,6 +3157,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 2,
@@ -3103,6 +3210,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1000,
 		"defaultValue" : 100,
@@ -3129,6 +3237,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -3166,6 +3275,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -15,
 		"maxValue" : 240,
 		"defaultValue" : -15,
@@ -3200,6 +3310,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -10,
 		"maxValue" : 245,
 		"defaultValue" : 0,
@@ -3234,6 +3345,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -3286,6 +3398,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 5,
 		"maxValue" : 150,
 		"defaultValue" : 110,
@@ -3312,6 +3425,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 4,
@@ -3364,6 +3478,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 500,
 		"defaultValue" : 10,
@@ -3390,6 +3505,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 10,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3416,6 +3532,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3442,6 +3559,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3468,6 +3586,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3494,6 +3613,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3520,6 +3640,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 10,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3546,6 +3667,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3572,6 +3694,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 10,
@@ -3598,6 +3721,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 10,
 		"maxValue" : 120,
 		"defaultValue" : 60,
@@ -3624,6 +3748,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 10,
 		"defaultValue" : 1,
@@ -3650,6 +3775,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 300,
 		"defaultValue" : 10,
@@ -3676,6 +3802,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 1000,
 		"defaultValue" : 1,
@@ -3702,6 +3829,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 6000,
 		"defaultValue" : 50,
@@ -3728,6 +3856,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 18000,
 		"defaultValue" : 200,
@@ -3754,6 +3883,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 6000,
 		"defaultValue" : 20,
@@ -3780,6 +3910,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 600,
 		"defaultValue" : 50,
@@ -3806,6 +3937,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 50,
 		"maxValue" : 990,
 		"defaultValue" : 100,
@@ -3832,6 +3964,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1000,
 		"defaultValue" : 100,
@@ -3858,6 +3991,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 600,
 		"defaultValue" : 20,
@@ -3884,6 +4018,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 50,
 		"defaultValue" : 0,
@@ -3910,6 +4045,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1200,
 		"defaultValue" : 200,
@@ -3936,6 +4072,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3600,
 		"defaultValue" : 0,
@@ -3962,6 +4099,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 18000,
 		"defaultValue" : 300,
@@ -3988,6 +4126,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 6000,
 		"defaultValue" : 7,
@@ -4014,6 +4153,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 10,
 		"maxValue" : 900,
 		"defaultValue" : 30,
@@ -4040,6 +4180,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 30,
@@ -4066,6 +4207,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 30,
@@ -4092,6 +4234,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 50,
@@ -4118,6 +4261,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 50,
@@ -4144,6 +4288,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 10,
@@ -4170,6 +4315,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 10,
@@ -4196,6 +4342,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 600,
 		"defaultValue" : 10,
@@ -4222,6 +4369,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 600,
 		"defaultValue" : 10,
@@ -4248,6 +4396,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 200,
 		"maxValue" : 10000,
 		"defaultValue" : 1000,
@@ -4274,6 +4423,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 200,
 		"maxValue" : 10000,
 		"defaultValue" : 1000,
@@ -4300,6 +4450,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 200,
 		"maxValue" : 10000,
 		"defaultValue" : 1000,
@@ -4326,6 +4477,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 200,
 		"maxValue" : 10000,
 		"defaultValue" : 1000,
@@ -4352,6 +4504,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 0,
@@ -4404,6 +4557,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 50,
@@ -4430,6 +4584,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 600,
 		"defaultValue" : 50,
@@ -4456,6 +4611,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 17,
 		"defaultValue" : 0,
@@ -4573,6 +4729,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -4610,6 +4767,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -4647,6 +4805,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -4684,6 +4843,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -4721,6 +4881,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 50,
@@ -4747,6 +4908,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -4799,6 +4961,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -4836,6 +4999,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -4862,6 +5026,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -4888,6 +5053,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -4925,6 +5091,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 18,
@@ -4951,6 +5118,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -4977,6 +5145,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -5003,6 +5172,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 23,
@@ -5029,6 +5199,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 255,
@@ -5055,6 +5226,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 255,
@@ -5081,6 +5253,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 255,
@@ -5107,6 +5280,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 0,
@@ -5133,6 +5307,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 18,
@@ -5159,6 +5334,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -5185,6 +5361,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -5211,6 +5388,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 254,
@@ -5237,6 +5415,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 18,
@@ -5263,6 +5442,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -5289,6 +5469,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 3,
@@ -5315,6 +5496,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 100,
@@ -5341,6 +5523,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 23,
@@ -5367,6 +5550,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 247,
@@ -5393,6 +5577,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 8,
@@ -5785,6 +5970,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -5822,6 +6008,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 6,
@@ -6214,6 +6401,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -6251,6 +6439,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 1,
@@ -6643,6 +6832,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -6680,6 +6870,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 2,
@@ -7072,6 +7263,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -7109,6 +7301,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 9,
@@ -7501,6 +7694,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -7538,6 +7732,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 10,
@@ -7930,6 +8125,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -7967,6 +8163,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 0,
@@ -8359,6 +8556,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -8396,6 +8594,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 76,
 		"defaultValue" : 71,
@@ -8788,6 +8987,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -8825,6 +9025,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -8922,6 +9123,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -8959,6 +9161,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -9006,6 +9209,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -9053,6 +9257,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -9150,6 +9355,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -9187,6 +9393,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -9234,6 +9441,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -9281,6 +9489,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 29,
@@ -9378,6 +9587,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -9415,6 +9625,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -9462,6 +9673,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -9509,6 +9721,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 29,
@@ -9606,6 +9819,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -9643,6 +9857,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -9690,6 +9905,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -9737,6 +9953,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 29,
@@ -9834,6 +10051,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -9871,6 +10089,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -9918,6 +10137,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -9965,6 +10185,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 29,
@@ -10062,6 +10283,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -10099,6 +10321,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -10146,6 +10369,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -10193,6 +10417,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 1,
@@ -10290,6 +10515,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -10327,6 +10553,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -10374,6 +10601,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -10421,6 +10649,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 2,
@@ -10463,6 +10692,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 11,
 		"defaultValue" : 3,
@@ -10550,6 +10780,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -10647,6 +10878,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -10684,6 +10916,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -10731,6 +10964,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -10778,6 +11012,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 10,
 		"defaultValue" : 2,
@@ -10804,6 +11039,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -10830,6 +11066,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -10856,6 +11093,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -10882,6 +11120,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -10908,6 +11147,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -10934,6 +11174,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -10960,6 +11201,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -10986,6 +11228,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11012,6 +11255,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11038,6 +11282,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11064,6 +11309,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11090,6 +11336,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11116,6 +11363,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11142,6 +11390,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11168,6 +11417,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11194,6 +11444,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11220,6 +11471,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11246,6 +11498,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11272,6 +11525,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11298,6 +11552,7 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -11324,6 +11579,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 2,
@@ -11366,6 +11622,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 11,
 		"defaultValue" : 3,
@@ -11453,6 +11710,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -11550,6 +11808,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -11587,6 +11846,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -11634,6 +11894,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -11681,6 +11942,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 10,
 		"defaultValue" : 2,
@@ -11707,6 +11969,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11733,6 +11996,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -11759,6 +12023,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11785,6 +12050,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -11811,6 +12077,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11837,6 +12104,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -11863,6 +12131,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11889,6 +12158,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -11915,6 +12185,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11941,6 +12212,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -11967,6 +12239,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -11993,6 +12266,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -12019,6 +12293,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12045,6 +12320,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -12071,6 +12347,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12097,6 +12374,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -12123,6 +12401,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12149,6 +12428,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -12175,6 +12455,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12201,6 +12482,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -12227,6 +12509,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 2,
@@ -12269,6 +12552,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 9,
 		"defaultValue" : 3,
@@ -12346,6 +12630,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -12443,6 +12728,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -12480,6 +12766,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -12527,6 +12814,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -12574,6 +12862,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 10,
 		"defaultValue" : 2,
@@ -12600,6 +12889,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12626,6 +12916,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12652,6 +12943,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12678,6 +12970,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12704,6 +12997,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12730,6 +13024,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12756,6 +13051,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12782,6 +13078,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12808,6 +13105,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12834,6 +13132,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12860,6 +13159,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12886,6 +13186,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12912,6 +13213,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12938,6 +13240,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -12964,6 +13267,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -12990,6 +13294,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -13016,6 +13321,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13042,6 +13348,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -13068,6 +13375,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13094,6 +13402,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 0,
@@ -13120,6 +13429,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 2,
@@ -13162,6 +13472,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 11,
 		"defaultValue" : 3,
@@ -13249,6 +13560,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 29,
 		"defaultValue" : 0,
@@ -13346,6 +13658,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
@@ -13383,6 +13696,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 1,
 		"maxValue" : 4,
 		"defaultValue" : 1,
@@ -13430,6 +13744,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 3,
 		"defaultValue" : 0,
@@ -13477,6 +13792,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 10,
 		"defaultValue" : 2,
@@ -13503,6 +13819,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13529,6 +13846,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13555,6 +13873,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13581,6 +13900,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13607,6 +13927,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13633,6 +13954,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13659,6 +13981,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13685,6 +14008,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13711,6 +14035,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13737,6 +14062,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13763,6 +14089,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13789,6 +14116,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13815,6 +14143,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13841,6 +14170,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13867,6 +14197,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13893,6 +14224,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13919,6 +14251,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13945,6 +14278,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -13971,6 +14305,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : 0,
 		"maxValue" : 540,
 		"defaultValue" : 0,
@@ -13997,6 +14332,7 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -50,
 		"maxValue" : 250,
 		"defaultValue" : 0,
@@ -14011,10 +14347,75 @@
 		"relation" : []
 	},
 	{
+		"id" : 463,
+		"version" : 1015,
+		"name_1" : "Haberleşme Şifreleme Seçimi",
+		"name_2" : "Communication Handshake Selection",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 22,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask_1" : "Pasif",
+				"mask_2" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask_1" : "Aktif",
+				"mask_2" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Haberleşmenin ENKO şifreli olup olmadığını belirleyen seçimdir.",
+		"comment_2" : "It is the selection that determines whether the communication is ENKO encrypted or not.",
+		"relation" : []
+	},
+	{
+		"id" : 464,
+		"version" : 1015,
+		"name_1" : "Haberleşme Zaman Aşımı",
+		"name_2" : "Communication Timeout",
+		"group_1" : "Genel",
+		"group_2" : "General",
+		"unit_1" : "sn",
+		"unit_2" : "sec",
+		"modbusAddress" : 23,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : 10,
+		"maxValue" : 32767,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "Bu parametrede ayarlanan süre kadar haberleşme yoksa ve “Haberleşme Şifreleme Seçimi” parametresi aktif seçildiyse cihaz tekrar şifre moduna girer. Haberleşebilmek için şifre tekrar çözülmelidir. “Haberleşme Şifreleme Seçimi” parametresi pasifse bu parametre dikkate alınmaz.",
+		"comment_2" : "If there is no communication for the time set in this parameter and the ‘Communication Handshake Selection’ parameter is selected active, the device enters the password mode again. In order to communicate, the password must be decrypted again. If the ‘Communication Handshake Selection’ parameter is inactive, this parameter is ignored.",
+		"relation" : []
+	},
+	{
 		"id" : 3001,
-		"version" : 1005,
-		"name_1" : "Şebeke RS Voltajı",
-		"name_2" : "Mains RS Voltage",
+		"version" : 1011,
+		"name_1" : "Şebeke R-S Voltajı",
+		"name_2" : "Mains R-S Voltage",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "V",
@@ -14023,9 +14424,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14038,9 +14440,9 @@
 	},
 	{
 		"id" : 3002,
-		"version" : 1005,
-		"name_1" : "Şebeke ST Voltajı",
-		"name_2" : "Mains ST Voltage",
+		"version" : 1011,
+		"name_1" : "Şebeke S-T Voltajı",
+		"name_2" : "Mains S-T Voltage",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "V",
@@ -14049,9 +14451,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14064,9 +14467,9 @@
 	},
 	{
 		"id" : 3003,
-		"version" : 1005,
-		"name_1" : "Şebeke RT Voltajı",
-		"name_2" : "Mains RT Voltage",
+		"version" : 1011,
+		"name_1" : "Şebeke R-T Voltajı",
+		"name_2" : "Mains R-T Voltage",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "V",
@@ -14075,9 +14478,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14090,7 +14494,7 @@
 	},
 	{
 		"id" : 3004,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Şebeke Frekansı",
 		"name_2" : "Mains Frequency",
 		"group_1" : "İzleme",
@@ -14101,113 +14505,10 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : true,
-		"comment_1" : "",
-		"comment_2" : "",
-		"relation" : []
-	},
-	{
-		"id" : 3011,
-		"version" : 1005,
-		"name_1" : "Jeneratör Voltajı UV",
-		"name_2" : "Generator Voltage UV",
-		"group_1" : "İzleme",
-		"group_2" : "Monitoring",
-		"unit_1" : "V",
-		"unit_2" : "V",
-		"modbusAddress" : 3011,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : "",
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : true,
-		"comment_1" : "",
-		"comment_2" : "",
-		"relation" : []
-	},
-	{
-		"id" : 3012,
-		"version" : 1005,
-		"name_1" : "Jeneratör Voltajı VW",
-		"name_2" : "Generator Voltage VW",
-		"group_1" : "İzleme",
-		"group_2" : "Monitoring",
-		"unit_1" : "V",
-		"unit_2" : "V",
-		"modbusAddress" : 3012,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : "",
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : true,
-		"comment_1" : "",
-		"comment_2" : "",
-		"relation" : []
-	},
-	{
-		"id" : 3013,
-		"version" : 1005,
-		"name_1" : "Jeneratör Voltajı WU",
-		"name_2" : "Generator Voltage WU",
-		"group_1" : "İzleme",
-		"group_2" : "Monitoring",
-		"unit_1" : "V",
-		"unit_2" : "V",
-		"modbusAddress" : 3013,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : "",
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : true,
-		"comment_1" : "",
-		"comment_2" : "",
-		"relation" : []
-	},
-	{
-		"id" : 3014,
-		"version" : 1005,
-		"name_1" : "Jeneratör Frekansı",
-		"name_2" : "Generator Frequency",
-		"group_1" : "İzleme",
-		"group_2" : "Monitoring",
-		"unit_1" : "Hz",
-		"unit_2" : "Hz",
-		"modbusAddress" : 3014,
-		"dataLength" : 1,
-		"coef" : -1,
-		"signed" : true,
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14220,9 +14521,9 @@
 	},
 	{
 		"id" : 3005,
-		"version" : 1005,
-		"name_1" : "Şebeke L1 Akım",
-		"name_2" : "Mains L1 Current",
+		"version" : 1011,
+		"name_1" : "Şebeke R Fazı Akımı(LSB)",
+		"name_2" : "Mains R Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14231,9 +14532,37 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3006,
+		"version" : 1011,
+		"name_1" : "Şebeke R Fazı Akımı(MSB)",
+		"name_2" : "Mains R Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3006,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14246,9 +14575,9 @@
 	},
 	{
 		"id" : 3007,
-		"version" : 1005,
-		"name_1" : "Şebeke L2 Akım",
-		"name_2" : "Mains L2 Current",
+		"version" : 1011,
+		"name_1" : "Şebeke S Fazı Akımı(LSB)",
+		"name_2" : "Mains S Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14257,9 +14586,37 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3008,
+		"version" : 1011,
+		"name_1" : "Şebeke S Fazı Akımı(MSB)",
+		"name_2" : "Mains S Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3008,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14272,9 +14629,9 @@
 	},
 	{
 		"id" : 3009,
-		"version" : 1005,
-		"name_1" : "Şebeke L3 Akım",
-		"name_2" : "Mains L3 Current",
+		"version" : 1011,
+		"name_1" : "Şebeke T Fazı Akımı(LSB)",
+		"name_2" : "Mains T Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14283,9 +14640,145 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3010,
+		"version" : 1011,
+		"name_1" : "Şebeke T Fazı Akımı(MSB)",
+		"name_2" : "Mains T Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3010,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3011,
+		"version" : 1011,
+		"name_1" : "Jeneratör U-V Voltajı",
+		"name_2" : "Generator U-V Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3011,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3012,
+		"version" : 1011,
+		"name_1" : "Jeneratör V-W Voltajı",
+		"name_2" : "Generator V-W Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3012,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3013,
+		"version" : 1011,
+		"name_1" : "Jeneratör U-W Voltajı",
+		"name_2" : "Generator U-W Voltage",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "V",
+		"unit_2" : "V",
+		"modbusAddress" : 3013,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3014,
+		"version" : 1011,
+		"name_1" : "Jeneratör Frekansı",
+		"name_2" : "Generator Frequency",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Hz",
+		"unit_2" : "Hz",
+		"modbusAddress" : 3014,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14298,9 +14791,9 @@
 	},
 	{
 		"id" : 3015,
-		"version" : 1005,
-		"name_1" : "Jeneratör L1 Akım",
-		"name_2" : "Generator L1 Current",
+		"version" : 1011,
+		"name_1" : "Jeneratör U Fazı Akımı(LSB)",
+		"name_2" : "Generator U Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14309,9 +14802,37 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3016,
+		"version" : 1011,
+		"name_1" : "Jeneratör U Fazı Akımı(MSB)",
+		"name_2" : "Generator U Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3016,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14324,9 +14845,9 @@
 	},
 	{
 		"id" : 3017,
-		"version" : 1005,
-		"name_1" : "Jeneratör L2 Akım",
-		"name_2" : "Generator L2 Current",
+		"version" : 1011,
+		"name_1" : "Jeneratör V Fazı Akımı(LSB)",
+		"name_2" : "Generator V Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14335,9 +14856,37 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3018,
+		"version" : 1011,
+		"name_1" : "Jeneratör V Fazı Akımı(MSB)",
+		"name_2" : "Generator V Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3018,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14350,9 +14899,9 @@
 	},
 	{
 		"id" : 3019,
-		"version" : 1005,
-		"name_1" : "Jeneratör L3 Akım",
-		"name_2" : "Generator L3 Current",
+		"version" : 1011,
+		"name_1" : "Jeneratör W Fazı Akımı(LSB)",
+		"name_2" : "Generator W Phase Current(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "A",
@@ -14361,9 +14910,793 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3020,
+		"version" : 1011,
+		"name_1" : "Jeneratör W Fazı Akımı(MSB)",
+		"name_2" : "Generator W Phase Current(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "A",
+		"unit_2" : "A",
+		"modbusAddress" : 3020,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3021,
+		"version" : 1011,
+		"name_1" : "Toplam kVA Değeri(LSB)",
+		"name_2" : "Total kVA Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3021,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3022,
+		"version" : 1011,
+		"name_1" : "Toplam kVA Değeri(MSB)",
+		"name_2" : "Total kVA Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3022,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3023,
+		"version" : 1011,
+		"name_1" : "Toplam kW Değeri(LSB)",
+		"name_2" : "Total kW Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3023,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3024,
+		"version" : 1011,
+		"name_1" : "Toplam kW Değeri(MSB)",
+		"name_2" : "Total kW Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3024,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3025,
+		"version" : 1011,
+		"name_1" : "Toplam kVAR Değeri(LSB)",
+		"name_2" : "Total kVAR Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3025,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3026,
+		"version" : 1011,
+		"name_1" : "Toplam kVAR Değeri(MSB)",
+		"name_2" : "Total kVAR Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3026,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3027,
+		"version" : 1011,
+		"name_1" : "Toplam Güç Faktörü Değeri",
+		"name_2" : "Total Power Factor Value",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3027,
+		"dataLength" : 1,
+		"coef" : -2,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3028,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kVA Değeri(LSB)",
+		"name_2" : "Phase L1 kVA Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3028,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3029,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kVA Değeri(MSB)",
+		"name_2" : "Phase L1 kVA Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3029,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3030,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kW Değeri(LSB)",
+		"name_2" : "Phase L1 kW Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3030,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3031,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kW Değeri(MSB)",
+		"name_2" : "Phase L1 kW Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3031,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3032,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kVAR Değeri(LSB)",
+		"name_2" : "Phase L1 kVAR Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3032,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3033,
+		"version" : 1011,
+		"name_1" : "L1 Fazı kVAR Değeri(MSB)",
+		"name_2" : "Phase L1 kVAR Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3033,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3034,
+		"version" : 1011,
+		"name_1" : "L1 Fazı Güç Faktörü Değeri",
+		"name_2" : "Phase L1 Power Factor Value",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3034,
+		"dataLength" : 1,
+		"coef" : -2,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3035,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kVA Değeri(LSB)",
+		"name_2" : "Phase L2 kVA Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3035,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3036,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kVA Değeri(MSB)",
+		"name_2" : "Phase L2 kVA Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3036,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3037,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kW Değeri(LSB)",
+		"name_2" : "Phase L2 kW Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3037,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3038,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kW Değeri(MSB)",
+		"name_2" : "Phase L2 kW Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3038,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3039,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kVAR Değeri(LSB)",
+		"name_2" : "Phase L2 kVAR Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3039,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3040,
+		"version" : 1011,
+		"name_1" : "L2 Fazı kVAR Değeri(MSB)",
+		"name_2" : "Phase L2 kVAR Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3040,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3041,
+		"version" : 1011,
+		"name_1" : "L2 Fazı Güç Faktörü Değeri",
+		"name_2" : "Phase L2 Power Factor Value",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3041,
+		"dataLength" : 1,
+		"coef" : -2,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3042,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kVA Değeri(LSB)",
+		"name_2" : "Phase L3 kVA Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3042,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3043,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kVA Değeri(MSB)",
+		"name_2" : "Phase L3 kVA Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVA",
+		"unit_2" : "kVA",
+		"modbusAddress" : 3043,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3044,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kW Değeri(LSB)",
+		"name_2" : "Phase L3 kW Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3044,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3045,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kW Değeri(MSB)",
+		"name_2" : "Phase L3 kW Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kW",
+		"unit_2" : "kW",
+		"modbusAddress" : 3045,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3046,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kVAR Değeri(LSB)",
+		"name_2" : "Phase L3 kVAR Value(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3046,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3047,
+		"version" : 1011,
+		"name_1" : "L3 Fazı kVAR Değeri(MSB)",
+		"name_2" : "Phase L3 kVAR Value(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "kVAR",
+		"unit_2" : "kVAR",
+		"modbusAddress" : 3047,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3048,
+		"version" : 1011,
+		"name_1" : "L3 Fazı Güç Faktörü Değeri",
+		"name_2" : "Phase L3 Power Factor Value",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3048,
+		"dataLength" : 1,
+		"coef" : -2,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14376,20 +15709,21 @@
 	},
 	{
 		"id" : 3049,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Yağ Basıncı",
 		"name_2" : "Oil Pressure",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "bar",
-		"unit_2" : "bar",
+		"unit_1" : "Bar",
+		"unit_2" : "Bar",
 		"modbusAddress" : 3049,
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14402,7 +15736,7 @@
 	},
 	{
 		"id" : 3050,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Hararet",
 		"name_2" : "Coolant Temperature",
 		"group_1" : "İzleme",
@@ -14413,9 +15747,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14428,7 +15763,7 @@
 	},
 	{
 		"id" : 3051,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Yakıt Seviyesi",
 		"name_2" : "Fuel Level",
 		"group_1" : "İzleme",
@@ -14439,9 +15774,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14454,7 +15790,7 @@
 	},
 	{
 		"id" : 3052,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Yedek Sıcaklık",
 		"name_2" : "Aux Temperature",
 		"group_1" : "İzleme",
@@ -14465,9 +15801,64 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3053,
+		"version" : 1011,
+		"name_1" : "Buton Geribesleme",
+		"name_2" : "Button Feedback",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3053,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3054,
+		"version" : 1011,
+		"name_1" : "Led Bilgileri",
+		"name_2" : "Led Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3054,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14480,7 +15871,7 @@
 	},
 	{
 		"id" : 3055,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Şarj Alternatör Voltajı",
 		"name_2" : "Charge Alternator Voltage",
 		"group_1" : "İzleme",
@@ -14491,9 +15882,10 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14506,7 +15898,7 @@
 	},
 	{
 		"id" : 3056,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Batarya Voltajı",
 		"name_2" : "Battery Voltage",
 		"group_1" : "İzleme",
@@ -14517,9 +15909,10 @@
 		"dataLength" : 1,
 		"coef" : -1,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14532,20 +15925,21 @@
 	},
 	{
 		"id" : 3057,
-		"version" : 1005,
-		"name_1" : "Total Çalışma Süresi(MSB)",
-		"name_2" : "Total Working Time(MSB)",
+		"version" : 1011,
+		"name_1" : "İşlemci Sıcaklığı",
+		"name_2" : "MCU Temperature",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3016,
+		"unit_1" : "°C",
+		"unit_2" : "°C",
+		"modbusAddress" : 3057,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14558,20 +15952,21 @@
 	},
 	{
 		"id" : 3058,
-		"version" : 1005,
-		"name_1" : "Total Çalışma Süresi(LSB)",
-		"name_2" : "Total Working Time(LSB)",
+		"version" : 1011,
+		"name_1" : "Total Çalışma Süresi(MSB)",
+		"name_2" : "Total Working Time(MSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3017,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3058,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14584,20 +15979,21 @@
 	},
 	{
 		"id" : 3059,
-		"version" : 1005,
-		"name_1" : "Yükte Çalışma Süresi(MSB)",
-		"name_2" : "Working Time at Load(MSB)",
+		"version" : 1011,
+		"name_1" : "Total Çalışma Süresi(LSB)",
+		"name_2" : "Total Working Time(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3018,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3059,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14610,20 +16006,48 @@
 	},
 	{
 		"id" : 3060,
-		"version" : 1005,
+		"version" : 1011,
+		"name_1" : "Yükte Çalışma Süresi(MSB)",
+		"name_2" : "Working Time at Load(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3060,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3061,
+		"version" : 1011,
 		"name_1" : "Yükte Çalışma Süresi(LSB)",
 		"name_2" : "Working Time at Load(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3019,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3061,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14636,20 +16060,21 @@
 	},
 	{
 		"id" : 3062,
-		"version" : 1005,
-		"name_1" : "Motor Hızı",
-		"name_2" : "Engine Speed",
+		"version" : 1011,
+		"name_1" : "Geçici Çalışma Süresi(MSB)",
+		"name_2" : "Temporary Working Time(MSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "rpm",
-		"unit_2" : "rpm",
-		"modbusAddress" : 3021,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3062,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14662,20 +16087,21 @@
 	},
 	{
 		"id" : 3063,
-		"version" : 1005,
-		"name_1" : "Genel Servis Süresi",
-		"name_2" : "Common Service Time",
+		"version" : 1011,
+		"name_1" : "Geçici Çalışma Süresi(LSB)",
+		"name_2" : "Temporary Working Time(LSB)",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3022,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3063,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14688,7 +16114,7 @@
 	},
 	{
 		"id" : 3064,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Jeneratör Durum",
 		"name_2" : "Generator Status",
 		"group_1" : "İzleme",
@@ -14699,9 +16125,10 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14714,20 +16141,21 @@
 	},
 	{
 		"id" : 3065,
-		"version" : 1005,
-		"name_1" : "Hava Filtre Değişim Servis Süresi",
-		"name_2" : "Air Filter Change Service Time",
+		"version" : 1011,
+		"name_1" : "Motor Hızı",
+		"name_2" : "Engine Speed",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3024,
+		"unit_1" : "Rpm",
+		"unit_2" : "Rpm",
+		"modbusAddress" : 3065,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14740,20 +16168,21 @@
 	},
 	{
 		"id" : 3066,
-		"version" : 1005,
-		"name_1" : "Yakıt Değişim Servis Süresi",
-		"name_2" : "Fuel Change Service Time",
+		"version" : 1011,
+		"name_1" : "Genel Servis Süresi",
+		"name_2" : "Common Service Time",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3025,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3066,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14766,20 +16195,48 @@
 	},
 	{
 		"id" : 3067,
-		"version" : 1005,
-		"name_1" : "Giriş",
-		"name_2" : "Inputs",
+		"version" : 1011,
+		"name_1" : "Yağ Değişim Servis Süresi",
+		"name_2" : "Oil Change Service Time",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3026,
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3067,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3068,
+		"version" : 1011,
+		"name_1" : "Hava Filtre Değişim Servis Süresi",
+		"name_2" : "Air Filter Change Service Time",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3068,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14792,20 +16249,48 @@
 	},
 	{
 		"id" : 3069,
-		"version" : 1005,
-		"name_1" : "Led İndikatör",
-		"name_2" : "Led Indicator",
+		"version" : 1011,
+		"name_1" : "Yakıt Değişim Servis Süresi",
+		"name_2" : "Fuel Change Service Time",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "Saat",
+		"unit_2" : "Hour",
+		"modbusAddress" : 3069,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3070,
+		"version" : 1011,
+		"name_1" : "Giriş",
+		"name_2" : "Inputs",
 		"group_1" : "İzleme",
 		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
-		"modbusAddress" : 3028,
+		"modbusAddress" : 3070,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14818,7 +16303,7 @@
 	},
 	{
 		"id" : 3071,
-		"version" : 1005,
+		"version" : 1011,
 		"name_1" : "Çıkış",
 		"name_2" : "Outputs",
 		"group_1" : "İzleme",
@@ -14829,9 +16314,226 @@
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
+		
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : "",
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3072,
+		"version" : 1011,
+		"name_1" : "Durum Bilgileri",
+		"name_2" : "Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3072,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3073,
+		"version" : 1011,
+		"name_1" : "Panel Yazılımı",
+		"name_2" : "Device Software",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3073,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3074,
+		"version" : 1011,
+		"name_1" : "Aktif Hata sayısı",
+		"name_2" : "Active Fault Number",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3074,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3075,
+		"version" : 1011,
+		"name_1" : "AMF Hayatta Sayıcısı",
+		"name_2" : "AMF Live Counter",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3075,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3076,
+		"version" : 1011,
+		"name_1" : "Genset Gecikme Süresi(LSB)",
+		"name_2" : "Genset Delay Timer(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3076,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3077,
+		"version" : 1011,
+		"name_1" : "Genset Gecikme Süresi(MSB)",
+		"name_2" : "Genset Delay Timer(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3077,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3078,
+		"version" : 1011,
+		"name_1" : "10ms Tick Sayıcı(LSB)",
+		"name_2" : "10ms Tick Counter(LSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3078,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3079,
+		"version" : 1011,
+		"name_1" : "10ms Tick Sayıcı(MSB)",
+		"name_2" : "10ms Tick Counter(MSB)",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 3079,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
@@ -14844,19 +16546,20 @@
 	},
 	{
 		"id" : 3080,
-		"version" : 1005,
-		"name_1" : "Mains Status",
-		"name_2" : "Mains Status",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
+		"version" : 1011,
+		"name_1" : "Şebeke Resim",
+		"name_2" : "Mains Image",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 3080,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -14870,19 +16573,20 @@
 	},
 	{
 		"id" : 3081,
-		"version" : 1005,
-		"name_1" : "Gen. Status",
-		"name_2" : "Gen. Status",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
+		"version" : 1011,
+		"name_1" : "Jeneratör Resim",
+		"name_2" : "Gen Image",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 3081,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -14896,19 +16600,20 @@
 	},
 	{
 		"id" : 3082,
-		"version" : 1005,
-		"name_1" : "Load Status",
-		"name_2" : "Load Status",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
+		"version" : 1011,
+		"name_1" : "Load Resim",
+		"name_2" : "Load Image",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 3082,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -14922,45 +16627,20 @@
 	},
 	{
 		"id" : 3083,
-		"version" : 1005,
-		"name_1" : "MCB Status",
-		"name_2" : "MCB Status",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
+		"version" : 1011,
+		"name_1" : "MCB Resim",
+		"name_2" : "MCB Image",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 3083,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : true,
-		"comment_1" : "",
-		"comment_2" : "",
-		"relation" : []
-	},
-	{
-		"id" : 3201,
-		"version" : 1005,
-		"name_1" : "Alarm-1",
-		"name_2" : "Alarm-1",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
-		"unit_1" : "",
-		"unit_2" : "",
-		"modbusAddress" : 3201,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -14974,19 +16654,20 @@
 	},
 	{
 		"id" : 3084,
-		"version" : 1005,
-		"name_1" : "GCB Status",
-		"name_2" : "GCB Status",
-		"group_1" : "Generator Monitor",
-		"group_2" : "Generator Monitor",
+		"version" : 1011,
+		"name_1" : "GCB Resim",
+		"name_2" : "GCB Image",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
 		"modbusAddress" : 3084,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
-		"minValue" : 0,
-		"maxValue" : 100,
+		
+		"minValue" : -32768,
+		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {

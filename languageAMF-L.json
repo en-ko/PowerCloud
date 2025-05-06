@@ -2776,6 +2776,22 @@
 		"text_2" : "Remote Status"
 	},
 	{
+		"id" : 721,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Hab. Şifreleme Seçimi",
+		"text_2" : "Comm. Handshake Sel."
+	},
+	{
+		"id" : 722,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_1" : "Haberleşme Zaman Aşımı",
+		"text_2" : "Communication Timeout"
+	},
+	{
 		"id" : 331,
 		"pixel" : 290,
 		"font" : "Arial Rounded MT Bold",
