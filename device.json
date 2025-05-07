@@ -81,5 +81,10 @@
     "name": "LEAKWISE",
     "version": 1000,
     "type": "device"
+  },
+  {
+    "name": "DRYER",
+    "version": 1000,
+    "type": "device"
   }
 ]
