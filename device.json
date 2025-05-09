@@ -86,5 +86,10 @@
     "name": "DRYER",
     "version": 1000,
     "type": "device"
+  },
+  {
+    "name": "BMU",
+    "version": 1000,
+    "type": "device"
   }
 ]
