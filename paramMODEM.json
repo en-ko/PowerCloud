@@ -1100,169 +1100,169 @@
 		"comment_2" : "",
 		"relation" : []
 	},
-  {
-    "id": 94,
-    "version": 1000,
-    "name_1": "MAC Adres 0",
-    "name_2": "MAC Address 0",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 407,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
-    "id": 95,
-    "version": 1000,
-    "name_1": "MAC Adres 1",
-    "name_2": "MAC Address 1",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 408,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
-    "id": 96,
-    "version": 1000,
-    "name_1": "MAC Adres 2",
-    "name_2": "MAC Address 2",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 409,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
-    "id": 97,
-    "version": 1000,
-    "name_1": "MAC Adres 3",
-    "name_2": "MAC Address 3",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 410,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
-    "id": 98,
-    "version": 1000,
-    "name_1": "MAC Adres 4",
-    "name_2": "MAC Address 4",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 411,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
-    "id": 99,
-    "version": 1000,
-    "name_1": "MAC Adres 5",
-    "name_2": "MAC Address 5",
-    "group_1": "İzleme",
-    "group_2": "Monitoring",
-    "unit_1": "",
-    "unit_2": "",
-    "modbusAddress": 412,
-    "dataLength": 1,
-    "coef": 0,
-    "signed": true,
-    "view": "hexadecimal",
-    "minValue": -32768,
-    "maxValue": 32767,
-    "defaultValue": 0,
-    "valueMask": [],
-    "dataOperation": {
-      "operation": "",
-      "operationValue": ""
-    },
-    "readOnly": false,
-    "comment_1": "",
-    "comment_2": "",
-    "relation": []
-  },
-  {
+	{
+		"id" : 94,
+		"version" : 1000,
+		"name_1" : "MAC Adres 0",
+		"name_2" : "MAC Address 0",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 407,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 95,
+		"version" : 1000,
+		"name_1" : "MAC Adres 1",
+		"name_2" : "MAC Address 1",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 408,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 96,
+		"version" : 1000,
+		"name_1" : "MAC Adres 2",
+		"name_2" : "MAC Address 2",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 409,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 97,
+		"version" : 1000,
+		"name_1" : "MAC Adres 3",
+		"name_2" : "MAC Address 3",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 410,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 98,
+		"version" : 1000,
+		"name_1" : "MAC Adres 4",
+		"name_2" : "MAC Address 4",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 411,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 99,
+		"version" : 1000,
+		"name_1" : "MAC Adres 5",
+		"name_2" : "MAC Address 5",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 412,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "hexadecimal",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
 		"id" : 100,
 		"version" : 1000,
 		"name_1" : "Batarya Voltajı",
@@ -1325,7 +1325,7 @@
 		"group_2" : "Monitoring",
 		"unit_1" : "",
 		"unit_2" : "",
-		"modbusAddress" : 415,
+		"modbusAddress" : 421,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
@@ -1341,6 +1341,264 @@
 		"readOnly" : false,
 		"comment_1" : "Sinyal seviyesi 0-8 arası ise sinyal seviyesi düşüktür,haberleşme olmaz. 8-32 arası ise sinyal seviyesi normaldir.",
 		"comment_2" : "If the signal level is between 0-8, the signal is weak and there will be no communication. If it is between 8-32, the signal level is normal",
+		"relation" : []
+	},
+	{
+		"id" : 179,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-1 Durumu",
+		"name_2" : "Ethernet Client-1 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 415,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 180,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-2 Durumu",
+		"name_2" : "Ethernet Client-2 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 416,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 181,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-3 Durumu",
+		"name_2" : "Ethernet Client-3 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 417,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 182,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-4 Durumu",
+		"name_2" : "Ethernet Client-4 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 418,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 183,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-5 Durumu",
+		"name_2" : "Ethernet Client-5 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 419,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
+		"relation" : []
+	},
+	{
+		"id" : 184,
+		"version" : 1000,
+		"name_1" : "Ethernet Client-6 Durumu",
+		"name_2" : "Ethernet Client-6 Status",
+		"group_1" : "İzleme",
+		"group_2" : "Monitoring",
+		"unit_1" : "",
+		"unit_2" : "",
+		"modbusAddress" : 420,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask_1" : "Kapalı",
+				"mask_2" : "Closed"
+			},
+			{
+				"value" : 2,
+				"mask_1" : "Dinle",
+				"mask_2" : "Listen"
+			},
+			{
+				"value" : 5,
+				"mask_1" : "Kuruldu",
+				"mask_2" : "Established"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment_1" : "",
+		"comment_2" : "",
 		"relation" : []
 	}
 ]
