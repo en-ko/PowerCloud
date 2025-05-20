@@ -228,7 +228,7 @@
         "operation": ">",
         "operationBit": 0,
         "operationValue": 251,
-        "passive": true,
+        "passive": false,
         "color": "",
         "value": "N/A",
         "valueParamId": 24
