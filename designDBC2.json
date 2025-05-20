@@ -214,12 +214,33 @@
     ]
   },
   {
+    "object": "datalogic",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      24
+    ],
+    "logicalOperation": "or",
+    "dataOperation": [
+      {
+        "paramId": 24,
+        "operation": "<",
+        "operationBit": 0,
+        "operationValue": -1,
+        "passive": true,
+        "color": "",
+        "value": "---",
+        "valueParamId": 24
+      }
+    ]
+  },
+  {
     "object": "datacard",
     "page": 1,
     "row": 3,
     "side": "center",
     "paramId": [
-      24,
       25,
       26
     ]
