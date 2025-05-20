@@ -225,9 +225,9 @@
     "dataOperation": [
       {
         "paramId": 24,
-        "operation": "<",
+        "operation": ">",
         "operationBit": 0,
-        "operationValue": -1,
+        "operationValue": 251,
         "passive": true,
         "color": "",
         "value": "---",
