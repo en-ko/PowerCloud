@@ -2,8 +2,8 @@
     {
       "object" : "config",
       "pageCount" : 3,
-      "pagetitle_2" : ["İzleme", "Şebeke","Parametreler"],
-      "pagetitle_1" : ["Monitor", "Mains","Parameters"],
+      "pageTitle_2" : ["İzleme", "Şebeke","Parametreler"],
+      "pageTitle_1" : ["Monitor", "Mains","Parameters"],
       "bootModeAddress" : 19,
       "encryptModbus" : true
   },
@@ -108,13 +108,13 @@
       "row" : 3,
       "side" : "center",
       "width" : 0,
-      "staticText_1" : "Jeneratör Durum >> ",
-      "staticText_2" : "Generator Status >> ",
+      "staticText_2" : "Jeneratör Durum >> ",
+      "staticText_1" : "Generator Status >> ",
       "paramId" : [3017],
       "menu" : [
         {
-          "message_1" : "Hazır",
-          "message_2" : "Ready",
+          "message_2" : "Hazır",
+          "message_1" : "Ready",
           "paramId" : 3017,
           "dataType" : "value",
           "value" : 0,
@@ -123,8 +123,8 @@
           "blink" : false
         },
         {
-          "message_1" : "Başlatma Sayım",
-          "message_2" : "Start Delay",
+          "message_2" : "Başlatma Sayım",
+          "message_1" : "Start Delay",
           "paramId" : 3017,
           "dataType" : "value",
           "value" : 1,
@@ -133,8 +133,8 @@
           "blink" : false
         },
         {
-            "message_1" : "Sesli Uyarı",
-            "message_2" : "Sound Warning",
+            "message_2" : "Sesli Uyarı",
+            "message_1" : "Sound Warning",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 2,
@@ -143,8 +143,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Ön Başlatma",
-            "message_2" : "Prestart",
+            "message_2" : "Ön Başlatma",
+            "message_1" : "Prestart",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 3,
@@ -153,8 +153,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Marş",
-            "message_2" : "Cranking",
+            "message_2" : "Marş",
+            "message_1" : "Cranking",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 4,
@@ -163,8 +163,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Marş Durma",
-            "message_2" : "Crank Pause",
+            "message_2" : "Marş Durma",
+            "message_1" : "Crank Pause",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 5,
@@ -173,8 +173,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Çalışıyor",
-            "message_2" : "Starting",
+            "message_2" : "Çalışıyor",
+            "message_1" : "Starting",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 6,
@@ -183,8 +183,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Yükte",
-            "message_2" : "Loaded",
+            "message_2" : "Yükte",
+            "message_1" : "Loaded",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 7,
@@ -193,8 +193,8 @@
             "blink" : true
         },
         {
-            "message_1" : "Soğutma",
-            "message_2" : "Cooling",
+            "message_2" : "Soğutma",
+            "message_1" : "Cooling",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 8,
@@ -203,8 +203,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Transfer",
             "message_2" : "Transfer",
+            "message_1" : "Transfer",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 9,
@@ -213,8 +213,8 @@
             "blink" : false
         },
         {
-            "message_1" : "Durdurma",
-            "message_2" : "Stop",
+            "message_2" : "Durdurma",
+            "message_1" : "Stop",
             "paramId" : 3017,
             "dataType" : "value",
             "value" : 10,
@@ -237,13 +237,13 @@
         "row" : 5,
         "side" : "right",
         "width" : 290,
-        "staticText_1" : "",
         "staticText_2" : "",
+        "staticText_1" : "",
         "paramId" : [53],
         "menu" : [
           {
-            "message_1" : "Kapalı Mod",
-            "message_2" : "Off Mode",
+            "message_2" : "Kapalı Mod",
+            "message_1" : "Off Mode",
             "paramId" : 53,
             "dataType" : "value",
             "value" : 0,
@@ -252,8 +252,8 @@
             "blink" : true
           },
           {
-            "message_1" : "Otomatik Mod",
-            "message_2" : "Auto Mode",
+            "message_2" : "Otomatik Mod",
+            "message_1" : "Auto Mode",
             "paramId" : 53,
             "dataType" : "value",
             "value" : 1,
@@ -262,8 +262,8 @@
             "blink" : false
           },
           {
-              "message_1" : "Test Mod",
-              "message_2" : "Test Mode",
+              "message_2" : "Test Mod",
+              "message_1" : "Test Mode",
               "paramId" : 53,
               "dataType" : "value",
               "value" : 2,
@@ -272,8 +272,8 @@
               "blink" : false
           },
           {
-              "message_1" : "Manuel Mode",
-              "message_2" : "Manual Mode",
+              "message_2" : "Manuel Mode",
+              "message_1" : "Manual Mode",
               "paramId" : 53,
               "dataType" : "value",
               "value" : 3,
@@ -423,8 +423,8 @@
         "paramId" : [53],
         "menu" : [
           {
-            "message_1" : "Dur",
-            "message_2" : "Stop",
+            "message_2" : "Dur",
+            "message_1" : "Stop",
             "paramId" : 53,
             "dataType" : "value",
             "value" : 0,
@@ -434,8 +434,8 @@
             "image" : "stop"
           },
           {
-            "message_1" : "Oto",
-            "message_2" : "Auto",
+            "message_2" : "Oto",
+            "message_1" : "Auto",
             "paramId" : 53,
             "dataType" : "value",
             "value" : 1,
