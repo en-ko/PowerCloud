@@ -2,8 +2,8 @@
     {
       "object" : "config",
       "pageCount" : 3,
-      "pageTitle_1" : ["İzleme", "Şebeke","Parametreler"],
-      "pageTitle_2" : ["Monitor", "Mains","Parameters"],
+      "pagetitle_2" : ["İzleme", "Şebeke","Parametreler"],
+      "pagetitle_1" : ["Monitor", "Mains","Parameters"],
       "bootModeAddress" : 19,
       "encryptModbus" : true
   },
@@ -289,13 +289,13 @@
         "row" : 1,
         "side" : "left",
         "width" : 310,
-        "title_1" : "Alarm İndikatör",
-        "title_2" : "Alarm Indicator",
+        "title_2" : "Alarm İndikatör",
+        "title_1" : "Alarm Indicator",
         "paramId" : [10],
         "menu" : [
           {
-            "name_1" : "Yüksek Yağ Basıncı",
-            "name_2" : "High Oil Pressure",
+            "name_2" : "Yüksek Yağ Basıncı",
+            "name_1" : "High Oil Pressure",
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -303,8 +303,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Yüksek Soğutma Sıcaklığı",
-            "name_2" : "High Cool Temperature",          
+            "name_2" : "Yüksek Soğutma Sıcaklığı",
+            "name_1" : "High Cool Temperature",          
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -312,8 +312,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Düşük Batarya Voltajı.",
-            "name_2" : "Battery Under Voltage",
+            "name_2" : "Düşük Batarya Voltajı.",
+            "name_1" : "Battery Under Voltage",
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -321,8 +321,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Acil Durdurma",
-            "name_2" : "Emergency Stop",
+            "name_2" : "Acil Durdurma",
+            "name_1" : "Emergency Stop",
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -330,8 +330,8 @@
             "blink" : true
           },
           {
-            "name_1" : "Jeneratör Yüksek Voltaj",
-            "name_2" : "Generator Over Voltage",
+            "name_2" : "Jeneratör Yüksek Voltaj",
+            "name_1" : "Generator Over Voltage",
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -339,8 +339,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Düşük Yağ Basıncı",
-            "name_2" : "Low Oil Pressure",
+            "name_2" : "Düşük Yağ Basıncı",
+            "name_1" : "Low Oil Pressure",
             "paramId" : 10,
             "bit" : 15,
             "bitValue" : 1,
@@ -355,13 +355,13 @@
         "row" : 1,
         "side" : "right",
         "width" : 310,
-        "title_1" : "Çıkışlar",
-        "title_2" : "Outputs",
+        "title_2" : "Çıkışlar",
+        "title_1" : "Outputs",
         "paramId" : [3024],
         "menu" : [
           {
-            "name_1" : "Dijital Çıkış-1",
-            "name_2" : "Digital Out-1",
+            "name_2" : "Dijital Çıkış-1",
+            "name_1" : "Digital Out-1",
             "paramId" : 3024,
             "bit" : 0,
             "bitValue" : 1,
@@ -369,8 +369,8 @@
             "blink" : true
           },
           {
-            "name_1" : "Dijital Çıkış-2",
-            "name_2" : "Digital Out-2",
+            "name_2" : "Dijital Çıkış-2",
+            "name_1" : "Digital Out-2",
             "paramId" : 3024,
             "bit" : 1,
             "bitValue" : 1,
@@ -378,8 +378,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Dijital Çıkış-3",
-            "name_2" : "Digital Out-3",
+            "name_2" : "Dijital Çıkış-3",
+            "name_1" : "Digital Out-3",
             "paramId" : 3024,
             "bit" : 2,
             "bitValue" : 1,
@@ -387,8 +387,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Dijital Çıkış-4",
-            "name_2" : "Digital Out-4",
+            "name_2" : "Dijital Çıkış-4",
+            "name_1" : "Digital Out-4",
             "paramId" : 3024,
             "bit" : 3,
             "bitValue" : 1,
@@ -396,8 +396,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Dijital Çıkış-5",
-            "name_2" : "Digital Out-5",
+            "name_2" : "Dijital Çıkış-5",
+            "name_1" : "Digital Out-5",
             "paramId" : 3024,
             "bit" : 4,
             "bitValue" : 1,
@@ -405,8 +405,8 @@
             "blink" : false
           },
           {
-            "name_1" : "Dijital Çıkış-6",
-            "name_2" : "Digital Out-6",
+            "name_2" : "Dijital Çıkış-6",
+            "name_1" : "Digital Out-6",
             "paramId" : 3024,
             "bit" : 5,
             "bitValue" : 1,
@@ -483,8 +483,8 @@
         "row" : 1,
         "filter" : true,
         "paramId" : [],
-        "paramGroup_1" : ["Genel","Şebeke","Jeneratör","Motor","Şebeke Zamanlayıcısı","Jeneratör Zamanlayıcısı","Motor Zamanlayıcısı","Haberleşme","Dijital Çıkış","Dijital Giriş","Analog Giriş-1","Analog Giriş-2","Analog Giriş-3"],
-        "paramGroup_2" : ["General","Mains","Generator","Engine","Mains Timer","Generator Timer","Engine Timer","Communication","Digital Output","Digital Input","Analog Input-1","Analog Input-2","Analog Input-3"]
+        "paramGroup_2" : ["Genel","Şebeke","Jeneratör","Motor","Şebeke Zamanlayıcısı","Jeneratör Zamanlayıcısı","Motor Zamanlayıcısı","Haberleşme","Dijital Çıkış","Dijital Giriş","Analog Giriş-1","Analog Giriş-2","Analog Giriş-3"],
+        "paramGroup_1" : ["General","Mains","Generator","Engine","Mains Timer","Generator Timer","Engine Timer","Communication","Digital Output","Digital Input","Analog Input-1","Analog Input-2","Analog Input-3"]
       }
   
   
