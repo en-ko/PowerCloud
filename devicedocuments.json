@@ -66,7 +66,7 @@
         "device" : "DAVR100",
         "minVersion" : 1000,
         "maxVersion" : 4500,
-        "paramId" : [1,2,3],
+        "paramId" : [1,2],
         "name" : "Dokuman - 5",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
@@ -75,7 +75,7 @@
         "device" : "DAVR100",
         "minVersion" : 1000,
         "maxVersion" : 4500,
-        "paramId" : [1,2,3],
+        "paramId" : [1,2],
         "name" : "Dokuman - 6",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU2.pdf"
