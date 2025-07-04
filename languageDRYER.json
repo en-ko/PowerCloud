@@ -4,1583 +4,1623 @@
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Parameters",
-		"text_2" : "Parametreler"
+		"text_2" : "Parameters",
+		"text_1" : "Parametreler"
 	},
 	{
 		"id" : 2,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Digital I/O",
-		"text_2" : "Dijital G/Ç"
+		"text_2" : "Digital I/O",
+		"text_1" : "Dijital G/Ç"
 	},
 	{
 		"id" : 3,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Maintenance Times",
-		"text_2" : "Servis Süreleri"
+		"text_2" : "Maintenance Times",
+		"text_1" : "Servis Süreleri"
 	},
 	{
 		"id" : 4,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Panel",
-		"text_2" : "Panel"
+		"text_2" : "DryerCounters",
+		"text_1" : "Kurutucu Sayaçları"
 	},
 	{
 		"id" : 5,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Supply&McuTemp",
-		"text_2" : "Besleme&McuSck."
+		"text_2" : "Panel",
+		"text_1" : "Panel"
 	},
 	{
 		"id" : 6,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Enter Param No",
-		"text_2" : "Parametre No Gir"
+		"text_2" : "Supply&McuTemp",
+		"text_1" : "Besleme&McuSck."
 	},
 	{
 		"id" : 7,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewpoint",
-		"text_2" : "Dewpoint"
+		"text_2" : "Enter Param No",
+		"text_1" : "Parametre No Gir"
 	},
 	{
 		"id" : 8,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Timer",
-		"text_2" : "Zamanlar"
+		"text_2" : "Dewpoint",
+		"text_1" : "Dewpoint"
 	},
 	{
 		"id" : 9,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Digital I/O",
-		"text_2" : "Dijital G/Ç"
+		"text_2" : "Timer",
+		"text_1" : "Zamanlar"
 	},
 	{
 		"id" : 10,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Maintenance Times",
-		"text_2" : "Bakım Süreleri"
+		"text_2" : "Digital I/O",
+		"text_1" : "Dijital G/Ç"
 	},
 	{
 		"id" : 11,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temperature",
-		"text_2" : "Sıcaklık"
+		"text_2" : "Maintenance Times",
+		"text_1" : "Bakım Süreleri"
 	},
 	{
 		"id" : 12,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "General Settings",
-		"text_2" : "Genel Ayarlar"
+		"text_2" : "Temperature",
+		"text_1" : "Sıcaklık"
 	},
 	{
 		"id" : 13,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Calibration",
-		"text_2" : "Kalibrasyon"
+		"text_2" : "General Settings",
+		"text_1" : "Genel Ayarlar"
 	},
 	{
 		"id" : 14,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Run/Stop Count",
-		"text_2" : "Start/Stop Say."
+		"text_2" : "Calibration",
+		"text_1" : "Kalibrasyon"
 	},
 	{
 		"id" : 15,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Load Valve Count",
-		"text_2" : "Yüke Geçme Say."
+		"text_2" : "Run/Stop Count",
+		"text_1" : "Start/Stop Say."
 	},
 	{
 		"id" : 16,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Total Working",
-		"text_2" : "Toplam Çalışma"
+		"text_2" : "Load Valve Count",
+		"text_1" : "Yüke Geçme Say."
 	},
 	{
 		"id" : 17,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "On Load Working",
-		"text_2" : "Yükte Çalışma"
+		"text_2" : "Total Working",
+		"text_1" : "Toplam Çalışma"
 	},
 	{
 		"id" : 18,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "PASSWORD",
-		"text_2" : "ŞİFRE"
+		"text_2" : "On Load Working",
+		"text_1" : "Yükte Çalışma"
 	},
 	{
 		"id" : 19,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Wrong Password",
-		"text_2" : "Yanlış Şifre"
+		"text_2" : "PASSWORD",
+		"text_1" : "ŞİFRE"
 	},
 	{
 		"id" : 20,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "User Level Login",
-		"text_2" : "Kullanıcı Sev. Giriş"
+		"text_2" : "Wrong Password",
+		"text_1" : "Yanlış Şifre"
 	},
 	{
 		"id" : 21,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level Login",
-		"text_2" : "Servis Seviye Giriş"
+		"text_2" : "User Level\nLogin",
+		"text_1" : "Kullanıcı Sev.\nGiriş"
 	},
 	{
 		"id" : 22,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Factory Level Login",
-		"text_2" : "Fabrika Seviye Giriş"
+		"text_2" : "Service Level\nLogin",
+		"text_1" : "Servis Seviye\nGiriş"
 	},
 	{
 		"id" : 23,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "ManufactrLevel Login",
-		"text_2" : "Üretici Seviye Giriş"
+		"text_2" : "Factory Level\nLogin",
+		"text_1" : "Fabrika Seviye\nGiriş"
 	},
 	{
 		"id" : 24,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "SAVING..",
-		"text_2" : "KAYIT.."
+		"text_2" : "ManufactrLevel\nLogin",
+		"text_1" : "Üretici Seviye\nGiriş"
 	},
 	{
 		"id" : 25,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Prm.No:",
-		"text_2" : "Prm.No:"
+		"text_2" : "SAVING..",
+		"text_1" : "KAYIT.."
 	},
 	{
 		"id" : 26,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "MIN",
-		"text_2" : "MIN"
+		"text_2" : "Prm.No:",
+		"text_1" : "Prm.No:"
 	},
 	{
 		"id" : 27,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "MAX",
-		"text_2" : "MAX"
+		"text_2" : "MIN",
+		"text_1" : "MIN"
 	},
 	{
 		"id" : 28,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "",
-		"text_2" : ""
+		"text_2" : "MAX",
+		"text_1" : "MAX"
 	},
 	{
 		"id" : 29,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "sec",
-		"text_2" : "san"
+		"text_2" : "",
+		"text_1" : ""
 	},
 	{
 		"id" : 30,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "ms",
-		"text_2" : "ms"
+		"text_2" : "sec",
+		"text_1" : "san"
 	},
 	{
 		"id" : 31,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "min",
-		"text_2" : "dk"
+		"text_2" : "ms",
+		"text_1" : "ms"
 	},
 	{
 		"id" : 32,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "hr",
-		"text_2" : "sa"
+		"text_2" : "min",
+		"text_1" : "dk"
 	},
 	{
 		"id" : 33,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "V",
-		"text_2" : "V"
+		"text_2" : "hr",
+		"text_1" : "sa"
 	},
 	{
 		"id" : 34,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Hz",
-		"text_2" : "Hz"
+		"text_2" : "V",
+		"text_1" : "V"
 	},
 	{
 		"id" : 35,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "rpm",
-		"text_2" : "rpm"
+		"text_2" : "Hz",
+		"text_1" : "Hz"
 	},
 	{
 		"id" : 36,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "bar",
-		"text_2" : "bar"
+		"text_2" : "rpm",
+		"text_1" : "rpm"
 	},
 	{
 		"id" : 37,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "PSI",
-		"text_2" : "PSI"
+		"text_2" : "bar",
+		"text_1" : "bar"
 	},
 	{
 		"id" : 38,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "°C",
-		"text_2" : "°C"
+		"text_2" : "PSI",
+		"text_1" : "PSI"
 	},
 	{
 		"id" : 39,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "%",
-		"text_2" : "%"
+		"text_2" : "°C",
+		"text_1" : "°C"
 	},
 	{
 		"id" : 40,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "°F",
-		"text_2" : "°F"
+		"text_2" : "%",
+		"text_1" : "%"
 	},
 	{
 		"id" : 41,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Idle",
-		"text_2" : "Boşta"
+		"text_2" : "°F",
+		"text_1" : "°F"
 	},
 	{
 		"id" : 42,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Start Delay.",
-		"text_2" : "Başlama Gecikmesi"
+		"text_2" : "Idle",
+		"text_1" : "Boşta"
 	},
 	{
 		"id" : 43,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Running",
-		"text_2" : "Çalışıyor"
+		"text_2" : "Start Delay.",
+		"text_1" : "ÇalşmaGcik."
 	},
 	{
 		"id" : 44,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Paused",
-		"text_2" : "Duraklatıldı"
+		"text_2" : "Running",
+		"text_1" : "Çalışıyor"
 	},
 	{
 		"id" : 45,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Confirm Reset",
-		"text_2" : "Reset Onayı"
+		"text_2" : "Paused",
+		"text_1" : "Durdu"
 	},
 	{
 		"id" : 46,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Stopping",
-		"text_2" : "Duracak"
+		"text_2" : "Confirm Reset",
+		"text_1" : "Reset Onayı"
 	},
 	{
 		"id" : 47,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Stands",
-		"text_2" : "Duruyor"
+		"text_2" : "Stopping",
+		"text_1" : "Duracak"
 	},
 	{
 		"id" : 48,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewp Sensor Active",
-		"text_2" : "Dewp Sensör Aktif"
+		"text_2" : "Stands",
+		"text_1" : "Duruyor"
 	},
 	{
 		"id" : 49,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewp Active Value",
-		"text_2" : "Dewp Aktif Değeri"
+		"text_2" : "Dewp Sensor Active",
+		"text_1" : "Dewp Sensör Aktif"
 	},
 	{
 		"id" : 50,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank Choose",
-		"text_2" : "Tank Seçimi"
+		"text_2" : "Dewp OP Max Val",
+		"text_1" : "DewpMaks Değer"
 	},
 	{
 		"id" : 51,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dryer State",
-		"text_2" : "KurutucuDurumu"
+		"text_2" : "Dewp OP Min Val",
+		"text_1" : "DewpMin Değer"
 	},
 	{
 		"id" : 52,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dryer Control State",
-		"text_2" : "KurutucuKntrlDurum"
+		"text_2" : "Dryer State",
+		"text_1" : "KurutucuDurumu"
 	},
 	{
 		"id" : 53,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved 1",
-		"text_2" : "Rezerve 1"
+		"text_2" : "Dryer Control State",
+		"text_1" : "KurutucuKntrlDurum"
 	},
 	{
 		"id" : 54,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved 2",
-		"text_2" : "Rezerve 2"
+		"text_2" : "Tank Choose",
+		"text_1" : "Tank Seçimi"
 	},
 	{
 		"id" : 55,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved 3",
-		"text_2" : "Rezerve 3"
+		"text_2" : "Reserved 1",
+		"text_1" : "Rezerve 1"
 	},
 	{
 		"id" : 56,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Start Delay.",
-		"text_2" : "Başlama Gecikmesi"
+		"text_2" : "Reserved 2",
+		"text_1" : "Rezerve 2"
 	},
 	{
 		"id" : 57,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank1 Fill Time",
-		"text_2" : "Tank1DoldrmaSüresi"
+		"text_2" : "Start Delay",
+		"text_1" : "Başlama Gecikmesi"
 	},
 	{
 		"id" : 58,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank1 Drain Time",
-		"text_2" : "Tank1BoşltmaSüresi"
+		"text_2" : "Tank1 Fill Time",
+		"text_1" : "Tank1DoldrmaSüresi"
 	},
 	{
 		"id" : 59,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank2 Fill Time",
-		"text_2" : "Tank2DoldrmaSüresi"
+		"text_2" : "Tank1 Drain Time",
+		"text_1" : "Tank1BoşltmaSüresi"
 	},
 	{
 		"id" : 60,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank2 Drain Time",
-		"text_2" : "Tank2BoşltmaSüresi"
+		"text_2" : "Tank2 Fill Time",
+		"text_1" : "Tank2DoldrmaSüresi"
 	},
 	{
 		"id" : 61,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Cycle Wait Time",
-		"text_2" : "ÇevrimBeklmSüresi"
+		"text_2" : "Tank2 Drain Time",
+		"text_1" : "Tank2BoşltmaSüresi"
 	},
 	{
 		"id" : 62,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Horn Duration",
-		"text_2" : "Korna Süresi"
+		"text_2" : "Cycle Wait Time",
+		"text_1" : "ÇevrimBeklmSüresi"
 	},
 	{
 		"id" : 63,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Sens. Active/Passive",
-		"text_2" : "SensörAktif/Pasif"
+		"text_2" : "Horn Duration",
+		"text_1" : "Korna Süresi"
 	},
 	{
 		"id" : 64,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. High Alarm",
-		"text_2" : "ScklıkYüksekAlrm"
+		"text_2" : "Sens. Active/Passive",
+		"text_1" : "SensörAktif/Pasif"
 	},
 	{
 		"id" : 65,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. High Warn.",
-		"text_2" : "ScklıkYüksekUyr"
+		"text_2" : "Temp. High Alarm",
+		"text_1" : "ScklıkYüksekAlrm"
 	},
 	{
 		"id" : 66,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. Low Alarm",
-		"text_2" : "ScklıkDüşükAlrm"
+		"text_2" : "Temp. High Warn.",
+		"text_1" : "ScklıkYüksekUyr"
 	},
 	{
 		"id" : 67,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. Low Warn",
-		"text_2" : "ScklıkDüşükUyr"
+		"text_2" : "Temp. Low Alarm",
+		"text_1" : "ScklıkDüşükAlrm"
 	},
 	{
 		"id" : 68,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Sensor Table",
-		"text_2" : "Sensör Tablosu"
+		"text_2" : "Temp. Low Warn",
+		"text_1" : "ScklıkDüşükUyr"
 	},
 	{
 		"id" : 69,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temperature Unit",
-		"text_2" : "Scklık Birimi"
+		"text_2" : "Sensor Table",
+		"text_1" : "Sensör Tablosu"
 	},
 	{
 		"id" : 70,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Control On Temp.",
-		"text_2" : "KntrlAçmaScklığı"
+		"text_2" : "Temperature Unit",
+		"text_1" : "Scklık Birimi"
 	},
 	{
 		"id" : 71,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Control Off Temp.",
-		"text_2" : "KntrlKapamaScklığı"
+		"text_2" : "Control On Temp.",
+		"text_1" : "KntrlAçmaScklığı"
 	},
 	{
 		"id" : 72,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "GeneralMaintenance",
-		"text_2" : "Genel Bakım"
+		"text_2" : "Control Off Temp.",
+		"text_1" : "KntrlKapamaScklığı"
 	},
 	{
 		"id" : 73,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Change Air Filter",
-		"text_2" : "Hava Filtresi"
+		"text_2" : "GeneralMaintenance",
+		"text_1" : "Genel Bakım"
 	},
 	{
 		"id" : 74,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "ChemicalChangeTime",
-		"text_2" : "KimyasalDeğişSüre"
+		"text_2" : "Change Air Filter",
+		"text_1" : "Hava Filtresi"
 	},
 	{
 		"id" : 75,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Sensor Calibration",
-		"text_2" : "Sensör Kalibrasyonu"
+		"text_2" : "ChemicalChangeTime",
+		"text_1" : "KimyasalDeğişSüre"
 	},
 	{
 		"id" : 76,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Kit A Maintenance",
-		"text_2" : "Kit A Bakımı"
+		"text_2" : "Sensor Calibration",
+		"text_1" : "Sensör Kalibrasyonu"
 	},
 	{
 		"id" : 77,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Kit B Maintenance",
-		"text_2" : "Kit B Bakımı"
+		"text_2" : "Kit A Maintenance",
+		"text_1" : "Kit A Bakımı"
 	},
 	{
 		"id" : 78,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Kit C Maintenance",
-		"text_2" : "Kit C Bakımı"
+		"text_2" : "Kit B Maintenance",
+		"text_1" : "Kit B Bakımı"
 	},
 	{
 		"id" : 79,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Activate Stop",
-		"text_2" : "DurdurmaAktivasyon"
+		"text_2" : "Kit C Maintenance",
+		"text_1" : "Kit C Bakımı"
 	},
 	{
 		"id" : 80,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Maintenance Reset",
-		"text_2" : "Süre Sıfırla"
+		"text_2" : "Activate Stop",
+		"text_1" : "DurdurmaAktivasyon"
 	},
 	{
 		"id" : 81,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewp Sensor Offset",
-		"text_2" : "Dewp Sensör Ofset"
+		"text_2" : "Maintenance Reset",
+		"text_1" : "Süre Sıfırla"
 	},
 	{
 		"id" : 82,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewp Sensor Gain",
-		"text_2" : "Dewp Kazanç"
+		"text_2" : "Dewp Sensor Offset",
+		"text_1" : "Dewp Sensör Ofset"
 	},
 	{
 		"id" : 83,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temperature Offset",
-		"text_2" : "Sıcaklık Offset"
+		"text_2" : "Dewp Sensor Gain",
+		"text_1" : "Dewp Kazanç"
 	},
 	{
 		"id" : 84,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temperature Gain",
-		"text_2" : "Sıcaklık Kazanç"
+		"text_2" : "Temperature Offset",
+		"text_1" : "Sıcaklık Offset"
 	},
 	{
 		"id" : 85,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Factory Password",
-		"text_2" : "Fabrika şifresi"
+		"text_2" : "Temperature Gain",
+		"text_1" : "Sıcaklık Kazanç"
 	},
 	{
 		"id" : 86,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Password",
-		"text_2" : "Servis şifresi"
+		"text_2" : "Factory Password",
+		"text_1" : "Fabrika şifresi"
 	},
 	{
 		"id" : 87,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "User Password",
-		"text_2" : "Kullanıcı şifresi"
+		"text_2" : "Service Password",
+		"text_1" : "Servis şifresi"
 	},
 	{
 		"id" : 88,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Manufacturer Password",
-		"text_2" : "Üretici şifresi"
+		"text_2" : "User Password",
+		"text_1" : "Kullanıcı şifresi"
 	},
 	{
 		"id" : 89,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Start Source",
-		"text_2" : "Başlatma kaynağı"
+		"text_2" : "Manufacturer Password",
+		"text_1" : "Üretici şifresi"
 	},
 	{
 		"id" : 90,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Horn Mode",
-		"text_2" : "Korna modu"
+		"text_2" : "Start Source",
+		"text_1" : "Başlatma kaynağı"
 	},
 	{
 		"id" : 91,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "PostPwr-Cut Oper.",
-		"text_2" : "Enrjikes.snrsıçlşm"
+		"text_2" : "Horn Mode",
+		"text_1" : "Korna modu"
 	},
 	{
 		"id" : 92,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Save Parameters",
-		"text_2" : "Parametre kaydet"
+		"text_2" : "PostPwr-Cut Oper.",
+		"text_1" : "Enrjikes.snrsıçlşm"
 	},
 	{
 		"id" : 93,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Language",
-		"text_2" : "Dil seçimi"
+		"text_2" : "Save Parameters",
+		"text_1" : "Parametre kaydet"
 	},
 	{
 		"id" : 94,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Factory Settings",
-		"text_2" : "Fabrika ayarları"
+		"text_2" : "Language",
+		"text_1" : "Dil seçimi"
 	},
 	{
 		"id" : 95,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Clear Fault Logs",
-		"text_2" : "Arıza kayıt sil"
+		"text_2" : "Factory Settings",
+		"text_1" : "Fabrika ayarları"
 	},
 	{
 		"id" : 96,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reset Run Time",
-		"text_2" : "Çlşma süre sıfırla"
+		"text_2" : "Clear Fault Logs",
+		"text_1" : "Arıza kayıt sil"
 	},
 	{
 		"id" : 97,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Logout Timeout",
-		"text_2" : "Şifre süresi"
+		"text_2" : "Reset Run Time",
+		"text_1" : "Çlşma süre sıfırla"
 	},
 	{
 		"id" : 98,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Menu Logout",
-		"text_2" : "Menü çıkış"
+		"text_2" : "Logout Timeout",
+		"text_1" : "Şifre süresi"
 	},
 	{
 		"id" : 99,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved 1",
-		"text_2" : "Rezerve 1"
+		"text_2" : "Menu Logout",
+		"text_1" : "Menü çıkış"
 	},
 	{
 		"id" : 100,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved 2",
-		"text_2" : "Rezerve 2"
+		"text_2" : "Reserved 1",
+		"text_1" : "Rezerve 1"
 	},
 	{
 		"id" : 101,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "None",
-		"text_2" : "Yok"
+		"text_2" : "Reserved 2",
+		"text_1" : "Rezerve 2"
 	},
 	{
 		"id" : 102,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Emergency Stop",
-		"text_2" : "Acil Stop"
+		"text_2" : "None",
+		"text_1" : "Yok"
 	},
 	{
 		"id" : 103,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Remote Start Signal",
-		"text_2" : "UzakÇlştrmaSinyal"
+		"text_2" : "Emergency Stop",
+		"text_1" : "Acil Stop"
 	},
 	{
 		"id" : 104,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Start Button",
-		"text_2" : "Başlat Butonu"
+		"text_2" : "Remote Start Signal",
+		"text_1" : "UzakÇlştrmaSinyal"
 	},
 	{
 		"id" : 105,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Stop Button",
-		"text_2" : "Durdur Butonu"
+		"text_2" : "Start Button",
+		"text_1" : "Başlat Butonu"
 	},
 	{
 		"id" : 106,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Custom Input 1",
-		"text_2" : "Özel Giriş 1"
+		"text_2" : "Stop Button",
+		"text_1" : "Durdur Butonu"
 	},
 	{
 		"id" : 107,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Custom Input 2",
-		"text_2" : "Özel Giriş 2"
+		"text_2" : "Custom Input 1",
+		"text_1" : "Özel Giriş 1"
 	},
 	{
 		"id" : 108,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Clear Fault",
-		"text_2" : "Hata Silme"
+		"text_2" : "Custom Input 2",
+		"text_1" : "Özel Giriş 2"
 	},
 	{
 		"id" : 109,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Change Priority",
-		"text_2" : "Öncelik Değiş"
+		"text_2" : "Clear Fault",
+		"text_1" : "Hata Silme"
 	},
 	{
 		"id" : 110,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "None",
-		"text_2" : "Yok"
+		"text_2" : "Change Priority",
+		"text_1" : "Öncelik Değiş"
 	},
 	{
 		"id" : 111,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 1 Filling",
-		"text_2" : "Tank 1 Doldurma"
+		"text_2" : "None",
+		"text_1" : "Yok"
 	},
 	{
 		"id" : 112,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 2 Filling",
-		"text_2" : "Tank 2 Doldurma"
+		"text_2" : "Tank 1 Filling",
+		"text_1" : "Tank 1 Doldurma"
 	},
 	{
 		"id" : 113,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 1 Evacuation",
-		"text_2" : "Tank 1 Bosaltma"
+		"text_2" : "Tank 2 Filling",
+		"text_1" : "Tank 2 Doldurma"
 	},
 	{
 		"id" : 114,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 2 Evacuation",
-		"text_2" : "Tank 2 Bosaltma"
+		"text_2" : "Tank 1 Evacuation",
+		"text_1" : "Tank 1 Bosaltma"
 	},
 	{
 		"id" : 115,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank Choose",
-		"text_2" : "Tank Seçimi"
+		"text_2" : "Tank 2 Evacuation",
+		"text_1" : "Tank 2 Bosaltma"
 	},
 	{
 		"id" : 116,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Fault",
-		"text_2" : "Hata"
+		"text_2" : "Tank Choose",
+		"text_1" : "Tank Seçimi"
 	},
 	{
 		"id" : 117,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Warning",
-		"text_2" : "Uyarı"
+		"text_2" : "Fault",
+		"text_1" : "Hata"
 	},
 	{
 		"id" : 118,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Alarm",
-		"text_2" : "Arıza"
+		"text_2" : "Warning",
+		"text_1" : "Uyarı"
 	},
 	{
 		"id" : 119,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Fan",
-		"text_2" : "Fan"
+		"text_2" : "Alarm",
+		"text_1" : "Arıza"
 	},
 	{
 		"id" : 120,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Running",
-		"text_2" : "Çalışıyor"
+		"text_2" : "Fan",
+		"text_1" : "Fan"
 	},
 	{
 		"id" : 121,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Horn",
-		"text_2" : "Korna"
+		"text_2" : "Running",
+		"text_1" : "Çalışıyor"
 	},
 	{
 		"id" : 122,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "RSS Active",
-		"text_2" : "Uzak Çalıştırma"
+		"text_2" : "Horn",
+		"text_1" : "Korna"
 	},
 	{
 		"id" : 123,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp.LowFault",
-		"text_2" : "ScklıkDüşükArz"
+		"text_2" : "RSS Active",
+		"text_1" : "Uzak Çalıştırma"
 	},
 	{
 		"id" : 124,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp.HighFault",
-		"text_2" : "ScklıkYüksekArz"
+		"text_2" : "Temp.LowFault",
+		"text_1" : "ScklıkDüşükArz"
 	},
 	{
 		"id" : 125,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. SensorBroken",
-		"text_2" : "ScklıkSensörArz"
+		"text_2" : "Temp.HighFault",
+		"text_1" : "ScklıkYüksekArz"
 	},
 	{
 		"id" : 126,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DewPoint LowAlarm",
-		"text_2" : "ÇiyNokt.DüşkArz"
+		"text_2" : "Temp. SensorBroken",
+		"text_1" : "ScklıkSensörArz"
 	},
 	{
 		"id" : 127,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DewPoint HighAlarm",
-		"text_2" : "ÇiyNokt.YükskArz"
+		"text_2" : "DewPoint LowAlarm",
+		"text_1" : "ÇiyNokt.DüşkArz"
 	},
 	{
 		"id" : 128,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DewPoint Fault",
-		"text_2" : "ÇiyNokt.SensArz"
+		"text_2" : "DewPoint HighAlarm",
+		"text_1" : "ÇiyNokt.YükskArz"
 	},
 	{
 		"id" : 129,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL0",
-		"text_2" : "SEV0"
+		"text_2" : "DewPoint Fault",
+		"text_1" : "ÇiyNokt.SensArz"
 	},
 	{
 		"id" : 130,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL1",
-		"text_2" : "SEV1"
+		"text_2" : "LVL0",
+		"text_1" : "SEV0"
 	},
 	{
 		"id" : 131,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL2",
-		"text_2" : "SEV2"
+		"text_2" : "LVL1",
+		"text_1" : "SEV1"
 	},
 	{
 		"id" : 132,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL3",
-		"text_2" : "SEV3"
+		"text_2" : "LVL2",
+		"text_1" : "SEV2"
 	},
 	{
 		"id" : 133,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL4",
-		"text_2" : "SEV4"
+		"text_2" : "LVL3",
+		"text_1" : "SEV3"
 	},
 	{
 		"id" : 134,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LVL5",
-		"text_2" : "SEV5"
+		"text_2" : "LVL4",
+		"text_1" : "SEV4"
 	},
 	{
 		"id" : 135,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DI1",
-		"text_2" : "DG1"
+		"text_2" : "LVL5",
+		"text_1" : "SEV5"
 	},
 	{
 		"id" : 136,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DI2",
-		"text_2" : "DG2"
+		"text_2" : "DI1",
+		"text_1" : "DG1"
 	},
 	{
 		"id" : 137,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DI3",
-		"text_2" : "DG3"
+		"text_2" : "DI2",
+		"text_1" : "DG2"
 	},
 	{
 		"id" : 138,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DI4",
-		"text_2" : "DG4"
+		"text_2" : "DI3",
+		"text_1" : "DG3"
 	},
 	{
 		"id" : 139,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DI5",
-		"text_2" : "DG5"
+		"text_2" : "DI4",
+		"text_1" : "DG4"
 	},
 	{
 		"id" : 140,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DO1",
-		"text_2" : "DÇ1"
+		"text_2" : "DI5",
+		"text_1" : "DG5"
 	},
 	{
 		"id" : 141,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DO2",
-		"text_2" : "DÇ2"
+		"text_2" : "DO1",
+		"text_1" : "DÇ1"
 	},
 	{
 		"id" : 142,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DO3",
-		"text_2" : "DÇ3"
+		"text_2" : "DO2",
+		"text_1" : "DÇ2"
 	},
 	{
 		"id" : 143,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DO4",
-		"text_2" : "DÇ4"
+		"text_2" : "DO3",
+		"text_1" : "DÇ3"
 	},
 	{
 		"id" : 144,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "DO5",
-		"text_2" : "DÇ5"
+		"text_2" : "DO4",
+		"text_1" : "DÇ4"
 	},
 	{
 		"id" : 145,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "None",
-		"text_2" : "Yok"
+		"text_2" : "DO5",
+		"text_1" : "DÇ5"
 	},
 	{
 		"id" : 146,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp.High Warning",
-		"text_2" : "Yüksek Scklık Uyr"
+		"text_2" : "None",
+		"text_1" : "Yok"
 	},
 	{
 		"id" : 147,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp.Low Warning",
-		"text_2" : "Düşük Scaklık Uyr"
+		"text_2" : "Temp.High Warning",
+		"text_1" : "Yüksek Scklık Uyr"
 	},
 	{
 		"id" : 148,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Power Interrupt",
-		"text_2" : "Güç Kesintisi"
+		"text_2" : "Temp.Low Warning",
+		"text_1" : "Düşük Scaklık Uyr"
 	},
 	{
 		"id" : 149,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level1",
-		"text_2" : "Servis Sev. 1"
+		"text_2" : "Power Interrupt",
+		"text_1" : "Güç Kesintisi"
 	},
 	{
 		"id" : 150,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Reserved",
-		"text_2" : "Rezerve"
+		"text_2" : "Service Level1",
+		"text_1" : "Servis Sev. 1"
 	},
 	{
 		"id" : 151,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. High Alarm",
-		"text_2" : "Yüksek Scklık Alrm"
+		"text_2" : "Reserved",
+		"text_1" : "Rezerve"
 	},
 	{
 		"id" : 152,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp. Low Alarm",
-		"text_2" : "Düşük Scklık Alrm"
+		"text_2" : "Temp. High Alarm",
+		"text_1" : "Yüksek Scklık Alrm"
 	},
 	{
 		"id" : 153,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Custom - 1 Alarm",
-		"text_2" : "Özel Alarm - 1"
+		"text_2" : "Temp. Low Alarm",
+		"text_1" : "Düşük Scklık Alrm"
 	},
 	{
 		"id" : 154,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Custom - 2 Alarm",
-		"text_2" : "Özel Alarm - 2"
+		"text_2" : "Custom - 1 Alarm",
+		"text_1" : "Özel Alarm - 1"
 	},
 	{
 		"id" : 155,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level2",
-		"text_2" : "Servis Sev. 2"
+		"text_2" : "Custom - 2 Alarm",
+		"text_1" : "Özel Alarm - 2"
 	},
 	{
 		"id" : 156,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level3",
-		"text_2" : "Servis Sev. 3"
+		"text_2" : "Service Level2",
+		"text_1" : "Servis Sev. 2"
 	},
 	{
 		"id" : 157,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level4",
-		"text_2" : "Servis Sev. 4"
+		"text_2" : "Service Level3",
+		"text_1" : "Servis Sev. 3"
 	},
 	{
 		"id" : 158,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Service Level5",
-		"text_2" : "Servis Sev. 5"
+		"text_2" : "Service Level4",
+		"text_1" : "Servis Sev. 4"
 	},
 	{
 		"id" : 159,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Emergency Stop",
-		"text_2" : "Acil Durdurma"
+		"text_2" : "Service Level5",
+		"text_1" : "Servis Sev. 5"
 	},
 	{
 		"id" : 160,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Temp.Sensor Broke",
-		"text_2" : "SıcaklıkSensorKopuk"
+		"text_2" : "Emergency Stop",
+		"text_1" : "Acil Durdurma"
 	},
 	{
 		"id" : 161,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dew Point Broke",
-		"text_2" : "ÇiySensörüKopuk"
+		"text_2" : "Temp.Sensor Broke",
+		"text_1" : "SıcaklıkSensorKopuk"
 	},
 	{
 		"id" : 162,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "",
-		"text_2" : ""
+		"text_2" : "Dew Point Broke",
+		"text_1" : "ÇiySensörüKopuk"
 	},
 	{
 		"id" : 163,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Main Menu",
-		"text_2" : "Ana Menü"
+		"text_2" : "",
+		"text_1" : ""
 	},
 	{
 		"id" : 164,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Digital Outputs",
-		"text_2" : "Dijital Çıkışlar"
+		"text_2" : "Main Menu",
+		"text_1" : "Ana Menü"
 	},
 	{
 		"id" : 165,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Digital Inputs",
-		"text_2" : "Dijital Girişler"
+		"text_2" : "Digital Outputs",
+		"text_1" : "Dijital Çıkışlar"
 	},
 	{
 		"id" : 166,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Maintenance",
-		"text_2" : "Bakım"
+		"text_2" : "Digital Inputs",
+		"text_1" : "Dijital Girişler"
 	},
 	{
 		"id" : 167,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Refreshing..",
-		"text_2" : "Yenileniyor.."
+		"text_2" : "Maintenance",
+		"text_1" : "Bakım"
 	},
 	{
 		"id" : 168,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "hr",
-		"text_2" : "sa"
+		"text_2" : "Refreshing..",
+		"text_1" : "Yenileniyor.."
 	},
 	{
 		"id" : 169,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "----",
-		"text_2" : "----"
+		"text_2" : "hr",
+		"text_1" : "sa"
 	},
 	{
 		"id" : 170,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Start-Stop Nbr:",
-		"text_2" : "Start-Stop Say:"
+		"text_2" : "----",
+		"text_1" : "----"
 	},
 	{
 		"id" : 171,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Onload Number:",
-		"text_2" : "YükeGeçmeSay:"
+		"text_2" : "Start-Stop Nbr:",
+		"text_1" : "Start-Stop Say:"
 	},
 	{
 		"id" : 172,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Counters",
-		"text_2" : "Sayaçlar"
+		"text_2" : "Onload Number:",
+		"text_1" : "YükeGeçmeSay:"
 	},
 	{
 		"id" : 173,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Device:",
-		"text_2" : "Cihaz:"
+		"text_2" : "Counters",
+		"text_1" : "Sayaçlar"
 	},
 	{
 		"id" : 174,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dryer",
-		"text_2" : "Dryer"
+		"text_2" : "Device:",
+		"text_1" : "Cihaz:"
 	},
 	{
 		"id" : 175,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "SW :",
-		"text_2" : "SW :"
+		"text_2" : "Dryer",
+		"text_1" : "Dryer"
 	},
 	{
 		"id" : 176,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "HW :",
-		"text_2" : "HW :"
+		"text_2" : "SW :",
+		"text_1" : "SW :"
 	},
 	{
 		"id" : 177,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "TFT :",
-		"text_2" : "TFT :"
+		"text_2" : "HW :",
+		"text_1" : "HW :"
 	},
 	{
 		"id" : 178,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Device Serial",
-		"text_2" : "Cihaz Seri No"
+		"text_2" : "TFT :",
+		"text_1" : "TFT :"
 	},
 	{
 		"id" : 179,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "TotalWork.Hr:",
-		"text_2" : "ToplmÇlşmaSa:"
+		"text_2" : "Device Serial",
+		"text_1" : "Cihaz Seri No"
 	},
 	{
 		"id" : 180,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "LoadWork.Hr:",
-		"text_2" : "YükteÇlşmaSa:"
+		"text_2" : "Energized Hr:",
+		"text_1" : "EnerjiliSa:"
 	},
 	{
 		"id" : 181,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Device Info",
-		"text_2" : "Cihaz Bilgisi"
+		"text_2" : "Working Hr:",
+		"text_1" : "ÇalışmaSa:"
 	},
 	{
 		"id" : 182,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Menu Logout",
-		"text_2" : "Menü Çıkış"
+		"text_2" : "Device Info",
+		"text_1" : "Cihaz Bilgisi"
 	},
 	{
 		"id" : 183,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "English",
-		"text_2" : "İngilizce"
+		"text_2" : "Menu Logout",
+		"text_1" : "Menü Çıkış"
 	},
 	{
 		"id" : 184,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Custom Language",
-		"text_2" : "Kullanıcı Tanımlı"
+		"text_2" : "English",
+		"text_1" : "İngilizce"
 	},
 	{
 		"id" : 185,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Supply Volt.:",
-		"text_2" : "BeslemeVolt:"
+		"text_2" : "Custom Language",
+		"text_1" : "Kullanıcı Tanımlı"
 	},
 	{
 		"id" : 186,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "SensorSupply:",
-		"text_2" : "SensörBeslm:"
+		"text_2" : "Supply Volt.:",
+		"text_1" : "BeslemeVolt:"
 	},
 	{
 		"id" : 187,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "MCU Temp.:",
-		"text_2" : "MCU Sıcaklığı:"
+		"text_2" : "SensorSupply:",
+		"text_1" : "SensörBeslm:"
 	},
 	{
 		"id" : 188,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Esc</ / Enter->",
-		"text_2" : "Esc</ / Enter->"
+		"text_2" : "MCU Temp.:",
+		"text_1" : "MCU Sıcaklığı:"
 	},
 	{
 		"id" : 189,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Functions",
-		"text_2" : "Fonksiyonlar"
+		"text_2" : "Esc</ / Enter->",
+		"text_1" : "Esc</ / Enter->"
 	},
 	{
 		"id" : 190,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Digital Config",
-		"text_2" : "Konfigürasyon"
+		"text_2" : "Functions",
+		"text_1" : "Fonksiyonlar"
 	},
 	{
 		"id" : 191,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Contact Type",
-		"text_2" : "Kontak Tipi"
+		"text_2" : "Digital Config",
+		"text_1" : "Konfigürasyon"
 	},
 	{
 		"id" : 192,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Normally Open-NO",
-		"text_2" : "Normalde Açık-NO"
+		"text_2" : "Contact Type",
+		"text_1" : "Kontak Tipi"
 	},
 	{
 		"id" : 193,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Normally Closed-NC",
-		"text_2" : "Normalde Kapalı-NC"
+		"text_2" : "Normally Open-NO",
+		"text_1" : "Normalde Açık-NO"
 	},
 	{
 		"id" : 194,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 1 Fill",
-		"text_2" : "Tank 1 Dolum"
+		"text_2" : "Normally Closed-NC",
+		"text_1" : "Normalde Kapalı-NC"
 	},
 	{
 		"id" : 195,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 1 Drain",
-		"text_2" : "Tank 1 Bosaltim"
+		"text_2" : "Tank 1 Fill",
+		"text_1" : "Tank 1 Dolum"
 	},
 	{
 		"id" : 196,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 2 Fill",
-		"text_2" : "Tank 2 Dolum"
+		"text_2" : "Tank 1 Drain",
+		"text_1" : "Tank 1 Bosaltim"
 	},
 	{
 		"id" : 197,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Tank 2 Drain",
-		"text_2" : "Tank 2 Bosaltim"
+		"text_2" : "Tank 2 Fill",
+		"text_1" : "Tank 2 Dolum"
 	},
 	{
 		"id" : 198,
 		"pixel" : 1,
 		"font" : "1",
 		"fontSize" : "1",
-		"text_1" : "Dewp Value",
-		"text_2" : "Ciy Degeri"
+		"text_2" : "Tank 2 Drain",
+		"text_1" : "Tank 2 Bosaltim"
+	},
+	{
+		"id" : 199,
+		"pixel" : 1,
+		"font" : "1",
+		"fontSize" : "1",
+		"text_2" : "Dewp Value",
+		"text_1" : "Ciy Degeri"
+	},
+	{
+		"id" : 200,
+		"pixel" : 1,
+		"font" : "1",
+		"fontSize" : "1",
+		"text_2" : "Passive",
+		"text_1" : "Pasif"
+	},
+	{
+		"id" : 201,
+		"pixel" : 1,
+		"font" : "1",
+		"fontSize" : "1",
+		"text_2" : "Active",
+		"text_1" : "Aktif"
+	},
+	{
+		"id" : 202,
+		"pixel" : 1,
+		"font" : "1",
+		"fontSize" : "1",
+		"text_2" : "Tank1",
+		"text_1" : "Tank1"
+	},
+	{
+		"id" : 203,
+		"pixel" : 1,
+		"font" : "1",
+		"fontSize" : "1",
+		"text_2" : "Tank2",
+		"text_1" : "Tank2"
 	}
 ]

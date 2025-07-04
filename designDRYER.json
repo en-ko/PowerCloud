@@ -109,7 +109,6 @@
       56
     ]
   },
-
   {
     "object": "datalogic",
     "page": 1,
@@ -123,7 +122,7 @@
       {
         "paramId": 189,
         "operation": "<",
-        "operationBit":-1,
+        "operationBit": -1,
         "operationValue": -120,
         "passive": true,
         "color": "red",
@@ -142,46 +141,16 @@
       }
     ]
   },
-
-  
-  {
-    "object": "statictext",
+    {
+    "object": "datalist",
     "page": 1,
     "row": 7,
     "side": "right",
-    "width": 330,
-    "text_1": "Servis Parametreleri",
-    "text_2": "Service"
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 8,
-    "side": "right",
+    "title_1": "Servis Parametreleri",
+    "title_2": "Service Parameters",
+    "width": 250,
     "paramId": [
-      190,
-      191
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 9,
-    "side": "right",
-    "paramId": [
-      192,
-      193
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 10,
-    "side": "right",
-    "paramId": [
-      194,
-      195,
-      196
+190,191,192,193,194,195
     ]
   },
   {
@@ -499,7 +468,7 @@
         "bitValue": 1,
         "color": "green",
         "blink": false
-      },      
+      },
       {
         "name_1": "Servis Hatası Level 2",
         "name_2": "Service Fault Level 2",
@@ -654,8 +623,7 @@
     "row": 6,
     "side": "left",
     "paramId": [
-      2,
-      3
+      6
     ]
   },
   {
@@ -668,8 +636,6 @@
       62
     ]
   },
-
-
   {
     "object": "statictext",
     "page": 2,
