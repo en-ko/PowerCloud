@@ -1,10 +1,10 @@
 [
     {
-        "device" : "DocumentExapmle",
+        "device" : "DocumentExample",
         "minVersion" : 1000,
         "maxVersion" : 1500,
         "paramId" : [1,2,3],
-        "name" : "DocumentExapmle",
+        "name" : "DocumentExample",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
     }
