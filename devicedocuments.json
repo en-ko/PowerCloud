@@ -1,83 +1,11 @@
 [
     {
-        "device" : "CCS-M",
+        "device" : "DocumentExapmle",
         "minVersion" : 1000,
         "maxVersion" : 1500,
         "paramId" : [1,2,3],
-        "name" : "Dokuman - 1",
+        "name" : "DocumentExapmle",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "DAVR40",
-        "minVersion" : 1000,
-        "maxVersion" : 1100,
-        "paramId" : [1,2,3],
-        "name" : "Dokuman İsmi",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/document2.pdf"
-    },
-    {
-        "device" : "CCS-M",
-        "minVersion" : 1000,
-        "maxVersion" : 1400,
-        "paramId" : [1,2,3],
-        "name" : "Dokuman - 2",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "CCS-M",
-        "minVersion" : 1000,
-        "maxVersion" : 1500,
-        "paramId" : [1,2,3],
-        "name" : "Dokuman - 3",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "CCS-M",
-        "minVersion" : 1000,
-        "maxVersion" : 1500,
-        "paramId" : [1,2,4],
-        "name" : "Dokuman - 4",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "CCS-M",
-        "minVersion" : 1000,
-        "maxVersion" : 1500,
-        "paramId" : [1,2,3],
-        "name" : "Dokuman - 5",
-        "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "CCS-M",
-        "minVersion" : 1000,
-        "maxVersion" : 1500,
-        "paramId" : [1,2,3],
-        "name" : "Dokuman - 6",
-        "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU2.pdf"
-    },
-        {
-        "device" : "DAVR100",
-        "minVersion" : 1000,
-        "maxVersion" : 4500,
-        "paramId" : [1,2],
-        "name" : "Dokuman - 5",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
-    },
-    {
-        "device" : "DAVR100",
-        "minVersion" : 1000,
-        "maxVersion" : 4500,
-        "paramId" : [1,2],
-        "name" : "Dokuman - 6",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU2.pdf"
     }
 ]
