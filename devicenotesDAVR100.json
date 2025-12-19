@@ -11,8 +11,8 @@
         "device": "DocumentExample",
         "minVersion": 1000,
         "maxVersion": 1500,
-        "title": "SSS Mesaj Başlığı",
-        "message": "SSS Mesaj içeriği buraya yazılacak",
+        "title": "Mesaj Başlığı",
+        "message": "Mesaj içeriği buraya yazılacak",
         "language":"Tr"
     }
 ]
