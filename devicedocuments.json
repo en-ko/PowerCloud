@@ -1,5 +1,45 @@
 [
     {
+        "device" : "DAVR20",
+        "minVersion" : 1000,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR20_USER_MANUAL_R4.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "DAVR40",
+        "minVersion" : 1000,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR40_USER_MANUAL_R8.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "DAVR45",
+        "minVersion" : 1000,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR45_USER_MANUAL_R3.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "DAVR90",
+        "minVersion" : 1000,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR90_USER_MANUAL_R6.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
         "device" : "DAVR100",
         "minVersion" : 1000,
         "maxVersion" : 5000,
