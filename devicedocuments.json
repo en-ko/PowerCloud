@@ -1,7 +1,7 @@
 [
     {
         "device" : "DAVR20",
-        "minVersion" : 1000,
+        "minVersion" : 1,
         "maxVersion" : 5000,
         "paramId" : [],
         "name" : "User Manual",
@@ -11,7 +11,7 @@
     },
     {
         "device" : "DAVR40",
-        "minVersion" : 1000,
+        "minVersion" : 1,
         "maxVersion" : 5000,
         "paramId" : [],
         "name" : "User Manual",
@@ -21,7 +21,7 @@
     },
     {
         "device" : "DAVR45",
-        "minVersion" : 1000,
+        "minVersion" : 1,
         "maxVersion" : 5000,
         "paramId" : [],
         "name" : "User Manual",
@@ -31,7 +31,7 @@
     },
     {
         "device" : "DAVR90",
-        "minVersion" : 1000,
+        "minVersion" : 1,
         "maxVersion" : 5000,
         "paramId" : [],
         "name" : "User Manual",
@@ -41,12 +41,172 @@
     },
     {
         "device" : "DAVR100",
-        "minVersion" : 1000,
+        "minVersion" : 1,
         "maxVersion" : 5000,
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
         "addedDate" : "2026-01-01"
-    }
+    },
+    {
+        "device" : "ATS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Quick Installation Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_Quick_Installation_Guide.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "ATS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Ön Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_On_Kullanim_Kilavuzu.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "ATS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_KK_V01.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "AMF-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Quick Installation Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-S_Quick_Installation_Guide.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "AMF-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Ön Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-S_On_Kullanim_Kilavuzu.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "AMF-L",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Quick Installation Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-L_Quick_Installation_Guide.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "AMF-L",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Ön Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-L_On_Kullanim_Kilavuzu.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "DRYER",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DRYER_KK_V01_TR.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-M",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Ön Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_On_Kullanim_Kilavuzu.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-M",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_KK_V02_TR.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-M",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_USER_MANUAL_V02_EN.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-M",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Pre. User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_Pre_User_Manuel.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Quick Installation Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_Quick_Installation_Guide.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Pre. User Manual",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_PRE_USER_MANUEL.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Ön Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_On_Kullanim_Kilavuzu.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "CCS-S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Kullanım Klavuzu",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_KK_V01_TR.pdf",
+        "addedDate" : "2026-01-01"
+    }        
 ]
