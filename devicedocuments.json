@@ -1,12 +1,12 @@
 [
     {
-        "device" : "DocumentExample",
+        "device" : "DAVR100",
         "minVersion" : 1000,
-        "maxVersion" : 1500,
-        "paramId" : [1,2,3],
-        "name" : "DocumentExample",
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf",
-        "addedDate" : "2025-12-01"
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/assets/DAVR100_USER_MANUAL_R6.pdf",
+        "addedDate" : "2026-01-01"
     }
 ]
