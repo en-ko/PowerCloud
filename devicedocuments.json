@@ -6,16 +6,6 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/assets/DAVR100_USER_MANUAL_R6.pdf",
-        "addedDate" : "2026-01-01"
-    },
-        {
-        "device" : "DAVR100",
-        "minVersion" : 1000,
-        "maxVersion" : 5000,
-        "paramId" : [],
-        "name" : "User Manual",
-        "language":"Tr",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/assets/DAVR100_USER_MANUAL_R7.pdf",
         "addedDate" : "2026-01-01"
     }
