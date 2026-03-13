@@ -28,5 +28,15 @@
         "title": "Title-3",
         "message" : "Mesaj bilgisi-2 DAVR100",
         "lastDate": "2026-03-22"
+    },
+    {
+        "id" : 4,
+        "device" : "DAVR100",
+        "minVersion" : 1000,
+        "maxVersion" : 5000,
+        "idContains": [],
+        "title": "DAVR100 v40xx SW Update",
+        "message" : "Software update yapılması uygun olur.",
+        "lastDate": "2026-03-22"
     }
 ]
