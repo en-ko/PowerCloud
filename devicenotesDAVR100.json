@@ -1,16 +1,16 @@
 [
     {
-        "device": "DocumentExample",
+        "device": "DAVR100",
         "minVersion": 1000,
-        "maxVersion": 1500,
+        "maxVersion": 5000,
         "title": "Önemli Uyarı",
         "message": "Mesaj içeriği buraya yazılacak",
         "language":"Tr"
     },
     {
-        "device": "DocumentExample",
+        "device": "DAVR100",
         "minVersion": 1000,
-        "maxVersion": 1500,
+        "maxVersion": 5000,
         "title": "Mesaj Başlığı",
         "message": "Mesaj içeriği buraya yazılacak",
         "language":"Tr"
