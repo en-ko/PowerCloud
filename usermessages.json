@@ -53,7 +53,7 @@
         "id" : 6,
         "device" : "DAVR100",
         "minVersion" : 1000,
-        "maxVersion" : 1005,
+        "maxVersion" : 5000,
         "idContains": [],
         "title": "DAVR100 v4010 SW Update",
         "message": "Yeni yazılım güncellemesi mevcut. Güncellemek ister misiniz?",
