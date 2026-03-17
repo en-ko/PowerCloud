@@ -48,5 +48,17 @@
         "title": "DAVR100 Ürün Bilgileri",
         "message": "DAVR100 ürününe ait dokümanlara ulaşmak için <a href='#' onclick='openUrl(\"https://enkoelektronik.com/en/product/detail/62/davr-100\"); return false;' style='color: var(--textSecondary);'>buraya tıklayın</a>",
         "lastDate": "2026-03-30"
+    },
+    {
+        "id" : 6,
+        "device" : "DAVR100",
+        "minVersion" : 1000,
+        "maxVersion" : 1005,
+        "idContains": [],
+        "title": "DAVR100 v4010 SW Update",
+        "message": "Yeni yazılım güncellemesi mevcut. Güncellemek ister misiniz?",
+        "fileUrl": "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
+        "command": "FIRMWARE_UPDATE",
+        "lastDate": "2026-04-01"
     }
 ]
