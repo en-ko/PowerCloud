@@ -46,7 +46,7 @@
         "maxVersion" : 5000,
         "idContains": [],
         "title": "DAVR100 Ürün Bilgileri",
-        "message": "DAVR100 ürününe ait dokümanlara ulaşmak için <a href='#' onclick='openUrl(\"https://enkoelectronics.com/products/automatic-voltage-regulators/davr-100\"); return false;' style='color: var(--accentPrimary);'>buraya tıklayın</a>",
+        "message": "DAVR100 ürününe ait dokümanlara ulaşmak için <a href='#' onclick='openUrl(\"https://enkoelektronik.com/en/product/detail/62/davr-100\"); return false;' style='color: var(--buttonPrimary);'>buraya tıklayın</a>",
         "lastDate": "2026-03-30"
     }
 ]
