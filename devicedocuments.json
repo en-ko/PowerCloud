@@ -63,7 +63,7 @@
         "device" : "DAVR100",
         "minVersion" : 1,
         "maxVersion" : 5000,
-        "paramId" : [],
+        "paramId" : [110],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_On_Kullanim_Kilavuzu.pdf",
