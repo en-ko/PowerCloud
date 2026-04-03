@@ -47,27 +47,7 @@
         "name" : "User Manual",
         "language":"Eng",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
-        "addedDate" : "2026-04-01"
-    },
-    {
-        "device" : "DAVR100",
-        "minVersion" : 1,
-        "maxVersion" : 5000,
-        "paramId" : [],
-        "name" : "Quick Installation Guide",
-        "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_Quick_Installation_Guide.pdf",
-        "addedDate" : "2026-04-01"
-    },
-    {
-        "device" : "DAVR100",
-        "minVersion" : 1,
-        "maxVersion" : 5000,
-        "paramId" : [110],
-        "name" : "Ön Kullanım Klavuzu",
-        "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_On_Kullanim_Kilavuzu.pdf",
-        "addedDate" : "2026-04-01"
+        "addedDate" : "2026-01-01"
     },
     {
         "device" : "ATS-S",

@@ -22,13 +22,5 @@
         "title": "English Message",
         "message": "Message content",
         "language":"Eng"
-    },
-    {
-        "device": "LEAKWISE",
-        "minVersion": 1000,
-        "maxVersion": 5000,
-        "title": "Leakwise için notlar",
-        "message": "Notlar ile ilgili içerik",
-        "language":"Tr"
     }
 ]
