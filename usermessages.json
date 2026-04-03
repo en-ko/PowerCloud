@@ -7,7 +7,7 @@
         "idContains": ["12345", "1225566"],
         "title": "Title-1",
         "message" : "Mesaj bilgisi DAVR100",
-        "lastDate": "2026-03-15"
+        "lastDate": "2026-04-15"
     },
     {
         "id" : 2,
@@ -17,7 +17,7 @@
         "idContains": [],
         "title": "Title-2",
         "message" : "Mesaj bilgisi ESU-S",
-        "lastDate": "2026-03-20"
+        "lastDate": "2026-04-20"
     },
     {
         "id" : 3,
@@ -27,7 +27,7 @@
         "idContains": [],
         "title": "Title-3",
         "message" : "Mesaj bilgisi-2 DAVR100",
-        "lastDate": "2026-03-22"
+        "lastDate": "2026-04-22"
     },
     {
         "id" : 4,
@@ -37,7 +37,7 @@
         "idContains": [],
         "title": "DAVR100 v40xx SW Update",
         "message" : "Software update yapılması uygun olur.",
-        "lastDate": "2026-03-22"
+        "lastDate": "2026-04-22"
     },
     {
         "id" : 5,
@@ -48,7 +48,7 @@
         "title": "DAVR100 Ürün Bilgileri",
         "message": "DAVR100 ürününe ait dokümanlara ulaşmak için <a href='#' onclick='openUrl(\"https://enkoelektronik.com/en/product/detail/62/davr-100\"); return false;' style='color: var(--textSecondary);'>buraya tıklayın</a>",
         "command": "USER_MESSAGE",
-        "lastDate": "2026-03-30"
+        "lastDate": "2026-04-30"
     },
     {
         "id" : 6,
@@ -60,7 +60,7 @@
         "message": "Yeni yazılım güncellemesi mevcut. Güncellemek ister misiniz?",
         "fileUrl": "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
         "command": "FIRMWARE_UPDATE",
-        "lastDate": "2026-04-01"
+        "lastDate": "2026-05-01"
     },
     {
         "id" : 7,
@@ -72,6 +72,6 @@
         "message": "Sizin için hazırlanan design dosyasını yüklemek ister misiniz?",
         "fileUrl": "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
         "command": "DESIGN_UPDATE",
-        "lastDate": "2026-04-01"
+        "lastDate": "2026-05-01"
     }
 ]

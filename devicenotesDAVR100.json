@@ -11,8 +11,24 @@
         "device": "DAVR100",
         "minVersion": 1000,
         "maxVersion": 5000,
-        "title": "Mesaj Başlığı",
+        "title": "DAVR100 Mesaj Başlığı",
         "message": "Mesaj içeriği buraya yazılacak",
+        "language":"Tr"
+    },
+    {
+        "device": "DAVR100",
+        "minVersion": 1000,
+        "maxVersion": 5000,
+        "title": "English Message",
+        "message": "Message content",
+        "language":"Eng"
+    },
+    {
+        "device": "LEAKWISE",
+        "minVersion": 1000,
+        "maxVersion": 5000,
+        "title": "Leakwise için notlar",
+        "message": "Notlar ile ilgili içerik",
         "language":"Tr"
     }
 ]
