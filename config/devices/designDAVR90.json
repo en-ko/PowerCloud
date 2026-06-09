@@ -1,0 +1,1207 @@
+[
+  {
+    "object": "config",
+    "pageCount": 4,
+    "pageTitle": [
+      "Monitoring",
+      "Set Point",
+      "Configuration",
+      "Protections"
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "title": "Controller State",
+    "width": "280px",
+    "height": "500px",
+    "itemList": [
+      {
+        "name": "AVR Ready",
+        "conditions": [
+          {
+              "paramId": 43,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Calibration Ready",
+        "conditions": [
+          {
+              "paramId": 41,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Configuration Ready",
+        "conditions": [
+          {
+              "paramId": 42,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "USB Communication",
+        "conditions": [
+          {
+              "paramId": 44,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },       
+      {
+        "name": "EXT Pot Connected",
+        "conditions": [
+          {
+              "paramId": 34,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Output Short Circuit",
+        "conditions": [
+          {
+              "paramId": 50,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "UFRO Enabled",
+        "conditions": [
+          {
+              "paramId": 49,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Relay Enabled",
+        "conditions": [
+          {
+              "paramId": 51,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Output Cutoff",
+        "conditions": [
+          {
+              "paramId": 52,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "title": "Protection Status",
+    "width": "280px",
+    "height": "505px",
+    "itemList": [
+      {
+        "name": "Over Excitation",
+        "conditions": [
+          {
+              "paramId": 55,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Field IDMT Triggered",
+        "conditions": [
+          {
+              "paramId": 53,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Loss Of Sense",
+        "conditions": [
+          {
+              "paramId": 57,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Generator Over Voltage",
+        "conditions": [
+          {
+              "paramId": 58,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Generator Under Voltage",
+        "conditions": [
+          {
+              "paramId": 59,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },       
+      {
+        "name": "Stator Unbalanced Voltage",
+        "conditions": [
+          {
+              "paramId": 60,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Generator Current Limit",
+        "conditions": [
+          {
+              "paramId": 61,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Winding Temperature Alarm",
+        "conditions": [
+          {
+              "paramId": 64,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Winding Temperature Limit",
+        "conditions": [
+          {
+              "paramId": 65,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Stator IDMT Triggered",
+        "conditions": [
+          {
+              "paramId": 54,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }, 
+      {
+        "name": "Motor Start Failure",
+        "conditions": [
+          {
+              "paramId": 62,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Rotating Diode Failure",
+        "conditions": [
+          {
+              "paramId": 63,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "height" :"170px",
+    "width" :"180px",
+    "paramId": [
+      0,
+      1
+    ],
+    "conditions": [
+      {
+          "conditionParamId": 122,
+          "compareValue": "U – V – W",
+          "operator": "neq",
+          "isDisabled" : true,
+          "andConditions": []
+      }
+    ],
+    "showProgress" : false,
+    "splitNumber" : 4
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "height" :"170px",
+    "width" :"180px",
+    "paramId": [
+      2
+    ],
+    "showProgress" : false,
+    "splitNumber" : 4
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height" :"170px",
+    "width" :"180px",
+    "paramId": [
+      6,
+      7
+    ],
+    "conditions": [
+      {
+          "conditionParamId": 122,
+          "compareValue": "U – V – W",
+          "operator": "neq",
+          "isDisabled" : true,
+          "andConditions": []
+      }
+    ],
+    "showProgress" : false,
+    "splitNumber" : 4
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height" :"170px",
+    "width" :"180px",
+    "paramId": [
+      8
+    ],
+    "showProgress" : false,
+    "splitNumber" : 4
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "height" :"170px",
+    "width" :"180px",
+    "paramId": [
+      14,
+      20
+    ],
+    "showProgress" : false,
+    "splitNumber" : 4
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "width" : "260px",
+    "valueFontSize": "24px",
+    "valueColor" : "#c67d7d",
+    "conditions": [
+      {
+        "paramId": 35,
+        "compareValue": "Pre Init",
+        "operator": "eq",
+        "text": "Pre Init"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Init",
+        "operator": "eq",
+        "text": "Init"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Startup",
+        "operator": "eq",
+        "text": "Startup"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Standby",
+        "operator": "eq",
+        "text": "Standby"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Soft Start Delay",
+        "operator": "eq",
+        "text": "Soft Start Delay"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Soft Start",
+        "operator": "eq",
+        "text": "Soft Start"
+      },
+      {
+        "paramId": 35,
+        "compareValue": "Normal Operation",
+        "operator": "eq",
+        "text": "Normal Operation"
+      }
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "width": "260px",
+    "name": "Generator Working Time",
+    "showUnits": true,
+    "separator": ":",
+    "paramId": [
+      99,
+      98,
+      97,
+      96,
+      95,
+      94
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 2,
+    "width": "190px",
+    "side": "right",
+    "name": "Device HW/SW version",
+    "showUnits": false,
+    "separator": ":",
+    "nameColor" : "#cfbe73",
+    "paramId": [
+      9974,
+      9975
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 2,
+    "side": "right",
+    "title": "Protection Clear",
+    "image": "alarmClear.png",
+    "imageHeight": "50px",
+    "imageWidth": "50px",
+    "actionType": "setValue",
+    "actionParamId": 103,
+    "actionValue": 1,
+    "height": "60px",
+    "width": "60px"
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 6,
+    "side": "center",
+    "paramId": [
+      37,
+      272,
+      279
+    ]
+  },
+
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [      
+      100,
+      122,
+      110,
+      111,
+      112,
+      121,
+      113,
+      114,
+      115,
+      104,
+      105,
+      106,
+      107,
+      117,
+      118,
+      119,
+      120,
+      108,
+      109
+    ],
+    "paramGroups": []
+  },
+
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [      
+      101,
+      102,
+      103,
+      135,
+      139,
+      140,
+      141,
+      142,
+      123,
+      124,
+      137,
+      138,
+      270,
+      271,
+      277,
+      278,
+      150,
+      203,
+      204
+    ],
+    "paramGroups": []
+  },
+
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "OEX Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 403,
+        "textInputIds": [400,402],
+        "leftToggleId": 406
+    },
+    "itemList": [
+        {
+            "id": 400,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 402,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 403,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 406,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "LOS Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 419,          
+        "textInputIds": [418],
+        "leftToggleId": 422
+    },
+    "itemList": [
+        {
+            "id": 418,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 419,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 422,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "GOV Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 427,          
+        "textInputIds": [425,426],
+        "leftToggleId": 430,
+        "rightToggleId": 431
+    },
+    "itemList": [
+        {
+            "id": 425,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 426,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 427,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 430,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 431,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "GUV Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 435,
+        "textInputIds": [433,434],
+        "leftToggleId": 438,
+        "rightToggleId": 439
+    },
+    "itemList": [
+        {
+            "id": 433,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 434,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 435,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 438,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 439,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 2,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "SVU Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 443,
+        "textInputIds": [441,442],
+        "leftToggleId": 446,
+        "rightToggleId": 447
+    },
+    "itemList": [
+        {
+            "id": 441,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 442,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 443,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 446,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 447,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 2,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "GCL Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 451,
+        "textInputIds": [448,450],
+        "leftToggleId": 454,
+        "rightToggleId": 455
+    },
+    "itemList": [
+        {
+            "id": 448,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 450,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 451,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 454,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 455,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 2,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "WTA Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 459,
+        "textInputIds": [456,458],
+        "leftToggleId": 462,
+        "rightToggleId": 463
+    },
+    "itemList": [
+        {
+            "id": 456,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 458,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 459,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 462,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+                {
+            "id": 463,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 2,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "WTL Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 467,
+        "textInputIds": [464,466],
+        "leftToggleId": 470,
+        "rightToggleId": 471
+    },
+    "itemList": [
+        {
+            "id": 464,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 466,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 467,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 470,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+                {
+            "id": 471,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 3,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "MSF Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 483,
+        "textInputIds": [482, 476],
+        "leftToggleId": 486,
+        "rightToggleId": 487
+    },
+    "itemList": [
+        {
+            "id": 476,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 482,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 483,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 486,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+                {
+            "id": 487,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 3,
+    "side": "center",
+    "width": "250px",
+    "height": "250px",
+    "title": "RDF Protection",
+    "titleIsBold": true,
+    "titleColor": "#c67d7d",
+    "showItemBorder" : true,
+        "protectionSet": {
+        "topToggleId": 491,          
+        "textInputIds": [490],
+        "leftToggleId": 494,
+        "rightToggleId": 495
+    },
+    "itemList": [
+        {
+            "id": 490,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+        {
+            "id": 491,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },        
+        {
+            "id": 494,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        },
+                {
+            "id": 495,  
+            "nameIsBold": true,
+            "nameIsItalic": false,
+            "nameColor": "var(--textPrimary)",
+            "valueIsBold": false,
+            "valueIsItalic": false
+        }
+    ]
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 0,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 1,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 2,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 100,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+    {
+    "object": "dataoperation",
+    "targetParamId": 118,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 119,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  }
+]

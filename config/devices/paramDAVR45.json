@@ -1,0 +1,4059 @@
+[
+  {
+    "fileVersion": 1,
+    "parameters": [
+      {
+        "id": 0,
+        "modbusAddress": 0,
+        "version": 4013,
+        "name": "UV RMS Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 0,
+        "maxValue": 6000,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Phase – Phase RMS Voltage measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 1,
+        "modbusAddress": 1,
+        "version": 4013,
+        "name": "VW RMS Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 0,
+        "maxValue": 6000,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Phase – Phase RMS Voltage measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 2,
+        "modbusAddress": 72,
+        "version": 4013,
+        "name": "WU RMS Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 0,
+        "maxValue": 6000,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Phase – Phase RMS Voltage measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 6,
+        "modbusAddress": 6,
+        "version": 4013,
+        "name": "UV Frequency",
+        "group": "Monitoring",
+        "unit": "Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 8038,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "100.48"
+        },
+        "comment": "Phase – Phase Frequency measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 7,
+        "modbusAddress": 7,
+        "version": 4013,
+        "name": "VW Frequency",
+        "group": "Monitoring",
+        "unit": "Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 8038,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "100.48"
+        },
+        "comment": "Phase – Phase Frequency measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 8,
+        "modbusAddress": 8,
+        "version": 4013,
+        "name": "WU Frequency",
+        "group": "Monitoring",
+        "unit": "Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 8038,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "100.48"
+        },
+        "comment": "Phase – Phase Frequency measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 14,
+        "modbusAddress": 14,
+        "version": 4013,
+        "name": "Field Current RMS",
+        "group": "Monitoring",
+        "unit": "A",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 10000,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Field Current RMS measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 20,
+        "modbusAddress": 20,
+        "version": 4013,
+        "name": "DROOP Current RMS",
+        "group": "Monitoring",
+        "unit": "% PU",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 1024,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "1024"
+        },
+        "comment": "DROOP Current RMS measurement by 1 PU",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 25,
+        "modbusAddress": 25,
+        "version": 4013,
+        "name": "AUX Voltage Input Value",
+        "group": "Monitoring",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 10240,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "1024"
+        },
+        "comment": "Auxiliary voltage input measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 26,
+        "modbusAddress": 26,
+        "version": 4013,
+        "name": "AUX Current Input Value",
+        "group": "Monitoring",
+        "unit": "mA",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 20480,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "1024"
+        },
+        "comment": "Auxiliary current input measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 27,
+        "modbusAddress": 27,
+        "version": 4013,
+        "name": "VOLTS Pot",
+        "group": "Monitoring",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": true,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 4096,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "4096"
+        },
+        "comment": "VOLTS Trimmer measurement. Percentage of the effect on the output voltage",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 28,
+        "modbusAddress": 28,
+        "version": 4013,
+        "name": "STAB Pot",
+        "group": "Monitoring",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": true,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 4096,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "4096"
+        },
+        "comment": "STAB Trimmer measurement. Percentage of the effect on the PID parameters",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 29,
+        "modbusAddress": 29,
+        "version": 4013,
+        "name": "DROOP Pot",
+        "group": "Monitoring",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 4096,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "4096"
+        },
+        "comment": "DROOP Trimmer measurement. Percentage of the effect on the output voltage",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 33,
+        "modbusAddress": 33,
+        "version": 4013,
+        "name": "EXT Pot",
+        "group": "Monitoring",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 4096,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "4096"
+        },
+        "comment": "External pot measurement",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 34,
+        "modbusAddress": 34,
+        "version": 4013,
+        "name": "EXT Pot Connected",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "N/A"
+          },
+          {
+            "value": 1,
+            "mask": "Connected"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "External pot connection status flag. Reference voltage would stay same in case of broken pot. It will return to reference voltage on restart if there is no pot connected.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 35,
+        "modbusAddress": 35,
+        "version": 4013,
+        "name": "Controller State",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 6,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Pre Init"
+          },
+          {
+            "value": 1,
+            "mask": "Init"
+          },
+          {
+            "value": 2,
+            "mask": "Startup"
+          },
+          {
+            "value": 3,
+            "mask": "Standby"
+          },
+          {
+            "value": 4,
+            "mask": "Soft Start Delay"
+          },
+          {
+            "value": 5,
+            "mask": "Soft Start"
+          },
+          {
+            "value": 6,
+            "mask": "Normal Operation"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR’s current status",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 37,
+        "modbusAddress": 37,
+        "version": 4013,
+        "name": "Effective Reference Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 0,
+        "maxValue": 5800,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Actual voltage reference that is AVR trying to reach. In relation with Onboard VOLTS pot external pot UFRO LAM DROOP",
+        "readOnly": true,
+        "relation": [
+          {
+            "relationParamId": "100",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          },
+          {
+            "relationParamId": "25",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          },
+          {
+            "relationParamId": "26",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          },
+          {
+            "relationParamId": "27",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          },
+          {
+            "relationParamId": "29",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          },
+          {
+            "relationParamId": "33",
+            "relationValue": "",
+            "relation": "-",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "modbusAddress": 41,
+        "version": 4013,
+        "name": "Calibration Ready",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Calibration status parameter. Check ‘Calibration Verification’ parameter to verify",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 42,
+        "modbusAddress": 42,
+        "version": 4013,
+        "name": "Configuration Ready",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Configuration status parameter. Check ‘Calibration Verification’ parameter to verify",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 43,
+        "modbusAddress": 43,
+        "version": 4013,
+        "name": "DAVR Ready",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR is ready to operate no latched errors",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 44,
+        "modbusAddress": 44,
+        "version": 4013,
+        "name": "USB",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "USB Connected",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 46,
+        "modbusAddress": 46,
+        "version": 4013,
+        "name": "12V Ready",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 49,
+        "modbusAddress": 49,
+        "version": 4013,
+        "name": "UFRO",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "UFRO function is ongoing. detected Low Frequency",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 50,
+        "modbusAddress": 50,
+        "version": 4013,
+        "name": "SHORT CIRCUIT",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Stator Current Measurement reached short circuit",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 51,
+        "modbusAddress": 51,
+        "version": 4013,
+        "name": "RELAY",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Alarm Relay Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 52,
+        "modbusAddress": 52,
+        "version": 4013,
+        "name": "OUT TRIP",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR Output Cutoff",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 54,
+        "modbusAddress": 54,
+        "version": 4013,
+        "name": "SCM",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Stator Current IDMT Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 55,
+        "modbusAddress": 55,
+        "version": 4013,
+        "name": "OEX",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 57,
+        "modbusAddress": 57,
+        "version": 4013,
+        "name": "LOS",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Loss Of Sense Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 58,
+        "modbusAddress": 58,
+        "version": 4013,
+        "name": "GOV",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Over Voltage Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 59,
+        "modbusAddress": 59,
+        "version": 4013,
+        "name": "GUV",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Under Voltage Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 60,
+        "modbusAddress": 60,
+        "version": 4013,
+        "name": "SVU",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Stator Voltage Unbalance Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 61,
+        "modbusAddress": 61,
+        "version": 4013,
+        "name": "GCL",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Current Limit Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 62,
+        "modbusAddress": 62,
+        "version": 4013,
+        "name": "MSF",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Motor Start Failed",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 63,
+        "modbusAddress": 63,
+        "version": 4013,
+        "name": "RDF",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Rotating Diode Failed",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 64,
+        "modbusAddress": 64,
+        "version": 4013,
+        "name": "WTA",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 65,
+        "modbusAddress": 65,
+        "version": 4013,
+        "name": "WTL",
+        "group": "Monitoring",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Protection Activated",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 93,
+        "modbusAddress": 93,
+        "version": 4013,
+        "name": "Maximum Ambient Temp History",
+        "group": "Monitoring",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 85,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Maximum ambient temperature of this AVR has ever exposed",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 94,
+        "modbusAddress": 94,
+        "version": 4013,
+        "name": "Minutes",
+        "group": "Monitoring",
+        "unit": "Min",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 59,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 95,
+        "modbusAddress": 95,
+        "version": 4013,
+        "name": "Hours",
+        "group": "Monitoring",
+        "unit": "Hr",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 23,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 96,
+        "modbusAddress": 96,
+        "version": 4013,
+        "name": "Days",
+        "group": "Monitoring",
+        "unit": "D",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 364,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 97,
+        "modbusAddress": 97,
+        "version": 4013,
+        "name": "Weeks",
+        "group": "Monitoring",
+        "unit": "Wk",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 51,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 98,
+        "modbusAddress": 98,
+        "version": 4013,
+        "name": "Years",
+        "group": "Monitoring",
+        "unit": "Yr",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 99,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 99,
+        "modbusAddress": 99,
+        "version": 4013,
+        "name": "Centuries",
+        "group": "Monitoring",
+        "unit": "C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 99,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator working time",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 100,
+        "modbusAddress": 100,
+        "version": 4013,
+        "name": "RMS Voltage Set",
+        "group": "Configuration",
+        "unit": "V",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 1000,
+        "maxValue": 4800,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Nominal RMS Reference Voltage. Effected by UFRO LAM DROOP and Pots.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 101,
+        "modbusAddress": 101,
+        "version": 4013,
+        "name": "AVR Start",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Stop"
+          },
+          {
+            "value": 1,
+            "mask": "Start"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR’s start status flag. Also can be used to manually start AVR if there is no error.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 102,
+        "modbusAddress": 102,
+        "version": 4013,
+        "name": "AVR Autostart",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR auto start setting. If enabled AVR will start as soon as there is no errors.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 103,
+        "modbusAddress": 103,
+        "version": 4013,
+        "name": "Clear Output Errors",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Clear error flags setting. Note: flags will automatically turn on if error continues.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 104,
+        "modbusAddress": 104,
+        "version": 4013,
+        "name": "Start Delay",
+        "group": "Setpoint",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 7200,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR wait time in seconds while generator starting.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 105,
+        "modbusAddress": 105,
+        "version": 4013,
+        "name": "Start Frequency",
+        "group": "Parameters",
+        "unit": "Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 2512,
+        "maxValue": 7536,
+        "defaultValue": 2512,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "100.48"
+        },
+        "comment": "AVR ramp up start frequency while generator starting. AVR will wait until sense frequency reaches this level.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 106,
+        "modbusAddress": 106,
+        "version": 4013,
+        "name": "Soft Start Time",
+        "group": "Setpoint",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 1,
+        "maxValue": 7200,
+        "defaultValue": 1,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "AVR ramp up time while generator starting.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 107,
+        "modbusAddress": 107,
+        "version": 4013,
+        "name": "Reference Change Ramp Limit Rate",
+        "group": "Setpoint",
+        "unit": "V/S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 10.24,
+        "maxValue": 1024,
+        "defaultValue": 512,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "1024"
+        },
+        "comment": "Reference Voltage limit for not causing unstable reference while using pots etc.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 109,
+        "modbusAddress": 109,
+        "version": 4018,
+        "name": "Minimum Reference Percentage",
+        "group": "Setpoint",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 1,
+        "maxValue": 100,
+        "defaultValue": 75,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Sets Minimum Reference setpoint limit percentage according to Reference RMS.",
+        "readOnly": false
+      },
+      {
+        "id": 110,
+        "modbusAddress": 110,
+        "version": 4013,
+        "name": "PID Kp",
+        "group": "Setpoint",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 32000,
+        "defaultValue": 900,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Proportional coefficient of the controller. Increasing it will cause faster AVR reaction but worse steady state stability.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 111,
+        "modbusAddress": 111,
+        "version": 4013,
+        "name": "PID Ki",
+        "group": "Setpoint",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 32000,
+        "defaultValue": 750,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Integral coefficient of the controller. Increasing it will cause better steady state stability but worse reaction time.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 112,
+        "modbusAddress": 112,
+        "version": 4013,
+        "name": "PID Kd",
+        "group": "Setpoint",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 32000,
+        "defaultValue": 350,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Derivative coefficient of the controller. Increasing it will cause faster AVR reaction but worse steady state stability.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 117,
+        "modbusAddress": 117,
+        "version": 4013,
+        "name": "UFRO Knee Point",
+        "group": "Setpoint",
+        "unit": "Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 4019.2,
+        "maxValue": 6531.2,
+        "defaultValue": 4772,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "100.48"
+        },
+        "comment": "This point will determine at what frequency AVR starts derating output voltage. It is used while taking block load.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 118,
+        "modbusAddress": 118,
+        "version": 4013,
+        "name": "DIP Rate",
+        "group": "Setpoint",
+        "unit": "V/Hz",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 8148.8,
+        "defaultValue": 1630,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "101.38"
+        },
+        "comment": "This rate will determine how much drop will be applied to output voltage. It is used while taking block load.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 119,
+        "modbusAddress": 119,
+        "version": 4013,
+        "name": "DWELL Time",
+        "group": "Setpoint",
+        "unit": "V/S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 4911,
+        "defaultValue": 1024,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "10.24"
+        },
+        "comment": "This rate will determine how fast should output voltage recover after derating. Increasing it will cause faster recover time.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 120,
+        "modbusAddress": 120,
+        "version": 4013,
+        "name": "LAM Mode Selection",
+        "group": "Setpoint",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "NORMAL"
+          },
+          {
+            "value": 1,
+            "mask": "ENKO"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Selection of the recover after derating mode. Should be changed according to block load performance of the system.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 121,
+        "modbusAddress": 121,
+        "version": 4013,
+        "name": "Short Circuit Threshold",
+        "group": "Configuration",
+        "unit": "mA",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 1000,
+        "maxValue": 15000,
+        "defaultValue": 4200,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Short Circuit Mode Threshold. AVR will get in to the short circuit supply mode after this threshold. Attention! This Mode will disable LOS GCL and GUV. Disables after Droop Current drops below threshold.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 122,
+        "modbusAddress": 122,
+        "version": 4013,
+        "name": "Sensing Mode",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 7,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 4,
+            "mask": "W – U"
+          },
+          {
+            "value": 7,
+            "mask": "U – V – W"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 123,
+        "modbusAddress": 123,
+        "version": 4013,
+        "name": "AUX Input Mode",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Ext Pot"
+          },
+          {
+            "value": 1,
+            "mask": "- 5 / + 5V"
+          },
+          {
+            "value": 3,
+            "mask": "0V – 10V"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Auxiliary input mode selection. AUX input will effect output voltage. In case of external pot connection this input should be disabled.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 124,
+        "modbusAddress": 124,
+        "version": 4013,
+        "name": "AUX Input Range",
+        "group": "Configuration",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 128,
+        "defaultValue": 38,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "128"
+        },
+        "comment": "Auxiliary input’s effect range on output voltage",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 134,
+        "modbusAddress": 134,
+        "version": 4013,
+        "name": "Power Transfer Ratio",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 409.6,
+        "maxValue": 32727,
+        "defaultValue": 1,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "409.6"
+        },
+        "comment": "1 PU Generator Nominal Output Power. Used for J1939 Standard.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 135,
+        "modbusAddress": 135,
+        "version": 4013,
+        "name": "Current Transfer Ratio",
+        "group": "Configuration",
+        "unit": "1 P.U. A",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 16384,
+        "maxValue": 205,
+        "defaultValue": 1024,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "1/",
+          "operationValue": "1024.0"
+        },
+        "comment": "Current transfer ratio This ratio determines 1PU DROOP current on CT input.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 137,
+        "modbusAddress": 137,
+        "version": 4013,
+        "name": "DROOP Mode",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Line DROOP"
+          },
+          {
+            "value": 2,
+            "mask": "Load Balance"
+          },
+          {
+            "value": 3,
+            "mask": "Quadrature"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "DROOP function determines stator current's effect on output reference voltage.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 138,
+        "modbusAddress": 138,
+        "version": 4013,
+        "name": "DROOP Phase Compensation",
+        "group": "Configuration",
+        "unit": "°",
+        "dataLength": 1,
+        "signed": true,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 0,
+        "maxValue": 1200,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "-",
+          "operationValue": "60"
+        },
+        "comment": "DROOP current phase compensation. Needed if there is phase shift between current and voltage.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 139,
+        "modbusAddress": 139,
+        "version": 4013,
+        "name": "VOLTS Trimmer Effective Range",
+        "group": "Setpoint",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 38.4,
+        "defaultValue": 38.4,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "128"
+        },
+        "comment": "VOLTS trimmer effective range on output voltage.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 140,
+        "modbusAddress": 140,
+        "version": 4013,
+        "name": "STAB Trimmer Effective Range",
+        "group": "Setpoint",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 38.4,
+        "defaultValue": 38.4,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "128"
+        },
+        "comment": "STAB trimmer effective range on controller parameters.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 141,
+        "modbusAddress": 141,
+        "version": 4013,
+        "name": "DROOP Trimmer Effective Range",
+        "group": "Setpoint",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 12.8,
+        "defaultValue": 7.68,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "128"
+        },
+        "comment": "DROOP trimmer effective range on output voltage.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 142,
+        "modbusAddress": 142,
+        "version": 4013,
+        "name": "External Pot Effective Range",
+        "group": "Setpoint",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 38.4,
+        "defaultValue": 38.4,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "128"
+        },
+        "comment": "External pot effective range on output voltage.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 150,
+        "modbusAddress": 150,
+        "version": 4017,
+        "name": "Relay Normal Position",
+        "group": "Parameters",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Normally Open"
+          },
+          {
+            "value": 1,
+            "mask": "Normally Closed"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Determines relay status while there are no errors",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 203,
+        "modbusAddress": 203,
+        "version": 4013,
+        "name": "Reset Parameters To Defaults",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "-"
+          },
+          {
+            "value": 1,
+            "mask": "Reset"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Reset all parameters to their defaults.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 204,
+        "modbusAddress": 204,
+        "version": 4013,
+        "name": "Reset Engine Hours",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "-"
+          },
+          {
+            "value": 1,
+            "mask": "Reset"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 218,
+        "modbusAddress": 218,
+        "version": 4013,
+        "name": "Canbus Source Address",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 127,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "This AVR’s CANBus address to publish information",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 219,
+        "modbusAddress": 219,
+        "version": 4013,
+        "name": "Canbus Destination Address",
+        "group": "Configuration",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 127,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Assigned CANBus device address to accept parameters. 0 for all",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 270,
+        "modbusAddress": 270,
+        "version": 4013,
+        "name": "ADT A Input Mode",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 5,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Analog"
+          },
+          {
+            "value": 2,
+            "mask": "Digital"
+          },
+          {
+            "value": 3,
+            "mask": "Winding Temp"
+          },
+          {
+            "value": 4,
+            "mask": "Aux Temp"
+          },
+          {
+            "value": 5,
+            "mask": "External Start"
+          },
+          {
+            "value": 6,
+            "mask": "External Stop"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "ADT A input type selection. This parameter also effects related protections to selected type.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 271,
+        "modbusAddress": 271,
+        "version": 4013,
+        "name": "ADT A Temperature",
+        "group": "Temperatures",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Temperature value of the ADT A input.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 272,
+        "modbusAddress": 272,
+        "version": 4013,
+        "name": "ADT A Value",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "This value could be Analog Digital Temperature according to input type selection.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 277,
+        "modbusAddress": 277,
+        "version": 4013,
+        "name": "ADT B Input Mode",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 5,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Analog"
+          },
+          {
+            "value": 2,
+            "mask": "Digital"
+          },
+          {
+            "value": 3,
+            "mask": "Winding Temp"
+          },
+          {
+            "value": 4,
+            "mask": "Aux Temp"
+          },
+          {
+            "value": 5,
+            "mask": "External Start"
+          },
+          {
+            "value": 6,
+            "mask": "External Stop"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "ADT B input type selection. This parameter also effects related protections to selected type.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 278,
+        "modbusAddress": 278,
+        "version": 4013,
+        "name": "ADT B Temperature",
+        "group": "Temperatures",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Temperature value of the ADT input.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 279,
+        "modbusAddress": 279,
+        "version": 4013,
+        "name": "ADT B Value",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "This value could be Analog Digital Temperature according to input type selection.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 284,
+        "modbusAddress": 284,
+        "version": 4013,
+        "name": "ADT C Input Mode",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 5,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Analog"
+          },
+          {
+            "value": 2,
+            "mask": "Digital"
+          },
+          {
+            "value": 3,
+            "mask": "Winding Temp"
+          },
+          {
+            "value": 4,
+            "mask": "Aux Temp"
+          },
+          {
+            "value": 5,
+            "mask": "External Start"
+          },
+          {
+            "value": 6,
+            "mask": "External Stop"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "ADT C input type selection. This parameter also effects related protections to selected type.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 285,
+        "modbusAddress": 285,
+        "version": 4013,
+        "name": "ADT C Temperature",
+        "group": "Temperatures",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Temperature value of the ADT input.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 286,
+        "modbusAddress": 286,
+        "version": 4013,
+        "name": "ADT C Value",
+        "group": "Temperatures",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 255,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "This value could be Analog Digital Temperature according to input type selection.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 400,
+        "modbusAddress": 400,
+        "version": 4013,
+        "name": "OEX Threshold",
+        "group": "OEX",
+        "unit": "A",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 5000,
+        "defaultValue": 5000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Trigger Threshold",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 402,
+        "modbusAddress": 402,
+        "version": 4013,
+        "name": "OEX Delay",
+        "group": "OEX",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 10000,
+        "defaultValue": 10000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 403,
+        "modbusAddress": 403,
+        "version": 4013,
+        "name": "OEX Enable",
+        "group": "OEX",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 406,
+        "modbusAddress": 406,
+        "version": 4013,
+        "name": "OEX Relay",
+        "group": "OEX",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Error Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 407,
+        "modbusAddress": 407,
+        "version": 4013,
+        "name": "OEX Trip",
+        "group": "OEX",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Over Excitation Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 418,
+        "modbusAddress": 418,
+        "version": 4013,
+        "name": "LOS Delay",
+        "group": "LOS",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 25000,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Loss Of Sense Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 419,
+        "modbusAddress": 419,
+        "version": 4013,
+        "name": "LOS Enable",
+        "group": "LOS",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Loss of Sense Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 422,
+        "modbusAddress": 422,
+        "version": 4013,
+        "name": "LOS Relay",
+        "group": "LOS",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Loss Of Sense Error Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 423,
+        "modbusAddress": 423,
+        "version": 4013,
+        "name": "LOS Trip",
+        "group": "LOS",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Loss Of Sense Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 425,
+        "modbusAddress": 425,
+        "version": 4013,
+        "name": "GOV Percentage",
+        "group": "GOV",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 8192,
+        "defaultValue": 4915.2,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "16384"
+        },
+        "comment": "Generator Over Voltage Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 426,
+        "modbusAddress": 426,
+        "version": 4013,
+        "name": "GOV Delay",
+        "group": "GOV",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 10000,
+        "defaultValue": 3000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Over Voltage Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 427,
+        "modbusAddress": 427,
+        "version": 4013,
+        "name": "GOV Enable",
+        "group": "GOV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Over Voltage Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 430,
+        "modbusAddress": 430,
+        "version": 4013,
+        "name": "GOV Relay",
+        "group": "GOV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Over Voltage Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 431,
+        "modbusAddress": 431,
+        "version": 4013,
+        "name": "GOV Trip",
+        "group": "GOV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Over Voltage Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 433,
+        "modbusAddress": 433,
+        "version": 4013,
+        "name": "GUV Percentage",
+        "group": "GUV",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 8192,
+        "defaultValue": 8192,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "16384"
+        },
+        "comment": "Generator Under Voltage Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 434,
+        "modbusAddress": 434,
+        "version": 4013,
+        "name": "GUV Delay",
+        "group": "GUV",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 10000,
+        "defaultValue": 3000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Under Voltage Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 435,
+        "modbusAddress": 435,
+        "version": 4013,
+        "name": "GUV Enable",
+        "group": "GUV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Under Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 438,
+        "modbusAddress": 438,
+        "version": 4013,
+        "name": "GUV Relay",
+        "group": "GUV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Under Voltage Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 439,
+        "modbusAddress": 439,
+        "version": 4013,
+        "name": "GUV Trip",
+        "group": "GUV",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Under Voltage Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 441,
+        "modbusAddress": 441,
+        "version": 4013,
+        "name": "SVU Percentage",
+        "group": "SVU",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 3277,
+        "maxValue": 8192,
+        "defaultValue": 3276.8,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "16384"
+        },
+        "comment": "Stator Voltage Unbalance Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 442,
+        "version": 4013,
+        "name": "SVU Delay",
+        "group": "SVU",
+        "unit": "S",
+        "modbusAddress": 442,
+        "dataLength": 1,
+        "coef": -3,
+        "signed": false,
+        "view": "decimal",
+        "minValue": 0,
+        "maxValue": 15000,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 443,
+        "modbusAddress": 443,
+        "version": 4013,
+        "name": "SVU Enable",
+        "group": "SVU",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "SVU Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 446,
+        "modbusAddress": 446,
+        "version": 4013,
+        "name": "SVU Relay",
+        "group": "SVU",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Stator Voltage Unbalance Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 447,
+        "modbusAddress": 447,
+        "version": 4013,
+        "name": "SVU Trip",
+        "group": "SVU",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Stator Voltage Unbalance Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 448,
+        "modbusAddress": 448,
+        "version": 4013,
+        "name": "GCL Threshold",
+        "group": "GCL",
+        "unit": "%",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 2,
+        "minValue": 0,
+        "maxValue": 3072,
+        "defaultValue": 3072,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "/",
+          "operationValue": "1024"
+        },
+        "comment": "Generator Current Limit Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 450,
+        "modbusAddress": 450,
+        "version": 4013,
+        "name": "GCL Delay",
+        "group": "GCL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 32000,
+        "defaultValue": 10000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Current Limit Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 451,
+        "modbusAddress": 451,
+        "version": 4013,
+        "name": "GCL Enable",
+        "group": "GCL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "GCL Error Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 454,
+        "modbusAddress": 454,
+        "version": 4013,
+        "name": "GCL Relay",
+        "group": "GCL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 455,
+        "modbusAddress": 455,
+        "version": 4013,
+        "name": "GCL Trip",
+        "group": "GCL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Generator Current Limit Masking on Startup Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 456,
+        "modbusAddress": 456,
+        "version": 4013,
+        "name": "WTA Threshold",
+        "group": "WTA",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 400,
+        "maxValue": 2000,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 458,
+        "modbusAddress": 458,
+        "version": 4013,
+        "name": "WTA Delay",
+        "group": "WTA",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 15000,
+        "defaultValue": 5000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 459,
+        "modbusAddress": 459,
+        "version": 4013,
+        "name": "WTA Enable",
+        "group": "WTA",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 462,
+        "modbusAddress": 462,
+        "version": 4013,
+        "name": "WTA Relay",
+        "group": "WTA",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 463,
+        "modbusAddress": 463,
+        "version": 4013,
+        "name": "WTA Trip",
+        "group": "WTA",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Alarm Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 464,
+        "modbusAddress": 464,
+        "version": 4013,
+        "name": "WTL Threshold",
+        "group": "WTL",
+        "unit": "°C",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -1,
+        "minValue": 400,
+        "maxValue": 3000,
+        "defaultValue": 1250,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Trigger Level",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 466,
+        "modbusAddress": 466,
+        "version": 4013,
+        "name": "WTL Delay",
+        "group": "WTL",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 0,
+        "maxValue": 15000,
+        "defaultValue": 5000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 467,
+        "modbusAddress": 467,
+        "version": 4013,
+        "name": "WTL Enable",
+        "group": "WTL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 470,
+        "modbusAddress": 470,
+        "version": 4013,
+        "name": "WTL Relay",
+        "group": "WTL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 471,
+        "modbusAddress": 471,
+        "version": 4013,
+        "name": "WTL Trip",
+        "group": "WTL",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Winding Temperature Limit Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 472,
+        "modbusAddress": 472,
+        "version": 4013,
+        "name": "IDMT Field Mode",
+        "group": "IDMT",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 2,
+        "defaultValue": 2,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "IEC A Standard"
+          },
+          {
+            "value": 2,
+            "mask": "IEC B Very"
+          },
+          {
+            "value": 3,
+            "mask": "IEC C Extreme"
+          },
+          {
+            "value": 4,
+            "mask": "Alternative A"
+          },
+          {
+            "value": 5,
+            "mask": "Alternative B"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "IDMT Fuse Curve mode selection.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 476,
+        "modbusAddress": 476,
+        "version": 4013,
+        "name": "IDMT Sense Mode",
+        "group": "IDMT",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 2,
+        "defaultValue": 2,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "IEC A Standard"
+          },
+          {
+            "value": 2,
+            "mask": "IEC B Very"
+          },
+          {
+            "value": 3,
+            "mask": "IEC C Extreme"
+          },
+          {
+            "value": 4,
+            "mask": "Alternative A"
+          },
+          {
+            "value": 5,
+            "mask": "Alternative B"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "IDMT Fuse Curve mode selection.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 477,
+        "modbusAddress": 477,
+        "version": 4013,
+        "name": "IDMT Sense Enable",
+        "group": "IDMT",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "IDMT Fuse Enable",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 478,
+        "modbusAddress": 478,
+        "version": 4013,
+        "name": "IDMT Sense Excess",
+        "group": "IDMT",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "IDMT Fuse Excess energy detected flag.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 479,
+        "modbusAddress": 479,
+        "version": 4013,
+        "name": "IDMT Sense Trip",
+        "group": "IDMT",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "IDMT Fuse Tripped flag.",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 482,
+        "modbusAddress": 482,
+        "version": 4013,
+        "name": "MSF Delay",
+        "group": "MSF",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 1000,
+        "maxValue": 30000,
+        "defaultValue": 10000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Motor Start Failure Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+     {
+        "id": 483,
+        "modbusAddress": 483,
+        "version": 4013,
+        "name": "MSF Protection Enable",
+        "group": "MSF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "MSF Protection Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 486,
+        "modbusAddress": 486,
+        "version": 4013,
+        "name": "MSF Relay",
+        "group": "MSF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Motor Start Failure Alarm Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 487,
+        "modbusAddress": 487,
+        "version": 4013,
+        "name": "MSF Trip",
+        "group": "MSF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Motor Start Failure Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 490,
+        "modbusAddress": 490,
+        "version": 4013,
+        "name": "RDF Delay",
+        "group": "RDF",
+        "unit": "S",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": -3,
+        "minValue": 1000,
+        "maxValue": 32000,
+        "defaultValue": 10000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Rotating Diode Failure Delay Time",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 491,
+        "modbusAddress": 491,
+        "version": 4013,
+        "name": "RDF Protection Enable",
+        "group": "RDF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "RDF Protection Enable Flag",
+        "readOnly": false,
+        "relation": []
+      },      
+      {
+        "id": 494,
+        "modbusAddress": 494,
+        "version": 4013,
+        "name": "RDF Relay",
+        "group": "RDF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Rotating Diode Failure Relay Trigger Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 495,
+        "modbusAddress": 495,
+        "version": 4013,
+        "name": "RDF Trip",
+        "group": "RDF",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Disabled"
+          },
+          {
+            "value": 1,
+            "mask": "Enabled"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Rotating Diode Failure Output Trip Flag",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9942,
+        "modbusAddress": 9942,
+        "version": 4015,
+        "name": "DEVICE_USER_PASS_ENTRY",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 9999,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "USER PASSWORD LOGIN REGISTER. RETURNS LOGIN LEVEL ON PASSWORD ENTRY",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9944,
+        "modbusAddress": 9944,
+        "version": 4015,
+        "name": "DEVICE_FACT_PASS_CHANGE",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 9999,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "FACTORY PASSWORD CHANGE REGISTER. REQUIRES FACTORY OR HIGHER LEVEL LOGIN FIRST",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9945,
+        "modbusAddress": 9945,
+        "version": 4015,
+        "name": "DEVICE_SERV_PASS_CHANGE",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 9999,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "SERVICE PASSWORD CHANGE REGISTER. REQUIRES SERVICE OR HIGHER LEVEL LOGIN FIRST",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9946,
+        "modbusAddress": 9946,
+        "version": 4015,
+        "name": "DEVICE_USER_PASS_CHANGE",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 9999,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "USER PASSWORD CHANGE REGISTER. REQUIRES USER OR HIGHER LEVEL LOGIN FIRST",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9947,
+        "modbusAddress": 9947,
+        "version": 4015,
+        "name": "DEVICE_DEF_PASS_CHANGE",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "RETURN ALL PASSWORDS TO ENKO DEFAULTS. REQUIRES FACTORY LEVEL OR HIGHER LOGIN FIRST",
+        "readOnly": false,
+        "relation": []
+      },
+      {
+        "id": 9974,
+        "modbusAddress": 9974,
+        "version": 4013,
+        "name": "Device BL Version",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 1000,
+        "maxValue": 32767,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Current bootloader version of the AVR.",
+        "readOnly": true,
+        "relation": []
+      },
+      {
+        "id": 9975,
+        "modbusAddress": 9975,
+        "version": 4013,
+        "name": "Device SW Version",
+        "group": "Device",
+        "unit": "",
+        "dataLength": 1,
+        "signed": false,
+        "view": "decimal",
+        "coef": 0,
+        "minValue": 1000,
+        "maxValue": 32767,
+        "defaultValue": 1000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "comment": "Current software version of the AVR.",
+        "readOnly": true,
+        "relation": []
+      }
+    ],
+    "alarms": [
+      {
+        "alarmId": 0,
+        "alarmComment": "No Error",
+        "commentUnit": "",
+        "severity": "low"
+      },
+      {
+        "alarmId": 1,
+        "alarmComment": "High DAVR Temperature",
+        "Comment": "DAVR internal temperature is too high",
+        "commentUnit": "°C",
+        "severity": "high"
+      },
+      {
+        "alarmId": 2,
+        "alarmComment": "OEX",
+        "Comment": "Field current too high",
+        "commentUnit": "A",
+        "severity": "critical"
+      },
+      {
+        "alarmId": 3,
+        "alarmComment": "LOS",
+        "Comment": "Loss of Sensing Voltage",
+        "commentUnit": "V",
+        "severity": "critical"
+      },
+      {
+        "alarmId": 4,
+        "alarmComment": "GCL",
+        "Comment": "Generator Current too high",
+        "commentUnit": "PU",
+        "severity": "high"
+      },
+      {
+        "alarmId": 5,
+        "alarmComment": "SVU",
+        "Comment": "Stator Voltage Unbalance too high",
+        "commentUnit": "V",
+        "severity": "critical"
+      },
+      {
+        "alarmId": 6,
+        "alarmComment": "GUV",
+        "Comment": "Generator Stator voltage too low",
+        "commentUnit": "V",
+        "severity": "high"
+      },
+      {
+        "alarmId": 7,
+        "alarmComment": "GOV",
+        "Comment": "Generator stator voltage too high",
+        "commentUnit": "V",
+        "severity": "high"
+      },
+      {
+        "alarmId": 8,
+        "alarmComment": "IDMT Sense",
+        "Comment": "Generator stator current too high",
+        "commentUnit": "PU",
+        "severity": "high"
+      },
+      {
+        "alarmId": 9,
+        "alarmComment": "IDMT Field",
+        "Comment": "Field current too high",
+        "commentUnit": "A PU",
+        "severity": "critical"
+      },
+      {
+        "alarmId": 10,
+        "alarmComment": "WTA",
+        "Comment": "Winding Temperature too high",
+        "commentUnit": "°C",
+        "severity": "high"
+      },
+      {
+        "alarmId": 11,
+        "alarmComment": "WTL",
+        "Comment": "Winding Temperature too high",
+        "commentUnit": "°C",
+        "severity": "high"
+      },
+      {
+        "alarmId": 12,
+        "alarmComment": "MSF",
+        "Comment": "Motor start failure",
+        "commentUnit": "",
+        "severity": "high"
+      },
+      {
+        "alarmId": 13,
+        "alarmComment": "RDF",
+        "Comment": "Rotating diode failure",
+        "commentUnit": "",
+        "severity": "high"
+      },
+      {
+        "alarmId": 14,
+        "alarmComment": "UFRO",
+        "Comment": "Under frequency during operation",
+        "commentUnit": "Hz",
+        "severity": "high"
+      }
+    ],
+    "events": []
+  }
+]

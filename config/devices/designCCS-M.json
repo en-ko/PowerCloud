@@ -1,0 +1,1477 @@
+[
+  {
+    "object": "config",
+    "pageCount": 2,
+    "pageTitle": [
+      "Monitor",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "320px",
+    "valueColor": "#39d1cf",
+    "valueFontSize": "24px",
+    "valueIsBold": true,
+    "conditions": [
+      {
+        "paramId": 164,
+        "compareValue": "Manual",
+        "operator": "eq",
+        "text": "Manual Mode"
+      },
+      {
+        "paramId": 164,
+        "compareValue": "Automatic",
+        "operator": "eq",
+        "text": "Auto Mode"
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "valueColor": "#f59678",
+    "valueFontSize": "24px",
+    "valueIsBold": true,
+    "width": "320px",
+    "text": "",
+    "conditions": [
+      {
+        "paramId": 203,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Stopping",
+        "isBlinking": false
+      },
+      {
+        "paramId": 203,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Auto Waiting",
+        "isBlinking": false
+      },
+      {
+        "paramId": 203,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Idle",
+        "isBlinking": true
+      },
+      {
+        "paramId": 203,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Preheat",
+        "isBlinking": true
+      },
+      {
+        "paramId": 203,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Onload",
+        "isBlinking": true
+      },
+      {
+        "paramId": 203,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "Stopping",
+        "valueColor": "#a3d23f",
+        "isBlinking": true
+      },
+      {
+        "paramId": 203,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Screw Check",
+        "isBlinking": true
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "width": "90px",
+    "height": "90px",
+    "imageWidth": "90px",
+    "imageHeight": "90px",
+    "image": "stateStopped.svg",
+    "conditions": [
+      {
+        "paramId": 351,
+        "compareValue": "0",
+        "operator": "eq",
+        "image": "stateStopping.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "1",
+        "operator": "eq",
+        "image": "stateHighPressureWarning.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "2",
+        "operator": "eq",
+        "image": "statePreheat.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "3",
+        "operator": "eq",
+        "image": "statePreheatOnLoad.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "4",
+        "operator": "eq",
+        "image": "stateStarting.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "5",
+        "operator": "eq",
+        "image": "stateNoLoad.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "6",
+        "operator": "eq",
+        "image": "stateAirRelease.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "7",
+        "operator": "eq",
+        "image": "stateStopped.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "8",
+        "operator": "eq",
+        "image": "stateLoading.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "9",
+        "operator": "eq",
+        "image": "stateLoaded.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "10",
+        "operator": "eq",
+        "image": "stateLoading.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "11",
+        "operator": "eq",
+        "image": "stateLoading.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "12",
+        "operator": "eq",
+        "image": "stateAutoWait.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "13",
+        "operator": "eq",
+        "image": "stateMotorStarting.svg"
+      },
+      {
+        "paramId": 351,
+        "compareValue": "14",
+        "operator": "eq",
+        "image": "stateAutoWait.svg"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "valueFontSize": "24px",
+    "valueIsBold": true,
+    "valueColor": "maron",
+    "paramId": [
+      349
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 349,
+        "compareValue": "-1",
+        "operator": "eq",
+        "fixedValue": "---"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "name": "Start",
+    "width": "50px",
+    "height": "50px",
+    "imageWidth": "30px",
+    "imageHeight": "30px",
+    "image": "ledDarkGray.png",
+    "conditions": [
+      {
+        "paramId": 204,
+        "compareValue": "8",
+        "operator": "bitOne",
+        "image": "ledGreen.png"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "name": "Stop",
+    "width": "50px",
+    "height": "50px",
+    "imageWidth": "30px",
+    "imageHeight": "30px",
+    "image": "ledDarkGray.png",
+    "conditions": [
+      {
+        "paramId": 203,
+        "compareValue": "5",
+        "operator": "eq",
+        "image": "ledRed.png",
+	      "effect": "fade"
+      },
+      {
+        "paramId": 203,
+        "compareValue": "0",
+        "operator": "eq",
+        "image": "ledRed.png"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "name": "Alarm",
+    "width": "50px",
+    "height": "50px",
+    "imageWidth": "30px",
+    "imageHeight": "30px",
+    "image": "ledDarkGray.png",
+    "conditions": [
+      {
+        "paramId": 205,
+        "compareValue": "1",
+        "operator": "eq",
+        "image": "ledRed.png",
+	      "effect": "fade"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 10,
+    "side": "left",
+    "title": "Start",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "start.png",
+    "actionType": "setValue",
+    "actionParamId": 201,
+    "actionValue": 1
+  }, 
+  {
+    "object": "button",
+    "page": 1,
+    "row": 10,
+    "side": "left",
+    "title": "Stop",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 201,
+    "actionValue": 2
+  }, 
+  {
+    "object": "button",
+    "page": 1,
+    "row": 10,
+    "side": "left",
+    "title": "Clear Alarm",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "horn.png",
+    "actionType": "setValue",
+    "actionParamId": 201,
+    "actionValue": 4
+  },    
+  {
+    "object": "image",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "width": "83px",
+    "height": "100px",
+    "imageWidth": "63px",
+    "imageHeight": "100px",
+    "image": "tankVerticalEmpty.svg",
+    "conditions": [
+      {
+        "paramId": 350,
+        "compareValue": "2",
+        "operator": "bitOne",
+        "image": "tankVertical.svg"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "width": "80px",
+    "height": "80px",
+    "imageWidth": "80px",
+    "imageHeight": "80px",
+    "image": "fan.svg",
+    "conditions": [
+      {
+        "paramId": 350,
+        "compareValue": "1",
+        "operator": "bitOne",
+        "image": "fan.svg",
+	      "effect": "rotate",
+        "effectDuration": "0.8s"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "width": "80px",
+    "height": "80px",
+    "imageWidth": "80px",
+    "imageHeight": "80px",
+    "image": "screw.svg",
+    "conditions": [
+      {
+        "paramId": 350,
+        "compareValue": "4",
+        "operator": "bitOne",
+        "image": "screw.svg",
+	      "effect": "rotate",
+        "effectDuration": "2s"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 8,
+    "side": "left",
+    "paramId": [
+      292
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 292,
+        "compareValue": "0",
+        "operator": "lt",
+        "fixedValue": "---"
+      },
+      {
+        "conditionParamId": 292,
+        "compareValue": "16",
+        "operator": "gt",
+        "fixedValue": "---"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 8,
+    "side": "left",
+    "paramId": [
+      293
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 293,
+        "compareValue": "0",
+        "operator": "lt",
+        "fixedValue": "---"
+      },
+      {
+        "conditionParamId": 293,
+        "compareValue": "16",
+        "operator": "gt",
+        "fixedValue": "---"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 9,
+    "side": "left",
+    "paramId": [
+      309
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 309,
+        "compareValue": "999.9",
+        "operator": "eq",
+        "fixedValue": "---",
+        "isDisabled": true
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 9,
+    "side": "left",
+    "paramId": [
+      310
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 310,
+        "compareValue": "999.9",
+        "operator": "eq",
+        "fixedValue": "---",
+        "isDisabled": true
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "330px",
+    "height": "360px",
+    "titleFontSize": "20px",
+    "titleIsBold": true,
+    "titleColor": "yellow",
+    "title": "Inputs",
+    "itemList": [
+      {
+        "name": "Input - 1",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 2",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 3",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 4",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 5",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 6",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },   
+      {
+        "name": "Input - 7",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Input - 8",
+        "conditions": [
+          {
+            "paramId": 307,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "330px",
+    "height": "360px",
+    "titleFontSize": "20px",
+    "titleIsBold": true,
+    "titleColor": "#65edeb",
+    "title": "Outputs",
+    "itemList": [
+      {
+        "name": "Output - 1",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      },
+      {
+        "name": "Output - 2",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      },
+      {
+        "name": "Output - 3",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      },
+      {
+        "name": "Output - 4",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      },
+      {
+        "name": "Output - 5",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      },
+      {
+        "name": "Output - 6",
+        "conditions": [
+          {
+            "paramId": 308,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "color": "#65edeb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      298,
+      299,
+      300
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      301
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      302,
+      303,
+      304,
+      305
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "title": "Maintenance Times",
+    "width": "320px",
+      "itemList": [
+      {
+        "id": 337
+      },
+      {
+        "id": 338
+      },
+      {
+        "id": 339
+      },
+      {
+        "id": 340
+      },
+      {
+        "id": 341
+      },
+      {
+        "id": 342
+      }
+    ]
+  },
+  {
+    "object": "indicator",
+    "page": 1,
+    "row": 2,
+    "side": "right",
+    "width": "320px",
+    "height": "448px",
+    "inactiveHide": true,
+    "title": "Active Alarm List",
+    "hideIfNoConditions": true,
+    "itemList": [
+      {
+        "name": "Out Pressure (P1) Warning",
+        "conditions": [
+          {
+            "paramId": 381,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Internal Pressure (P2) Warning",
+        "conditions": [
+          {
+            "paramId": 381,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Delta Pressure Warning",
+        "conditions": [
+          {
+            "paramId": 382,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T1 High Warning",
+        "conditions": [
+          {
+            "paramId": 382,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T1 Low Warning",
+        "conditions": [
+          {
+            "paramId": 383,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Power Interrupt",
+        "conditions": [
+          {
+            "paramId": 383,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Service Level 1",
+        "conditions": [
+          {
+            "paramId": 384,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T2 High Warning",
+        "conditions": [
+          {
+            "paramId": 384,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T2 Low Warning",
+        "conditions": [
+          {
+            "paramId": 385,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr High Warning",
+        "conditions": [
+          {
+            "paramId": 385,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vs High Warning",
+        "conditions": [
+          {
+            "paramId": 386,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vt High Warning",
+        "conditions": [
+          {
+            "paramId": 386,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr Low Warning",
+        "conditions": [
+          {
+            "paramId": 387,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vs Low Warning",
+        "conditions": [
+          {
+            "paramId": 387,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vt Low Warning",
+        "conditions": [
+          {
+            "paramId": 388,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Frequency High Warning",
+        "conditions": [
+          {
+            "paramId": 388,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Frequency Low Warning",
+        "conditions": [
+          {
+            "paramId": 389,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Motor Thermic Warning",
+        "conditions": [
+          {
+            "paramId": 389,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Fan Thermic Warning",
+        "conditions": [
+          {
+            "paramId": 390,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Motor Thermic",
+        "conditions": [
+          {
+            "paramId": 390,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Seperator Filter",
+        "conditions": [
+          {
+            "paramId": 391,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Fan Thermic - DI",
+        "conditions": [
+          {
+            "paramId": 391,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Phase Seq. (DI)",
+        "conditions": [
+          {
+            "paramId": 392,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+            "paramId": 382,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Out Pressure (P1) Fault",
+        "conditions": [
+          {
+            "paramId": 393,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Internal Pressure (P2) Fault",
+        "conditions": [
+          {
+            "paramId": 393,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Delta Pressure Fault",
+        "conditions": [
+          {
+            "paramId": 394,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T1 High Fault",
+        "conditions": [
+          {
+            "paramId": 394,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T1 Low Fault",
+        "conditions": [
+          {
+            "paramId": 395,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Aux 1 Fault",
+        "conditions": [
+          {
+            "paramId": 395,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Aux 2 Fault",
+        "conditions": [
+          {
+            "paramId": 396,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Max Start Count",
+        "conditions": [
+          {
+            "paramId": 396,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Output Sensor Fault",
+        "conditions": [
+          {
+            "paramId": 397,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Internal Sensor Fault",
+        "conditions": [
+          {
+            "paramId": 397,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Minimum Pressure Reached",
+        "conditions": [
+          {
+            "paramId": 398,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Service Level 2",
+        "conditions": [
+          {
+            "paramId": 398,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Service Level 3",
+        "conditions": [
+          {
+            "paramId": 399,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Service Level 4",
+        "conditions": [
+          {
+            "paramId": 399,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Service Level 5",
+        "conditions": [
+          {
+            "paramId": 400,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr High Alarm",
+        "conditions": [
+          {
+            "paramId": 400,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr High Alarm",
+        "conditions": [
+          {
+            "paramId": 401,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr High Alarm",
+        "conditions": [
+          {
+            "paramId": 401,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vr Low Alarm",
+        "conditions": [
+          {
+            "paramId": 402,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vs Low Alarm",
+        "conditions": [
+          {
+            "paramId": 402,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Vt Low Alarm",
+        "conditions": [
+          {
+            "paramId": 403,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Phase Seq(AI)",
+        "conditions": [
+          {
+            "paramId": 403,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "PTC Alarm",
+        "conditions": [
+          {
+            "paramId": 404,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+            "paramId": 404,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T1 Fault",
+        "conditions": [
+          {
+            "paramId": 405,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T2 Fault",
+        "conditions": [
+          {
+            "paramId": 405,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T2 High Alarm",
+        "conditions": [
+          {
+            "paramId": 406,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "T2 Low Alarm",
+        "conditions": [
+          {
+            "paramId": 406,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "High Frequency Alarm",
+        "conditions": [
+          {
+            "paramId": 407,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Low Frequency Alarm",
+        "conditions": [
+          {
+            "paramId": 407,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Phase Unbalance Alarm",
+        "conditions": [
+          {
+            "paramId": 408,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Oil Pressure Alarm",
+        "conditions": [
+          {
+            "paramId": 408,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Inverter Communication Fault",
+        "conditions": [
+          {
+            "paramId": 409,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Inverter General Alarm",
+        "conditions": [
+          {
+            "paramId": 409,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Cover Open Alarm",
+        "conditions": [
+          {
+            "paramId": 410,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "P.K. ID Fault",
+        "conditions": [
+          {
+            "paramId": 410,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "P.K. High Pressure Fault",
+        "conditions": [
+          {
+            "paramId": 411,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "P.K. Stop Pressure Fault",
+        "conditions": [
+          {
+            "paramId": 411,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Low Pressure Alarm",
+        "conditions": [
+          {
+            "paramId": 412,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Motor Thermic AI",
+        "conditions": [
+          {
+            "paramId": 412,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Fan Thermic AI",
+        "conditions": [
+          {
+            "paramId": 413,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Unbalanced Current",
+        "conditions": [
+          {
+            "paramId": 413,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [      
+      "Pressure",
+      "Timing",
+      "Input",
+      "Output",
+      "Maintenance",
+      "Temperature",
+      "Mains",
+      "General",
+      "Inverter",
+      "Parallel Control"
+    ]
+  }
+]

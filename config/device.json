@@ -1,0 +1,296 @@
+[
+  {
+    "name": "POWER CLOUD MKII",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "patchVersion": 1,
+    "type": "software",
+    "sharedFileVersion": 1,
+    "translationVersion": 1,
+    "translations": [
+      "Chinese"
+    ]
+  },
+  {
+    "name": "DAVR20",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true, 
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "DAVR40",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true,
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "DAVR4T",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true,
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "DAVR45",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true, 
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "eventLog": false,
+    "eventLogOptions":{
+      "startAddress" : 100,
+      "endAddress" : 110,
+      "indexAddress" : 701
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "DAVR90",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true, 
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "DAVR100",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true, 
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "eventLog": false,
+    "eventLogOptions":{
+      "startAddress" : 100,
+      "endAddress" : 110
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },
+  {
+    "name": "AMF-S",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "rtc": true,
+    "rtcOptions": {
+      "yearFormat": "2digit",
+      "addresses": {
+          "year": 201,
+          "month": 202,
+          "day": 203,
+          "hour": 204,
+          "minute": 205,
+          "second": 206
+      }
+    },
+    "bMAddress": 19
+  },
+  {
+    "name": "ATS-S",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19
+  },
+  {
+    "name": "ESU-S",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19,
+    "rtc": true,
+    "rtcOptions": {
+      "yearFormat": "2digit"
+    },
+    "taskScheduling": true,
+    "taskSchedulingOptions":{
+      "taskCount" : 3,
+      "functionParamBaseID": 379
+    }
+  },
+  {
+    "name": "AMF-L",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19
+  },
+  {
+    "name": "CCS-S",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Compressor",
+    "bMAddress": 19
+  },
+  {
+    "name": "MODEM",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Modem",
+    "bMAddress": 2
+  },
+  {
+    "name": "CCS-M",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Compressor",
+    "background" :{
+      "backgroundImage": true,
+      "imageSize": {
+        "width": 108,
+        "height": 108
+      },
+      "backgroundColor": true,
+      "progressBarColor": true,
+      "maxPacketSize": 64,
+      "qrCode": true,
+      "qrCodeMaxLength": 1500,
+      "rgbaFormat": "bgra"
+    },
+    "bMAddress": 1117
+  },
+  {
+    "name": "DBC2",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : false,
+    "bMAddress": 45
+  },
+  {
+    "name": "LEAKWISE",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Other",
+    "bMAddress": 1117,
+    "eventLog": true,
+    "eventLogOptions":{
+      "startAddress" : 1801,
+      "endAddress" : 766,
+      "indexAddress" : 1800,
+      "logCount" : 30
+    },
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 1701,
+      "endAddress" : 766,
+      "indexAddress" : 1700,
+      "logCount" : 30
+    },
+    "rtc": true,
+    "rtcOptions": {
+      "yearFormat": "2digit"
+    }
+  },
+  {
+    "name": "DRYER",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Compressor",
+    "bMAddress": 19
+  },
+  {
+    "name": "BMU",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19
+  },
+  {
+    "name": "AMF-S+",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19
+  },
+  {
+    "name": "BMU-52S",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "rtc": true,
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 9603,
+      "endAddress" : 9612,
+      "indexAddress" : 9602,
+      "logCount" : 100
+    },
+    "rtcOptions": {
+      "yearFormat": "2digit",
+      "addresses": {
+          "year": 9919,
+          "month": 9918,
+          "day": 9917,
+          "hour": 9916,
+          "minute": 9915,
+          "second": 9914
+      }
+    },
+    "bMAddress": 2
+  }
+]

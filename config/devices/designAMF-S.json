@@ -1,0 +1,407 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Mains",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3005
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3006
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3018
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "name": "Generator Status",
+    "conditions": [
+      {
+        "paramId": 3017,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Ready"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Start Count"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Sound Warn."
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Prestart"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Cranking"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "Crank Pause"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Running"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "7",
+        "operator": "eq",
+        "text": "Loaded"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "8",
+        "operator": "eq",
+        "text": "Cooling Down"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "9",
+        "operator": "eq",
+        "text": "Transfer"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "9",
+        "operator": "eq",
+        "text": "Stop"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      3007,
+      3008,
+      3009,
+      3010,
+      3011
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 5,
+    "side": "right",
+    "width": "290px",
+    "conditions": [
+      {
+        "paramId": 53,
+        "compareValue": "Stop Mode",
+        "operator": "eq",
+        "text": "Stop Mode"
+      },
+      {
+        "paramId": 53,
+        "compareValue": "Auto Mode",
+        "operator": "eq",
+        "text": "Auto Mode"
+      },
+      {
+        "paramId": 53,
+        "compareValue": "Test Mode",
+        "operator": "eq",
+        "text": "Test Mode"
+      },
+      {
+        "paramId": 53,
+        "compareValue": "Manual Mode",
+        "operator": "eq",
+        "text": "Manual Mode"
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "310px",
+    "title": "Alarm Indicator",
+    "itemList": [
+      {
+        "name": "High Oil Pressure",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "High Cool Temperature",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Battery Under Voltage",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Over Voltage",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Low Oil Pressure",
+        "conditions": [
+          {
+              "paramId": 10,
+              "compareValue": "15",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "310px",
+    "title": "Outputs",
+    "itemList": [
+      {
+        "name": "Digital Out-1",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-2",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "1",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-3",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "2",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-4",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "3",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-5",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "4",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-6",
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "5",
+              "operator": "bitOne",
+              "isOn": true,
+              "isBlinking": false,
+              "color" :"red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Stop",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 53,
+    "actionValue": 0
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Auto",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "auto.png",
+    "actionType": "setValue",
+    "actionParamId": 53,
+    "actionValue": 1
+  },
+  {
+    "object": "progressgauge",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3001,
+      3002,
+      3003
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      3004
+    ]
+  },
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Mains",
+      "Generator",
+      "Engine",
+      "Mains Timer",
+      "Generator Timer",
+      "Engine Timer",
+      "Communication",
+      "Digital Output",
+      "Digital Input",
+      "Analog Input-1",
+      "Analog Input-2",
+      "Analog Input-3"
+    ]
+  }
+]

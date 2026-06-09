@@ -1,0 +1,439 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Generator",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3001,
+      3002,
+      3003
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      3005,
+      3007,
+      3009
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      3015,
+      3017,
+      3019
+    ]
+  },
+  {
+    "object": "pressuregauge",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      3049
+    ]
+  },
+  {
+    "object": "temperaturegauge",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      3050
+    ],
+    "width" : "200px"
+  },
+  {
+    "object": "gradegauge",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      3051
+    ],
+
+  "colorRanges": [
+    [0.25, "#fd666d"],
+    [0.75, "#67e0e3"],
+    [1, "#37a2da"]
+  ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "title": "Error Indicator",
+    "width": "300px",
+    "height": "400px",
+    "itemList": [
+        {
+            "name": "Relay-1",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "0",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Relay-2",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "1",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Relay-3",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "2",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Relay-4",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "3",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Digital Out-1",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "4",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Digital Out-2",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "5",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Digital Out-3",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "6",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        },
+        {
+            "name": "Digital Out-4",
+            "nameIsBold": false,
+            "nameIsItalic": false,
+            "conditions": [
+                {
+                    "paramId": 3071,
+                    "compareValue": "7",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "isBlinking": false
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 3,
+    "width": "200px",
+    "side": "right",
+    "name": "Generator Status",
+    "valueFontSize": "34px",
+    "valueIsBold": true,
+    "conditions": [
+      {
+        "paramId": 3064,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Ready"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Start Delay"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Sound Warn."
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Prestart"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Cranking"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "Crank Pause"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Starting"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "7",
+        "operator": "eq",
+        "text": "Loaded"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "8",
+        "operator": "eq",
+        "text": "Cooling"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "9",
+        "operator": "eq",
+        "text": "Transfer"
+      },
+      {
+        "paramId": 3064,
+        "compareValue": "10",
+        "operator": "eq",
+        "text": "Stopping"
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 2,
+    "width" : "200px",
+    "side": "left",
+    "name" : "Generator Status",
+    "valueFontSize": "34px",
+    "valueIsBold": true,
+    "conditions": [
+      {
+        "paramId": 68,
+        "compareValue": "Stop Mode",
+        "operator": "eq",
+        "text": "Stop Mode"
+      },
+      {
+        "paramId": 68,
+        "compareValue": "Auto Mode",
+        "operator": "eq",
+        "text": "Auto Mode"
+      },
+      {
+        "paramId": 68,
+        "compareValue": "Test Mode",
+        "operator": "eq",
+        "text": "Test Mode"
+      },
+      {
+        "paramId": 68,
+        "compareValue": "Manual Mode",
+        "operator": "eq",
+        "text": "Manual Mode"
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "title": "Alarm Indicator",
+    "width": "300px",
+    "height": "400px",
+    "itemList": [
+        {
+            "name": "Emergency Stop",
+            "nameIsBold": false,
+            "nameIsItalic": true,
+            "conditions": [
+                {
+                    "paramId": 3201,
+                    "compareValue": "8",
+                    "operator": "bitOne",
+                    "isOn": true,
+                    "color" : "#FC5E42",
+                    "isBlinking": false
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Start",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "start.png",
+    "actionType": "setValue",
+    "actionParamId": 68,
+    "actionValue": 1
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Stop",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 68,
+    "actionValue": 0
+  },
+  {
+    "object": "progressgauge",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3011,
+      3012,
+      3013
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3014
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      3015,
+      3017,
+      3019
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      3049,
+      3050,
+      3051,
+      3052
+    ]
+  },
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Mains",
+      "Generator",
+      "Engine",
+      "Mains Timer",
+      "Generator Timer",
+      "Engine Timer",
+      "Communication",
+      "Outputs",
+      "Digital Input",
+      "Analog Input-1",
+      "Analog Input-2",
+      "Analog Input-3",
+      "Analog Input-4",
+	    "Extension Board"
+    ]
+  }
+]

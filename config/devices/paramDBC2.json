@@ -1,0 +1,2076 @@
+[
+  {
+    "fileVersion": 1,
+    "parameters": [
+    {
+      "id": 0,
+      "version": 2004,
+      "name": "PSU Output Voltage",
+      "group": "Set Point",
+      "unit": "V",
+      "modbusAddress": 0,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1200,
+      "maxValue": 1500,
+      "defaultValue": 1200,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 1,
+      "version": 2004,
+      "name": "Output Voltage Effective",
+      "group": "Monitoring",
+      "unit": "V",
+      "modbusAddress": 1,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1500,
+      "defaultValue": 1380,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 2,
+      "version": 2004,
+      "name": "Max. PSU Output Current",
+      "group": "Set Point",
+      "unit": "A",
+      "modbusAddress": 2,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 100,
+      "maxValue": 600,
+      "defaultValue": 500,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 3,
+      "version": 2004,
+      "name": "Output Current Effective",
+      "group": "Monitoring",
+      "unit": "A",
+      "modbusAddress": 3,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 600,
+      "defaultValue": 500,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 4,
+      "version": 2004,
+      "name": "Boost Voltage",
+      "group": "Set Point",
+      "unit": "V",
+      "modbusAddress": 4,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1200,
+      "maxValue": 1500,
+      "defaultValue": 1450,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 5,
+      "version": 2004,
+      "name": "Equalization Time",
+      "group": "Set Point",
+      "unit": "Min",
+      "modbusAddress": 5,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 6,
+      "version": 2004,
+      "name": "Auto Boost Time",
+      "group": "Set Point",
+      "unit": "Min",
+      "modbusAddress": 6,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 32000,
+      "defaultValue": 10000,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+
+      {
+      "id": 9,
+      "version": 2004,
+      "name": "External Cable Voltage Droop Compensation",
+      "group": "Cable Parameters",
+      "unit": "mV/A",
+      "modbusAddress": 9,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 100,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "External cable voltage drop compensation",
+      "relation": []
+    },
+
+    {
+      "id": 10,
+      "version": 2004,
+      "name": "Charge State",
+      "group": "Set Point",
+      "unit": "",
+      "modbusAddress": 10,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 10,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "BOOST"
+        },
+        {
+          "value": 1,
+          "mask": "EQUALIZATION"
+        },
+        {
+          "value": 2,
+          "mask": "FLOAT"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 11,
+      "version": 2004,
+      "name": "Auto Boost",
+      "group": "Set Point",
+      "unit": "",
+      "modbusAddress": 11,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "DISABLED"
+        },
+        {
+          "value": 1,
+          "mask": "ENABLED"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 12,
+      "version": 2004,
+      "name": "Device Mode",
+      "group": "Set Point",
+      "unit": "",
+      "modbusAddress": 12,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "CHARGER"
+        },
+        {
+          "value": 1,
+          "mask": "PSU"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 14,
+      "version": 2004,
+      "name": "Parallel Working",
+      "group": "Configuration",
+      "unit": "",
+      "modbusAddress": 14,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "DISABLED"
+        },
+        {
+          "value": 1,
+          "mask": "ENABLED"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 15,
+      "version": 2004,
+      "name": "Parallel Coefficient",
+      "group": "Configuration",
+      "unit": "mV/A",
+      "modbusAddress": 15,
+      "dataLength": 1,
+      "coef": 1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 100,
+      "defaultValue": 3,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 16,
+      "version": 2004,
+      "name": "Pt100 Activated",
+      "group": "Configuration",
+      "unit": "",
+      "modbusAddress": 16,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "DISABLED"
+        },
+        {
+          "value": 1,
+          "mask": "ENABLED"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 17,
+      "version": 2004,
+      "name": "Pt100 dV/dT",
+      "group": "Configuration",
+      "unit": "mV/°C",
+      "modbusAddress": 17,
+      "dataLength": 1,
+      "coef": 1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+
+    {
+      "id": 18,
+      "version": 2004,
+      "name": "Pt100 High Warning Temperature",
+      "group": "Temperature Parameters",
+      "unit": "°C",
+      "modbusAddress": 18,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1000,
+      "defaultValue": 450,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "High temperature warning threshold",
+      "relation": [
+          {
+          "relatedParamId":19,
+          "condition" : "lt",
+          "errorType" : "block"
+        }
+      ]
+    },
+
+
+  {
+      "id": 19,
+      "version": 2004,
+      "name": "Pt100 High Alarm Temperature",
+      "group": "Temperature Parameters",
+      "unit": "°C",
+      "modbusAddress": 19,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 2000,
+      "defaultValue": 500,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "High temperature alarm threshold",
+      "relation": [
+          {
+          "relatedParamId":18,
+          "condition" : "gt",
+          "errorType" : "block"
+        }
+      ]
+    },
+
+    {
+      "id": 20,
+      "version": 2004,
+      "name": "Max Ambient",
+      "group": "Monitoring",
+      "unit": "°C",
+      "modbusAddress": 20,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 128,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 21,
+      "version": 2004,
+      "name": "Output Voltage",
+      "group": "Monitoring",
+      "unit": "V",
+      "modbusAddress": 21,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1800,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 22,
+      "version": 2004,
+      "name": "Output Current",
+      "group": "Monitoring",
+      "unit": "A",
+      "modbusAddress": 22,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": true,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 600,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 23,
+      "version": 2004,
+      "name": "Operating Mode",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 23,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "PSU Mode"
+        },
+        {
+          "value": 1,
+          "mask": "Bulk Mode"
+        },
+        {
+          "value": 2,
+          "mask": "Absorption Mode"
+        },
+        {
+          "value": 3,
+          "mask": "Float Mode"
+        },
+        {
+          "value": 4,
+          "mask": "Boost Mode"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "Current operating mode of the device",
+      "relation": []
+    },
+    {
+      "id": 24,
+      "version": 2004,
+      "name": "Pt100 Temperature",
+      "group": "Monitoring",
+      "unit": "°C",
+      "modbusAddress": 24,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": true,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 12800,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 25,
+      "version": 2004,
+      "name": "Onboard NTC",
+      "group": "Monitoring",
+      "unit": "°C",
+      "modbusAddress": 25,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1280,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 26,
+      "version": 2004,
+      "name": "Internal NTC",
+      "group": "Monitoring",
+      "unit": "°C",
+      "modbusAddress": 26,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 128,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 27,
+      "version": 2004,
+      "name": "Battery Voltage (Reverse)",
+      "group": "Monitoring",
+      "unit": "V",
+      "modbusAddress": 27,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 3200,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 28,
+      "version": 2004,
+      "name": "Is Boost Active",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 28,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 29,
+      "version": 2004,
+      "name": "Model",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 29,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 30,
+      "version": 2004,
+      "name": "Warning Flags",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 30,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 31,
+      "version": 2004,
+      "name": "Error Flags",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 31,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 32,
+      "version": 2004,
+      "name": "Warning Flags",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 32,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 39,
+      "version": 2004,
+      "name": "Output Voltage Effective",
+      "group": "Monitoring",
+      "unit": "V",
+      "modbusAddress": 39,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1500,
+      "defaultValue": 1380,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 41,
+      "version": 2004,
+      "name": "Return To Factory Parameters",
+      "group": "Configuration",
+      "unit": "",
+      "modbusAddress": 41,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 2,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "DISABLED"
+        },
+        {
+          "value": 1,
+          "mask": "ENKO RESET"
+        },
+        {
+          "value": 2,
+          "mask": "USER RESET"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 42,
+      "version": 2004,
+      "name": "Output Voltage PWM",
+      "group": "Configuration",
+      "unit": "",
+      "modbusAddress": 42,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 3200,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 43,
+      "version": 2004,
+      "name": "Output Current PWM",
+      "group": "Configuration",
+      "unit": "",
+      "modbusAddress": 43,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 3200,
+      "defaultValue": 3200,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 44,
+      "version": 2004,
+      "name": "PWM Flag",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 44,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 46,
+      "version": 2004,
+      "name": "Is Cutoff Active",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 46,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 47,
+      "version": 2004,
+      "name": "Is Relay Active",
+      "group": "Monitoring",
+      "unit": "",
+      "modbusAddress": 47,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "-",
+      "relation": []
+    },
+    
+    {
+      "id": 56,
+      "version": 2004,
+      "name": "OFFSET VOUT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 56,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 57,
+      "version": 2004,
+      "name": "RATIO VOUT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 57,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    
+    {
+      "id": 59,
+      "version": 2004,
+      "name": "OFFSET IOUT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 59,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 60,
+      "version": 2004,
+      "name": "RATIO IOUT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 60,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": -4096,
+      "maxValue": 4096,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+
+    {
+      "id": 62,
+      "version": 2004,
+      "name": "OFFSET INTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 62,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 63,
+      "version": 2004,
+      "name": "RATIO INTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 63,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -4096,
+      "maxValue": 4096,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 64,
+      "version": 2004,
+      "name": "SHIFT INTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 64,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 16,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 65,
+      "version": 2004,
+      "name": "OFFSET ONTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 65,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 66,
+      "version": 2004,
+      "name": "RATIO ONTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 66,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -1024,
+      "maxValue": 1024,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 67,
+      "version": 2004,
+      "name": "SHIFT ONTC",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 67,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 68,
+      "version": 2004,
+      "name": "OFFSET VBAT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 68,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 69,
+      "version": 2004,
+      "name": "RATIO VBAT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 69,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 70,
+      "version": 2004,
+      "name": "SHIFT VBAT",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 70,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 71,
+      "version": 2004,
+      "name": "OFFSET Pt100",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 71,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32000,
+      "maxValue": 32000,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+    {
+      "id": 72,
+      "version": 2004,
+      "name": "RATIO Pt100",
+      "group": "Calibration",
+      "unit": "",
+      "modbusAddress": 72,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 65535,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "-",
+      "relation": []
+    },
+
+    {
+      "id": 74,
+      "version": 2004,
+      "name": "Charge Voltage",
+      "group": "Charge Parameters",
+      "unit": "V",
+      "modbusAddress": 74,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1200,
+      "maxValue": 1500,
+      "defaultValue": 1380,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Charger mode voltage setting",
+      "relation": []
+    },
+    {
+      "id": 75,
+      "version": 2004,
+      "name": "Max. Charge Current",
+      "group": "Charge Parameters",
+      "unit": "A",
+      "modbusAddress": 75,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 100,
+      "maxValue": 600,
+      "defaultValue": 500,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Charger mode current setting",
+      "relation": []
+    },
+    {
+      "id": 76,
+      "version": 2004,
+      "name": "Float Voltage",
+      "group": "Charge Parameters",
+      "unit": "V",
+      "modbusAddress": 76,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1200,
+      "maxValue": 1400,
+      "defaultValue": 1250,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Float charge voltage",
+      "relation": []
+    },
+    {
+      "id": 77,
+      "version": 2004,
+      "name": "Float Current Threshold",
+      "group": "Charge Parameters",
+      "unit": "A",
+      "modbusAddress": 77,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 300,
+      "defaultValue": 100,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Current threshold for float mode",
+      "relation": []
+    },
+    {
+      "id": 78,
+      "version": 2004,
+      "name": "Float Duration",
+      "group": "Charge Parameters",
+      "unit": "Min",
+      "modbusAddress": 78,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 300,
+      "defaultValue": 15,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Float charge duration",
+      "relation": []
+    },
+    {
+      "id": 82,
+      "version": 2004,
+      "name": "Boost Source",
+      "group": "Boost Parameters",
+      "unit": "",
+      "modbusAddress": 82,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 2,
+      "defaultValue": 2,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "MANUAL"
+        },
+        {
+          "value": 1,
+          "mask": "TIMER"
+        },
+        {
+          "value": 2,
+          "mask": "AUTO"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Boost activation source",
+      "relation": []
+    },
+    {
+      "id": 83,
+      "version": 2004,
+      "name": "Boost Edge Selection",
+      "group": "Boost Parameters",
+      "unit": "",
+      "modbusAddress": 83,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 1,
+      "defaultValue": 0,
+      "valueMask": [
+        {
+          "value": 0,
+          "mask": "RISING"
+        },
+        {
+          "value": 1,
+          "mask": "FALLING"
+        }
+      ],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Edge selection for boost trigger",
+      "relation": []
+    },
+    {
+      "id": 84,
+      "version": 2004,
+      "name": "Boost Max Current",
+      "group": "Boost Parameters",
+      "unit": "A",
+      "modbusAddress": 84,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 50,
+      "maxValue": 500,
+      "defaultValue": 300,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Maximum current during boost",
+      "relation": []
+    },
+    {
+      "id": 85,
+      "version": 2004,
+      "name": "Max Equalization Time",
+      "group": "Boost Parameters",
+      "unit": "Min",
+      "modbusAddress": 85,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1,
+      "maxValue": 120,
+      "defaultValue": 60,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Boost charge duration",
+      "relation": []
+    },
+    {
+      "id": 86,
+      "version": 2004,
+      "name": "Boost Period",
+      "group": "Boost Parameters",
+      "unit": "Min",
+      "modbusAddress": 86,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 60,
+      "maxValue": 5940,
+      "defaultValue": 1440,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Period between boost cycles",
+      "relation": []
+    },
+    {
+      "id": 87,
+      "version": 2004,
+      "name": "Pt100 Trip Voltage",
+      "group": "Temperature Parameters",
+      "unit": "V",
+      "modbusAddress": 87,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1100,
+      "maxValue": 1400,
+      "defaultValue": 1250,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Safety voltage output during temperature trip events",
+      "relation": []
+    },
+    {
+      "id": 88,
+      "version": 2004,
+      "name": "Pt100 Low Warning Temperature",
+      "group": "Temperature Parameters",
+      "unit": "°C",
+      "modbusAddress": 88,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -100,
+      "maxValue": 100,
+      "defaultValue": 50,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Low temperature warning threshold",
+      "relation": [
+        {
+          "relatedParamId":89,
+          "condition" : "gt",
+          "errorType" : "block"
+        }
+
+      ]
+    },
+    {
+      "id": 89,
+      "version": 2004,
+      "name": "Pt100 Low Alarm Temperature",
+      "group": "Temperature Parameters",
+      "unit": "°C",
+      "modbusAddress": 89,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -100,
+      "maxValue": 100,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Low temperature alarm threshold",
+      "relation": [
+          {
+          "relatedParamId":88,
+          "condition" : "lt",
+          "errorType" : "block"
+        }
+      ]
+    },
+
+    {
+      "id": 132,
+      "version": 2004,
+      "name": "Pt100 High Trip Temperature",
+      "group": "Temperature Parameters",
+      "unit": "°C",
+      "modbusAddress": 132,
+      "dataLength": 1,
+      "coef": -1,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 250,
+      "maxValue": 2000,
+      "defaultValue": 550,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "High temperature trip threshold",
+      "relation": [
+          {
+          "relatedParamId":19,
+          "condition" : "gt",
+          "errorType" : "block"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "version": 2004,
+      "name": "Internal Voltage Droop Compensation",
+      "group": "Cable Droop",
+      "unit": "mV/A",
+      "modbusAddress": 133,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 100,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Internal cable voltage drop compensation",
+      "relation": []
+    },
+    {
+      "id": 134,
+      "version": 2004,
+      "name": "Voltage Limit Max",
+      "group": "Voltage Limits",
+      "unit": "V",
+      "modbusAddress": 134,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1300,
+      "maxValue": 1500,
+      "defaultValue": 1450,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Maximum voltage limit",
+      "relation": []
+    },
+    {
+      "id": 135,
+      "version": 2004,
+      "name": "Voltage Limit Min",
+      "group": "Voltage Limits",
+      "unit": "V",
+      "modbusAddress": 135,
+      "dataLength": 1,
+      "coef": -2,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1100,
+      "maxValue": 1300,
+      "defaultValue": 1150,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "Minimum voltage limit",
+      "relation": []
+    },
+
+    {
+      "id": 33,
+      "version": 2004,
+      "name": "ADC Voltage",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 33,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+
+      {
+      "id": 34,
+      "version": 2004,
+      "name": "ADC Current",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 34,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+
+      {
+      "id": 36,
+      "version": 2004,
+      "name": "ADC Pt100",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 36,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+
+        {
+      "id": 9941,
+      "version": 2004,
+      "name": "ENKO Entry",
+      "group": "Device",
+      "unit": "",
+      "modbusAddress": 9941,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1000,
+      "maxValue": 9999,
+      "defaultValue": 1000,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "",
+      "relation": []
+    },
+
+      {
+      "id": 9942,
+      "version": 2004,
+      "name": "USER Entry",
+      "group": "Device",
+      "unit": "",
+      "modbusAddress": 9942,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1000,
+      "maxValue": 9999,
+      "defaultValue": 1000,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "",
+      "relation": []
+    },
+
+    {
+      "id": 9974,
+      "version": 2004,
+      "name": "Device BL Version",
+      "group": "Device",
+      "unit": "",
+      "modbusAddress": 9974,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1000,
+      "maxValue": 32767,
+      "defaultValue": 1000,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "Bootloader Versiyon Numarası",
+      "relation": []
+    },
+    {
+      "id": 9975,
+      "version": 2004,
+      "name": "Device SW Version",
+      "group": "Device",
+      "unit": "",
+      "modbusAddress": 9975,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 1000,
+      "maxValue": 32767,
+      "defaultValue": 1000,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": true,
+      "comment": "Yazılım Versiyon Numarası",
+      "relation": []
+    },
+
+
+    {
+      "id": 35,
+      "version": 2004,
+      "name": "ADC VBat",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 35,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 37,
+      "version": 2004,
+      "name": "ADC NTC",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 37,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 38,
+      "version": 2004,
+      "name": "ADC MCU Temp.",
+      "group": "ADC Values",
+      "unit": "",
+      "modbusAddress": 38,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": false,
+      "view": "decimal",
+      "minValue": 0,
+      "maxValue": 4095,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 123,
+      "version": 2004,
+      "name": "User Password",
+      "group": "Password",
+      "unit": "",
+      "modbusAddress": 123,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32767,
+      "maxValue": 32767,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 124,
+      "version": 2004,
+      "name": "Service Password",
+      "group": "Password",
+      "unit": "",
+      "modbusAddress": 124,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32767,
+      "maxValue": 32767,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 125,
+      "version": 2004,
+      "name": "Admin Password",
+      "group": "Password",
+      "unit": "",
+      "modbusAddress": 125,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32767,
+      "maxValue": 32767,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    },
+    {
+      "id": 126,
+      "version": 2004,
+      "name": "Manufacturer Password",
+      "group": "Password",
+      "unit": "",
+      "modbusAddress": 126,
+      "dataLength": 1,
+      "coef": 0,
+      "signed": true,
+      "view": "decimal",
+      "minValue": -32767,
+      "maxValue": 32767,
+      "defaultValue": 0,
+      "valueMask": [],
+      "dataOperation": {
+        "operation": "",
+        "operationValue": ""
+      },
+      "readOnly": false,
+      "comment": "",
+      "relation": []
+    }
+      ],
+      "alarms": [],
+      "events": []
+    }
+]

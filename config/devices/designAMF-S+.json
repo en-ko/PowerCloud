@@ -1,0 +1,35 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Parameters",
+      "Timer 1"
+    ]
+  },
+  {
+    "object": "table",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [      
+      "General",
+      "Mains",
+      "Generator",
+      "Engine",
+      "Mains Timer",
+      "Generator Timer",
+      "Engine Timer",
+      "Communication",
+      "Digital Output",
+      "Digital Input",
+      "Analog Input-1",
+      "Analog Input-2",
+      "Analog Input-3"
+    ]
+}
+
+]

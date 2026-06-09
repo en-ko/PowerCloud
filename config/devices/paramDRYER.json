@@ -1,0 +1,6147 @@
+[
+  {
+	"fileVersion": 1,
+    "parameters": [
+      {
+		"id" : 1,
+		"version" : 1003,
+		"name" : "Dewp Sensor Active",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 1,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 2,
+		"version" : 1003,
+		"name" : "Dewp Sensor Max Value",
+		"group" : "Sensor",
+		"unit" : "°C",
+		"modbusAddress" : 2,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -120,
+		"maxValue" : 20,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3,
+		"version" : 1003,
+		"name" : "Dewp Sensor Min Value",
+		"group" : "Sensor",
+		"unit" : "°C",
+		"modbusAddress" : 3,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -120,
+		"maxValue" : 20,
+		"defaultValue" : -40,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 4,
+		"version" : 1003,
+		"name" : "Sensor Dryer State",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 4,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 8,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 5,
+		"version" : 1003,
+		"name" : "Sensor Dryer Cntr State",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 5,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 6,
+		"version" : 1003,
+		"name" : "Tank Choose",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 6,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Tank1"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank2"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1003,
+		"name" : "Reserved 1",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 7,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1005,
+		"name" : "Continue From Last Time",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 7,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 8,
+		"version" : 1003,
+		"name" : "Reserved 2",
+		"group" : "Sensor",
+		"unit" : "",
+		"modbusAddress" : 8,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 255,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 9,
+		"version" : 1003,
+		"name" : "Start Delay",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 600,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 10,
+		"version" : 1003,
+		"name" : "Tank1 Fill Time",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1800,
+		"defaultValue" : 180,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 11,
+		"version" : 1003,
+		"name" : "Tank1 Drain Time",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1800,
+		"defaultValue" : 120,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 12,
+		"version" : 1003,
+		"name" : "Tank2 Fill Time",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1800,
+		"defaultValue" : 180,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 13,
+		"version" : 1003,
+		"name" : "Tank2 Drain Time",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1800,
+		"defaultValue" : 120,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 14,
+		"version" : 1003,
+		"name" : "Cycle Wait Time",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 106,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 600,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 15,
+		"version" : 1003,
+		"name" : "Horn Duration",
+		"group" : "Time",
+		"unit" : "sec",
+		"modbusAddress" : 107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 999,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 16,
+		"version" : 1003,
+		"name" : "Input Function 1",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 3,
+				"mask" : "Start Button"
+			},
+			{
+				"value" : 4,
+				"mask" : "Stop Button"
+			},
+			{
+				"value" : 5,
+				"mask" : "Reserve-1"
+			},
+			{
+				"value" : 6,
+				"mask" : "Reserve-2"
+			},
+			{
+				"value" : 7,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask" : "Change Priority"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 17,
+		"version" : 1003,
+		"name" : "Input Delay 1",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 202,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 18,
+		"version" : 1003,
+		"name" : "Input Contact Type 1",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 19,
+		"version" : 1003,
+		"name" : "Input Type 1",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 20,
+		"version" : 1003,
+		"name" : "Input Function 2",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 3,
+				"mask" : "Start Button"
+			},
+			{
+				"value" : 4,
+				"mask" : "Stop Button"
+			},
+			{
+				"value" : 5,
+				"mask" : "Reserve-1"
+			},
+			{
+				"value" : 6,
+				"mask" : "Reserve-2"
+			},
+			{
+				"value" : 7,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask" : "Change Priority"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 21,
+		"version" : 1003,
+		"name" : "Input Delay 2",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 206,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 22,
+		"version" : 1003,
+		"name" : "Input Contact Type 2",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 23,
+		"version" : 1003,
+		"name" : "Input Type 2",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 24,
+		"version" : 1003,
+		"name" : "Input Function 3",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 3,
+				"mask" : "Start Button"
+			},
+			{
+				"value" : 4,
+				"mask" : "Stop Button"
+			},
+			{
+				"value" : 5,
+				"mask" : "Reserve-1"
+			},
+			{
+				"value" : 6,
+				"mask" : "Reserve-2"
+			},
+			{
+				"value" : 7,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask" : "Change Priority"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 25,
+		"version" : 1003,
+		"name" : "Input Delay 3",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 210,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 26,
+		"version" : 1003,
+		"name" : "Input Contact Type 3",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 27,
+		"version" : 1003,
+		"name" : "Input Type 3",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 28,
+		"version" : 1003,
+		"name" : "Input Function 4",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 3,
+				"mask" : "Start Button"
+			},
+			{
+				"value" : 4,
+				"mask" : "Stop Button"
+			},
+			{
+				"value" : 5,
+				"mask" : "Reserve-1"
+			},
+			{
+				"value" : 6,
+				"mask" : "Reserve-2"
+			},
+			{
+				"value" : 7,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask" : "Change Priority"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 29,
+		"version" : 1003,
+		"name" : "Input Delay 4",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 214,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 30,
+		"version" : 1003,
+		"name" : "Input Contact Type 4",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 215,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 31,
+		"version" : 1003,
+		"name" : "Input Type 4",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 216,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 32,
+		"version" : 1003,
+		"name" : "Input Function 5",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 217,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 3,
+				"mask" : "Start Button"
+			},
+			{
+				"value" : 4,
+				"mask" : "Stop Button"
+			},
+			{
+				"value" : 5,
+				"mask" : "Reserve-1"
+			},
+			{
+				"value" : 6,
+				"mask" : "Reserve-2"
+			},
+			{
+				"value" : 7,
+				"mask" : "Remote start"
+			},
+			{
+				"value" : 8,
+				"mask" : "Change Priority"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 33,
+		"version" : 1003,
+		"name" : "Input Delay 5",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 218,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 34,
+		"version" : 1003,
+		"name" : "Input Contact Type 5",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 219,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 35,
+		"version" : 1003,
+		"name" : "Input Type 5",
+		"group" : "Input",
+		"unit" : "",
+		"modbusAddress" : 220,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 36,
+		"version" : 1003,
+		"name" : "Output Function1",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank1 Filling"
+			},
+			{
+				"value" : 2,
+				"mask" : "Tank2  Filling"
+			},
+			{
+				"value" : 3,
+				"mask" : "Tank1 Drain"
+			},
+			{
+				"value" : 4,
+				"mask" : "Tank2 Drain"
+			},
+			{
+				"value" : 5,
+				"mask" : "Tank Choose"
+			},
+			{
+				"value" : 6,
+				"mask" : "Delete Error"
+			},
+			{
+				"value" : 7,
+				"mask" : "Warning"
+			},
+			{
+				"value" : 8,
+				"mask" : "Fault+Warning"
+			},
+			{
+				"value" : 9,
+				"mask" : "Fan Thermic"
+			},
+			{
+				"value" : 10,
+				"mask" : "Working"
+			},
+			{
+				"value" : 11,
+				"mask" : "Horn"
+			},
+			{
+				"value" : 12,
+				"mask" : "Remote Start Active"
+			},
+			{
+				"value" : 13,
+				"mask" : "Low Temperature Fault"
+			},
+			{
+				"value" : 14,
+				"mask" : "High Temperature Fault"
+			},
+			{
+				"value" : 15,
+				"mask" : "Temperature Sensor Fault"
+			},
+			{
+				"value" : 16,
+				"mask" : "Dewp Low Fault"
+			},
+			{
+				"value" : 17,
+				"mask" : "Dewp High Fault"
+			},
+			{
+				"value" : 18,
+				"mask" : "Dewp Fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 37,
+		"version" : 1003,
+		"name" : "Output Delay1",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 38,
+		"version" : 1003,
+		"name" : "Output Contact Type1",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 39,
+		"version" : 1003,
+		"name" : "Output Type1",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 40,
+		"version" : 1003,
+		"name" : "Output Function2",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 3,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank1 Filling"
+			},
+			{
+				"value" : 2,
+				"mask" : "Tank2  Filling"
+			},
+			{
+				"value" : 3,
+				"mask" : "Tank1 Drain"
+			},
+			{
+				"value" : 4,
+				"mask" : "Tank2 Drain"
+			},
+			{
+				"value" : 5,
+				"mask" : "Tank Choose"
+			},
+			{
+				"value" : 6,
+				"mask" : "Delete Error"
+			},
+			{
+				"value" : 7,
+				"mask" : "Warning"
+			},
+			{
+				"value" : 8,
+				"mask" : "Fault+Warning"
+			},
+			{
+				"value" : 9,
+				"mask" : "Fan Thermic"
+			},
+			{
+				"value" : 10,
+				"mask" : "Working"
+			},
+			{
+				"value" : 11,
+				"mask" : "Horn"
+			},
+			{
+				"value" : 12,
+				"mask" : "Remote Start Active"
+			},
+			{
+				"value" : 13,
+				"mask" : "Low Temperature Fault"
+			},
+			{
+				"value" : 14,
+				"mask" : "High Temperature Fault"
+			},
+			{
+				"value" : 15,
+				"mask" : "Temperature Sensor Fault"
+			},
+			{
+				"value" : 16,
+				"mask" : "Dewp Low Fault"
+			},
+			{
+				"value" : 17,
+				"mask" : "Dewp High Fault"
+			},
+			{
+				"value" : 18,
+				"mask" : "Dewp Fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 41,
+		"version" : 1003,
+		"name" : "Output Delay2",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 306,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 42,
+		"version" : 1003,
+		"name" : "Output Contact Type2",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 43,
+		"version" : 1003,
+		"name" : "Output Type2",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 44,
+		"version" : 1003,
+		"name" : "Output Function3",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 309,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank1 Filling"
+			},
+			{
+				"value" : 2,
+				"mask" : "Tank2  Filling"
+			},
+			{
+				"value" : 3,
+				"mask" : "Tank1 Drain"
+			},
+			{
+				"value" : 4,
+				"mask" : "Tank2 Drain"
+			},
+			{
+				"value" : 5,
+				"mask" : "Tank Choose"
+			},
+			{
+				"value" : 6,
+				"mask" : "Delete Error"
+			},
+			{
+				"value" : 7,
+				"mask" : "Warning"
+			},
+			{
+				"value" : 8,
+				"mask" : "Fault+Warning"
+			},
+			{
+				"value" : 9,
+				"mask" : "Fan Thermic"
+			},
+			{
+				"value" : 10,
+				"mask" : "Working"
+			},
+			{
+				"value" : 11,
+				"mask" : "Horn"
+			},
+			{
+				"value" : 12,
+				"mask" : "Remote Start Active"
+			},
+			{
+				"value" : 13,
+				"mask" : "Low Temperature Fault"
+			},
+			{
+				"value" : 14,
+				"mask" : "High Temperature Fault"
+			},
+			{
+				"value" : 15,
+				"mask" : "Temperature Sensor Fault"
+			},
+			{
+				"value" : 16,
+				"mask" : "Dewp Low Fault"
+			},
+			{
+				"value" : 17,
+				"mask" : "Dewp High Fault"
+			},
+			{
+				"value" : 18,
+				"mask" : "Dewp Fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 45,
+		"version" : 1003,
+		"name" : "Output Delay3",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 310,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 46,
+		"version" : 1003,
+		"name" : "Output Contact Type3",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 47,
+		"version" : 1003,
+		"name" : "Output Type3",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 312,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 48,
+		"version" : 1003,
+		"name" : "Output Function4",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 313,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank1 Filling"
+			},
+			{
+				"value" : 2,
+				"mask" : "Tank2  Filling"
+			},
+			{
+				"value" : 3,
+				"mask" : "Tank1 Drain"
+			},
+			{
+				"value" : 4,
+				"mask" : "Tank2 Drain"
+			},
+			{
+				"value" : 5,
+				"mask" : "Tank Choose"
+			},
+			{
+				"value" : 6,
+				"mask" : "Delete Error"
+			},
+			{
+				"value" : 7,
+				"mask" : "Warning"
+			},
+			{
+				"value" : 8,
+				"mask" : "Fault+Warning"
+			},
+			{
+				"value" : 9,
+				"mask" : "Fan Thermic"
+			},
+			{
+				"value" : 10,
+				"mask" : "Working"
+			},
+			{
+				"value" : 11,
+				"mask" : "Horn"
+			},
+			{
+				"value" : 12,
+				"mask" : "Remote Start Active"
+			},
+			{
+				"value" : 13,
+				"mask" : "Low Temperature Fault"
+			},
+			{
+				"value" : 14,
+				"mask" : "High Temperature Fault"
+			},
+			{
+				"value" : 15,
+				"mask" : "Temperature Sensor Fault"
+			},
+			{
+				"value" : 16,
+				"mask" : "Dewp Low Fault"
+			},
+			{
+				"value" : 17,
+				"mask" : "Dewp High Fault"
+			},
+			{
+				"value" : 18,
+				"mask" : "Dewp Fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 49,
+		"version" : 1003,
+		"name" : "Output Delay4",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 314,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 50,
+		"version" : 1003,
+		"name" : "Output Contact Type4",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 315,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 51,
+		"version" : 1003,
+		"name" : "Output Type4",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 316,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 52,
+		"version" : 1003,
+		"name" : "Output Function5",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 317,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 15,
+		"defaultValue" : 16,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None"
+			},
+			{
+				"value" : 1,
+				"mask" : "Tank1 Filling"
+			},
+			{
+				"value" : 2,
+				"mask" : "Tank2  Filling"
+			},
+			{
+				"value" : 3,
+				"mask" : "Tank1 Drain"
+			},
+			{
+				"value" : 4,
+				"mask" : "Tank2 Drain"
+			},
+			{
+				"value" : 5,
+				"mask" : "Tank Choose"
+			},
+			{
+				"value" : 6,
+				"mask" : "Delete Error"
+			},
+			{
+				"value" : 7,
+				"mask" : "Warning"
+			},
+			{
+				"value" : 8,
+				"mask" : "Fault+Warning"
+			},
+			{
+				"value" : 9,
+				"mask" : "Fan Thermic"
+			},
+			{
+				"value" : 10,
+				"mask" : "Working"
+			},
+			{
+				"value" : 11,
+				"mask" : "Horn"
+			},
+			{
+				"value" : 12,
+				"mask" : "Remote Start Active"
+			},
+			{
+				"value" : 13,
+				"mask" : "Low Temperature Fault"
+			},
+			{
+				"value" : 14,
+				"mask" : "High Temperature Fault"
+			},
+			{
+				"value" : 15,
+				"mask" : "Temperature Sensor Fault"
+			},
+			{
+				"value" : 16,
+				"mask" : "Dewp Low Fault"
+			},
+			{
+				"value" : 17,
+				"mask" : "Dewp High Fault"
+			},
+			{
+				"value" : 18,
+				"mask" : "Dewp Fault"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 53,
+		"version" : 1003,
+		"name" : "Output Delay5",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 318,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 54,
+		"version" : 1003,
+		"name" : "Output Contact Type5",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 319,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 55,
+		"version" : 1003,
+		"name" : "Output Type5",
+		"group" : "Output",
+		"unit" : "",
+		"modbusAddress" : 320,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 56,
+		"version" : 1003,
+		"name" : "Temperature Sens. Active/Passive",
+		"group" : "Temperature",
+		"unit" : "",
+		"modbusAddress" : 401,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 57,
+		"version" : 1003,
+		"name" : "Temp. High Alarm",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 402,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 58,
+		"version" : 1003,
+		"name" : "Temp.High Warning",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 403,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : 900,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 59,
+		"version" : 1003,
+		"name" : "Temp. Low Alarm",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 404,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : 200,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 60,
+		"version" : 1003,
+		"name" : "Temp.Low Warning",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 405,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : -100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 61,
+		"version" : 1003,
+		"name" : "Sensor Table",
+		"group" : "Temperature",
+		"unit" : "",
+		"modbusAddress" : 406,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "NTC"
+			},
+			{
+				"value" : 1,
+				"mask" : "KTY81"
+			},
+			{
+				"value" : 1,
+				"mask" : "KTY105"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 62,
+		"version" : 1003,
+		"name" : "Temperature Unit",
+		"group" : "Temperature",
+		"unit" : "",
+		"modbusAddress" : 407,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "°C"
+			},
+			{
+				"value" : 1,
+				"mask" : "°F"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 63,
+		"version" : 1003,
+		"name" : "Control On Temp",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 408,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : 800,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 64,
+		"version" : 1003,
+		"name" : "Control Off Temp",
+		"group" : "Temperature",
+		"unit" : "°C",
+		"modbusAddress" : 409,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -2000,
+		"maxValue" : 2000,
+		"defaultValue" : 600,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 65,
+		"version" : 1003,
+		"name" : "Running Hour",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 501,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 30000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 66,
+		"version" : 1003,
+		"name" : "GeneralMaintenance",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 502,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 5000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 67,
+		"version" : 1003,
+		"name" : "Change Air Filter",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 503,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 68,
+		"version" : 1003,
+		"name" : "ChemicalChangeTime",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 504,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 69,
+		"version" : 1003,
+		"name" : "Sensor Calibration",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 505,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 70,
+		"version" : 1003,
+		"name" : "Kit A Maintenance",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 506,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 71,
+		"version" : 1003,
+		"name" : "Kit B Maintenance",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 507,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 72,
+		"version" : 1003,
+		"name" : "Kit C Maintenance",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 508,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 30000,
+		"defaultValue" : 2500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 73,
+		"version" : 1003,
+		"name" : "Activate Stop",
+		"group" : "Service",
+		"unit" : "h",
+		"modbusAddress" : 509,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 74,
+		"version" : 1003,
+		"name" : "Maintenance Reset",
+		"group" : "Service",
+		"unit" : "",
+		"modbusAddress" : 510,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 8,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 75,
+		"version" : 1003,
+		"name" : "Factory Password",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 601,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9999,
+		"defaultValue" : 1923,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 76,
+		"version" : 1003,
+		"name" : "Service Password",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 602,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9999,
+		"defaultValue" : 1922,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 77,
+		"version" : 1003,
+		"name" : "User Password",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 603,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9999,
+		"defaultValue" : 1934,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 78,
+		"version" : 1003,
+		"name" : "Manufacturer Password",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 604,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9999,
+		"defaultValue" : 1881,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 79,
+		"version" : 1003,
+		"name" : "Start Source",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 605,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 80,
+		"version" : 1003,
+		"name" : "Horn Mode",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 606,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Sürekli"
+			},
+			{
+				"value" : 1,
+				"mask" : "Kesikli"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 81,
+		"version" : 1003,
+		"name" : "PostPwr-Cut Oper",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 607,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 82,
+		"version" : 1003,
+		"name" : "Save Parameters",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 608,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 83,
+		"version" : 1003,
+		"name" : "Language",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 609,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Türkçe"
+			},
+			{
+				"value" : 1,
+				"mask" : "İngilizce"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 84,
+		"version" : 1003,
+		"name" : "Factory Settings",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 610,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Hayır"
+			},
+			{
+				"value" : 1,
+				"mask" : "Evet"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 85,
+		"version" : 1003,
+		"name" : "Clear Fault Logs",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 611,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Hayır"
+			},
+			{
+				"value" : 1,
+				"mask" : "Evet"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 86,
+		"version" : 1003,
+		"name" : "Reset Run Time",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 612,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Hayır"
+			},
+			{
+				"value" : 1,
+				"mask" : "Evet"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 87,
+		"version" : 1003,
+		"name" : "Logout Timeout",
+		"group" : "General",
+		"unit" : "min",
+		"modbusAddress" : 613,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 30,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 88,
+		"version" : 1003,
+		"name" : "Menu Logout",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 614,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 89,
+		"version" : 1003,
+		"name" : "Reserved 1",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 615,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+		{
+		"id" : 89,
+		"version" : 1005,
+		"name" : "Stop Delay",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 615,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 600,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 90,
+		"version" : 1003,
+		"name" : "Reserved 2",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 5,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+		{
+		"id" : 90,
+		"version" : 1005,
+		"name" : "Valf Mode",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 91,
+		"version" : 1003,
+		"name" : "Dewp Sensor Offset",
+		"group" : "Calibration",
+		"unit" : "",
+		"modbusAddress" : 701,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 92,
+		"version" : 1003,
+		"name" : "Dewp Sensor Gain",
+		"group" : "Calibration",
+		"unit" : "",
+		"modbusAddress" : 702,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 93,
+		"version" : 1003,
+		"name" : "Temperature Offset",
+		"group" : "Calibration",
+		"unit" : "",
+		"modbusAddress" : 703,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 94,
+		"version" : 1003,
+		"name" : "Temperature Gain",
+		"group" : "Calibration",
+		"unit" : "",
+		"modbusAddress" : 704,
+		"dataLength" : 1,
+		"coef" : -3,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -9000,
+		"maxValue" : 9000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 95,
+		"version" : 1003,
+		"name" : "Customer Number 5",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9920,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 96,
+		"version" : 1003,
+		"name" : "Customer Number 4",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9921,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 97,
+		"version" : 1003,
+		"name" : "Customer Number 3",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9922,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 98,
+		"version" : 1003,
+		"name" : "Customer Number 2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9923,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 99,
+		"version" : 1003,
+		"name" : "Customer Number 1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9924,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 100,
+		"version" : 1003,
+		"name" : "Customer Text 10",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9925,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 101,
+		"version" : 1003,
+		"name" : "Customer Text 9",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9926,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 102,
+		"version" : 1003,
+		"name" : "Customer Text 8",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9927,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 103,
+		"version" : 1003,
+		"name" : "Customer Text 7",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9928,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 104,
+		"version" : 1003,
+		"name" : "Customer Text 6",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9929,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 105,
+		"version" : 1003,
+		"name" : "Customer Text 5",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9930,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 106,
+		"version" : 1003,
+		"name" : "Customer Text 4",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9931,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 107,
+		"version" : 1003,
+		"name" : "Customer Text 3",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9932,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 108,
+		"version" : 1003,
+		"name" : "Customer Text 2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9933,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 109,
+		"version" : 1003,
+		"name" : "Customer Text 1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9934,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 110,
+		"version" : 1003,
+		"name" : "Total Params Count",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9935,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 94,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 111,
+		"version" : 1003,
+		"name" : "Def Vals Start Adr",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9936,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 112,
+		"version" : 1003,
+		"name" : "Max Vals Start Adr",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9937,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 13000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 113,
+		"version" : 1003,
+		"name" : "Min Vals Start Adr",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9938,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 16000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 114,
+		"version" : 1003,
+		"name" : "Coff Vals Start Adr",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9939,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 19000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 115,
+		"version" : 1003,
+		"name" : "DynPass UserCode",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9951,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 116,
+		"version" : 1003,
+		"name" : "DynPass ServiceCode",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9952,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 117,
+		"version" : 1003,
+		"name" : "DynPass FactoryCode",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9953,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 118,
+		"version" : 1003,
+		"name" : "DynPass EnkoCode",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9954,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 119,
+		"version" : 1003,
+		"name" : "DynPass UserPass",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9955,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 120,
+		"version" : 1003,
+		"name" : "DynPass ServicePass",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9956,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 121,
+		"version" : 1003,
+		"name" : "DynPass FactoryPass",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9957,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 122,
+		"version" : 1003,
+		"name" : "DynPass EnkoPass",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9958,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 123,
+		"version" : 1003,
+		"name" : "User Password",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9959,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 124,
+		"version" : 1003,
+		"name" : "Service Password",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9960,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 125,
+		"version" : 1003,
+		"name" : "Factory Password",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9961,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 126,
+		"version" : 1003,
+		"name" : "Enko Password",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9962,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 127,
+		"version" : 1003,
+		"name" : "Password Entry Customer Reg1",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9963,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 128,
+		"version" : 1003,
+		"name" : "Password Entry Customer Reg2",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9964,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 129,
+		"version" : 1003,
+		"name" : "Security Customer Reg1",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9965,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 21930,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 130,
+		"version" : 1003,
+		"name" : "Security Customer Reg2",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9966,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 43605,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 131,
+		"version" : 1003,
+		"name" : "Password Entry Enko Reg1",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9967,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 132,
+		"version" : 1003,
+		"name" : "Password Entry Enko Reg2",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9968,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 133,
+		"version" : 1003,
+		"name" : "Security Enko Reg1",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9969,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 26299,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 134,
+		"version" : 1003,
+		"name" : "Security Enko Reg2",
+		"group" : "LoginPassword",
+		"unit" : "",
+		"modbusAddress" : 9970,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 47974,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 135,
+		"version" : 1003,
+		"name" : "Optiunal Module",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9971,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 136,
+		"version" : 1003,
+		"name" : "Hardware ver reg1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9972,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 31,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 137,
+		"version" : 1003,
+		"name" : "Hardware ver reg2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9973,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 138,
+		"version" : 1003,
+		"name" : "Bootloader ver",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9974,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 139,
+		"version" : 1003,
+		"name" : "Software ver",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9975,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 1003,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 140,
+		"version" : 1003,
+		"name" : "Idcpu Reg1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9976,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 141,
+		"version" : 1003,
+		"name" : "Idcpu Reg2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9977,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 142,
+		"version" : 1003,
+		"name" : "Idcpu Reg3",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9978,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 143,
+		"version" : 1003,
+		"name" : "Idcpu Reg4",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9979,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 144,
+		"version" : 1003,
+		"name" : "Idcpu Reg5",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9980,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 145,
+		"version" : 1003,
+		"name" : "Idcpu Reg6",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9981,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 146,
+		"version" : 1003,
+		"name" : "Idcpu Reg7",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9982,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 147,
+		"version" : 1003,
+		"name" : "Idcpu Reg8",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9983,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 148,
+		"version" : 1003,
+		"name" : "Idcpu Reg9",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9984,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 149,
+		"version" : 1003,
+		"name" : "Idcpu Reg10",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9985,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 150,
+		"version" : 1003,
+		"name" : "Idenko Reg1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9986,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 2020,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 151,
+		"version" : 1003,
+		"name" : "Idenko Reg2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9987,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 12,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 152,
+		"version" : 1003,
+		"name" : "Idenko Reg3",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9988,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 153,
+		"version" : 1003,
+		"name" : "Model Name Reg1",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9989,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 21060,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 154,
+		"version" : 1003,
+		"name" : "Model Name Reg2",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9990,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 17753,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 155,
+		"version" : 1003,
+		"name" : "Model Name Reg3",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9991,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 82,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 156,
+		"version" : 1003,
+		"name" : "Model Name Reg4",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9992,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 157,
+		"version" : 1003,
+		"name" : "Model Name Reg5",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9993,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 158,
+		"version" : 1003,
+		"name" : "Model Name Reg6",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9994,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 159,
+		"version" : 1003,
+		"name" : "Model Name Reg7",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9995,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 160,
+		"version" : 1003,
+		"name" : "Model Name Reg8",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9996,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 161,
+		"version" : 1003,
+		"name" : "Model Name Reg9",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9997,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 162,
+		"version" : 1003,
+		"name" : "Model Name Reg10",
+		"group" : "Device",
+		"unit" : "",
+		"modbusAddress" : 9998,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 163,
+		"version" : 1003,
+		"name" : "LogIndex",
+		"group" : "Faultmb",
+		"unit" : "",
+		"modbusAddress" : 3301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 15,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 164,
+		"version" : 1003,
+		"name" : "Activesc",
+		"group" : "Faultmb",
+		"unit" : "",
+		"modbusAddress" : 3302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 999,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 165,
+		"version" : 1003,
+		"name" : "Code",
+		"group" : "Faultmb",
+		"unit" : "",
+		"modbusAddress" : 3303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 999,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 166,
+		"version" : 1003,
+		"name" : "Time Msb",
+		"group" : "Faultmb",
+		"unit" : "",
+		"modbusAddress" : 3304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 167,
+		"version" : 1003,
+		"name" : "Time Lsb",
+		"group" : "Faultmb",
+		"unit" : "",
+		"modbusAddress" : 3305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 168,
+		"version" : 1003,
+		"name" : "ModeOnOff",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3306,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 169,
+		"version" : 1003,
+		"name" : "Test Name",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 170,
+		"version" : 1003,
+		"name" : "Test Stage",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 171,
+		"version" : 1003,
+		"name" : "Test Input",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3309,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 172,
+		"version" : 1003,
+		"name" : "Test Result",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3310,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 173,
+		"version" : 1003,
+		"name" : "Test TFT",
+		"group" : "Test",
+		"unit" : "",
+		"modbusAddress" : 3311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 174,
+		"version" : 1003,
+		"name" : "Reserved 1",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3001,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 175,
+		"version" : 1003,
+		"name" : "Supply Sensor",
+		"group" : "Monitoring",
+		"unit" : "V",
+		"modbusAddress" : 3002,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 176,
+		"version" : 1003,
+		"name" : "Supply Voltage",
+		"group" : "Monitoring",
+		"unit" : "V",
+		"modbusAddress" : 3003,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 177,
+		"version" : 1003,
+		"name" : "Input",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3004,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 178,
+		"version" : 1003,
+		"name" : "Output",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3005,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 179,
+		"version" : 1003,
+		"name" : "Temperature",
+		"group" : "Monitoring",
+		"unit" : "°C",
+		"modbusAddress" : 3006,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 180,
+		"version" : 1003,
+		"name" : "TotalWork Msb",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3007,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 181,
+		"version" : 1003,
+		"name" : "TotalWork Lsb",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3008,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 182,
+		"version" : 1003,
+		"name" : "OnLoadWork Msb",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3009,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 183,
+		"version" : 1003,
+		"name" : "OnLoadWork Lsb",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3010,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 184,
+		"version" : 1003,
+		"name" : "Reserved 1",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3011,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 185,
+		"version" : 1003,
+		"name" : "Reserved 2",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3012,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 186,
+		"version" : 1003,
+		"name" : "Reserved 3",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3013,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 187,
+		"version" : 1003,
+		"name" : "Reserved 4",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3014,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 188,
+		"version" : 1003,
+		"name" : "Counter",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3015,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 189,
+		"version" : 1003,
+		"name" : "Dewp Value",
+		"group" : "Monitoring",
+		"unit" : "°C",
+		"modbusAddress" : 3016,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 190,
+		"version" : 1003,
+		"name" : "Service General",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3017,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 191,
+		"version" : 1003,
+		"name" : "Service AirFilter",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3018,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 192,
+		"version" : 1003,
+		"name" : "Service Chemical Change",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3019,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 193,
+		"version" : 1003,
+		"name" : "Service Sensor Calibration",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3020,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 194,
+		"version" : 1003,
+		"name" : "Service KitA",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3021,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 195,
+		"version" : 1003,
+		"name" : "Service KitB",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3022,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 196,
+		"version" : 1003,
+		"name" : "Service KitC",
+		"group" : "Monitoring",
+		"unit" : "h",
+		"modbusAddress" : 3023,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 197,
+		"version" : 1003,
+		"name" : "User Pars MCU Status",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9701,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 198,
+		"version" : 1003,
+		"name" : "User Pars PC Command",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9702,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 199,
+		"version" : 1003,
+		"name" : "User Pars Total Number",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9703,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 200,
+		"version" : 1003,
+		"name" : "User Pars Param No",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9704,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 201,
+		"version" : 1003,
+		"name" : "User Pars Param Value",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9705,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 202,
+		"version" : 1003,
+		"name" : "Language Modbus Adress MCU Status",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9810,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 203,
+		"version" : 1003,
+		"name" : "Language Modbus Adress PC Command",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9811,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 204,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text Numbers",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9812,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 205,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text Len",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9813,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 206,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text Index",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9814,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 207,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 1",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9815,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 208,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 2",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9816,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 209,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 3",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9817,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 210,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 4",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9818,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 211,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 5",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9819,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 212,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 6",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9820,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 213,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 7",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9821,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 214,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 8",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9822,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 215,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 9",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9823,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 216,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 10",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9824,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 217,
+		"version" : 1003,
+		"name" : "Language Modbus Adress Text 11",
+		"group" : "Language",
+		"unit" : "",
+		"modbusAddress" : 9825,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 218,
+		"version" : 1003,
+		"name" : "Active Alarms reg1",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 219,
+		"version" : 1003,
+		"name" : "Active Alarms reg2",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 220,
+		"version" : 1003,
+		"name" : "Active Alarms reg3",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 221,
+		"version" : 1003,
+		"name" : "Active Alarms reg4",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 222,
+		"version" : 1003,
+		"name" : "Active Alarms reg5",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 223,
+		"version" : 1003,
+		"name" : "Active Alarms reg6",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 224,
+		"version" : 1003,
+		"name" : "Active Alarms reg7",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 225,
+		"version" : 1003,
+		"name" : "Active Alarms reg8",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 226,
+		"version" : 1003,
+		"name" : "Active Alarms reg9",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 227,
+		"version" : 1003,
+		"name" : "Active Alarms reg10",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3210,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 228,
+		"version" : 1003,
+		"name" : "Active Alarms reg11",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 229,
+		"version" : 1003,
+		"name" : "Active Alarms reg12",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 230,
+		"version" : 1003,
+		"name" : "Active Alarms reg13",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 231,
+		"version" : 1003,
+		"name" : "Active Alarms reg14",
+		"group" : "Active",
+		"unit" : "",
+		"modbusAddress" : 3214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 232,
+		"version" : 1003,
+		"name" : "Alarm log modbus Index",
+		"group" : "Alarm",
+		"unit" : "",
+		"modbusAddress" : 9601,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 233,
+		"version" : 1003,
+		"name" : "Alarm log modbus code",
+		"group" : "Alarm",
+		"unit" : "",
+		"modbusAddress" : 9602,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 234,
+		"version" : 1003,
+		"name" : "Alarm log modbus msb",
+		"group" : "Alarm",
+		"unit" : "",
+		"modbusAddress" : 9603,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 235,
+		"version" : 1003,
+		"name" : "Alarm log modbus lsb",
+		"group" : "Alarm",
+		"unit" : "",
+		"modbusAddress" : 9604,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32760,
+		"maxValue" : 32760,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+  }
+    ],
+    "alarms": [],
+    "events": []
+  }
+]
