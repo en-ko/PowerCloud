@@ -7,6 +7,8 @@
     "type": "software",
     "sharedFileVersion": 1,
     "translationVersion": 1,
+    "uiFileVersion": 1,
+    "uiFiles": [],
     "translations": [
       "Chinese"
     ]
