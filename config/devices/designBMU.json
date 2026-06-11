@@ -1,0 +1,224 @@
+[
+    {
+      "object": "config",
+      "pageCount": 4,
+      "pageTitle": [
+        "BATTARY STATUS",
+        "NTC-TEMPERATURE",
+        "OTHER",
+        "PARAMETERS"
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 1,
+      "side": "center",
+      "width": "200px",
+      "height": "510px",
+      "title": "Battery Voltage(1-13)",
+      "titleIsBold": true,
+      "titleColor": "var(--textPrimary)",
+      "showItemBorder" : true,
+      "itemList": [
+          {
+            "id": 128
+          },
+          {
+            "id": 129
+          },
+          {
+            "id": 130
+          },
+          {
+            "id": 131
+          },
+          {
+            "id": 132
+          },
+          {
+            "id": 133
+          },
+          {
+            "id": 134
+          },
+          {
+            "id": 135
+          },
+          {
+            "id": 136
+          },
+          {
+            "id": 137
+          },
+          {
+            "id": 138
+          },
+          {
+            "id": 139
+          },
+          {
+            "id": 140
+          }
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 1,
+      "side": "center",
+      "width": "200px",
+      "height": "510px",
+      "title": "Battery Voltage(14-26)",
+      "titleIsBold": true,
+      "titleColor": "var(--textPrimary)",
+      "showItemBorder" : true,
+      "itemList": [
+          {
+            "id": 141
+          },
+          {
+            "id": 142
+          },
+          {
+            "id": 143
+          },
+          {
+            "id": 144
+          },
+          {
+            "id": 145
+          },
+          {
+            "id": 146
+          },
+          {
+            "id": 147
+          },
+          {
+            "id": 148
+          },
+          {
+            "id": 149
+          },
+          {
+            "id": 150
+          },
+          {
+            "id": 151
+          },
+          {
+            "id": 152
+          },
+          {
+            "id": 153
+          }
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 1,
+      "side": "center",
+      "width": "200px",
+      "height": "510px",
+      "title": "Battery Voltage(27-39)",
+      "titleIsBold": true,
+      "titleColor": "var(--textPrimary)",
+      "showItemBorder" : true,
+      "itemList": [
+          {
+            "id": 154
+          },
+          {
+            "id": 155
+          },
+          {
+            "id": 156
+          },
+          {
+            "id": 157
+          },
+          {
+            "id": 158
+          },
+          {
+            "id": 159
+          },
+          {
+            "id": 160
+          },
+          {
+            "id": 161
+          },
+          {
+            "id": 162
+          },
+          {
+            "id": 163
+          },
+          {
+            "id": 164
+          },
+          {
+            "id": 165
+          },
+          {
+            "id": 166
+          }
+      ]
+    },
+    {
+      "object": "datalist",
+      "page": 1,
+      "row": 1,
+      "side": "center",
+      "width": "200px",
+      "height": "510px",
+      "title": "Battery Voltage(40-52)",
+      "titleIsBold": true,
+      "titleColor": "var(--textPrimary)",
+      "showItemBorder" : true,
+      "itemList": [
+          {
+            "id": 167
+          },
+          {
+            "id": 168
+          },
+          {
+            "id": 169
+          },
+          {
+            "id": 170
+          },
+          {
+            "id": 171
+          },
+          {
+            "id": 172
+          },
+          {
+            "id": 173
+          },
+          {
+            "id": 174
+          },
+          {
+            "id": 175
+          },
+          {
+            "id": 176
+          },
+          {
+            "id": 177
+          },
+          {
+            "id": 178
+          },
+                    {
+            "id": 179
+          }
+      ]
+    }
+]

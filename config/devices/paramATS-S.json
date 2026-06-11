@@ -1,0 +1,4794 @@
+
+[
+  {
+    "fileVersion": 1,
+    "parameters": [
+      {
+    "id": 5,
+    "version": 1005,
+    "name": "Parameter Save",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 5,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 2,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Default"
+      },
+      {
+        "value": 1,
+        "mask": "Backup"
+      },
+      {
+        "value": 2,
+        "mask": "Read from Backup"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This parameter is used to save device parameters and recall saved parameters.",
+    "relation": []
+  },
+  {
+    "id": 6,
+    "version": 1005,
+    "name": "Language",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 6,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "English"
+      },
+      {
+        "value": 1,
+        "mask": "Custom"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This parameter sets the language of the device. English language is available as standard. When user-defined is selected the 1st language loaded via USB becomes active.",
+    "relation": []
+  },
+  {
+    "id": 7,
+    "version": 1005,
+    "name": "Parameter Return Factory",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 7,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Default"
+      },
+      {
+        "value": 1,
+        "mask": "Factory Reset"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Default value assignments embedded in the device are made.",
+    "relation": []
+  },
+  {
+    "id": 8,
+    "version": 1005,
+    "name": "Log Clear",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 8,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Default"
+      },
+      {
+        "value": 1,
+        "mask": "Clear Log"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "All fault records in the device are deleted with this parameter.",
+    "relation": []
+  },
+  {
+    "id": 9,
+    "version": 1005,
+    "name": "Motor Time Setting",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 9,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 32000,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Motor running and load running times in the device can be set as desired as a result of the value entered in this parameter. After saving the parameter the parameter value will be reset and the operating hour value will be updated.",
+    "relation": []
+  },
+  {
+    "id": 10,
+    "version": 1005,
+    "name": "Menu Timeout",
+    "group": "General",
+    "unit": "min",
+    "modbusAddress": 10,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 30,
+    "defaultValue": 5,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "When no key is pressed during the time period specified with this parameter the device will automatically exit the menu. In addition after logging in to the menu if you do not log out with the Menu Logout parameter you can log in to the menu without a password within the time period specified here.",
+    "relation": []
+  },
+  {
+    "id": 11,
+    "version": 1005,
+    "name": "Menu Logout",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 11,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Default"
+      },
+      {
+        "value": 1,
+        "mask": "Sign Out"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Allows manual exit from the menu. Thus password entry is required for the next menu entry.",
+    "relation": []
+  },
+  {
+    "id": 20,
+    "version": 1005,
+    "name": "Mains Off Mode Selection",
+    "group": "Mains",
+    "unit": "",
+    "modbusAddress": 101,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active"
+      },
+      {
+        "value": 1,
+        "mask": "Inactive"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "When the amplifier module is defined in the device it is the selection of whether the network will be active in off mode.",
+    "relation": []
+  },
+  {
+    "id": 21,
+    "version": 1005,
+    "name": "Mains Overvoltage Alarm Level",
+    "group": "Mains",
+    "unit": "%",
+    "modbusAddress": 102,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 101,
+    "maxValue": 150,
+    "defaultValue": 115,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the threshold value at which mains high voltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+    "relation": []
+  },
+  {
+    "id": 22,
+    "version": 1005,
+    "name": "Mains Undervoltage Alarm Level",
+    "group": "Mains",
+    "unit": "%",
+    "modbusAddress": 103,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 50,
+    "maxValue": 99,
+    "defaultValue": 85,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the threshold value at which mains undervoltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+    "relation": []
+  },
+  {
+    "id": 23,
+    "version": 1005,
+    "name": "Mains Overfrequency Alarm Level",
+    "group": "Mains",
+    "unit": "%",
+    "modbusAddress": 104,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 101,
+    "maxValue": 150,
+    "defaultValue": 104,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the threshold value at which network high frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+    "relation": []
+  },
+  {
+    "id": 24,
+    "version": 1005,
+    "name": "Mains Underfrequency Alarm Level",
+    "group": "Mains",
+    "unit": "%",
+    "modbusAddress": 105,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 50,
+    "maxValue": 99,
+    "defaultValue": 96,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the threshold value at which mains low frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+    "relation": []
+  },
+  {
+    "id": 29,
+    "version": 1005,
+    "name": "Mains Phase Sequence Control Action",
+    "group": "Mains",
+    "unit": "",
+    "modbusAddress": 110,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Inactive"
+      },
+      {
+        "value": 1,
+        "mask": "Active"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Phase sequence warning action selection is made.",
+    "relation": []
+  },
+  {
+    "id": 30,
+    "version": 1005,
+    "name": "Mains Connection Type",
+    "group": "Mains",
+    "unit": "",
+    "modbusAddress": 111,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Phase-Neutral"
+      },
+      {
+        "value": 1,
+        "mask": "Phase-Phase"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This parameter selects the connection type of the network.",
+    "relation": []
+  },
+  {
+    "id": 33,
+    "version": 1005,
+    "name": "Nominal Voltage",
+    "group": "Generator",
+    "unit": "V",
+    "modbusAddress": 203,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 85,
+    "maxValue": 240,
+    "defaultValue": 220,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "The nominal phase-notr voltage value at which the generator will operate.",
+    "relation": []
+  },
+  {
+    "id": 35,
+    "version": 1005,
+    "name": "Generator Overvoltage Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 205,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Generator high voltage alarm action.",
+    "relation": []
+  },
+  {
+    "id": 36,
+    "version": 1005,
+    "name": "Generator Overvoltage Alarm Level",
+    "group": "Generator",
+    "unit": "%",
+    "modbusAddress": 206,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 101,
+    "maxValue": 150,
+    "defaultValue": 115,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This is the threshold value at which a generator high voltage alarm will be given. All phases are evaluated one by one and the maximum value is used. When the output voltage exceeds the entered value a high voltage alarm condition occurs and the action program starts to operate.",
+    "relation": []
+  },
+  {
+    "id": 37,
+    "version": 1005,
+    "name": "Generator Undervoltage Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 207,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Generator low voltage alarm action.",
+    "relation": []
+  },
+  {
+    "id": 38,
+    "version": 1005,
+    "name": "Generator Undervoltage Alarm Level",
+    "group": "Generator",
+    "unit": "%",
+    "modbusAddress": 208,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 50,
+    "maxValue": 99,
+    "defaultValue": 85,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This is the threshold value at which a generator undervoltage alarm will be given. All phases are evaluated one by one and the minimum value is used. When the output voltage goes below the entered value a low voltage alarm condition occurs and the action program starts to operate.",
+    "relation": []
+  },
+  {
+    "id": 39,
+    "version": 1005,
+    "name": "Nominal Frequency",
+    "group": "Generator",
+    "unit": "Hz",
+    "modbusAddress": 209,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 300,
+    "maxValue": 600,
+    "defaultValue": 500,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "The nominal frequency value at which the generator will operate.",
+    "relation": []
+  },
+  {
+    "id": 41,
+    "version": 1005,
+    "name": "Generator Overfrequency Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 211,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Generator high frequency alarm action.",
+    "relation": []
+  },
+  {
+    "id": 42,
+    "version": 1005,
+    "name": "Generator Overfrequency Alarm Level",
+    "group": "Generator",
+    "unit": "%",
+    "modbusAddress": 212,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 101,
+    "maxValue": 130,
+    "defaultValue": 106,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the generator high frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+    "relation": []
+  },
+  {
+    "id": 43,
+    "version": 1005,
+    "name": "Generator Underfrequency Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 213,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Generator low frequency alarm action.",
+    "relation": []
+  },
+  {
+    "id": 44,
+    "version": 1005,
+    "name": "Generator Underfrequency Alarm Level",
+    "group": "Generator",
+    "unit": "%",
+    "modbusAddress": 214,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 50,
+    "maxValue": 99,
+    "defaultValue": 94,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "It is the generator low frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+    "relation": []
+  },
+  {
+    "id": 49,
+    "version": 1005,
+    "name": "Generator Phase Sequence Control Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 219,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Phase sequence warning action selection is made.",
+    "relation": []
+  },
+  {
+    "id": 50,
+    "version": 1005,
+    "name": "Generator OverCurrent Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 220,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "High current is alarm action.",
+    "relation": []
+  },
+  {
+    "id": 51,
+    "version": 1005,
+    "name": "Generator OverCurrent Alarm Level",
+    "group": "Generator",
+    "unit": "A",
+    "modbusAddress": 221,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 2500,
+    "defaultValue": 50,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "High current is the alarm threshold.",
+    "relation": []
+  },
+  {
+    "id": 52,
+    "version": 1005,
+    "name": "Generator OverPower Alarm Action",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 222,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "High power alarm action.",
+    "relation": []
+  },
+  {
+    "id": 53,
+    "version": 1005,
+    "name": "Generator OverPower Alarm Level",
+    "group": "Generator",
+    "unit": "kVA",
+    "modbusAddress": 223,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 32000,
+    "defaultValue": 300,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "High power is the alarm threshold.",
+    "relation": []
+  },
+  {
+    "id": 57,
+    "version": 1005,
+    "name": "Generator Current Transformer Ratio",
+    "group": "Generator",
+    "unit": "",
+    "modbusAddress": 227,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 9999,
+    "defaultValue": 20,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Winding ratio of the current transformer input to the current input of the device to read the load current.",
+    "relation": []
+  },
+  {
+    "id": 58,
+    "version": 1005,
+    "name": "Generator Connection Type",
+    "group": "Engine",
+    "unit": "",
+    "modbusAddress": 301,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Phase-Neutral"
+      },
+      {
+        "value": 1,
+        "mask": "Phase-Phase"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Generator connection type selection.",
+    "relation": []
+  },
+  {
+    "id": 61,
+    "version": 1005,
+    "name": "Mode Function",
+    "group": "Engine",
+    "unit": "",
+    "modbusAddress": 304,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 2,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Stop Mode"
+      },
+      {
+        "value": 1,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 2,
+        "mask": "Auto Mode"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Device mode selection.",
+    "relation": []
+  },
+  {
+    "id": 85,
+    "version": 1005,
+    "name": "Nominal Battery Voltage",
+    "group": "Engine",
+    "unit": "V",
+    "modbusAddress": 328,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 100,
+    "maxValue": 260,
+    "defaultValue": 130,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Nominal battery voltage",
+    "relation": []
+  },
+  {
+    "id": 86,
+    "version": 1005,
+    "name": "Battery Overvoltage Alarm Action",
+    "group": "Engine",
+    "unit": "",
+    "modbusAddress": 329,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "High battery voltage is an alarm action.",
+    "relation": []
+  },
+  {
+    "id": 87,
+    "version": 1005,
+    "name": "Battery Overvoltage Alarm Level",
+    "group": "Engine",
+    "unit": "%",
+    "modbusAddress": 330,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 101,
+    "maxValue": 125,
+    "defaultValue": 125,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This is the threshold at which a battery high voltage alarm will be given.",
+    "relation": []
+  },
+  {
+    "id": 88,
+    "version": 1005,
+    "name": "Battery Undervoltage Alarm Action",
+    "group": "Engine",
+    "unit": "",
+    "modbusAddress": 331,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Closed"
+      },
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Low battery voltage is an alarm action.",
+    "relation": []
+  },
+  {
+    "id": 89,
+    "version": 1005,
+    "name": "Battery Undervoltage Alarm Level",
+    "group": "Engine",
+    "unit": "%",
+    "modbusAddress": 332,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 75,
+    "maxValue": 99,
+    "defaultValue": 75,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "The threshold at which a battery low voltage alarm will be given.",
+    "relation": []
+  },
+  {
+    "id": 105,
+    "version": 1005,
+    "name": "Mains Fail Delay",
+    "group": "Mains Timer",
+    "unit": "sec",
+    "modbusAddress": 401,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 500,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Mains is the delay time for any fault to be given.",
+    "relation": []
+  },
+  {
+    "id": 108,
+    "version": 1005,
+    "name": "Mains Phase Sequence Failure Delay",
+    "group": "Mains Timer",
+    "unit": "sec",
+    "modbusAddress": 404,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 10,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for a mains phase sequence fault.",
+    "relation": []
+  },
+  {
+    "id": 109,
+    "version": 1005,
+    "name": "Generator Overvoltage Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 501,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This is the delay time for a generator high voltage alarm.",
+    "relation": []
+  },
+  {
+    "id": 110,
+    "version": 1005,
+    "name": "Generator Undervoltage Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 502,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for generator low voltage alarm.",
+    "relation": []
+  },
+  {
+    "id": 111,
+    "version": 1005,
+    "name": "Generator Overfrequency Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 503,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for generator high frequency alarm.",
+    "relation": []
+  },
+  {
+    "id": 112,
+    "version": 1005,
+    "name": "Generator Underfrequency Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 504,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for generator low frequency alarm.",
+    "relation": []
+  },
+  {
+    "id": 113,
+    "version": 1005,
+    "name": "Generator Circuit Break Close Ouput Pulse Time",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 505,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Closed output pulse duration for generator circuit breaker.",
+    "relation": []
+  },
+  {
+    "id": 115,
+    "version": 1005,
+    "name": "Generator Phase Sequence Failure Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 507,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 10,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for genset phase sequence fault.",
+    "relation": []
+  },
+  {
+    "id": 116,
+    "version": 1005,
+    "name": "Generator OverCurrent Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 508,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for the current passing through the load alarm.",
+    "relation": []
+  },
+  {
+    "id": 117,
+    "version": 1005,
+    "name": "Generator OverPower Alarm Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 509,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Delay time for the power value alarm calculated on the load.",
+    "relation": []
+  },
+  {
+    "id": 118,
+    "version": 1005,
+    "name": "Start Delay",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 601,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 6000,
+    "defaultValue": 50,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Parameter for how long after a mains fault the device will auto-start.",
+    "relation": []
+  },
+  {
+    "id": 119,
+    "version": 1005,
+    "name": "Mains Return Delay",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 602,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 18000,
+    "defaultValue": 200,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This parameter is the mains stabilization time. The timer starts counting when the mains is restored. If there is no mains problem during this time ATS operation mode is finished.",
+    "relation": []
+  },
+  {
+    "id": 123,
+    "version": 1005,
+    "name": "Safety On Delay",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 606,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1000,
+    "defaultValue": 100,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "The time the controller ignores oil pressure engine speed and other delayed alarms during starting. This parameter is used to allow the engine to reach its rated speed before the protections are activated. When this parameter is set to 0 this function will be inactive.",
+    "relation": []
+  },
+  {
+    "id": 130,
+    "version": 1005,
+    "name": "Cooling Time",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 613,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 18000,
+    "defaultValue": 300,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "This is the no-load cooling time before stopping the generator.",
+    "relation": []
+  },
+  {
+    "id": 132,
+    "version": 1005,
+    "name": "Transfer Time",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 615,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 6000,
+    "defaultValue": 7,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "The time between the opening of one load switch and the closing of the other. Used during load transfer to and from the genset.",
+    "relation": []
+  },
+  {
+    "id": 133,
+    "version": 1005,
+    "name": "Horn Time",
+    "group": "Engine Timer",
+    "unit": "sec",
+    "modbusAddress": 616,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 10,
+    "maxValue": 900,
+    "defaultValue": 30,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "When an alarm occurs this parameter determines how long the horn output will be active.",
+    "relation": []
+  },
+  {
+    "id": 154,
+    "version": 1005,
+    "name": "ATS Don’t Stop Delay",
+    "group": "Engine Timer",
+    "unit": "",
+    "modbusAddress": 637,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 10,
+    "maxValue": 10000,
+    "defaultValue": 1000,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "When a stop request is generated by the device in any case if the genset has not stopped during this time a failure to stop error will occur.",
+    "relation": []
+  },
+  {
+    "id": 155,
+    "version": 1005,
+    "name": "ATS Don’t Start Delay",
+    "group": "Engine Timer",
+    "unit": "",
+    "modbusAddress": 638,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": 10,
+    "maxValue": 10000,
+    "defaultValue": 1000,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "When a start request is generated by the device in any case if the genset has not started during this time a non-start error will occur.",
+    "relation": []
+  },
+  {
+    "id": 182,
+    "version": 1005,
+    "name": "Digital Output-1 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1101,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-1 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 183,
+    "version": 1005,
+    "name": "Digital Output-1 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1102,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-1 polarity selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 184,
+    "version": 1005,
+    "name": "Digital Output-2 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1103,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-2 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 185,
+    "version": 1005,
+    "name": "Digital Output-2 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1104,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-2 is the parameter for polarity selection.",
+    "relation": []
+  },
+  {
+    "id": 186,
+    "version": 1005,
+    "name": "Digital Output-3 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1105,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 4,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-3 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 187,
+    "version": 1005,
+    "name": "Digital Output-3 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1106,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-3 is the parameter for polarity selection.",
+    "relation": []
+  },
+  {
+    "id": 188,
+    "version": 1005,
+    "name": "Digital Output-4 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1107,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 3,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-4 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 189,
+    "version": 1005,
+    "name": "Digital Output-4 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1108,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-4 is the parameter for polarity selection.",
+    "relation": []
+  },
+  {
+    "id": 190,
+    "version": 1005,
+    "name": "Digital Output-5 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1109,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 2,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-5 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 191,
+    "version": 1005,
+    "name": "Digital Output-5 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1110,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-5 is the parameter for polarity selection.",
+    "relation": []
+  },
+  {
+    "id": 192,
+    "version": 1005,
+    "name": "Digital Output-6 Source",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1111,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 41,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Horn"
+      },
+      {
+        "value": 2,
+        "mask": "GCB Open Out"
+      },
+      {
+        "value": 3,
+        "mask": "MCB Open Out"
+      },
+      {
+        "value": 4,
+        "mask": "Remote Start Stop"
+      },
+      {
+        "value": 5,
+        "mask": "Common Alarm"
+      },
+      {
+        "value": 6,
+        "mask": "Off Mode"
+      },
+      {
+        "value": 7,
+        "mask": "Auto Mode"
+      },
+      {
+        "value": 8,
+        "mask": "Manual Mode"
+      },
+      {
+        "value": 9,
+        "mask": "Mains Failure"
+      },
+      {
+        "value": 10,
+        "mask": "Engine Running"
+      },
+      {
+        "value": 11,
+        "mask": "Generator On Load"
+      },
+      {
+        "value": 12,
+        "mask": "Mains On Load"
+      },
+      {
+        "value": 13,
+        "mask": "Generator Available"
+      },
+      {
+        "value": 14,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 15,
+        "mask": "Gen. Load Inhibited"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Load Inhibited"
+      },
+      {
+        "value": 17,
+        "mask": "Gen. Over Freq."
+      },
+      {
+        "value": 18,
+        "mask": "Gen. Over Volt."
+      },
+      {
+        "value": 19,
+        "mask": "Gen. Under Freq."
+      },
+      {
+        "value": 20,
+        "mask": "Gen. Under Volt."
+      },
+      {
+        "value": 21,
+        "mask": "Mains Over Freq."
+      },
+      {
+        "value": 22,
+        "mask": "Mains Over Volt."
+      },
+      {
+        "value": 23,
+        "mask": "Mains Under Freq."
+      },
+      {
+        "value": 24,
+        "mask": "Mains Under Volt."
+      },
+      {
+        "value": 25,
+        "mask": "Mains Return Delay"
+      },
+      {
+        "value": 26,
+        "mask": "Start And Run"
+      },
+      {
+        "value": 27,
+        "mask": "Start Delay"
+      },
+      {
+        "value": 28,
+        "mask": "Waiting for Gen."
+      },
+      {
+        "value": 29,
+        "mask": "Waiting Man.Restore"
+      },
+      {
+        "value": 30,
+        "mask": "Module Energised"
+      },
+      {
+        "value": 31,
+        "mask": "Battery High Voltage"
+      },
+      {
+        "value": 32,
+        "mask": "Battery Low Voltage"
+      },
+      {
+        "value": 33,
+        "mask": "Cooling Down"
+      },
+      {
+        "value": 34,
+        "mask": "Fail to Start"
+      },
+      {
+        "value": 35,
+        "mask": "Fail to Stop"
+      },
+      {
+        "value": 36,
+        "mask": "Gen. OverPower"
+      },
+      {
+        "value": 37,
+        "mask": "Gen. OverCurrent"
+      },
+      {
+        "value": 38,
+        "mask": "CB 0 Position Pulse"
+      },
+      {
+        "value": 39,
+        "mask": "GCB Timing Output1"
+      },
+      {
+        "value": 40,
+        "mask": "GCB Timing Output2"
+      },
+      {
+        "value": 41,
+        "mask": "GCB Timing Output3"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-6 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 193,
+    "version": 1005,
+    "name": "Digital Output-6 Polarity",
+    "group": "Digital Output",
+    "unit": "",
+    "modbusAddress": 1112,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Active Energized"
+      },
+      {
+        "value": 1,
+        "mask": "Passive Energized"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Output-6 is the parameter for polarity selection.",
+    "relation": []
+  },
+  {
+    "id": 194,
+    "version": 1005,
+    "name": "Digital Input-1 Source",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1201,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 40,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Emergency Stop"
+      },
+      {
+        "value": 2,
+        "mask": "Ready to Load"
+      },
+      {
+        "value": 3,
+        "mask": "Access Lock"
+      },
+      {
+        "value": 4,
+        "mask": "MCB Feedback"
+      },
+      {
+        "value": 5,
+        "mask": "GCB Feedback"
+      },
+      {
+        "value": 6,
+        "mask": "Sim. Start Button"
+      },
+      {
+        "value": 7,
+        "mask": "Sim. Stop Button"
+      },
+      {
+        "value": 8,
+        "mask": "Sim. MCB Button"
+      },
+      {
+        "value": 9,
+        "mask": "Sim. GCB Button"
+      },
+      {
+        "value": 10,
+        "mask": "Remote Start/Stop"
+      },
+      {
+        "value": 11,
+        "mask": "Remote Start/Load"
+      },
+      {
+        "value": 12,
+        "mask": "Remote Off"
+      },
+      {
+        "value": 13,
+        "mask": "Remote Manual"
+      },
+      {
+        "value": 14,
+        "mask": "Remote Auto"
+      },
+      {
+        "value": 15,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Fail"
+      },
+      {
+        "value": 17,
+        "mask": "MCB Lock"
+      },
+      {
+        "value": 18,
+        "mask": "GCB Lock"
+      },
+      {
+        "value": 19,
+        "mask": "Alarm Mute"
+      },
+      {
+        "value": 20,
+        "mask": "Alarm Disable"
+      },
+      {
+        "value": 21,
+        "mask": "Alarm Reset"
+      },
+      {
+        "value": 22,
+        "mask": "Generator Available Input"
+      },
+      {
+        "value": 40,
+        "mask": "User Configured"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-1 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 195,
+    "version": 1005,
+    "name": "Digital Input-1 Polarity",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1202,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Normally Open"
+      },
+      {
+        "value": 1,
+        "mask": "Normally Closed"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-1 polarity selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 196,
+    "version": 1005,
+    "name": "Digital Input-1 Action",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1203,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-1 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+    "relation": []
+  },
+  {
+    "id": 197,
+    "version": 1005,
+    "name": "Digital Input-1 Arming",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1204,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 3,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Always"
+      },
+      {
+        "value": 1,
+        "mask": "From Safe Operation"
+      },
+      {
+        "value": 2,
+        "mask": "From Cranking"
+      },
+      {
+        "value": 3,
+        "mask": "Never"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-1 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+    "relation": []
+  },
+  {
+    "id": 198,
+    "version": 1005,
+    "name": "Digital Input-2 Source",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1205,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 40,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Emergency Stop"
+      },
+      {
+        "value": 2,
+        "mask": "Ready to Load"
+      },
+      {
+        "value": 3,
+        "mask": "Access Lock"
+      },
+      {
+        "value": 4,
+        "mask": "MCB Feedback"
+      },
+      {
+        "value": 5,
+        "mask": "GCB Feedback"
+      },
+      {
+        "value": 6,
+        "mask": "Sim. Start Button"
+      },
+      {
+        "value": 7,
+        "mask": "Sim. Stop Button"
+      },
+      {
+        "value": 8,
+        "mask": "Sim. MCB Button"
+      },
+      {
+        "value": 9,
+        "mask": "Sim. GCB Button"
+      },
+      {
+        "value": 10,
+        "mask": "Remote Start/Stop"
+      },
+      {
+        "value": 11,
+        "mask": "Remote Start/Load"
+      },
+      {
+        "value": 12,
+        "mask": "Remote Off"
+      },
+      {
+        "value": 13,
+        "mask": "Remote Manual"
+      },
+      {
+        "value": 14,
+        "mask": "Remote Auto"
+      },
+      {
+        "value": 15,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Fail"
+      },
+      {
+        "value": 17,
+        "mask": "MCB Lock"
+      },
+      {
+        "value": 18,
+        "mask": "GCB Lock"
+      },
+      {
+        "value": 19,
+        "mask": "Alarm Mute"
+      },
+      {
+        "value": 20,
+        "mask": "Alarm Disable"
+      },
+      {
+        "value": 21,
+        "mask": "Alarm Reset"
+      },
+      {
+        "value": 22,
+        "mask": "Generator Available Input"
+      },
+      {
+        "value": 40,
+        "mask": "User Configured"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-2 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 199,
+    "version": 1005,
+    "name": "Digital Input-2 Polarity",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1206,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Normally Open"
+      },
+      {
+        "value": 1,
+        "mask": "Normally Closed"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-2 polarity selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 200,
+    "version": 1005,
+    "name": "Digital Input-2 Action",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1207,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-2 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+    "relation": []
+  },
+  {
+    "id": 201,
+    "version": 1005,
+    "name": "Digital Input-2 Arming",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1208,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 3,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Always"
+      },
+      {
+        "value": 1,
+        "mask": "From Safe Operation"
+      },
+      {
+        "value": 2,
+        "mask": "From Cranking"
+      },
+      {
+        "value": 3,
+        "mask": "Never"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-2 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+    "relation": []
+  },
+  {
+    "id": 202,
+    "version": 1005,
+    "name": "Digital Input-3 Source",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1209,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 40,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Emergency Stop"
+      },
+      {
+        "value": 2,
+        "mask": "Ready to Load"
+      },
+      {
+        "value": 3,
+        "mask": "Access Lock"
+      },
+      {
+        "value": 4,
+        "mask": "MCB Feedback"
+      },
+      {
+        "value": 5,
+        "mask": "GCB Feedback"
+      },
+      {
+        "value": 6,
+        "mask": "Sim. Start Button"
+      },
+      {
+        "value": 7,
+        "mask": "Sim. Stop Button"
+      },
+      {
+        "value": 8,
+        "mask": "Sim. MCB Button"
+      },
+      {
+        "value": 9,
+        "mask": "Sim. GCB Button"
+      },
+      {
+        "value": 10,
+        "mask": "Remote Start/Stop"
+      },
+      {
+        "value": 11,
+        "mask": "Remote Start/Load"
+      },
+      {
+        "value": 12,
+        "mask": "Remote Off"
+      },
+      {
+        "value": 13,
+        "mask": "Remote Manual"
+      },
+      {
+        "value": 14,
+        "mask": "Remote Auto"
+      },
+      {
+        "value": 15,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Fail"
+      },
+      {
+        "value": 17,
+        "mask": "MCB Lock"
+      },
+      {
+        "value": 18,
+        "mask": "GCB Lock"
+      },
+      {
+        "value": 19,
+        "mask": "Alarm Mute"
+      },
+      {
+        "value": 20,
+        "mask": "Alarm Disable"
+      },
+      {
+        "value": 21,
+        "mask": "Alarm Reset"
+      },
+      {
+        "value": 22,
+        "mask": "Generator Available Input"
+      },
+      {
+        "value": 40,
+        "mask": "User Configured"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-3 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 203,
+    "version": 1005,
+    "name": "Digital Input-3 Polarity",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1210,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Normally Open"
+      },
+      {
+        "value": 1,
+        "mask": "Normally Closed"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-3 polarity selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 204,
+    "version": 1005,
+    "name": "Digital Input-3 Action",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1211,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-3 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+    "relation": []
+  },
+  {
+    "id": 205,
+    "version": 1005,
+    "name": "Digital Input-3 Arming",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1212,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 3,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Always"
+      },
+      {
+        "value": 1,
+        "mask": "From Safe Operation"
+      },
+      {
+        "value": 2,
+        "mask": "From Cranking"
+      },
+      {
+        "value": 3,
+        "mask": "Never"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-3 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+    "relation": []
+  },
+  {
+    "id": 206,
+    "version": 1005,
+    "name": "Digital Input-4 Source",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1213,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 40,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "None"
+      },
+      {
+        "value": 1,
+        "mask": "Emergency Stop"
+      },
+      {
+        "value": 2,
+        "mask": "Ready to Load"
+      },
+      {
+        "value": 3,
+        "mask": "Access Lock"
+      },
+      {
+        "value": 4,
+        "mask": "MCB Feedback"
+      },
+      {
+        "value": 5,
+        "mask": "GCB Feedback"
+      },
+      {
+        "value": 6,
+        "mask": "Sim. Start Button"
+      },
+      {
+        "value": 7,
+        "mask": "Sim. Stop Button"
+      },
+      {
+        "value": 8,
+        "mask": "Sim. MCB Button"
+      },
+      {
+        "value": 9,
+        "mask": "Sim. GCB Button"
+      },
+      {
+        "value": 10,
+        "mask": "Remote Start/Stop"
+      },
+      {
+        "value": 11,
+        "mask": "Remote Start/Load"
+      },
+      {
+        "value": 12,
+        "mask": "Remote Off"
+      },
+      {
+        "value": 13,
+        "mask": "Remote Manual"
+      },
+      {
+        "value": 14,
+        "mask": "Remote Auto"
+      },
+      {
+        "value": 15,
+        "mask": "Mains Available"
+      },
+      {
+        "value": 16,
+        "mask": "Mains Fail"
+      },
+      {
+        "value": 17,
+        "mask": "MCB Lock"
+      },
+      {
+        "value": 18,
+        "mask": "GCB Lock"
+      },
+      {
+        "value": 19,
+        "mask": "Alarm Mute"
+      },
+      {
+        "value": 20,
+        "mask": "Alarm Disable"
+      },
+      {
+        "value": 21,
+        "mask": "Alarm Reset"
+      },
+      {
+        "value": 22,
+        "mask": "Generator Available Input"
+      },
+      {
+        "value": 40,
+        "mask": "User Configured"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-4 function selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 207,
+    "version": 1005,
+    "name": "Digital Input-4 Polarity",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1214,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Normally Open"
+      },
+      {
+        "value": 1,
+        "mask": "Normally Closed"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-4 polarity selection parameter.",
+    "relation": []
+  },
+  {
+    "id": 208,
+    "version": 1005,
+    "name": "Digital Input-4 Action",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1215,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 1,
+    "maxValue": 4,
+    "defaultValue": 1,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Temporary Warning"
+      },
+      {
+        "value": 2,
+        "mask": "Permanent Warning"
+      },
+      {
+        "value": 3,
+        "mask": "Electrical Trip"
+      },
+      {
+        "value": 4,
+        "mask": "Shutdown"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-4 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+    "relation": []
+  },
+  {
+    "id": 209,
+    "version": 1005,
+    "name": "Digital Input-4 Arming",
+    "group": "Digital Input",
+    "unit": "",
+    "modbusAddress": 1216,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 3,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Always"
+      },
+      {
+        "value": 1,
+        "mask": "From Safe Operation"
+      },
+      {
+        "value": 2,
+        "mask": "From Cranking"
+      },
+      {
+        "value": 3,
+        "mask": "Never"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "Input-4 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+    "relation": []
+  },
+  {
+    "id": 362,
+    "version": 1008,
+    "name": "Off Mode Selection with Stop Button",
+    "group": "General",
+    "unit": "",
+    "modbusAddress": 20,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 0,
+        "mask": "Stop Button Mode Change Active"
+      },
+      {
+        "value": 1,
+        "mask": "Stop Button Mode Change Passive"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "If 0 is selected the device will also switch to off mode when the stop button is pressed. If 1 is selected the device will not switch to off mode when the stop button is pressed and will only stop in manual mode.",
+    "relation": []
+  },
+  {
+    "id": 363,
+    "version": 1009,
+    "name": "GCB Timing Output1 Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 510,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1000,
+    "defaultValue": 1,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "GCB Timing Output1 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+    "relation": []
+  },
+  {
+    "id": 364,
+    "version": 1009,
+    "name": "GCB Timing Output2 Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 511,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1000,
+    "defaultValue": 5,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "GCB Timing Output2 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+    "relation": []
+  },
+  {
+    "id": 365,
+    "version": 1009,
+    "name": "GCB Timing Output3 Delay",
+    "group": "Generator Timer",
+    "unit": "sec",
+    "modbusAddress": 512,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": 0,
+    "maxValue": 1000,
+    "defaultValue": 10,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "GCB Timing Output2 function will be active at the end of this period when the last generator runs after the mains is cut off.",
+    "relation": []
+  },
+  {
+    "id": 3001,
+    "version": 1005,
+    "name": "Mains RS Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3001,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3002,
+    "version": 1005,
+    "name": "Mains ST Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3002,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3003,
+    "version": 1005,
+    "name": "Mains RT Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3003,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3004,
+    "version": 1005,
+    "name": "Mains Frequency",
+    "group": "Monitoring",
+    "unit": "Hz",
+    "modbusAddress": 3004,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3005,
+    "version": 1005,
+    "name": "Scada Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3005,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3006,
+    "version": 1005,
+    "name": "Generator UV Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3006,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3007,
+    "version": 1005,
+    "name": "Generator VW Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3007,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3008,
+    "version": 1005,
+    "name": "Generator UW Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3008,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3009,
+    "version": 1005,
+    "name": "Generator Frequency",
+    "group": "Monitoring",
+    "unit": "Hz",
+    "modbusAddress": 3009,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3010,
+    "version": 1005,
+    "name": "Reserved2",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3010,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3011,
+    "version": 1005,
+    "name": "Reserved3",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3011,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3012,
+    "version": 1005,
+    "name": "Reserved4",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3012,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3013,
+    "version": 1005,
+    "name": "Reserved5",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3013,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3014,
+    "version": 1005,
+    "name": "Reserved6",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3014,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3015,
+    "version": 3016,
+    "name": "Battery Voltage",
+    "group": "Monitoring",
+    "unit": "V",
+    "modbusAddress": 3016,
+    "dataLength": 1,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3016,
+    "version": 1005,
+    "name": "MCU Temperature",
+    "group": "Monitoring",
+    "unit": "°C",
+    "modbusAddress": 3017,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3017,
+    "version": 1005,
+    "name": "Total Working Time",
+    "group": "Monitoring",
+    "unit": "hours",
+    "modbusAddress": 3018,
+    "dataLength": 2,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3018,
+    "version": 1005,
+    "name": "Total Working Time(LSB)",
+    "group": "Monitoring",
+    "unit": "hours",
+    "modbusAddress": 3019,
+    "dataLength": 2,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3019,
+    "version": 1005,
+    "name": "Working Time at Load",
+    "group": "Monitoring",
+    "unit": "hours",
+    "modbusAddress": 3020,
+    "dataLength": 2,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3020,
+    "version": 1005,
+    "name": "Working Time at Load(LSB)",
+    "group": "Monitoring",
+    "unit": "hours",
+    "modbusAddress": 3021,
+    "dataLength": 2,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3021,
+    "version": 1005,
+    "name": "Generator Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3022,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3022,
+    "version": 1005,
+    "name": "Engine Speed",
+    "group": "Monitoring",
+    "unit": "rpm",
+    "modbusAddress": 3023,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3023,
+    "version": 1005,
+    "name": "Inputs",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3024,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3024,
+    "version": 1005,
+    "name": "Outputs",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3025,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3025,
+    "version": 1005,
+    "name": "Led Indicator",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3026,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3026,
+    "version": 1005,
+    "name": "Remote Button",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 3027,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3027,
+    "version": 1005,
+    "name": "Mains Current",
+    "group": "Monitoring",
+    "unit": "A",
+    "modbusAddress": 3028,
+    "dataLength": 2,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3028,
+    "version": 1005,
+    "name": "Generator Current",
+    "group": "Monitoring",
+    "unit": "A",
+    "modbusAddress": 3030,
+    "dataLength": 2,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3029,
+    "version": 1005,
+    "name": "Total kVA",
+    "group": "Monitoring",
+    "unit": "kVA",
+    "modbusAddress": 3032,
+    "dataLength": 2,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3030,
+    "version": 1005,
+    "name": "Total kW",
+    "group": "Monitoring",
+    "unit": "kW",
+    "modbusAddress": 3034,
+    "dataLength": 2,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3031,
+    "version": 1005,
+    "name": "Total kVAR",
+    "group": "Monitoring",
+    "unit": "kVAR",
+    "modbusAddress": 3036,
+    "dataLength": 2,
+    "coef": -1,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3037,
+    "version": 1005,
+    "name": "Total Power Factor",
+    "group": "Monitoring",
+    "unit": "PF",
+    "modbusAddress": 3038,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3201,
+    "version": 1005,
+    "name": "Fault Register1",
+    "group": "Fault Register1",
+    "unit": "",
+    "modbusAddress": 3201,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3202,
+    "version": 1005,
+    "name": "Fault Register2",
+    "group": "Fault Register2",
+    "unit": "",
+    "modbusAddress": 3202,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3203,
+    "version": 1005,
+    "name": "Fault Register3",
+    "group": "Fault Register3",
+    "unit": "",
+    "modbusAddress": 3203,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3204,
+    "version": 1005,
+    "name": "Fault Register4",
+    "group": "Fault Register4",
+    "unit": "",
+    "modbusAddress": 3204,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3205,
+    "version": 1005,
+    "name": "Fault Register5",
+    "group": "Fault Register5",
+    "unit": "",
+    "modbusAddress": 3205,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3206,
+    "version": 1005,
+    "name": "Fault Register6",
+    "group": "Fault Register6",
+    "unit": "",
+    "modbusAddress": 3206,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3207,
+    "version": 1005,
+    "name": "Fault Register7",
+    "group": "Fault Register7",
+    "unit": "",
+    "modbusAddress": 3207,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3208,
+    "version": 1005,
+    "name": "Fault Register8",
+    "group": "Fault Register8",
+    "unit": "",
+    "modbusAddress": 3208,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3209,
+    "version": 1005,
+    "name": "Fault Register9",
+    "group": "Fault Register9",
+    "unit": "",
+    "modbusAddress": 3209,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3210,
+    "version": 1005,
+    "name": "Fault Register10",
+    "group": "Fault Register10",
+    "unit": "",
+    "modbusAddress": 3210,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 3211,
+    "version": 1005,
+    "name": "Fault Register11",
+    "group": "Fault Register11",
+    "unit": "",
+    "modbusAddress": 3211,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "",
+    "relation": []
+      }
+    ],
+    "alarms": [],
+    "events": []
+  }
+]

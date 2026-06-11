@@ -1,0 +1,429 @@
+[
+  {
+    "object": "config",
+    "pageCount": 2,
+    "pageTitle": [
+      "Monitoring",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "100px",
+    "height": "100px",
+    "image": "dhcpFalse.png",
+    "conditions": [
+      {
+        "paramId": 3,
+        "compareValue": "Passive",
+        "operator": "eq",
+        "image": "dhcpFalse.png"
+      },
+      {
+        "paramId": 3,
+        "compareValue": "Activate",
+        "operator": "eq",
+        "image": "dhcpTrue.png"
+      }
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "name": "IP",
+    "showUnits": false,
+    "width": "260px",
+    "separator": ":",
+    "paramId": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "name": "Netmask",
+    "showUnits": false,
+    "width": "260px",
+    "separator": ":",
+    "paramId": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "name": "Gateway",
+    "showUnits": false,
+    "width": "260px",
+    "separator": ":",
+    "paramId": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "object": "datacardgroup",
+    "page": 1,
+    "row": 5,
+    "side": "left",
+    "name": "MAC ID",
+    "showUnits": false,
+    "width": "260px",
+    "separator": ":",
+    "paramId": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "title": "GSM",
+    "width": "270px",
+    "height": "160px",
+    "itemList": [
+      {
+        "id": 27
+      },
+      {
+        "id": 43
+      },
+      {
+        "id": 87
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "name": "Modem Working Status",
+    "nameColor" : "#A5DE68",
+    "conditions": [
+      {
+        "paramId": 91,
+        "compareValue": "None of them work",
+        "operator": "eq",
+        "text": "None of them work"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "RS485 Not Working",
+        "operator": "eq",
+        "text": "RS485 Not Working"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "GSM-RS485 Working",
+        "operator": "eq",
+        "text": "GSM-RS485 Working"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "Etherntet-RS485 Working",
+        "operator": "eq",
+        "text": "Etherntet-RS485 Working"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "GSM-RS485-Ethernet Working",
+        "operator": "eq",
+        "text": "GSM-RS485-Ethernet Working"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "PIN Entry",
+        "operator": "eq",
+        "text": "PIN Entry"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "PIN Incorrect",
+        "operator": "eq",
+        "text": "PIN Incorrect"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "PUK Entry",
+        "operator": "eq",
+        "text": "PUK Entry"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "Waiting…",
+        "operator": "eq",
+        "text": "Waiting…"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "SIM Removed",
+        "operator": "eq",
+        "text": "SIM Removed"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "Ready to Connect GSM",
+        "operator": "eq",
+        "text": "Ready to Connect GSM"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "Ready to Connect Ethernet",
+        "operator": "eq",
+        "text": "Ready to Connect Ethernet"
+      },
+      {
+        "paramId": 91,
+        "compareValue": "Ready to Connect GSM-Ethernet",
+        "operator": "eq",
+        "text": "Ready to Connect GSM-Ethernet"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "200px",
+    "height": "200px",
+    "image": "ethernetRed.png",
+    "conditions": [
+      {
+        "paramId": 92,
+        "compareValue": "Ethernet Not Ready to Connect",
+        "operator": "eq",
+        "image": "ethernetRed.png",
+        "effect": "pulse"
+      },
+      {
+        "paramId": 92,
+        "compareValue": "Ethernet Ready to Connect",
+        "operator": "eq",
+        "image": "ethernetGreen.png",
+        "effect": "fade"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "200px",
+    "height": "200px",
+    "image": "rs485Red.png",
+    "conditions": [
+      {
+        "paramId": 88,
+        "compareValue": "Status: All Clear",
+        "operator": "eq",
+        "image": "rs485Green.png"
+      },
+      {
+        "paramId": 88,
+        "compareValue": "Status: Error Detected",
+        "operator": "eq",
+        "image": "rs485Red.png",
+        "effect": "pulse"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "200px",
+    "height": "200px",
+    "image": "gsmModemGray.png",
+    "conditions": []
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "200px",
+    "height": "200px",
+    "conditions": [
+      {
+        "paramId": 93,
+        "compareValue": "GSM Ready to Connect",
+        "operator": "eq",
+        "image": "gsmCommunicationGreen.png",
+        "effect": "flip"
+      },
+      {
+        "paramId": 93,
+        "compareValue": "GSM Not Ready to Connect",
+        "operator": "eq",
+        "image": "gsmCommunicationRed.png",
+        "effect": "pulse"
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "260px",
+    "height": "250px",
+    "title": "Alarm Status",
+    "itemList": [
+      {
+        "name": "RS485",
+        "conditions": [
+          {
+            "paramId": 88,
+            "compareValue": "Status: All Clear",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true
+          }
+        ]
+      },
+      {
+        "name": "ETHERNET",
+        "conditions": [
+          {
+            "paramId": 89,
+            "compareValue": "Status: All Clear",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true
+          }
+        ]
+      },
+      {
+        "name": "GSM",
+        "conditions": [
+          {
+            "paramId": 90,
+            "compareValue": "Status: All Clear",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 2,
+    "side": "right",
+    "width": "260px",
+    "height": "250px",
+    "title": "Ready to Connect Info",
+    "itemList": [
+      {
+        "name": "ETHERNET",
+        "conditions": [
+          {
+            "paramId": 92,
+            "compareValue": "Ready to Connect Ethernet",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true,
+            "isBlinking": true
+          }
+        ]
+      },
+      {
+        "name": "GSM",
+        "conditions": [
+          {
+            "paramId": 93,
+            "compareValue": "Ready to Connect GSM",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true,
+            "isBlinking": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "title": "Serial Port",
+    "width": "260px",
+    "height": "300px",
+    "itemList": [
+      {
+        "id": 21
+      },
+      {
+        "id": 22
+      },
+      {
+        "id": 23
+      },
+      {
+        "id": 24
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 26
+      }
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side" :"center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Ethernet",
+      "RS485 Serial Port",
+      "LTE",
+      "Monitoring"
+    ]
+  }
+]

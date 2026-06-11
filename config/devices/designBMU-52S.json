@@ -1,0 +1,5581 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "BMU İZLEME",
+      "ANALOG GÖSTERGE"
+    ],
+    "pageTitle_2": [
+      "BMU MONITOR",
+      "ANALOG INDICATOR"
+    ],
+    "pageTitle_3": [
+      "TEST PAGE",
+      "ANALOG INDICATOR"
+    ],
+    "bootModeAddress": 2,
+    "encryptModbus": true
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "270px",
+    "height": "1080px",
+    "title": "NTC(1-26)",
+    "titleIsBold": true,
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "16.96921px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "id": 301,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 301,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 301,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 302,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 302,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 303,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 303,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 304,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 304,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 304,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 305,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 305,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 305,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 306,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 306,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 306,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 307,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 307,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 307,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 308,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 308,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 308,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 309,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 309,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 309,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 310,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 310,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 310,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 311,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 311,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 311,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 312,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 312,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 312,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 313,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 313,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 313,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 314,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 314,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 314,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 315,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 315,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 315,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 316,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 316,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 316,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 317,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 317,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 317,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 318,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 318,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 318,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 319,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 319,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 319,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 320,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 320,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 320,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 321,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 321,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 321,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 322,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 322,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 322,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 323,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 323,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 323,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 324,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 324,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 324,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 325,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 325,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 325,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 326,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 326,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 326,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "270px",
+    "height": "1080px",
+    "title": "NTC(27-52)",
+    "titleIsBold": true,
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "16.96921px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "id": 327,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 327,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 327,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 328,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 328,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 328,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 329,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 329,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 329,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 330,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 330,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 330,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 331,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 331,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 331,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 332,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 332,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 332,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 333,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 333,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 333,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 334,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 334,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 334,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 335,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 335,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 335,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 336,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 336,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 336,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 337,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 337,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 337,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 338,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 338,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 338,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 339,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 339,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 339,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 340,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 340,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 340,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 341,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 341,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 341,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 342,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 342,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 342,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 343,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 343,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 343,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 344,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 344,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 344,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 345,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 345,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 345,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 346,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 346,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 346,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 347,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 347,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 347,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 348,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 348,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 348,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 349,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 349,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 349,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 350,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 350,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 350,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 351,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 351,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 351,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 352,
+        "conditions": [
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          },
+          {
+            "conditionParamId": 352,
+            "compareParamId": 9,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 352,
+            "compareParamId": 10,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3006
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3006,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3009
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3009,
+        "compareValue": "256",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3010
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3010,
+        "compareValue": "256",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      383
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 383,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3007
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3007,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3008
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3008,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "220px",
+    "height": "1080px",
+    "title": "Battery Voltage(1-26)",
+    "titleIsBold": true,
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "16.96921px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "id": 231,
+        "conditions": [
+          {
+            "conditionParamId": 231,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 231,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "conditions": [
+          {
+            "conditionParamId": 232,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 232,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 233,
+        "conditions": [
+          {
+            "conditionParamId": 233,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 233,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 234,
+        "conditions": [
+          {
+            "conditionParamId": 234,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 234,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 235,
+        "conditions": [
+          {
+            "conditionParamId": 235,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 235,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 236,
+        "conditions": [
+          {
+            "conditionParamId": 236,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 236,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 237,
+        "conditions": [
+          {
+            "conditionParamId": 237,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 237,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 238,
+        "conditions": [
+          {
+            "conditionParamId": 238,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 238,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "conditions": [
+          {
+            "conditionParamId": 239,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 239,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 240,
+        "conditions": [
+          {
+            "conditionParamId": 240,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 240,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 241,
+        "conditions": [
+          {
+            "conditionParamId": 241,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 241,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 242,
+        "conditions": [
+          {
+            "conditionParamId": 242,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 242,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 243,
+        "conditions": [
+          {
+            "conditionParamId": 243,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 243,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 244,
+        "conditions": [
+          {
+            "conditionParamId": 244,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 244,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 245,
+        "conditions": [
+          {
+            "conditionParamId": 245,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 245,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 246,
+        "conditions": [
+          {
+            "conditionParamId": 246,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 246,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 247,
+        "conditions": [
+          {
+            "conditionParamId": 247,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 247,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 248,
+        "conditions": [
+          {
+            "conditionParamId": 248,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 248,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "conditions": [
+          {
+            "conditionParamId": 249,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 249,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "conditions": [
+          {
+            "conditionParamId": 250,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 250,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 251,
+        "conditions": [
+          {
+            "conditionParamId": 251,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 251,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "conditions": [
+          {
+            "conditionParamId": 252,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 252,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 253,
+        "conditions": [
+          {
+            "conditionParamId": 253,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 253,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 254,
+        "conditions": [
+          {
+            "conditionParamId": 254,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 254,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "conditions": [
+          {
+            "conditionParamId": 255,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 255,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "conditions": [
+          {
+            "conditionParamId": 256,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 256,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "220px",
+    "height": "1080px",
+    "title": "Battery Voltage(27-52)",
+    "titleIsBold": true,
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "16.96921px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "id": 257,
+        "conditions": [
+          {
+            "conditionParamId": 257,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 257,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 258,
+        "conditions": [
+          {
+            "conditionParamId": 258,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 258,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 259,
+        "conditions": [
+          {
+            "conditionParamId": 259,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 259,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "conditions": [
+          {
+            "conditionParamId": 260,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 260,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "conditions": [
+          {
+            "conditionParamId": 261,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 261,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 262,
+        "conditions": [
+          {
+            "conditionParamId": 262,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 262,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 263,
+        "conditions": [
+          {
+            "conditionParamId": 263,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 263,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 264,
+        "conditions": [
+          {
+            "conditionParamId": 264,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 264,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 265,
+        "conditions": [
+          {
+            "conditionParamId": 265,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 265,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "conditions": [
+          {
+            "conditionParamId": 266,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 266,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 267,
+        "conditions": [
+          {
+            "conditionParamId": 267,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 267,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 268,
+        "conditions": [
+          {
+            "conditionParamId": 268,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 268,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 269,
+        "conditions": [
+          {
+            "conditionParamId": 269,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 269,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 270,
+        "conditions": [
+          {
+            "conditionParamId": 270,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 270,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "conditions": [
+          {
+            "conditionParamId": 271,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 271,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 272,
+        "conditions": [
+          {
+            "conditionParamId": 272,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 272,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "conditions": [
+          {
+            "conditionParamId": 273,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 273,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 274,
+        "conditions": [
+          {
+            "conditionParamId": 274,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 274,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "conditions": [
+          {
+            "conditionParamId": 275,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 275,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 276,
+        "conditions": [
+          {
+            "conditionParamId": 276,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 276,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 277,
+        "conditions": [
+          {
+            "conditionParamId": 277,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 277,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 278,
+        "conditions": [
+          {
+            "conditionParamId": 278,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 278,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "conditions": [
+          {
+            "conditionParamId": 279,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 279,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 280,
+        "conditions": [
+          {
+            "conditionParamId": 280,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 280,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 281,
+        "conditions": [
+          {
+            "conditionParamId": 281,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 281,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      },
+      {
+        "id": 282,
+        "conditions": [
+          {
+            "conditionParamId": 282,
+            "compareParamId": 7,
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+          },
+          {
+            "conditionParamId": 282,
+            "compareParamId": 8,
+            "operator": "lte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#757575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "title": "Balance Output (1-26)",
+    "width": "200px",
+    "height": "1080px",
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "18px",
+    "itemList": [
+      {
+        "name": "Battery-1",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-2",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-3",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-4",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-5",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-6",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-7",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-8",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-9",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-10",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-11",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-12",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-13",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-14",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-15",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-16",
+        "conditions": [
+          {
+            "paramId": 375,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-17",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-18",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-19",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-20",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-21",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-22",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-23",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-24",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-25",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-26",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "title": "Balance State (1-26)",
+    "width": "200px",
+    "height": "1080px",
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "18px",
+    "itemList": [
+      {
+        "name": "Battery-1",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-2",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-3",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-4",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-5",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-6",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-7",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-8",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-9",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-10",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-11",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-12",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-13",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-14",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-15",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-16",
+        "conditions": [
+          {
+            "paramId": 371,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-17",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-18",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-19",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-20",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-21",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-22",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-23",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-24",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-25",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-26",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "title": "Balance Output (27-52)",
+    "width": "200px",
+    "height": "1080px",
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "18px",
+    "itemList": [
+      {
+        "name": "Battery-27",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-28",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-29",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-30",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-31",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-32",
+        "conditions": [
+          {
+            "paramId": 376,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-33",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-34",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-35",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-36",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-37",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-38",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-39",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-40",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-41",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-42",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-43",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-44",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-45",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-46",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-47",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-48",
+        "conditions": [
+          {
+            "paramId": 377,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-49",
+        "conditions": [
+          {
+            "paramId": 378,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-50",
+        "conditions": [
+          {
+            "paramId": 378,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-51",
+        "conditions": [
+          {
+            "paramId": 378,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-52",
+        "conditions": [
+          {
+            "paramId": 378,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "title": "Balance State (27-52)",
+    "width": "200px",
+    "height": "1080px",
+    "titleFontSize": "18px",
+    "titleColor": "#B0BEC5",
+    "itemFontSize": "18px",
+    "itemList": [
+      {
+        "name": "Battery-27",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-28",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-29",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-30",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-31",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-32",
+        "conditions": [
+          {
+            "paramId": 372,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-33",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-34",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-35",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-36",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-37",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-38",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-39",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-40",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-41",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-42",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-43",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-44",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-45",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-46",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-47",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-48",
+        "conditions": [
+          {
+            "paramId": 373,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-49",
+        "conditions": [
+          {
+            "paramId": 374,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-50",
+        "conditions": [
+          {
+            "paramId": 374,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-51",
+        "conditions": [
+          {
+            "paramId": 374,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Battery-52",
+        "conditions": [
+          {
+            "paramId": 374,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3066
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3001
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3001,
+        "compareValue": "-0.001",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3002
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3002,
+        "compareValue": "-0.001",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3003
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3003,
+        "compareValue": "-0.001",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3004
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3004,
+        "compareValue": "256",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3005
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3005,
+        "compareValue": "256",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      14
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3065,
+      3011,
+      380,
+      381,
+      382
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3093,
+      3094,
+      3095,
+      3096,
+      3097,
+      3098
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      384
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 384,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      16
+    ],
+    "conditions": []
+  },
+  {
+  "object": "button",
+  "page": 1,
+  "row": 1,
+  "side": "right",
+  "name": "Current Offset Save", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "Current Offset Save",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 19,
+  "actionValue": 1,
+  "bitPosition": 0,
+  "height": "80px",
+  "width": "225px"
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+  "height": "80px",
+  "width": "225px",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      20
+    ],
+    "conditions": []
+  },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      916,
+      905,
+      908
+    ],
+    "conditions": []
+  },
+  {
+    "object": "table",
+    "page": 1,
+    "row": 6,
+    "itemFontSize": "18px",
+    "width": "535px",
+    "height": "575px",
+    "side": "right",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Digital Output",
+      "Digital Input",
+      "Device"
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      385
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 385,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      386
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 386,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      387
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 387,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      388,
+      3069,
+      3070,
+      3092,
+      393
+    ]
+  },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      390
+    ],
+        "conditions": [
+      {
+        "conditionParamId": 390,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff",
+        "isDisabled": true,
+        "backgroundColor": "#757575"
+      },
+      {
+            "conditionParamId": 390,
+            "compareValue": "100",
+            "operator": "gte",
+            "textColor": "#ffffff",
+            "backgroundColor": "#DD1D1A"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      394,
+      395,
+      396
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 2,
+    "row": 3,
+    "side": "left",
+    "width": "600px",
+    "height": "300px",
+    "titleFontSize": "30px",
+    "titleIsBold": true,
+    "itemFontSize": "22px",
+    "title": "Inputs",
+    "itemList": [
+      {
+        "nameParamId": 405,
+        "conditions": [
+          {
+            "paramId": 3073,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "nameParamId": 409,
+        "conditions": [
+          {
+            "paramId": 3073,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 2,
+    "row": 2,
+    "side": "left",
+    "width": "600px",
+    "height": "300px",
+    "titleFontSize": "30px",
+    "titleIsBold": true,
+    "itemFontSize": "22px",
+    "title": "Outputs",
+    "itemList": [
+      {
+        "nameParamId": 397,
+        "conditions": [
+          {
+            "paramId": 3074,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "nameParamId": 399,
+        "conditions": [
+          {
+            "paramId": 3074,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "nameParamId": 401,
+        "conditions": [
+          {
+            "paramId": 3074,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "nameParamId": 403,
+        "conditions": [
+          {
+            "paramId": 3074,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "object": "ledindicator",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "width": "700px",
+    "height": "1100px",
+    "titleFontSize": "32px",
+    "itemFontSize": "24px",
+    "title": "Active Fault Indicators",
+    "hideIfNoConditions": true,
+    "itemList": [
+      {
+        "name": "No Fault",
+        "conditions": [
+          {
+            "paramId": 4001,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+            "paramId": 4001,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "#FF0000"
+          }
+        ]
+      },
+      {
+        "name": "Over Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4002,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Over Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4002,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Pack Over Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4003,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Pack Over Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4003,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Cell Over Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4004,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Cell Over Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4004,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Under Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4005,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Under Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4005,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Pack Under Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4006,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Pack Under Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4006,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Cell Under Voltage Protection",
+        "conditions": [
+          {
+            "paramId": 4007,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Cell Under Voltage Warning",
+        "conditions": [
+          {
+            "paramId": 4007,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Charge Over Current Protection",
+        "conditions": [
+          {
+            "paramId": 4008,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Charge Over Current Warning",
+        "conditions": [
+          {
+            "paramId": 4008,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Over Current Protection",
+        "conditions": [
+          {
+            "paramId": 4009,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Over Current Warning",
+        "conditions": [
+          {
+            "paramId": 4009,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Charge Over Temperature Protection",
+        "conditions": [
+          {
+            "paramId": 4010,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Charge Over Temperature Warning",
+        "conditions": [
+          {
+            "paramId": 4010,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Over Temperature Protection",
+        "conditions": [
+          {
+            "paramId": 4011,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Over Temperature Warning",
+        "conditions": [
+          {
+            "paramId": 4011,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Charge Under Temperature Protection",
+        "conditions": [
+          {
+            "paramId": 4012,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Charge Under Temperature Warning",
+        "conditions": [
+          {
+            "paramId": 4012,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Under Temperature Protection",
+        "conditions": [
+          {
+            "paramId": 4013,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Discharge Under Temperature Warning",
+        "conditions": [
+          {
+            "paramId": 4013,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Low Capacity Protection",
+        "conditions": [
+          {
+            "paramId": 4014,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Capacity Warning",
+        "conditions": [
+          {
+            "paramId": 4014,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Low State of Health Warning",
+        "conditions": [
+          {
+            "paramId": 4015,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Cell Unbalance Warning",
+        "conditions": [
+          {
+            "paramId": 4015,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "High Pressure Protection",
+        "conditions": [
+          {
+            "paramId": 4016,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+            {
+        "name": "Leak Sensor Failure",
+        "conditions": [
+          {
+            "paramId": 4016,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Current Sensor Failure",
+        "conditions": [
+          {
+            "paramId": 4017,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+            {
+        "name": "Temperature Sensor Failure",
+        "conditions": [
+          {
+            "paramId": 4017,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "H2 Level Protection",
+        "conditions": [
+          {
+            "paramId": 4018,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "CO Level Protection",
+        "conditions": [
+          {
+            "paramId": 4018,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "PACK OT PROT",
+        "conditions": [
+          {
+            "paramId": 4019,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "PACK OT WARN",
+        "conditions": [
+          {
+            "paramId": 4019,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "PBUSB_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4020,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "PBUSB_OT_WARN",
+        "conditions": [
+          {
+            "paramId": 4020,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "NBUSB_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4021,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "NBUSB_OT_WARN",
+        "conditions": [
+          {
+            "paramId": 4021,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "PMSD_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4022,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "PMSD_OT_WARN",
+        "conditions": [
+          {
+            "paramId": 4022,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "NMSD_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4023,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "NMSD_OT_WARN",
+        "conditions": [
+          {
+            "paramId": 4023,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "CPU_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4024,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "CB_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4024,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "RB_OT_PROT",
+        "conditions": [
+          {
+            "paramId": 4025,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Temperature Diff. Warning",
+        "conditions": [
+          {
+            "paramId": 4025,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	    {
+        "name": "PRES_SEN_WARN",
+        "conditions": [
+          {
+            "paramId": 4026,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Piezo_SEN_WARN",
+        "conditions": [
+          {
+            "paramId": 4026,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "CURR_SEN_REV_WARN",
+        "conditions": [
+          {
+            "paramId": 4027,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Piezo Warning",
+        "conditions": [
+          {
+            "paramId": 4027,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "CAN Communication Warning",
+        "conditions": [
+          {
+            "paramId": 4028,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+	  {
+        "name": "USB Communication Warning",
+        "conditions": [
+          {
+            "paramId": 4028,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "EEPROM Write Warning",
+        "conditions": [
+          {
+            "paramId": 4029,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "Log Write Warning",
+        "conditions": [
+          {
+            "paramId": 4029,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ISO_RES_WARN",
+        "conditions": [
+          {
+            "paramId": 4030,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "High Supply Warning",
+        "conditions": [
+          {
+            "paramId": 4030,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Low Supply Warning",
+        "conditions": [
+          {
+            "paramId": 4031,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+	  {
+        "name": "Short Circuit Protection",
+        "conditions": [
+          {
+            "paramId": 4031,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+	  {
+        "name": "Balance Break Protection",
+        "conditions": [
+          {
+            "paramId": 4032,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "itemFontSize": "16px",
+    "width": "600px",
+    "height": "1320px",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "Protection"
+    ]
+  },
+  {
+  "object": "button",
+  "page": 2,
+  "row": 1,
+  "side": "center",
+  "name": "Clear Active Alarms", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "Clear Active Alarms",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "500px",
+  "actionType": "setValue",
+  "actionParamId": 57,
+  "actionValue": 1,
+  "height": "60px",
+  "width": "548px"
+  },
+      {
+  "object": "button",
+  "page": 4,
+  "row": 1,
+  "side": "center",
+  "name": "TEST - Default State", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 0,
+  "height": "60px",
+  "width": "400px"
+  },
+  {
+  "object": "button",
+  "page": 4,
+  "row": 1,
+  "side": "center",
+  "name": "TEST - No Fault", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 2,
+  "height": "60px",
+  "width": "400px"
+  },
+  {
+  "object": "button",
+  "page": 4,
+  "row": 1,
+  "side": "center",
+  "name": "TEST - Faul Generator", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 4,
+  "height": "60px",
+  "width": "400px"
+  },
+  {
+  "object": "button",
+  "page": 4,
+  "row": 2,
+  "side": "center",
+  "name": "TEST - Random NTC Gen.", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 8,
+  "height": "60px",
+  "width": "400px"
+  },
+  {
+  "object": "button",
+  "page": 4,
+  "row": 2,
+  "side": "center",
+  "name": "TEST - Random Battery Voltage Gen.", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 16,
+  "height": "60px",
+  "width": "400px"
+  },
+    {
+  "object": "button",
+  "page": 4,
+  "row": 2,
+  "side": "center",
+  "name": "TEST - Fault Log Write Test", 
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "nameIsItalic": false,
+  "nameColor": "black",
+  "title": "test1",
+  "image": "",
+  "imageHeight": "200px",
+  "imageWidth": "400px",
+  "actionType": "setValue",
+  "actionParamId": 59,
+  "actionValue": 32,
+  "height": "60px",
+  "width": "400px"
+  },
+  {
+    "object": "datalist",
+    "page": 2,
+    "row": 3,
+    "side": "left",
+    "width": "600px",
+    "height": "714px",
+    "titleFontSize": "30px",
+    "titleIsBold": true,
+    "itemFontSize": "22px",
+    "title": "LIN DATA",
+    "showItemBorder": true,
+
+    "itemList": [
+      { "id": 3075 },
+      { "id": 3076 },
+      { "id": 3077 },
+      { "id": 3078 },
+      { "id": 3079 },
+      { "id": 3080 },
+      { "id": 3081 }
+    ]
+  },
+  {
+  "object": "dataoperation",
+  "targetParamId": 4001,
+  "decimalPlaces": 0,
+  "operation": {
+    "steps": [
+      {
+        "type": "constant",
+        "id": 14,
+        "operator": ">>"
+      }
+    ]
+  }
+}
+]

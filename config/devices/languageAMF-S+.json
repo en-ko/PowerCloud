@@ -1,0 +1,2858 @@
+[
+	{
+		"id" : 1,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Çıkışlar",
+		"text_2" : "Outputs"
+	},
+	{
+		"id" : 2,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Girişler",
+		"text_2" : "Inputs"
+	},
+	{
+		"id" : 3,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alarmlar",
+		"text_2" : "Alarms"
+	},
+	{
+		"id" : 4,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Olaylar",
+		"text_2" : "Events"
+	},
+	{
+		"id" : 5,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Bakım",
+		"text_2" : "Maintenance"
+	},
+	{
+		"id" : 6,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke",
+		"text_2" : "Mains"
+	},
+	{
+		"id" : 7,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jeneratör",
+		"text_2" : "Generator"
+	},
+	{
+		"id" : 8,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Motor",
+		"text_2" : "Engine"
+	},
+	{
+		"id" : 9,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Şifre",
+		"text_2" : "Password"
+	},
+	{
+		"id" : 10,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "MENÜ",
+		"text_2" : "MENU"
+	},
+	{
+		"id" : 11,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "ÇIKIŞLAR",
+		"text_2" : "OUTPUTS"
+	},
+	{
+		"id" : 12,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "GİRİŞLER",
+		"text_2" : "INPUTS"
+	},
+	{
+		"id" : 13,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "RL1",
+		"text_2" : "RL1"
+	},
+	{
+		"id" : 14,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "RL2",
+		"text_2" : "RL2"
+	},
+	{
+		"id" : 15,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "RL3",
+		"text_2" : "RL3"
+	},
+	{
+		"id" : 16,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "RL4",
+		"text_2" : "RL4"
+	},
+	{
+		"id" : 17,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DÇ1",
+		"text_2" : "DO1"
+	},
+	{
+		"id" : 18,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DÇ2",
+		"text_2" : "DO2"
+	},
+	{
+		"id" : 19,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DÇ3",
+		"text_2" : "DO3"
+	},
+	{
+		"id" : 20,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DÇ4",
+		"text_2" : "DO4"
+	},
+	{
+		"id" : 21,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 22,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Marş",
+		"text_2" : "Starter"
+	},
+	{
+		"id" : 23,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Selenoidi",
+		"text_2" : "Fuel Solenoid"
+	},
+	{
+		"id" : 24,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Durdurma Selenoidi",
+		"text_2" : "Stop Solenoid"
+	},
+	{
+		"id" : 25,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Korna",
+		"text_2" : "Horn"
+	},
+	{
+		"id" : 26,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jen. Kontak Çıkışı",
+		"text_2" : "GCB Open Out"
+	},
+	{
+		"id" : 27,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke Kontak Çıkış",
+		"text_2" : "MCB Open Out"
+	},
+	{
+		"id" : 28,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yük Hazır",
+		"text_2" : "Ready To Load"
+	},
+	{
+		"id" : 29,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ön Başlatma",
+		"text_2" : "Prestart"
+	},
+	{
+		"id" : 30,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jikle",
+		"text_2" : "Choke"
+	},
+	{
+		"id" : 31,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Soğutma Fanı",
+		"text_2" : "Cooling Fan"
+	},
+	{
+		"id" : 32,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Pompası",
+		"text_2" : "Fuel Pump"
+	},
+	{
+		"id" : 33,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Genel Alarm",
+		"text_2" : "Common Alarm"
+	},
+	{
+		"id" : 34,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Yakıt Hata",
+		"text_2" : "Low Fuel Alarm"
+	},
+	{
+		"id" : 35,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ D. Bakım Hata",
+		"text_2" : "Maint. Oil Al."
+	},
+	{
+		"id" : 36,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hava D.Bakım Hata",
+		"text_2" : "Maint. Air Al."
+	},
+	{
+		"id" : 37,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt D.Bakım Hata",
+		"text_2" : "Maint. Fuel Al"
+	},
+	{
+		"id" : 38,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Genel Bakım Hata",
+		"text_2" : "Maint. Cmmn Al"
+	},
+	{
+		"id" : 39,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Oto Mod",
+		"text_2" : "Auto Mode"
+	},
+	{
+		"id" : 40,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Manuel Mod",
+		"text_2" : "Manuel Mode"
+	},
+	{
+		"id" : 41,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Sesli Uyarı",
+		"text_2" : "Sound Warning"
+	},
+	{
+		"id" : 42,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DG1",
+		"text_2" : "DI1"
+	},
+	{
+		"id" : 43,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DG2",
+		"text_2" : "DI2"
+	},
+	{
+		"id" : 44,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DG3",
+		"text_2" : "DI3"
+	},
+	{
+		"id" : 45,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DG4",
+		"text_2" : "DI4"
+	},
+	{
+		"id" : 46,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "DG5",
+		"text_2" : "DI5"
+	},
+	{
+		"id" : 47,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 48,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Acil Stop",
+		"text_2" : "Emergency Stop"
+	},
+	{
+		"id" : 49,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Uzaktan Çalış/Dur",
+		"text_2" : "Remote Start Stop"
+	},
+	{
+		"id" : 50,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Uzaktan Çalış/Yükle",
+		"text_2" : "Remote Start Load"
+	},
+	{
+		"id" : 51,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Panel Kilidi",
+		"text_2" : "Panel Lock"
+	},
+	{
+		"id" : 52,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Start Buton Sim.",
+		"text_2" : "Sim. Start Button"
+	},
+	{
+		"id" : 53,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Stop Buton Sim.",
+		"text_2" : "Sim. Stop Button"
+	},
+	{
+		"id" : 54,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alarm Devre Dışı",
+		"text_2" : "Alarm Disable"
+	},
+	{
+		"id" : 55,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alarm Temizleme",
+		"text_2" : "Alarm Reset"
+	},
+	{
+		"id" : 56,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı",
+		"text_2" : "User Configured"
+	},
+	{
+		"id" : 57,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 58,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Acil Stop Arıza",
+		"text_2" : "Emergency Stop"
+	},
+	{
+		"id" : 59,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ B.Kopma Arıza",
+		"text_2" : "Oil Pressure OC"
+	},
+	{
+		"id" : 60,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hararet Kopma Arıza",
+		"text_2" : "Coolant Temp. OC"
+	},
+	{
+		"id" : 61,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt S. Kopma Arıza",
+		"text_2" : "Fuel Level OC"
+	},
+	{
+		"id" : 62,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jen. Yüksek Voltaj",
+		"text_2" : "Gen. Over Volt."
+	},
+	{
+		"id" : 63,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jen. Alçak Voltaj",
+		"text_2" : "Gen. Under Volt."
+	},
+	{
+		"id" : 64,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jen. Yüksek Frekans",
+		"text_2" : "Gen. Over Freq."
+	},
+	{
+		"id" : 65,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jen. Alçak Frekans",
+		"text_2" : "Gen. Under Freq."
+	},
+	{
+		"id" : 66,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Hız",
+		"text_2" : "Overspeed"
+	},
+	{
+		"id" : 67,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Hız",
+		"text_2" : "Underspeed"
+	},
+	{
+		"id" : 68,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Yağ Basıncı",
+		"text_2" : "Low Oil Pressure"
+	},
+	{
+		"id" : 69,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Yağ Basıncı",
+		"text_2" : "High Oil Pressure"
+	},
+	{
+		"id" : 70,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Hararet Arıza",
+		"text_2" : "High Cool Temp."
+	},
+	{
+		"id" : 71,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Yakıt Seviyesi",
+		"text_2" : "Low Fuel Level"
+	},
+	{
+		"id" : 72,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Batarya Alçak Voltaj",
+		"text_2" : "Battery Under Volt"
+	},
+	{
+		"id" : 73,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Batarya Yüksek Voltaj",
+		"text_2" : "Battery Over Volt"
+	},
+	{
+		"id" : 74,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şarj A. Alçak Voltaj",
+		"text_2" : "Charge Alt. UV"
+	},
+	{
+		"id" : 75,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şarj A. Yüksek Voltaj",
+		"text_2" : "Charge Alt. OV"
+	},
+	{
+		"id" : 76,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Başlatma Arızası",
+		"text_2" : "Failed to Start"
+	},
+	{
+		"id" : 77,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Durdurma Hız Arızası",
+		"text_2" : "Failed to Stop Speed"
+	},
+	{
+		"id" : 78,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Durdurma Alternatör",
+		"text_2" : "Failed to Stop Alter."
+	},
+	{
+		"id" : 79,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Durdurma Yağ Arızası",
+		"text_2" : "Failed to Stop Oil P."
+	},
+	{
+		"id" : 80,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Genel Bakım",
+		"text_2" : "Svcs. Common"
+	},
+	{
+		"id" : 81,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Değişim Bakımı",
+		"text_2" : "Svcs. Oil Chnge"
+	},
+	{
+		"id" : 82,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hava Filtre Bakımı",
+		"text_2" : "Svcs. Air Chnge"
+	},
+	{
+		"id" : 83,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Filtre Bakımı",
+		"text_2" : "Svcs. Fuel Chng"
+	},
+	{
+		"id" : 84,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Çıkış Hatası",
+		"text_2" : "Output Error"
+	},
+	{
+		"id" : 85,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz Sırası Hatası",
+		"text_2" : "Mains Phase Seq."
+	},
+	{
+		"id" : 86,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ecu Genel Arıza",
+		"text_2" : "Ecu General"
+	},
+	{
+		"id" : 87,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "CANBUS Hatası",
+		"text_2" : "CANBUS Timeout"
+	},
+	{
+		"id" : 88,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Servis Seviye1",
+		"text_2" : "Service Level1"
+	},
+	{
+		"id" : 89,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Servis Seviye2",
+		"text_2" : "Service Level2"
+	},
+	{
+		"id" : 90,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Aşırı Akım",
+		"text_2" : "Overcurrent"
+	},
+	{
+		"id" : 91,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Aşırı Güç",
+		"text_2" : "Overpower"
+	},
+	{
+		"id" : 92,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "RS485 Hatası",
+		"text_2" : "RS485 Fault"
+	},
+	{
+		"id" : 93,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı 1",
+		"text_2" : "User Conf. 1"
+	},
+	{
+		"id" : 94,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı 2",
+		"text_2" : "User Conf. 2"
+	},
+	{
+		"id" : 95,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı 3",
+		"text_2" : "User Conf. 3"
+	},
+	{
+		"id" : 96,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı 4",
+		"text_2" : "User Conf. 4"
+	},
+	{
+		"id" : 97,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kullanıcı Tanımlı 5",
+		"text_2" : "User Conf. 5"
+	},
+	{
+		"id" : 98,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 99,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke Mevcut",
+		"text_2" : "Mains Available"
+	},
+	{
+		"id" : 100,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke Yüksek Hata",
+		"text_2" : "Mains High Fail"
+	},
+	{
+		"id" : 101,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke Alçak Hata",
+		"text_2" : "Mains Low Fail"
+	},
+	{
+		"id" : 102,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Manuel Başlatma",
+		"text_2" : "Manual Start"
+	},
+	{
+		"id" : 103,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Uzaktan Başlatma",
+		"text_2" : "Remote Start"
+	},
+	{
+		"id" : 104,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "AMF Başlatma",
+		"text_2" : "AMF Start"
+	},
+	{
+		"id" : 105,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Manuel Durdurma",
+		"text_2" : "Manual Stop"
+	},
+	{
+		"id" : 106,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Uzaktan Durdurma",
+		"text_2" : "Remote Stop"
+	},
+	{
+		"id" : 107,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "AMF Durdurma",
+		"text_2" : "AMF Stop"
+	},
+	{
+		"id" : 108,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Oto Aktif",
+		"text_2" : "Auto On"
+	},
+	{
+		"id" : 109,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Oto Pasif",
+		"text_2" : "Auto Off"
+	},
+	{
+		"id" : 110,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Cihaz Başlatıldı",
+		"text_2" : "Power On"
+	},
+	{
+		"id" : 111,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ada Modu",
+		"text_2" : "Island Operation"
+	},
+	{
+		"id" : 112,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 113,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "None"
+	},
+	{
+		"id" : 114,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Genel Bakım",
+		"text_2" : "Common"
+	},
+	{
+		"id" : 115,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Değişim",
+		"text_2" : "Oil Change"
+	},
+	{
+		"id" : 116,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hava F. Değişim",
+		"text_2" : "Air Filter"
+	},
+	{
+		"id" : 117,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt F. Değişim",
+		"text_2" : "Fuel Change"
+	},
+	{
+		"id" : 118,
+		"pixel" : 109,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Sıfırlandı",
+		"text_2" : "Clear"
+	},
+	{
+		"id" : 119,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "",
+		"text_2" : ""
+	},
+	{
+		"id" : 120,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "sn",
+		"text_2" : "sec"
+	},
+	{
+		"id" : 121,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "V",
+		"text_2" : "V"
+	},
+	{
+		"id" : 122,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hz",
+		"text_2" : "Hz"
+	},
+	{
+		"id" : 123,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "rpm",
+		"text_2" : "rpm"
+	},
+	{
+		"id" : 124,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "bar",
+		"text_2" : "bar"
+	},
+	{
+		"id" : 125,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "psi",
+		"text_2" : "psi"
+	},
+	{
+		"id" : 126,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "°C",
+		"text_2" : "°C"
+	},
+	{
+		"id" : 127,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "%",
+		"text_2" : "%"
+	},
+	{
+		"id" : 128,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "°F",
+		"text_2" : "°F"
+	},
+	{
+		"id" : 129,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "A",
+		"text_2" : "A"
+	},
+	{
+		"id" : 130,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "kA",
+		"text_2" : "kA"
+	},
+	{
+		"id" : 131,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "kVA",
+		"text_2" : "kVA"
+	},
+	{
+		"id" : 132,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "MVA",
+		"text_2" : "MVA"
+	},
+	{
+		"id" : 133,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "kW",
+		"text_2" : "kW"
+	},
+	{
+		"id" : 134,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "MW",
+		"text_2" : "MW"
+	},
+	{
+		"id" : 135,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "cosè",
+		"text_2" : "cosè"
+	},
+	{
+		"id" : 136,
+		"pixel" : 24,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "sa",
+		"text_2" : "hrs"
+	},
+	{
+		"id" : 137,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke Kapalı Mod",
+		"text_2" : "Mains Off Mode"
+	},
+	{
+		"id" : 138,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Voltaj Seviye",
+		"text_2" : "OV Alarm Level"
+	},
+	{
+		"id" : 139,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alçak Voltaj Seviye",
+		"text_2" : "UV Alarm Level"
+	},
+	{
+		"id" : 140,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Frekans Sev.",
+		"text_2" : "OF Alarm Level"
+	},
+	{
+		"id" : 141,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alçak Frekans Seviye",
+		"text_2" : "UF Alarm Level"
+	},
+	{
+		"id" : 142,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz Sırası Aksiyon",
+		"text_2" : "Phase Seq. Action"
+	},
+	{
+		"id" : 143,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Bağlantı Tipi",
+		"text_2" : "Connection Type"
+	},
+	{
+		"id" : 144,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hata Gecikmesi",
+		"text_2" : "Fail Delay"
+	},
+	{
+		"id" : 145,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Stabilizasyon Süresi",
+		"text_2" : "Return Delay"
+	},
+	{
+		"id" : 146,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz Sırası Süresi",
+		"text_2" : "Phase Seq. Delay"
+	},
+	{
+		"id" : 147,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Bağlantı Tipi",
+		"text_2" : "Connection Type"
+	},
+	{
+		"id" : 148,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kutup Sayısı",
+		"text_2" : "Number of Pole"
+	},
+	{
+		"id" : 149,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Nominal Voltaj",
+		"text_2" : "Nominal Voltage"
+	},
+	{
+		"id" : 150,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Voltaj Seviye",
+		"text_2" : "OV Alarm Level"
+	},
+	{
+		"id" : 151,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alçak Voltaj Seviye",
+		"text_2" : "UV Alarm Level"
+	},
+	{
+		"id" : 152,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Nominal Frekans",
+		"text_2" : "Nominal Frequency"
+	},
+	{
+		"id" : 153,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Frekans Sev.",
+		"text_2" : "OF Alarm Level"
+	},
+	{
+		"id" : 154,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alçak Frekans Seviye",
+		"text_2" : "UF Alarm Level"
+	},
+	{
+		"id" : 155,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Volt Gecikme",
+		"text_2" : "High Volt Delay"
+	},
+	{
+		"id" : 156,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Volt Gecikme",
+		"text_2" : "Low Volt Delay"
+	},
+	{
+		"id" : 157,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Frek. Gec.",
+		"text_2" : "High Freq. Delay"
+	},
+	{
+		"id" : 158,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Frek. Gecikme",
+		"text_2" : "Low Freq. Delay"
+	},
+	{
+		"id" : 159,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Transfer Süresi",
+		"text_2" : "Transfer Time"
+	},
+	{
+		"id" : 160,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Motor Tipi",
+		"text_2" : "Engine Type"
+	},
+	{
+		"id" : 161,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Modül Tipi",
+		"text_2" : "Module Type"
+	},
+	{
+		"id" : 162,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ön Başlatma Aks.",
+		"text_2" : "Prestart Action"
+	},
+	{
+		"id" : 163,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Marş Deneme Sayısı",
+		"text_2" : "Cranking Attempts"
+	},
+	{
+		"id" : 164,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kesikli Korna",
+		"text_2" : "Intermittent Horn"
+	},
+	{
+		"id" : 165,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Basınç Birimi",
+		"text_2" : "Oil Pres. Unit"
+	},
+	{
+		"id" : 166,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Basınç Seviye",
+		"text_2" : "Low Oil P. Level"
+	},
+	{
+		"id" : 167,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Sıcaklık Birimi",
+		"text_2" : "Temperature Unit"
+	},
+	{
+		"id" : 168,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Sıc. Seviye",
+		"text_2" : "High Temp. Level"
+	},
+	{
+		"id" : 169,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Yakıt Seviyesi",
+		"text_2" : "Low Fuel Level"
+	},
+	{
+		"id" : 170,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Düşük Yakıt Pompa",
+		"text_2" : "Fuel Pump Low"
+	},
+	{
+		"id" : 171,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yüksek Yakıt Pompa",
+		"text_2" : "Fuel Pump High"
+	},
+	{
+		"id" : 172,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Nominal Akü Volt.",
+		"text_2" : "Nom. Batt. Volt."
+	},
+	{
+		"id" : 173,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şarj Alter. Düşük",
+		"text_2" : "Low Charge Alt."
+	},
+	{
+		"id" : 174,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şarj Alter. Yüksek",
+		"text_2" : "High Charge Alt."
+	},
+	{
+		"id" : 175,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Oto Başlama Süresi",
+		"text_2" : "Auto Start Delay"
+	},
+	{
+		"id" : 176,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ön Başlatma Zamanı",
+		"text_2" : "Prestart Time"
+	},
+	{
+		"id" : 177,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Marş Süresi",
+		"text_2" : "Cranking Time"
+	},
+	{
+		"id" : 178,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Marş Bekleme Süresi",
+		"text_2" : "Crank Wait. Time"
+	},
+	{
+		"id" : 179,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Arıza Gecikmesi",
+		"text_2" : "Safety On Delay"
+	},
+	{
+		"id" : 180,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jikle Süresi",
+		"text_2" : "Choke Time"
+	},
+	{
+		"id" : 181,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Stop Süresi",
+		"text_2" : "Stop Timer"
+	},
+	{
+		"id" : 182,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Motor Isınma Süresi",
+		"text_2" : "WarmUp Time"
+	},
+	{
+		"id" : 183,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Soğutma Süresi",
+		"text_2" : "Cooling Time"
+	},
+	{
+		"id" : 184,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Korna Süresi",
+		"text_2" : "Horn Time"
+	},
+	{
+		"id" : 185,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Değişim Saati",
+		"text_2" : "Oil Change Hr."
+	},
+	{
+		"id" : 186,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hava Filtre Saati",
+		"text_2" : "Air Filter. Hr."
+	},
+	{
+		"id" : 187,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Değişim Saati",
+		"text_2" : "Fuel Change Hr."
+	},
+	{
+		"id" : 188,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Genel Bakım Saati",
+		"text_2" : "Common Maint. Hr."
+	},
+	{
+		"id" : 189,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Parametreler",
+		"text_2" : "Parameters"
+	},
+	{
+		"id" : 190,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Olaylar",
+		"text_2" : "Events"
+	},
+	{
+		"id" : 191,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Bakım",
+		"text_2" : "Maintenance"
+	},
+	{
+		"id" : 192,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Dijital G/Ç",
+		"text_2" : "Digital I/O"
+	},
+	{
+		"id" : 193,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Panel Ayarları",
+		"text_2" : "Panel Settings"
+	},
+	{
+		"id" : 194,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Servis",
+		"text_2" : "Service"
+	},
+	{
+		"id" : 195,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "PARAMETRELER",
+		"text_2" : "PARAMETERS"
+	},
+	{
+		"id" : 196,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "OLAYLAR",
+		"text_2" : "EVENTS"
+	},
+	{
+		"id" : 197,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "BAKIM",
+		"text_2" : "MAINTENANCE"
+	},
+	{
+		"id" : 198,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "DİJİTAL G/Ç",
+		"text_2" : "DIGITAL I/O"
+	},
+	{
+		"id" : 199,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "PANEL AYARLARI",
+		"text_2" : "PANEL SETTINGS"
+	},
+	{
+		"id" : 200,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "SERVİS",
+		"text_2" : "SERVICE"
+	},
+	{
+		"id" : 201,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Şebeke",
+		"text_2" : "Mains"
+	},
+	{
+		"id" : 202,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Jeneratör",
+		"text_2" : "Generator"
+	},
+	{
+		"id" : 203,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Motor",
+		"text_2" : "Engine"
+	},
+	{
+		"id" : 204,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Param No Giriş",
+		"text_2" : "Enter Param No"
+	},
+	{
+		"id" : 205,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "ŞEBEKE",
+		"text_2" : "Mains"
+	},
+	{
+		"id" : 206,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "JENERATÖR",
+		"text_2" : "GENERATOR"
+	},
+	{
+		"id" : 207,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "MOTOR",
+		"text_2" : "ENGINE"
+	},
+	{
+		"id" : 208,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Hazır",
+		"text_2" : "Ready"
+	},
+	{
+		"id" : 209,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Oto Başlama",
+		"text_2" : "Auto Start"
+	},
+	{
+		"id" : 210,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Sesli Uyarı",
+		"text_2" : "Sound Warn."
+	},
+	{
+		"id" : 211,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Ön Başlatma",
+		"text_2" : "Prestart"
+	},
+	{
+		"id" : 212,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Marş",
+		"text_2" : "Cranking"
+	},
+	{
+		"id" : 213,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Marş Durma",
+		"text_2" : "Crank Pause"
+	},
+	{
+		"id" : 214,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Çalışıyor",
+		"text_2" : "Running"
+	},
+	{
+		"id" : 215,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Yükte",
+		"text_2" : "Loaded"
+	},
+	{
+		"id" : 216,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Soğutma",
+		"text_2" : "Cooling"
+	},
+	{
+		"id" : 217,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Transfer",
+		"text_2" : "Transfer"
+	},
+	{
+		"id" : 218,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Durdurma",
+		"text_2" : "Stop"
+	},
+	{
+		"id" : 219,
+		"pixel" : 55,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Prm No:",
+		"text_2" : "Prm No:"
+	},
+	{
+		"id" : 220,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "KAYIT...",
+		"text_2" : "SAVING.."
+	},
+	{
+		"id" : 221,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "MİN",
+		"text_2" : "MIN"
+	},
+	{
+		"id" : 222,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "MAX",
+		"text_2" : "MAX"
+	},
+	{
+		"id" : 223,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "",
+		"text_2" : ""
+	},
+	{
+		"id" : 224,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Yanlış Şifre",
+		"text_2" : "Wrong Password"
+	},
+	{
+		"id" : 225,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Kullanıcı Seviye",
+		"text_2" : "User Level"
+	},
+	{
+		"id" : 226,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Servis Seviye",
+		"text_2" : "Service Level"
+	},
+	{
+		"id" : 227,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Fabrika Seviye",
+		"text_2" : "Factory Level"
+	},
+	{
+		"id" : 228,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Üretici Seviye",
+		"text_2" : "Manufacter Level"
+	},
+	{
+		"id" : 229,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "SEV0",
+		"text_2" : "LVL0"
+	},
+	{
+		"id" : 230,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "SEV1",
+		"text_2" : "LVL1"
+	},
+	{
+		"id" : 231,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "SEV2",
+		"text_2" : "LVL2"
+	},
+	{
+		"id" : 232,
+		"pixel" : 40,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "SEV3",
+		"text_2" : "LVL3"
+	},
+	{
+		"id" : 233,
+		"pixel" : 30,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "saat",
+		"text_2" : "hour"
+	},
+	{
+		"id" : 234,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Dil",
+		"text_2" : "Language"
+	},
+	{
+		"id" : 235,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "DİL",
+		"text_2" : "LANGUAGE"
+	},
+	{
+		"id" : 236,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Çıkış Yap",
+		"text_2" : "Logout"
+	},
+	{
+		"id" : 237,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "İngilizce",
+		"text_2" : "English"
+	},
+	{
+		"id" : 238,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Türkçe",
+		"text_2" : "Custom"
+	},
+	{
+		"id" : 239,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Kapalı Mod",
+		"text_2" : "Off Mode"
+	},
+	{
+		"id" : 240,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Oto Mod",
+		"text_2" : "Auto Mode"
+	},
+	{
+		"id" : 241,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Test Mod",
+		"text_2" : "Test Mode"
+	},
+	{
+		"id" : 242,
+		"pixel" : 102,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "Manuel Mod",
+		"text_2" : "Manuel Mode"
+	},
+	{
+		"id" : 243,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Basınç Switch",
+		"text_2" : "Oil Pressure Switch"
+	},
+	{
+		"id" : 244,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hararet Switch",
+		"text_2" : "Temperature Switch"
+	},
+	{
+		"id" : 245,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Seviye Switch",
+		"text_2" : "Fuel Level Switch"
+	},
+	{
+		"id" : 246,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Analog",
+		"text_2" : "Analog"
+	},
+	{
+		"id" : 247,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Cihaz Bilgisi",
+		"text_2" : "Device Info"
+	},
+	{
+		"id" : 248,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "CİHAZ BİLGİSİ",
+		"text_2" : "DEVICE INFO"
+	},
+	{
+		"id" : 249,
+		"pixel" : 93,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "SW Versiyon",
+		"text_2" : "SW Version"
+	},
+	{
+		"id" : 250,
+		"pixel" : 93,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "HW Versiyon",
+		"text_2" : "HW Version"
+	},
+	{
+		"id" : 251,
+		"pixel" : 93,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "TFT Sürücüsü",
+		"text_2" : "TFT Driver"
+	},
+	{
+		"id" : 252,
+		"pixel" : 93,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Bootloader Ver.",
+		"text_2" : "Bootloader Ver."
+	},
+	{
+		"id" : 253,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Fonksiyonlar",
+		"text_2" : "Functions"
+	},
+	{
+		"id" : 254,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Polarite",
+		"text_2" : "Polarity"
+	},
+	{
+		"id" : 255,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "FONKSİYONLAR",
+		"text_2" : "FUNCTIONS"
+	},
+	{
+		"id" : 256,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "POLARİTE",
+		"text_2" : "POLARITY"
+	},
+	{
+		"id" : 257,
+		"pixel" : 120,
+		"font" : "Calibri",
+		"fontSize" : "19",
+		"text_1" : "KONFİGURASYON",
+		"text_2" : "CONFIGURATION"
+	},
+	{
+		"id" : 258,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Normalde Açık",
+		"text_2" : "Normally Open"
+	},
+	{
+		"id" : 259,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Normalde Kapalı",
+		"text_2" : "Normally Closed"
+	},
+	{
+		"id" : 260,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Üretim Tarihi",
+		"text_2" : "Product Date"
+	},
+	{
+		"id" : 261,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "HHN",
+		"text_2" : "HHN"
+	},
+	{
+		"id" : 262,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Sıra No.",
+		"text_2" : "Sequence No."
+	},
+	{
+		"id" : 263,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Alarm",
+		"text_2" : "Alarm"
+	},
+	{
+		"id" : 264,
+		"pixel" : 80,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Başlıyor",
+		"text_2" : "Starting"
+	},
+	{
+		"id" : 265,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Parametre Kayıt",
+		"text_2" : "Parameter Record"
+	},
+	{
+		"id" : 266,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Defaulta Dönüş",
+		"text_2" : "Factory Return"
+	},
+	{
+		"id" : 267,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Log Temizle",
+		"text_2" : "Log Clear"
+	},
+	{
+		"id" : 268,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "ECU Tipi",
+		"text_2" : "ECU Type"
+	},
+	{
+		"id" : 269,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yağ Basınç Sensör",
+		"text_2" : "Oil Press. Sensor"
+	},
+	{
+		"id" : 270,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Hararet Sensörü",
+		"text_2" : "Temp. Sensor"
+	},
+	{
+		"id" : 271,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yakıt Sensörü",
+		"text_2" : "Fuel Sensor"
+	},
+	{
+		"id" : 272,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Varsayılan",
+		"text_2" : "Default"
+	},
+	{
+		"id" : 273,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yedekle",
+		"text_2" : "Backup"
+	},
+	{
+		"id" : 274,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yedekten Oku",
+		"text_2" : "Read from Backup"
+	},
+	{
+		"id" : 275,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Aktif",
+		"text_2" : "Active"
+	},
+	{
+		"id" : 276,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Pasif",
+		"text_2" : "Inactive"
+	},
+	{
+		"id" : 277,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Pasif",
+		"text_2" : "Inactive"
+	},
+	{
+		"id" : 278,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Aktif",
+		"text_2" : "Active"
+	},
+	{
+		"id" : 279,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz-Nötr",
+		"text_2" : "Phase-Neutral"
+	},
+	{
+		"id" : 280,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz-Faz",
+		"text_2" : "Phase-Phase"
+	},
+	{
+		"id" : 281,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "2 Kutup",
+		"text_2" : "2 Poles"
+	},
+	{
+		"id" : 282,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "4 Kutup",
+		"text_2" : "4 Poles"
+	},
+	{
+		"id" : 283,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "6 Kutup",
+		"text_2" : "6 Pole"
+	},
+	{
+		"id" : 284,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "8 Kutup",
+		"text_2" : "8 Poles"
+	},
+	{
+		"id" : 285,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "10 Kutup",
+		"text_2" : "10 Poles"
+	},
+	{
+		"id" : 286,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "12 Kutup",
+		"text_2" : "12 Poles"
+	},
+	{
+		"id" : 287,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "14 Kutup",
+		"text_2" : "14 Poles"
+	},
+	{
+		"id" : 288,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "16 Kutup",
+		"text_2" : "16 Poles"
+	},
+	{
+		"id" : 289,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz-Nötr",
+		"text_2" : "Phase-Neutral"
+	},
+	{
+		"id" : 290,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Faz-Faz",
+		"text_2" : "Phase-Phase"
+	},
+	{
+		"id" : 291,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Dizel",
+		"text_2" : "Diesel"
+	},
+	{
+		"id" : 292,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Benzin",
+		"text_2" : "Gasoline"
+	},
+	{
+		"id" : 293,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "AMF-S",
+		"text_2" : "AMF-S"
+	},
+	{
+		"id" : 294,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "MSU-S",
+		"text_2" : "MSU-S"
+	},
+	{
+		"id" : 295,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "ÖnBaşlatma",
+		"text_2" : "Pre-Start"
+	},
+	{
+		"id" : 296,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Marş Sonunda",
+		"text_2" : "End of Crank"
+	},
+	{
+		"id" : 297,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Arıza Gecikme",
+		"text_2" : "Failure Delay"
+	},
+	{
+		"id" : 298,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Sürekli",
+		"text_2" : "Continuous"
+	},
+	{
+		"id" : 299,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kesikli",
+		"text_2" : "Intermittent"
+	},
+	{
+		"id" : 300,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "BAR",
+		"text_2" : "BAR"
+	},
+	{
+		"id" : 301,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "PSI",
+		"text_2" : "PSI"
+	},
+	{
+		"id" : 302,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "°C",
+		"text_2" : "°C"
+	},
+	{
+		"id" : 303,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "°F",
+		"text_2" : "°F"
+	},
+	{
+		"id" : 304,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Pasif",
+		"text_2" : "Inactive"
+	},
+	{
+		"id" : 305,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Cum. CM850",
+		"text_2" : "Cum. CM850"
+	},
+	{
+		"id" : 306,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Cummins ISB",
+		"text_2" : "Cummins ISB"
+	},
+	{
+		"id" : 307,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Deutz EMR2",
+		"text_2" : "Deutz EMR2"
+	},
+	{
+		"id" : 308,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Deutz EMR3",
+		"text_2" : "Deutz EMR3"
+	},
+	{
+		"id" : 309,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Generic J1939",
+		"text_2" : "Generic J1939"
+	},
+	{
+		"id" : 310,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Iveco T3",
+		"text_2" : "Iveco T3"
+	},
+	{
+		"id" : 311,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "John Deere",
+		"text_2" : "John Deere"
+	},
+	{
+		"id" : 312,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "MTU ADEC",
+		"text_2" : "MTU ADEC"
+	},
+	{
+		"id" : 313,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Perkins 1300",
+		"text_2" : "Perkins 1300"
+	},
+	{
+		"id" : 314,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Perkins Adem3",
+		"text_2" : "Perkins Adem3"
+	},
+	{
+		"id" : 315,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Perkins Adem4",
+		"text_2" : "Perkins Adem4"
+	},
+	{
+		"id" : 316,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Scania S6",
+		"text_2" : "Scania S6"
+	},
+	{
+		"id" : 317,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Volvo EDC3",
+		"text_2" : "Volvo EDC3"
+	},
+	{
+		"id" : 318,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Volvo EDC4",
+		"text_2" : "Volvo EDC4"
+	},
+	{
+		"id" : 319,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Volvo EMS2",
+		"text_2" : "Volvo EMS2"
+	},
+	{
+		"id" : 320,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Volvo EMS2B",
+		"text_2" : "Volvo EMS2B"
+	},
+	{
+		"id" : 321,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yanmar ECO",
+		"text_2" : "Yanmar ECO"
+	},
+	{
+		"id" : 322,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "Not Used"
+	},
+	{
+		"id" : 323,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NO",
+		"text_2" : "NO"
+	},
+	{
+		"id" : 324,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NC",
+		"text_2" : "NC"
+	},
+	{
+		"id" : 325,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "VDO 5 Bar",
+		"text_2" : "VDO 5 Bar"
+	},
+	{
+		"id" : 326,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "VDO 10 Bar",
+		"text_2" : "VDO 10 Bar"
+	},
+	{
+		"id" : 327,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Datcon 5 Bar",
+		"text_2" : "Datcon 5 Bar"
+	},
+	{
+		"id" : 328,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Datcon 10 Bar",
+		"text_2" : "Datcon 10 Bar"
+	},
+	{
+		"id" : 329,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Datcon 7 Bar",
+		"text_2" : "Datcon 7 Bar"
+	},
+	{
+		"id" : 330,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Murphy 7 Bar",
+		"text_2" : "Murphy 7 Bar"
+	},
+	{
+		"id" : 331,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "CMB812",
+		"text_2" : "CMB812"
+	},
+	{
+		"id" : 332,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Veglia",
+		"text_2" : "Veglia"
+	},
+	{
+		"id" : 333,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kull. Tanımlı",
+		"text_2" : "User Defined"
+	},
+	{
+		"id" : 334,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "Not Used"
+	},
+	{
+		"id" : 335,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NO",
+		"text_2" : "NO"
+	},
+	{
+		"id" : 336,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NC",
+		"text_2" : "NC"
+	},
+	{
+		"id" : 337,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "VDO 120",
+		"text_2" : "VDO 120"
+	},
+	{
+		"id" : 338,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Datcon High",
+		"text_2" : "Datcon High"
+	},
+	{
+		"id" : 339,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Datcon Low",
+		"text_2" : "Datcon Low"
+	},
+	{
+		"id" : 340,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Murpy",
+		"text_2" : "Murpy"
+	},
+	{
+		"id" : 341,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Cummins",
+		"text_2" : "Cummins"
+	},
+	{
+		"id" : 342,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "PT100",
+		"text_2" : "PT100"
+	},
+	{
+		"id" : 343,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Veglia",
+		"text_2" : "Veglia"
+	},
+	{
+		"id" : 344,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Beru",
+		"text_2" : "Beru"
+	},
+	{
+		"id" : 345,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kull. Tanımlı",
+		"text_2" : "User Defined"
+	},
+	{
+		"id" : 346,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Tanımsız",
+		"text_2" : "Not Used"
+	},
+	{
+		"id" : 347,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NO",
+		"text_2" : "NO"
+	},
+	{
+		"id" : 348,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "NC",
+		"text_2" : "NC"
+	},
+	{
+		"id" : 349,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "VDO (10-180)",
+		"text_2" : "VDO (10-180)"
+	},
+	{
+		"id" : 350,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "VDO T. (90-0)",
+		"text_2" : "VDO T. (90-0)"
+	},
+	{
+		"id" : 351,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "US (240-33)",
+		"text_2" : "US (240-33)"
+	},
+	{
+		"id" : 352,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "GM (0-90)",
+		"text_2" : "GM (0-90)"
+	},
+	{
+		"id" : 353,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "GM (0-30)",
+		"text_2" : "GM (0-30)"
+	},
+	{
+		"id" : 354,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Ford(73-10)",
+		"text_2" : "Ford(73-10)"
+	},
+	{
+		"id" : 355,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Kull. Tanımlı",
+		"text_2" : "User Defined"
+	},
+	{
+		"id" : 356,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "ECU",
+		"text_2" : "ECU"
+	},
+	{
+		"id" : 357,
+		"pixel" : 118,
+		"font" : "Calibri",
+		"fontSize" : "16",
+		"text_1" : "Yetkisiz Seviye",
+		"text_2" : "Unauthorized"
+	}
+]

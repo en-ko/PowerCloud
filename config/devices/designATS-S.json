@@ -1,0 +1,726 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Parameters",
+      "Graph"
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "paramId": [
+      3015,
+      7
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 2,
+    "side": "left",
+    "width": "320px",
+    "conditions": [
+      {
+        "paramId": 61,
+        "compareValue": "Stop Mode",
+        "operator": "eq",
+        "text": "Stop Mode"
+      },
+      {
+        "paramId": 61,
+        "compareValue": "Manual Mode",
+        "operator": "eq",
+        "text": "Manual Mode"
+      },
+      {
+        "paramId": 61,
+        "compareValue": "Auto Mode",
+        "operator": "eq",
+        "text": "Auto Mode"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "title": "Stop",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 61,
+    "actionValue": 0
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "title": "Auto",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "auto.png",
+    "actionType": "setValue",
+    "actionParamId": 61,
+    "actionValue": 2
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 4,
+    "side": "left",
+    "width": "320px",
+    "height": "530px",
+    "hideIfNoConditions": true,
+    "title": "Active Alarm List",
+    "itemList": [
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+              "paramId": 3201,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Over Voltage",
+        "conditions": [
+          {
+              "paramId": 3202,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Under Voltage",
+        "conditions": [
+          {
+              "paramId": 3202,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Over Frequency",
+        "conditions": [
+          {
+              "paramId": 3203,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Under Frequency",
+        "conditions": [
+          {
+              "paramId": 3203,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Phase Sequence Error",
+        "conditions": [
+          {
+              "paramId": 3204,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Overcurrent",
+        "conditions": [
+          {
+              "paramId": 3204,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Overpower",
+        "conditions": [
+          {
+              "paramId": 3205,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Battery Overvoltage",
+        "conditions": [
+          {
+              "paramId": 3205,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Battery Undervoltage",
+        "conditions": [
+          {
+              "paramId": 3206,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "User Configured Alarm 1",
+        "conditions": [
+          {
+              "paramId": 3206,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "User Configured Alarm 2",
+        "conditions": [
+          {
+              "paramId": 3207,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "User Configured Alarm 3",
+        "conditions": [
+          {
+              "paramId": 3207,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "User Configured Alarm 4",
+        "conditions": [
+          {
+              "paramId": 3208,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Low Side Driver Fault",
+        "conditions": [
+          {
+              "paramId": 3208,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Mains Phase Sequence Error",
+        "conditions": [
+          {
+              "paramId": 3209,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "ATS Fail to Stop",
+        "conditions": [
+          {
+              "paramId": 3209,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "ATS Fail to Start",
+        "conditions": [
+          {
+              "paramId": 3210,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Generator Circuit Breaker Feedback",
+        "conditions": [
+          {
+              "paramId": 3210,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Mains Circuit Breaker Feedback",
+        "conditions": [
+          {
+              "paramId": 3211,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "name": "Status",
+    "conditions": [
+      {
+        "paramId": 3021,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Breaker Off"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Mains Operatation"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Mains Fault"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Genset Operatation"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Mains Return"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "Transfer"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Start Delay"
+      },
+      {
+        "paramId": 3021,
+        "compareValue": "7",
+        "operator": "eq",
+        "text": "Cooling"
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "title": "MAINS",
+    "width": "250px",
+    "itemList": [
+        {
+          "id": 3001
+        },
+        {
+          "id": 3002
+        },
+        {
+          "id": 3003
+        },
+        {
+          "id": 3004
+        }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "width": "400px",
+    "height": "210px",
+    "imageWidth": "380px",
+    "imageHeight": "190px",
+    "image": "mimicNotOk.png",
+    "conditions": [
+      {
+        "paramId": 3005,
+        "compareValue": "0",
+        "operator": "eq",
+        "image": "mimicNotOk.png"
+      },
+      {
+        "paramId": 3005,
+        "compareValue": "1",
+        "operator": "eq",
+        "image": "mimicMainsOk.png"
+      },
+      {
+        "paramId": 3005,
+        "compareValue": "2",
+        "operator": "eq",
+        "image": "genset_ok.png"
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "title": "GENERATOR",
+    "width": "250px",
+    "itemList": [
+        {
+          "id": 3006
+        },
+        {
+          "id": 3007
+        },
+        {
+          "id": 3008
+        },
+        {
+          "id": 3009
+        }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      3028,
+      3029,
+      3030,
+      3031,
+      3037,
+      3027
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      3006,
+      3007,
+      3008
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      3009
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      3001,
+      3002,
+      3003
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      3004
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 2,
+    "side": "right",
+    "width": "320px",
+    "height": "430px",
+    "title": "Outputs",
+    "itemList": [
+      {
+        "nameParamId" : 182,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 184,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "1",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 186,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "2",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 188,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "3",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 190,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "4",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 192,
+        "conditions": [
+          {
+              "paramId": 3024,
+              "compareValue": "5",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "width": "320px",
+    "height": "320px",
+    "title": "Inputs",
+    "itemList": [
+      {
+        "nameParamId": 194,
+        "conditions": [
+          {
+              "paramId": 3023,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId": 198,
+        "conditions": [
+          {
+              "paramId": 3023,
+              "compareValue": "1",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId": 202,
+        "conditions": [
+          {
+              "paramId": 3023,
+              "compareValue": "2",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId": 206,
+        "conditions": [
+          {
+              "paramId": 3023,
+              "compareValue": "3",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Mains",
+      "Generator",
+      "Engine",
+      "Mains Timer",
+      "Generator Timer",
+      "Engine Timer",
+      "Communication",
+      "Digital Output",
+      "Digital Input",
+      "Analog Input-1",
+      "Analog Input-2",
+      "Analog Input-3"
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "width": "50px",
+    "height": "50px",
+    "image": "ledgray_1.png",
+    "conditions": [
+      {
+        "paramId": 61,
+        "compareValue": "2",
+        "operator": "eq",
+        "image": "ledgray_1.png"
+      },
+      {
+        "paramId": 61,
+        "compareValue": "0",
+        "operator": "eq",
+        "image": "ledRed.png"
+      }
+    ]
+  },
+  {
+    "object": "image",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "width": "50px",
+    "height": "50px",
+    "image": "ledgray_1.png",
+    "conditions": [
+      {
+        "paramId": 61,
+        "compareValue": "0",
+        "operator": "eq",
+        "image": "ledgray_1.png"
+      },
+      {
+        "paramId": 61,
+        "compareValue": "2",
+        "operator": "eq",
+        "image": "ledGreen.png"
+      }
+    ]
+  }
+]

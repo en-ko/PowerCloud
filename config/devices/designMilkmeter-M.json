@@ -1,0 +1,30 @@
+[
+  {
+    "object": "config",
+    "pageCount": 2,
+    "pageTitle": [
+      "Monitor",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [      
+      "General",
+      "Pressure",
+      "Animal",
+      "Timing",
+      "Input",
+      "Output",
+      "Monitor",
+      "Calibration",
+      "Communication",
+      "Temperature"
+    ]
+  }
+]

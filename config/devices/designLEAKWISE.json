@@ -1,0 +1,862 @@
+[
+  {
+    "object": "config",
+    "pageCount": 4,
+    "startPage" : 2,
+    "pageTitle": ["Sensor Monitor, Calibration & Setting (2W)", "Sensor Monitor, Calibration & Setting (3W)","Device", "Parameters"]
+  },
+  {
+  "object": "text",
+  "page": 1,
+  "row": 1,
+  "side": "left",
+  "width": "270px",
+  "height": "60px",
+  "nameFontSize": "30px",
+  "name": "Leakwise LC-1000"
+},
+  {
+  "object": "text",
+  "page": 1,
+  "row": 2,
+  "side": "left",
+  "width": "270px",
+  "height": "50px",
+  "name": "Sensor Number: 1"
+  },
+{
+  "object": "datalist",
+  "page": 1,
+  "row": 3,
+  "side": "left",
+  "width": "270px",
+  "height": "50px",
+  "showItemBorder": false,
+  "itemFontSize": "20px",
+  "itemList": [
+    {
+      "paramId": 37
+    }
+  ]
+},
+{
+  "object": "text",
+  "page": 1,
+  "row": 4,
+  "side": "left",
+  "nameFontSize": "18px",
+  "width": "270px",
+  "height": "50px",
+  "name": "Calibration & Setting Parameters"
+  },
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 5,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [12,18]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 6,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [11,16]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 7,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [10,17]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 8,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [9,15]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 9,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [8,23]
+},
+ {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "500px",
+    "height": "40px",
+    "valueFontSize": "24px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "valueColor": "#333333",
+    "isBlinking": false,
+    "conditions": [
+      {
+        "conditionParamId": 19,
+        "compareValue": "FAIL",
+        "operator": "eq",
+        "text": "Leakwise Status: FAIL",
+        "valueColor": "#FF0000",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "AIR",
+        "operator": "eq",
+        "text": "Leakwise Status: AIR (Dry Sump)",
+        "valueColor": "#2196F3",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "HIGH OIL",
+        "operator": "eq",
+        "text": "Leakwise Status: HIGH OIL (Thick Layer)",
+        "valueColor": "#FF9800",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "OIL",
+        "operator": "eq",
+        "text": "Leakwise Status: OIL (Thin Layer)",
+        "valueColor": "#E91E63",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "WATER",
+        "operator": "eq",
+        "text": "Leakwise Status: WATER (No Oil)",
+        "valueColor": "#4CAF50",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "FAIL",
+        "operator": "eq",
+        "text": "Leakwise Status: FAIL",
+        "valueColor": "#4CAF50",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      }
+    ]
+  },
+    {
+    "object": "gradegauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "width": "500px",
+    "height": "230px",
+    "paramId": [401],
+    "nameFontSize": "18px",
+    "valueTextColor": "red",
+    "valueTextSize": "24px",
+    "splitNumber": 6,
+    "labelDecimalPlaces" : 0,
+    "valueDecimalPlaces" : 0,
+    "mainColor": "yellow",
+    "colorRanges": [
+      [0.00, "#ffff00"],
+      [0.05, "#ffef00"],
+      [0.10, "#ffdf00"],
+      [0.15, "#ffcf00"],
+      [0.20, "#ffbf00"],
+      [0.25, "#ffaf00"],
+      [0.30, "#ff9f00"],
+      [0.35, "#ff8f00"],
+      [0.40, "#ff7f00"],
+      [0.45, "#ff6f00"],
+      [0.50, "#ff5f00"],
+      [0.55, "#ff4f11"],
+      [0.60, "#ff3f22"],
+      [0.65, "#ff2f33"],
+      [0.70, "#ff2933"],
+      [0.75, "#ff2333"],
+      [0.80, "#ff1d33"],
+      [0.85, "#ff1733"],
+      [0.90, "#ff1133"],
+      [0.95, "#ff0b33"],
+      [1.00, "#ff3333"]
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 14,
+        "compareValue": "3 Wire",
+        "operator": "neq",
+        "isHidden": false
+      }
+    ]
+  },
+    {
+  "object": "text",
+  "page": 1,
+  "row": 3,
+  "side": "center",
+  "width": "360px",
+  "height": "40px",
+  "name": "Setting Parameters"
+  },
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 4,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [13,20]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 5,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [22,21]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 6,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [309,310]
+},
+  {
+  "object": "datacard",
+  "page": 1,
+  "row": 7,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [38,39]
+},
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width" :"184px",
+    "height": "260px",
+    "title": "Relay Outputs",
+    "titleFontSize": "20px",
+    "titleColor": "#b3f51d",
+    "itemList": [
+      {
+        "nameParamId": 69,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 0, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "orange" }
+        ]
+      },     
+      {
+        "nameParamId": 73,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 1, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "yellow" }
+        ]
+      },  
+      {
+        "nameParamId": 77,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 2, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },  
+      {
+        "nameParamId": 81,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 3, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },               
+      {
+        "nameParamId": 85,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 4, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "green" }
+        ]
+      }
+    ]
+  },
+    {
+  "object": "datacard",
+  "page": 1,
+  "row": 2,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [307]
+},
+    {
+  "object": "datacard",
+  "page": 1,
+  "row": 3,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [33]
+},
+    {
+  "object": "datacard",
+  "page": 1,
+  "row": 4,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [34]
+},
+    {
+  "object": "datacard",
+  "page": 1,
+  "row": 5,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [42]
+},
+    {
+  "object": "datacard",
+  "page": 1,
+  "row": 6,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [43]
+},
+  {
+  "object": "text",
+  "page": 2,
+  "row": 1,
+  "side": "left",
+  "width": "270px",
+  "height": "60px",
+  "nameFontSize": "30px",
+  "name": "Leakwise LC-1000"
+},
+  {
+  "object": "text",
+  "page": 2,
+  "row": 2,
+  "side": "left",
+  "width": "270px",
+  "height": "50px",
+  "name": "Sensor Number: 1"
+  },
+{
+  "object": "datalist",
+  "page": 2,
+  "row": 3,
+  "side": "left",
+  "width": "270px",
+  "height": "50px",
+  "showItemBorder": false,
+  "itemFontSize": "20px",
+  "itemList": [
+    {
+      "paramId": 37
+    }
+  ]
+},
+  {
+  "object": "text",
+  "page": 2,
+  "row": 4,
+  "side": "left",
+  "nameFontSize": "18px",
+  "width": "270px",
+  "height": "50px",
+  "name": "Calibration & Setting Parameters"
+  },
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 5,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [7,18]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 6,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [6,16]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 7,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [5,17]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 8,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [4,15]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 9,
+  "side": "left",
+  "height" : "70px",
+  "width" : "105px",
+  "paramId": [3,23]
+},
+ {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "width": "500px",
+    "height": "40px",
+    "valueFontSize": "24px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "valueColor": "#333333",
+    "isBlinking": false,
+    "conditions": [
+      {
+        "conditionParamId": 19,
+        "compareValue": "FAIL",
+        "operator": "eq",
+        "text": "Leakwise Status: FAIL",
+        "valueColor": "#FF0000",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "AIR",
+        "operator": "eq",
+        "text": "Leakwise Status: AIR (Dry Sump)",
+        "valueColor": "#2196F3",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "HIGH OIL",
+        "operator": "eq",
+        "text": "Leakwise Status: HIGH OIL (Thick Layer)",
+        "valueColor": "#FF9800",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "OIL",
+        "operator": "eq",
+        "text": "Leakwise Status: OIL (Thin Layer)",
+        "valueColor": "#E91E63",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "WATER",
+        "operator": "eq",
+        "text": "Leakwise Status: WATER (No Oil)",
+        "valueColor": "#4CAF50",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "conditionParamId": 19,
+        "compareValue": "FAIL",
+        "operator": "eq",
+        "text": "Leakwise Status: FAIL",
+        "valueColor": "#4CAF50",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      }
+    ]
+  },
+    {
+    "object": "gradegauge",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "width": "500px",
+    "height": "230px",
+    "paramId": [1],
+    "nameFontSize": "18px",
+    "valueTextColor": "red",
+    "valueTextSize": "24px",
+    "splitNumber": 6,
+    "labelDecimalPlaces" : 0,
+    "valueDecimalPlaces" : 0,
+    "mainColor": "yellow",
+    "colorRanges": [
+      [0.00, "#ffff00"],
+      [0.05, "#ffef00"],
+      [0.10, "#ffdf00"],
+      [0.15, "#ffcf00"],
+      [0.20, "#ffbf00"],
+      [0.25, "#ffaf00"],
+      [0.30, "#ff9f00"],
+      [0.35, "#ff8f00"],
+      [0.40, "#ff7f00"],
+      [0.45, "#ff6f00"],
+      [0.50, "#ff5f00"],
+      [0.55, "#ff4f11"],
+      [0.60, "#ff3f22"],
+      [0.65, "#ff2f33"],
+      [0.70, "#ff2933"],
+      [0.75, "#ff2333"],
+      [0.80, "#ff1d33"],
+      [0.85, "#ff1733"],
+      [0.90, "#ff1133"],
+      [0.95, "#ff0b33"],
+      [1.00, "#ff3333"]
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 14,
+        "compareValue": "3 Wire",
+        "operator": "neq",
+        "isHidden": false
+      }
+    ]
+  },
+    {
+  "object": "text",
+  "page": 2,
+  "row": 3,
+  "side": "center",
+  "width": "360px",
+  "height": "40px",
+  "name": "Setting Parameters"
+  },
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 4,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [13,20]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 5,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [22,21]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 6,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [309,310]
+},
+  {
+  "object": "datacard",
+  "page": 2,
+  "row": 7,
+  "side": "center",
+  "height" : "60px",
+  "paramId": [38,39]
+},
+  {
+    "object": "ledindicator",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "width" :"184px",
+    "height": "260px",
+    "title": "Relay Outputs",
+    "titleFontSize": "20px",
+    "titleColor": "#b3f51d",
+    "itemList": [
+      {
+        "nameParamId": 69,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 0, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "orange" }
+        ]
+      },
+      {
+        "nameParamId": 73,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 1, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "yellow" }
+        ]
+      },
+      {
+        "nameParamId": 77,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 2, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "nameParamId": 81,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 3, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },      
+      {
+        "nameParamId": 85,
+        "conditions": [
+          { "conditionParamId": 294, "compareValue": 4, "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "green" }
+        ]
+      }
+    ]
+  },
+    {
+  "object": "datacard",
+  "page": 2,
+  "row": 2,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [307]
+},
+    {
+  "object": "datacard",
+  "page": 2,
+  "row": 3,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [33]
+},
+    {
+  "object": "datacard",
+  "page": 2,
+  "row": 4,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [34]
+},
+    {
+  "object": "datacard",
+  "page": 2,
+  "row": 5,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [42]
+},
+    {
+  "object": "datacard",
+  "page": 2,
+  "row": 6,
+  "side": "right",
+  "height" : "70px",
+  "width" :"160px",
+  "paramId": [43]
+},
+{
+  "object": "space",
+  "page": 1,
+  "row": 15,
+  "side": "left",
+  "width": "400px",
+  "height": "0px"
+},
+{
+  "object": "space",
+  "page": 1,
+  "row": 15,
+  "side": "right",
+  "width": "400px",
+  "height": "0px"
+},
+{
+  "object": "space",
+  "page": 2,
+  "row": 15,
+  "side": "left",
+  "width": "400px",
+  "height": "0px"
+},
+{
+  "object": "space",
+  "page": 2,
+  "row": 15,
+  "side": "right",
+  "width": "400px",
+  "height": "0px"
+},
+{
+    "object": "text",
+    "page": 3,
+    "row": 1,
+    "side": "left",
+    "width": "360px",
+    "text": "Operating Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 2,
+    "side": "left",
+    "paramId": [290, 291]
+  },
+
+
+  {
+    "object": "text",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "width": "360px",
+    "text": "General Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "paramId": [147, 148]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 3,
+    "side": "center",
+    "paramId": [149, 150]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 4,
+    "side": "center",
+    "paramId": [295, 296]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 5,
+    "side": "center",
+    "paramId": [151]
+  },
+  {
+    "object": "text",
+    "page": 3,
+    "row": 6,
+    "side": "center",
+    "width": "360px",
+    "text": "Sensor 2 Monitoring Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 7,
+    "side": "center",
+    "paramId": [316, 317]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 8,
+    "side": "center",
+    "paramId": [109, 110]
+  },
+
+
+  {
+    "object": "text",
+    "page": 3,
+    "row": 1,
+    "side": "right",
+    "width": "360px",
+    "text": "RTC"
+  },
+
+    {
+    "object": "datacardgroup",
+    "page": 3,
+    "row": 5,
+    "side": "right",
+    "width": "120px",
+    "height": "80px",
+    "name": "Date",
+    "paramId": [
+      186,
+      185,
+      184
+    ],
+    "separator": "/",
+    "minDigits" : 2
+  },
+      {
+    "object": "datacardgroup",
+    "page": 3,
+    "row": 5,
+    "side": "right",
+    "width": "120px",
+    "height": "80px",
+    "name": "Time",
+    "paramId": [
+      187,
+      188,
+      189
+    ],
+    "separator": ":",
+    "minDigits" : 2
+  },
+  {
+    "object": "table",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "width": "1000px",
+    "height": "700px",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "Sensor",
+      "4-20 mA Output",
+      "Digital Input",
+      "Digital Output",
+      "Temperature",
+      "HART",
+      "CANopen",
+      "General",
+      "Communication",
+      "Monitoring"
+    ]
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 184,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 2000,
+          "operator": "+"
+        }
+      ]
+    }
+  }
+]

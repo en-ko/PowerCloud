@@ -1,0 +1,545 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Parameters",
+      "Timer 1"
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3005
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3006
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3018
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "410px",
+    "name": "Generator Status",
+    "conditions": [
+      {
+        "paramId": 3017,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Ready"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Start Delay"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Sound Warn."
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Prestart"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Cranking"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "Crank Pause"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Starting"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "7",
+        "operator": "eq",
+        "text": "Loaded"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "8",
+        "operator": "eq",
+        "text": "Cooling"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "9",
+        "operator": "eq",
+        "text": "Transfer"
+      },
+      {
+        "paramId": 3017,
+        "compareValue": "10",
+        "operator": "eq",
+        "text": "Stopping"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      3007,
+      3008,
+      3009,
+      3010,
+      3011
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 5,
+    "side": "right",
+    "width": "290px",
+    "conditions": [
+      {        
+        "paramId": 52,
+        "compareValue": "Manual Mode",
+        "operator": "eq",
+        "text": "Manual Mode"
+      },
+      {
+        "paramId": 52,
+        "compareValue": "Auto Mode",
+        "operator": "eq",
+        "text": "Auto Mode"
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "width": "300px",
+    "title": "Alarm Indicator",
+    "titleFontSize": "20px",
+    "titleIsBold": true,
+    "titleColor": "yellow",
+    "itemList": [
+      {
+        "name": "High Oil Pressure",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "High Cool Temp.",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Low Battery Voltage",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Generator High Voltage",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Low Oil Pressure",
+        "conditions": [
+          {
+            "paramId": 10,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "310px",
+    "title": "Outputs",
+    "titleFontSize": "20px",
+    "titleIsBold": true,
+    "titleColor": "yellow",
+    "itemList": [
+      {
+        "name": "Digital Output-1",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Output-2",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Output-3",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Output-4",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Output-5",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Digital Output-6",
+        "conditions": [
+          {
+            "paramId": 3024,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "color": "red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Stop",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 52,
+    "actionValue": 0
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 7,
+    "side": "left",
+    "title": "Auto",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "auto.png",
+    "actionType": "setValue",
+    "actionParamId": 52,
+    "actionValue": 1
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "left",
+    "title": "Timer List 1",
+    "width": "300px",
+    "height": "1000px",
+    "itemList": [
+      {
+        "id": 354
+      },
+      {
+        "id": 355
+      },
+      {
+        "id": 356
+      },
+      {
+        "id": 357
+      },      
+      {
+        "id": 358
+      },
+      {
+        "id": 359
+      },      
+      {
+        "id": 360
+      },
+      {
+        "id": 361
+      },      
+      {
+        "id": 362
+      },
+      {
+        "id": 363
+      },     
+      {
+        "id": 364
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 4,
+    "row": 1,
+    "side": "center",
+    "title": "Timer List 2",
+    "width": "300px",
+    "height": "800px",
+    "itemList": [
+      {
+        "id": 365
+      },
+      {
+        "id": 366
+      },  
+      {
+        "id": 367
+      },
+      {
+        "id": 368
+      },   
+      {
+        "id": 369
+      },
+      {
+        "id": 370
+      },  
+      {
+        "id": 371
+      },
+      {
+        "id": 372
+      },
+      {
+        "id": 373
+      },
+      {
+        "id": 374
+      },  
+      {
+        "id": 375
+      },
+      {
+        "id": 376
+      },            
+      {
+        "id": 380
+      },
+      {
+        "id": 381
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      354,
+      355,
+      356,
+      357,
+      358
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      359,
+      360,
+      361,
+      362,
+      363
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      364,
+      365,
+      366,
+      367,
+      368
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      369,
+      370,
+      371,
+      372,
+      373
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      374,
+      375,
+      376,
+      377,
+      378
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 6,
+    "side": "center",
+    "paramId": [
+      379,
+      380
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 3,
+    "row": 7,
+    "side": "center",
+    "paramId": [
+      350,
+      349,
+      348,
+      351,
+      352,
+      353
+    ]
+  },
+  {
+    "object": "table",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "General",
+      "Generator",
+      "Engine",
+      "Generator Timer",
+      "Engine Timer",
+      "Communication",
+      "Digital Output",
+      "Digital Input",
+      "Analog Input-1",
+      "Analog Input-2",
+      "Analog Input-3",
+      "Scheduler",
+      "Device"
+    ]
+  }
+]

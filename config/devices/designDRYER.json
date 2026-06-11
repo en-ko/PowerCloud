@@ -1,0 +1,706 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": ["Monitor", "Favorites", "Parameters"]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "600px",
+    "height": "50px",
+    "text": "Kurutucu Durum >> Bilinmeyen",
+    "valueFontSize": "24px",
+    "valueIsBold": false,
+    "valueIsItalic": false,
+    "valueColor": "#333333",
+    "isBlinking": false,
+    "conditions": [
+      {
+        "paramId": 4,
+        "compareValue": 0,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Boşta",
+        "valueColor": "#666666",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "paramId": 4,
+        "compareValue": 1,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Otomatik Bekleme",
+        "valueColor": "#FFA500",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "paramId": 4,
+        "compareValue": 2,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Çalışıyor",
+        "valueColor": "#4CAF50",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "paramId": 4,
+        "compareValue": 3,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Duraklatıldı",
+        "valueColor": "#FF9800",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "paramId": 4,
+        "compareValue": 4,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Reset Onayı",
+        "valueColor": "#2196F3",
+        "valueFontSize": "24px",
+        "isBlinking": true
+      },
+      {
+        "paramId": 4,
+        "compareValue": 5,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Duracak",
+        "valueColor": "#FF5722",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      },
+      {
+        "paramId": 4,
+        "compareValue": 6,
+        "operator": "eq",
+        "text": "Kurutucu Durum >> Sistem Durduruldu ve Beklemede",
+        "valueColor": "#795548",
+        "valueFontSize": "24px",
+        "isBlinking": false
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "width": "600px",
+    "valueFontSize": "20px",
+    "text": "Ana Parametreler"
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "paramId": [1, 56]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      189
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 189,
+        "compareValue": "-110",
+        "operator": "lt",
+        "fixedValue": "Bağlantı yok",
+        "backgroundColor": "red",
+        "isHidden": false,
+        "isDisabled": true
+      },
+      {
+        "conditionParamId": 189,
+        "compareValue": "20",
+        "operator": "gt",
+        "fixedValue": "Bağlantı yok",
+        "backgroundColor": "red",
+        "isHidden": false,
+        "isDisabled": true
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "paramId": [179],
+    "conditions": [
+      {
+        "conditionParamId": 179,
+        "compareValue": "9999",
+        "operator": "eq",
+        "isDisabled": true,
+        "backgroundColor": "red",
+        "fixedValue": "Bağlantı yok"
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 7,
+    "side": "right",
+    "width": "370px",
+    "height": "300px",
+    "title": "Servis Parametreleri",
+    "titleFontSize": "20px",
+    "titleColor": "#fff900",
+    "titleIsBold": true,
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "id": 190,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "id": 191,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "id": 192,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "id": 193,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "id": 194,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "id": 195,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "width": "370px",
+    "height": "600px",
+    "title": "Alarm Göstergeleri",
+    "hideIfNoConditions": true,
+    "itemList": [
+      {
+        "name": "Yüksek Sıcaklık Uyarısı",
+        "conditions": [
+          {
+            "paramId": 218,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Düşük Sıcaklık Uyarısı",
+        "conditions": [
+          {
+            "paramId": 219,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "blue"
+          }
+        ]
+      },
+      {
+        "name": "Güç Kesintisi",
+        "conditions": [
+          {
+            "paramId": 219,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Servis Hatası Level 1",
+        "conditions": [
+          {
+            "paramId": 220,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Yüksek Sıcaklık Alarmı",
+        "conditions": [
+          {
+            "paramId": 221,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Düşük Sıcaklık Alarmı",
+        "conditions": [
+          {
+            "paramId": 221,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Hata Müşteri 1",
+        "conditions": [
+          {
+            "paramId": 222,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "purple"
+          }
+        ]
+      },
+      {
+        "name": "Hata Müşteri 2",
+        "conditions": [
+          {
+            "paramId": 222,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "purple"
+          }
+        ]
+      },
+      {
+        "name": "Servis Hatası Level 2",
+        "conditions": [
+          {
+            "paramId": 223,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Servis Hatası Level 3",
+        "conditions": [
+          {
+            "paramId": 223,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Servis Hatası Level 4",
+        "conditions": [
+          {
+            "paramId": 224,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Servis Hatası Level 5",
+        "conditions": [
+          {
+            "paramId": 224,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "#FF0000"
+          }
+        ]
+      },
+      {
+        "name": "Acil Durdurma",
+        "conditions": [
+          {
+            "paramId": 225,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "#FF0000"
+          }
+        ]
+      },
+      {
+        "name": "Sıcaklık Sensörü Koptu",
+        "conditions": [
+          {
+            "paramId": 225,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Dewp Sensörü Kopuk",
+        "conditions": [
+          {
+            "paramId": 226,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Yağ Basıncı Alarmı",
+        "conditions": [
+          {
+            "paramId": 230,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": true,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Kapı Açık",
+        "conditions": [
+          {
+            "paramId": 230,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "İçerideki Düşük Basınç",
+        "conditions": [
+          {
+            "paramId": 231,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "184px",
+    "height": "260px",
+    "title": "Girişler",
+    "titleFontSize": "20px",
+    "titleColor": "#b3f51d",
+    "itemList": [
+      {
+        "name": "Giriş 1",
+        "conditions": [
+          { "paramId": 177, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Giriş 2",
+        "conditions": [
+          { "paramId": 177, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Giriş 3",
+        "conditions": [
+          { "paramId": 177, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Giriş 4",
+        "conditions": [
+          { "paramId": 177, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Giriş 5",
+        "conditions": [
+          { "paramId": 177, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "184px",
+    "height": "260px",
+    "title": "Çıkışlar",
+    "titleFontSize": "20px",
+    "titleColor": "#b3f51d",
+    "itemList": [
+      {
+        "name": "Çıkış 1",
+        "conditions": [
+          { "paramId": 178, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Çıkış 2",
+        "conditions": [
+          { "paramId": 178, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Çıkış 3",
+        "conditions": [
+          { "paramId": 178, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Çıkış 4",
+        "conditions": [
+          { "paramId": 178, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      },
+      {
+        "name": "Çıkış 5",
+        "conditions": [
+          { "paramId": 178, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "space",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "width": "100px",
+    "height": "20px"
+  },
+  {
+    "object": "space",
+    "page": 1,
+    "row": 6,
+    "side": "right",
+    "width": "100px",
+    "height": "20px"
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "left",
+    "width": "330px",
+    "text": "Zaman Parametreleri"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "left",
+    "paramId": [9, 10]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "left",
+    "paramId": [11, 12]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "left",
+    "paramId": [13, 14, 15]
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 5,
+    "side": "left",
+    "width": "330px",
+    "text": "Çalışma Parametreleri"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 6,
+    "side": "left",
+    "paramId": [6]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 7,
+    "side": "left",
+    "paramId": [61, 62]
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "width": "330px",
+    "text": "Genel Parametreler"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "paramId": [80, 83]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "center",
+    "paramId": [84, 85]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 5,
+    "side": "center",
+    "paramId": [86, 87]
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "width": "330px",
+    "text": "Servis"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "right",
+    "paramId": [181, 66]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "right",
+    "paramId": [67, 68]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "right",
+    "paramId": [69, 70]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 5,
+    "side": "right",
+    "paramId": [71, 72]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 6,
+    "side": "right",
+    "paramId": [73, 74]
+  },
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "width": "1000px",
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "Sensor",
+      "Temperature",
+      "Time",
+      "Service",
+      "Input",
+      "Output",
+      "Monitoring",
+      "General",
+      "Calibration",
+      "Device",
+      "Test",
+      "Error",
+      "Input"
+    ]
+  }
+]

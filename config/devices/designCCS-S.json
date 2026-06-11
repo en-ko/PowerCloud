@@ -1,0 +1,814 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Favorites",
+      "Parameters"
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "name": "Compressor Status",
+    "conditions": [
+      {
+        "paramId": 179,
+        "compareValue": "0",
+        "operator": "eq",
+        "text": "Stopping"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "1",
+        "operator": "eq",
+        "text": "Auto Waiting"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "2",
+        "operator": "eq",
+        "text": "Idle running"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "3",
+        "operator": "eq",
+        "text": "Idle preheating"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "4",
+        "operator": "eq",
+        "text": "Running on load"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "5",
+        "operator": "eq",
+        "text": "It will stop"
+      },
+      {
+        "paramId": 179,
+        "compareValue": "6",
+        "operator": "eq",
+        "text": "Checking screw pressure"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 7,
+    "side": "center",
+    "paramId": [
+      195
+    ],
+    "conditions": [
+      {
+          "conditionParamId": 195,
+          "compareValue": "-1",
+          "operator": "lt",
+          "isDisabled" : true,
+          "backgroundColor": "red",
+          "fixedValue": "No connection"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 7,
+    "side": "center",
+    "paramId": [
+      200
+    ],
+    "conditions": [
+      {
+          "conditionParamId": 200,
+          "compareValue": "330",
+          "operator": "gt",
+          "isDisabled" : true,
+          "backgroundColor": "red",
+          "fixedValue": "No connection"
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 7,
+    "side": "right",
+    "width": "330px",
+    "name": "Service Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 8,
+    "side": "right",
+    "paramId": [
+      211,
+      212
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 9,
+    "side": "right",
+    "paramId": [
+      213,
+      214
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 10,
+    "side": "right",
+    "paramId": [
+      215,
+      216
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "title": "Inputs",
+    "itemList": [
+      {
+        "nameParamId" : 26,
+        "conditions": [
+          {
+              "paramId": 198,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 30,
+        "conditions": [
+          {
+              "paramId": 198,
+              "compareValue": "1",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 34,
+        "conditions": [
+          {
+              "paramId": 198,
+              "compareValue": "2",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 38,
+        "conditions": [
+          {
+              "paramId": 198,
+              "compareValue": "3",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 42,
+        "conditions": [
+          {
+              "paramId": 198,
+              "compareValue": "4",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "200px",
+    "title": "Outputs",
+    "itemList": [
+      {
+        "nameParamId" : 46,
+        "conditions": [
+          {
+              "paramId": 199,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 50,
+        "conditions": [
+          {
+              "paramId": 199,
+              "compareValue": "1",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 54,
+        "conditions": [
+          {
+              "paramId": 199,
+              "compareValue": "2",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 58,
+        "conditions": [
+          {
+              "paramId": 199,
+              "compareValue": "3",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      },
+      {
+        "nameParamId" : 62,
+        "conditions": [
+          {
+              "paramId": 199,
+              "compareValue": "4",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 5,
+    "side": "left",
+    "width": "330px",
+    "name": "Alarm Indicator"
+  },
+  {
+    "object": "text",
+    "page": 1,
+    "row": 8,
+    "side": "center",
+    "width": "240px",
+    "name": "Status Buttons"
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "width": "320px",
+    "height": "600px",
+    "hideIfNoConditions": true,
+    "title": "",
+    "itemList": [
+      {
+        "name": "High Temperature",
+        "conditions": [
+          {
+              "paramId": 3201,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Low Temperature",
+        "conditions": [
+          {
+              "paramId": 3202,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Power Cut",
+        "conditions": [
+          {
+              "paramId": 3202,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Service Fault Level 1",
+        "conditions": [
+          {
+              "paramId": 3203,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Motor Thermic",
+        "conditions": [
+          {
+              "paramId": 3203,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Seperator",
+        "conditions": [
+          {
+              "paramId": 3204,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Fan Thermic",
+        "conditions": [
+          {
+              "paramId": 3204,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Phase",
+        "conditions": [
+          {
+              "paramId": 3205,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Reserved",
+        "conditions": [
+          {
+              "paramId": 3205,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Line Alarm",
+        "conditions": [
+          {
+              "paramId": 3206,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "High Temperature Alarm",
+        "conditions": [
+          {
+              "paramId": 3206,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Low Temperature",
+        "conditions": [
+          {
+              "paramId": 3207,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Custom 1",
+        "conditions": [
+          {
+              "paramId": 3207,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Custom 2",
+        "conditions": [
+          {
+              "paramId": 3208,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "SS PER HOUR",
+        "conditions": [
+          {
+              "paramId": 3208,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Press Line Broke",
+        "conditions": [
+          {
+              "paramId": 3209,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Low pressure",
+        "conditions": [
+          {
+              "paramId": 3209,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Service Fault Level 2",
+        "conditions": [
+          {
+              "paramId": 3210,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Service Fault Level 3",
+        "conditions": [
+          {
+              "paramId": 3210,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Service Fault Level 4",
+        "conditions": [
+          {
+              "paramId": 3211,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Service Fault Level 5",
+        "conditions": [
+          {
+              "paramId": 3211,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+              "paramId": 3212,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Temperature Sensor broke",
+        "conditions": [
+          {
+              "paramId": 3212,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Oil Pressure",
+        "conditions": [
+          {
+              "paramId": 3213,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "Door Open",
+        "conditions": [
+          {
+              "paramId": 3213,
+              "compareValue": "8",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      },
+      {
+        "name": "FAULT Press In",
+        "conditions": [
+          {
+              "paramId": 3214,
+              "compareValue": "0",
+              "operator": "bitOne",
+              "isOn": true,
+              "color" :"green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "space",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "width": "100px",
+    "height": "20px"
+  },
+  {
+    "object": "space",
+    "page": 1,
+    "row": 6,
+    "side": "right",
+    "width": "100px",
+    "height": "20px"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 9,
+    "side": "center",
+    "title": "Start",
+    "image": "start.png",
+    "actionType": "setValue",
+    "actionParamId": 177,
+    "actionValue": 1
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 9,
+    "side": "center",
+    "title": "Stop",
+    "image": "stop.png",
+    "actionType": "setValue",
+    "actionParamId": 177,
+    "actionValue": 2
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 9,
+    "side": "center",
+    "title": "Emergency Stop",
+    "image": "hardStop.png",
+    "actionType": "setValue",
+    "actionParamId": 177,
+    "actionValue": 3
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 9,
+    "side": "center",
+    "title": "Delete Alarm",
+    "image": "alarmClear.png",
+    "actionType": "setValue",
+    "actionParamId": 177,
+    "actionValue": 4
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "left",
+    "width": "330px",
+    "name": "Delay Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "left",
+    "paramId": [
+      9,
+      10
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "left",
+    "paramId": [
+      11,
+      12
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "left",
+    "paramId": [
+      13,
+      14
+    ]
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "width": "330px",
+    "name": "General Parameters"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      97,
+      99
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "center",
+    "paramId": [
+      100,
+      101
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 4,
+    "side": "center",
+    "paramId": [
+      66,
+      67
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      68,
+      69
+    ]
+  },
+  {
+    "object": "text",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "width": "330px",
+    "name": "Calibration"
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 2,
+    "side": "right",
+    "paramId": [
+      105,
+      106
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 2,
+    "row": 3,
+    "side": "right",
+    "paramId": [
+      107,
+      108
+    ]
+  },
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "filter": true,
+    "paramId": [],
+    "paramGroups": [
+      "Pressure",
+      "Temperature",
+      "Delay",
+      "Service",
+      "Digital Input",
+      "Digital Output",
+      "Monitoring",
+      "Compressor",
+      "General",
+      "Calibration",
+      "Device",
+      "Test",
+      "Fault",
+      "Login"
+    ]
+  }
+]

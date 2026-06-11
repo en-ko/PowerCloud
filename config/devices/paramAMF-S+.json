@@ -1,0 +1,9457 @@
+[
+  {
+	"fileVersion": 1,
+    "parameters": [
+      {
+		"id" : 5,
+		"version" : 1000,
+		"name" : "Parameter Save",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 5,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask" : "Backup"
+			},
+			{
+				"value" : 2,
+				"mask" : "Read from Backup"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter is used to save device parameters and recall saved parameters.",
+		"relation" : []
+	},
+	{
+		"id" : 6,
+		"version" : 1000,
+		"name" : "Language",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 6,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "English"
+			},
+			{
+				"value" : 1,
+				"mask" : "Custom"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter sets the language of the device. English language is available as standard. When user-defined is selected the 1st language loaded via USB becomes active.",
+		"relation" : []
+	},
+	{
+		"id" : 7,
+		"version" : 1000,
+		"name" : "Parameter Return Factory",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 7,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask" : "Factory Reset"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Default value assignments embedded in the device are made.",
+		"relation" : []
+	},
+	{
+		"id" : 8,
+		"version" : 1000,
+		"name" : "Log Clear",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 8,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask" : "Clear Log"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "All fault records in the device are deleted with this parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 9,
+		"version" : 1000,
+		"name" : "Motor Time Setting",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 9,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 32000,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Motor running and load running times in the device can be set as desired as a result of the value entered in this parameter. After saving the parameter the parameter value will be reset and the operating hour value will be updated.",
+		"relation" : []
+	},
+	{
+		"id" : 10,
+		"version" : 1000,
+		"name" : "Menu Timeout",
+		"group" : "General",
+		"unit" : "min",
+		"modbusAddress" : 10,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 30,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When no key is pressed during the time period specified with this parameter the device will automatically exit the menu. In addition after logging in to the menu if you do not log out with the Menu Logout parameter you can log in to the menu without a password within the time period specified here.",
+		"relation" : []
+	},
+	{
+		"id" : 11,
+		"version" : 1000,
+		"name" : "Menu Logout",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 11,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Default"
+			},
+			{
+				"value" : 1,
+				"mask" : "Sign Out"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Allows manual exit from the menu. Thus password entry is required for the next menu entry.",
+		"relation" : []
+	},
+	{
+		"id" : 20,
+		"version" : 1000,
+		"name" : "Mains Off Mode Selection",
+		"group" : "Mains",
+		"unit" : "",
+		"modbusAddress" : 101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active"
+			},
+			{
+				"value" : 1,
+				"mask" : "Inactive"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the amplifier module is defined in the device it is the selection of whether the network will be active in off mode.",
+		"relation" : []
+	},
+	{
+		"id" : 21,
+		"version" : 1000,
+		"name" : "Mains Overvoltage Alarm Level",
+		"group" : "Mains",
+		"unit" : "%",
+		"modbusAddress" : 102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 115,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the threshold value at which mains high voltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 22,
+		"version" : 1000,
+		"name" : "Mains Undervoltage Alarm Level",
+		"group" : "Mains",
+		"unit" : "%",
+		"modbusAddress" : 103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 85,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the threshold value at which mains undervoltage alarm will be given. This parameter takes value in relation to the Nominal Voltage parameter depending on the Connection Type Parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 23,
+		"version" : 1000,
+		"name" : "Mains Overfrequency Alarm Level",
+		"group" : "Mains",
+		"unit" : "%",
+		"modbusAddress" : 104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 104,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the threshold value at which network high frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 24,
+		"version" : 1000,
+		"name" : "Mains Underfrequency Alarm Level",
+		"group" : "Mains",
+		"unit" : "%",
+		"modbusAddress" : 105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 96,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the threshold value at which mains low frequency alarm will be given. This parameter takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 29,
+		"version" : 1000,
+		"name" : "Mains Phase Sequence Control Action",
+		"group" : "Mains",
+		"unit" : "",
+		"modbusAddress" : 110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Phase sequence warning action selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 30,
+		"version" : 1000,
+		"name" : "Mains Connection Type",
+		"group" : "Mains",
+		"unit" : "",
+		"modbusAddress" : 111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Phase-Neutral"
+			},
+			{
+				"value" : 1,
+				"mask" : "Phase-Phase"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter selects the connection type of the network.",
+		"relation" : []
+	},
+	{
+		"id" : 32,
+		"version" : 1000,
+		"name" : "Alternator Poles",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 7,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "2 Poles"
+			},
+			{
+				"value" : 1,
+				"mask" : "4 Poles"
+			},
+			{
+				"value" : 2,
+				"mask" : "6 Poles"
+			},
+			{
+				"value" : 3,
+				"mask" : "8 Poles"
+			},
+			{
+				"value" : 4,
+				"mask" : "10 Poles"
+			},
+			{
+				"value" : 5,
+				"mask" : "12 Poles"
+			},
+			{
+				"value" : 6,
+				"mask" : "14 Poles"
+			},
+			{
+				"value" : 7,
+				"mask" : "16 Poles"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Number of alternator poles parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 33,
+		"version" : 1000,
+		"name" : "Nominal Voltage",
+		"group" : "Generator",
+		"unit" : "V",
+		"modbusAddress" : 203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 85,
+		"maxValue" : 240,
+		"defaultValue" : 220,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The nominal phase-notr voltage value at which the generator will operate.",
+		"relation" : []
+	},
+	{
+		"id" : 35,
+		"version" : 1000,
+		"name" : "Generator Overvoltage Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator high voltage alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 36,
+		"version" : 1000,
+		"name" : "Generator Overvoltage Alarm Level",
+		"group" : "Generator",
+		"unit" : "%",
+		"modbusAddress" : 206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 150,
+		"defaultValue" : 115,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold value at which a generator high voltage alarm will be given. All phases are evaluated one by one and the maximum value is used. When the output voltage exceeds the entered value a high voltage alarm condition occurs and the action program starts to operate.",
+		"relation" : []
+	},
+	{
+		"id" : 37,
+		"version" : 1000,
+		"name" : "Generator Undervoltage Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator low voltage alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 38,
+		"version" : 1000,
+		"name" : "Generator Undervoltage Alarm Level",
+		"group" : "Generator",
+		"unit" : "%",
+		"modbusAddress" : 208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 85,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold value at which a generator undervoltage alarm will be given. All phases are evaluated one by one and the minimum value is used. When the output voltage goes below the entered value a low voltage alarm condition occurs and the action program starts to operate.",
+		"relation" : []
+	},
+	{
+		"id" : 39,
+		"version" : 1000,
+		"name" : "Nominal Frequency",
+		"group" : "Generator",
+		"unit" : "Hz",
+		"modbusAddress" : 209,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 300,
+		"maxValue" : 600,
+		"defaultValue" : 500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The nominal frequency value at which the generator will operate.",
+		"relation" : []
+	},
+	{
+		"id" : 41,
+		"version" : 1000,
+		"name" : "Generator Overfrequency Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator high frequency alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 42,
+		"version" : 1000,
+		"name" : "Generator Overfrequency Alarm Level",
+		"group" : "Generator",
+		"unit" : "%",
+		"modbusAddress" : 212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 130,
+		"defaultValue" : 106,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the generator high frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 43,
+		"version" : 1000,
+		"name" : "Generator Underfrequency Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator low frequency alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 44,
+		"version" : 1000,
+		"name" : "Generator Underfrequency Alarm Level",
+		"group" : "Generator",
+		"unit" : "%",
+		"modbusAddress" : 214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 99,
+		"defaultValue" : 94,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the generator low frequency alarm threshold value which takes value in relation to the Nominal Frequency parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 50,
+		"version" : 1000,
+		"name" : "Generator Connection Type",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Phase-Neutral"
+			},
+			{
+				"value" : 1,
+				"mask" : "Phase-Phase"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator connection type selection.",
+		"relation" : []
+	},
+	{
+		"id" : 51,
+		"version" : 1000,
+		"name" : "Engine Type",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Diesel"
+			},
+			{
+				"value" : 1,
+				"mask" : "Gasoline"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator engine type selection.",
+		"relation" : []
+	},
+	{
+		"id" : 52,
+		"version" : 1000,
+		"name" : "Module Function",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 303,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "AMF"
+			},
+			{
+				"value" : 1,
+				"mask" : "MSU"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "AMF-S and MSU-S are firmware selections.",
+		"relation" : []
+	},
+	{
+		"id" : 53,
+		"version" : 1000,
+		"name" : "Mode Function",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Stop Mode"
+			},
+			{
+				"value" : 1,
+				"mask" : "Auto Mode"
+			},
+			{
+				"value" : 2,
+				"mask" : "Test Mode"
+			},
+			{
+				"value" : 3,
+				"mask" : "Manual Mode"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Device mode selection.",
+		"relation" : []
+	},
+	{
+		"id" : 54,
+		"version" : 1000,
+		"name" : "Prestart Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "During PreStart"
+			},
+			{
+				"value" : 1,
+				"mask" : "Crank to the End"
+			},
+			{
+				"value" : 2,
+				"mask" : "Failure Delay Period"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When a pre-start function is defined the time at which this function should take action is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 55,
+		"version" : 1000,
+		"name" : "Starter Cut Level From Generator Frequency",
+		"group" : "Engine",
+		"unit" : "Hz",
+		"modbusAddress" : 306,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 150,
+		"maxValue" : 750,
+		"defaultValue" : 150,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The starter is stopped when the genset frequency exceeds the set value.",
+		"relation" : []
+	},
+	{
+		"id" : 56,
+		"version" : 1000,
+		"name" : "Starter Cut Level From Engine Speed",
+		"group" : "Engine",
+		"unit" : "rpm",
+		"modbusAddress" : 307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 500,
+		"maxValue" : 6000,
+		"defaultValue" : 500,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The starter is stopped when the generator speed exceeds the set value.",
+		"relation" : []
+	},
+	{
+		"id" : 57,
+		"version" : 1000,
+		"name" : "Starter Cut Level From Generator Voltage",
+		"group" : "Engine",
+		"unit" : "V",
+		"modbusAddress" : 308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 60,
+		"maxValue" : 500,
+		"defaultValue" : 173,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The starter is stopped when the generator voltage rises above the set value. If the value is set to 60 the function will become inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 58,
+		"version" : 1000,
+		"name" : "Starter Cut Level From Charge Alternator Voltage",
+		"group" : "Engine",
+		"unit" : "V",
+		"modbusAddress" : 309,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 60,
+		"maxValue" : 300,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the charging alternator voltage rises above the set value starting is stopped. If the value is set to 6 the function will become inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 59,
+		"version" : 1000,
+		"name" : "Starter Cut Level From Oil Pressure",
+		"group" : "Engine",
+		"unit" : "bar",
+		"modbusAddress" : 310,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 100,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The starter is stopped when the oil pressure rises above the set value. If the value is set to 1 the function will become inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 60,
+		"version" : 1000,
+		"name" : "Maximum Number of Cranking Attempts",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 10,
+		"defaultValue" : 3,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Maximum number of starting attempts.",
+		"relation" : []
+	},
+	{
+		"id" : 61,
+		"version" : 1000,
+		"name" : "Intermittent Horn Output",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 312,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Continuous"
+			},
+			{
+				"value" : 1,
+				"mask" : "Discrete"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The horn function is the choice of continuous or intermittent operation.",
+		"relation" : []
+	},
+	{
+		"id" : 62,
+		"version" : 1000,
+		"name" : "Oil Pressure Unit",
+		"group" : "Engine",
+		"unit" : "bar",
+		"modbusAddress" : 313,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "BAR"
+			},
+			{
+				"value" : 1,
+				"mask" : "PSI"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Oil pressure unit selection.",
+		"relation" : []
+	},
+	{
+		"id" : 63,
+		"version" : 1000,
+		"name" : "Low Oil Pressure Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 314,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Low oil pressure is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 64,
+		"version" : 1000,
+		"name" : "Low Oil Pressure Alarm Level",
+		"group" : "Engine",
+		"unit" : "bar",
+		"modbusAddress" : 315,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 5,
+		"maxValue" : 95,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Alarm threshold for the Oil Pressure Analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 65,
+		"version" : 1000,
+		"name" : "Oil Pressure Sender Open Circuit Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 316,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Oil pressure is an open circuit alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 66,
+		"version" : 1000,
+		"name" : "Temperature Unit",
+		"group" : "Engine",
+		"unit" : "°C",
+		"modbusAddress" : 317,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "°C"
+			},
+			{
+				"value" : 1,
+				"mask" : "°F"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the choice of temperature unit.",
+		"relation" : []
+	},
+	{
+		"id" : 67,
+		"version" : 1000,
+		"name" : "High Coolant Temperature Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 318,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "High Coolant is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 68,
+		"version" : 1000,
+		"name" : "High Coolant Temperature Alarm Level",
+		"group" : "Engine",
+		"unit" : "°C",
+		"modbusAddress" : 319,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 5,
+		"maxValue" : 150,
+		"defaultValue" : 110,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the alarm threshold for the Coolant Temperature Analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 69,
+		"version" : 1000,
+		"name" : "Coolant Temperature Sender Open Circuit Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 320,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Coolant open circuit is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 70,
+		"version" : 1000,
+		"name" : "Low Fuel Level Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 321,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Low Fuel Level is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 71,
+		"version" : 1000,
+		"name" : "Low Fuel Level Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 322,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 45,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Alarm threshold value for Fuel Level Analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 72,
+		"version" : 1000,
+		"name" : "Fuel Level Sender Open Circuit Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 323,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Fuel Level open circuit is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 73,
+		"version" : 1000,
+		"name" : "Fuel Pump Low Limit",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 324,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 90,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the fuel level measured by the fuel sender falls below this limit the fuel pump starts.",
+		"relation" : []
+	},
+	{
+		"id" : 74,
+		"version" : 1000,
+		"name" : "Fuel Pump High Limit",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 325,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 5,
+		"maxValue" : 95,
+		"defaultValue" : 80,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The fuel pump stops when the fuel level measured at the fuel sender exceeds this limit.",
+		"relation" : []
+	},
+	{
+		"id" : 75,
+		"version" : 1000,
+		"name" : "Coolant Fan Low Limit",
+		"group" : "Engine",
+		"unit" : "°C",
+		"modbusAddress" : 326,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 240,
+		"defaultValue" : 65,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Cooling fan stop temperature limit",
+		"relation" : []
+	},
+	{
+		"id" : 76,
+		"version" : 1000,
+		"name" : "Coolant Fan High Limiit",
+		"group" : "Engine",
+		"unit" : "°C",
+		"modbusAddress" : 327,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 5,
+		"maxValue" : 245,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Cooling fan operating temperature limit",
+		"relation" : []
+	},
+	{
+		"id" : 77,
+		"version" : 1000,
+		"name" : "Nominal Battery Voltage",
+		"group" : "Engine",
+		"unit" : "V",
+		"modbusAddress" : 328,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 100,
+		"maxValue" : 260,
+		"defaultValue" : 130,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Nominal battery voltage",
+		"relation" : []
+	},
+	{
+		"id" : 78,
+		"version" : 1000,
+		"name" : "Battery Overvoltage Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 329,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "High battery voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 79,
+		"version" : 1000,
+		"name" : "Battery Overvoltage Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 330,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 125,
+		"defaultValue" : 125,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold at which a battery high voltage alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 80,
+		"version" : 1000,
+		"name" : "Battery Undervoltage Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 331,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Low battery voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 81,
+		"version" : 1000,
+		"name" : "Battery Undervoltage Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 332,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 75,
+		"maxValue" : 99,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The threshold at which a battery low voltage alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 83,
+		"version" : 1000,
+		"name" : "Charge Alternator Overvoltage Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 334,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "High charging alternator voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 84,
+		"version" : 1000,
+		"name" : "Charge Alternator Overvoltage Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 335,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 101,
+		"maxValue" : 125,
+		"defaultValue" : 125,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold at which a charging alternator high voltage alarm will be issued.",
+		"relation" : []
+	},
+	{
+		"id" : 85,
+		"version" : 1000,
+		"name" : "Charge Alternator Undervoltage Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 336,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Low charging alternator voltage is an alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 86,
+		"version" : 1000,
+		"name" : "Charge Alternator Undervoltage Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 337,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 75,
+		"maxValue" : 99,
+		"defaultValue" : 75,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The threshold at which a charging alternator undervoltage alarm will be issued.",
+		"relation" : []
+	},
+	{
+		"id" : 88,
+		"version" : 1000,
+		"name" : "Engine Over Speed Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 339,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Motor high speed alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 89,
+		"version" : 1000,
+		"name" : "Engine Over Speed Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 340,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 110,
+		"maxValue" : 150,
+		"defaultValue" : 120,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The threshold value at which motor high speed alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 90,
+		"version" : 1000,
+		"name" : "Engine Under Speed Alarm Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 341,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Motor low speed alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 91,
+		"version" : 1000,
+		"name" : "Engine Under Speed Alarm Level",
+		"group" : "Engine",
+		"unit" : "%",
+		"modbusAddress" : 342,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 90,
+		"defaultValue" : 80,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold value at which motor low speed alarm will be given.",
+		"relation" : []
+	},
+	{
+		"id" : 92,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Oil) Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 343,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "General Maintenance alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 93,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Air) Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 344,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Oil Filter Maintenance alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 94,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Fuel) Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 345,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Air Filter Maintenance alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 95,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Common) Action",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 346,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Fuel Maintenance alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 97,
+		"version" : 1000,
+		"name" : "Mains Fail Delay",
+		"group" : "Mains Timer",
+		"unit" : "sec",
+		"modbusAddress" : 401,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 500,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Mains is the delay time for any fault to be given.",
+		"relation" : []
+	},
+	{
+		"id" : 100,
+		"version" : 1000,
+		"name" : "Mains Phase Sequence Failure Delay",
+		"group" : "Mains Timer",
+		"unit" : "sec",
+		"modbusAddress" : 404,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for a mains phase sequence fault.",
+		"relation" : []
+	},
+	{
+		"id" : 101,
+		"version" : 1000,
+		"name" : "Generator Overvoltage Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 501,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the delay time for a generator high voltage alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 102,
+		"version" : 1000,
+		"name" : "Generator Undervoltage Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 502,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for generator low voltage alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 103,
+		"version" : 1000,
+		"name" : "Generator Overfrequency Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 503,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for generator high frequency alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 104,
+		"version" : 1000,
+		"name" : "Generator Underfrequency Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 504,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for generator low frequency alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 108,
+		"version" : 1000,
+		"name" : "Start Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 601,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 6000,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Parameter for how long after a mains fault the device will auto-start.",
+		"relation" : []
+	},
+	{
+		"id" : 109,
+		"version" : 1000,
+		"name" : "Mains Return Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 602,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18000,
+		"defaultValue" : 200,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter is the mains stabilization time. The timer starts counting when the mains is restored. If there is no mains problem during this time AMF operation mode is finished.",
+		"relation" : []
+	},
+	{
+		"id" : 110,
+		"version" : 1000,
+		"name" : "Prestart Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 603,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 6000,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the time the pre-start output is off before the motor starts.",
+		"relation" : []
+	},
+	{
+		"id" : 111,
+		"version" : 1000,
+		"name" : "Maximum Cranking Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 604,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 600,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Maximum time to energize the starter motor.",
+		"relation" : []
+	},
+	{
+		"id" : 112,
+		"version" : 1000,
+		"name" : "Cranking Wait Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 605,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 50,
+		"maxValue" : 990,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Waiting time between two starting attempts.",
+		"relation" : []
+	},
+	{
+		"id" : 113,
+		"version" : 1000,
+		"name" : "Safety On Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 606,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The time the controller ignores oil pressure engine speed and other delayed alarms during starting. This parameter is used to allow the engine to reach its rated speed before the protections are activated. When this parameter is set to 0 this function will be inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 114,
+		"version" : 1000,
+		"name" : "Choke Timer",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 607,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 600,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This time controls the release delay of the choke output. The choke output is activated upon starting. It releases when the engine starts or when this time expires (whichever comes first).",
+		"relation" : []
+	},
+	{
+		"id" : 115,
+		"version" : 1000,
+		"name" : "Starter Cut Level Oil Pressure Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 608,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 50,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the oil pressure level rises during starting the engine must not start immediately. The switch value will be checked with a delay. If the value is set to 0 the function is disabled.",
+		"relation" : []
+	},
+	{
+		"id" : 118,
+		"version" : 1000,
+		"name" : "Stop Selenoid Timer",
+		"group" : "Engine Timer",
+		"unit" : "",
+		"modbusAddress" : 611,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1200,
+		"defaultValue" : 200,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Selection of the time elapsed during the stop state.",
+		"relation" : []
+	},
+	{
+		"id" : 119,
+		"version" : 1000,
+		"name" : "Warm Up Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 612,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3600,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the time the engine is idle before it is allowed to take the load. This parameter is used to prevent excessive wear by heating the motor. When this parameter is set to 0 this function will be inactive.",
+		"relation" : []
+	},
+	{
+		"id" : 120,
+		"version" : 1000,
+		"name" : "Cooling Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 613,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18000,
+		"defaultValue" : 300,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the no-load cooling time before stopping the generator.",
+		"relation" : []
+	},
+	{
+		"id" : 122,
+		"version" : 1000,
+		"name" : "Transfer Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 615,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 6000,
+		"defaultValue" : 7,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The time between the opening of one load switch and the closing of the other. Used during load transfer to and from the genset.",
+		"relation" : []
+	},
+	{
+		"id" : 123,
+		"version" : 1000,
+		"name" : "Horn Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 900,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When an alarm occurs this parameter determines how long the horn output will be active.",
+		"relation" : []
+	},
+	{
+		"id" : 126,
+		"version" : 1000,
+		"name" : "Low Oil Pressure Alarm Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 619,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Alarm delay time for Oil Pressure Analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 127,
+		"version" : 1000,
+		"name" : "Oil Pressure Sender Open Circuit Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 620,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for oil pressure sender open circuit detection.",
+		"relation" : []
+	},
+	{
+		"id" : 128,
+		"version" : 1000,
+		"name" : "High Coolant Temperature Alarm Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 621,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Coolant Temperature Alarm delay time for analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 129,
+		"version" : 1000,
+		"name" : "Coolant Temperature Sender Open Circuit Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 622,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the delay time for the coolant temperature sender open circuit detection.",
+		"relation" : []
+	},
+	{
+		"id" : 130,
+		"version" : 1000,
+		"name" : "Low Fuel Level Alarm Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 623,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the alarm delay time for the Fuel Level Analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 131,
+		"version" : 1000,
+		"name" : "Fuel Level Sender Open Circuit Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 624,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Delay time for fuel level sender open circuit detection.",
+		"relation" : []
+	},
+	{
+		"id" : 138,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Oil) Time",
+		"group" : "Engine Timer",
+		"unit" : "hours",
+		"modbusAddress" : 631,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 200,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the engine is running the maintenance time counter starts counting. When it reaches the entered time value the maintenance time warning alarm sounds.",
+		"relation" : []
+	},
+	{
+		"id" : 139,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Air) Time",
+		"group" : "Engine Timer",
+		"unit" : "hours",
+		"modbusAddress" : 632,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 200,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the engine is running the maintenance time counter starts counting. When it reaches the entered time value maintenance time warning alarm is given.",
+		"relation" : []
+	},
+	{
+		"id" : 140,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Fuel) Time",
+		"group" : "Engine Timer",
+		"unit" : "hours",
+		"modbusAddress" : 633,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 200,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the engine is running the maintenance time counter starts counting. When it reaches the entered time value maintenance time warning alarm is given.",
+		"relation" : []
+	},
+	{
+		"id" : 141,
+		"version" : 1000,
+		"name" : "Maintenance Alarm(Common) Time",
+		"group" : "Engine Timer",
+		"unit" : "hours",
+		"modbusAddress" : 634,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 200,
+		"maxValue" : 10000,
+		"defaultValue" : 1000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the engine is running the maintenance time counter starts counting. When it reaches the entered time value maintenance time warning alarm is given.",
+		"relation" : []
+	},
+	{
+		"id" : 142,
+		"version" : 1000,
+		"name" : "Service Time Reset",
+		"group" : "Engine Timer",
+		"unit" : "",
+		"modbusAddress" : 635,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None of them"
+			},
+			{
+				"value" : 1,
+				"mask" : "General Maintenance Time Cleaning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Oil Change Maintenance Time Cleaning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Cleaning Air Filter Maintenance Time"
+			},
+			{
+				"value" : 4,
+				"mask" : "Fuel Change Maintenance Time Cleaning"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Selection of assignment of service times to the entered duration parameters.",
+		"relation" : []
+	},
+	{
+		"id" : 155,
+		"version" : 1000,
+		"name" : "J1939 ECU Type",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1001,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 17,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Cloased"
+			},
+			{
+				"value" : 1,
+				"mask" : "Cummins CM850"
+			},
+			{
+				"value" : 2,
+				"mask" : "Cummins ISB"
+			},
+			{
+				"value" : 3,
+				"mask" : "Deutz EMR2"
+			},
+			{
+				"value" : 4,
+				"mask" : "Deutz EMR3"
+			},
+			{
+				"value" : 5,
+				"mask" : "Generic J1939"
+			},
+			{
+				"value" : 6,
+				"mask" : "Iveco T3"
+			},
+			{
+				"value" : 7,
+				"mask" : "John Deere"
+			},
+			{
+				"value" : 8,
+				"mask" : "MTU ADEC"
+			},
+			{
+				"value" : 9,
+				"mask" : "Perkins 1300"
+			},
+			{
+				"value" : 10,
+				"mask" : "Perkins Adem3"
+			},
+			{
+				"value" : 11,
+				"mask" : "Perkins Adem4"
+			},
+			{
+				"value" : 12,
+				"mask" : "Scania S6"
+			},
+			{
+				"value" : 13,
+				"mask" : "Volvo EDC3"
+			},
+			{
+				"value" : 14,
+				"mask" : "Volvo EDC4"
+			},
+			{
+				"value" : 15,
+				"mask" : "Volvo EMS2"
+			},
+			{
+				"value" : 16,
+				"mask" : "Volvo EMS2B"
+			},
+			{
+				"value" : 17,
+				"mask" : "Yanmar ECO"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter selects the ECU type.",
+		"relation" : []
+	},
+	{
+		"id" : 160,
+		"version" : 1000,
+		"name" : "ECU Speed Control Enable",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1006,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This parameter selects whether the speed information is read via the device or ECU.",
+		"relation" : []
+	},
+	{
+		"id" : 161,
+		"version" : 1000,
+		"name" : "ECU Oil Pressure Control Enable",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1007,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where the oil pressure information is selected to be read via the device or ECU.",
+		"relation" : []
+	},
+	{
+		"id" : 162,
+		"version" : 1000,
+		"name" : "ECU Temperature Control Enable",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1008,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where the temperature information is selected to be read via the device or ECU.",
+		"relation" : []
+	},
+	{
+		"id" : 163,
+		"version" : 1000,
+		"name" : "Engine Speed SetPoint",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1009,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "50 Hz"
+			},
+			{
+				"value" : 1,
+				"mask" : "60 Hz"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Engine speed set point selection.",
+		"relation" : []
+	},
+	{
+		"id" : 164,
+		"version" : 1000,
+		"name" : "Engine Speed Correction",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1010,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Motor speed correction ratio selection.",
+		"relation" : []
+	},
+	{
+		"id" : 165,
+		"version" : 1000,
+		"name" : "CAN ECU Communication Fail Action",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1011,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Closed"
+			},
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "CanBUS communication error alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 166,
+		"version" : 1000,
+		"name" : "CAN ECU Droop Enable",
+		"group" : "Communication",
+		"unit" : "",
+		"modbusAddress" : 1012,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "ECU droop selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 167,
+		"version" : 1000,
+		"name" : "Can Ecu Droop Percent",
+		"group" : "Communication",
+		"unit" : "%",
+		"modbusAddress" : 1013,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If ECU droop selection is active this parameter is ECU droop percentage selection.",
+		"relation" : []
+	},
+	{
+		"id" : 168,
+		"version" : 1000,
+		"name" : "Relay Output-1 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1101,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 8,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-1 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 169,
+		"version" : 1000,
+		"name" : "Relay Output-1 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1102,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-1 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 170,
+		"version" : 1000,
+		"name" : "Relay Output-2 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1103,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 6,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-2 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 171,
+		"version" : 1000,
+		"name" : "Relay Output-2 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1104,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-2 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 172,
+		"version" : 1000,
+		"name" : "Relay Output-3 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1105,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-3 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 173,
+		"version" : 1000,
+		"name" : "Relay Output-3 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1106,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-3 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 174,
+		"version" : 1000,
+		"name" : "Relay Output-4 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1107,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-4 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 175,
+		"version" : 1000,
+		"name" : "Relay Output-4 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1108,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Relay Output-4 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 176,
+		"version" : 1000,
+		"name" : "Digital Output-1 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1109,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 10,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-1 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 177,
+		"version" : 1000,
+		"name" : "Digital Output-1 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1110,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-1 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 178,
+		"version" : 1000,
+		"name" : "Digital Output-2 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1111,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 4,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-2 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 179,
+		"version" : 1000,
+		"name" : "Digital Output-2 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1112,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-2 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 180,
+		"version" : 1000,
+		"name" : "Digital Input-1 Source",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1201,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 19,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-1 function selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 181,
+		"version" : 1000,
+		"name" : "Digital Input-1 Polarity",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1202,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-1 polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 182,
+		"version" : 1000,
+		"name" : "Digital Input-1 Action",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1203,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-1 if the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 183,
+		"version" : 1000,
+		"name" : "Digital Input-1 Arming",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1204,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-1 if the input source is set as user configured the fault function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 184,
+		"version" : 1000,
+		"name" : "Digital Input-2 Source",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1205,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 19,
+		"defaultValue" : 18,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-2 is the parameter for function selection.",
+		"relation" : []
+	},
+	{
+		"id" : 185,
+		"version" : 1000,
+		"name" : "Digital Input-2 Polarity",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1206,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-2 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 186,
+		"version" : 1000,
+		"name" : "Digital Input-2 Action",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1207,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 187,
+		"version" : 1000,
+		"name" : "Digital Input-2 Arming",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1208,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as configured by the user the error function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 188,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sensor Type",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1301,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None of them"
+			},
+			{
+				"value" : 1,
+				"mask" : "Digital Input"
+			},
+			{
+				"value" : 2,
+				"mask" : "Pressure Sensor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 is the parameter for hardware selection.",
+		"relation" : []
+	},
+	{
+		"id" : 189,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sensor Selection",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1302,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 11,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 2,
+				"mask" : "Normally Closed"
+			},
+			{
+				"value" : 3,
+				"mask" : "VDO 5 Bar"
+			},
+			{
+				"value" : 4,
+				"mask" : "VDO 10 Bar"
+			},
+			{
+				"value" : 5,
+				"mask" : "Datcon 5 Bar"
+			},
+			{
+				"value" : 6,
+				"mask" : "Datcon 10 Bar"
+			},
+			{
+				"value" : 7,
+				"mask" : "Datcon 7 Bar"
+			},
+			{
+				"value" : 8,
+				"mask" : "Murphy 7 Bar"
+			},
+			{
+				"value" : 9,
+				"mask" : "CMB812"
+			},
+			{
+				"value" : 10,
+				"mask" : "Veglia"
+			},
+			{
+				"value" : 11,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 is the parameter for pressure sensor selection if pressure sensor is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 191,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Source",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1304,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-1 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 192,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Polarity",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1305,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-1 is set as Digital Input it is the input polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 193,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Action",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1306,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-1 is set as Digital Input it is the input alarm action selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 194,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Arming",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1307,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-1 is set as Digital Input it is the parameter where the active time of the input is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 195,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Table Len",
+		"group" : "Analog Input-1",
+		"unit" : "",
+		"modbusAddress" : 1308,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the table size to be entered by the user for the oil sender.",
+		"relation" : []
+	},
+	{
+		"id" : 196,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-1",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1309,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-1",
+		"relation" : []
+	},
+	{
+		"id" : 197,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-1",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1310,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-1",
+		"relation" : []
+	},
+	{
+		"id" : 198,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-2",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1311,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-2",
+		"relation" : []
+	},
+	{
+		"id" : 199,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-2",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1312,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-2",
+		"relation" : []
+	},
+	{
+		"id" : 200,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-3",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1313,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-3",
+		"relation" : []
+	},
+	{
+		"id" : 201,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-3",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1314,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-3",
+		"relation" : []
+	},
+	{
+		"id" : 202,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-4",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1315,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-4",
+		"relation" : []
+	},
+	{
+		"id" : 203,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-4",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1316,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-4",
+		"relation" : []
+	},
+	{
+		"id" : 204,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-5",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1317,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-5",
+		"relation" : []
+	},
+	{
+		"id" : 205,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-5",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1318,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-5",
+		"relation" : []
+	},
+	{
+		"id" : 206,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-6",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1319,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-6",
+		"relation" : []
+	},
+	{
+		"id" : 207,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-6",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1320,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-6",
+		"relation" : []
+	},
+	{
+		"id" : 208,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-7",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1321,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-7",
+		"relation" : []
+	},
+	{
+		"id" : 209,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-7",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1322,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-7",
+		"relation" : []
+	},
+	{
+		"id" : 210,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-8",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1323,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-8",
+		"relation" : []
+	},
+	{
+		"id" : 211,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-8",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1324,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-8",
+		"relation" : []
+	},
+	{
+		"id" : 212,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-9",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1325,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-9",
+		"relation" : []
+	},
+	{
+		"id" : 213,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-9",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1326,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-9",
+		"relation" : []
+	},
+	{
+		"id" : 214,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Sender Resistor-10",
+		"group" : "Analog Input-1",
+		"unit" : "ohm",
+		"modbusAddress" : 1327,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Sensor Resistance-10",
+		"relation" : []
+	},
+	{
+		"id" : 215,
+		"version" : 1000,
+		"name" : "Analogue Input-1 Oil Pressure Value-10",
+		"group" : "Analog Input-1",
+		"unit" : "bar",
+		"modbusAddress" : 1328,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-1 (If Sensor Selection is User Defined) Oil Pressure Value-10",
+		"relation" : []
+	},
+	{
+		"id" : 216,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sensor Type",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1401,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None of them"
+			},
+			{
+				"value" : 1,
+				"mask" : "Digital Input"
+			},
+			{
+				"value" : 2,
+				"mask" : "Temperature Sensor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 is the parameter where hardware selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 217,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sensor Selection",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1402,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 11,
+		"defaultValue" : 2,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 2,
+				"mask" : "Normally Closed"
+			},
+			{
+				"value" : 3,
+				"mask" : "VDO 120"
+			},
+			{
+				"value" : 4,
+				"mask" : "Datcon High"
+			},
+			{
+				"value" : 5,
+				"mask" : "Datcon Low"
+			},
+			{
+				"value" : 6,
+				"mask" : "Murpy"
+			},
+			{
+				"value" : 7,
+				"mask" : "Cummins"
+			},
+			{
+				"value" : 8,
+				"mask" : "PT100"
+			},
+			{
+				"value" : 9,
+				"mask" : "Veglia"
+			},
+			{
+				"value" : 10,
+				"mask" : "Beru"
+			},
+			{
+				"value" : 11,
+				"mask" : "User Defined"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 is the parameter where temperature sensor selection is made if temperature sensor is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 219,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Source",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1404,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-2 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 220,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Polarity",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1405,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-2 is set as Digital Input it is the parameter where input polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 221,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Action",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1406,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-2 is set as Digital Input it is the input alarm action selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 222,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Arming",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1407,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-2 is set as Digital Input it is the parameter to select the active time of the input.",
+		"relation" : []
+	},
+	{
+		"id" : 223,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Table Len",
+		"group" : "Analog Input-2",
+		"unit" : "",
+		"modbusAddress" : 1408,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the table size to be entered by the user for the Temperature Sensor.",
+		"relation" : []
+	},
+	{
+		"id" : 224,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-1",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1409,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-1",
+		"relation" : []
+	},
+	{
+		"id" : 225,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-1",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1410,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-1",
+		"relation" : []
+	},
+	{
+		"id" : 226,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-2",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1411,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-2",
+		"relation" : []
+	},
+	{
+		"id" : 227,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-2",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1412,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-2",
+		"relation" : []
+	},
+	{
+		"id" : 228,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-3",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1413,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-3",
+		"relation" : []
+	},
+	{
+		"id" : 229,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-3",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1414,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-3",
+		"relation" : []
+	},
+	{
+		"id" : 230,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-4",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1415,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-4",
+		"relation" : []
+	},
+	{
+		"id" : 231,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-4",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1416,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-4",
+		"relation" : []
+	},
+	{
+		"id" : 232,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-5",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1417,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-5",
+		"relation" : []
+	},
+	{
+		"id" : 233,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-5",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1418,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-5",
+		"relation" : []
+	},
+	{
+		"id" : 234,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-6",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1419,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-6",
+		"relation" : []
+	},
+	{
+		"id" : 235,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-6",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1420,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-6",
+		"relation" : []
+	},
+	{
+		"id" : 236,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-7",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1421,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-7",
+		"relation" : []
+	},
+	{
+		"id" : 237,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-7",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1422,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-7",
+		"relation" : []
+	},
+	{
+		"id" : 238,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-8",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1423,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-8",
+		"relation" : []
+	},
+	{
+		"id" : 239,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-8",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1424,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-8",
+		"relation" : []
+	},
+	{
+		"id" : 240,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-9",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1425,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-9",
+		"relation" : []
+	},
+	{
+		"id" : 241,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-9",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1426,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-9",
+		"relation" : []
+	},
+	{
+		"id" : 242,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Sender Resistor-10",
+		"group" : "Analog Input-2",
+		"unit" : "ohm",
+		"modbusAddress" : 1427,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Sensor Resistance-10",
+		"relation" : []
+	},
+	{
+		"id" : 243,
+		"version" : 1000,
+		"name" : "Analogue Input-2 Coolant Temperature Value-10",
+		"group" : "Analog Input-2",
+		"unit" : "°C",
+		"modbusAddress" : 1428,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -50,
+		"maxValue" : 250,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-2 (If Sensor Selection is User Defined) Coolant Temperature Value-10",
+		"relation" : []
+	},
+	{
+		"id" : 244,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sensor Type",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1501,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "None of them"
+			},
+			{
+				"value" : 1,
+				"mask" : "Digital Input"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Level Sensor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 is the parameter for hardware selection.",
+		"relation" : []
+	},
+	{
+		"id" : 245,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sensor Selection",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1502,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 2,
+				"mask" : "Normally Closed"
+			},
+			{
+				"value" : 3,
+				"mask" : "VDO Ohm(10-180)"
+			},
+			{
+				"value" : 4,
+				"mask" : "VDO Tube(90-0)"
+			},
+			{
+				"value" : 5,
+				"mask" : "US ohm(240-33)"
+			},
+			{
+				"value" : 6,
+				"mask" : "GM ohm(0-90)"
+			},
+			{
+				"value" : 7,
+				"mask" : "GM ohm(0-30)"
+			},
+			{
+				"value" : 8,
+				"mask" : "Ford(73-10)"
+			},
+			{
+				"value" : 9,
+				"mask" : "User Defined"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 is the parameter where fuel sensor selection is made if fuel sensor is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 247,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Source",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1504,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-3 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 248,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Polarity",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1505,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-3 is set as Digital Input it is the input polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 249,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Action",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1506,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-3 is set as Digital Input it is the input alarm action selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 250,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Arming",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1507,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-3 is set as Digital Input it is the parameter to select the active time of the input.",
+		"relation" : []
+	},
+	{
+		"id" : 251,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Table Len",
+		"group" : "Analog Input-3",
+		"unit" : "",
+		"modbusAddress" : 1508,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the table size to be entered by the user for the Fuel Sensor.",
+		"relation" : []
+	},
+	{
+		"id" : 252,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-1",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1509,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-1",
+		"relation" : []
+	},
+	{
+		"id" : 253,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-1",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1510,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-1",
+		"relation" : []
+	},
+	{
+		"id" : 254,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-2",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1511,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-2",
+		"relation" : []
+	},
+	{
+		"id" : 255,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-2",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1512,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-2",
+		"relation" : []
+	},
+	{
+		"id" : 256,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-3",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1513,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-3",
+		"relation" : []
+	},
+	{
+		"id" : 257,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-3",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1514,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-3",
+		"relation" : []
+	},
+	{
+		"id" : 258,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-4",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1515,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-4",
+		"relation" : []
+	},
+	{
+		"id" : 259,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-4",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1516,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-4",
+		"relation" : []
+	},
+	{
+		"id" : 260,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-5",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1517,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-5",
+		"relation" : []
+	},
+	{
+		"id" : 261,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-5",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1518,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-5",
+		"relation" : []
+	},
+	{
+		"id" : 262,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-6",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1519,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-6",
+		"relation" : []
+	},
+	{
+		"id" : 263,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-6",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1520,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-6",
+		"relation" : []
+	},
+	{
+		"id" : 264,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-7",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1521,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-7",
+		"relation" : []
+	},
+	{
+		"id" : 265,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-7",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1522,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-7",
+		"relation" : []
+	},
+	{
+		"id" : 266,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-8",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1523,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-8",
+		"relation" : []
+	},
+	{
+		"id" : 267,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-8",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1524,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-8",
+		"relation" : []
+	},
+	{
+		"id" : 268,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-9",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1525,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-9",
+		"relation" : []
+	},
+	{
+		"id" : 269,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-9",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1526,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-9",
+		"relation" : []
+	},
+	{
+		"id" : 270,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Sender Resistor-10",
+		"group" : "Analog Input-3",
+		"unit" : "ohm",
+		"modbusAddress" : 1527,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Sensor Resistance-10",
+		"relation" : []
+	},
+	{
+		"id" : 271,
+		"version" : 1000,
+		"name" : "Analogue Input-3 Percentage Value-10",
+		"group" : "Analog Input-3",
+		"unit" : "%",
+		"modbusAddress" : 1528,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-3 (If Sensor Selection is User Defined) Percentage Value-10",
+		"relation" : []
+	},
+	{
+		"id" : 340,
+		"version" : 1000,
+		"name" : "Communication Handshake Selection",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 20,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Passive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Active"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the selection that determines whether the communication is ENKO encrypted or not.",
+		"relation" : []
+	},
+	{
+		"id" : 341,
+		"version" : 1000,
+		"name" : "Communication Timeout",
+		"group" : "General",
+		"unit" : "sec",
+		"modbusAddress" : 21,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 32767,
+		"defaultValue" : 60,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If there is no communication for the time set in this parameter and the ‘Communication Handshake Selection’ parameter is selected active, the device enters the password mode again. In order to communicate, the password must be decrypted again. If the ‘Communication Handshake Selection’ parameter is inactive, this parameter is ignored.",
+		"relation" : []
+	},
+	{
+		"id" : 342,
+		"version" : 1000,
+		"name" : "Generator Overcurrent Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 220,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator overcurrent alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 343,
+		"version" : 1000,
+		"name" : "Generator Overcurrent Alarm Level",
+		"group" : "Generator",
+		"unit" : "A",
+		"modbusAddress" : 221,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 10000,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold at which a generator overcurrent alarm will be issued.",
+		"relation" : []
+	},
+	{
+		"id" : 344,
+		"version" : 1000,
+		"name" : "Generator Overpower Alarm Action",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 222,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 4,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Generator overpower alarm action.",
+		"relation" : []
+	},
+	{
+		"id" : 345,
+		"version" : 1000,
+		"name" : "Generator Overpower Alarm Level",
+		"group" : "Generator",
+		"unit" : "kVA",
+		"modbusAddress" : 223,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 10000,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the threshold at which a generator overpower alarm will be issued.",
+		"relation" : []
+	},
+	{
+		"id" : 349,
+		"version" : 1000,
+		"name" : "Generator current transformer ratio",
+		"group" : "Generator",
+		"unit" : "",
+		"modbusAddress" : 227,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 9999,
+		"defaultValue" : 20,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the generator current transformer ratio. The ratio of the primary current of the current transformer to its secondary current must be entered in this parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 350,
+		"version" : 1000,
+		"name" : "Generator Overcurrent Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 508,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the delay time for the genset overcurrent alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 351,
+		"version" : 1000,
+		"name" : "Generator Overpower Alarm Delay",
+		"group" : "Generator Timer",
+		"unit" : "sec",
+		"modbusAddress" : 509,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 1000,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the delay time for the genset overpower alarm.",
+		"relation" : []
+	},
+	{
+		"id" : 352,
+		"version" : 1000,
+		"name" : "Digital Output-3 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1113,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 9,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-3 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 353,
+		"version" : 1000,
+		"name" : "Digital Output-3 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1114,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-3 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 354,
+		"version" : 1000,
+		"name" : "Digital Output-4 Source",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1115,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 78,
+		"defaultValue" : 22,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Output Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Starter Output"
+			},
+			{
+				"value" : 2,
+				"mask" : "Fuel Solenoid"
+			},
+			{
+				"value" : 3,
+				"mask" : "Stop Solenoid"
+			},
+			{
+				"value" : 4,
+				"mask" : "Horn Output"
+			},
+			{
+				"value" : 6,
+				"mask" : "Generator Contactor"
+			},
+			{
+				"value" : 8,
+				"mask" : "Mains Contactor"
+			},
+			{
+				"value" : 9,
+				"mask" : "Ready to Load Exit"
+			},
+			{
+				"value" : 10,
+				"mask" : "PreStart"
+			},
+			{
+				"value" : 11,
+				"mask" : "Choke Outlet"
+			},
+			{
+				"value" : 14,
+				"mask" : "Cooling Fan"
+			},
+			{
+				"value" : 15,
+				"mask" : "Fuel Pump"
+			},
+			{
+				"value" : 22,
+				"mask" : "General Alarm"
+			},
+			{
+				"value" : 49,
+				"mask" : "Low Fuel Level Alarm"
+			},
+			{
+				"value" : 70,
+				"mask" : "Oil Change Maintenance Alarm"
+			},
+			{
+				"value" : 71,
+				"mask" : "Air Filter Change Alarm"
+			},
+			{
+				"value" : 72,
+				"mask" : "Fuel Change Maintenance Alarm"
+			},
+			{
+				"value" : 73,
+				"mask" : "General Maintenance Alarm"
+			},
+			{
+				"value" : 75,
+				"mask" : "Output in Automatic Mode"
+			},
+			{
+				"value" : 76,
+				"mask" : "Output in Manual Mode"
+			},
+			{
+				"value" : 77,
+				"mask" : "Audible Warning Before Operation"
+			},
+			{
+				"value" : 78,
+				"mask" : "Auxiliary Capacitor"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-4 function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 355,
+		"version" : 1000,
+		"name" : "Digital Output-4 Polarity",
+		"group" : "Outputs",
+		"unit" : "",
+		"modbusAddress" : 1116,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Active Energized"
+			},
+			{
+				"value" : 1,
+				"mask" : "Passive Energized"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the parameter where Digital Output-4 polarity selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 356,
+		"version" : 1000,
+		"name" : "Digital Input-3 Source",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1209,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 19,
+		"defaultValue" : 18,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-3 is the parameter for function selection.",
+		"relation" : []
+	},
+	{
+		"id" : 357,
+		"version" : 1000,
+		"name" : "Digital Input-3 Polarity",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1210,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-3 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 358,
+		"version" : 1000,
+		"name" : "Digital Input-3 Action",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1211,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 359,
+		"version" : 1000,
+		"name" : "Digital Input-3 Arming",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1212,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as configured by the user the error function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 360,
+		"version" : 1000,
+		"name" : "Digital Input-4 Source",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1213,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 19,
+		"defaultValue" : 18,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-4 is the parameter for function selection.",
+		"relation" : []
+	},
+	{
+		"id" : 361,
+		"version" : 1000,
+		"name" : "Digital Input-4 Polarity",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1214,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-4 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 362,
+		"version" : 1000,
+		"name" : "Digital Input-4 Action",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1215,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 363,
+		"version" : 1000,
+		"name" : "Digital Input-4 Arming",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1216,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as configured by the user the error function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 364,
+		"version" : 1000,
+		"name" : "Digital Input-5 Source",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1217,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 19,
+		"defaultValue" : 18,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Input Inactive"
+			},
+			{
+				"value" : 1,
+				"mask" : "Emergency Stop"
+			},
+			{
+				"value" : 2,
+				"mask" : "Remote Start/Stop"
+			},
+			{
+				"value" : 3,
+				"mask" : "Remote Operation/Upload"
+			},
+			{
+				"value" : 4,
+				"mask" : "Panel Lock"
+			},
+			{
+				"value" : 9,
+				"mask" : "Start Button Simulation"
+			},
+			{
+				"value" : 13,
+				"mask" : "Stop Button Simulation"
+			},
+			{
+				"value" : 16,
+				"mask" : "Alarm Disabled"
+			},
+			{
+				"value" : 17,
+				"mask" : "Alarm Reset"
+			},
+			{
+				"value" : 18,
+				"mask" : "User Defined"
+			},
+			{
+				"value" : 19,
+				"mask" : "Manual Fuel Pump"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-5 is the parameter for function selection.",
+		"relation" : []
+	},
+	{
+		"id" : 365,
+		"version" : 1000,
+		"name" : "Digital Input-5 Polarity",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1218,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Normally Open"
+			},
+			{
+				"value" : 1,
+				"mask" : "Normally Closed"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Input-5 is the parameter for polarity selection.",
+		"relation" : []
+	},
+	{
+		"id" : 366,
+		"version" : 1000,
+		"name" : "Digital Input-5 Action",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1219,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [
+			{
+				"value" : 1,
+				"mask" : "Temporary Warning"
+			},
+			{
+				"value" : 2,
+				"mask" : "Permanent Warning"
+			},
+			{
+				"value" : 3,
+				"mask" : "Electrical Trip"
+			},
+			{
+				"value" : 4,
+				"mask" : "Shutdown"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as user configured the alarm action function will be activated according to the selection.",
+		"relation" : []
+	},
+	{
+		"id" : 367,
+		"version" : 1000,
+		"name" : "Digital Input-5 Arming",
+		"group" : "Digital Input",
+		"unit" : "",
+		"modbusAddress" : 1220,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 0,
+		"valueMask" : [
+			{
+				"value" : 0,
+				"mask" : "Always"
+			},
+			{
+				"value" : 1,
+				"mask" : "From Safe Operation"
+			},
+			{
+				"value" : 2,
+				"mask" : "From Cranking"
+			},
+			{
+				"value" : 3,
+				"mask" : "Never"
+			}
+		],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "If the input source is set as configured by the user the error function of the input will be active according to the timing selection.",
+		"relation" : []
+	},
+	{
+		"id" : 368,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sensor Type",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1601,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 is the parameter for hardware selection.",
+		"relation" : []
+	},
+	{
+		"id" : 369,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sensor Selection",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1602,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 9,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 is the parameter where aux sensor selection is made if aux sensor is selected.",
+		"relation" : []
+	},
+	{
+		"id" : 371,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Source",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1604,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 18,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-4 is set as Digital Input it is the parameter where input function selection is made.",
+		"relation" : []
+	},
+	{
+		"id" : 372,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Polarity",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1605,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-4 is set as Digital Input it is the input polarity selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 373,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Action",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1606,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 4,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-4 is set as Digital Input it is the input alarm action selection parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 374,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Arming",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1607,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 4,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When Analog Input-4 is set as Digital Input it is the parameter to select the active time of the input.",
+		"relation" : []
+	},
+	{
+		"id" : 375,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Table Len",
+		"group" : "Analog Input-4",
+		"unit" : "",
+		"modbusAddress" : 1608,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 10,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the table size to be entered by the user for the Aux Sensor.",
+		"relation" : []
+	},
+	{
+		"id" : 376,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-1",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1609,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-1",
+		"relation" : []
+	},
+	{
+		"id" : 377,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-1",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1610,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-1",
+		"relation" : []
+	},
+	{
+		"id" : 378,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-2",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1611,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-2",
+		"relation" : []
+	},
+	{
+		"id" : 379,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-2",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1612,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-2",
+		"relation" : []
+	},
+	{
+		"id" : 380,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-3",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1613,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-3",
+		"relation" : []
+	},
+	{
+		"id" : 381,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-3",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1614,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-3",
+		"relation" : []
+	},
+	{
+		"id" : 382,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-4",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1615,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-4",
+		"relation" : []
+	},
+	{
+		"id" : 383,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-4",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1616,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-4",
+		"relation" : []
+	},
+	{
+		"id" : 384,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-5",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1617,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-5",
+		"relation" : []
+	},
+	{
+		"id" : 385,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-5",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1618,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-5",
+		"relation" : []
+	},
+	{
+		"id" : 386,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-6",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1619,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-6",
+		"relation" : []
+	},
+	{
+		"id" : 387,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-6",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1620,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-6",
+		"relation" : []
+	},
+	{
+		"id" : 388,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-7",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1621,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-7",
+		"relation" : []
+	},
+	{
+		"id" : 389,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-7",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1622,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-7",
+		"relation" : []
+	},
+	{
+		"id" : 390,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-8",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1623,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-8",
+		"relation" : []
+	},
+	{
+		"id" : 391,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-8",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1624,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-8",
+		"relation" : []
+	},
+	{
+		"id" : 392,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-9",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1625,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-9",
+		"relation" : []
+	},
+	{
+		"id" : 393,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-9",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1626,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-9",
+		"relation" : []
+	},
+	{
+		"id" : 394,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Sender Resistor-10",
+		"group" : "Analog Input-4",
+		"unit" : "ohm",
+		"modbusAddress" : 1627,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 540,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Sensor Resistance-10",
+		"relation" : []
+	},
+	{
+		"id" : 395,
+		"version" : 1000,
+		"name" : "Analogue Input-4 Percentage Value-10",
+		"group" : "Analog Input-4",
+		"unit" : "%",
+		"modbusAddress" : 1628,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Analog Input-4 (If Sensor Selection is User Defined) Percentage Value-10",
+		"relation" : []
+	},
+	{
+		"id" : 405,
+		"version" : 1000,
+		"name" : "Number of Flywheel Teeth",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 348,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 100,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the parameter where the number of flywheel teeth is entered. RPM information is calculated according to this value. If the parameter value is 0 RPM will be calculated based on the generator frequency.",
+		"relation" : []
+	},
+	{
+		"id" : 406,
+		"version" : 1000,
+		"name" : "Baud Rate",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 22,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 7,
+		"defaultValue" : 7,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 407,
+		"version" : 1000,
+		"name" : "Data Bit",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 23,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 408,
+		"version" : 1000,
+		"name" : "Stop Bit",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 24,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 409,
+		"version" : 1000,
+		"name" : "Parity Bit",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 25,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 410,
+		"version" : 1000,
+		"name" : "Slave ID",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 26,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 255,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 411,
+		"version" : 1000,
+		"name" : "RS485 Timeout",
+		"group" : "General",
+		"unit" : "second",
+		"modbusAddress" : 27,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 10,
+		"maxValue" : 32767,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the timeout period defined for RS485 communication with the slave device. A value greater than the query time must be entered.",
+		"relation" : []
+	},
+	{
+		"id" : 412,
+		"version" : 1000,
+		"name" : "RS485 Control Action",
+		"group" : "General",
+		"unit" : "",
+		"modbusAddress" : 28,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 5,
+		"defaultValue" : 5,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "Parameter for selecting the generator's action (run or stop) in case of RS485 communication failure.",
+		"relation" : []
+	},
+	{
+		"id" : 424,
+		"version" : 1000,
+		"name" : "PI Minimum Control Voltage",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 360,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 500,
+		"defaultValue" : 10,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI minimum control voltage used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 425,
+		"version" : 1000,
+		"name" : "PI Maximum Control Voltage",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 361,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 500,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI maximum control voltage used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 426,
+		"version" : 1000,
+		"name" : "PI Hysteresis Voltage Value",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 362,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -100,
+		"maxValue" : 100,
+		"defaultValue" : 2,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI hysteresis voltage value used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 427,
+		"version" : 1000,
+		"name" : "PI Minimum Control Frequency",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 363,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 35,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI minimum control frequency used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 428,
+		"version" : 1000,
+		"name" : "PI Maximum Control Frequency",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 364,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 1000,
+		"defaultValue" : 70,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI maximum control frequency used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 429,
+		"version" : 1000,
+		"name" : "PI Hysteresis Frequency Value",
+		"group" : "Engine",
+		"unit" : "",
+		"modbusAddress" : 365,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -100,
+		"maxValue" : 100,
+		"defaultValue" : 1,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "The PI hysteresis frequency value used in motor speed control.",
+		"relation" : []
+	},
+	{
+		"id" : 430,
+		"version" : 1000,
+		"name" : "Auxiliary Capacitor On Frequency",
+		"group" : "Engine",
+		"unit" : "Hz",
+		"modbusAddress" : 366,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 480,
+		"maxValue" : 630,
+		"defaultValue" : 520,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the additional capacitor function is used, the capacitor is switched on when the frequency exceeds the set value.",
+		"relation" : []
+	},
+	{
+		"id" : 431,
+		"version" : 1000,
+		"name" : "Auxiliary Capacitor Off Frequency",
+		"group" : "Engine",
+		"unit" : "Hz",
+		"modbusAddress" : 367,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 470,
+		"maxValue" : 620,
+		"defaultValue" : 490,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the additional capacitor function is used, the capacitor is switched off when the frequency falls below the set value.",
+		"relation" : []
+	},
+	{
+		"id" : 432,
+		"version" : 1000,
+		"name" : "High Aux Temperature Alarm Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 637,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "It is the alarm delay time for the aux temperature analog input.",
+		"relation" : []
+	},
+	{
+		"id" : 433,
+		"version" : 1000,
+		"name" : "Aux Temperature Sender Open Circuit Delay",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 638,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 50,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "This is the delay time for aux temperature sensor open circuit detection.",
+		"relation" : []
+	},
+	{
+		"id" : 434,
+		"version" : 1000,
+		"name" : "Auxiliary Capacitor Minimum Working Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 639,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 1,
+		"maxValue" : 600,
+		"defaultValue" : 30,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the additional capacitor function is used, the capacitor remains engaged for at least the duration specified by this parameter.",
+		"relation" : []
+	},
+	{
+		"id" : 435,
+		"version" : 1022,
+		"name" : "Fuel Pump Maximum Working Time",
+		"group" : "Engine Timer",
+		"unit" : "sec",
+		"modbusAddress" : 640,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : 0,
+		"maxValue" : 3600,
+		"defaultValue" : 600,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "When the fuel pump filling output is used, the pump is allowed to operate for a maximum of this duration. If this time expires, a fuel filling error is generated.",
+		"relation" : []
+	},
+	{
+		"id" : 3001,
+		"version" : 1000,
+		"name" : "Mains RS Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3001,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3002,
+		"version" : 1000,
+		"name" : "Mains ST Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3002,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3003,
+		"version" : 1000,
+		"name" : "Mains RT Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3003,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3004,
+		"version" : 1000,
+		"name" : "Mains Frequency",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3004,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3005,
+		"version" : 1000,
+		"name" : "Generator Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3005,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3006,
+		"version" : 1000,
+		"name" : "Generator Frequency",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3008,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3007,
+		"version" : 1000,
+		"name" : "Oil Pressure",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3009,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3008,
+		"version" : 1000,
+		"name" : "Coolant Temperature",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3010,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3009,
+		"version" : 1000,
+		"name" : "Fuel Level",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3011,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3010,
+		"version" : 1000,
+		"name" : "Charge Alternator Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3013,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3011,
+		"version" : 1000,
+		"name" : "Battery Voltage",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3014,
+		"dataLength" : 1,
+		"coef" : -1,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3012,
+		"version" : 1000,
+		"name" : "MCU Temperature",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3015,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3013,
+		"version" : 1000,
+		"name" : "Total Working Time(MSB)",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3016,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3014,
+		"version" : 1000,
+		"name" : "Total Working Time(LSB)",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3017,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3015,
+		"version" : 1000,
+		"name" : "Working Time at Load(MSB)",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3018,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3016,
+		"version" : 1000,
+		"name" : "Working Time at Load(LSB)",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3019,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3017,
+		"version" : 1000,
+		"name" : "Generator Status",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3020,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3018,
+		"version" : 1000,
+		"name" : "Engine Speed",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3021,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3019,
+		"version" : 1000,
+		"name" : "Common Service Time",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3022,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3020,
+		"version" : 1000,
+		"name" : "Oil Change Service Time",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3023,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3021,
+		"version" : 1000,
+		"name" : "Air Filter Change Service Time",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3024,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3022,
+		"version" : 1000,
+		"name" : "Fuel Change Service Time",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3025,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3023,
+		"version" : 1000,
+		"name" : "Inputs",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3026,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3024,
+		"version" : 1000,
+		"name" : "Outputs",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3027,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 3025,
+		"version" : 1000,
+		"name" : "Led Indicator",
+		"group" : "Monitoring",
+		"unit" : "",
+		"modbusAddress" : 3028,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : true,
+		"comment" : "",
+		"relation" : []
+      }
+    ],
+    "alarms": [],
+    "events": []
+  }
+]
