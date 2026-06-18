@@ -294,5 +294,19 @@
       }
     },
     "bMAddress": 2
+  },
+  {
+    "name": "BCMU",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Other",
+    "bMAddress": 19
+  },
+  {
+    "name": "BMU-52S-S100mA",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Other",
+    "bMAddress": 19
   }
 ]
