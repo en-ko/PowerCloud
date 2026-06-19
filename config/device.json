@@ -300,13 +300,13 @@
     "fileVersion": 1,
     "type": "device",
     "deviceType": "Other",
-    "bMAddress": 19
+    "bMAddress": 2
   },
   {
     "name": "BMU-52S-S100mA",
     "fileVersion": 1,
     "type": "device",
     "deviceType": "Other",
-    "bMAddress": 19
+    "bMAddress": 2
   }
 ]
