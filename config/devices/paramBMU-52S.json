@@ -386,11 +386,195 @@
 		"comment" : "",
 		"relation" : []
 	},
+		{
+		"id" : 911,
+		"version" : 1000,
+		"name" : "Cell Pressure 1 Gain",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 911,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 912,
+		"version" : 1000,
+		"name" : "Cell Pressure 1 Offset",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 912,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+		{
+		"id" : 914,
+		"version" : 1000,
+		"name" : "Cell Pressure 2 Gain",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 914,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 915,
+		"version" : 1000,
+		"name" : "Cell Pressure 2 Offset",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 915,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+		{
+		"id" : 917,
+		"version" : 1000,
+		"name" : "Cell Pressure 3 Gain",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 917,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 918,
+		"version" : 1000,
+		"name" : "Cell Pressure 3 Offset",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 918,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+		{
+		"id" : 920,
+		"version" : 1000,
+		"name" : "Cell Pressure 4 Gain",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 920,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 10000,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
+	{
+		"id" : 921,
+		"version" : 1000,
+		"name" : "Cell Pressure 4 Offset",
+		"group" : "Other Calibration",
+		"unit" : "",
+		"modbusAddress" : 921,
+		"dataLength" : 1,
+		"coef" : 0,
+		"signed" : true,
+		"view" : "",
+		"minValue" : -32768,
+		"maxValue" : 32767,
+		"defaultValue" : 0,
+		"valueMask" : [],
+		"dataOperation" : {
+			"operation" : "",
+			"operationValue" : ""
+		},
+		"readOnly" : false,
+		"comment" : "",
+		"relation" : []
+	},
 	{
 		"id" : 20,
 		"version" : 1000,
 		"name" : "Current Transducer Offset",
-		"group" : "",
+		"group" : "Other Calibration",
 		"unit" : "A",
 		"modbusAddress" : 20,
 		"dataLength" : 1,
@@ -433,30 +617,6 @@
 		"relation" : []
 	},
 	{
-		"id" : 27,
-		"version" : 1000,
-		"name" : "Current Transducer Negative Offset",
-		"group" : "",
-		"unit" : "A",
-		"modbusAddress" : 27,
-		"dataLength" : 1,
-		"coef" : -1,
-		"signed" : true,
-		"view" : "",
-		"minValue" : -5000,
-		"maxValue" : 5000,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-
-	{
 		"id" : 905,
 		"version" : 1000,
 		"name" : "Calibration Gain Negative Current",
@@ -479,7 +639,6 @@
 		"comment" : "",
 		"relation" : []
 	},
-
 	{
 		"id" : 56,
 		"version" : 1000,
@@ -512,33 +671,6 @@
 		"comment" : "",
 		"relation" : []
 	},
-
-
-
-	{
-		"id" : 906,
-		"version" : 1000,
-		"name" : "Calibration Offset Negative Current",
-		"group" : "Other Calibration",
-		"unit" : "",
-		"modbusAddress" : 906,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-
 	{
 		"id" : 908,
 		"version" : 1000,
@@ -546,29 +678,6 @@
 		"group" : "Other Calibration",
 		"unit" : "",
 		"modbusAddress" : 908,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : -32768,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 909,
-		"version" : 1000,
-		"name" : "Calibration Offset Positive Current",
-		"group" : "Other Calibration",
-		"unit" : "",
-		"modbusAddress" : 909,
 		"dataLength" : 1,
 		"coef" : 0,
 		"signed" : true,
@@ -1826,10 +1935,11 @@
 		"readOnly" : false,
 		"comment" : "",
 		"relation" : []
-	},	{
+	},	
+	{
 		"id" : 177,
 		"version" : 1000,
-		"name" : "Ambient PressureOffset",
+		"name" : "Ambient Pressure Offset",
 		"group" : "Other Calibration",
 		"unit" : "",
 		"modbusAddress" : 458,
@@ -5575,7 +5685,7 @@
 		"comment" : "",
 		"relation" : []
 	},
-		{
+	{
 		"id" : 392,
 		"version" : 1000,
 		"name" : "Cell Pressure 1",
