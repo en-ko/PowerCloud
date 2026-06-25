@@ -1,0 +1,30 @@
+[
+  {
+    "fileVersion": 1,
+    "parameters": [
+      { 
+				"id" : 0,
+				"version" : 1001,
+				"name" : "Ana Yakıt Tankı",
+				"group" : "",
+				"unit" : "",
+				"modbusAddress" : 0,
+				"dataLength" : 1,
+				"coef" : 0,
+				"signed" : true,
+				"view" : "",
+				"minValue" : -30000,
+				"maxValue" : 30000,
+				"defaultValue" : 0,
+				"valueMask" : [],
+				"dataOperation" : {
+					"operation" : "",
+					"operationValue" : ""
+				},
+				"readOnly" : false,
+				"comment" : "",
+				"relation" : []
+			}
+		]
+	}
+]
