@@ -1,0 +1,25 @@
+[
+  {
+    "object": "config",
+    "pageCount": 1,
+    "pageTitle": [
+      "EPA300-GATEWAY"
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      0
+    ],
+    "conditions": []
+  }
+]

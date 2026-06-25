@@ -308,5 +308,12 @@
     "type": "device",
     "deviceType": "Other",
     "bMAddress": 2
+  },
+  {
+    "name": "EPA300-GATEWAY",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Other",
+    "bMAddress": 1
   }
 ]
