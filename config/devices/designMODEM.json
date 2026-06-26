@@ -17,13 +17,13 @@
     "image": "dhcpFalse.png",
     "conditions": [
       {
-        "paramId": 3,
+        "conditionParamId": 3,
         "compareValue": "Passive",
         "operator": "eq",
         "image": "dhcpFalse.png"
       },
       {
-        "paramId": 3,
+        "conditionParamId": 3,
         "compareValue": "Activate",
         "operator": "eq",
         "image": "dhcpTrue.png"
@@ -125,79 +125,79 @@
     "nameColor" : "#A5DE68",
     "conditions": [
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "None of them work",
         "operator": "eq",
         "text": "None of them work"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "RS485 Not Working",
         "operator": "eq",
         "text": "RS485 Not Working"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "GSM-RS485 Working",
         "operator": "eq",
         "text": "GSM-RS485 Working"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "Etherntet-RS485 Working",
         "operator": "eq",
         "text": "Etherntet-RS485 Working"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "GSM-RS485-Ethernet Working",
         "operator": "eq",
         "text": "GSM-RS485-Ethernet Working"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "PIN Entry",
         "operator": "eq",
         "text": "PIN Entry"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "PIN Incorrect",
         "operator": "eq",
         "text": "PIN Incorrect"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "PUK Entry",
         "operator": "eq",
         "text": "PUK Entry"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "Waiting…",
         "operator": "eq",
         "text": "Waiting…"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "SIM Removed",
         "operator": "eq",
         "text": "SIM Removed"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "Ready to Connect GSM",
         "operator": "eq",
         "text": "Ready to Connect GSM"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "Ready to Connect Ethernet",
         "operator": "eq",
         "text": "Ready to Connect Ethernet"
       },
       {
-        "paramId": 91,
+        "conditionParamId": 91,
         "compareValue": "Ready to Connect GSM-Ethernet",
         "operator": "eq",
         "text": "Ready to Connect GSM-Ethernet"
@@ -225,14 +225,14 @@
     "image": "ethernetRed.png",
     "conditions": [
       {
-        "paramId": 92,
+        "conditionParamId": 92,
         "compareValue": "Ethernet Not Ready to Connect",
         "operator": "eq",
         "image": "ethernetRed.png",
         "effect": "pulse"
       },
       {
-        "paramId": 92,
+        "conditionParamId": 92,
         "compareValue": "Ethernet Ready to Connect",
         "operator": "eq",
         "image": "ethernetGreen.png",
@@ -250,13 +250,13 @@
     "image": "rs485Red.png",
     "conditions": [
       {
-        "paramId": 88,
+        "conditionParamId": 88,
         "compareValue": "Status: All Clear",
         "operator": "eq",
         "image": "rs485Green.png"
       },
       {
-        "paramId": 88,
+        "conditionParamId": 88,
         "compareValue": "Status: Error Detected",
         "operator": "eq",
         "image": "rs485Red.png",
@@ -283,14 +283,14 @@
     "height": "200px",
     "conditions": [
       {
-        "paramId": 93,
+        "conditionParamId": 93,
         "compareValue": "GSM Ready to Connect",
         "operator": "eq",
         "image": "gsmCommunicationGreen.png",
         "effect": "flip"
       },
       {
-        "paramId": 93,
+        "conditionParamId": 93,
         "compareValue": "GSM Not Ready to Connect",
         "operator": "eq",
         "image": "gsmCommunicationRed.png",
@@ -311,7 +311,7 @@
         "name": "RS485",
         "conditions": [
           {
-            "paramId": 88,
+            "conditionParamId": 88,
             "compareValue": "Status: All Clear",
             "operator": "eq",
             "color": "green",
@@ -323,7 +323,7 @@
         "name": "ETHERNET",
         "conditions": [
           {
-            "paramId": 89,
+            "conditionParamId": 89,
             "compareValue": "Status: All Clear",
             "operator": "eq",
             "color": "green",
@@ -335,7 +335,7 @@
         "name": "GSM",
         "conditions": [
           {
-            "paramId": 90,
+            "conditionParamId": 90,
             "compareValue": "Status: All Clear",
             "operator": "eq",
             "color": "green",
@@ -358,7 +358,7 @@
         "name": "ETHERNET",
         "conditions": [
           {
-            "paramId": 92,
+            "conditionParamId": 92,
             "compareValue": "Ready to Connect Ethernet",
             "operator": "eq",
             "color": "green",
@@ -371,7 +371,7 @@
         "name": "GSM",
         "conditions": [
           {
-            "paramId": 93,
+            "conditionParamId": 93,
             "compareValue": "Ready to Connect GSM",
             "operator": "eq",
             "color": "green",

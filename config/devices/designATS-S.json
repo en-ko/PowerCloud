@@ -26,19 +26,19 @@
     "width": "320px",
     "conditions": [
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "Stop Mode",
         "operator": "eq",
         "text": "Stop Mode"
       },
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "Manual Mode",
         "operator": "eq",
         "text": "Manual Mode"
       },
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "Auto Mode",
         "operator": "eq",
         "text": "Auto Mode"
@@ -89,7 +89,7 @@
         "name": "Emergency Stop",
         "conditions": [
           {
-              "paramId": 3201,
+              "conditionParamId": 3201,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -101,7 +101,7 @@
         "name": "Generator Over Voltage",
         "conditions": [
           {
-              "paramId": 3202,
+              "conditionParamId": 3202,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -113,7 +113,7 @@
         "name": "Generator Under Voltage",
         "conditions": [
           {
-              "paramId": 3202,
+              "conditionParamId": 3202,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -125,7 +125,7 @@
         "name": "Generator Over Frequency",
         "conditions": [
           {
-              "paramId": 3203,
+              "conditionParamId": 3203,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -137,7 +137,7 @@
         "name": "Generator Under Frequency",
         "conditions": [
           {
-              "paramId": 3203,
+              "conditionParamId": 3203,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -149,7 +149,7 @@
         "name": "Generator Phase Sequence Error",
         "conditions": [
           {
-              "paramId": 3204,
+              "conditionParamId": 3204,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -161,7 +161,7 @@
         "name": "Generator Overcurrent",
         "conditions": [
           {
-              "paramId": 3204,
+              "conditionParamId": 3204,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -173,7 +173,7 @@
         "name": "Generator Overpower",
         "conditions": [
           {
-              "paramId": 3205,
+              "conditionParamId": 3205,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -185,7 +185,7 @@
         "name": "Battery Overvoltage",
         "conditions": [
           {
-              "paramId": 3205,
+              "conditionParamId": 3205,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -197,7 +197,7 @@
         "name": "Battery Undervoltage",
         "conditions": [
           {
-              "paramId": 3206,
+              "conditionParamId": 3206,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -209,7 +209,7 @@
         "name": "User Configured Alarm 1",
         "conditions": [
           {
-              "paramId": 3206,
+              "conditionParamId": 3206,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -221,7 +221,7 @@
         "name": "User Configured Alarm 2",
         "conditions": [
           {
-              "paramId": 3207,
+              "conditionParamId": 3207,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -233,7 +233,7 @@
         "name": "User Configured Alarm 3",
         "conditions": [
           {
-              "paramId": 3207,
+              "conditionParamId": 3207,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -245,7 +245,7 @@
         "name": "User Configured Alarm 4",
         "conditions": [
           {
-              "paramId": 3208,
+              "conditionParamId": 3208,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -257,7 +257,7 @@
         "name": "Low Side Driver Fault",
         "conditions": [
           {
-              "paramId": 3208,
+              "conditionParamId": 3208,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -269,7 +269,7 @@
         "name": "Mains Phase Sequence Error",
         "conditions": [
           {
-              "paramId": 3209,
+              "conditionParamId": 3209,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -281,7 +281,7 @@
         "name": "ATS Fail to Stop",
         "conditions": [
           {
-              "paramId": 3209,
+              "conditionParamId": 3209,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -293,7 +293,7 @@
         "name": "ATS Fail to Start",
         "conditions": [
           {
-              "paramId": 3210,
+              "conditionParamId": 3210,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -305,7 +305,7 @@
         "name": "Generator Circuit Breaker Feedback",
         "conditions": [
           {
-              "paramId": 3210,
+              "conditionParamId": 3210,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -317,7 +317,7 @@
         "name": "Mains Circuit Breaker Feedback",
         "conditions": [
           {
-              "paramId": 3211,
+              "conditionParamId": 3211,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -335,49 +335,49 @@
     "name": "Status",
     "conditions": [
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "0",
         "operator": "eq",
         "text": "Breaker Off"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "1",
         "operator": "eq",
         "text": "Mains Operatation"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "2",
         "operator": "eq",
         "text": "Mains Fault"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "3",
         "operator": "eq",
         "text": "Genset Operatation"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "4",
         "operator": "eq",
         "text": "Mains Return"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "5",
         "operator": "eq",
         "text": "Transfer"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "6",
         "operator": "eq",
         "text": "Start Delay"
       },
       {
-        "paramId": 3021,
+        "conditionParamId": 3021,
         "compareValue": "7",
         "operator": "eq",
         "text": "Cooling"
@@ -418,19 +418,19 @@
     "image": "mimicNotOk.png",
     "conditions": [
       {
-        "paramId": 3005,
+        "conditionParamId": 3005,
         "compareValue": "0",
         "operator": "eq",
         "image": "mimicNotOk.png"
       },
       {
-        "paramId": 3005,
+        "conditionParamId": 3005,
         "compareValue": "1",
         "operator": "eq",
         "image": "mimicMainsOk.png"
       },
       {
-        "paramId": 3005,
+        "conditionParamId": 3005,
         "compareValue": "2",
         "operator": "eq",
         "image": "genset_ok.png"
@@ -526,7 +526,7 @@
         "nameParamId" : 182,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -538,7 +538,7 @@
         "nameParamId" : 184,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -550,7 +550,7 @@
         "nameParamId" : 186,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -562,7 +562,7 @@
         "nameParamId" : 188,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -574,7 +574,7 @@
         "nameParamId" : 190,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -586,7 +586,7 @@
         "nameParamId" : 192,
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "5",
               "operator": "bitOne",
               "isOn": true,
@@ -609,7 +609,7 @@
         "nameParamId": 194,
         "conditions": [
           {
-              "paramId": 3023,
+              "conditionParamId": 3023,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -621,7 +621,7 @@
         "nameParamId": 198,
         "conditions": [
           {
-              "paramId": 3023,
+              "conditionParamId": 3023,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -633,7 +633,7 @@
         "nameParamId": 202,
         "conditions": [
           {
-              "paramId": 3023,
+              "conditionParamId": 3023,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -645,7 +645,7 @@
         "nameParamId": 206,
         "conditions": [
           {
-              "paramId": 3023,
+              "conditionParamId": 3023,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -687,13 +687,13 @@
     "image": "ledgray_1.png",
     "conditions": [
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "2",
         "operator": "eq",
         "image": "ledgray_1.png"
       },
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "0",
         "operator": "eq",
         "image": "ledRed.png"
@@ -710,13 +710,13 @@
     "image": "ledgray_1.png",
     "conditions": [
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "0",
         "operator": "eq",
         "image": "ledgray_1.png"
       },
       {
-        "paramId": 61,
+        "conditionParamId": 61,
         "compareValue": "2",
         "operator": "eq",
         "image": "ledGreen.png"

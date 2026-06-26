@@ -16,43 +16,43 @@
     "name": "Compressor Status",
     "conditions": [
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "0",
         "operator": "eq",
         "text": "Stopping"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "1",
         "operator": "eq",
         "text": "Auto Waiting"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "2",
         "operator": "eq",
         "text": "Idle running"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "3",
         "operator": "eq",
         "text": "Idle preheating"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "4",
         "operator": "eq",
         "text": "Running on load"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "5",
         "operator": "eq",
         "text": "It will stop"
       },
       {
-        "paramId": 179,
+        "conditionParamId": 179,
         "compareValue": "6",
         "operator": "eq",
         "text": "Checking screw pressure"
@@ -146,7 +146,7 @@
         "nameParamId" : 26,
         "conditions": [
           {
-              "paramId": 198,
+              "conditionParamId": 198,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -158,7 +158,7 @@
         "nameParamId" : 30,
         "conditions": [
           {
-              "paramId": 198,
+              "conditionParamId": 198,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -170,7 +170,7 @@
         "nameParamId" : 34,
         "conditions": [
           {
-              "paramId": 198,
+              "conditionParamId": 198,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -182,7 +182,7 @@
         "nameParamId" : 38,
         "conditions": [
           {
-              "paramId": 198,
+              "conditionParamId": 198,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -194,7 +194,7 @@
         "nameParamId" : 42,
         "conditions": [
           {
-              "paramId": 198,
+              "conditionParamId": 198,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -216,7 +216,7 @@
         "nameParamId" : 46,
         "conditions": [
           {
-              "paramId": 199,
+              "conditionParamId": 199,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -228,7 +228,7 @@
         "nameParamId" : 50,
         "conditions": [
           {
-              "paramId": 199,
+              "conditionParamId": 199,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -240,7 +240,7 @@
         "nameParamId" : 54,
         "conditions": [
           {
-              "paramId": 199,
+              "conditionParamId": 199,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -252,7 +252,7 @@
         "nameParamId" : 58,
         "conditions": [
           {
-              "paramId": 199,
+              "conditionParamId": 199,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -264,7 +264,7 @@
         "nameParamId" : 62,
         "conditions": [
           {
-              "paramId": 199,
+              "conditionParamId": 199,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -304,7 +304,7 @@
         "name": "High Temperature",
         "conditions": [
           {
-              "paramId": 3201,
+              "conditionParamId": 3201,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -316,7 +316,7 @@
         "name": "Low Temperature",
         "conditions": [
           {
-              "paramId": 3202,
+              "conditionParamId": 3202,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -328,7 +328,7 @@
         "name": "Power Cut",
         "conditions": [
           {
-              "paramId": 3202,
+              "conditionParamId": 3202,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -340,7 +340,7 @@
         "name": "Service Fault Level 1",
         "conditions": [
           {
-              "paramId": 3203,
+              "conditionParamId": 3203,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -352,7 +352,7 @@
         "name": "Motor Thermic",
         "conditions": [
           {
-              "paramId": 3203,
+              "conditionParamId": 3203,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -364,7 +364,7 @@
         "name": "Seperator",
         "conditions": [
           {
-              "paramId": 3204,
+              "conditionParamId": 3204,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -376,7 +376,7 @@
         "name": "Fan Thermic",
         "conditions": [
           {
-              "paramId": 3204,
+              "conditionParamId": 3204,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -388,7 +388,7 @@
         "name": "Phase",
         "conditions": [
           {
-              "paramId": 3205,
+              "conditionParamId": 3205,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -400,7 +400,7 @@
         "name": "Reserved",
         "conditions": [
           {
-              "paramId": 3205,
+              "conditionParamId": 3205,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -412,7 +412,7 @@
         "name": "Line Alarm",
         "conditions": [
           {
-              "paramId": 3206,
+              "conditionParamId": 3206,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -424,7 +424,7 @@
         "name": "High Temperature Alarm",
         "conditions": [
           {
-              "paramId": 3206,
+              "conditionParamId": 3206,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -436,7 +436,7 @@
         "name": "Low Temperature",
         "conditions": [
           {
-              "paramId": 3207,
+              "conditionParamId": 3207,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -448,7 +448,7 @@
         "name": "Custom 1",
         "conditions": [
           {
-              "paramId": 3207,
+              "conditionParamId": 3207,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -460,7 +460,7 @@
         "name": "Custom 2",
         "conditions": [
           {
-              "paramId": 3208,
+              "conditionParamId": 3208,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -472,7 +472,7 @@
         "name": "SS PER HOUR",
         "conditions": [
           {
-              "paramId": 3208,
+              "conditionParamId": 3208,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -484,7 +484,7 @@
         "name": "Press Line Broke",
         "conditions": [
           {
-              "paramId": 3209,
+              "conditionParamId": 3209,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -496,7 +496,7 @@
         "name": "Low pressure",
         "conditions": [
           {
-              "paramId": 3209,
+              "conditionParamId": 3209,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -508,7 +508,7 @@
         "name": "Service Fault Level 2",
         "conditions": [
           {
-              "paramId": 3210,
+              "conditionParamId": 3210,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -520,7 +520,7 @@
         "name": "Service Fault Level 3",
         "conditions": [
           {
-              "paramId": 3210,
+              "conditionParamId": 3210,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -532,7 +532,7 @@
         "name": "Service Fault Level 4",
         "conditions": [
           {
-              "paramId": 3211,
+              "conditionParamId": 3211,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -544,7 +544,7 @@
         "name": "Service Fault Level 5",
         "conditions": [
           {
-              "paramId": 3211,
+              "conditionParamId": 3211,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -556,7 +556,7 @@
         "name": "Emergency Stop",
         "conditions": [
           {
-              "paramId": 3212,
+              "conditionParamId": 3212,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -568,7 +568,7 @@
         "name": "Temperature Sensor broke",
         "conditions": [
           {
-              "paramId": 3212,
+              "conditionParamId": 3212,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -580,7 +580,7 @@
         "name": "Oil Pressure",
         "conditions": [
           {
-              "paramId": 3213,
+              "conditionParamId": 3213,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -592,7 +592,7 @@
         "name": "Door Open",
         "conditions": [
           {
-              "paramId": 3213,
+              "conditionParamId": 3213,
               "compareValue": "8",
               "operator": "bitOne",
               "isOn": true,
@@ -604,7 +604,7 @@
         "name": "FAULT Press In",
         "conditions": [
           {
-              "paramId": 3214,
+              "conditionParamId": 3214,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
