@@ -42,7 +42,8 @@
     "itemFontSize": "20px",
     "itemList": [
       {
-        "paramId": 35
+        "paramId": 35,
+        "isEditable": true
       }
     ]
   },
@@ -529,7 +530,8 @@
     "itemFontSize": "20px",
     "itemList": [
       {
-        "paramId": 35
+        "paramId": 35,
+        "isEditable": true
       }
     ]
   },
@@ -1179,7 +1181,8 @@
     "itemFontSize": "20px",
     "itemList": [
       {
-        "paramId": 74
+        "paramId": 74,
+        "isEditable" : true
       }
     ]
   },
@@ -1666,7 +1669,8 @@
     "itemFontSize": "20px",
     "itemList": [
       {
-        "paramId": 74
+        "paramId": 74,
+        "isEditable" : true
       }
     ]
   },
