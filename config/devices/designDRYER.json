@@ -19,7 +19,7 @@
     "isBlinking": false,
     "conditions": [
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 0,
         "operator": "eq",
         "text": "Kurutucu Durum >> Boşta",
@@ -28,7 +28,7 @@
         "isBlinking": false
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 1,
         "operator": "eq",
         "text": "Kurutucu Durum >> Otomatik Bekleme",
@@ -37,7 +37,7 @@
         "isBlinking": false
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 2,
         "operator": "eq",
         "text": "Kurutucu Durum >> Çalışıyor",
@@ -46,7 +46,7 @@
         "isBlinking": false
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 3,
         "operator": "eq",
         "text": "Kurutucu Durum >> Duraklatıldı",
@@ -55,7 +55,7 @@
         "isBlinking": true
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 4,
         "operator": "eq",
         "text": "Kurutucu Durum >> Reset Onayı",
@@ -64,7 +64,7 @@
         "isBlinking": true
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 5,
         "operator": "eq",
         "text": "Kurutucu Durum >> Duracak",
@@ -73,7 +73,7 @@
         "isBlinking": false
       },
       {
-        "paramId": 4,
+        "conditionParamId": 4,
         "compareValue": 6,
         "operator": "eq",
         "text": "Kurutucu Durum >> Sistem Durduruldu ve Beklemede",
@@ -222,7 +222,7 @@
         "name": "Yüksek Sıcaklık Uyarısı",
         "conditions": [
           {
-            "paramId": 218,
+            "conditionParamId": 218,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -235,7 +235,7 @@
         "name": "Düşük Sıcaklık Uyarısı",
         "conditions": [
           {
-            "paramId": 219,
+            "conditionParamId": 219,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -248,7 +248,7 @@
         "name": "Güç Kesintisi",
         "conditions": [
           {
-            "paramId": 219,
+            "conditionParamId": 219,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -261,7 +261,7 @@
         "name": "Servis Hatası Level 1",
         "conditions": [
           {
-            "paramId": 220,
+            "conditionParamId": 220,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -274,7 +274,7 @@
         "name": "Yüksek Sıcaklık Alarmı",
         "conditions": [
           {
-            "paramId": 221,
+            "conditionParamId": 221,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -287,7 +287,7 @@
         "name": "Düşük Sıcaklık Alarmı",
         "conditions": [
           {
-            "paramId": 221,
+            "conditionParamId": 221,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -300,7 +300,7 @@
         "name": "Hata Müşteri 1",
         "conditions": [
           {
-            "paramId": 222,
+            "conditionParamId": 222,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -313,7 +313,7 @@
         "name": "Hata Müşteri 2",
         "conditions": [
           {
-            "paramId": 222,
+            "conditionParamId": 222,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -326,7 +326,7 @@
         "name": "Servis Hatası Level 2",
         "conditions": [
           {
-            "paramId": 223,
+            "conditionParamId": 223,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -339,7 +339,7 @@
         "name": "Servis Hatası Level 3",
         "conditions": [
           {
-            "paramId": 223,
+            "conditionParamId": 223,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -352,7 +352,7 @@
         "name": "Servis Hatası Level 4",
         "conditions": [
           {
-            "paramId": 224,
+            "conditionParamId": 224,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -365,7 +365,7 @@
         "name": "Servis Hatası Level 5",
         "conditions": [
           {
-            "paramId": 224,
+            "conditionParamId": 224,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -378,7 +378,7 @@
         "name": "Acil Durdurma",
         "conditions": [
           {
-            "paramId": 225,
+            "conditionParamId": 225,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -391,7 +391,7 @@
         "name": "Sıcaklık Sensörü Koptu",
         "conditions": [
           {
-            "paramId": 225,
+            "conditionParamId": 225,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -404,7 +404,7 @@
         "name": "Dewp Sensörü Kopuk",
         "conditions": [
           {
-            "paramId": 226,
+            "conditionParamId": 226,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -417,7 +417,7 @@
         "name": "Yağ Basıncı Alarmı",
         "conditions": [
           {
-            "paramId": 230,
+            "conditionParamId": 230,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -430,7 +430,7 @@
         "name": "Kapı Açık",
         "conditions": [
           {
-            "paramId": 230,
+            "conditionParamId": 230,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -443,7 +443,7 @@
         "name": "İçerideki Düşük Basınç",
         "conditions": [
           {
-            "paramId": 231,
+            "conditionParamId": 231,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -468,31 +468,31 @@
       {
         "name": "Giriş 1",
         "conditions": [
-          { "paramId": 177, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 177, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Giriş 2",
         "conditions": [
-          { "paramId": 177, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 177, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Giriş 3",
         "conditions": [
-          { "paramId": 177, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 177, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Giriş 4",
         "conditions": [
-          { "paramId": 177, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 177, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Giriş 5",
         "conditions": [
-          { "paramId": 177, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 177, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       }
     ]
@@ -511,31 +511,31 @@
       {
         "name": "Çıkış 1",
         "conditions": [
-          { "paramId": 178, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 178, "compareValue": "0", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Çıkış 2",
         "conditions": [
-          { "paramId": 178, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 178, "compareValue": "1", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Çıkış 3",
         "conditions": [
-          { "paramId": 178, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 178, "compareValue": "2", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Çıkış 4",
         "conditions": [
-          { "paramId": 178, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 178, "compareValue": "3", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       },
       {
         "name": "Çıkış 5",
         "conditions": [
-          { "paramId": 178, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
+          { "conditionParamId": 178, "compareValue": "4", "operator": "bitOne", "isOn": true, "isBlinking": false, "color": "red" }
         ]
       }
     ]

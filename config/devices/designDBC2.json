@@ -23,7 +23,7 @@
         "name": "Board Over Temperature",
         "conditions": [
           {
-              "paramId": 32,
+              "conditionParamId": 32,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -36,7 +36,7 @@
         "name": "PT100 Low Temperature",
         "conditions": [
           {
-              "paramId": 32,
+              "conditionParamId": 32,
               "compareValue": "6",
               "operator": "bitOne",
               "isOn": true,
@@ -49,7 +49,7 @@
         "name": "PT100 High Temperature",
         "conditions": [
           {
-              "paramId": 32,
+              "conditionParamId": 32,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -62,7 +62,7 @@
         "name": "Power Derate",
         "conditions": [
           {
-              "paramId": 30,
+              "conditionParamId": 30,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -86,7 +86,7 @@
         "name": "Reverse Battery",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -99,7 +99,7 @@
         "name": "Output Over Voltage",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -112,7 +112,7 @@
         "name": "Board Over Temperature",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -125,7 +125,7 @@
         "name": "PT100 Low Temperature",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -138,7 +138,7 @@
         "name": "PT100 High Temperature",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "5",
               "operator": "bitOne",
               "isOn": true,
@@ -151,7 +151,7 @@
         "name": "PT100 Trip Temperature",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -164,7 +164,7 @@
         "name": "PT100 Not Connected",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "6",
               "operator": "bitOne",
               "isOn": true,
@@ -177,7 +177,7 @@
         "name": "Battery Disconnected",
         "conditions": [
           {
-              "paramId": 31,
+              "conditionParamId": 31,
               "compareValue": "7",
               "operator": "bitOne",
               "isOn": true,
@@ -199,22 +199,22 @@
     "itemList": [
       {
         "name": "Output Active",
-              "conditions": [
-        {
-          "paramId": 46,
-          "compareValue": "1",
-          "operator": "eq",
-          "color": "green",
-          "isOn": true,
-          "isBlinking": false
-        }
+        "conditions": [
+          {
+            "conditionParamId": 46,
+            "compareValue": "1",
+            "operator": "eq",
+            "color": "green",
+            "isOn": true,
+            "isBlinking": false
+          }
       ]
       },
       {
         "name": "Relay Active",
         "conditions": [
           {
-              "paramId": 47,
+              "conditionParamId": 47,
               "compareValue": "0",
               "operator": "eq",
               "isOn": true,
@@ -446,13 +446,13 @@
     "image": "checkBoxenDisabled.png",
     "conditions": [
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "neq",
         "image": "checkBoxenDisabled.png"
       },
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "eq",
         "image": "checkBoxenEnabled.png"
@@ -489,13 +489,13 @@
     "image": "checkBoxenDisabled.png",
     "conditions": [
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "eq",
         "image": "checkBoxenDisabled.png"
       },
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "neq",
         "image": "checkBoxenEnabled.png"

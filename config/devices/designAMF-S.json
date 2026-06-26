@@ -43,67 +43,67 @@
     "name": "Generator Status",
     "conditions": [
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "0",
         "operator": "eq",
         "text": "Ready"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "1",
         "operator": "eq",
         "text": "Start Count"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "2",
         "operator": "eq",
         "text": "Sound Warn."
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "3",
         "operator": "eq",
         "text": "Prestart"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "4",
         "operator": "eq",
         "text": "Cranking"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "5",
         "operator": "eq",
         "text": "Crank Pause"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "6",
         "operator": "eq",
         "text": "Running"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "7",
         "operator": "eq",
         "text": "Loaded"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "8",
         "operator": "eq",
         "text": "Cooling Down"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "9",
         "operator": "eq",
         "text": "Transfer"
       },
       {
-        "paramId": 3017,
+        "conditionParamId": 3017,
         "compareValue": "9",
         "operator": "eq",
         "text": "Stop"
@@ -131,25 +131,25 @@
     "width": "290px",
     "conditions": [
       {
-        "paramId": 53,
+        "conditionParamId": 53,
         "compareValue": "Stop Mode",
         "operator": "eq",
         "text": "Stop Mode"
       },
       {
-        "paramId": 53,
+        "conditionParamId": 53,
         "compareValue": "Auto Mode",
         "operator": "eq",
         "text": "Auto Mode"
       },
       {
-        "paramId": 53,
+        "conditionParamId": 53,
         "compareValue": "Test Mode",
         "operator": "eq",
         "text": "Test Mode"
       },
       {
-        "paramId": 53,
+        "conditionParamId": 53,
         "compareValue": "Manual Mode",
         "operator": "eq",
         "text": "Manual Mode"
@@ -168,7 +168,7 @@
         "name": "High Oil Pressure",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -181,7 +181,7 @@
         "name": "High Cool Temperature",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -194,7 +194,7 @@
         "name": "Battery Under Voltage",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -207,7 +207,7 @@
         "name": "Emergency Stop",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -220,7 +220,7 @@
         "name": "Generator Over Voltage",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -233,7 +233,7 @@
         "name": "Low Oil Pressure",
         "conditions": [
           {
-              "paramId": 10,
+              "conditionParamId": 10,
               "compareValue": "15",
               "operator": "bitOne",
               "isOn": true,
@@ -256,7 +256,7 @@
         "name": "Digital Out-1",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "0",
               "operator": "bitOne",
               "isOn": true,
@@ -269,7 +269,7 @@
         "name": "Digital Out-2",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "1",
               "operator": "bitOne",
               "isOn": true,
@@ -282,7 +282,7 @@
         "name": "Digital Out-3",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "2",
               "operator": "bitOne",
               "isOn": true,
@@ -295,7 +295,7 @@
         "name": "Digital Out-4",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "3",
               "operator": "bitOne",
               "isOn": true,
@@ -308,7 +308,7 @@
         "name": "Digital Out-5",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "4",
               "operator": "bitOne",
               "isOn": true,
@@ -321,7 +321,7 @@
         "name": "Digital Out-6",
         "conditions": [
           {
-              "paramId": 3024,
+              "conditionParamId": 3024,
               "compareValue": "5",
               "operator": "bitOne",
               "isOn": true,

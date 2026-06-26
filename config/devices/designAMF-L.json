@@ -90,7 +90,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "0",
                     "operator": "bitOne",
                     "isOn": true,
@@ -104,7 +104,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "1",
                     "operator": "bitOne",
                     "isOn": true,
@@ -118,7 +118,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "2",
                     "operator": "bitOne",
                     "isOn": true,
@@ -132,7 +132,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "3",
                     "operator": "bitOne",
                     "isOn": true,
@@ -146,7 +146,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "4",
                     "operator": "bitOne",
                     "isOn": true,
@@ -160,7 +160,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "5",
                     "operator": "bitOne",
                     "isOn": true,
@@ -174,7 +174,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "6",
                     "operator": "bitOne",
                     "isOn": true,
@@ -188,7 +188,7 @@
             "nameIsItalic": false,
             "conditions": [
                 {
-                    "paramId": 3071,
+                    "conditionParamId": 3071,
                     "compareValue": "7",
                     "operator": "bitOne",
                     "isOn": true,
@@ -209,67 +209,67 @@
     "valueIsBold": true,
     "conditions": [
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "0",
         "operator": "eq",
         "text": "Ready"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "1",
         "operator": "eq",
         "text": "Start Delay"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "2",
         "operator": "eq",
         "text": "Sound Warn."
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "3",
         "operator": "eq",
         "text": "Prestart"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "4",
         "operator": "eq",
         "text": "Cranking"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "5",
         "operator": "eq",
         "text": "Crank Pause"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "6",
         "operator": "eq",
         "text": "Starting"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "7",
         "operator": "eq",
         "text": "Loaded"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "8",
         "operator": "eq",
         "text": "Cooling"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "9",
         "operator": "eq",
         "text": "Transfer"
       },
       {
-        "paramId": 3064,
+        "conditionParamId": 3064,
         "compareValue": "10",
         "operator": "eq",
         "text": "Stopping"
@@ -287,25 +287,25 @@
     "valueIsBold": true,
     "conditions": [
       {
-        "paramId": 68,
+        "conditionParamId": 68,
         "compareValue": "Stop Mode",
         "operator": "eq",
         "text": "Stop Mode"
       },
       {
-        "paramId": 68,
+        "conditionParamId": 68,
         "compareValue": "Auto Mode",
         "operator": "eq",
         "text": "Auto Mode"
       },
       {
-        "paramId": 68,
+        "conditionParamId": 68,
         "compareValue": "Test Mode",
         "operator": "eq",
         "text": "Test Mode"
       },
       {
-        "paramId": 68,
+        "conditionParamId": 68,
         "compareValue": "Manual Mode",
         "operator": "eq",
         "text": "Manual Mode"
@@ -327,7 +327,7 @@
             "nameIsItalic": true,
             "conditions": [
                 {
-                    "paramId": 3201,
+                    "conditionParamId": 3201,
                     "compareValue": "8",
                     "operator": "bitOne",
                     "isOn": true,

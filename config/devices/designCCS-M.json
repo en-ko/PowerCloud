@@ -18,13 +18,13 @@
     "valueIsBold": true,
     "conditions": [
       {
-        "paramId": 164,
+        "conditionParamId": 164,
         "compareValue": "Manual",
         "operator": "eq",
         "text": "Manual Mode"
       },
       {
-        "paramId": 164,
+        "conditionParamId": 164,
         "compareValue": "Automatic",
         "operator": "eq",
         "text": "Auto Mode"
@@ -43,42 +43,42 @@
     "text": "",
     "conditions": [
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "0",
         "operator": "eq",
         "text": "Stopping",
         "isBlinking": false
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "1",
         "operator": "eq",
         "text": "Auto Waiting",
         "isBlinking": false
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "2",
         "operator": "eq",
         "text": "Idle",
         "isBlinking": true
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "3",
         "operator": "eq",
         "text": "Preheat",
         "isBlinking": true
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "4",
         "operator": "eq",
         "text": "Onload",
         "isBlinking": true
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "5",
         "operator": "eq",
         "text": "Stopping",
@@ -86,7 +86,7 @@
         "isBlinking": true
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "6",
         "operator": "eq",
         "text": "Screw Check",
@@ -106,91 +106,91 @@
     "image": "stateStopped.svg",
     "conditions": [
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "0",
         "operator": "eq",
         "image": "stateStopping.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "1",
         "operator": "eq",
         "image": "stateHighPressureWarning.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "2",
         "operator": "eq",
         "image": "statePreheat.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "3",
         "operator": "eq",
         "image": "statePreheatOnLoad.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "4",
         "operator": "eq",
         "image": "stateStarting.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "5",
         "operator": "eq",
         "image": "stateNoLoad.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "6",
         "operator": "eq",
         "image": "stateAirRelease.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "7",
         "operator": "eq",
         "image": "stateStopped.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "8",
         "operator": "eq",
         "image": "stateLoading.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "9",
         "operator": "eq",
         "image": "stateLoaded.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "10",
         "operator": "eq",
         "image": "stateLoading.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "11",
         "operator": "eq",
         "image": "stateLoading.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "12",
         "operator": "eq",
         "image": "stateAutoWait.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "13",
         "operator": "eq",
         "image": "stateMotorStarting.svg"
       },
       {
-        "paramId": 351,
+        "conditionParamId": 351,
         "compareValue": "14",
         "operator": "eq",
         "image": "stateAutoWait.svg"
@@ -230,7 +230,7 @@
     "image": "ledDarkGray.png",
     "conditions": [
       {
-        "paramId": 204,
+        "conditionParamId": 204,
         "compareValue": "8",
         "operator": "bitOne",
         "image": "ledGreen.png"
@@ -250,14 +250,14 @@
     "image": "ledDarkGray.png",
     "conditions": [
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "5",
         "operator": "eq",
         "image": "ledRed.png",
 	      "effect": "fade"
       },
       {
-        "paramId": 203,
+        "conditionParamId": 203,
         "compareValue": "0",
         "operator": "eq",
         "image": "ledRed.png"
@@ -277,7 +277,7 @@
     "image": "ledDarkGray.png",
     "conditions": [
       {
-        "paramId": 205,
+        "conditionParamId": 205,
         "compareValue": "1",
         "operator": "eq",
         "image": "ledRed.png",
@@ -342,7 +342,7 @@
     "image": "tankVerticalEmpty.svg",
     "conditions": [
       {
-        "paramId": 350,
+        "conditionParamId": 350,
         "compareValue": "2",
         "operator": "bitOne",
         "image": "tankVertical.svg"
@@ -361,7 +361,7 @@
     "image": "fan.svg",
     "conditions": [
       {
-        "paramId": 350,
+        "conditionParamId": 350,
         "compareValue": "1",
         "operator": "bitOne",
         "image": "fan.svg",
@@ -382,7 +382,7 @@
     "image": "screw.svg",
     "conditions": [
       {
-        "paramId": 350,
+        "conditionParamId": 350,
         "compareValue": "4",
         "operator": "bitOne",
         "image": "screw.svg",
@@ -489,7 +489,7 @@
         "name": "Input - 1",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "0",
             "operator": "bitOne",
             "color": "yellow"
@@ -500,7 +500,7 @@
         "name": "Input - 2",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "1",
             "operator": "bitOne",
             "color": "yellow"
@@ -511,7 +511,7 @@
         "name": "Input - 3",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "2",
             "operator": "bitOne",
             "color": "yellow"
@@ -522,7 +522,7 @@
         "name": "Input - 4",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "3",
             "operator": "bitOne",
             "color": "yellow"
@@ -533,7 +533,7 @@
         "name": "Input - 5",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "4",
             "operator": "bitOne",
             "color": "yellow"
@@ -544,7 +544,7 @@
         "name": "Input - 6",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "5",
             "operator": "bitOne",
             "color": "yellow"
@@ -555,7 +555,7 @@
         "name": "Input - 7",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "6",
             "operator": "bitOne",
             "color": "yellow"
@@ -566,7 +566,7 @@
         "name": "Input - 8",
         "conditions": [
           {
-            "paramId": 307,
+            "conditionParamId": 307,
             "compareValue": "7",
             "operator": "bitOne",
             "color": "yellow"
@@ -591,7 +591,7 @@
         "name": "Output - 1",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "0",
             "operator": "bitOne",
             "color": "#65edeb"
@@ -602,7 +602,7 @@
         "name": "Output - 2",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "1",
             "operator": "bitOne",
             "color": "#65edeb"
@@ -613,7 +613,7 @@
         "name": "Output - 3",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "2",
             "operator": "bitOne",
             "color": "#65edeb"
@@ -624,7 +624,7 @@
         "name": "Output - 4",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "3",
             "operator": "bitOne",
             "color": "#65edeb"
@@ -635,7 +635,7 @@
         "name": "Output - 5",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "4",
             "operator": "bitOne",
             "color": "#65edeb"
@@ -646,7 +646,7 @@
         "name": "Output - 6",
         "conditions": [
           {
-            "paramId": 308,
+            "conditionParamId": 308,
             "compareValue": "5",
             "operator": "bitOne",
             "color": "#65edeb"
