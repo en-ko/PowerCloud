@@ -313,7 +313,7 @@
     "name": "EPA300-GATEWAY",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Other",
+    "deviceType": "Network",
     "bMAddress": 1
   }
 ]
