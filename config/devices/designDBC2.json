@@ -621,13 +621,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -639,7 +639,7 @@
           "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -651,13 +651,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -669,13 +669,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -687,7 +687,7 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -699,13 +699,13 @@
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "conditionParamId": 11,
+            "compareParamId": 11,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -717,7 +717,7 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -729,13 +729,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -747,13 +747,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -765,13 +765,13 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -788,13 +788,13 @@
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "conditionParamId": 16,
+            "compareParamId": 16,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -806,7 +806,7 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -856,13 +856,13 @@
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "conditionParamId": 16,
+            "compareParamId": 16,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -874,7 +874,7 @@
         "conditions": [
           {
             "compareValue" : "1",
-            "conditionParamId": 9942,
+            "compareParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
