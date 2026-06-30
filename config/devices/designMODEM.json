@@ -106,13 +106,13 @@
     "height": "160px",
     "itemList": [
       {
-        "id": 27
+        "paramId": 27
       },
       {
-        "id": 43
+        "paramId": 43
       },
       {
-        "id": 87
+        "paramId": 87
       }
     ]
   },
@@ -392,22 +392,22 @@
     "height": "300px",
     "itemList": [
       {
-        "id": 21
+        "paramId": 21
       },
       {
-        "id": 22
+        "paramId": 22
       },
       {
-        "id": 23
+        "paramId": 23
       },
       {
-        "id": 24
+        "paramId": 24
       },
       {
-        "id": 25
+        "paramId": 25
       },
       {
-        "id": 26
+        "paramId": 26
       }
     ]
   },

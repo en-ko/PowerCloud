@@ -535,7 +535,7 @@
     "showItemBorder": true,
     "conditions": [
       {
-        "paramId": 9941,
+        "conditionParamId": 9941,
         "compareValue": "4",
         "operator": "neq",
         "isHidden": true
@@ -543,43 +543,43 @@
     ],
     "itemList": [
       {
-        "id": 41,
+        "paramId": 41,
         "isEditable": true
       },
       {
-        "id": 56,
+        "paramId": 56,
         "isEditable": true
       },
       {
-        "id": 57,
+        "paramId": 57,
         "isEditable": true
       },
       {
-        "id": 59,
+        "paramId": 59,
         "isEditable": true
       },
       {
-        "id": 60,
+        "paramId": 60,
         "isEditable": true
       },
       {
-        "id": 71,
+        "paramId": 71,
         "isEditable": true
       },
       {
-        "id": 72,
+        "paramId": 72,
         "isEditable": true
       },
       {
-        "id": 42,
+        "paramId": 42,
         "isEditable": true
       },
       {
-        "id": 43,
+        "paramId": 43,
         "isEditable": true
       },
       {
-        "id": 44,
+        "paramId": 44,
         "isEditable": true
       }
     ]
@@ -599,7 +599,7 @@
     "showItemBorder": true,
     "conditions": [
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "neq",
         "isHidden": false,
@@ -608,205 +608,205 @@
     ],
     "itemList": [
       {
-        "id": 74,
+        "paramId": 74,
         "isEditable": true
       },
       {
-        "id": 75,
+        "paramId": 75,
         "isEditable": true
       },
       {
-        "id": 5,
+        "paramId": 5,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 76,
+        "paramId": 76,
         "isEditable": true,
           "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 77,
+        "paramId": 77,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 78,
+        "paramId": 78,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 11,
+        "paramId": 11,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 6,
+        "paramId": 6,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "compareParamId": 11,
+            "conditionParamId": 11,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 83,
+        "paramId": 83,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 84,
+        "paramId": 84,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 85,
+        "paramId": 85,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 4,
+        "paramId": 4,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           },
           {
             "compareValue" : "2",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 16,
+        "paramId": 16,
         "isEditable": true,
         "valueColor": "var(--textPrimary)"
       },
       {
-        "id": 17,
+        "paramId": 17,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "compareParamId": 16,
+            "conditionParamId": 16,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 9,
+        "paramId": 9,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
@@ -829,7 +829,7 @@
     "showItemBorder": true,
     "conditions": [
       {
-        "paramId": 12,
+        "conditionParamId": 12,
         "compareValue": "CHARGER",
         "operator": "eq",
         "isHidden": false,
@@ -838,43 +838,43 @@
     ],
     "itemList": [
       {
-        "id": 0,
+        "paramId": 0,
         "isEditable": true
       },
       {
-        "id": 2,
+        "paramId": 2,
         "isEditable": true
       },
       {
-        "id": 16,
+        "paramId": 16,
         "isEditable": true,
         "valueColor": "var(--textPrimary)"
       },
       {
-        "id": 17,
+        "paramId": 17,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "DISABLED",
-            "compareParamId": 16,
+            "conditionParamId": 16,
             "operator": "eq",
             "isHidden":true
           },
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
         ]
       },
       {
-        "id": 9,
+        "paramId": 9,
         "isEditable": true,
         "conditions": [
           {
             "compareValue" : "1",
-            "compareParamId": 9942,
+            "conditionParamId": 9942,
             "operator": "eq",
             "isHidden":true 
           }
