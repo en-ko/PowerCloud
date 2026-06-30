@@ -192,7 +192,7 @@
     "name": "MODEM",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Modem",
+    "deviceType": "Network",
     "bMAddress": 2
   },
   {
@@ -259,7 +259,7 @@
     "name": "BMU",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Generator",
+    "deviceType": "BMS",
     "bMAddress": 19
   },
   {
@@ -273,7 +273,7 @@
     "name": "BMU-52S",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Generator",
+    "deviceType": "BMS",
     "rtc": true,
     "alarmLog": true,
     "alarmLogOptions":{
@@ -299,21 +299,21 @@
     "name": "BCMU",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Other",
+    "deviceType": "BMS",
     "bMAddress": 2
   },
   {
     "name": "BMU-52S-S100mA",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Other",
+    "deviceType": "BMS",
     "bMAddress": 2
   },
   {
     "name": "EPA300-GATEWAY",
     "fileVersion": 1,
     "type": "device",
-    "deviceType": "Other",
+    "deviceType": "Network",
     "bMAddress": 1
   }
 ]
