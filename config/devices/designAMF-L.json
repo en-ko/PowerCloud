@@ -58,7 +58,7 @@
     "paramId": [
       3050
     ],
-    "width" : "200px"
+    "width": "200px"
   },
   {
     "object": "gradegauge",
@@ -68,144 +68,153 @@
     "paramId": [
       3051
     ],
-
-  "colorRanges": [
-    [0.25, "#fd666d"],
-    [0.75, "#67e0e3"],
-    [1, "#37a2da"]
-  ]
+    "colorRanges": [
+      [
+        0.25,
+        "#fd666d"
+      ],
+      [
+        0.75,
+        "#67e0e3"
+      ],
+      [
+        1,
+        "#37a2da"
+      ]
+    ]
   },
   {
     "object": "ledindicator",
     "page": 1,
     "row": 1,
     "side": "right",
-    "title": "Error Indicator",
+    "title": "Outputs",
     "width": "300px",
     "height": "400px",
     "itemList": [
-        {
-            "name": "Relay-1",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "0",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Relay-2",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "1",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Relay-3",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "2",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Relay-4",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "3",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Digital Out-1",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "4",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Digital Out-2",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "5",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Digital Out-3",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "6",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        },
-        {
-            "name": "Digital Out-4",
-            "nameIsBold": false,
-            "nameIsItalic": false,
-            "conditions": [
-                {
-                    "conditionParamId": 3071,
-                    "compareValue": "7",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "isBlinking": false
-                }
-            ]
-        }
+      {
+        "name": "Relay-1",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Relay-2",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Relay-3",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Relay-4",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-1",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-2",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-3",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "Digital Out-4",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3071,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      }
     ]
   },
   {
     "object": "text",
     "page": 1,
     "row": 3,
-    "width": "200px",
+    "width": "300px",
+    "height": "60px",
     "side": "right",
     "name": "Generator Status",
-    "valueFontSize": "34px",
+    "valueFontSize": "24px",
     "valueIsBold": true,
     "conditions": [
       {
@@ -280,10 +289,11 @@
     "object": "text",
     "page": 1,
     "row": 2,
-    "width" : "200px",
+    "width": "300px",
+    "height": "60px",
     "side": "left",
-    "name" : "Generator Status",
-    "valueFontSize": "34px",
+    "name": "Mode",
+    "valueFontSize": "24px",
     "valueIsBold": true,
     "conditions": [
       {
@@ -321,21 +331,6 @@
     "width": "300px",
     "height": "400px",
     "itemList": [
-        {
-            "name": "Emergency Stop",
-            "nameIsBold": false,
-            "nameIsItalic": true,
-            "conditions": [
-                {
-                    "conditionParamId": 3201,
-                    "compareValue": "8",
-                    "operator": "bitOne",
-                    "isOn": true,
-                    "color" : "#FC5E42",
-                    "isBlinking": false
-                }
-            ]
-        }
     ]
   },
   {
@@ -411,12 +406,88 @@
       3052
     ]
   },
+    {
+  "object": "datalist",
+  "page": 3,
+  "row": 1,
+  "side": "center",
+  "width": "400px",
+  "height": "42em",
+  "showItemBorder": true,
+  "title": "Scania ECU",
+  "conditions": [
+    {
+      "conditionParamId": 194,
+      "compareValue": "Scania S8 Singlespeed",
+      "operator": "neq",
+      "isHidden": true,
+      "andConditions": [
+        {
+          "conditionParamId": 194,
+          "compareValue": "Scania S8 Allspeed",
+          "operator": "neq"
+        }
+      ]
+    }
+  ],
+  "itemList": [
+    {
+      "paramId": 3082
+    },
+    {
+      "paramId": 3083
+    },
+    {
+      "paramId": 3084
+    },
+    {
+      "paramId": 3085
+    },
+    {
+      "paramId": 3086
+    },
+    {
+      "paramId": 3087
+    },
+    {
+      "paramId": 3088
+    },
+    {
+      "paramId": 3089
+    },
+    {
+      "paramId": 3090
+    },
+    {
+      "paramId": 3091
+    },
+    {
+      "paramId": 3092
+    },
+    {
+      "paramId": 3093
+    },
+    {
+      "paramId": 3094
+    },
+    {
+      "paramId": 3095
+    },
+    {
+      "paramId": 3096
+    },
+    {
+      "paramId": 3097
+    }
+  ]
+  },
   {
     "object": "table",
     "page": 3,
     "row": 1,
     "side": "center",
     "filter": true,
+    "height": "40em",
     "paramId": [],
     "paramGroups": [
       "General",
@@ -433,7 +504,7 @@
       "Analog Input-2",
       "Analog Input-3",
       "Analog Input-4",
-	    "Extension Board"
+      "Extension Board"
     ]
   }
 ]
