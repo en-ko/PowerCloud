@@ -5,7 +5,7 @@
         "maxVersion" : 5000,
         "idContains": [],
         "title": "Turkish language support",
-        "message": "For the Turkish language file <a href='#' onclick='openUrl(\"https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-L_TR_V1035.prl\"); return false;' style='color: var(--textSecondary);'>click here.</a>",
+        "message": "For the Turkish language file <a href='#' onclick='openUrl(\"https://raw.githubusercontent.com/en-ko/PowerCloud/documents/prl/AMF-L_TR_V1035.prl\"); return false;' style='color: var(--textSecondary);'>click here.</a>",
         "command": "USER_MESSAGE",
         "lastDate": "2030-01-01"
     }
