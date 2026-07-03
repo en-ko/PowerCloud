@@ -6,11 +6,11 @@
     "patchVersion": 1,
     "type": "software",
     "sharedFileVersion": 1,
-    "translationVersion": 1,
+    "translationVersion": 2,
     "uiFileVersion": 1,
     "uiFiles": [],
     "translations": [
-      "Chinese"
+      "Chinese", "Turkish"
     ]
   },
   {
