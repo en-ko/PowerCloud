@@ -208,5 +208,45 @@
         "language":"Tr",
         "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/CCS-S_KK_V01_TR.pdf",
         "addedDate" : "2026-01-01"
-    }        
+    },
+    {
+        "device" : "BMU-52S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Alarm Kullanıcı Rehberi",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/BMU52S_V1012_Alarm_User_Document_TR.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "BMU-52S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Alarm User Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/BMU52S_V1012_Alarm_User_Document_EN.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "BMU-52S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Dijital Çıkış Kullanıcı Rehberi",
+        "language":"Tr",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/BMU52S_V1012_Digital_Output_User_Document_TR.pdf",
+        "addedDate" : "2026-01-01"
+    },
+    {
+        "device" : "BMU-52S",
+        "minVersion" : 1,
+        "maxVersion" : 5000,
+        "paramId" : [],
+        "name" : "Digital Output User Guide",
+        "language":"Eng",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/BMU52S_V1012_Digital_Output_User_Document_EN.pdf",
+        "addedDate" : "2026-01-01"
+    }          
 ]

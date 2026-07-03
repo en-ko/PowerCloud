@@ -24,7 +24,7 @@
     "side": "left",
     "width": "270px",
     "height": "1080px",
-    "title": "NTC(1-26)",
+    "title": "NTC (1-26)",
     "titleIsBold": true,
     "titleFontSize": "18px",
     "titleColor": "#B0BEC5",
@@ -34,132 +34,287 @@
       {
         "paramId": 301,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 302,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 303,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 304,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 305,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-       ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 306,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 307,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-      ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 308,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 309,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 310,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 311,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 312,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 313,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 314,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 315,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 316,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 317,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 318,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 319,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 320,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 321,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 322,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 323,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 324,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 325,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 326,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
         ]
       }
     ]
@@ -171,7 +326,7 @@
     "side": "left",
     "width": "270px",
     "height": "1080px",
-    "title": "NTC(27-52)",
+    "title": "NTC (27-52)",
     "titleIsBold": true,
     "titleFontSize": "18px",
     "titleColor": "#B0BEC5",
@@ -181,132 +336,287 @@
       {
         "paramId": 327,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 328,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 329,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 330,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 331,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 332,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 333,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 334,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 335,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 336,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 337,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 338,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 339,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 340,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 341,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 342,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 343,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 344,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 345,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 346,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 347,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 348,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 349,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 350,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 351,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 352,
         "conditions": [
-          { "compareValue": "3276.7", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
+          {
+            "compareValue": "3276.7",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
         ]
       }
     ]
@@ -318,7 +628,7 @@
     "side": "center",
     "width": "220px",
     "height": "1080px",
-    "title": "Battery Voltage(1-26)",
+    "title": "Battery Voltage (1-26)",
     "titleIsBold": true,
     "titleFontSize": "18px",
     "titleColor": "#B0BEC5",
@@ -328,132 +638,287 @@
       {
         "paramId": 231,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 232,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 233,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 234,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 235,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 236,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 237,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 238,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 239,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 240,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 241,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 242,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 243,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 244,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 245,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 246,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 247,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 248,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 249,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 250,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 251,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 252,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 253,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 254,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 255,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 256,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
         ]
       }
     ]
@@ -465,7 +930,7 @@
     "side": "center",
     "width": "220px",
     "height": "1080px",
-    "title": "Battery Voltage(27-52)",
+    "title": "Battery Voltage (27-52)",
     "titleIsBold": true,
     "titleFontSize": "18px",
     "titleColor": "#B0BEC5",
@@ -475,132 +940,287 @@
       {
         "paramId": 257,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 258,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 259,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 260,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 261,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 262,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 263,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 264,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 265,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 266,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 267,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 268,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 269,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 270,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 271,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 272,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 273,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 274,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 275,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 276,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 277,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 278,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 279,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 280,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 281,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
-        ]},
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
+        ]
+      },
       {
         "paramId": 282,
         "conditions": [
-          { "compareValue": "0", "operator": "eq", "displayText": "NaN",  "textColor": "#ffffff" }
+          {
+            "compareValue": "0",
+            "operator": "eq",
+            "displayText": "NaN",
+            "textColor": "#ffffff"
+          }
         ]
       }
     ]
@@ -628,7 +1248,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-2",
         "conditions": [
@@ -640,7 +1261,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-3",
         "conditions": [
@@ -652,7 +1274,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-4",
         "conditions": [
@@ -664,7 +1287,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-5",
         "conditions": [
@@ -676,7 +1300,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-6",
         "conditions": [
@@ -688,7 +1313,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-7",
         "conditions": [
@@ -700,7 +1326,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-8",
         "conditions": [
@@ -712,7 +1339,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-9",
         "conditions": [
@@ -724,7 +1352,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-10",
         "conditions": [
@@ -736,7 +1365,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-11",
         "conditions": [
@@ -748,7 +1378,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-12",
         "conditions": [
@@ -760,7 +1391,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-13",
         "conditions": [
@@ -772,7 +1404,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-14",
         "conditions": [
@@ -784,7 +1417,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-15",
         "conditions": [
@@ -796,7 +1430,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-16",
         "conditions": [
@@ -808,7 +1443,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-17",
         "conditions": [
@@ -820,7 +1456,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-18",
         "conditions": [
@@ -832,7 +1469,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-19",
         "conditions": [
@@ -844,7 +1482,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-20",
         "conditions": [
@@ -856,7 +1495,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-21",
         "conditions": [
@@ -868,7 +1508,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-22",
         "conditions": [
@@ -880,7 +1521,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-23",
         "conditions": [
@@ -892,7 +1534,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-24",
         "conditions": [
@@ -904,7 +1547,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-25",
         "conditions": [
@@ -916,7 +1560,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-26",
         "conditions": [
@@ -955,7 +1600,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-2",
         "conditions": [
@@ -967,7 +1613,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-3",
         "conditions": [
@@ -979,7 +1626,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-4",
         "conditions": [
@@ -991,7 +1639,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-5",
         "conditions": [
@@ -1003,7 +1652,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-6",
         "conditions": [
@@ -1015,7 +1665,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-7",
         "conditions": [
@@ -1027,7 +1678,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-8",
         "conditions": [
@@ -1039,7 +1691,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-9",
         "conditions": [
@@ -1051,7 +1704,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-10",
         "conditions": [
@@ -1063,7 +1717,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-11",
         "conditions": [
@@ -1075,7 +1730,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-12",
         "conditions": [
@@ -1087,7 +1743,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-13",
         "conditions": [
@@ -1099,7 +1756,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-14",
         "conditions": [
@@ -1111,7 +1769,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-15",
         "conditions": [
@@ -1123,7 +1782,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-16",
         "conditions": [
@@ -1135,7 +1795,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-17",
         "conditions": [
@@ -1147,7 +1808,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-18",
         "conditions": [
@@ -1159,7 +1821,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-19",
         "conditions": [
@@ -1171,7 +1834,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-20",
         "conditions": [
@@ -1183,7 +1847,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-21",
         "conditions": [
@@ -1195,7 +1860,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-22",
         "conditions": [
@@ -1207,7 +1873,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-23",
         "conditions": [
@@ -1219,7 +1886,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-24",
         "conditions": [
@@ -1231,7 +1899,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-25",
         "conditions": [
@@ -1243,7 +1912,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-26",
         "conditions": [
@@ -1282,7 +1952,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-28",
         "conditions": [
@@ -1294,7 +1965,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-29",
         "conditions": [
@@ -1306,7 +1978,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-30",
         "conditions": [
@@ -1318,7 +1991,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-31",
         "conditions": [
@@ -1330,7 +2004,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-32",
         "conditions": [
@@ -1342,7 +2017,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-33",
         "conditions": [
@@ -1354,7 +2030,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-34",
         "conditions": [
@@ -1366,7 +2043,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-35",
         "conditions": [
@@ -1378,7 +2056,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-36",
         "conditions": [
@@ -1390,7 +2069,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-37",
         "conditions": [
@@ -1402,7 +2082,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-38",
         "conditions": [
@@ -1414,7 +2095,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-39",
         "conditions": [
@@ -1426,7 +2108,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-40",
         "conditions": [
@@ -1438,7 +2121,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-41",
         "conditions": [
@@ -1450,7 +2134,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-42",
         "conditions": [
@@ -1462,7 +2147,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-43",
         "conditions": [
@@ -1474,7 +2160,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-44",
         "conditions": [
@@ -1486,7 +2173,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-45",
         "conditions": [
@@ -1498,7 +2186,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-46",
         "conditions": [
@@ -1510,7 +2199,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-47",
         "conditions": [
@@ -1522,7 +2212,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-48",
         "conditions": [
@@ -1534,7 +2225,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-49",
         "conditions": [
@@ -1546,7 +2238,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-50",
         "conditions": [
@@ -1558,7 +2251,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-51",
         "conditions": [
@@ -1570,7 +2264,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-52",
         "conditions": [
@@ -1609,7 +2304,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-28",
         "conditions": [
@@ -1621,7 +2317,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-29",
         "conditions": [
@@ -1633,7 +2330,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-30",
         "conditions": [
@@ -1645,7 +2343,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-31",
         "conditions": [
@@ -1657,7 +2356,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-32",
         "conditions": [
@@ -1669,7 +2369,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-33",
         "conditions": [
@@ -1681,7 +2382,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-34",
         "conditions": [
@@ -1693,7 +2395,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-35",
         "conditions": [
@@ -1705,7 +2408,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-36",
         "conditions": [
@@ -1717,7 +2421,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-37",
         "conditions": [
@@ -1729,7 +2434,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-38",
         "conditions": [
@@ -1741,7 +2447,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-39",
         "conditions": [
@@ -1753,7 +2460,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-40",
         "conditions": [
@@ -1765,7 +2473,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-41",
         "conditions": [
@@ -1777,7 +2486,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-42",
         "conditions": [
@@ -1789,7 +2499,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-43",
         "conditions": [
@@ -1801,7 +2512,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-44",
         "conditions": [
@@ -1813,7 +2525,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-45",
         "conditions": [
@@ -1825,7 +2538,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-46",
         "conditions": [
@@ -1837,7 +2551,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-47",
         "conditions": [
@@ -1849,7 +2564,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-48",
         "conditions": [
@@ -1861,7 +2577,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-49",
         "conditions": [
@@ -1873,7 +2590,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-50",
         "conditions": [
@@ -1885,7 +2603,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-51",
         "conditions": [
@@ -1897,7 +2616,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Battery-52",
         "conditions": [
@@ -1930,7 +2650,7 @@
     ],
     "conditions": []
   },
-    {
+  {
     "object": "datacard",
     "page": 1,
     "row": 3,
@@ -1990,7 +2710,7 @@
     "paramId": [
       390
     ],
-        "conditions": [
+    "conditions": [
       {
         "conditionParamId": 390,
         "compareValue": "3276.7",
@@ -2044,31 +2764,31 @@
       381
     ]
   },
-{
-  "object": "text",
-  "page": 1,
-  "row": 1,
-  "side": "right",
-  "width": "580px",
-  "height": "38px",
-  "text": "500mA Board",
-  "valueFontSize": "34px",
-  "valueIsBold": true,
-  "valueIsItalic": false,
-  "valueColor": "white",
-  "conditions": [
-    {
-      "conditionParamId": 22,
-      "compareValue": "1",
-      "operator": "eq",
-      "backgroundColor": "gray",
-      "valueFontSize": "34px",
-      "valueIsBold": true,
-      "valueIsItalic": false,
-      "valueColor": "darkgray"
-    }
-  ]
-},
+  {
+    "object": "text",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "580px",
+    "height": "38px",
+    "text": "500mA Board",
+    "valueFontSize": "34px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "valueColor": "white",
+    "conditions": [
+      {
+        "conditionParamId": 22,
+        "compareValue": "1",
+        "operator": "eq",
+        "backgroundColor": "gray",
+        "valueFontSize": "34px",
+        "valueIsBold": true,
+        "valueIsItalic": false,
+        "valueColor": "darkgray"
+      }
+    ]
+  },
   {
     "object": "datacard",
     "page": 1,
@@ -2363,32 +3083,32 @@
       }
     ]
   },
-{
-  "object": "text",
-  "page": 1,
-  "row": 3,
-  "side": "right",
-  "width": "580px",
-  "height": "38px",
-  "text": "100mA Board",
-  "valueFontSize": "34px",
-  "valueIsBold": true,
-  "valueIsItalic": false,
-  "valueColor": "white",
-  "conditions": [
-    {
-      "conditionParamId": 22,
-      "compareValue": "0",
-      "operator": "eq",
-      "backgroundColor": "gray",
-      "valueFontSize": "34px",
-      "valueIsBold": true,
-      "valueIsItalic": false,
-      "valueColor": "darkgray"
-    }
-  ]
-},
-{
+  {
+    "object": "text",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "width": "580px",
+    "height": "38px",
+    "text": "100mA Board",
+    "valueFontSize": "34px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "valueColor": "white",
+    "conditions": [
+      {
+        "conditionParamId": 22,
+        "compareValue": "0",
+        "operator": "eq",
+        "backgroundColor": "gray",
+        "valueFontSize": "34px",
+        "valueIsBold": true,
+        "valueIsItalic": false,
+        "valueColor": "darkgray"
+      }
+    ]
+  },
+  {
     "object": "datacard",
     "page": 1,
     "row": 4,
@@ -2575,6 +3295,12 @@
         "operator": "eq",
         "backgroundColor": "gray",
         "fixedValue": "NaN"
+      },
+      {
+        "conditionParamId": 3082,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN"
       }
     ]
   },
@@ -2718,7 +3444,7 @@
       }
     ]
   },
-    {
+  {
     "object": "datacard",
     "page": 2,
     "row": 3,
@@ -2733,7 +3459,7 @@
       3093,
       3094
     ],
-      "conditions": [
+    "conditions": [
       {
         "conditionParamId": 3006,
         "compareValue": "3276.7",
@@ -2754,7 +3480,7 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
-	    3097
+      3097
     ],
     "conditions": [
       {
@@ -2770,12 +3496,12 @@
         "operator": "eq",
         "fixedValue": "NaN",
         "andConditions": [
-        {
-          "conditionParamId": 392,
-          "compareValue": "0",
-          "operator": "eq"
-        }
-      ]
+          {
+            "conditionParamId": 392,
+            "compareValue": "0",
+            "operator": "eq"
+          }
+        ]
       }
     ]
   },
@@ -2795,7 +3521,7 @@
       3096,
       3098
     ],
-      "conditions": [
+    "conditions": [
       {
         "conditionParamId": 3001,
         "compareValue": "-0.001",
@@ -2825,7 +3551,8 @@
             "operator": "bitOne",
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "nameParamId": 409,
         "conditions": [
@@ -2860,7 +3587,8 @@
             "operator": "bitOne",
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "nameParamId": 399,
         "conditions": [
@@ -2870,7 +3598,8 @@
             "operator": "bitOne",
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "nameParamId": 401,
         "conditions": [
@@ -2880,7 +3609,8 @@
             "operator": "bitOne",
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "nameParamId": 403,
         "conditions": [
@@ -2917,7 +3647,8 @@
             "isBlinking": false,
             "color": "green"
           }
-        ]},
+        ]
+      },
       {
         "name": "Emergency Stop",
         "conditions": [
@@ -2929,7 +3660,8 @@
             "isBlinking": false,
             "color": "#FF0000"
           }
-        ]},
+        ]
+      },
       {
         "name": "Over Voltage Protection",
         "conditions": [
@@ -2941,7 +3673,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Over Voltage Warning",
         "conditions": [
@@ -2953,7 +3686,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Pack Over Voltage Protection",
         "conditions": [
@@ -2965,7 +3699,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Pack Over Voltage Warning",
         "conditions": [
@@ -2977,7 +3712,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Cell Over Voltage Protection",
         "conditions": [
@@ -2989,7 +3725,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Cell Over Voltage Warning",
         "conditions": [
@@ -3001,7 +3738,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Under Voltage Protection",
         "conditions": [
@@ -3013,7 +3751,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Under Voltage Warning",
         "conditions": [
@@ -3025,7 +3764,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Pack Under Voltage Protection",
         "conditions": [
@@ -3037,7 +3777,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Pack Under Voltage Warning",
         "conditions": [
@@ -3049,7 +3790,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Cell Under Voltage Protection",
         "conditions": [
@@ -3061,7 +3803,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Cell Under Voltage Warning",
         "conditions": [
@@ -3073,7 +3816,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Over Current Protection",
         "conditions": [
@@ -3085,7 +3829,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Over Current Warning",
         "conditions": [
@@ -3097,7 +3842,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Over Current Protection",
         "conditions": [
@@ -3109,7 +3855,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Over Current Warning",
         "conditions": [
@@ -3121,7 +3868,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Over Temperature Protection",
         "conditions": [
@@ -3133,7 +3881,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Over Temperature Warning",
         "conditions": [
@@ -3145,7 +3894,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Over Temperature Protection",
         "conditions": [
@@ -3157,7 +3907,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Over Temperature Warning",
         "conditions": [
@@ -3169,7 +3920,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Under Temperature Protection",
         "conditions": [
@@ -3181,7 +3933,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Charge Under Temperature Warning",
         "conditions": [
@@ -3193,7 +3946,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Under Temperature Protection",
         "conditions": [
@@ -3205,7 +3959,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Discharge Under Temperature Warning",
         "conditions": [
@@ -3217,7 +3972,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Low Capacity Protection",
         "conditions": [
@@ -3229,7 +3985,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Low Capacity Warning",
         "conditions": [
@@ -3241,9 +3998,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "Low State of Health Warning",
+        "name": "Low SOH Warning",
         "conditions": [
           {
             "conditionParamId": 4015,
@@ -3253,9 +4011,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "Cell Unbalance Warning",
+        "name": "Cell Unbalance Protection",
         "conditions": [
           {
             "conditionParamId": 4015,
@@ -3265,9 +4024,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "High Pressure Protection",
+        "name": "High Pressure Warning",
         "conditions": [
           {
             "conditionParamId": 4016,
@@ -3275,18 +4035,13 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red",
-            "andConditions": [
-              {
-                "conditionParamId": 22,
-                "compareValue": "0",
-                "operator": "eq"
-              }
-            ]
+            "color": "red"
+            
           }
-        ]},
-            {
-        "name": "Leak Sensor Failure",
+        ]
+      },
+      {
+        "name": "LIN Sensor Fault",
         "conditions": [
           {
             "conditionParamId": 4016,
@@ -3294,18 +4049,13 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red",
-            "andConditions": [
-              {
-                "conditionParamId": 22,
-                "compareValue": "0",
-                "operator": "eq"
-              }
-            ]
+            "color": "red"
+            
           }
-        ]},
+        ]
+      },
       {
-        "name": "Current Sensor Failure",
+        "name": "Current Sensor Fault",
         "conditions": [
           {
             "conditionParamId": 4017,
@@ -3315,9 +4065,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
-            {
-        "name": "Temperature Sensor Failure",
+        ]
+      },
+      {
+        "name": "Temperature Sensor Fault",
         "conditions": [
           {
             "conditionParamId": 4017,
@@ -3327,9 +4078,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "H2 Level Protection",
+        "name": "High H2 Protection",
         "conditions": [
           {
             "conditionParamId": 4018,
@@ -3339,9 +4091,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "CO Level Protection",
+        "name": "High CO Protection",
         "conditions": [
           {
             "conditionParamId": 4018,
@@ -3351,9 +4104,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PACK Over Temperature PROT",
+        "name": "Pack Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4019,
@@ -3363,9 +4117,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PACK Over Temperature WARN",
+        "name": "Pack Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4019,
@@ -3375,9 +4130,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PBUSB_OT_PROT",
+        "name": "PBUSB Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4020,
@@ -3387,9 +4143,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PBUSB_OT_WARN",
+        "name": "PBUSB Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4020,
@@ -3399,9 +4156,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "NBUSB_OT_PROT",
+        "name": "NBUSB Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4021,
@@ -3411,9 +4169,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "NBUSB_OT_WARN",
+        "name": "NBUSB Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4021,
@@ -3423,9 +4182,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PMSD_OT_PROT",
+        "name": "PMSD Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4022,
@@ -3435,9 +4195,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "PMSD_OT_WARN",
+        "name": "PMSD Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4022,
@@ -3447,9 +4208,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
-        "name": "NMSD_OT_PROT",
+        ]
+      },
+      {
+        "name": "NMSD Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4023,
@@ -3459,9 +4221,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "NMSD_OT_WARN",
+        "name": "NMSD Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4023,
@@ -3471,9 +4234,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
-        "name": "CPU_OT_PROT",
+        ]
+      },
+      {
+        "name": "CPU Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4024,
@@ -3483,7 +4247,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Control Board Over Temperature Protection",
         "conditions": [
@@ -3493,18 +4258,13 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "yellow",
-            "andConditions": [
-              {
-                "conditionParamId": 22,
-                "compareValue": "0",
-                "operator": "eq"
-              }
-            ]
+            "color": "yellow"
+            
           }
-        ]},
-	  {
-        "name": "RB_OT_PROT",
+        ]
+      },
+      {
+        "name": "RB Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4025,
@@ -3514,9 +4274,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "Temperature Diff. Warning",
+        "name": "Delta Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4025,
@@ -3526,9 +4287,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	    {
-        "name": "PRES_SEN_WARN",
+        ]
+      },
+      {
+        "name": "Pressure Sensor Warning",
         "conditions": [
           {
             "conditionParamId": 4026,
@@ -3538,9 +4300,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "Piezo_SEN_WARN",
+        "name": "Piezo Sensor Warning",
         "conditions": [
           {
             "conditionParamId": 4026,
@@ -3550,9 +4313,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
-        "name": "Current Sen. Rev. Connection Warning",
+        ]
+      },
+      {
+        "name": "Current Sensor Reverse Connection Warning",
         "conditions": [
           {
             "conditionParamId": 4027,
@@ -3562,7 +4326,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "Low Piezo Warning",
         "conditions": [
@@ -3572,18 +4337,13 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "yellow",
-            "andConditions": [
-              {
-                "conditionParamId": 22,
-                "compareValue": "0",
-                "operator": "eq"
-              }
-            ]
+            "color": "yellow"
+            
           }
-        ]},
-	  {
-        "name": "CAN Communication Warning",
+        ]
+      },
+      {
+        "name": "CANBUS COM Warning",
         "conditions": [
           {
             "conditionParamId": 4028,
@@ -3593,9 +4353,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
-	  {
-        "name": "USB Communication Warning",
+        ]
+      },
+      {
+        "name": "USB COM Warning",
         "conditions": [
           {
             "conditionParamId": 4028,
@@ -3605,7 +4366,8 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
         "name": "EEPROM Write Warning",
         "conditions": [
@@ -3617,9 +4379,10 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
-        "name": "Log Write Warning",
+        ]
+      },
+      {
+        "name": "LOG Write Warning",
         "conditions": [
           {
             "conditionParamId": 4029,
@@ -3629,9 +4392,10 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
+        ]
+      },
       {
-        "name": "ISO_RES_WARN",
+        "name": "Insulation Resistance Warning",
         "conditions": [
           {
             "conditionParamId": 4030,
@@ -3641,8 +4405,9 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
+        ]
+      },
+      {
         "name": "High Supply Warning",
         "conditions": [
           {
@@ -3653,7 +4418,8 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
+        ]
+      },
       {
         "name": "Low Supply Warning",
         "conditions": [
@@ -3665,8 +4431,9 @@
             "isBlinking": false,
             "color": "yellow"
           }
-        ]},
-	  {
+        ]
+      },
+      {
         "name": "Short Circuit Protection",
         "conditions": [
           {
@@ -3677,8 +4444,9 @@
             "isBlinking": false,
             "color": "red"
           }
-        ]},
-	  {
+        ]
+      },
+      {
         "name": "Balance Break Protection",
         "conditions": [
           {
@@ -3699,7 +4467,7 @@
     "row": 1,
     "side": "right",
     "itemFontSize": "18px",
-    "width": "550px",
+    "width": "660px",
     "height": "1360px",
     "filter": true,
     "paramId": [],
@@ -3713,144 +4481,144 @@
     ]
   },
   {
-  "object": "button",
-  "page": 2,
-  "row": 1,
-  "side": "center",
-  "name": "Clear Outdated Alarms", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "Clear Active Alarms",
-  "image": "",
-  "imageHeight": "100px",
-  "imageWidth": "1070px",
-  "actionType": "setValue",
-  "actionParamId": 57,
-  "actionValue": 1,
-  "height": "100px",
-  "width": "1070px"
-  },
-      {
-  "object": "button",
-  "page": 3,
-  "row": 1,
-  "side": "center",
-  "name": "[TEST-0] Default Normal State", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 0,
-  "height": "140px",
-  "width": "800px"
+    "object": "button",
+    "page": 2,
+    "row": 1,
+    "side": "center",
+    "name": "Clear Outdated Alarms",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "Clear Outdated Alarms",
+    "image": "",
+    "imageHeight": "100px",
+    "imageWidth": "1070px",
+    "actionType": "setValue",
+    "actionParamId": 57,
+    "actionValue": 1,
+    "height": "100px",
+    "width": "1070px"
   },
   {
-  "object": "button",
-  "page": 3,
-  "row": 1,
-  "side": "center",
-  "name": "[TEST-2] No Fault State", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 2,
-  "height": "140px",
-  "width": "800px"
+    "object": "button",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "name": "[TEST-0] Default Normal State",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 0,
+    "height": "140px",
+    "width": "800px"
   },
   {
-  "object": "button",
-  "page": 3,
-  "row": 1,
-  "side": "center",
-  "name": "[TEST-4] Empty", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 4,
-  "height": "140px",
-  "width": "800px"
+    "object": "button",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "name": "[TEST-1] No Fault State",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 2,
+    "height": "140px",
+    "width": "800px"
   },
   {
-  "object": "button",
-  "page": 3,
-  "row": 2,
-  "side": "center",
-  "name": "[TEST-8] Random NTC & Bat. Volt. ", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 8,
-  "height": "140px",
-  "width": "800px"
+    "object": "button",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "name": "[TEST-2] Empty",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 4,
+    "height": "140px",
+    "width": "800px"
   },
   {
-  "object": "button",
-  "page": 3,
-  "row": 2,
-  "side": "center",
-  "name": "[TEST-8] Sensor Connection Sim.", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 16,
-  "height": "140px",
-  "width": "800px"
+    "object": "button",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "name": "[TEST-3] Random NTC & Bat. Volt.",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 8,
+    "height": "140px",
+    "width": "800px"
   },
-    {
-  "object": "button",
-  "page": 3,
-  "row": 2,
-  "side": "center",
-  "name": "[TEST-8] Sensor & Cell Index Sim.", 
-  "nameFontSize": "32px",
-  "nameIsBold": true,
-  "nameIsItalic": false,
-  "nameColor": "black",
-  "title": "testbutton",
-  "image": "",
-  "imageHeight": "140px",
-  "imageWidth": "800px",
-  "actionType": "setValue",
-  "actionParamId": 59,
-  "actionValue": 32,
-  "height": "140px",
-  "width": "800px"
+  {
+    "object": "button",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "name": "[TEST-4] Sensor Connection Sim.",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 16,
+    "height": "140px",
+    "width": "800px"
+  },
+  {
+    "object": "button",
+    "page": 3,
+    "row": 2,
+    "side": "center",
+    "name": "[TEST-5] Sensor & Cell Index Sim.",
+    "nameFontSize": "32px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "black",
+    "title": "testbutton",
+    "image": "",
+    "imageHeight": "140px",
+    "imageWidth": "800px",
+    "actionType": "setValue",
+    "actionParamId": 59,
+    "actionValue": 32,
+    "height": "140px",
+    "width": "800px"
   },
   {
     "object": "datalist",
@@ -3865,27 +4633,41 @@
     "title": "LIN DATA",
     "showItemBorder": true,
     "itemList": [
-      { "paramId": 3075 },
-      { "paramId": 3076 },
-      { "paramId": 3077 },
-      { "paramId": 3078 },
-      { "paramId": 3079 },
-      { "paramId": 3080 },
-      { "paramId": 3081 }
+      {
+        "paramId": 3075
+      },
+      {
+        "paramId": 3076
+      },
+      {
+        "paramId": 3077
+      },
+      {
+        "paramId": 3078
+      },
+      {
+        "paramId": 3079
+      },
+      {
+        "paramId": 3080
+      },
+      {
+        "paramId": 3081
+      }
     ]
   },
   {
-  "object": "dataoperation",
-  "targetId": 4001,
-  "decimalPlaces": 0,
-  "operation": {
-    "steps": [
-      {
-        "type": "constant",
-        "paramId": 14,
-        "operator": ">>"
-      }
-    ]
+    "object": "dataoperation",
+    "targetId": 4001,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "paramId": 14,
+          "operator": ">>"
+        }
+      ]
+    }
   }
-}
 ]
