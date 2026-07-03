@@ -35,7 +35,6 @@
   - [4.11. deviceDocuments.json](#411-devicedocumentsjson)
 - [5. Loglama Mekanizmaları](#5-loglama-mekanizmaları)
 - [6. Firmware Update ve Otomatik Parametre Yedeği](#6-firmware-update-ve-otomatik-parametre-yedeği)
-- [7. İlgili Dokümanlar](#7-i̇lgili-dokümanlar)
 
 ---
 
@@ -806,7 +805,7 @@ Bağlı cihaza ait dokümanların listesini getirir. Sunucuda durur; kontrolü E
   "paramId": [1, 2, 3],
   "name": "Dokuman - 1",
   "language": "Eng",
-  "document": "https://raw.githubusercontent.com/en-ko/PowerCloud/develop/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
+  "document": "https://raw.githubusercontent.com/en-ko/PowerCloud/main/documents/AMF-L_ON_KULLANIM_KILAVUZU.pdf"
 }
 ```
 
