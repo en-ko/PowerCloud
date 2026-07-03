@@ -6,7 +6,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR20_USER_MANUAL_R4.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DAVR20_USER_MANUAL_R4.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -16,7 +16,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR40_USER_MANUAL_R8.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DAVR40_USER_MANUAL_R8.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -26,7 +26,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR45_USER_MANUAL_R3.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DAVR45_USER_MANUAL_R3.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -36,7 +36,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR90_USER_MANUAL_R6.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DAVR90_USER_MANUAL_R6.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -46,7 +46,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DAVR100_USER_MANUAL_R6.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DAVR100_USER_MANUAL_R6.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -56,7 +56,7 @@
         "paramId" : [],
         "name" : "Quick Installation Guide",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_Quick_Installation_Guide.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/ATS-S_Quick_Installation_Guide.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -66,7 +66,7 @@
         "paramId" : [],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_On_Kullanim_Kilavuzu.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/ATS-S_On_Kullanim_Kilavuzu.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -76,7 +76,7 @@
         "paramId" : [],
         "name" : "Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/ATS-S_KK_V01.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/ATS-S_KK_V01.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -86,7 +86,7 @@
         "paramId" : [],
         "name" : "Quick Installation Guide",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-S_Quick_Installation_Guide.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/AMF-S_Quick_Installation_Guide.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -96,7 +96,7 @@
         "paramId" : [],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-S_On_Kullanim_Kilavuzu.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/AMF-S_On_Kullanim_Kilavuzu.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -106,7 +106,7 @@
         "paramId" : [],
         "name" : "Quick Installation Guide",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-L_Quick_Installation_Guide.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/AMF-L_Quick_Installation_Guide.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -116,7 +116,7 @@
         "paramId" : [],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/AMF-L_On_Kullanim_Kilavuzu.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/AMF-L_On_Kullanim_Kilavuzu.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -126,7 +126,7 @@
         "paramId" : [],
         "name" : "Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/DRYER_KK_V01_TR.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/DRYER_KK_V01_TR.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -136,7 +136,7 @@
         "paramId" : [],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_On_Kullanim_Kilavuzu.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-M_On_Kullanim_Kilavuzu.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -146,7 +146,7 @@
         "paramId" : [],
         "name" : "Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_KK_V02_TR.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-M_KK_V02_TR.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -156,7 +156,7 @@
         "paramId" : [],
         "name" : "User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_USER_MANUAL_V02_EN.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-M_USER_MANUAL_V02_EN.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -166,7 +166,7 @@
         "paramId" : [],
         "name" : "Pre. User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-M_Pre_User_Manuel.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-M_Pre_User_Manuel.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -176,7 +176,7 @@
         "paramId" : [],
         "name" : "Quick Installation Guide",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_Quick_Installation_Guide.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-S_Quick_Installation_Guide.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -186,7 +186,7 @@
         "paramId" : [],
         "name" : "Pre. User Manual",
         "language":"Eng",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_PRE_USER_MANUEL.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-S_PRE_USER_MANUEL.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -196,7 +196,7 @@
         "paramId" : [],
         "name" : "Ön Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_On_Kullanim_Kilavuzu.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-S_On_Kullanim_Kilavuzu.pdf",
         "addedDate" : "2026-01-01"
     },
     {
@@ -206,7 +206,7 @@
         "paramId" : [],
         "name" : "Kullanım Klavuzu",
         "language":"Tr",
-        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/documents/CCS-S_KK_V01_TR.pdf",
+        "document" : "https://raw.githubusercontent.com/en-ko/PowerCloud/documents/main/CCS-S_KK_V01_TR.pdf",
         "addedDate" : "2026-01-01"
     }        
 ]
