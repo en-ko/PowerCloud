@@ -1,7 +1,7 @@
 [
   {
     "object": "config",
-    "pageCount": 2,
+    "pageCount": 3,
     "pageTitle_1": [
       "BMU İZLEME",
       "ANALOG GÖSTERGE"
@@ -39,6 +39,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -50,6 +70,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -61,6 +101,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -72,6 +132,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -83,6 +163,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -94,6 +194,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -105,6 +225,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -116,6 +256,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -127,6 +287,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -138,6 +318,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -149,6 +349,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -160,6 +380,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -171,6 +411,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -182,6 +442,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -193,6 +473,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -204,6 +504,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -215,6 +535,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -226,6 +566,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -237,6 +597,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -248,6 +628,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -259,6 +659,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -270,6 +690,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -281,6 +721,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -292,6 +752,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -303,6 +783,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -314,6 +814,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       }
@@ -341,6 +861,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -352,6 +892,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -363,6 +923,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -374,6 +954,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -385,6 +985,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -396,6 +1016,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -407,6 +1047,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -418,6 +1078,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -429,6 +1109,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -440,6 +1140,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -451,6 +1171,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -462,6 +1202,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -473,6 +1233,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -484,6 +1264,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -495,6 +1295,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -506,6 +1326,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -517,6 +1357,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -528,6 +1388,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -539,6 +1419,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -550,6 +1450,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -561,6 +1481,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -572,6 +1512,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -583,6 +1543,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -594,6 +1574,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -605,6 +1605,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -616,6 +1636,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 14501,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14502,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 14503,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 14504,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       }
@@ -643,6 +1683,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -654,6 +1714,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -665,6 +1745,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -676,6 +1776,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -687,6 +1807,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -698,6 +1838,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -709,6 +1869,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -720,6 +1900,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -731,6 +1931,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -742,6 +1962,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -753,6 +1993,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -764,6 +2024,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -775,6 +2055,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -786,6 +2086,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -797,6 +2117,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -808,6 +2148,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -819,6 +2179,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -830,6 +2210,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -841,6 +2241,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -852,6 +2272,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -863,6 +2303,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -874,6 +2334,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -885,6 +2365,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -896,6 +2396,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -907,6 +2427,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -918,6 +2458,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       }
@@ -945,6 +2505,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -956,6 +2536,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -967,6 +2567,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -978,6 +2598,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -989,6 +2629,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1000,6 +2660,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1011,6 +2691,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1022,6 +2722,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1033,6 +2753,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1044,6 +2784,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1055,6 +2815,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1066,6 +2846,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1077,6 +2877,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1088,6 +2908,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1099,6 +2939,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1110,6 +2970,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1121,6 +3001,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1132,6 +3032,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1143,6 +3063,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1154,6 +3094,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1165,6 +3125,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1176,6 +3156,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1187,6 +3187,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1198,6 +3218,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1209,6 +3249,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       },
@@ -1220,6 +3280,26 @@
             "operator": "eq",
             "displayText": "NaN",
             "textColor": "#ffffff"
+          },
+          {
+            "compareParamId": 528,
+            "operator": "gte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 533,
+            "operator": "gte",
+            "textColor": "yellow"
+          },
+          {
+            "compareParamId": 535,
+            "operator": "lte",
+            "textColor": "red"
+          },
+          {
+            "compareParamId": 540,
+            "operator": "lte",
+            "textColor": "yellow"
           }
         ]
       }
@@ -2650,6 +4730,21 @@
     ],
     "conditions": []
   },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      16
+    ]
+  },
   {
     "object": "datacard",
     "page": 1,
@@ -2662,10 +4757,22 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
-      16,
       14
     ],
-    "conditions": []
+    "conditions": [
+      {
+        "conditionParamId": 14,
+        "compareParamId": 661,
+        "operator": "lte",
+        "backgroundColor": "red"
+      },
+      {
+        "conditionParamId": 14,
+        "compareParamId": 666,
+        "operator": "lte",
+        "backgroundColor": "orange"
+      }
+    ]
   },
   {
     "object": "datacard",
@@ -2679,11 +4786,147 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
-      3001,
-      3002,
-      3003,
-      3004,
-      3005,
+      3001
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3001,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3002
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3002,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3003
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3003,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3004
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3005
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3066,
+        "compareValue": "0",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
       3066
     ],
     "conditions": [
@@ -2693,6 +4936,30 @@
         "operator": "eq",
         "fixedValue": "NaN",
         "textColor": "#ffffff"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareParamId": 514,
+        "operator": "gte",
+        "backgroundColor": "red"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareParamId": 519,
+        "operator": "gte",
+        "backgroundColor": "orange"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareParamId": 521,
+        "operator": "lte",
+        "backgroundColor": "red"
+      },
+      {
+        "conditionParamId": 3066,
+        "compareParamId": 526,
+        "operator": "lte",
+        "backgroundColor": "orange"
       }
     ]
   },
@@ -2717,6 +4984,18 @@
         "operator": "eq",
         "fixedValue": "NaN",
         "textColor": "#ffffff"
+      },
+      {
+        "conditionParamId": 14505,
+        "compareParamId": 14506,
+        "operator": "gte",
+        "backgroundColor": "red"
+      },
+      {
+        "conditionParamId": 14505,
+        "compareParamId": 14507,
+        "operator": "gte",
+        "backgroundColor": "orange"
       }
     ]
   },
@@ -2732,11 +5011,7 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
-      3006,
-      3007,
-      3008,
-      3009,
-      3010
+      3006
     ],
     "conditions": [
       {
@@ -2760,8 +5035,132 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
-      380,
+      3007
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3007,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3008
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3008,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3009
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3008,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      3010
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 3008,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN",
+        "textColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      380
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
       381
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 381,
+        "compareParamId": 792,
+        "operator": "gte",
+        "backgroundColor": "orange"
+      },
+      {
+        "conditionParamId": 381,
+        "compareParamId": 785,
+        "operator": "lte",
+        "backgroundColor": "orange"
+      }
     ]
   },
   {
@@ -3633,7 +6032,7 @@
     "height": "980px",
     "titleFontSize": "32px",
     "itemFontSize": "24px",
-    "title": "Active Fault Indicators",
+    "title": "Active Faults",
     "hideIfNoConditions": true,
     "itemList": [
       {
@@ -4468,7 +6867,7 @@
     "side": "right",
     "itemFontSize": "18px",
     "width": "660px",
-    "height": "1360px",
+    "height": "1318px",
     "filter": true,
     "paramId": [],
     "paramGroups": [
@@ -4626,7 +7025,7 @@
     "row": 3,
     "side": "left",
     "width": "600px",
-    "height": "738px",
+    "height": "712px",
     "titleFontSize": "30px",
     "titleIsBold": true,
     "itemFontSize": "22px",
@@ -4658,15 +7057,113 @@
   },
   {
     "object": "dataoperation",
-    "targetId": 4001,
+    "targetParamId": 14500,
     "decimalPlaces": 0,
     "operation": {
       "steps": [
-        {
-          "type": "constant",
-          "paramId": 14,
-          "operator": ">>"
-        }
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 390, "operator": "+" },
+        { "type": "constant", "value": 1000, "operator": "*" },
+        { "type": "constant", "value": 31, "operator": ">>" },
+        { "type": "constant", "value": 1, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14501,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 563, "operator": "+" },
+        { "type": "param", "id": 577, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 577, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14502,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 568, "operator": "+" },
+        { "type": "param", "id": 582, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 582, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14503,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 570, "operator": "+" },
+        { "type": "param", "id": 584, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 584, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14504,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 575, "operator": "+" },
+        { "type": "param", "id": 589, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 589, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14505,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 14500, "operator": "+" },
+        { "type": "constant", "value": 2, "operator": "*" },
+        { "type": "constant", "value": 1, "operator": "-" },
+        { "type": "param", "id": 390, "operator": "*" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14506,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 542, "operator": "+" },
+        { "type": "param", "id": 549, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 549, "operator": "+" }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14507,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        { "type": "constant", "value": 0, "operator": "*" },
+        { "type": "param", "id": 547, "operator": "+" },
+        { "type": "param", "id": 554, "operator": "-" },
+        { "type": "param", "id": 14500, "operator": "*" },
+        { "type": "param", "id": 554, "operator": "+" }
       ]
     }
   }

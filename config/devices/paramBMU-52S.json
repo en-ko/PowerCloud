@@ -44,13 +44,13 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Maximum number of cells allowed to balance simultaneously. The effective value may be reduced at runtime by the temperature based balance limiter (see Max. Balance Count in ENKO Monitoring).",
         "relation": []
       },
       {
         "id": 5,
         "version": 1000,
-        "name": "Balance Volt.",
+        "name": "Balance Voltage",
         "group": "General",
         "unit": "mV",
         "modbusAddress": 5,
@@ -67,13 +67,13 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Main balance start voltage: balancing is considered only for cells above this voltage level.",
         "relation": []
       },
       {
         "id": 6,
         "version": 1000,
-        "name": "Balance Threshold Volt.",
+        "name": "Balance Threshold Voltage",
         "group": "General",
         "unit": "mV",
         "modbusAddress": 6,
@@ -90,13 +90,13 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Balance threshold added to the lowest cell voltage: a cell starts balancing when its voltage exceeds both the balance voltage and (minimum cell voltage + this threshold).",
         "relation": []
       },
       {
         "id": 7,
         "version": 1000,
-        "name": "Battery High Volt.",
+        "name": "Battery High Voltage",
         "group": "General",
         "unit": "V",
         "modbusAddress": 7,
@@ -113,13 +113,13 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Cell operating window high limit: cells above this voltage are flagged as overvoltage in Battery Status and are excluded from balancing (safety window, separate from the protection alarms).",
         "relation": []
       },
       {
         "id": 8,
         "version": 1000,
-        "name": "Battery Under Volt.",
+        "name": "Battery Under Voltage",
         "group": "General",
         "unit": "V",
         "modbusAddress": 8,
@@ -136,7 +136,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Cell operating window low limit: cells below this voltage are flagged as undervoltage in Battery Status and are excluded from balancing (safety window, separate from the protection alarms).",
         "relation": []
       },
       {
@@ -159,7 +159,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "NTC operating window high limit: sensors above this temperature are flagged as overtemperature in Battery Temperature Status (status window, separate from the protection alarms).",
         "relation": []
       },
       {
@@ -182,7 +182,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "NTC operating window low limit: sensors below this temperature are flagged as undertemperature in Battery Temperature Status (status window, separate from the protection alarms).",
         "relation": []
       },
       {
@@ -205,7 +205,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Fan turn-on temperature: the fan output switches on when any monitored board temperature (resistor board 1/2 or control board) rises above this value.",
         "relation": []
       },
       {
@@ -228,7 +228,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Fan turn-off temperature: the fan output switches off when all monitored board temperatures fall below this value.",
         "relation": []
       },
       {
@@ -268,7 +268,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "CAN bus bit rate selection.",
         "relation": []
       },
       {
@@ -291,7 +291,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "SD card logging interval in seconds.",
         "relation": []
       },
       {
@@ -337,7 +337,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Cell voltage at which the SOC is reset to 100% (full charge anchor).",
         "relation": []
       },
       {
@@ -360,7 +360,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Cell voltage at which the SOC is reset to 0% (empty anchor).",
         "relation": []
       },
       {
@@ -406,7 +406,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Initial SOC value used at startup / first initialization.",
         "relation": []
       },
       {
@@ -475,7 +475,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for cell pressure sensor 1, applied as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -498,7 +498,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration offset for cell pressure sensor 1, subtracted from the reading (value/10).",
         "relation": []
       },
       {
@@ -521,7 +521,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for cell pressure sensor 2, applied as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -544,7 +544,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration offset for cell pressure sensor 2, subtracted from the reading (value/10).",
         "relation": []
       },
       {
@@ -567,7 +567,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for cell pressure sensor 3, applied as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -590,7 +590,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration offset for cell pressure sensor 3, subtracted from the reading (value/10).",
         "relation": []
       },
       {
@@ -613,7 +613,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for cell pressure sensor 4, applied as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -636,7 +636,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration offset for cell pressure sensor 4, subtracted from the reading (value/10).",
         "relation": []
       },
       {
@@ -659,7 +659,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Zero-current offset subtracted from the current sensor reading; a small deadband around zero is forced to 0 A.",
         "relation": []
       },
       {
@@ -682,7 +682,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Nominal battery pack capacity used as the coulomb counting reference.",
         "relation": []
       },
       {
@@ -705,7 +705,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Current calibration gain applied to negative (discharge) current readings, as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -728,7 +728,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Number of cells connected to and monitored by the BMU.",
         "relation": []
       },
       {
@@ -760,7 +760,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Current sensor direction selection: when set to discharge, the calibrated current is negated so the charge/discharge polarity of the sensor can be flipped.",
         "relation": []
       },
       {
@@ -783,7 +783,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Current calibration gain applied to positive (charge) current readings, as value/10000 (10000 = 1.000x).",
         "relation": []
       },
       {
@@ -806,7 +806,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 1: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -829,7 +829,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 2: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -852,7 +852,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 3: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -875,7 +875,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 4: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -898,7 +898,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 5: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -921,7 +921,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 6: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -944,7 +944,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 7: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -967,7 +967,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 8: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -990,7 +990,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 9: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1013,7 +1013,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 10: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1036,7 +1036,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 11: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1059,7 +1059,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 12: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1082,7 +1082,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 13: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1105,7 +1105,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 14: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1128,7 +1128,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 15: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1151,7 +1151,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 16: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1174,7 +1174,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 17: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1197,7 +1197,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 18: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1220,7 +1220,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 19: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1243,7 +1243,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 20: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1266,7 +1266,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 21: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1289,7 +1289,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 22: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1312,7 +1312,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 23: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1335,7 +1335,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 24: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1358,7 +1358,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 25: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1381,7 +1381,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 26: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1404,7 +1404,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 27: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1427,7 +1427,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 28: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1450,7 +1450,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 29: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1473,7 +1473,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 30: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1496,7 +1496,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 31: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1519,7 +1519,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 32: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1542,7 +1542,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 33: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1565,7 +1565,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 34: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1588,7 +1588,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 35: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1611,7 +1611,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 36: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1634,7 +1634,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 37: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1657,7 +1657,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 38: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1680,7 +1680,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 39: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1703,7 +1703,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 40: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1726,7 +1726,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 41: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1749,7 +1749,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 42: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1772,7 +1772,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 43: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1795,7 +1795,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 44: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1818,7 +1818,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 45: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1841,7 +1841,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 46: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1864,7 +1864,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 47: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1887,7 +1887,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 48: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1910,7 +1910,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 49: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1933,7 +1933,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 50: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1956,7 +1956,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 51: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -1979,7 +1979,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for NTC sensor 52: the reading is multiplied by value/1000 (900-1100 = 0.900x-1.100x, 1000 = nominal).",
         "relation": []
       },
       {
@@ -2025,7 +2025,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration gain for the onboard ambient pressure sensor, applied as value/10000.",
         "relation": []
       },
       {
@@ -2048,7 +2048,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Calibration offset for the onboard ambient pressure sensor, subtracted from the reading (value/10).",
         "relation": []
       },
       {
@@ -5481,7 +5481,7 @@
       {
         "id": 380,
         "version": 1000,
-        "name": "Chassis Volt.",
+        "name": "Chassis Voltage",
         "group": "Monitoring-Others",
         "unit": "V",
         "modbusAddress": 710,
@@ -5504,7 +5504,7 @@
       {
         "id": 381,
         "version": 1000,
-        "name": "Supply Volt.",
+        "name": "Supply Voltage",
         "group": "Monitoring-Others",
         "unit": "V",
         "modbusAddress": 711,
@@ -5941,7 +5941,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Function assigned to digital output 1: selects which signal drives the output (fan control, OV/UV/OT/LT/OC protections or their charge/discharge/general combinations, per the digital output function table).",
         "relation": []
       },
       {
@@ -5973,7 +5973,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Polarity of digital output 1: selects active-high or active-low operation.",
         "relation": []
       },
       {
@@ -6025,7 +6025,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Function assigned to digital output 2: selects which signal drives the output (fan control, OV/UV/OT/LT/OC protections or their charge/discharge/general combinations, per the digital output function table).",
         "relation": []
       },
       {
@@ -6057,7 +6057,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Polarity of digital output 2: selects active-high or active-low operation.",
         "relation": []
       },
       {
@@ -6109,7 +6109,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Function assigned to digital output 3: selects which signal drives the output (fan control, OV/UV/OT/LT/OC protections or their charge/discharge/general combinations, per the digital output function table).",
         "relation": []
       },
       {
@@ -6141,7 +6141,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Polarity of digital output 3: selects active-high or active-low operation.",
         "relation": []
       },
       {
@@ -6193,7 +6193,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Function assigned to digital output 4: selects which signal drives the output (fan control, OV/UV/OT/LT/OC protections or their charge/discharge/general combinations, per the digital output function table).",
         "relation": []
       },
       {
@@ -6225,7 +6225,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Polarity of digital output 4: selects active-high or active-low operation.",
         "relation": []
       },
       {
@@ -6858,7 +6858,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the pack over-voltage protection alarm trips when the total pack voltage rises to or above this value (always active).",
         "relation": []
       },
       {
@@ -6881,7 +6881,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the pack over-voltage protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -6904,7 +6904,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the pack over-voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -6927,7 +6927,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the pack over-voltage protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -6950,7 +6950,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the pack over-voltage alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -6973,7 +6973,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the pack over-voltage warning trips when the total pack voltage rises to or above this value (always active).",
         "relation": []
       },
       {
@@ -6996,7 +6996,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the pack over-voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7019,7 +7019,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the pack under-voltage protection alarm trips when the total pack voltage falls to or below this value (always active).",
         "relation": []
       },
       {
@@ -7042,7 +7042,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the pack under-voltage protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7065,7 +7065,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the pack under-voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7088,7 +7088,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the pack under-voltage protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7111,7 +7111,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the pack under-voltage alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7134,7 +7134,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the pack under-voltage warning trips when the total pack voltage falls to or below this value (always active).",
         "relation": []
       },
       {
@@ -7157,7 +7157,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the pack under-voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7165,10 +7165,10 @@
         "version": 1000,
         "name": "Cell Over Voltage Protection",
         "group": "Protection",
-        "unit": "mV",
+        "unit": "V",
         "modbusAddress": 1029,
         "dataLength": 1,
-        "coef": 0,
+        "coef": -3,
         "signed": true,
         "view": "",
         "minValue": 0,
@@ -7180,7 +7180,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the cell over-voltage protection alarm trips when the highest cell voltage rises to or above this value (always active).",
         "relation": []
       },
       {
@@ -7203,7 +7203,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the cell over-voltage protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7226,7 +7226,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the cell over-voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7249,7 +7249,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the cell over-voltage protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7272,7 +7272,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the cell over-voltage alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7280,10 +7280,10 @@
         "version": 1000,
         "name": "Cell Over Voltage Warning",
         "group": "Protection",
-        "unit": "mV",
+        "unit": "V",
         "modbusAddress": 1034,
         "dataLength": 1,
-        "coef": 0,
+        "coef": -3,
         "signed": true,
         "view": "",
         "minValue": 0,
@@ -7295,7 +7295,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the cell over-voltage warning trips when the highest cell voltage rises to or above this value (always active).",
         "relation": []
       },
       {
@@ -7318,7 +7318,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the cell over-voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7326,10 +7326,10 @@
         "version": 1000,
         "name": "Cell Under Voltage Protection",
         "group": "Protection",
-        "unit": "mV",
+        "unit": "V",
         "modbusAddress": 1036,
         "dataLength": 1,
-        "coef": 0,
+        "coef": -3,
         "signed": true,
         "view": "",
         "minValue": 0,
@@ -7341,7 +7341,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the cell under-voltage protection alarm trips when the lowest cell voltage falls to or below this value (always active).",
         "relation": []
       },
       {
@@ -7364,7 +7364,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the cell under-voltage protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7387,7 +7387,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the cell under-voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7410,7 +7410,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the cell under-voltage protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7433,7 +7433,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the cell under-voltage alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7441,10 +7441,10 @@
         "version": 1000,
         "name": "Cell Under Voltage Warning",
         "group": "Protection",
-        "unit": "mV",
+        "unit": "V",
         "modbusAddress": 1041,
         "dataLength": 1,
-        "coef": 0,
+        "coef": -3,
         "signed": true,
         "view": "",
         "minValue": 0,
@@ -7456,7 +7456,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the cell under-voltage warning trips when the lowest cell voltage falls to or below this value (always active).",
         "relation": []
       },
       {
@@ -7479,7 +7479,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the cell under-voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7502,7 +7502,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the charge over-current protection alarm trips when the charge current rises to or above this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -7525,7 +7525,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge over-current protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7548,7 +7548,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the charge over-current condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7571,7 +7571,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the charge over-current protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7594,7 +7594,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the charge over-current alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7617,7 +7617,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the charge over-current warning trips when the charge current rises to or above this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -7640,7 +7640,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge over-current warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7663,7 +7663,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the discharge over-current protection alarm trips when the discharge current rises to or above this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -7686,7 +7686,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge over-current protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7709,7 +7709,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the discharge over-current condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7732,7 +7732,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the discharge over-current protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7755,7 +7755,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the discharge over-current alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7778,7 +7778,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the discharge over-current warning trips when the discharge current rises to or above this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -7801,7 +7801,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge over-current warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7824,7 +7824,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the short-circuit protection alarm trips when the current rises to or above this value. Reserved: this alarm is defined but not evaluated in the current firmware.",
         "relation": []
       },
       {
@@ -7847,7 +7847,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the short-circuit protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -7870,7 +7870,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the short-circuit condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -7893,7 +7893,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the short-circuit protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -7916,7 +7916,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the short-circuit alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -7985,7 +7985,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the charge over-temperature protection alarm trips when the highest battery temperature rises to or above this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -8008,7 +8008,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge over-temperature protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8031,7 +8031,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the charge over-temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -8054,7 +8054,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the charge over-temperature protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -8077,7 +8077,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the charge over-temperature alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -8100,7 +8100,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the charge over-temperature warning trips when the highest battery temperature rises to or above this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -8123,7 +8123,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge over-temperature warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8146,7 +8146,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the charge under-temperature protection alarm trips when the lowest battery temperature falls to or below this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -8169,7 +8169,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge under-temperature protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8192,7 +8192,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the charge under-temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -8215,7 +8215,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the charge under-temperature protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -8238,7 +8238,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the charge under-temperature alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -8261,7 +8261,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the charge under-temperature warning trips when the lowest battery temperature falls to or below this value (evaluated only while charging).",
         "relation": []
       },
       {
@@ -8284,7 +8284,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the charge under-temperature warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8307,7 +8307,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the discharge over-temperature protection alarm trips when the highest battery temperature rises to or above this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -8330,7 +8330,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge over-temperature protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8353,7 +8353,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the discharge over-temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -8376,7 +8376,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the discharge over-temperature protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -8399,7 +8399,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the discharge over-temperature alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -8422,7 +8422,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the discharge over-temperature warning trips when the highest battery temperature rises to or above this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -8445,7 +8445,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge over-temperature warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8468,7 +8468,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the discharge under-temperature protection alarm trips when the lowest battery temperature falls to or below this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -8491,7 +8491,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge under-temperature protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8514,7 +8514,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the discharge under-temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -8537,7 +8537,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the discharge under-temperature protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -8560,7 +8560,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the discharge under-temperature alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -8583,7 +8583,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the discharge under-temperature warning trips when the lowest battery temperature falls to or below this value (evaluated only while discharging).",
         "relation": []
       },
       {
@@ -8606,7 +8606,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the discharge under-temperature warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8790,7 +8790,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the cell unbalance protection alarm trips when the voltage difference between the highest and lowest cell rises to or above this value. Reserved: this alarm is defined but not evaluated in the current firmware.",
         "relation": []
       },
       {
@@ -8813,7 +8813,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the cell unbalance protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -8836,7 +8836,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the cell unbalance condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -8859,7 +8859,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the cell unbalance protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -8882,7 +8882,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the cell unbalance alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -9112,7 +9112,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the control board over-temperature protection alarm trips when the control board NTC temperature rises to or above this value.",
         "relation": []
       },
       {
@@ -9135,7 +9135,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the control board over-temperature protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -9158,7 +9158,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the control board over-temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -9181,7 +9181,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the control board over-temperature protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -9204,7 +9204,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the control board over-temperature alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -10239,7 +10239,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the low capacity protection alarm trips when the SOC falls below this value (always active).",
         "relation": []
       },
       {
@@ -10262,7 +10262,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the low capacity protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -10285,7 +10285,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the low capacity condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -10308,7 +10308,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the low capacity protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -10331,7 +10331,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the low capacity alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -10354,7 +10354,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the low capacity warning trips when the SOC falls below this value (always active).",
         "relation": []
       },
       {
@@ -10377,7 +10377,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the low capacity warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -10446,7 +10446,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the delta temperature condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -10515,7 +10515,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the delta temperature warning trips when the difference between the highest and lowest battery temperature rises to or above this value.",
         "relation": []
       },
       {
@@ -10538,7 +10538,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the delta temperature warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -10561,7 +10561,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Current sensor failure detection: the alarm trips when the current sensor returns an invalid reading. While this alarm is active all current alarms are disabled.",
         "relation": []
       },
       {
@@ -10584,7 +10584,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis/clear band for the current sensor failure alarm.",
         "relation": []
       },
       {
@@ -10607,7 +10607,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the invalid current sensor reading must persist for this many milliseconds before the alarm trips.",
         "relation": []
       },
       {
@@ -10722,7 +10722,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Temperature sensor failure detection: the alarm trips when a temperature sensor returns an error value (short or disconnected NTC). While this alarm is active all temperature alarms are disabled.",
         "relation": []
       },
       {
@@ -10745,7 +10745,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis/clear band for the temperature sensor failure alarm.",
         "relation": []
       },
       {
@@ -10768,7 +10768,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the temperature sensor error must persist for this many milliseconds before the alarm trips.",
         "relation": []
       },
       {
@@ -11205,7 +11205,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the LIN sensor protection alarm trips when consecutive LIN communication errors with the gas/leak sensor module reach this value.",
         "relation": []
       },
       {
@@ -11228,7 +11228,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the LIN sensor protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -11251,7 +11251,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the LIN sensor condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -11274,7 +11274,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the LIN sensor protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -11297,7 +11297,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the LIN sensor alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -11412,7 +11412,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay for the current sensor reverse connection check, in milliseconds.",
         "relation": []
       },
       {
@@ -11481,7 +11481,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Reverse connection detection: while charging the pack voltage is expected to rise (and to fall while discharging); the warning trips after the voltage moves the wrong way for this many consecutive checks.",
         "relation": []
       },
       {
@@ -11504,7 +11504,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Voltage step deadband used by the current sensor reverse connection detection.",
         "relation": []
       },
       {
@@ -11573,7 +11573,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the high pressure condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -11642,7 +11642,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the high pressure warning trips when the onboard ambient/enclosure pressure rises to or above this value.",
         "relation": []
       },
       {
@@ -11665,7 +11665,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the high pressure warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -11734,7 +11734,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the low piezo condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -11803,7 +11803,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the low piezo warning trips when any cell stack pressure (piezo force) sensor reading falls to or below this value.",
         "relation": []
       },
       {
@@ -11826,7 +11826,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the low piezo warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -11849,7 +11849,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the high H2 protection alarm trips when the hydrogen level reported by the LIN gas sensor rises to or above this value (raw sensor level, not ppm).",
         "relation": []
       },
       {
@@ -11872,7 +11872,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the high H2 protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -11895,7 +11895,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the high H2 condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -11918,7 +11918,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the high H2 protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -11941,7 +11941,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the high H2 alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -12010,7 +12010,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the high CO protection alarm trips when the carbon monoxide level reported by the LIN gas sensor rises to or above this value (raw sensor level, not ppm).",
         "relation": []
       },
       {
@@ -12033,7 +12033,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the high CO protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -12056,7 +12056,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the high CO condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -12079,7 +12079,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the high CO protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -12102,7 +12102,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the high CO alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -12769,7 +12769,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "SD card logging failure warning: active while the SD card is not detected or cannot be written.",
         "relation": []
       },
       {
@@ -12792,7 +12792,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Clear/hysteresis value for the SD card logging failure warning.",
         "relation": []
       },
       {
@@ -13022,7 +13022,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the low supply voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -13091,7 +13091,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the low supply voltage warning trips when the BMU supply voltage falls to or below this value.",
         "relation": []
       },
       {
@@ -13114,7 +13114,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the low supply voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -13183,7 +13183,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the high supply voltage condition must persist for this many milliseconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -13252,7 +13252,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Warning trip threshold: the high supply voltage warning trips when the BMU supply voltage rises to or above this value.",
         "relation": []
       },
       {
@@ -13275,7 +13275,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the high supply voltage warning: after tripping, the warning clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -13298,7 +13298,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Protection trip threshold: the balance break protection alarm trips when a cell's balance command and its resistor current feedback disagree (broken balance wire); the affected cell number is reported in Balance Break Index.",
         "relation": []
       },
       {
@@ -13321,7 +13321,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Hysteresis (release band) for the balance break protection: after tripping, the alarm clears only once the value recovers past the trip threshold by this amount.",
         "relation": []
       },
       {
@@ -13344,7 +13344,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Confirmation delay: the balance break condition must persist for this many seconds before the alarm trips. The warning of the same group shares this delay.",
         "relation": []
       },
       {
@@ -13367,7 +13367,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Trip counter for the balance break protection: counts how many times the alarm has tripped (informational, readable over Modbus); 0 disables the counter.",
         "relation": []
       },
       {
@@ -13390,7 +13390,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Counter decrement period: while the balance break alarm is inactive, its trip counter (NOT) decreases by 1 every this many hours; 0 = the counter never decreases.",
         "relation": []
       },
       {
@@ -14195,7 +14195,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock seconds; write to set the RTC.",
         "relation": []
       },
       {
@@ -14218,7 +14218,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock minutes; write to set the RTC.",
         "relation": []
       },
       {
@@ -14241,7 +14241,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock hours; write to set the RTC.",
         "relation": []
       },
       {
@@ -14264,7 +14264,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock day of month; write to set the RTC.",
         "relation": []
       },
       {
@@ -14287,7 +14287,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock month; write to set the RTC.",
         "relation": []
       },
       {
@@ -14310,7 +14310,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Device real-time clock year; write to set the RTC.",
         "relation": []
       },
       {
@@ -14431,7 +14431,7 @@
       {
         "id": 3001,
         "version": 1000,
-        "name": "Average Volt.",
+        "name": "Average Voltage",
         "group": "ENKO Monitoring",
         "unit": "V",
         "modbusAddress": 3001,
@@ -14454,7 +14454,7 @@
       {
         "id": 3002,
         "version": 1000,
-        "name": "Max. Volt.",
+        "name": "Max. Voltage",
         "group": "ENKO Monitoring",
         "unit": "V",
         "modbusAddress": 3002,
@@ -14477,7 +14477,7 @@
       {
         "id": 3003,
         "version": 1000,
-        "name": "Min. Volt.",
+        "name": "Min. Voltage",
         "group": "ENKO Monitoring",
         "unit": "V",
         "modbusAddress": 3003,
@@ -14500,7 +14500,7 @@
       {
         "id": 3004,
         "version": 1000,
-        "name": "Max. Volt. Index",
+        "name": "Max. Voltage Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3004,
@@ -14523,7 +14523,7 @@
       {
         "id": 3005,
         "version": 1000,
-        "name": "Min. Volt. Index",
+        "name": "Min. Voltage Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3005,
@@ -14546,7 +14546,7 @@
       {
         "id": 3006,
         "version": 1000,
-        "name": "Average Temp.",
+        "name": "Average Temperature",
         "group": "ENKO Monitoring",
         "unit": "°C",
         "modbusAddress": 3006,
@@ -14569,7 +14569,7 @@
       {
         "id": 3007,
         "version": 1000,
-        "name": "Max. Temp.",
+        "name": "Max. Temperature",
         "group": "ENKO Monitoring",
         "unit": "°C",
         "modbusAddress": 3007,
@@ -14592,7 +14592,7 @@
       {
         "id": 3008,
         "version": 1000,
-        "name": "Min. Temp.",
+        "name": "Min. Temperature",
         "group": "ENKO Monitoring",
         "unit": "°C",
         "modbusAddress": 3008,
@@ -14615,7 +14615,7 @@
       {
         "id": 3009,
         "version": 1000,
-        "name": "Max. Temp. Index",
+        "name": "Max. Temperature Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3009,
@@ -14638,7 +14638,7 @@
       {
         "id": 3010,
         "version": 1000,
-        "name": "Min. Temp. Index",
+        "name": "Min. Temperature Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3010,
@@ -14707,7 +14707,7 @@
       {
         "id": 3066,
         "version": 1000,
-        "name": "Total Volt.",
+        "name": "Total Voltage",
         "group": "ENKO Monitoring",
         "unit": "V",
         "modbusAddress": 3066,
@@ -15024,7 +15024,7 @@
       {
         "id": 3081,
         "version": 1000,
-        "name": "Internal Volt.",
+        "name": "Internal Voltage",
         "group": "ENKO Monitoring",
         "unit": "V",
         "modbusAddress": 3081,
@@ -15346,7 +15346,7 @@
       {
         "id": 3095,
         "version": 1000,
-        "name": "Cell Over Volt. Index",
+        "name": "Cell Over Voltage Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3095,
@@ -15369,7 +15369,7 @@
       {
         "id": 3096,
         "version": 1000,
-        "name": "Cell Under Volt. Index",
+        "name": "Cell Under Voltage Index",
         "group": "ENKO Monitoring",
         "unit": "",
         "modbusAddress": 3096,
@@ -15710,7 +15710,193 @@
         "readOnly": false,
         "comment": "",
         "relation": []
+      },
+      {
+        "id": 14500,
+        "version": 1000,
+        "name": "Charge State Flag",
+        "group": "",
+        "unit": "",
+        "modbusAddress": 14500,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "1 = charge (current >= 0), 0 = discharge (current < 0). Calculated by dataoperation from param 390.",
+        "relation": []
+      },
+      {
+        "id": 14501,
+        "version": 1000,
+        "name": "Active Over Temperature Protection",
+        "group": "",
+        "unit": "°C",
+        "modbusAddress": 14501,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective OT protection threshold: param 563 (charge) or 577 (discharge), selected by param 14500.",
+        "relation": []
+      },
+      {
+        "id": 14502,
+        "version": 1000,
+        "name": "Active Over Temperature Warning",
+        "group": "",
+        "unit": "°C",
+        "modbusAddress": 14502,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective OT warning threshold: param 568 (charge) or 582 (discharge), selected by param 14500.",
+        "relation": []
+      },
+      {
+        "id": 14503,
+        "version": 1000,
+        "name": "Active Under Temperature Protection",
+        "group": "",
+        "unit": "°C",
+        "modbusAddress": 14503,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective UT protection threshold: param 570 (charge) or 584 (discharge), selected by param 14500.",
+        "relation": []
+      },
+      {
+        "id": 14504,
+        "version": 1000,
+        "name": "Active Under Temperature Warning",
+        "group": "",
+        "unit": "°C",
+        "modbusAddress": 14504,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective UT warning threshold: param 575 (charge) or 589 (discharge), selected by param 14500.",
+        "relation": []
+      },
+      {
+        "id": 14505,
+        "version": 1000,
+        "name": "Absolute Current",
+        "group": "",
+        "unit": "A",
+        "modbusAddress": 14505,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Magnitude of param 390: current * (2 * param 14500 - 1). Positive in both charge and discharge.",
+        "relation": []
+      },
+      {
+        "id": 14506,
+        "version": 1000,
+        "name": "Active Over Current Protection",
+        "group": "",
+        "unit": "A",
+        "modbusAddress": 14506,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective OC protection threshold: param 542 (charge) or 549 (discharge), selected by param 14500.",
+        "relation": []
+      },
+      {
+        "id": 14507,
+        "version": 1000,
+        "name": "Active Over Current Warning",
+        "group": "",
+        "unit": "A",
+        "modbusAddress": 14507,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Effective OC warning threshold: param 547 (charge) or 554 (discharge), selected by param 14500.",
+        "relation": []
       }
+
+
     ],
     "alarms": [
       {
