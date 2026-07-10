@@ -6,7 +6,7 @@
     "patchVersion": 1,
     "type": "software",
     "sharedFileVersion": 1,
-    "translationVersion": 2,
+    "translationVersion": 3,
     "uiFileVersion": 1,
     "uiFiles": [],
     "translations": [
@@ -271,7 +271,7 @@
   },
   {
     "name": "BMU-52S",
-    "fileVersion": 1,
+    "fileVersion": 2,
     "type": "device",
     "deviceType": "BMS",
     "rtc": true,
