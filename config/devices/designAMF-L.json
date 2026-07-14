@@ -1,10 +1,9 @@
 [
   {
     "object": "config",
-    "pageCount": 3,
+    "pageCount": 2,
     "pageTitle": [
       "Monitor",
-      "Generator",
       "Parameters"
     ]
   },
@@ -20,14 +19,47 @@
     ]
   },
   {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "paramId": [
+      3004
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      3011,
+      3012,
+      3013
+    ]
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "paramId": [
+      3014
+    ]
+  },
+  {
     "object": "datacard",
     "page": 1,
     "row": 3,
     "side": "center",
+    "width": "160px",
+    "height": "70px",
+    "nameFontSize": "13px",
+    "valueFontSize": "16px",
     "paramId": [
-      3005,
-      3007,
-      3009
+      14502,
+      14503,
+      14504
     ]
   },
   {
@@ -35,36 +67,84 @@
     "page": 1,
     "row": 4,
     "side": "center",
+    "width": "160px",
+    "height": "70px",
+    "nameFontSize": "13px",
+    "valueFontSize": "16px",
     "paramId": [
-      3015,
-      3017,
-      3019
+      14505,
+      14506,
+      14507
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "160px",
+    "height": "70px",
+    "nameFontSize": "13px",
+    "valueFontSize": "16px",
+    "paramId": [
+      14508,
+      14509,
+      14510,
+      3027
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 6,
+    "side": "center",
+    "width": "160px",
+    "height": "70px",
+    "nameFontSize": "13px",
+    "valueFontSize": "16px",
+    "paramId": [
+      3065,
+      3056,
+      3055,
+      14511
     ]
   },
   {
     "object": "pressuregauge",
     "page": 1,
-    "row": 5,
-    "side": "center",
+    "row": 3,
+    "side": "left",
     "paramId": [
       3049
-    ]
+    ],
+    "width": "180px"
   },
   {
     "object": "temperaturegauge",
     "page": 1,
-    "row": 5,
-    "side": "center",
+    "row": 3,
+    "side": "left",
     "paramId": [
       3050
     ],
-    "width": "200px"
+    "width": "180px"
+  },
+  {
+    "object": "temperaturegauge",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "paramId": [
+      3052
+    ],
+    "width": "180px"
   },
   {
     "object": "gradegauge",
     "page": 1,
-    "row": 5,
-    "side": "center",
+    "row": 3,
+    "side": "left",
+    "width": "180px",
     "paramId": [
       3051
     ],
@@ -86,14 +166,15 @@
   {
     "object": "ledindicator",
     "page": 1,
-    "row": 1,
+    "row": 2,
     "side": "right",
     "title": "Outputs",
     "width": "300px",
-    "height": "400px",
+    "height": "380px",
     "itemList": [
       {
         "name": "Relay-1",
+        "nameParamId": 239,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -102,12 +183,14 @@
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Relay-2",
+        "nameParamId": 241,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -116,12 +199,14 @@
             "compareValue": "1",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Relay-3",
+        "nameParamId": 243,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -130,12 +215,14 @@
             "compareValue": "2",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Relay-4",
+        "nameParamId": 245,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -144,12 +231,14 @@
             "compareValue": "3",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Digital Out-1",
+        "nameParamId": 247,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -158,12 +247,14 @@
             "compareValue": "4",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Digital Out-2",
+        "nameParamId": 249,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -172,12 +263,14 @@
             "compareValue": "5",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Digital Out-3",
+        "nameParamId": 251,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -186,12 +279,14 @@
             "compareValue": "6",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
       {
         "name": "Digital Out-4",
+        "nameParamId": 253,
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -200,7 +295,131 @@
             "compareValue": "7",
             "operator": "bitOne",
             "isOn": true,
-            "isBlinking": false
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 1,
+    "row": 3,
+    "side": "right",
+    "title": "Inputs",
+    "width": "300px",
+    "height": "380px",
+    "itemList": [
+      {
+        "name": "Digital Input-1",
+        "nameParamId": 255,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-2",
+        "nameParamId": 259,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-3",
+        "nameParamId": 263,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-4",
+        "nameParamId": 267,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-5",
+        "nameParamId": 271,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-6",
+        "nameParamId": 275,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "name": "Digital Input-7",
+        "nameParamId": 279,
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 3070,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
           }
         ]
       }
@@ -209,7 +428,7 @@
   {
     "object": "text",
     "page": 1,
-    "row": 3,
+    "row": 1,
     "width": "300px",
     "height": "60px",
     "side": "right",
@@ -288,8 +507,8 @@
   {
     "object": "text",
     "page": 1,
-    "row": 2,
-    "width": "300px",
+    "row": 1,
+    "width": "380px",
     "height": "60px",
     "side": "left",
     "name": "Mode",
@@ -325,18 +544,1255 @@
   {
     "object": "ledindicator",
     "page": 1,
-    "row": 1,
+    "row": 4,
     "side": "left",
     "title": "Alarm Indicator",
-    "width": "300px",
-    "height": "400px",
+    "titleColor": "red",
+    "width": "380px",
+    "height": "320px",
+    "hideIfNoConditions": true,
     "itemList": [
+      {
+        "name": "Emergency Stop",
+        "conditions": [
+          {
+            "conditionParamId": 3201,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Oil Pressure OC",
+        "conditions": [
+          {
+            "conditionParamId": 3202,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Coolant Temp. OC",
+        "conditions": [
+          {
+            "conditionParamId": 3202,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fuel Level OC",
+        "conditions": [
+          {
+            "conditionParamId": 3203,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Aux Temperature OC",
+        "conditions": [
+          {
+            "conditionParamId": 3203,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Over Volt.",
+        "conditions": [
+          {
+            "conditionParamId": 3204,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Under Volt.",
+        "conditions": [
+          {
+            "conditionParamId": 3204,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Over Freq.",
+        "conditions": [
+          {
+            "conditionParamId": 3205,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Under Freq.",
+        "conditions": [
+          {
+            "conditionParamId": 3205,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Oil Pressure",
+        "conditions": [
+          {
+            "conditionParamId": 3206,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "High Oil Pressure",
+        "conditions": [
+          {
+            "conditionParamId": 3206,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "High Cool Temp.",
+        "conditions": [
+          {
+            "conditionParamId": 3207,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Fuel Level",
+        "conditions": [
+          {
+            "conditionParamId": 3207,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "High Aux Temp.",
+        "conditions": [
+          {
+            "conditionParamId": 3208,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Battery Over Volt",
+        "conditions": [
+          {
+            "conditionParamId": 3208,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Battery Under Volt",
+        "conditions": [
+          {
+            "conditionParamId": 3209,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Charge Alt. OV",
+        "conditions": [
+          {
+            "conditionParamId": 3209,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Charge Alt. UV",
+        "conditions": [
+          {
+            "conditionParamId": 3210,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 1",
+        "conditions": [
+          {
+            "conditionParamId": 3210,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 2",
+        "conditions": [
+          {
+            "conditionParamId": 3211,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 3",
+        "conditions": [
+          {
+            "conditionParamId": 3211,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 4",
+        "conditions": [
+          {
+            "conditionParamId": 3212,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 5",
+        "conditions": [
+          {
+            "conditionParamId": 3212,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 6",
+        "conditions": [
+          {
+            "conditionParamId": 3213,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 7",
+        "conditions": [
+          {
+            "conditionParamId": 3213,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 8",
+        "conditions": [
+          {
+            "conditionParamId": 3214,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 9",
+        "conditions": [
+          {
+            "conditionParamId": 3214,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 10",
+        "conditions": [
+          {
+            "conditionParamId": 3215,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "User Conf. 11",
+        "conditions": [
+          {
+            "conditionParamId": 3215,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fail To Start",
+        "conditions": [
+          {
+            "conditionParamId": 3216,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fail ToStop Speed",
+        "conditions": [
+          {
+            "conditionParamId": 3216,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fail To Stop Alt",
+        "conditions": [
+          {
+            "conditionParamId": 3217,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fail To Stop Oil",
+        "conditions": [
+          {
+            "conditionParamId": 3217,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Svcs. Common",
+        "conditions": [
+          {
+            "conditionParamId": 3218,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Svcs. Oil Chnge",
+        "conditions": [
+          {
+            "conditionParamId": 3218,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Svcs. Air Chnge",
+        "conditions": [
+          {
+            "conditionParamId": 3219,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Svcs. Fuel Chng",
+        "conditions": [
+          {
+            "conditionParamId": 3219,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Mains Phase Seq.",
+        "conditions": [
+          {
+            "conditionParamId": 3220,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Phase Seq.",
+        "conditions": [
+          {
+            "conditionParamId": 3220,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ecu General",
+        "conditions": [
+          {
+            "conditionParamId": 3221,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ecu Comm. Error",
+        "conditions": [
+          {
+            "conditionParamId": 3221,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Service Level1",
+        "conditions": [
+          {
+            "conditionParamId": 3222,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Service Level2",
+        "conditions": [
+          {
+            "conditionParamId": 3222,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Synchronous Transition",
+        "conditions": [
+          {
+            "conditionParamId": 3223,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Engine Overspeed",
+        "conditions": [
+          {
+            "conditionParamId": 3223,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Engine Underspeed",
+        "conditions": [
+          {
+            "conditionParamId": 3224,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Over Current",
+        "conditions": [
+          {
+            "conditionParamId": 3224,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Gen. Over Power",
+        "conditions": [
+          {
+            "conditionParamId": 3225,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "APU Door Open",
+        "conditions": [
+          {
+            "conditionParamId": 3225,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "RS485 Comm. Error",
+        "conditions": [
+          {
+            "conditionParamId": 3226,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Canbus Comm. Error",
+        "conditions": [
+          {
+            "conditionParamId": 3226,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ethernet Comm. Error",
+        "conditions": [
+          {
+            "conditionParamId": 3227,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 1",
+        "conditions": [
+          {
+            "conditionParamId": 3227,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 2",
+        "conditions": [
+          {
+            "conditionParamId": 3228,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 3",
+        "conditions": [
+          {
+            "conditionParamId": 3228,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 4",
+        "conditions": [
+          {
+            "conditionParamId": 3229,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 5",
+        "conditions": [
+          {
+            "conditionParamId": 3229,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 6",
+        "conditions": [
+          {
+            "conditionParamId": 3230,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 7",
+        "conditions": [
+          {
+            "conditionParamId": 3230,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 8",
+        "conditions": [
+          {
+            "conditionParamId": 3231,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 9",
+        "conditions": [
+          {
+            "conditionParamId": 3231,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 10",
+        "conditions": [
+          {
+            "conditionParamId": 3232,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "AMFL1 User Conf. 11",
+        "conditions": [
+          {
+            "conditionParamId": 3232,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI1 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3233,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI2 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3233,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI3 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3234,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI4 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3234,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI5 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3235,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI6 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3235,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI7 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3236,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Ext. Board DI8 User Conf.",
+        "conditions": [
+          {
+            "conditionParamId": 3236,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Fuel Pump Filling Fault",
+        "conditions": [
+          {
+            "conditionParamId": 3237,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "No Power Source",
+        "conditions": [
+          {
+            "conditionParamId": 3237,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Alarm Disable",
+        "conditions": [
+          {
+            "conditionParamId": 3238,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Air Filter",
+        "conditions": [
+          {
+            "conditionParamId": 3238,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Aftertreatment",
+        "conditions": [
+          {
+            "conditionParamId": 3239,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Power Reduction",
+        "conditions": [
+          {
+            "conditionParamId": 3239,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Engine Stop Limit",
+        "conditions": [
+          {
+            "conditionParamId": 3240,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Oil Level Low",
+        "conditions": [
+          {
+            "conditionParamId": 3240,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Oil Level High",
+        "conditions": [
+          {
+            "conditionParamId": 3241,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Turbine No Shut.",
+        "conditions": [
+          {
+            "conditionParamId": 3241,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Urea Level Low",
+        "conditions": [
+          {
+            "conditionParamId": 3242,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Urea Fill Up",
+        "conditions": [
+          {
+            "conditionParamId": 3242,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Urea Tank Empty",
+        "conditions": [
+          {
+            "conditionParamId": 3243,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU SCR Torque Limit",
+        "conditions": [
+          {
+            "conditionParamId": 3243,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU SCR Speed Limit",
+        "conditions": [
+          {
+            "conditionParamId": 3244,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU SCR Dosing Error",
+        "conditions": [
+          {
+            "conditionParamId": 3244,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU SCR Urea Quality",
+        "conditions": [
+          {
+            "conditionParamId": 3245,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Gen. Not Charging",
+        "conditions": [
+          {
+            "conditionParamId": 3245,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Manual Regen. Request",
+        "conditions": [
+          {
+            "conditionParamId": 3246,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Amber Lamp",
+        "conditions": [
+          {
+            "conditionParamId": 3246,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Red Lamp",
+        "conditions": [
+          {
+            "conditionParamId": 3247,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU DPF Lamp",
+        "conditions": [
+          {
+            "conditionParamId": 3247,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU Regen Inhibited",
+        "conditions": [
+          {
+            "conditionParamId": 3248,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "ECU HEST Lamp",
+        "conditions": [
+          {
+            "conditionParamId": 3248,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      }
     ]
   },
   {
     "object": "button",
     "page": 1,
-    "row": 7,
+    "row": 2,
     "side": "left",
     "title": "Start",
     "nameFontSize": "16px",
@@ -351,7 +1807,7 @@
   {
     "object": "button",
     "page": 1,
-    "row": 7,
+    "row": 2,
     "side": "left",
     "title": "Stop",
     "nameFontSize": "16px",
@@ -364,126 +1820,180 @@
     "actionValue": 0
   },
   {
-    "object": "progressgauge",
+    "object": "datalist",
     "page": 2,
     "row": 1,
     "side": "center",
-    "paramId": [
-      3011,
-      3012,
-      3013
+    "width": "400px",
+    "height": "42em",
+    "showItemBorder": true,
+    "title": "Scania ECU",
+    "conditions": [
+      {
+        "conditionParamId": 194,
+        "compareValue": "Scania S8 Singlespeed",
+        "operator": "neq",
+        "isHidden": true,
+        "andConditions": [
+          {
+            "conditionParamId": 194,
+            "compareValue": "Scania S8 Allspeed",
+            "operator": "neq"
+          }
+        ]
+      }
+    ],
+    "itemList": [
+      {
+        "paramId": 3082,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          },
+          {
+            "compareValue": "3277",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 14500,
+        "conditions": [
+          {
+            "compareValue": "2147450879",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3085,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3086,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3087,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3088,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3089,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3090,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3091,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3092,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3093,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 14501,
+        "conditions": [
+          {
+            "compareValue": "2147450879",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3096,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      },
+      {
+        "paramId": 3097,
+        "conditions": [
+          {
+            "compareValue": "32767",
+            "operator": "eq",
+            "displayText": "---"
+          }
+        ]
+      }
     ]
-  },
-  {
-    "object": "progressgauge",
-    "page": 2,
-    "row": 1,
-    "side": "center",
-    "paramId": [
-      3014
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 2,
-    "row": 2,
-    "side": "center",
-    "paramId": [
-      3015,
-      3017,
-      3019
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 2,
-    "row": 3,
-    "side": "center",
-    "paramId": [
-      3049,
-      3050,
-      3051,
-      3052
-    ]
-  },
-    {
-  "object": "datalist",
-  "page": 3,
-  "row": 1,
-  "side": "center",
-  "width": "400px",
-  "height": "42em",
-  "showItemBorder": true,
-  "title": "Scania ECU",
-  "conditions": [
-    {
-      "conditionParamId": 194,
-      "compareValue": "Scania S8 Singlespeed",
-      "operator": "neq",
-      "isHidden": true,
-      "andConditions": [
-        {
-          "conditionParamId": 194,
-          "compareValue": "Scania S8 Allspeed",
-          "operator": "neq"
-        }
-      ]
-    }
-  ],
-  "itemList": [
-    {
-      "paramId": 3082
-    },
-    {
-      "paramId": 3083
-    },
-    {
-      "paramId": 3084
-    },
-    {
-      "paramId": 3085
-    },
-    {
-      "paramId": 3086
-    },
-    {
-      "paramId": 3087
-    },
-    {
-      "paramId": 3088
-    },
-    {
-      "paramId": 3089
-    },
-    {
-      "paramId": 3090
-    },
-    {
-      "paramId": 3091
-    },
-    {
-      "paramId": 3092
-    },
-    {
-      "paramId": 3093
-    },
-    {
-      "paramId": 3094
-    },
-    {
-      "paramId": 3095
-    },
-    {
-      "paramId": 3096
-    },
-    {
-      "paramId": 3097
-    }
-  ]
   },
   {
     "object": "table",
-    "page": 3,
+    "page": 2,
     "row": 1,
     "side": "center",
     "filter": true,
@@ -506,5 +2016,398 @@
       "Analog Input-4",
       "Extension Board"
     ]
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14500,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3084,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3083,
+          "operator": "+"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14501,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3095,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3094,
+          "operator": "+"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14502,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3006,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3005,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14503,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3008,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3007,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14504,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3010,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3009,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14505,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3016,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3015,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14506,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3018,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3017,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14507,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3020,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3019,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14508,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3022,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3021,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14509,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3024,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3023,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14511,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3058,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3059,
+          "operator": "+"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 14510,
+    "decimalPlaces": 1,
+    "operation": {
+      "steps": [
+        {
+          "type": "constant",
+          "value": 0,
+          "operator": "*"
+        },
+        {
+          "type": "param",
+          "id": 3026,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 16,
+          "operator": "<<"
+        },
+        {
+          "type": "param",
+          "id": 3025,
+          "operator": "+"
+        },
+        {
+          "type": "constant",
+          "value": 10,
+          "operator": "/"
+        }
+      ]
+    }
   }
 ]
