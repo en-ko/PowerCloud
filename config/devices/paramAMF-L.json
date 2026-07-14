@@ -4219,7 +4219,6 @@
         "comment": "This parameter is used to select the panel's remote control operating modes.If you are using a second device for monitoring purposes, assign the device that will communicate with the one on the generator via remote CAN bus as the “Monitoring” device. Make sure the firmware versions of the devices are the same.",
         "relation": []
       },
-
       {
         "id": 209,
         "version": 1035,
@@ -4294,6 +4293,50 @@
         },
         "readOnly": false,
         "comment": " ",
+        "relation": []
+      },
+      {
+        "id": 567,
+        "version": 1035,
+        "name": "ECU General Fault Action",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1018,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 4,
+        "defaultValue": 2,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Closed"
+          },
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the alarm action of the ECU general fault reported via CANbus (DM1).",
         "relation": []
       },
       {
@@ -10818,7 +10861,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -10884,6 +10927,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -11098,7 +11153,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -11164,6 +11219,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -11378,7 +11445,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -11444,6 +11511,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -11658,7 +11737,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -11724,6 +11803,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -11938,7 +12029,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -12004,6 +12095,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -12218,7 +12321,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -12284,6 +12387,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -12498,7 +12613,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -12564,6 +12679,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -12886,7 +13013,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -12952,6 +13079,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -13757,7 +13896,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -13823,6 +13962,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -14620,7 +14771,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -14686,6 +14837,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -15491,7 +15654,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -15557,6 +15720,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -16399,7 +16574,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -16465,6 +16640,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -16599,7 +16786,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -16665,6 +16852,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -16799,7 +16998,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -16865,6 +17064,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -16999,7 +17210,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17065,6 +17276,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -17199,7 +17422,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 31,
+        "maxValue": 34,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17265,6 +17488,18 @@
           {
             "value": 31,
             "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
           }
         ],
         "dataOperation": {
@@ -21384,11 +21619,494 @@
         "relation": []
       },
       {
+        "id": 568,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-1",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1059,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 2993,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-1 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 569,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-2",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1060,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 3251,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-2 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 570,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-3",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1061,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 2948,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-3 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 571,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-4",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1062,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 8000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-4 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 572,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-5",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1063,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 1809,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-5 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 573,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-6",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1064,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 7098,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-6 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 574,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-7",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1065,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 2849,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-7 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 575,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-8",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1066,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 4000,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-8 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 576,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-9",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1067,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 9999,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-9 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 577,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-10",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1068,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 7506,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-10 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 578,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-11",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1069,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-11 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 579,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-12",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1070,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-12 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 580,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-13",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1071,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-13 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 581,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-14",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1072,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-14 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 582,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-15",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1073,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-15 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 583,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-16",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1074,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-16 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 584,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-17",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1075,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-17 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 585,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-18",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1076,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-18 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 586,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-19",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1077,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-19 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 587,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-20",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1078,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-20 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 588,
+        "version": 1035,
+        "name": "Can ECU SPN Filter-21",
+        "group": "Communication",
+        "unit": "",
+        "modbusAddress": 1079,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "SPN-21 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
         "id": 3001,
         "version": 1011,
         "name": "Mains R-S Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3001,
         "dataLength": 1,
         "coef": 0,
@@ -21411,7 +22129,7 @@
         "version": 1011,
         "name": "Mains S-T Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3002,
         "dataLength": 1,
         "coef": 0,
@@ -21434,7 +22152,7 @@
         "version": 1011,
         "name": "Mains R-T Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3003,
         "dataLength": 1,
         "coef": 0,
@@ -21457,7 +22175,7 @@
         "version": 1011,
         "name": "Mains Frequency",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "Hz",
         "modbusAddress": 3004,
         "dataLength": 1,
         "coef": -1,
@@ -21480,7 +22198,7 @@
         "version": 1011,
         "name": "Mains R Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3005,
         "dataLength": 1,
         "coef": -1,
@@ -21503,7 +22221,7 @@
         "version": 1011,
         "name": "Mains R Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3006,
         "dataLength": 1,
         "coef": -1,
@@ -21526,7 +22244,7 @@
         "version": 1011,
         "name": "Mains S Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3007,
         "dataLength": 1,
         "coef": -1,
@@ -21549,7 +22267,7 @@
         "version": 1011,
         "name": "Mains S Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3008,
         "dataLength": 1,
         "coef": -1,
@@ -21572,7 +22290,7 @@
         "version": 1011,
         "name": "Mains T Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3009,
         "dataLength": 1,
         "coef": -1,
@@ -21595,7 +22313,7 @@
         "version": 1011,
         "name": "Mains T Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3010,
         "dataLength": 1,
         "coef": -1,
@@ -21618,7 +22336,7 @@
         "version": 1011,
         "name": "Generator U-V Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3011,
         "dataLength": 1,
         "coef": 0,
@@ -21641,7 +22359,7 @@
         "version": 1011,
         "name": "Generator V-W Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3012,
         "dataLength": 1,
         "coef": 0,
@@ -21664,7 +22382,7 @@
         "version": 1011,
         "name": "Generator U-W Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3013,
         "dataLength": 1,
         "coef": 0,
@@ -21687,7 +22405,7 @@
         "version": 1011,
         "name": "Generator Frequency",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "Hz",
         "modbusAddress": 3014,
         "dataLength": 1,
         "coef": -1,
@@ -21710,7 +22428,7 @@
         "version": 1011,
         "name": "Generator U Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3015,
         "dataLength": 1,
         "coef": -1,
@@ -21733,7 +22451,7 @@
         "version": 1011,
         "name": "Generator U Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3016,
         "dataLength": 1,
         "coef": -1,
@@ -21756,7 +22474,7 @@
         "version": 1011,
         "name": "Generator V Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3017,
         "dataLength": 1,
         "coef": -1,
@@ -21779,7 +22497,7 @@
         "version": 1011,
         "name": "Generator V Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3018,
         "dataLength": 1,
         "coef": -1,
@@ -21802,7 +22520,7 @@
         "version": 1011,
         "name": "Generator W Phase Current(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3019,
         "dataLength": 1,
         "coef": -1,
@@ -21825,7 +22543,7 @@
         "version": 1011,
         "name": "Generator W Phase Current(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3020,
         "dataLength": 1,
         "coef": -1,
@@ -21848,7 +22566,7 @@
         "version": 1011,
         "name": "Total kVA Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3021,
         "dataLength": 1,
         "coef": -1,
@@ -21871,7 +22589,7 @@
         "version": 1011,
         "name": "Total kVA Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3022,
         "dataLength": 1,
         "coef": -1,
@@ -21894,7 +22612,7 @@
         "version": 1011,
         "name": "Total kW Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3023,
         "dataLength": 1,
         "coef": -1,
@@ -21917,7 +22635,7 @@
         "version": 1011,
         "name": "Total kW Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3024,
         "dataLength": 1,
         "coef": -1,
@@ -21940,7 +22658,7 @@
         "version": 1011,
         "name": "Total kVAR Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3025,
         "dataLength": 1,
         "coef": -1,
@@ -21963,7 +22681,7 @@
         "version": 1011,
         "name": "Total kVAR Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3026,
         "dataLength": 1,
         "coef": -1,
@@ -22009,7 +22727,7 @@
         "version": 1011,
         "name": "Phase L1 kVA Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3028,
         "dataLength": 1,
         "coef": -1,
@@ -22032,7 +22750,7 @@
         "version": 1011,
         "name": "Phase L1 kVA Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3029,
         "dataLength": 1,
         "coef": -1,
@@ -22055,7 +22773,7 @@
         "version": 1011,
         "name": "Phase L1 kW Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3030,
         "dataLength": 1,
         "coef": -1,
@@ -22078,7 +22796,7 @@
         "version": 1011,
         "name": "Phase L1 kW Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3031,
         "dataLength": 1,
         "coef": -1,
@@ -22101,7 +22819,7 @@
         "version": 1011,
         "name": "Phase L1 kVAR Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3032,
         "dataLength": 1,
         "coef": -1,
@@ -22124,7 +22842,7 @@
         "version": 1011,
         "name": "Phase L1 kVAR Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3033,
         "dataLength": 1,
         "coef": -1,
@@ -22170,7 +22888,7 @@
         "version": 1011,
         "name": "Phase L2 kVA Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3035,
         "dataLength": 1,
         "coef": -1,
@@ -22193,7 +22911,7 @@
         "version": 1011,
         "name": "Phase L2 kVA Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3036,
         "dataLength": 1,
         "coef": -1,
@@ -22216,7 +22934,7 @@
         "version": 1011,
         "name": "Phase L2 kW Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3037,
         "dataLength": 1,
         "coef": -1,
@@ -22239,7 +22957,7 @@
         "version": 1011,
         "name": "Phase L2 kW Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3038,
         "dataLength": 1,
         "coef": -1,
@@ -22262,7 +22980,7 @@
         "version": 1011,
         "name": "Phase L2 kVAR Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3039,
         "dataLength": 1,
         "coef": -1,
@@ -22285,7 +23003,7 @@
         "version": 1011,
         "name": "Phase L2 kVAR Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3040,
         "dataLength": 1,
         "coef": -1,
@@ -22331,7 +23049,7 @@
         "version": 1011,
         "name": "Phase L3 kVA Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3042,
         "dataLength": 1,
         "coef": -1,
@@ -22354,7 +23072,7 @@
         "version": 1011,
         "name": "Phase L3 kVA Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVA",
         "modbusAddress": 3043,
         "dataLength": 1,
         "coef": -1,
@@ -22377,7 +23095,7 @@
         "version": 1011,
         "name": "Phase L3 kW Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3044,
         "dataLength": 1,
         "coef": -1,
@@ -22400,7 +23118,7 @@
         "version": 1011,
         "name": "Phase L3 kW Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kW",
         "modbusAddress": 3045,
         "dataLength": 1,
         "coef": -1,
@@ -22423,7 +23141,7 @@
         "version": 1011,
         "name": "Phase L3 kVAR Value(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3046,
         "dataLength": 1,
         "coef": -1,
@@ -22446,7 +23164,7 @@
         "version": 1011,
         "name": "Phase L3 kVAR Value(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "kVAR",
         "modbusAddress": 3047,
         "dataLength": 1,
         "coef": -1,
@@ -22492,7 +23210,7 @@
         "version": 1011,
         "name": "Oil Pressure",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "bar",
         "modbusAddress": 3049,
         "dataLength": 1,
         "coef": -1,
@@ -22515,7 +23233,7 @@
         "version": 1011,
         "name": "Coolant Temperature",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "°C",
         "modbusAddress": 3050,
         "dataLength": 1,
         "coef": 0,
@@ -22538,7 +23256,7 @@
         "version": 1011,
         "name": "Fuel Level",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "%",
         "modbusAddress": 3051,
         "dataLength": 1,
         "coef": 0,
@@ -22561,7 +23279,7 @@
         "version": 1011,
         "name": "Aux Temperature",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "°C",
         "modbusAddress": 3052,
         "dataLength": 1,
         "coef": 0,
@@ -22630,7 +23348,7 @@
         "version": 1011,
         "name": "Charge Alternator Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3055,
         "dataLength": 1,
         "coef": -1,
@@ -22653,7 +23371,7 @@
         "version": 1011,
         "name": "Battery Voltage",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "V",
         "modbusAddress": 3056,
         "dataLength": 1,
         "coef": -1,
@@ -22676,7 +23394,7 @@
         "version": 1011,
         "name": "MCU Temperature",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "°C",
         "modbusAddress": 3057,
         "dataLength": 1,
         "coef": 0,
@@ -22699,7 +23417,7 @@
         "version": 1011,
         "name": "Total Working Time(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3058,
         "dataLength": 1,
         "coef": 0,
@@ -22722,7 +23440,7 @@
         "version": 1011,
         "name": "Total Working Time(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3059,
         "dataLength": 1,
         "coef": 0,
@@ -22745,7 +23463,7 @@
         "version": 1011,
         "name": "Working Time at Load(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3060,
         "dataLength": 1,
         "coef": 0,
@@ -22768,7 +23486,7 @@
         "version": 1011,
         "name": "Working Time at Load(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3061,
         "dataLength": 1,
         "coef": 0,
@@ -22791,7 +23509,7 @@
         "version": 1011,
         "name": "Temporary Working Time(MSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3062,
         "dataLength": 1,
         "coef": 0,
@@ -22814,7 +23532,7 @@
         "version": 1011,
         "name": "Temporary Working Time(LSB)",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3063,
         "dataLength": 1,
         "coef": 0,
@@ -22860,7 +23578,7 @@
         "version": 1011,
         "name": "Engine Speed",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "rpm",
         "modbusAddress": 3065,
         "dataLength": 1,
         "coef": 0,
@@ -22883,7 +23601,7 @@
         "version": 1011,
         "name": "Common Service Time",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3066,
         "dataLength": 1,
         "coef": 0,
@@ -22906,7 +23624,7 @@
         "version": 1011,
         "name": "Oil Change Service Time",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3067,
         "dataLength": 1,
         "coef": 0,
@@ -22929,7 +23647,7 @@
         "version": 1011,
         "name": "Air Filter Change Service Time",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3068,
         "dataLength": 1,
         "coef": 0,
@@ -22952,7 +23670,7 @@
         "version": 1011,
         "name": "Fuel Change Service Time",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "hours",
         "modbusAddress": 3069,
         "dataLength": 1,
         "coef": 0,
@@ -23205,7 +23923,7 @@
         "version": 1022,
         "name": "Battery Current",
         "group": "Monitoring",
-        "unit": "",
+        "unit": "A",
         "modbusAddress": 3080,
         "dataLength": 1,
         "coef": 0,
@@ -23239,8 +23957,8 @@
         "defaultValue": 0,
         "valueMask": [],
         "dataOperation": {
-          "operation": "",
-          "operationValue": ""
+          "operation": "/",
+          "operationValue": "10"
         },
         "readOnly": true,
         "comment": "",
@@ -23249,7 +23967,7 @@
       {
         "id": 3083,
         "version": 1035,
-        "name": "ECU Engine Hours",
+        "name": "ECU Engine Hours LSB",
         "group": "Monitoring",
         "unit": "hours",
         "modbusAddress": 3083,
@@ -23502,7 +24220,7 @@
       {
         "id": 3094,
         "version": 1035,
-        "name": "ECU Total Fuel",
+        "name": "ECU Total Fuel LSB",
         "group": "Monitoring",
         "unit": "L",
         "modbusAddress": 3094,
@@ -23704,6 +24422,1386 @@
         },
         "readOnly": true,
         "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3201,
+        "version": 1035,
+        "name": "Alarm Register 1",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3201,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 1 packed by firmware (2 faults per register). bit9: Emergency Stop active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3202,
+        "version": 1035,
+        "name": "Alarm Register 2",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3202,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 2 packed by firmware (2 faults per register). bit1: Oil Pressure OC active (bit0 source, bit2-7 level); bit9: Coolant Temp. OC active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3203,
+        "version": 1035,
+        "name": "Alarm Register 3",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3203,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 3 packed by firmware (2 faults per register). bit1: Fuel Level OC active (bit0 source, bit2-7 level); bit9: Aux Temperature OC active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3204,
+        "version": 1035,
+        "name": "Alarm Register 4",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3204,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 4 packed by firmware (2 faults per register). bit1: Gen. Over Volt. active (bit0 source, bit2-7 level); bit9: Gen. Under Volt. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3205,
+        "version": 1035,
+        "name": "Alarm Register 5",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3205,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 5 packed by firmware (2 faults per register). bit1: Gen. Over Freq. active (bit0 source, bit2-7 level); bit9: Gen. Under Freq. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3206,
+        "version": 1035,
+        "name": "Alarm Register 6",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3206,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 6 packed by firmware (2 faults per register). bit1: Low Oil Pressure active (bit0 source, bit2-7 level); bit9: High Oil Pressure active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3207,
+        "version": 1035,
+        "name": "Alarm Register 7",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3207,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 7 packed by firmware (2 faults per register). bit1: High Cool Temp. active (bit0 source, bit2-7 level); bit9: Low Fuel Level active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3208,
+        "version": 1035,
+        "name": "Alarm Register 8",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3208,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 8 packed by firmware (2 faults per register). bit1: High Aux Temp. active (bit0 source, bit2-7 level); bit9: Battery Over Volt active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3209,
+        "version": 1035,
+        "name": "Alarm Register 9",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3209,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 9 packed by firmware (2 faults per register). bit1: Battery Under Volt active (bit0 source, bit2-7 level); bit9: Charge Alt. OV active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3210,
+        "version": 1035,
+        "name": "Alarm Register 10",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3210,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 10 packed by firmware (2 faults per register). bit1: Charge Alt. UV active (bit0 source, bit2-7 level); bit9: User Conf. 1 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3211,
+        "version": 1035,
+        "name": "Alarm Register 11",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3211,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 11 packed by firmware (2 faults per register). bit1: User Conf. 2 active (bit0 source, bit2-7 level); bit9: User Conf. 3 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3212,
+        "version": 1035,
+        "name": "Alarm Register 12",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3212,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 12 packed by firmware (2 faults per register). bit1: User Conf. 4 active (bit0 source, bit2-7 level); bit9: User Conf. 5 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3213,
+        "version": 1035,
+        "name": "Alarm Register 13",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3213,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 13 packed by firmware (2 faults per register). bit1: User Conf. 6 active (bit0 source, bit2-7 level); bit9: User Conf. 7 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3214,
+        "version": 1035,
+        "name": "Alarm Register 14",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3214,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 14 packed by firmware (2 faults per register). bit1: User Conf. 8 active (bit0 source, bit2-7 level); bit9: User Conf. 9 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3215,
+        "version": 1035,
+        "name": "Alarm Register 15",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3215,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 15 packed by firmware (2 faults per register). bit1: User Conf. 10 active (bit0 source, bit2-7 level); bit9: User Conf. 11 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3216,
+        "version": 1035,
+        "name": "Alarm Register 16",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3216,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 16 packed by firmware (2 faults per register). bit1: Fail To Start active (bit0 source, bit2-7 level); bit9: Fail ToStop Speed active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3217,
+        "version": 1035,
+        "name": "Alarm Register 17",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3217,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 17 packed by firmware (2 faults per register). bit1: Fail To Stop Alt active (bit0 source, bit2-7 level); bit9: Fail To Stop Oil active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3218,
+        "version": 1035,
+        "name": "Alarm Register 18",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3218,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 18 packed by firmware (2 faults per register). bit1: Svcs. Common active (bit0 source, bit2-7 level); bit9: Svcs. Oil Chnge active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3219,
+        "version": 1035,
+        "name": "Alarm Register 19",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3219,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 19 packed by firmware (2 faults per register). bit1: Svcs. Air Chnge active (bit0 source, bit2-7 level); bit9: Svcs. Fuel Chng active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3220,
+        "version": 1035,
+        "name": "Alarm Register 20",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3220,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 20 packed by firmware (2 faults per register). bit1: Mains Phase Seq. active (bit0 source, bit2-7 level); bit9: Gen. Phase Seq. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3221,
+        "version": 1035,
+        "name": "Alarm Register 21",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3221,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 21 packed by firmware (2 faults per register). bit1: Ecu General active (bit0 source, bit2-7 level); bit9: Ecu Comm. Error active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3222,
+        "version": 1035,
+        "name": "Alarm Register 22",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3222,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 22 packed by firmware (2 faults per register). bit1: Service Level1 active (bit0 source, bit2-7 level); bit9: Service Level2 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3223,
+        "version": 1035,
+        "name": "Alarm Register 23",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3223,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 23 packed by firmware (2 faults per register). bit1: Synchronous Transition active (bit0 source, bit2-7 level); bit9: Engine Overspeed active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3224,
+        "version": 1035,
+        "name": "Alarm Register 24",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3224,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 24 packed by firmware (2 faults per register). bit1: Engine Underspeed active (bit0 source, bit2-7 level); bit9: Gen. Over Current active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3225,
+        "version": 1035,
+        "name": "Alarm Register 25",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3225,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 25 packed by firmware (2 faults per register). bit1: Gen. Over Power active (bit0 source, bit2-7 level); bit9: APU Door Open active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3226,
+        "version": 1035,
+        "name": "Alarm Register 26",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3226,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 26 packed by firmware (2 faults per register). bit1: RS485 Comm. Error active (bit0 source, bit2-7 level); bit9: Canbus Comm. Error active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3227,
+        "version": 1035,
+        "name": "Alarm Register 27",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3227,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 27 packed by firmware (2 faults per register). bit1: Ethernet Comm. Error active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 1 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3228,
+        "version": 1035,
+        "name": "Alarm Register 28",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3228,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 28 packed by firmware (2 faults per register). bit1: AMFL1 User Conf. 2 active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 3 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3229,
+        "version": 1035,
+        "name": "Alarm Register 29",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3229,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 29 packed by firmware (2 faults per register). bit1: AMFL1 User Conf. 4 active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 5 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3230,
+        "version": 1035,
+        "name": "Alarm Register 30",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3230,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 30 packed by firmware (2 faults per register). bit1: AMFL1 User Conf. 6 active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 7 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3231,
+        "version": 1035,
+        "name": "Alarm Register 31",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3231,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 31 packed by firmware (2 faults per register). bit1: AMFL1 User Conf. 8 active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 9 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3232,
+        "version": 1035,
+        "name": "Alarm Register 32",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3232,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 32 packed by firmware (2 faults per register). bit1: AMFL1 User Conf. 10 active (bit0 source, bit2-7 level); bit9: AMFL1 User Conf. 11 active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3233,
+        "version": 1035,
+        "name": "Alarm Register 33",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3233,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 33 packed by firmware (2 faults per register). bit1: Ext. Board DI1 User Conf. active (bit0 source, bit2-7 level); bit9: Ext. Board DI2 User Conf. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3234,
+        "version": 1035,
+        "name": "Alarm Register 34",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3234,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 34 packed by firmware (2 faults per register). bit1: Ext. Board DI3 User Conf. active (bit0 source, bit2-7 level); bit9: Ext. Board DI4 User Conf. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3235,
+        "version": 1035,
+        "name": "Alarm Register 35",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3235,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 35 packed by firmware (2 faults per register). bit1: Ext. Board DI5 User Conf. active (bit0 source, bit2-7 level); bit9: Ext. Board DI6 User Conf. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3236,
+        "version": 1035,
+        "name": "Alarm Register 36",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3236,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 36 packed by firmware (2 faults per register). bit1: Ext. Board DI7 User Conf. active (bit0 source, bit2-7 level); bit9: Ext. Board DI8 User Conf. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3237,
+        "version": 1038,
+        "name": "Alarm Register 37",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3237,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 37 packed by firmware (2 faults per register). bit1: Fuel Pump Filling Fault active (bit0 source, bit2-7 level); bit9: No Power Source active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3238,
+        "version": 1038,
+        "name": "Alarm Register 38",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3238,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 38 packed by firmware (2 faults per register). bit1: Alarm Disable active (bit0 source, bit2-7 level); bit9: ECU Air Filter active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3239,
+        "version": 1038,
+        "name": "Alarm Register 39",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3239,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 39 packed by firmware (2 faults per register). bit1: ECU Aftertreatment active (bit0 source, bit2-7 level); bit9: ECU Power Reduction active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3240,
+        "version": 1038,
+        "name": "Alarm Register 40",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3240,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 40 packed by firmware (2 faults per register). bit1: ECU Engine Stop Limit active (bit0 source, bit2-7 level); bit9: ECU Oil Level Low active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3241,
+        "version": 1038,
+        "name": "Alarm Register 41",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3241,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 41 packed by firmware (2 faults per register). bit1: ECU Oil Level High active (bit0 source, bit2-7 level); bit9: ECU Turbine No Shut. active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3242,
+        "version": 1038,
+        "name": "Alarm Register 42",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3242,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 42 packed by firmware (2 faults per register). bit1: ECU Urea Level Low active (bit0 source, bit2-7 level); bit9: ECU Urea Fill Up active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3243,
+        "version": 1038,
+        "name": "Alarm Register 43",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3243,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 43 packed by firmware (2 faults per register). bit1: ECU Urea Tank Empty active (bit0 source, bit2-7 level); bit9: ECU SCR Torque Limit active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3244,
+        "version": 1038,
+        "name": "Alarm Register 44",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3244,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 44 packed by firmware (2 faults per register). bit1: ECU SCR Speed Limit active (bit0 source, bit2-7 level); bit9: ECU SCR Dosing Error active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3245,
+        "version": 1038,
+        "name": "Alarm Register 45",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3245,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 45 packed by firmware (2 faults per register). bit1: ECU SCR Urea Quality active (bit0 source, bit2-7 level); bit9: ECU Gen. Not Charging active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3246,
+        "version": 1038,
+        "name": "Alarm Register 46",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3246,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 46 packed by firmware (2 faults per register). bit1: Manual Regen. Request active (bit0 source, bit2-7 level); bit9: ECU Amber Lamp active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3247,
+        "version": 1038,
+        "name": "Alarm Register 47",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3247,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 47 packed by firmware (2 faults per register). bit1: ECU Red Lamp active (bit0 source, bit2-7 level); bit9: ECU DPF Lamp active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3248,
+        "version": 1038,
+        "name": "Alarm Register 48",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3248,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "Alarm status register 48 packed by firmware (2 faults per register). bit1: ECU Regen Inhibited active (bit0 source, bit2-7 level); bit9: ECU HEST Lamp active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 14500,
+        "version": 1035,
+        "name": "ECU Engine Hours",
+        "group": "Monitoring",
+        "unit": "hours",
+        "modbusAddress": 14500,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit total engine hours. Calculated by dataoperation: (ECU Engine Hours MSB(P3084) << 16) + ECU Engine Hours LSB(P3083).",
+        "relation": []
+      },
+      {
+        "id": 14501,
+        "version": 1035,
+        "name": "ECU Total Fuel",
+        "group": "Monitoring",
+        "unit": "L",
+        "modbusAddress": 14501,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit total fuel. Calculated by dataoperation: (ECU Total Fuel MSB(P3095) << 16) + ECU Total Fuel LSB(P3094).",
+        "relation": []
+      },
+      {
+        "id": 14502,
+        "version": 1035,
+        "name": "Mains R Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14502,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Mains R Phase Current. Calculated by dataoperation: ((Mains R Phase Current MSB(P3006) << 16) + Mains R Phase Current LSB(P3005)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14503,
+        "version": 1035,
+        "name": "Mains S Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14503,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Mains S Phase Current. Calculated by dataoperation: ((Mains S Phase Current MSB(P3008) << 16) + Mains S Phase Current LSB(P3007)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14504,
+        "version": 1035,
+        "name": "Mains T Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14504,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Mains T Phase Current. Calculated by dataoperation: ((Mains T Phase Current MSB(P3010) << 16) + Mains T Phase Current LSB(P3009)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14505,
+        "version": 1035,
+        "name": "Generator U Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14505,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Generator U Phase Current. Calculated by dataoperation: ((Generator U Phase Current MSB(P3016) << 16) + Generator U Phase Current LSB(P3015)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14506,
+        "version": 1035,
+        "name": "Generator V Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14506,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Generator V Phase Current. Calculated by dataoperation: ((Generator V Phase Current MSB(P3018) << 16) + Generator V Phase Current LSB(P3017)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14507,
+        "version": 1035,
+        "name": "Generator W Phase Current",
+        "group": "Monitoring",
+        "unit": "A",
+        "modbusAddress": 14507,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Generator W Phase Current. Calculated by dataoperation: ((Generator W Phase Current MSB(P3020) << 16) + Generator W Phase Current LSB(P3019)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14508,
+        "version": 1035,
+        "name": "Total kVA",
+        "group": "Monitoring",
+        "unit": "kVA",
+        "modbusAddress": 14508,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Total kVA. Calculated by dataoperation: ((Total kVA MSB(P3022) << 16) + Total kVA LSB(P3021)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14509,
+        "version": 1035,
+        "name": "Total kW",
+        "group": "Monitoring",
+        "unit": "kW",
+        "modbusAddress": 14509,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Total kW. Calculated by dataoperation: ((Total kW MSB(P3024) << 16) + Total kW LSB(P3023)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14510,
+        "version": 1035,
+        "name": "Total kVAR",
+        "group": "Monitoring",
+        "unit": "kVAR",
+        "modbusAddress": 14510,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit Total kVAR. Calculated by dataoperation: ((Total kVAR MSB(P3026) << 16) + Total kVAR LSB(P3025)) / 10.",
+        "relation": []
+      },
+      {
+        "id": 14511,
+        "version": 1035,
+        "name": "Total Working Time",
+        "group": "Monitoring",
+        "unit": "hours",
+        "modbusAddress": 14511,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 2147483647,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "32-bit total genset working time in hours. Calculated by dataoperation: (Total Working Time MSB(P3058) << 16) + Total Working Time LSB(P3059).",
         "relation": []
       }
     ],
