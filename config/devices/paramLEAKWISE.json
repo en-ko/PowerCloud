@@ -2,7 +2,7 @@
   {
 	"fileVersion": 1,
     "parameters": [
-      {
+	{
 		"id" : 1,
 		"version" : 1001,
 		"name" : "Current",
@@ -1027,52 +1027,6 @@
 		"view" : "",
 		"minValue" : -300,
 		"maxValue" : 300,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 38,
-		"version" : 1001,
-		"name" : "RESERVED",
-		"group" : "Sensor 1",
-		"unit" : "",
-		"modbusAddress" : 38,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 39,
-		"version" : 1001,
-		"name" : "RESERVED",
-		"group" : "Sensor 1",
-		"unit" : "",
-		"modbusAddress" : 39,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
 		"defaultValue" : 0,
 		"valueMask" : [],
 		"dataOperation" : {
@@ -2164,52 +2118,6 @@
 		"relation" : []
 	},
 	{
-		"id" : 79,
-		"version" : 1001,
-		"name" : "RESERVED",
-		"group" : "Sensor 2",
-		"unit" : "",
-		"modbusAddress" : 79,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 80,
-		"version" : 1001,
-		"name" : "RESERVED",
-		"group" : "Sensor 2",
-		"unit" : "",
-		"modbusAddress" : 80,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
 		"id" : 81,
 		"version" : 1001,
 		"name" : "Sensor Led Indıcator Mode",
@@ -2373,52 +2281,6 @@
 				"mask" : "100 %"
 			}
 		],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 86,
-		"version" : 1001,
-		"name" : "RESERVED1",
-		"group" : "Led & 4-20 mA",
-		"unit" : "",
-		"modbusAddress" : 86,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
-		"dataOperation" : {
-			"operation" : "",
-			"operationValue" : ""
-		},
-		"readOnly" : false,
-		"comment" : "",
-		"relation" : []
-	},
-	{
-		"id" : 87,
-		"version" : 1001,
-		"name" : "RESERVED2",
-		"group" : "Led & 4-20 mA",
-		"unit" : "",
-		"modbusAddress" : 87,
-		"dataLength" : 1,
-		"coef" : 0,
-		"signed" : true,
-		"view" : "",
-		"minValue" : 0,
-		"maxValue" : 32767,
-		"defaultValue" : 0,
-		"valueMask" : [],
 		"dataOperation" : {
 			"operation" : "",
 			"operationValue" : ""
@@ -2844,7 +2706,7 @@
 	{
 		"id" : 113,
 		"version" : 1001,
-		"name" : "Output Function1",
+		"name" : "Sensor 1 Output Function1",
 		"group" : "Digital Output",
 		"unit" : "",
 		"modbusAddress" : 301,
@@ -2892,7 +2754,7 @@
 	{
 		"id" : 114,
 		"version" : 1001,
-		"name" : "Output Delay1",
+		"name" : "Sensor 1 Output Delay1",
 		"group" : "Digital Output",
 		"unit" : "sec",
 		"modbusAddress" : 302,
@@ -2915,7 +2777,7 @@
 	{
 		"id" : 115,
 		"version" : 1001,
-		"name" : "Output Contact Type1",
+		"name" : "Sensor 1 Output Contact Type1",
 		"group" : "Digital Output",
 		"unit" : "",
 		"modbusAddress" : 303,
@@ -5596,7 +5458,7 @@
 	{
 		"id" : 216,
 		"version" : 1001,
-		"name" : "General Menu Timeout",
+		"name" : "General Menu Logout Time",
 		"group" : "General",
 		"unit" : "min",
 		"modbusAddress" : 813,
@@ -10025,8 +9887,8 @@
 		"readOnly" : true,
 		"comment" : "",
 		"relation" : []
-  },
-        {
+	},
+	{
 		"id" : 501,
 		"version" : 1001,
 		"name" : "Current",
@@ -10071,68 +9933,239 @@
 		"readOnly" : true,
 		"comment" : "Sensor 2 Current Value",
 		"relation" : []
-	}
+      }
     ],
     "alarms": [
-		{ "alarmId": 0,  "alarmComment": "Emergency Stop Variable" },
-		{ "alarmId": 1,  "alarmComment": "Fail Relay" },
-		{ "alarmId": 2,  "alarmComment": "Water Relay" },
-		{ "alarmId": 3,  "alarmComment": "Oil Relay" },
-		{ "alarmId": 4,  "alarmComment": "High Oil" },
-		{ "alarmId": 5,  "alarmComment": "Air Relay" },
-		{ "alarmId": 6,  "alarmComment": "Buzzer Active" },
-		{ "alarmId": 7,  "alarmComment": "Line Warning" },
-		{ "alarmId": 8,  "alarmComment": "Temperature Above Alarm" },
-		{ "alarmId": 9,  "alarmComment": "Temperature Above Warning" },
-		{ "alarmId": 10, "alarmComment": "Temperature Below Alarm" },
-		{ "alarmId": 11, "alarmComment": "Temperature Below Warning" },
-		{ "alarmId": 12, "alarmComment": "Temperature 1 Broken" },
-		{ "alarmId": 13, "alarmComment": "Temperature 2 Broken" },
-		{ "alarmId": 14, "alarmComment": "Temperature 2 Above Alarm" },
-		{ "alarmId": 15, "alarmComment": "Temperature 2 Below Alarm" },
-		{ "alarmId": 16, "alarmComment": "Temperature 2 Above Warning" },
-		{ "alarmId": 17, "alarmComment": "Temperature 2 Below Warning" },
-		{ "alarmId": 18, "alarmComment": "Powercut Warning" },
-		{ "alarmId": 19, "alarmComment": "Service Level 1" },
-		{ "alarmId": 20, "alarmComment": "Service Level 2" },
-		{ "alarmId": 21, "alarmComment": "Service Level 3" },
-		{ "alarmId": 22, "alarmComment": "Service Level 4" },
-		{ "alarmId": 23, "alarmComment": "Service Level 5" },
-		{ "alarmId": 24, "alarmComment": "S1: Fail in Air" },
-		{ "alarmId": 25, "alarmComment": "S1: Signal Unstable" },
-		{ "alarmId": 26, "alarmComment": "Modbus Communication Error" },
-		{ "alarmId": 27, "alarmComment": "FRAM Data Integrity Error" },
-		{ "alarmId": 28, "alarmComment": "Low Power" },
-		{ "alarmId": 29, "alarmComment": "Watchdog Reset" },
-		{ "alarmId": 30, "alarmComment": "S1: Water Level Rapid Change" },
-		{ "alarmId": 31, "alarmComment": "S1: Signal Turbulence" },
-		{ "alarmId": 32, "alarmComment": "S1: Sensor Signal Wire Fault" },
-		{ "alarmId": 33, "alarmComment": "S1: Sensor Signal Too Low" },
-		{ "alarmId": 34, "alarmComment": "S1: Sensor Signal Too High" },
-		{ "alarmId": 35, "alarmComment": "S1: Sensor Positive Wire Fault" },
-		{ "alarmId": 36, "alarmComment": "S1: Sensor Negative Wire Fault" },
-		{ "alarmId": 37, "alarmComment": "S1: Sensor Problem" },
-		{ "alarmId": 38, "alarmComment": "S2: Fail In Air" },
-		{ "alarmId": 39, "alarmComment": "S2: Signal Unstable" },
-		{ "alarmId": 40, "alarmComment": "S2: Water Level Rapid Change" },
-		{ "alarmId": 41, "alarmComment": "S2: Signal Turbulence" },
-		{ "alarmId": 42, "alarmComment": "S2: Sensor Signal Wire Fault" },
-		{ "alarmId": 43, "alarmComment": "S2: Sensor Signal Too Low" },
-		{ "alarmId": 44, "alarmComment": "S2: Sensor Signal Too High" },
-		{ "alarmId": 45, "alarmComment": "S2: Sensor Positive Wire Fault" },
-		{ "alarmId": 46, "alarmComment": "S2: Sensor Negative Wire Fault" },
-		{ "alarmId": 47, "alarmComment": "S2: Sensor Problem" }
-	],
+	{
+        "alarmId": 0,
+        "alarmComment": "Emergency Stop Variable"
+	},
+	{
+        "alarmId": 1,
+        "alarmComment": "Fail Relay"
+	},
+	{
+        "alarmId": 2,
+        "alarmComment": "Water Relay"
+	},
+	{
+        "alarmId": 3,
+        "alarmComment": "Oil Relay"
+	},
+	{
+        "alarmId": 4,
+        "alarmComment": "High Oil"
+	},
+	{
+        "alarmId": 5,
+        "alarmComment": "Air Relay"
+	},
+	{
+        "alarmId": 6,
+        "alarmComment": "Buzzer Active"
+	},
+	{
+        "alarmId": 7,
+        "alarmComment": "Line Warning"
+	},
+	{
+        "alarmId": 8,
+        "alarmComment": "Temperature Above Alarm"
+	},
+	{
+        "alarmId": 9,
+        "alarmComment": "Temperature Above Warning"
+	},
+	{
+        "alarmId": 10,
+        "alarmComment": "Temperature Below Alarm"
+	},
+	{
+        "alarmId": 11,
+        "alarmComment": "Temperature Below Warning"
+	},
+	{
+        "alarmId": 12,
+        "alarmComment": "Temperature 1 Broken"
+	},
+	{
+        "alarmId": 13,
+        "alarmComment": "Temperature 2 Broken"
+	},
+	{
+        "alarmId": 14,
+        "alarmComment": "Temperature 2 Above Alarm"
+	},
+	{
+        "alarmId": 15,
+        "alarmComment": "Temperature 2 Below Alarm"
+	},
+	{
+        "alarmId": 16,
+        "alarmComment": "Temperature 2 Above Warning"
+	},
+	{
+        "alarmId": 17,
+        "alarmComment": "Temperature 2 Below Warning"
+	},
+	{
+        "alarmId": 18,
+        "alarmComment": "Powercut Warning"
+	},
+	{
+        "alarmId": 19,
+        "alarmComment": "Service Level 1"
+	},
+	{
+        "alarmId": 20,
+        "alarmComment": "Service Level 2"
+	},
+	{
+        "alarmId": 21,
+        "alarmComment": "Service Level 3"
+	},
+	{
+        "alarmId": 22,
+        "alarmComment": "Service Level 4"
+	},
+	{
+        "alarmId": 23,
+        "alarmComment": "Service Level 5"
+	},
+	{
+        "alarmId": 24,
+        "alarmComment": "S1: Fail in Air"
+	},
+	{
+        "alarmId": 25,
+        "alarmComment": "S1: Signal Unstable"
+	},
+	{
+        "alarmId": 26,
+        "alarmComment": "Modbus Communication Error"
+	},
+	{
+        "alarmId": 27,
+        "alarmComment": "FRAM Data Integrity Error"
+	},
+	{
+        "alarmId": 28,
+        "alarmComment": "Low Power"
+	},
+	{
+        "alarmId": 29,
+        "alarmComment": "Watchdog Reset"
+	},
+	{
+        "alarmId": 30,
+        "alarmComment": "S1: Water Level Rapid Change"
+	},
+	{
+        "alarmId": 31,
+        "alarmComment": "S1: Signal Turbulence"
+	},
+	{
+        "alarmId": 32,
+        "alarmComment": "S1: Sensor Signal Wire Fault"
+	},
+	{
+        "alarmId": 33,
+        "alarmComment": "S1: Sensor Signal Too Low"
+	},
+	{
+        "alarmId": 34,
+        "alarmComment": "S1: Sensor Signal Too High"
+	},
+	{
+        "alarmId": 35,
+        "alarmComment": "S1: Sensor Positive Wire Fault"
+	},
+	{
+        "alarmId": 36,
+        "alarmComment": "S1: Sensor Negative Wire Fault"
+	},
+	{
+        "alarmId": 37,
+        "alarmComment": "S1: Sensor Problem"
+	},
+	{
+        "alarmId": 38,
+        "alarmComment": "S2: Fail In Air"
+	},
+	{
+        "alarmId": 39,
+        "alarmComment": "S2: Signal Unstable"
+	},
+	{
+        "alarmId": 40,
+        "alarmComment": "S2: Water Level Rapid Change"
+	},
+	{
+        "alarmId": 41,
+        "alarmComment": "S2: Signal Turbulence"
+	},
+	{
+        "alarmId": 42,
+        "alarmComment": "S2: Sensor Signal Wire Fault"
+	},
+	{
+        "alarmId": 43,
+        "alarmComment": "S2: Sensor Signal Too Low"
+	},
+	{
+        "alarmId": 44,
+        "alarmComment": "S2: Sensor Signal Too High"
+	},
+	{
+        "alarmId": 45,
+        "alarmComment": "S2: Sensor Positive Wire Fault"
+	},
+	{
+        "alarmId": 46,
+        "alarmComment": "S2: Sensor Negative Wire Fault"
+	},
+	{
+        "alarmId": 47,
+        "alarmComment": "S2: Sensor Problem"
+      }
+    ],
     "events": [
-		{ "eventId": 1, "eventComment": "S1 Status Change" },
-		{ "eventId": 2, "eventComment": "S1 Daily Log" },
-		{ "eventId": 3, "eventComment": "S1 Status Change" },
-		{ "eventId": 4, "eventComment": "S1 Oil Signal Change" },
-		{ "eventId": 5, "eventComment": "S1 High Oil Signal Change" },
-		{ "eventId": 6, "eventComment": "Reserved" },
-		{ "eventId": 7, "eventComment": "S2 Status Change" },
-		{ "eventId": 8, "eventComment": "S2 Oil Signal Change" },
-		{ "eventId": 9, "eventComment": "S2 High Oil Signal Change" }
-	]
+	{
+        "eventId": 1,
+        "eventComment": "S1 Status Change"
+	},
+	{
+        "eventId": 2,
+        "eventComment": "S1 Daily Log"
+	},
+	{
+        "eventId": 3,
+        "eventComment": "S1 Status Change"
+	},
+	{
+        "eventId": 4,
+        "eventComment": "S1 Oil Signal Change"
+	},
+	{
+        "eventId": 5,
+        "eventComment": "S1 High Oil Signal Change"
+	},
+	{
+        "eventId": 6,
+        "eventComment": "Reserved"
+	},
+	{
+        "eventId": 7,
+        "eventComment": "S2 Status Change"
+	},
+	{
+        "eventId": 8,
+        "eventComment": "S2 Oil Signal Change"
+	},
+	{
+        "eventId": 9,
+        "eventComment": "S2 High Oil Signal Change"
+      }
+    ]
   }
 ]
