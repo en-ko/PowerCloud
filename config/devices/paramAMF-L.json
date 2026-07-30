@@ -5121,7 +5121,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -5491,6 +5491,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -5869,7 +5877,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 6,
         "valueMask": [
           {
@@ -6239,6 +6247,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -6617,7 +6633,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -6987,6 +7003,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -7365,7 +7389,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 2,
         "valueMask": [
           {
@@ -7735,6 +7759,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -8113,7 +8145,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 9,
         "valueMask": [
           {
@@ -8483,6 +8515,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -8861,7 +8901,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 10,
         "valueMask": [
           {
@@ -9231,6 +9271,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -9609,7 +9657,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -9979,6 +10027,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -10357,7 +10413,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 71,
         "valueMask": [
           {
@@ -10727,6 +10783,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -17634,7 +17698,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18004,6 +18068,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -18058,7 +18130,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18428,6 +18500,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -18482,7 +18562,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18852,6 +18932,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -18906,7 +18994,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19276,6 +19364,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -19330,7 +19426,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19700,6 +19796,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -19754,7 +19858,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20124,6 +20228,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -20178,7 +20290,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20548,6 +20660,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
@@ -20602,7 +20722,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 94,
+        "maxValue": 96,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20972,6 +21092,14 @@
           {
             "value": 93,
             "mask": "Auxiliary Capacitor"
+          },
+          {
+            "value": 95,
+            "mask": "DPF Lamp"
+          },
+          {
+            "value": 96,
+            "mask": "SCR Lamp"
           }
         ],
         "dataOperation": {
