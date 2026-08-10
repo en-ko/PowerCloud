@@ -968,6 +968,30 @@
 		"text_1" : "ECU Supply Output"
 	},
 	{
+		"id" : 941,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Lambası",
+		"text_1" : "DPF Lamp"
+	},
+	{
+		"id" : 942,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "SCR Lambası",
+		"text_1" : "SCR Lamp"
+	},
+	{
+		"id" : 943,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Üre Seviye Lambası",
+		"text_1" : "DEF Level Lamp"
+	},
+	{
 		"id" : 96,
 		"pixel" : 100,
 		"font" : "Arial Rounded MT Bold",
@@ -1382,6 +1406,22 @@
 		"fontSize" : "20",
 		"text_2" : "Jeneratör Faz Seçimi",
 		"text_1" : "Gen. Phase Selection"
+	},
+	{
+		"id" : 896,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Park Freni Anahtarı",
+		"text_1" : "Park Brake Switch"
+	},
+	{
+		"id" : 897,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Rejenerasyon Anahtarı",
+		"text_1" : "Regen Switch"
 	},
 	{
 		"id" : 137,
@@ -1985,7 +2025,7 @@
 	},
 	{
 		"id" : 877,
-		"pixel" : 256,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Hava Filtresi",
@@ -1993,7 +2033,7 @@
 	},
 	{
 		"id" : 878,
-		"pixel" : 257,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Egzoz Arıtma",
@@ -2001,7 +2041,7 @@
 	},
 	{
 		"id" : 879,
-		"pixel" : 258,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Güç Azaltma",
@@ -2009,7 +2049,7 @@
 	},
 	{
 		"id" : 880,
-		"pixel" : 259,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Motor Durdurma Limiti",
@@ -2017,7 +2057,7 @@
 	},
 	{
 		"id" : 881,
-		"pixel" : 260,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Yağ Seviyesi Düşük",
@@ -2025,7 +2065,7 @@
 	},
 	{
 		"id" : 882,
-		"pixel" : 261,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Yağ Seviyesi Yüksek",
@@ -2033,7 +2073,7 @@
 	},
 	{
 		"id" : 883,
-		"pixel" : 262,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Türbin Kapanmıyor",
@@ -2041,7 +2081,7 @@
 	},
 	{
 		"id" : 884,
-		"pixel" : 263,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Üre Seviyesi Düşük",
@@ -2049,7 +2089,7 @@
 	},
 	{
 		"id" : 885,
-		"pixel" : 264,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Üre Dolumu",
@@ -2057,7 +2097,7 @@
 	},
 	{
 		"id" : 886,
-		"pixel" : 265,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Üre Tankı Boş",
@@ -2065,7 +2105,7 @@
 	},
 	{
 		"id" : 887,
-		"pixel" : 266,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU SCR Tork Limiti",
@@ -2073,7 +2113,7 @@
 	},
 	{
 		"id" : 888,
-		"pixel" : 267,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU SCR Hız Limiti",
@@ -2081,7 +2121,7 @@
 	},
 	{
 		"id" : 889,
-		"pixel" : 268,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU SCR Dozlama Hatası",
@@ -2089,7 +2129,7 @@
 	},
 	{
 		"id" : 890,
-		"pixel" : 269,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU SCR Üre Kalitesi",
@@ -2097,11 +2137,59 @@
 	},
 	{
 		"id" : 891,
-		"pixel" : 270,
+		"pixel" : 255,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
 		"text_2" : "ECU Jen. Şarj Etmiyor",
 		"text_1" : "ECU Gen. Not Charging"
+	},
+	{
+		"id" : 895,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Manuel Rejen. İsteği",
+		"text_1" : "Manual Regen Request"
+	},
+	{
+		"id" : 936,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU Uyarı Lambası",
+		"text_1" : "ECU Warning Lamp"
+	},
+	{
+		"id" : 937,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU Hata Lambası",
+		"text_1" : "ECU Fault Lamp"
+	},
+	{
+		"id" : 938,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU DPF Lambası",
+		"text_1" : "ECU DPF Lamp"
+	},
+	{
+		"id" : 939,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU Regen Devre Dışı",
+		"text_1" : "ECU Regen Inhibited"
+	},
+	{
+		"id" : 940,
+		"pixel" : 255,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU HEST Lambası",
+		"text_1" : "ECU HEST Lamp"
 	},
 	{
 		"id" : 201,
@@ -4988,8 +5076,8 @@
 		"pixel" : 290,
 		"font" : "Arial Rounded MT Bold",
 		"fontSize" : "20",
-		"text_2" : "Can Rezerve5",
-		"text_1" : "Can Blank5"
+		"text_2" : "ECU Genel Hata Aksiyonu",
+		"text_1" : "ECU General Fault Action"
 	},
 	{
 		"id" : 521,
@@ -5310,6 +5398,174 @@
 		"fontSize" : "20",
 		"text_2" : "RS485 Seçimi",
 		"text_1" : "RS485 Selection"
+	},
+	{
+		"id" : 915,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-1",
+		"text_1" : "Can ECU SPN Filtre-1"
+	},
+	{
+		"id" : 916,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-2",
+		"text_1" : "Can ECU SPN Filtre-2"
+	},
+	{
+		"id" : 917,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-3",
+		"text_1" : "Can ECU SPN Filtre-3"
+	},
+	{
+		"id" : 918,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-4",
+		"text_1" : "Can ECU SPN Filtre-4"
+	},
+	{
+		"id" : 919,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-5",
+		"text_1" : "Can ECU SPN Filtre-5"
+	},
+	{
+		"id" : 920,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-6",
+		"text_1" : "Can ECU SPN Filtre-6"
+	},
+	{
+		"id" : 921,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-7",
+		"text_1" : "Can ECU SPN Filtre-7"
+	},
+	{
+		"id" : 922,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-8",
+		"text_1" : "Can ECU SPN Filtre-8"
+	},
+	{
+		"id" : 923,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-9",
+		"text_1" : "Can ECU SPN Filtre-9"
+	},
+	{
+		"id" : 924,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-10",
+		"text_1" : "Can ECU SPN Filtre-10"
+	},
+	{
+		"id" : 925,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-11",
+		"text_1" : "Can ECU SPN Filtre-11"
+	},
+	{
+		"id" : 926,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-12",
+		"text_1" : "Can ECU SPN Filtre-12"
+	},
+	{
+		"id" : 927,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-13",
+		"text_1" : "Can ECU SPN Filtre-13"
+	},
+	{
+		"id" : 928,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-14",
+		"text_1" : "Can ECU SPN Filtre-14"
+	},
+	{
+		"id" : 929,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-15",
+		"text_1" : "Can ECU SPN Filtre-15"
+	},
+	{
+		"id" : 930,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-16",
+		"text_1" : "Can ECU SPN Filtre-16"
+	},
+	{
+		"id" : 931,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-17",
+		"text_1" : "Can ECU SPN Filtre-17"
+	},
+	{
+		"id" : 932,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-18",
+		"text_1" : "Can ECU SPN Filtre-18"
+	},
+	{
+		"id" : 933,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-19",
+		"text_1" : "Can ECU SPN Filtre-19"
+	},
+	{
+		"id" : 934,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-20",
+		"text_1" : "Can ECU SPN Filtre-20"
+	},
+	{
+		"id" : 935,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Can ECU SPN Filter-21",
+		"text_1" : "Can ECU SPN Filtre-21"
 	},
 	{
 		"id" : 548,
@@ -7150,5 +7406,141 @@
 		"fontSize" : "20",
 		"text_2" : "Gnş. Kartı Ç8 Akt. Gec.",
 		"text_1" : "Ext. Board O8 Act. Delay"
+	},
+	{
+		"id" : 898,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Yakıt Debisi",
+		"text_1" : "Fuel Rate"
+	},
+	{
+		"id" : 899,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Motor Saati",
+		"text_1" : "Engine Hours"
+	},
+	{
+		"id" : 900,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Gaz Pedalı",
+		"text_1" : "Accel Pedal"
+	},
+	{
+		"id" : 901,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Kurum",
+		"text_1" : "DPF Soot"
+	},
+	{
+		"id" : 902,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Kül",
+		"text_1" : "DPF Ash"
+	},
+	{
+		"id" : 903,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Emme Hava Sıc.",
+		"text_1" : "Intake Temp"
+	},
+	{
+		"id" : 904,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Turbo Basıncı",
+		"text_1" : "Boost Pressure"
+	},
+	{
+		"id" : 905,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Motor Yükü",
+		"text_1" : "Engine Load"
+	},
+	{
+		"id" : 906,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Üre Seviyesi",
+		"text_1" : "Urea Level"
+	},
+	{
+		"id" : 907,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Rejen. Durumu",
+		"text_1" : "DPF Regen State"
+	},
+	{
+		"id" : 908,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Rejen. Sayacı",
+		"text_1" : "DPF Regen Timer"
+	},
+	{
+		"id" : 909,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "Toplam Yakıt",
+		"text_1" : "Total Fuel"
+	},
+	{
+		"id" : 910,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "OBD Hata Nedeni",
+		"text_1" : "OBD Fail Reason"
+	},
+	{
+		"id" : 911,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Durumu",
+		"text_1" : "DPF Status"
+	},
+	{
+		"id" : 912,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU Motor Bilgileri",
+		"text_1" : "ECU Engine Info"
+	},
+	{
+		"id" : 913,
+		"pixel" : 290,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "ECU Lambaları",
+		"text_1" : "ECU Lamps"
+	},
+	{
+		"id" : 914,
+		"pixel" : 185,
+		"font" : "Arial Rounded MT Bold",
+		"fontSize" : "20",
+		"text_2" : "DPF Rejen. İlerleme",
+		"text_1" : "DPF Regen Prog."
 	}
 ]
