@@ -5121,7 +5121,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -5499,6 +5499,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -5877,7 +5881,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 6,
         "valueMask": [
           {
@@ -6255,6 +6259,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -6633,7 +6641,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -7011,6 +7019,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -7389,7 +7401,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 2,
         "valueMask": [
           {
@@ -7767,6 +7779,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -8145,7 +8161,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 9,
         "valueMask": [
           {
@@ -8523,6 +8539,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -8901,7 +8921,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 10,
         "valueMask": [
           {
@@ -9279,6 +9299,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -9657,7 +9681,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -10035,6 +10059,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -10413,7 +10441,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 71,
         "valueMask": [
           {
@@ -10791,6 +10819,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -17698,7 +17730,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18076,6 +18108,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -18130,7 +18166,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18508,6 +18544,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -18562,7 +18602,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18940,6 +18980,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -18994,7 +19038,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19372,6 +19416,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -19426,7 +19474,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19804,6 +19852,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -19858,7 +19910,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20236,6 +20288,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -20290,7 +20346,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20668,6 +20724,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
@@ -20722,7 +20782,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 96,
+        "maxValue": 97,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -21100,6 +21160,10 @@
           {
             "value": 96,
             "mask": "SCR Lamp"
+          },
+          {
+            "value": 97,
+            "mask": "DEF Level Lamp"
           }
         ],
         "dataOperation": {
