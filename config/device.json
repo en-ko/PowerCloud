@@ -182,6 +182,13 @@
     "bMAddress": 19
   },
   {
+    "name": "AMF-M",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "bMAddress": 19
+  },
+  {
     "name": "CCS-S",
     "fileVersion": 1,
     "type": "device",
