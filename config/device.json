@@ -133,6 +133,29 @@
     }
   },
   {
+    "name": "DVR2400E",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator",
+    "enableGClassTest" : true, 
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 703,
+      "endAddress" : 766,
+      "indexAddress" : 701
+    },
+    "eventLog": false,
+    "eventLogOptions":{
+      "startAddress" : 100,
+      "endAddress" : 110
+    },
+    "bMAddress": 200,
+    "deviceID" :{
+      "type" : "block",
+      "readAddress" : 168
+    }
+  },  
+  {
     "name": "AMF-S",
     "fileVersion": 1,
     "type": "device",
