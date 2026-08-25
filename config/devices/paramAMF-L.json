@@ -3814,7 +3814,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 20,
+        "maxValue": 22,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -3900,6 +3900,14 @@
           {
             "value": 20,
             "mask": "Scania S8 Allspeed"
+          },
+          {
+            "value": 21,
+            "mask": "Perkins ECM"
+          },
+          {
+            "value": 22,
+            "mask": "Perkins ADEM A6E11(1200J)"
           }
         ],
         "dataOperation": {
@@ -24503,8 +24511,8 @@
       },
       {
         "id": 3098,
-        "version": 1011,
-        "name": "Mains Image",
+        "version": 1042,
+        "name": "ECU Diesel Particulate Filter Regeneration Progress",
         "group": "Monitoring",
         "unit": "",
         "modbusAddress": 3098,
@@ -24521,13 +24529,13 @@
           "operationValue": ""
         },
         "readOnly": true,
-        "comment": "",
+        "comment": "DPF active regeneration state. Perkins ADEM A6E11: DPFC1 (FD7C) byte 2 bit 3-4. Scania EME1: DPFC1 (FD7C).",
         "relation": []
       },
       {
         "id": 3099,
         "version": 1011,
-        "name": "Gen Image",
+        "name": "Mains Image",
         "group": "Monitoring",
         "unit": "",
         "modbusAddress": 3099,
@@ -24548,32 +24556,9 @@
         "relation": []
       },
       {
-        "id": 3100,
-        "version": 1011,
-        "name": "Load Image",
-        "group": "Monitoring",
-        "unit": "",
-        "modbusAddress": 3100,
-        "dataLength": 1,
-        "coef": 0,
-        "signed": true,
-        "view": "",
-        "minValue": -32768,
-        "maxValue": 32767,
-        "defaultValue": 0,
-        "valueMask": [],
-        "dataOperation": {
-          "operation": "",
-          "operationValue": ""
-        },
-        "readOnly": true,
-        "comment": "",
-        "relation": []
-      },
-      {
         "id": 3101,
         "version": 1011,
-        "name": "MCB Image",
+        "name": "Gen Image",
         "group": "Monitoring",
         "unit": "",
         "modbusAddress": 3101,
@@ -24596,7 +24581,7 @@
       {
         "id": 3102,
         "version": 1011,
-        "name": "GCB Image",
+        "name": "Load Image",
         "group": "Monitoring",
         "unit": "",
         "modbusAddress": 3102,
@@ -24614,6 +24599,259 @@
         },
         "readOnly": true,
         "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3103,
+        "version": 1011,
+        "name": "MCB Image",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3103,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3104,
+        "version": 1011,
+        "name": "GCB Image",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3104,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3105,
+        "version": 1042,
+        "name": "ECU Coolant Level",
+        "group": "Monitoring",
+        "unit": "%",
+        "modbusAddress": 3105,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 111 Engine Coolant Level. Engine Fluid Level/Pressure 1 (FEEF) byte 8, 0.4 %/bit.",
+        "relation": []
+      },
+      {
+        "id": 3106,
+        "version": 1042,
+        "name": "ECU Fuel Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3106,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 174 Engine Fuel Temperature 1. Engine Temperature 1 (FEEE) byte 2, 1 °C/bit, offset -40.",
+        "relation": []
+      },
+      {
+        "id": 3107,
+        "version": 1042,
+        "name": "ECU Actual Torque",
+        "group": "Monitoring",
+        "unit": "%",
+        "modbusAddress": 3107,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 513 Actual Engine Percent Torque. EEC1 (F004) byte 3, 1 %/bit, offset -125. Signed: negative means motoring.",
+        "relation": []
+      },
+      {
+        "id": 3108,
+        "version": 1042,
+        "name": "ECU Wait To Start",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3108,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 1081 Engine Wait To Start Lamp. Shutdown (FEE4) byte 4 bit 1-2. 0: lamp off, 1: wait, 2: error.",
+        "relation": []
+      },
+      {
+        "id": 3109,
+        "version": 1042,
+        "name": "ECU Battery Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "modbusAddress": 3109,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 168 Battery Potential measured at the engine harness. Vehicle Electrical Power 1 (FEF7) byte 5-6, stored in 0.1 V steps.",
+        "relation": []
+      },
+      {
+        "id": 3110,
+        "version": 1042,
+        "name": "ECU Keyswitch Voltage",
+        "group": "Monitoring",
+        "unit": "V",
+        "modbusAddress": 3110,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 158 Keyswitch Battery Potential. Vehicle Electrical Power 1 (FEF7) byte 7-8, stored in 0.1 V steps.",
+        "relation": []
+      },
+      {
+        "id": 3111,
+        "version": 1042,
+        "name": "ECU Selective Catalytic Reduction State",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3111,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 4332 AT1 SCR System State. AT1 SCR Dosing System Information 1 (F023) byte 3 bit 1-4, 16 states. 15 (not available) is not stored, so the shown range is 0-14.",
+        "relation": []
+      },
+      {
+        "id": 3112,
+        "version": 1042,
+        "name": "ECU Aftertreatment Speed Increase Request",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3112,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 7502 Aftertreatment Engine Speed Increase Request. Aftertreatment System Information (FC31). 0: no request, 1: speed control requested, 2: urgent.",
+        "relation": []
+      },
+      {
+        "id": 3113,
+        "version": 1042,
+        "name": "ECU Diesel Exhaust Fluid Tank Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3113,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "SPN 3031 AT1 DEF Tank Temperature. AT1 DEF Tank 1 (FE56) byte 2, 1 °C/bit, offset -40. Signed: DEF freezes near -11 °C.",
         "relation": []
       },
       {

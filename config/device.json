@@ -199,7 +199,7 @@
   },
   {
     "name": "AMF-L",
-    "fileVersion": 5,
+    "fileVersion": 6,
     "type": "device",
     "deviceType": "Generator",
     "bMAddress": 19
