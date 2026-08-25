@@ -111,7 +111,7 @@
   },
   {
     "name": "DAVR100",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
@@ -134,7 +134,7 @@
   },
   {
     "name": "DVR2400E",
-    "fileVersion": 1,
+    "fileVersion": 2,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
