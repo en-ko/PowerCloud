@@ -1,11 +1,12 @@
 [
   {
     "object": "config",
-    "pageCount": 4,
+    "pageCount": 5,
     "pageTitle": [
       "Monitoring",
       "Set Point",
       "Configuration",
+      "Protections",
       "Protections"
     ]
   },
@@ -549,7 +550,7 @@
     },
     "itemList": [
       {
-        "id": 400,
+        "paramId": 400,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -557,7 +558,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 402,
+        "paramId": 402,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -565,7 +566,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 403,
+        "paramId": 403,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -573,7 +574,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 406,
+        "paramId": 406,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -602,7 +603,7 @@
     },
     "itemList": [
       {
-        "id": 418,
+        "paramId": 418,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -610,7 +611,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 419,
+        "paramId": 419,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -618,7 +619,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 422,
+        "paramId": 422,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -649,7 +650,7 @@
     },
     "itemList": [
       {
-        "id": 425,
+        "paramId": 425,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -657,7 +658,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 426,
+        "paramId": 426,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -665,7 +666,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 427,
+        "paramId": 427,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -673,7 +674,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 430,
+        "paramId": 430,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -681,7 +682,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 431,
+        "paramId": 431,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -712,7 +713,7 @@
     },
     "itemList": [
       {
-        "id": 433,
+        "paramId": 433,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -720,7 +721,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 434,
+        "paramId": 434,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -728,7 +729,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 435,
+        "paramId": 435,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -736,7 +737,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 438,
+        "paramId": 438,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -744,7 +745,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 439,
+        "paramId": 439,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -775,7 +776,7 @@
     },
     "itemList": [
       {
-        "id": 441,
+        "paramId": 441,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -783,7 +784,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 442,
+        "paramId": 442,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -791,7 +792,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 443,
+        "paramId": 443,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -799,7 +800,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 446,
+        "paramId": 446,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -807,7 +808,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 447,
+        "paramId": 447,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -838,7 +839,7 @@
     },
     "itemList": [
       {
-        "id": 448,
+        "paramId": 448,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -846,7 +847,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 450,
+        "paramId": 450,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -854,7 +855,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 451,
+        "paramId": 451,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -862,7 +863,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 454,
+        "paramId": 454,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -870,7 +871,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 455,
+        "paramId": 455,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -901,7 +902,7 @@
     },
     "itemList": [
       {
-        "id": 456,
+        "paramId": 456,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -909,7 +910,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 458,
+        "paramId": 458,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -917,7 +918,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 459,
+        "paramId": 459,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -925,7 +926,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 462,
+        "paramId": 462,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -933,7 +934,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 463,
+        "paramId": 463,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -964,7 +965,7 @@
     },
     "itemList": [
       {
-        "id": 464,
+        "paramId": 464,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -972,7 +973,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 466,
+        "paramId": 466,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -980,7 +981,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 467,
+        "paramId": 467,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -988,7 +989,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 470,
+        "paramId": 470,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -996,7 +997,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 471,
+        "paramId": 471,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1027,7 +1028,7 @@
     },
     "itemList": [
       {
-        "id": 476,
+        "paramId": 476,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1035,7 +1036,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 482,
+        "paramId": 482,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1043,7 +1044,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 483,
+        "paramId": 483,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1051,7 +1052,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 486,
+        "paramId": 486,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1059,7 +1060,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 487,
+        "paramId": 487,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1089,7 +1090,7 @@
     },
     "itemList": [
       {
-        "id": 490,
+        "paramId": 490,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1097,7 +1098,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 491,
+        "paramId": 491,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1105,7 +1106,7 @@
         "valueIsItalic": false
       },
       {
-        "id": 494,
+        "paramId": 494,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
@@ -1113,12 +1114,195 @@
         "valueIsItalic": false
       },
       {
-        "id": 495,
+        "paramId": 495,
         "nameIsBold": true,
         "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
         "valueIsBold": false,
         "valueIsItalic": false
+      }
+    ]
+  },
+   {
+    "object": "dataTable",
+    "page": 5,
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "width": "1200px",
+    "height": "400px",
+    "columns": [
+      {
+        "title": "Description",
+        "width": "25%",
+        "align": "left"
+      },
+      {
+        "title": "Enabled",
+        "width": "15%",
+        "align": "center"
+      },
+      {
+        "title": "Treshold",
+        "width": "15%",
+        "align": "center"
+      },
+      {
+        "title": "Delay",
+        "width": "15%",
+        "align": "center"
+      },
+      {
+        "title": "Relay",
+        "width": "15%",
+        "align": "center"
+      },
+      {
+        "title": "Trip",
+        "width": "15%",
+        "align": "center"
+      }
+    ],
+    "rows": [
+      {
+        "rowConditions": [
+          {
+            "conditionParamId": 403,
+            "compareValue": "Enabled",
+            "operator": "eq"
+          }
+        ],
+        "cells": [
+          {
+            "type": "static",
+            "value": "OEX Protection"
+          },
+          {
+            "type": "param",
+            "paramId": 403
+          },
+          {
+            "type": "param",
+            "paramId": 400
+          },
+          {
+            "type": "param",
+            "paramId": 402
+          },
+          {
+            "type": "param",
+            "paramId": 406
+          },
+          {
+            "type": "static",
+            "value": "Undefined"
+          }
+        ]
+      },
+      {
+        "rowConditions": [
+          {
+            "conditionParamId": 451,
+            "compareValue": "Enabled",
+            "operator": "eq"
+          }
+        ],
+        "cells": [
+          {
+            "type": "static",
+            "value": "GCL Protection"
+          },
+          {
+            "type": "param",
+            "paramId": 451
+          },
+          {
+            "type": "param",
+            "paramId": 448
+          },
+          {
+            "type": "param",
+            "paramId": 450
+          },
+          {
+            "type": "param",
+            "paramId": 454
+          },
+          {
+            "type": "param",
+            "paramId": 455
+          }
+        ]
+      },
+      {
+        "rowConditions": [
+          {
+            "conditionParamId": 459,
+            "compareValue": "Enabled",
+            "operator": "eq"
+          }
+        ],
+        "cells": [
+          {
+            "type": "static",
+            "value": "WTA Protection"
+          },
+          {
+            "type": "param",
+            "paramId": 459
+          },
+          {
+            "type": "param",
+            "paramId": 456
+          },
+          {
+            "type": "param",
+            "paramId": 458
+          },
+          {
+            "type": "param",
+            "paramId": 462
+          },
+          {
+            "type": "param",
+            "paramId": 463
+          }
+        ]
+      },
+      {
+        "rowConditions": [
+          {
+            "conditionParamId": 467,
+            "compareValue": "Enabled",
+            "operator": "eq"
+          }
+        ],
+        "cells": [
+          {
+            "type": "static",
+            "value": "WTL Protection"
+          },
+          {
+            "type": "param",
+            "paramId": 467
+          },
+          {
+            "type": "param",
+            "paramId": 464
+          },
+          {
+            "type": "param",
+            "paramId": 466
+          },
+          {
+            "type": "param",
+            "paramId": 470
+          },
+          {
+            "type": "param",
+            "paramId": 471
+          }
+        ]
       }
     ]
   },
