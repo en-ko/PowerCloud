@@ -23,7 +23,7 @@
         "name": "AVR Ready",
         "conditions": [
           {
-            "paramId": 43,
+            "conditionParamId": 43,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -36,7 +36,7 @@
         "name": "Calibration Ready",
         "conditions": [
           {
-            "paramId": 41,
+            "conditionParamId": 41,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -48,7 +48,7 @@
         "name": "Configuration Ready",
         "conditions": [
           {
-            "paramId": 42,
+            "conditionParamId": 42,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -60,7 +60,7 @@
         "name": "USB Communication",
         "conditions": [
           {
-            "paramId": 44,
+            "conditionParamId": 44,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -72,7 +72,7 @@
         "name": "Output Short Circuit",
         "conditions": [
           {
-            "paramId": 50,
+            "conditionParamId": 50,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -84,7 +84,7 @@
         "name": "UFRO Enabled",
         "conditions": [
           {
-            "paramId": 49,
+            "conditionParamId": 49,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -96,7 +96,7 @@
         "name": "Relay Enabled",
         "conditions": [
           {
-            "paramId": 51,
+            "conditionParamId": 51,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -108,7 +108,7 @@
         "name": "Output Cutoff",
         "conditions": [
           {
-            "paramId": 52,
+            "conditionParamId": 52,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -120,7 +120,7 @@
         "name": "12V Ready",
         "conditions": [
           {
-            "paramId": 46,
+            "conditionParamId": 46,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -133,7 +133,7 @@
         "name": "Heatsink NTC Fault",
         "conditions": [
           {
-            "paramId": 274,
+            "conditionParamId": 274,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -141,7 +141,7 @@
             "color": "red"
           },
           {
-            "paramId": 273,
+            "conditionParamId": 273,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -165,7 +165,7 @@
         "name": "Over Excitation",
         "conditions": [
           {
-            "paramId": 55,
+            "conditionParamId": 55,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -177,7 +177,7 @@
         "name": "Field IDMT Triggered",
         "conditions": [
           {
-            "paramId": 53,
+            "conditionParamId": 53,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -189,7 +189,7 @@
         "name": "Loss Of Sense",
         "conditions": [
           {
-            "paramId": 57,
+            "conditionParamId": 57,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -201,7 +201,7 @@
         "name": "Generator Over Voltage",
         "conditions": [
           {
-            "paramId": 58,
+            "conditionParamId": 58,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -213,7 +213,7 @@
         "name": "Generator Under Voltage",
         "conditions": [
           {
-            "paramId": 59,
+            "conditionParamId": 59,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -225,7 +225,7 @@
         "name": "Stator Unbalanced Voltage",
         "conditions": [
           {
-            "paramId": 60,
+            "conditionParamId": 60,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -237,7 +237,7 @@
         "name": "Generator Current Limit",
         "conditions": [
           {
-            "paramId": 61,
+            "conditionParamId": 61,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -249,7 +249,7 @@
         "name": "Heatsink Temperature Alarm",
         "conditions": [
           {
-            "paramId": 64,
+            "conditionParamId": 64,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -261,7 +261,7 @@
         "name": "Heatsink Temperature Limit",
         "conditions": [
           {
-            "paramId": 65,
+            "conditionParamId": 65,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -273,7 +273,7 @@
         "name": "Stator IDMT Triggered",
         "conditions": [
           {
-            "paramId": 54,
+            "conditionParamId": 54,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -285,7 +285,7 @@
         "name": "Motor Start Failure",
         "conditions": [
           {
-            "paramId": 62,
+            "conditionParamId": 62,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -297,7 +297,7 @@
         "name": "Rotating Diode Failure",
         "conditions": [
           {
-            "paramId": 63,
+            "conditionParamId": 63,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
