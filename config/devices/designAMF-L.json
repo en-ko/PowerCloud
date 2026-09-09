@@ -10,7 +10,7 @@
   {
     "object": "progressgauge",
     "page": 1,
-    "row": 1,
+    "row": 2,
     "side": "center",
     "paramId": [
       3001,
@@ -21,7 +21,7 @@
   {
     "object": "progressgauge",
     "page": 1,
-    "row": 1,
+    "row": 2,
     "side": "center",
     "paramId": [
       3004
@@ -30,7 +30,7 @@
   {
     "object": "progressgauge",
     "page": 1,
-    "row": 2,
+    "row": 3,
     "side": "center",
     "paramId": [
       3011,
@@ -41,7 +41,7 @@
   {
     "object": "progressgauge",
     "page": 1,
-    "row": 2,
+    "row": 3,
     "side": "center",
     "paramId": [
       3014
@@ -50,7 +50,7 @@
   {
     "object": "datacard",
     "page": 1,
-    "row": 3,
+    "row": 4,
     "side": "center",
     "width": "160px",
     "height": "70px",
@@ -65,7 +65,7 @@
   {
     "object": "datacard",
     "page": 1,
-    "row": 4,
+    "row": 5,
     "side": "center",
     "width": "160px",
     "height": "70px",
@@ -80,7 +80,7 @@
   {
     "object": "datacard",
     "page": 1,
-    "row": 5,
+    "row": 6,
     "side": "center",
     "width": "160px",
     "height": "70px",
@@ -96,7 +96,7 @@
   {
     "object": "datacard",
     "page": 1,
-    "row": 6,
+    "row": 7,
     "side": "center",
     "width": "160px",
     "height": "70px",
@@ -112,7 +112,7 @@
   {
     "object": "pressuregauge",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "left",
     "paramId": [
       3049
@@ -122,7 +122,7 @@
   {
     "object": "temperaturegauge",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "left",
     "paramId": [
       3050
@@ -132,7 +132,7 @@
   {
     "object": "temperaturegauge",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "left",
     "paramId": [
       3052
@@ -142,7 +142,7 @@
   {
     "object": "gradegauge",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "left",
     "width": "180px",
     "paramId": [
@@ -309,7 +309,7 @@
     "side": "right",
     "title": "Inputs",
     "width": "300px",
-    "height": "380px",
+    "height": "480px",
     "itemList": [
       {
         "name": "Digital Input-1",
@@ -505,51 +505,13 @@
     ]
   },
   {
-    "object": "text",
-    "page": 1,
-    "row": 1,
-    "width": "380px",
-    "height": "60px",
-    "side": "left",
-    "name": "Mode",
-    "valueFontSize": "24px",
-    "valueIsBold": true,
-    "conditions": [
-      {
-        "conditionParamId": 68,
-        "compareValue": "Stop Mode",
-        "operator": "eq",
-        "text": "Stop Mode"
-      },
-      {
-        "conditionParamId": 68,
-        "compareValue": "Auto Mode",
-        "operator": "eq",
-        "text": "Auto Mode"
-      },
-      {
-        "conditionParamId": 68,
-        "compareValue": "Test Mode",
-        "operator": "eq",
-        "text": "Test Mode"
-      },
-      {
-        "conditionParamId": 68,
-        "compareValue": "Manual Mode",
-        "operator": "eq",
-        "text": "Manual Mode"
-      }
-    ]
-  },
-  {
     "object": "ledindicator",
     "page": 1,
-    "row": 4,
+    "row": 3,
     "side": "left",
     "title": "Alarm Indicator",
-    "titleColor": "red",
     "width": "380px",
-    "height": "320px",
+    "height": "520px",
     "hideIfNoConditions": true,
     "itemList": [
       {
@@ -1792,32 +1754,262 @@
   {
     "object": "button",
     "page": 1,
-    "row": 2,
-    "side": "left",
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
     "title": "Start",
     "nameFontSize": "16px",
     "nameIsBold": true,
     "nameIsItalic": false,
     "nameColor": "white",
     "image": "start.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
     "actionType": "setValue",
-    "actionParamId": 68,
-    "actionValue": 1
+    "actionParamId": 20,
+    "actionValue": 10,
+    "conditions": [
+      {
+        "conditionParamId": 68,
+        "compareValue": "Test Mode",
+        "operator": "neq",
+        "isDisabled": true,
+        "andConditions": [
+          {
+            "conditionParamId": 68,
+            "compareValue": "Manual Mode",
+            "operator": "neq"
+          }
+        ]
+      }
+    ]
   },
   {
     "object": "button",
     "page": 1,
-    "row": 2,
-    "side": "left",
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
     "title": "Stop",
     "nameFontSize": "16px",
     "nameIsBold": true,
     "nameIsItalic": false,
     "nameColor": "white",
     "image": "stop.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
     "actionType": "setValue",
-    "actionParamId": 68,
-    "actionValue": 0
+    "actionParamId": 20,
+    "actionValue": 11,
+    "conditions": [
+      {
+        "conditionParamId": 68,
+        "compareValue": "Stop Mode",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "title": "Auto",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "auto.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 13,
+    "conditions": [
+      {
+        "conditionParamId": 68,
+        "compareValue": "Auto Mode",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "title": "Manual",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "manual.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 16,
+    "conditions": [
+      {
+        "conditionParamId": 68,
+        "compareValue": "Manual Mode",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "name": "TEST",
+    "title": "Test",
+    "nameFontSize": "18px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 17,
+    "conditions": [
+      {
+        "conditionParamId": 68,
+        "compareValue": "Test Mode",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "title": "Gen Load (GCB)",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "generator.png",
+    "imageWidth": "75px",
+    "imageHeight": "50px",
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 9,
+    "conditions": [
+      {
+        "conditionParamId": 3104,
+        "compareValue": "1",
+        "operator": "eq",
+        "isDisabled": true,
+        "backgroundColor": "#2E7D32",
+        "andConditions": [
+          {
+            "conditionParamId": 68,
+            "compareValue": "Manual Mode",
+            "operator": "neq"
+          }
+        ]
+      },
+      {
+        "conditionParamId": 3104,
+        "compareValue": "1",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      },
+      {
+        "conditionParamId": 68,
+        "compareValue": "Manual Mode",
+        "operator": "neq",
+        "isDisabled": true
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "title": "Mains Load (MCB)",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "mains.png",
+    "imageWidth": "50px",
+    "imageHeight": "60px",
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 12,
+    "conditions": [
+      {
+        "conditionParamId": 3103,
+        "compareValue": "1",
+        "operator": "eq",
+        "isDisabled": true,
+        "backgroundColor": "#2E7D32",
+        "andConditions": [
+          {
+            "conditionParamId": 68,
+            "compareValue": "Manual Mode",
+            "operator": "neq"
+          }
+        ]
+      },
+      {
+        "conditionParamId": 3103,
+        "compareValue": "1",
+        "operator": "eq",
+        "backgroundColor": "#2E7D32"
+      },
+      {
+        "conditionParamId": 68,
+        "compareValue": "Manual Mode",
+        "operator": "neq",
+        "isDisabled": true
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 1,
+    "side": "center",
+    "width": "90px",
+    "height": "90px",
+    "title": "Alarm Reset",
+    "nameFontSize": "16px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "nameColor": "white",
+    "image": "alarmClear.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
+    "actionType": "setValue",
+    "actionParamId": 20,
+    "actionValue": 14,
+    "conditions": [
+      {
+        "conditionParamId": 3074,
+        "compareValue": "0",
+        "operator": "eq",
+        "isDisabled": true
+      }
+    ]
   },
   {
     "object": "datalist",
