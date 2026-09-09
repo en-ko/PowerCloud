@@ -235,13 +235,54 @@
         "minValue": 0,
         "maxValue": 18,
         "defaultValue": 0,
-        "valueMask": [],
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "None"
+          },
+          {
+            "value": 9,
+            "mask": "Gen Load"
+          },
+          {
+            "value": 10,
+            "mask": "Start"
+          },
+          {
+            "value": 11,
+            "mask": "Stop"
+          },
+          {
+            "value": 12,
+            "mask": "Mains Load"
+          },
+          {
+            "value": 13,
+            "mask": "Auto"
+          },
+          {
+            "value": 14,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 15,
+            "mask": "Alarm Reset Long"
+          },
+          {
+            "value": 16,
+            "mask": "Manual"
+          },
+          {
+            "value": 17,
+            "mask": "Test"
+          }
+        ],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Injects a front panel keypress remotely. The written value acts exactly like the corresponding panel button. Only the values listed are accepted, any other value is cleared to 0 by the device. Start is only accepted in Test or Manual mode. Gen Load and Mains Load are only accepted in Manual mode and toggle the related contactor. Stop is always accepted and forces Stop mode.",
         "relation": []
       },
       {
