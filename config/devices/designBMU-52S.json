@@ -1,7 +1,7 @@
 [
   {
     "object": "config",
-    "pageCount": 3,
+    "pageCount": 2,
     "pageTitle_1": [
       "BMU İZLEME",
       "ANALOG GÖSTERGE"
@@ -41,24 +41,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -72,24 +76,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -103,24 +111,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -134,24 +146,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -165,24 +181,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -196,24 +216,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -227,24 +251,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -258,24 +286,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -289,24 +321,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -320,24 +356,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -351,24 +391,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -382,24 +426,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -413,24 +461,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -444,24 +496,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -475,24 +531,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -506,24 +566,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3114,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3130,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3118,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3134,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -537,24 +601,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -568,24 +636,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -599,24 +671,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -630,24 +706,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -661,24 +741,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -692,24 +776,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -723,24 +811,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -754,24 +846,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -785,24 +881,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -816,24 +916,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       }
@@ -863,24 +967,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -894,24 +1002,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -925,24 +1037,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -956,24 +1072,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -987,24 +1107,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1018,24 +1142,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3115,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3131,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3119,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3135,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1049,24 +1177,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1080,24 +1212,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1111,24 +1247,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1142,24 +1282,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1173,24 +1317,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1204,24 +1352,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1235,24 +1387,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1266,24 +1422,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1297,24 +1457,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1328,24 +1492,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1359,24 +1527,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1390,24 +1562,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1421,24 +1597,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1452,24 +1632,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1483,24 +1667,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1514,24 +1702,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3116,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3132,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3120,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3136,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1545,24 +1737,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3117,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3133,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3121,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3137,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1576,24 +1772,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3117,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3133,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3121,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3137,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1607,24 +1807,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3117,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3133,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3121,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3137,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1638,24 +1842,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 14501,
-            "operator": "gte",
+            "compareParamId": 3117,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 14502,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3133,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 14503,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3121,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 14504,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3137,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       }
@@ -1685,24 +1893,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1716,24 +1928,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1747,24 +1963,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1778,24 +1998,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1809,24 +2033,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1840,24 +2068,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1871,24 +2103,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1902,24 +2138,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1933,24 +2173,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1964,24 +2208,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -1995,24 +2243,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2026,24 +2278,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2057,24 +2313,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2088,24 +2348,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2119,24 +2383,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2150,24 +2418,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3106,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3122,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3110,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3126,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2181,24 +2453,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2212,24 +2488,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2243,24 +2523,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2274,24 +2558,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2305,24 +2593,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2336,24 +2628,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2367,24 +2663,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2398,24 +2698,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2429,24 +2733,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2460,24 +2768,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       }
@@ -2507,24 +2819,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2538,24 +2854,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2569,24 +2889,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2600,24 +2924,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2631,24 +2959,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2662,24 +2994,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3107,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3123,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3111,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3127,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2693,24 +3029,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2724,24 +3064,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2755,24 +3099,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2786,24 +3134,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2817,24 +3169,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "4",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2848,24 +3204,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "5",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2879,24 +3239,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "6",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2910,24 +3274,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "7",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2941,24 +3309,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "8",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -2972,24 +3344,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "9",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3003,24 +3379,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "10",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3034,24 +3414,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "11",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3065,24 +3449,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "12",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3096,24 +3484,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "13",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3127,24 +3519,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "14",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3158,24 +3554,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3108,
+            "compareValue": "15",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3124,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3112,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3128,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3189,24 +3589,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3109,
+            "compareValue": "0",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3125,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3113,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3129,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3220,24 +3624,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3109,
+            "compareValue": "1",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3125,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3113,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3129,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3251,24 +3659,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3109,
+            "compareValue": "2",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3125,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3113,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3129,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       },
@@ -3282,24 +3694,28 @@
             "textColor": "#ffffff"
           },
           {
-            "compareParamId": 528,
-            "operator": "gte",
+            "compareParamId": 3109,
+            "compareValue": "3",
+            "operator": "bitOne",
             "textColor": "red"
           },
           {
-            "compareParamId": 533,
-            "operator": "gte",
-            "textColor": "yellow"
+            "compareParamId": 3125,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "orange"
           },
           {
-            "compareParamId": 535,
-            "operator": "lte",
-            "textColor": "red"
+            "compareParamId": 3113,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#0E38E9"
           },
           {
-            "compareParamId": 540,
-            "operator": "lte",
-            "textColor": "yellow"
+            "compareParamId": 3129,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "textColor": "#00FFFF"
           }
         ]
       }
@@ -4725,10 +5141,26 @@
     "valueIsBold": true,
     "valueIsItalic": false,
     "paramId": [
+      3,
       3011,
       3065
     ],
     "conditions": []
+  },
+      {
+    "object": "datacard",
+    "page": 1,
+    "row": 3,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      55
+    ]
   },
     {
     "object": "datacard",
@@ -4762,13 +5194,13 @@
     "conditions": [
       {
         "conditionParamId": 14,
-        "compareParamId": 661,
+        "compareParamId": 1164,
         "operator": "lte",
         "backgroundColor": "red"
       },
       {
         "conditionParamId": 14,
-        "compareParamId": 666,
+        "compareParamId": 1169,
         "operator": "lte",
         "backgroundColor": "orange"
       }
@@ -4938,28 +5370,28 @@
         "textColor": "#ffffff"
       },
       {
-        "conditionParamId": 3066,
-        "compareParamId": 514,
-        "operator": "gte",
+        "conditionParamId": 4003,
+        "compareValue": "1",
+        "operator": "bitOne",
         "backgroundColor": "red"
       },
       {
-        "conditionParamId": 3066,
-        "compareParamId": 519,
-        "operator": "gte",
+        "conditionParamId": 4003,
+        "compareValue": "9",
+        "operator": "bitOne",
         "backgroundColor": "orange"
       },
       {
-        "conditionParamId": 3066,
-        "compareParamId": 521,
-        "operator": "lte",
-        "backgroundColor": "red"
+        "conditionParamId": 4006,
+        "compareValue": "1",
+        "operator": "bitOne",
+        "backgroundColor": "#0E38E9"
       },
       {
-        "conditionParamId": 3066,
-        "compareParamId": 526,
-        "operator": "lte",
-        "backgroundColor": "orange"
+        "conditionParamId": 4006,
+        "compareValue": "9",
+        "operator": "bitOne",
+        "backgroundColor": "#00FFFF"
       }
     ]
   },
@@ -4984,18 +5416,6 @@
         "operator": "eq",
         "fixedValue": "NaN",
         "textColor": "#ffffff"
-      },
-      {
-        "conditionParamId": 14505,
-        "compareParamId": 14506,
-        "operator": "gte",
-        "backgroundColor": "red"
-      },
-      {
-        "conditionParamId": 14505,
-        "compareParamId": 14507,
-        "operator": "gte",
-        "backgroundColor": "orange"
       }
     ]
   },
@@ -5151,15 +5571,15 @@
     "conditions": [
       {
         "conditionParamId": 381,
-        "compareParamId": 792,
+        "compareParamId": 1297,
         "operator": "gte",
         "backgroundColor": "orange"
       },
       {
         "conditionParamId": 381,
-        "compareParamId": 785,
+        "compareParamId": 1290,
         "operator": "lte",
-        "backgroundColor": "orange"
+        "backgroundColor": "#00FFFF"
       }
     ]
   },
@@ -5177,7 +5597,7 @@
     "valueColor": "white",
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5202,7 +5622,7 @@
     "paramId": 392,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5224,7 +5644,7 @@
     "paramId": 393,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5246,7 +5666,7 @@
     "paramId": 394,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5268,7 +5688,7 @@
     "paramId": 395,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5290,7 +5710,7 @@
     "paramId": 382,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5312,7 +5732,7 @@
     "paramId": 388,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5334,7 +5754,7 @@
     "paramId": 384,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5362,7 +5782,7 @@
     "paramId": 385,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5390,7 +5810,7 @@
     "paramId": 396,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5418,7 +5838,7 @@
     "paramId": 386,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5446,7 +5866,7 @@
     "paramId": 387,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5474,7 +5894,7 @@
     "paramId": 383,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5496,7 +5916,7 @@
     "valueColor": "white",
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5521,7 +5941,7 @@
     "paramId": 3087,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5546,38 +5966,10 @@
     "valueFontSize": "20px",
     "valueIsBold": true,
     "valueIsItalic": false,
-    "paramId": 3088,
-    "conditions": [
-      {
-        "conditionParamId": 22,
-        "compareValue": "0",
-        "operator": "eq",
-        "backgroundColor": "gray",
-        "fixedValue": "NaN"
-      },
-      {
-        "conditionParamId": 3088,
-        "compareValue": "3276.7",
-        "operator": "eq",
-        "fixedValue": "NaN"
-      }
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 4,
-    "side": "right",
-    "nameFontSize": "20px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "valueFontSize": "20px",
-    "valueIsBold": true,
-    "valueIsItalic": false,
     "paramId": 3089,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5605,7 +5997,7 @@
     "paramId": 3090,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5613,6 +6005,62 @@
       },
       {
         "conditionParamId": 3090,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN"
+      }
+    ]
+  },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": 3092,
+    "conditions": [
+      {
+        "conditionParamId": 3140,
+        "compareValue": "0",
+        "operator": "eq",
+        "backgroundColor": "gray",
+        "fixedValue": "NaN"
+      },
+      {
+        "conditionParamId": 3092,
+        "compareValue": "3276.7",
+        "operator": "eq",
+        "fixedValue": "NaN"
+      }
+    ]
+  },
+    {
+    "object": "datacard",
+    "page": 1,
+    "row": 4,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": 3088,
+    "conditions": [
+      {
+        "conditionParamId": 3140,
+        "compareValue": "0",
+        "operator": "eq",
+        "backgroundColor": "gray",
+        "fixedValue": "NaN"
+      },
+      {
+        "conditionParamId": 3088,
         "compareValue": "3276.7",
         "operator": "eq",
         "fixedValue": "NaN"
@@ -5633,7 +6081,7 @@
     "paramId": 3091,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5658,38 +6106,10 @@
     "valueFontSize": "20px",
     "valueIsBold": true,
     "valueIsItalic": false,
-    "paramId": 3092,
-    "conditions": [
-      {
-        "conditionParamId": 22,
-        "compareValue": "0",
-        "operator": "eq",
-        "backgroundColor": "gray",
-        "fixedValue": "NaN"
-      },
-      {
-        "conditionParamId": 3092,
-        "compareValue": "3276.7",
-        "operator": "eq",
-        "fixedValue": "NaN"
-      }
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 4,
-    "side": "right",
-    "nameFontSize": "20px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "valueFontSize": "20px",
-    "valueIsBold": true,
-    "valueIsItalic": false,
     "paramId": 3082,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5717,7 +6137,7 @@
     "paramId": 3083,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5745,7 +6165,7 @@
     "paramId": 3084,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5773,7 +6193,7 @@
     "paramId": 3085,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5801,7 +6221,7 @@
     "paramId": 3086,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5829,7 +6249,7 @@
     "paramId": 396,
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "0",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -5841,6 +6261,21 @@
         "operator": "eq",
         "fixedValue": "NaN"
       }
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": 22,
+    "conditions": [
     ]
   },
   {
@@ -5883,7 +6318,7 @@
     ],
     "conditions": [
       {
-        "conditionParamId": 22,
+        "conditionParamId": 3140,
         "compareValue": "1",
         "operator": "eq",
         "backgroundColor": "gray",
@@ -6062,11 +6497,11 @@
         ]
       },
       {
-        "name": "Over Voltage Protection",
+        "name": "Temperature Read Protection",
         "conditions": [
           {
-            "conditionParamId": 4002,
-            "compareValue": "1",
+            "conditionParamId": 4017,
+            "compareValue": "9",
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
@@ -6075,11 +6510,37 @@
         ]
       },
       {
-        "name": "Over Voltage Warning",
+        "name": "Voltage Read Protection",
         "conditions": [
           {
-            "conditionParamId": 4002,
+            "conditionParamId": 4033,
             "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Voltage Read Warning",
+        "conditions": [
+          {
+            "conditionParamId": 4032,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Temperature Read Warning",
+        "conditions": [
+          {
+            "conditionParamId": 4033,
+            "compareValue": "1",
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
@@ -6131,32 +6592,6 @@
         "conditions": [
           {
             "conditionParamId": 4004,
-            "compareValue": "9",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "yellow"
-          }
-        ]
-      },
-      {
-        "name": "Under Voltage Protection",
-        "conditions": [
-          {
-            "conditionParamId": 4005,
-            "compareValue": "1",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
-          }
-        ]
-      },
-      {
-        "name": "Under Voltage Warning",
-        "conditions": [
-          {
-            "conditionParamId": 4005,
             "compareValue": "9",
             "operator": "bitOne",
             "isOn": true,
@@ -6421,7 +6856,7 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "yellow"
+            "color": "red"
           }
         ]
       },
@@ -6434,13 +6869,12 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red"
-            
+            "color": "yellow"
           }
         ]
       },
       {
-        "name": "LIN Sensor Fault",
+        "name": "LIN Sensor Warning",
         "conditions": [
           {
             "conditionParamId": 4016,
@@ -6448,13 +6882,12 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red"
-            
+            "color": "yellow"
           }
         ]
       },
       {
-        "name": "Current Sensor Fault",
+        "name": "Current Sensor Warning",
         "conditions": [
           {
             "conditionParamId": 4017,
@@ -6462,20 +6895,7 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red"
-          }
-        ]
-      },
-      {
-        "name": "Temperature Sensor Fault",
-        "conditions": [
-          {
-            "conditionParamId": 4017,
-            "compareValue": "9",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
+            "color": "yellow"
           }
         ]
       },
@@ -6532,7 +6952,7 @@
         ]
       },
       {
-        "name": "PBUSB Over Temperature Protection",
+        "name": "Positive Busbar Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4020,
@@ -6545,7 +6965,7 @@
         ]
       },
       {
-        "name": "PBUSB Over Temperature Warning",
+        "name": "Positive Busbar Over Temp. Warning",
         "conditions": [
           {
             "conditionParamId": 4020,
@@ -6558,7 +6978,7 @@
         ]
       },
       {
-        "name": "NBUSB Over Temperature Protection",
+        "name": "Negative Busbar Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4021,
@@ -6571,7 +6991,7 @@
         ]
       },
       {
-        "name": "NBUSB Over Temperature Warning",
+        "name": "Negative Busbar Over Temp. Warning",
         "conditions": [
           {
             "conditionParamId": 4021,
@@ -6584,7 +7004,7 @@
         ]
       },
       {
-        "name": "PMSD Over Temperature Protection",
+        "name": "MSD Over Temperature Protection",
         "conditions": [
           {
             "conditionParamId": 4022,
@@ -6597,7 +7017,7 @@
         ]
       },
       {
-        "name": "PMSD Over Temperature Warning",
+        "name": "MSD Over Temperature Warning",
         "conditions": [
           {
             "conditionParamId": 4022,
@@ -6610,7 +7030,7 @@
         ]
       },
       {
-        "name": "NMSD Over Temperature Protection",
+        "name": "NH Fuse Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4023,
@@ -6623,7 +7043,7 @@
         ]
       },
       {
-        "name": "NMSD Over Temperature Warning",
+        "name": "NH Fuse Over Temp. Warning",
         "conditions": [
           {
             "conditionParamId": 4023,
@@ -6636,7 +7056,7 @@
         ]
       },
       {
-        "name": "CPU Over Temperature Protection",
+        "name": "CPU Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4024,
@@ -6649,7 +7069,7 @@
         ]
       },
       {
-        "name": "Control Board Over Temperature Protection",
+        "name": "Control Board Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4024,
@@ -6657,13 +7077,12 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "yellow"
-            
+            "color": "red"
           }
         ]
       },
       {
-        "name": "RB Over Temperature Protection",
+        "name": "Resistor Board Over Temp. Protection",
         "conditions": [
           {
             "conditionParamId": 4025,
@@ -6697,16 +7116,16 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red"
+            "color": "yellow"
           }
         ]
       },
       {
-        "name": "Piezo Sensor Warning",
+        "name": "Current Sen. Reverse Con. Warning",
         "conditions": [
           {
-            "conditionParamId": 4026,
-            "compareValue": "9",
+            "conditionParamId": 4027,
+            "compareValue": "1",
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
@@ -6715,20 +7134,7 @@
         ]
       },
       {
-        "name": "Current Sensor Reverse Connection Warning",
-        "conditions": [
-          {
-            "conditionParamId": 4027,
-            "compareValue": "1",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
-          }
-        ]
-      },
-      {
-        "name": "Low Piezo Warning",
+        "name": "Low Cell Pressure Warning",
         "conditions": [
           {
             "conditionParamId": 4027,
@@ -6737,41 +7143,14 @@
             "isOn": true,
             "isBlinking": false,
             "color": "yellow"
-            
           }
         ]
       },
       {
-        "name": "CANBUS COM Warning",
+        "name": "CAN Communication Warning",
         "conditions": [
           {
             "conditionParamId": 4028,
-            "compareValue": "1",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
-          }
-        ]
-      },
-      {
-        "name": "USB COM Warning",
-        "conditions": [
-          {
-            "conditionParamId": 4028,
-            "compareValue": "9",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
-          }
-        ]
-      },
-      {
-        "name": "EEPROM Write Warning",
-        "conditions": [
-          {
-            "conditionParamId": 4029,
             "compareValue": "1",
             "operator": "bitOne",
             "isOn": true,
@@ -6789,12 +7168,12 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "red"
+            "color": "yellow"
           }
         ]
       },
       {
-        "name": "Insulation Resistance Warning",
+        "name": "Insulation Resistance Protection",
         "conditions": [
           {
             "conditionParamId": 4030,
@@ -6802,7 +7181,7 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
-            "color": "yellow"
+            "color": "red"
           }
         ]
       },
@@ -6900,126 +7279,6 @@
     "width": "1070px"
   },
   {
-    "object": "button",
-    "page": 3,
-    "row": 1,
-    "side": "center",
-    "name": "[TEST-0] Default Normal State",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 0,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
-    "object": "button",
-    "page": 3,
-    "row": 1,
-    "side": "center",
-    "name": "[TEST-1] No Fault State",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 2,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
-    "object": "button",
-    "page": 3,
-    "row": 1,
-    "side": "center",
-    "name": "[TEST-2] Empty",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 4,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
-    "object": "button",
-    "page": 3,
-    "row": 2,
-    "side": "center",
-    "name": "[TEST-3] Random NTC & Bat. Volt.",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 8,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
-    "object": "button",
-    "page": 3,
-    "row": 2,
-    "side": "center",
-    "name": "[TEST-4] Sensor Connection Sim.",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 16,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
-    "object": "button",
-    "page": 3,
-    "row": 2,
-    "side": "center",
-    "name": "[TEST-5] Sensor & Cell Index Sim.",
-    "nameFontSize": "32px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "nameColor": "black",
-    "title": "testbutton",
-    "image": "",
-    "imageHeight": "140px",
-    "imageWidth": "800px",
-    "actionType": "setValue",
-    "actionParamId": 59,
-    "actionValue": 32,
-    "height": "140px",
-    "width": "800px"
-  },
-  {
     "object": "datalist",
     "page": 2,
     "row": 3,
@@ -7054,117 +7313,5 @@
         "paramId": 3081
       }
     ]
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14500,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 390, "operator": "+" },
-        { "type": "constant", "value": 1000, "operator": "*" },
-        { "type": "constant", "value": 31, "operator": ">>" },
-        { "type": "constant", "value": 1, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14501,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 563, "operator": "+" },
-        { "type": "param", "id": 577, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 577, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14502,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 568, "operator": "+" },
-        { "type": "param", "id": 582, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 582, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14503,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 570, "operator": "+" },
-        { "type": "param", "id": 584, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 584, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14504,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 575, "operator": "+" },
-        { "type": "param", "id": 589, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 589, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14505,
-    "decimalPlaces": 1,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 14500, "operator": "+" },
-        { "type": "constant", "value": 2, "operator": "*" },
-        { "type": "constant", "value": 1, "operator": "-" },
-        { "type": "param", "id": 390, "operator": "*" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14506,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 542, "operator": "+" },
-        { "type": "param", "id": 549, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 549, "operator": "+" }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 14507,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        { "type": "constant", "value": 0, "operator": "*" },
-        { "type": "param", "id": 547, "operator": "+" },
-        { "type": "param", "id": 554, "operator": "-" },
-        { "type": "param", "id": 14500, "operator": "*" },
-        { "type": "param", "id": 554, "operator": "+" }
-      ]
-    }
   }
 ]
