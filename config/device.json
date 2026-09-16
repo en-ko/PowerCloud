@@ -301,7 +301,7 @@
   },
   {
     "name": "BMU-52S",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "BMS",
     "rtc": true,
@@ -327,9 +327,10 @@
   },
   {
     "name": "BCMU",
-    "fileVersion": 1,
+    "fileVersion": 2,
     "type": "device",
     "deviceType": "BMS",
+    "rtc": true,
     "rtcOptions": {
       "yearFormat": "2digit",
       "addresses": {
@@ -341,13 +342,6 @@
           "second": 9914
       }
     },
-    "bMAddress": 2
-  },
-  {
-    "name": "BMU-52S-S100mA",
-    "fileVersion": 1,
-    "type": "device",
-    "deviceType": "BMS",
     "bMAddress": 2
   },
   {
