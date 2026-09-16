@@ -330,6 +330,17 @@
     "fileVersion": 1,
     "type": "device",
     "deviceType": "BMS",
+    "rtcOptions": {
+      "yearFormat": "2digit",
+      "addresses": {
+          "year": 9919,
+          "month": 9918,
+          "day": 9917,
+          "hour": 9916,
+          "minute": 9915,
+          "second": 9914
+      }
+    },
     "bMAddress": 2
   },
   {
