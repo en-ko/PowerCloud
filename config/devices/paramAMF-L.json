@@ -5170,7 +5170,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -5552,6 +5552,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -5930,7 +5934,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 6,
         "valueMask": [
           {
@@ -6312,6 +6316,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -6690,7 +6698,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -7072,6 +7080,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -7450,7 +7462,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 2,
         "valueMask": [
           {
@@ -7832,6 +7844,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -8210,7 +8226,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 9,
         "valueMask": [
           {
@@ -8592,6 +8608,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -8970,7 +8990,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 10,
         "valueMask": [
           {
@@ -9352,6 +9372,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -9730,7 +9754,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -10112,6 +10136,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -10490,7 +10518,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 71,
         "valueMask": [
           {
@@ -10872,6 +10900,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -17779,7 +17811,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18161,6 +18193,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -18215,7 +18251,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18597,6 +18633,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -18651,7 +18691,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19033,6 +19073,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -19087,7 +19131,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19469,6 +19513,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -19523,7 +19571,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19905,6 +19953,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -19959,7 +20011,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20341,6 +20393,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -20395,7 +20451,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20777,6 +20833,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {
@@ -20831,7 +20891,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 97,
+        "maxValue": 98,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -21213,6 +21273,10 @@
           {
             "value": 97,
             "mask": "DEF Level Lamp"
+          },
+          {
+            "value": 98,
+            "mask": "Engine Run Signal"
           }
         ],
         "dataOperation": {

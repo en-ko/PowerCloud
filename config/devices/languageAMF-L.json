@@ -992,6 +992,14 @@
     "text_2": "DEF Level Lamp"
   },
   {
+    "id": 953,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Motor Çalış Sinyali",
+    "text_2": "Engine Run Signal"
+  },
+  {
     "id": 96,
     "pixel": 100,
     "font": "Arial Rounded MT Bold",
