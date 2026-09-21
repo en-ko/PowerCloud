@@ -1059,6 +1059,29 @@
         "readOnly": true,
         "comment": "",
         "relation": []
+      },
+      {
+        "id": 46,
+        "version": 9003,
+        "name": "DMP2.0 Reset",
+        "group": "General",
+        "unit": "",
+        "modbusAddress": 46,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": false,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Writing 1 restarts the panel. Requires the 9942 login.",
+        "relation": []
       }
     ]
   }
