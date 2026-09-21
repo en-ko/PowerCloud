@@ -350,5 +350,11 @@
     "type": "device",
     "deviceType": "Network",
     "bMAddress": 1
+  },
+  {
+    "name": "DMP2.0-MK2",
+    "fileVersion": 1,
+    "type": "device",
+    "deviceType": "Generator"
   }
 ]

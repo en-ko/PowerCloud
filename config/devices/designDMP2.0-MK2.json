@@ -1,0 +1,499 @@
+[
+  {
+    "object": "config",
+    "pageCount": 3,
+    "pageTitle": [
+      "Monitor",
+      "Generators",
+      "Alarms"
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "left",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      0
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "nameFontSize": "20px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "valueFontSize": "20px",
+    "valueIsBold": true,
+    "valueIsItalic": false,
+    "paramId": [
+      6
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datalist",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "width": "420px",
+    "height": "26em",
+    "title": "Mains",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 0
+      },
+      {
+        "paramId": 1
+      },
+      {
+        "paramId": 2
+      },
+      {
+        "paramId": 3
+      },
+      {
+        "paramId": 4
+      },
+      {
+        "paramId": 5
+      },
+      {
+        "paramId": 6
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datalist",
+    "page": 2,
+    "row": 1,
+    "side": "left",
+    "width": "420px",
+    "height": "26em",
+    "title": "Generator-1",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 7
+      },
+      {
+        "paramId": 8
+      },
+      {
+        "paramId": 9
+      },
+      {
+        "paramId": 10
+      },
+      {
+        "paramId": 11
+      },
+      {
+        "paramId": 12
+      },
+      {
+        "paramId": 13
+      },
+      {
+        "paramId": 14
+      },
+      {
+        "paramId": 15
+      },
+      {
+        "paramId": 16
+      },
+      {
+        "paramId": 17
+      },
+      {
+        "paramId": 18
+      },
+      {
+        "paramId": 19
+      },
+      {
+        "paramId": 20
+      },
+      {
+        "paramId": 21
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datalist",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "width": "420px",
+    "height": "26em",
+    "title": "Generator-2",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 22
+      },
+      {
+        "paramId": 23
+      },
+      {
+        "paramId": 24
+      },
+      {
+        "paramId": 25
+      },
+      {
+        "paramId": 26
+      },
+      {
+        "paramId": 27
+      },
+      {
+        "paramId": 28
+      },
+      {
+        "paramId": 29
+      },
+      {
+        "paramId": 30
+      },
+      {
+        "paramId": 31
+      },
+      {
+        "paramId": 32
+      },
+      {
+        "paramId": 33
+      },
+      {
+        "paramId": 34
+      },
+      {
+        "paramId": 35
+      },
+      {
+        "paramId": 36
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "object": "ledindicator",
+    "page": 3,
+    "row": 1,
+    "side": "center",
+    "width": "420px",
+    "height": "24em",
+    "title": "DMP2.0 Errors",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "hideIfNoConditions": false,
+    "itemList": [
+      {
+        "name": "CAN Bus Communication Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Synchronisation Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Mains Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "High Mains Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Low Mains Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "High Mains Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "FRAM Write Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Mains Phase Sequence Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Generator-1 Phase Sequence Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Generator-2 Phase Sequence Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Generator-1 CAN Bus Communication Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Generator-2 CAN Bus Communication Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "I/O Module CAN Bus Communication Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "RS485 Communication Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 45,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "datalist",
+    "page": 3,
+    "row": 2,
+    "side": "left",
+    "width": "420px",
+    "height": "26em",
+    "title": "Generator-1 Error Words",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 37
+      },
+      {
+        "paramId": 38
+      },
+      {
+        "paramId": 39
+      },
+      {
+        "paramId": 40
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "object": "datalist",
+    "page": 3,
+    "row": 2,
+    "side": "right",
+    "width": "420px",
+    "height": "26em",
+    "title": "Generator-2 Error Words",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 41
+      },
+      {
+        "paramId": 42
+      },
+      {
+        "paramId": 43
+      },
+      {
+        "paramId": 44
+      }
+    ],
+    "conditions": []
+  }
+]
