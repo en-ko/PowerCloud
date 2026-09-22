@@ -4,208 +4,1441 @@
     "pageCount": 3,
     "pageTitle": [
       "Monitor",
-      "Generators",
-      "Alarms"
+      "Errors",
+      "Parameters"
     ]
   },
   {
-    "object": "datacard",
+    "object": "datalist",
     "page": 1,
     "row": 1,
     "side": "left",
-    "nameFontSize": "20px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "valueFontSize": "20px",
-    "valueIsBold": true,
-    "valueIsItalic": false,
-    "paramId": [
-      0
-    ],
-    "conditions": []
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 1,
-    "side": "right",
-    "nameFontSize": "20px",
-    "nameIsBold": true,
-    "nameIsItalic": false,
-    "valueFontSize": "20px",
-    "valueIsBold": true,
-    "valueIsItalic": false,
-    "paramId": [
-      6
-    ],
-    "conditions": []
-  },
-  {
-    "object": "datalist",
-    "page": 1,
-    "row": 2,
-    "side": "center",
-    "width": "420px",
-    "height": "26em",
-    "title": "Mains",
-    "titleFontSize": "15px",
-    "titleIsBold": true,
-    "itemFontSize": "14px",
-    "showItemBorder": true,
-    "itemList": [
-      {
-        "paramId": 0
-      },
-      {
-        "paramId": 1
-      },
-      {
-        "paramId": 2
-      },
-      {
-        "paramId": 3
-      },
-      {
-        "paramId": 4
-      },
-      {
-        "paramId": 5
-      },
-      {
-        "paramId": 6
-      }
-    ],
-    "conditions": []
-  },
-  {
-    "object": "datalist",
-    "page": 2,
-    "row": 1,
-    "side": "left",
-    "width": "420px",
-    "height": "26em",
+    "width": "400px",
+    "height": "540px",
     "title": "Generator-1",
     "titleFontSize": "15px",
     "titleIsBold": true,
-    "itemFontSize": "14px",
+    "itemFontSize": "13px",
     "showItemBorder": true,
     "itemList": [
       {
-        "paramId": 7
+        "paramId": 10087
       },
       {
-        "paramId": 8
+        "paramId": 10088
       },
       {
-        "paramId": 9
+        "paramId": 10089
       },
       {
-        "paramId": 10
+        "paramId": 10090
       },
       {
-        "paramId": 11
+        "paramId": 10091
       },
       {
-        "paramId": 12
+        "paramId": 10092
       },
       {
-        "paramId": 13
+        "paramId": 10093
       },
       {
-        "paramId": 14
+        "paramId": 10094
       },
       {
-        "paramId": 15
+        "paramId": 10095
       },
       {
-        "paramId": 16
+        "paramId": 10096
       },
       {
-        "paramId": 17
+        "paramId": 10098
       },
       {
-        "paramId": 18
+        "paramId": 10099
       },
       {
-        "paramId": 19
+        "paramId": 10100
       },
       {
-        "paramId": 20
+        "paramId": 10101
       },
       {
-        "paramId": 21
+        "paramId": 10102
+      },
+      {
+        "paramId": 10103
+      },
+      {
+        "paramId": 10104
       }
     ],
     "conditions": []
   },
   {
     "object": "datalist",
-    "page": 2,
+    "page": 1,
     "row": 1,
-    "side": "right",
-    "width": "420px",
-    "height": "26em",
-    "title": "Generator-2",
+    "side": "center",
+    "width": "700px",
+    "height": "240px",
+    "title": "Mains",
     "titleFontSize": "15px",
     "titleIsBold": true,
-    "itemFontSize": "14px",
+    "itemFontSize": "13px",
     "showItemBorder": true,
     "itemList": [
       {
-        "paramId": 22
+        "paramId": 10080
       },
       {
-        "paramId": 23
+        "paramId": 10081
       },
       {
-        "paramId": 24
+        "paramId": 10082
       },
       {
-        "paramId": 25
+        "paramId": 10083
       },
       {
-        "paramId": 26
+        "paramId": 10084
       },
       {
-        "paramId": 27
+        "paramId": 10085
       },
       {
-        "paramId": 28
-      },
-      {
-        "paramId": 29
-      },
-      {
-        "paramId": 30
-      },
-      {
-        "paramId": 31
-      },
-      {
-        "paramId": 32
-      },
-      {
-        "paramId": 33
-      },
-      {
-        "paramId": 34
-      },
-      {
-        "paramId": 35
-      },
-      {
-        "paramId": 36
+        "paramId": 10086
       }
     ],
     "conditions": []
   },
   {
+    "object": "datalist",
+    "page": 1,
+    "row": 1,
+    "side": "right",
+    "width": "400px",
+    "height": "540px",
+    "title": "Generator-2",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "13px",
+    "showItemBorder": true,
+    "itemList": [
+      {
+        "paramId": 10105
+      },
+      {
+        "paramId": 10106
+      },
+      {
+        "paramId": 10107
+      },
+      {
+        "paramId": 10108
+      },
+      {
+        "paramId": 10109
+      },
+      {
+        "paramId": 10110
+      },
+      {
+        "paramId": 10111
+      },
+      {
+        "paramId": 10112
+      },
+      {
+        "paramId": 10113
+      },
+      {
+        "paramId": 10114
+      },
+      {
+        "paramId": 10116
+      },
+      {
+        "paramId": 10117
+      },
+      {
+        "paramId": 10118
+      },
+      {
+        "paramId": 10119
+      },
+      {
+        "paramId": 10120
+      },
+      {
+        "paramId": 10121
+      },
+      {
+        "paramId": 10122
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height": "150px",
+    "width": "130px",
+    "paramId": [
+      10093
+    ],
+    "splitNumber": 4,
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 1,
+    "showProgress": true,
+    "mainColor": "#90A4AE"
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height": "150px",
+    "width": "130px",
+    "paramId": [
+      10094
+    ],
+    "splitNumber": 2,
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 1,
+    "showProgress": true,
+    "mainColor": "#90A4AE"
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height": "150px",
+    "width": "130px",
+    "paramId": [
+      10086
+    ],
+    "splitNumber": 4,
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 1,
+    "showProgress": true,
+    "mainColor": "#90A4AE"
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height": "150px",
+    "width": "130px",
+    "paramId": [
+      10111
+    ],
+    "splitNumber": 4,
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 1,
+    "showProgress": true,
+    "mainColor": "#90A4AE"
+  },
+  {
+    "object": "progressgauge",
+    "page": 1,
+    "row": 2,
+    "side": "center",
+    "height": "150px",
+    "width": "130px",
+    "paramId": [
+      10112
+    ],
+    "splitNumber": 2,
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 1,
+    "showProgress": true,
+    "mainColor": "#90A4AE"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-1 Start",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 2,
+    "conditions": [
+      {
+        "conditionParamId": 10097,
+        "compareValue": "10",
+        "operator": "eq",
+        "backgroundColor": "#43A047"
+      }
+    ],
+    "name": "G1 START"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-1 Stop",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 4,
+    "conditions": [
+      {
+        "conditionParamId": 10097,
+        "compareValue": "0",
+        "operator": "eq",
+        "backgroundColor": "#546E7A"
+      }
+    ],
+    "name": "G1 STOP"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Mains Contactor On",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "MAINS ON",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 10,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "9",
+        "operator": "bitOne",
+        "backgroundColor": "#43A047"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-2 Start",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 6,
+    "conditions": [
+      {
+        "conditionParamId": 10202,
+        "compareValue": "Single Generator",
+        "operator": "eq",
+        "isHidden": true
+      },
+      {
+        "conditionParamId": 10115,
+        "compareValue": "10",
+        "operator": "eq",
+        "backgroundColor": "#43A047"
+      }
+    ],
+    "name": "G2 START"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-2 Stop",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 8,
+    "conditions": [
+      {
+        "conditionParamId": 10202,
+        "compareValue": "Single Generator",
+        "operator": "eq",
+        "isHidden": true
+      },
+      {
+        "conditionParamId": 10115,
+        "compareValue": "0",
+        "operator": "eq",
+        "backgroundColor": "#546E7A"
+      }
+    ],
+    "name": "G2 STOP"
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-1 Contactor On",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "G1 ON",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 3,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "3",
+        "operator": "bitOne",
+        "backgroundColor": "#43A047"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-1 Contactor Off",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "G1 OFF",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 5,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "3",
+        "operator": "bitZero",
+        "backgroundColor": "#546E7A"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Mains Contactor Off",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "MAINS OFF",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 11,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "9",
+        "operator": "bitZero",
+        "backgroundColor": "#546E7A"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-2 Contactor On",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "G2 ON",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 7,
+    "conditions": [
+      {
+        "conditionParamId": 10202,
+        "compareValue": "Single Generator",
+        "operator": "eq",
+        "isHidden": true
+      },
+      {
+        "conditionParamId": 10123,
+        "compareValue": "6",
+        "operator": "bitOne",
+        "backgroundColor": "#43A047"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Generator-2 Contactor Off",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "G2 OFF",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 9,
+    "conditions": [
+      {
+        "conditionParamId": 10202,
+        "compareValue": "Single Generator",
+        "operator": "eq",
+        "isHidden": true
+      },
+      {
+        "conditionParamId": 10123,
+        "compareValue": "6",
+        "operator": "bitZero",
+        "backgroundColor": "#546E7A"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Alarm Stop",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "image": "horn.png",
+    "imageWidth": "50px",
+    "imageHeight": "50px",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 1,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "0",
+        "operator": "bitOne",
+        "backgroundColor": "#E53935"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Light",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "LIGHT",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 14,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "15",
+        "operator": "bitZero",
+        "backgroundColor": "#FFB300"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Mode",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "MODE",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 12,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "10",
+        "operator": "bitOne",
+        "backgroundColor": "#43A047"
+      },
+      {
+        "conditionParamId": 10123,
+        "compareValue": "11",
+        "operator": "bitOne",
+        "backgroundColor": "#1E88E5"
+      },
+      {
+        "conditionParamId": 10123,
+        "compareValue": "12",
+        "operator": "bitOne",
+        "backgroundColor": "#FFB300"
+      }
+    ]
+  },
+  {
+    "object": "button",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "width": "130px",
+    "height": "75px",
+    "title": "Priority",
+    "nameFontSize": "14px",
+    "nameIsBold": true,
+    "nameIsItalic": false,
+    "name": "PRI",
+    "actionType": "setValue",
+    "actionParamId": 10125,
+    "actionValue": 13,
+    "conditions": [
+      {
+        "conditionParamId": 10123,
+        "compareValue": "13",
+        "operator": "bitOne",
+        "backgroundColor": "#FFFFFF"
+      },
+      {
+        "conditionParamId": 10123,
+        "compareValue": "14",
+        "operator": "bitOne",
+        "backgroundColor": "#546E7A"
+      }
+    ]
+  },
+  {
     "object": "ledindicator",
-    "page": 3,
+    "page": 2,
+    "row": 1,
+    "side": "left",
+    "width": "400px",
+    "height": "840px",
+    "title": "Generator-1 Errors",
+    "titleFontSize": "15px",
+    "titleIsBold": true,
+    "itemFontSize": "14px",
+    "showItemBorder": true,
+    "hideIfNoConditions": false,
+    "itemList": [
+      {
+        "name": "Low Generator Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "0",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Generator Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "1",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Engine Speed",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "2",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Engine Speed",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "3",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Generator Charge Fail",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "4",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Battery Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "5",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Battery Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "6",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Generator Current",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "7",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Engine Temperature",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "8",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Fuel Level",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "9",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Auxiliary Input Fail",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "10",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Phase Sequence Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "11",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Power Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "12",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Generator Start Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "13",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maintenance Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "14",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10126,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10126,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10128,
+                "compareValue": "15",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Generator Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10127,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10127,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "0",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Generator Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10127,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10127,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "1",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Oil Temperature",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10127,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10127,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "2",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Oil Pressure",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10127,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10127,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "3",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Radiator Water Level",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10127,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10127,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10129,
+                "compareValue": "4",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "object": "ledindicator",
+    "page": 2,
     "row": 1,
     "side": "center",
-    "width": "420px",
-    "height": "24em",
+    "width": "800px",
+    "height": "840px",
     "title": "DMP2.0 Errors",
     "titleFontSize": "15px",
     "titleIsBold": true,
@@ -219,7 +1452,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -234,7 +1467,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "1",
             "operator": "bitOne",
             "isOn": true,
@@ -249,7 +1482,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "2",
             "operator": "bitOne",
             "isOn": true,
@@ -264,7 +1497,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "3",
             "operator": "bitOne",
             "isOn": true,
@@ -279,7 +1512,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "4",
             "operator": "bitOne",
             "isOn": true,
@@ -294,7 +1527,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "5",
             "operator": "bitOne",
             "isOn": true,
@@ -309,7 +1542,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "6",
             "operator": "bitOne",
             "isOn": true,
@@ -324,7 +1557,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "7",
             "operator": "bitOne",
             "isOn": true,
@@ -339,7 +1572,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "8",
             "operator": "bitOne",
             "isOn": true,
@@ -354,7 +1587,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "9",
             "operator": "bitOne",
             "isOn": true,
@@ -369,7 +1602,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "10",
             "operator": "bitOne",
             "isOn": true,
@@ -384,7 +1617,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "11",
             "operator": "bitOne",
             "isOn": true,
@@ -399,7 +1632,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "12",
             "operator": "bitOne",
             "isOn": true,
@@ -414,7 +1647,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "13",
             "operator": "bitOne",
             "isOn": true,
@@ -429,7 +1662,7 @@
         "nameIsItalic": false,
         "conditions": [
           {
-            "conditionParamId": 45,
+            "conditionParamId": 10134,
             "compareValue": "14",
             "operator": "bitOne",
             "isOn": true,
@@ -441,59 +1674,817 @@
     ]
   },
   {
-    "object": "datalist",
-    "page": 3,
-    "row": 2,
-    "side": "left",
-    "width": "420px",
-    "height": "26em",
-    "title": "Generator-1 Error Words",
+    "object": "ledindicator",
+    "page": 2,
+    "row": 1,
+    "side": "right",
+    "width": "400px",
+    "height": "840px",
+    "title": "Generator-2 Errors",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "14px",
     "showItemBorder": true,
+    "hideIfNoConditions": false,
     "itemList": [
       {
-        "paramId": 37
+        "name": "Low Generator Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "0",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
       },
       {
-        "paramId": 38
+        "name": "High Generator Frequency",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "1",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
       },
       {
-        "paramId": 39
+        "name": "Low Engine Speed",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "2",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
       },
       {
-        "paramId": 40
+        "name": "High Engine Speed",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "3",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Generator Charge Fail",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "4",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Battery Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "5",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Battery Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "6",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Generator Current",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "7",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Engine Temperature",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "8",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Fuel Level",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "9",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Auxiliary Input Fail",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "10",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Phase Sequence Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "11",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Power Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "12",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Generator Start Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "13",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maintenance Error",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "14",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Emergency Stop",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10130,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10130,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10132,
+                "compareValue": "15",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Generator Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10131,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10131,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "0",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Generator Voltage",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10131,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10131,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "1",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Oil Temperature",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10131,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10131,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "2",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Oil Pressure",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10131,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10131,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "3",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Low Radiator Water Level",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10131,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 10131,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow",
+            "andConditions": [
+              {
+                "conditionParamId": 10133,
+                "compareValue": "4",
+                "operator": "bitZero"
+              }
+            ]
+          }
+        ]
       }
-    ],
-    "conditions": []
+    ]
   },
   {
-    "object": "datalist",
+    "object": "table",
     "page": 3,
-    "row": 2,
-    "side": "right",
-    "width": "420px",
-    "height": "26em",
-    "title": "Generator-2 Error Words",
-    "titleFontSize": "15px",
-    "titleIsBold": true,
-    "itemFontSize": "14px",
-    "showItemBorder": true,
-    "itemList": [
-      {
-        "paramId": 41
-      },
-      {
-        "paramId": 42
-      },
-      {
-        "paramId": 43
-      },
-      {
-        "paramId": 44
-      }
-    ],
-    "conditions": []
+    "row": 1,
+    "side": "center",
+    "filter": true,
+    "height": "800px",
+    "width": "1200px",
+    "paramId": [],
+    "paramGroups": [
+      "Access",
+      "Mains protection",
+      "Alternator protection",
+      "Engine and timers",
+      "Aux inputs and outputs",
+      "Calibration",
+      "Service",
+      "Panel",
+      "Canbus I/O module"
+    ]
   }
 ]
