@@ -342,6 +342,13 @@
           "second": 9914
       }
     },
+    "alarmLog": true,
+    "alarmLogOptions":{
+      "startAddress" : 9603,
+      "endAddress" : 9612,
+      "indexAddress" : 9602,
+      "logCount" : 100
+    },
     "bMAddress": 2
   },
   {
