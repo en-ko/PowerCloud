@@ -346,7 +346,7 @@
     {
       "id": 16,
       "version": 2004,
-      "name": "Pt100 Activated",
+      "name": "PT100 Activated",
       "group": "Configuration",
       "unit": "",
       "modbusAddress": 16,
@@ -378,7 +378,7 @@
     {
       "id": 17,
       "version": 2004,
-      "name": "Pt100 dV/dT",
+      "name": "PT100 dV/dT",
       "group": "Configuration",
       "unit": "mV/°C",
       "modbusAddress": 17,
@@ -402,7 +402,7 @@
     {
       "id": 18,
       "version": 2004,
-      "name": "Pt100 High Warning Temperature",
+      "name": "PT100 High Warning Temperature",
       "group": "Temperature Parameters",
       "unit": "°C",
       "modbusAddress": 18,
@@ -433,7 +433,7 @@
   {
       "id": 19,
       "version": 2004,
-      "name": "Pt100 High Alarm Temperature",
+      "name": "PT100 High Alarm Temperature",
       "group": "Temperature Parameters",
       "unit": "°C",
       "modbusAddress": 19,
@@ -576,7 +576,7 @@
     {
       "id": 24,
       "version": 2004,
-      "name": "Pt100 Temperature",
+      "name": "PT100 Temperature",
       "group": "Monitoring",
       "unit": "°C",
       "modbusAddress": 24,
@@ -1262,7 +1262,7 @@
     {
       "id": 71,
       "version": 2004,
-      "name": "OFFSET Pt100",
+      "name": "OFFSET PT100",
       "group": "Calibration",
       "unit": "",
       "modbusAddress": 71,
@@ -1285,7 +1285,7 @@
     {
       "id": 72,
       "version": 2004,
-      "name": "RATIO Pt100",
+      "name": "RATIO PT100",
       "group": "Calibration",
       "unit": "",
       "modbusAddress": 72,
@@ -1561,7 +1561,7 @@
     {
       "id": 87,
       "version": 2004,
-      "name": "Pt100 Trip Voltage",
+      "name": "PT100 Trip Voltage",
       "group": "Temperature Parameters",
       "unit": "V",
       "modbusAddress": 87,
@@ -1584,7 +1584,7 @@
     {
       "id": 88,
       "version": 2004,
-      "name": "Pt100 Low Warning Temperature",
+      "name": "PT100 Low Warning Temperature",
       "group": "Temperature Parameters",
       "unit": "°C",
       "modbusAddress": 88,
@@ -1614,7 +1614,7 @@
     {
       "id": 89,
       "version": 2004,
-      "name": "Pt100 Low Alarm Temperature",
+      "name": "PT100 Low Alarm Temperature",
       "group": "Temperature Parameters",
       "unit": "°C",
       "modbusAddress": 89,
@@ -1644,7 +1644,7 @@
     {
       "id": 132,
       "version": 2004,
-      "name": "Pt100 High Trip Temperature",
+      "name": "PT100 High Trip Temperature",
       "group": "Temperature Parameters",
       "unit": "°C",
       "modbusAddress": 132,
@@ -1791,7 +1791,7 @@
       {
       "id": 36,
       "version": 2004,
-      "name": "ADC Pt100",
+      "name": "ADC PT100",
       "group": "ADC Values",
       "unit": "",
       "modbusAddress": 36,
@@ -1967,98 +1967,6 @@
       "view": "decimal",
       "minValue": 0,
       "maxValue": 4095,
-      "defaultValue": 0,
-      "valueMask": [],
-      "dataOperation": {
-        "operation": "",
-        "operationValue": ""
-      },
-      "readOnly": false,
-      "comment": "",
-      "relation": []
-    },
-    {
-      "id": 123,
-      "version": 2004,
-      "name": "User Password",
-      "group": "Password",
-      "unit": "",
-      "modbusAddress": 123,
-      "dataLength": 1,
-      "coef": 0,
-      "signed": true,
-      "view": "decimal",
-      "minValue": -32767,
-      "maxValue": 32767,
-      "defaultValue": 0,
-      "valueMask": [],
-      "dataOperation": {
-        "operation": "",
-        "operationValue": ""
-      },
-      "readOnly": false,
-      "comment": "",
-      "relation": []
-    },
-    {
-      "id": 124,
-      "version": 2004,
-      "name": "Service Password",
-      "group": "Password",
-      "unit": "",
-      "modbusAddress": 124,
-      "dataLength": 1,
-      "coef": 0,
-      "signed": true,
-      "view": "decimal",
-      "minValue": -32767,
-      "maxValue": 32767,
-      "defaultValue": 0,
-      "valueMask": [],
-      "dataOperation": {
-        "operation": "",
-        "operationValue": ""
-      },
-      "readOnly": false,
-      "comment": "",
-      "relation": []
-    },
-    {
-      "id": 125,
-      "version": 2004,
-      "name": "Admin Password",
-      "group": "Password",
-      "unit": "",
-      "modbusAddress": 125,
-      "dataLength": 1,
-      "coef": 0,
-      "signed": true,
-      "view": "decimal",
-      "minValue": -32767,
-      "maxValue": 32767,
-      "defaultValue": 0,
-      "valueMask": [],
-      "dataOperation": {
-        "operation": "",
-        "operationValue": ""
-      },
-      "readOnly": false,
-      "comment": "",
-      "relation": []
-    },
-    {
-      "id": 126,
-      "version": 2004,
-      "name": "Manufacturer Password",
-      "group": "Password",
-      "unit": "",
-      "modbusAddress": 126,
-      "dataLength": 1,
-      "coef": 0,
-      "signed": true,
-      "view": "decimal",
-      "minValue": -32767,
-      "maxValue": 32767,
       "defaultValue": 0,
       "valueMask": [],
       "dataOperation": {

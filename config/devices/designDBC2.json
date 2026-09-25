@@ -23,12 +23,12 @@
         "name": "Board Over Temperature",
         "conditions": [
           {
-              "conditionParamId": 32,
-              "compareValue": "1",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"orange"
+            "conditionParamId": 32,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
           }
         ]
       },
@@ -36,12 +36,28 @@
         "name": "PT100 Low Temperature",
         "conditions": [
           {
-              "conditionParamId": 32,
-              "compareValue": "6",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"orange"
+            "conditionParamId": 32,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
           }
         ]
       },
@@ -49,12 +65,28 @@
         "name": "PT100 High Temperature",
         "conditions": [
           {
-              "conditionParamId": 32,
-              "compareValue": "4",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"orange"
+            "conditionParamId": 32,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
           }
         ]
       },
@@ -62,12 +94,12 @@
         "name": "Power Derate",
         "conditions": [
           {
-              "conditionParamId": 30,
-              "compareValue": "1",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"orange"
+            "conditionParamId": 30,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "orange"
           }
         ]
       }
@@ -86,12 +118,12 @@
         "name": "Reverse Battery",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
           }
         ]
       },
@@ -99,12 +131,12 @@
         "name": "Output Over Voltage",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "2",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
           }
         ]
       },
@@ -112,12 +144,12 @@
         "name": "Board Over Temperature",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "1",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red"
           }
         ]
       },
@@ -125,12 +157,28 @@
         "name": "PT100 Low Temperature",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "3",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]            
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
           }
         ]
       },
@@ -138,12 +186,28 @@
         "name": "PT100 High Temperature",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "5",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
           }
         ]
       },
@@ -151,12 +215,28 @@
         "name": "PT100 Trip Temperature",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "4",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
+            "conditionParamId": 31,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]            
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
           }
         ]
       },
@@ -164,26 +244,58 @@
         "name": "PT100 Not Connected",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "6",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
-          }
+            "conditionParamId": 31,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 16,
+                "compareValue": "ENABLED",
+                "operator": "eq"
+              }
+            ]            
+          },
+          {
+            "conditionParamId": 16,
+            "compareValue": "DISABLED",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isDisabled" : true
+          }          
         ]
       },
       {
         "name": "Battery Disconnected",
         "conditions": [
           {
-              "conditionParamId": 31,
-              "compareValue": "7",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"red"
-          }
+            "conditionParamId": 31,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 12,
+                "compareValue": "PSU",
+                "operator": "neq"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 12,
+            "compareValue": "PSU",
+            "operator": "eq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isHidden" : true
+          } 
         ]
       }
     ]
@@ -208,18 +320,47 @@
             "isOn": true,
             "isBlinking": false
           }
-      ]
+        ]
       },
       {
-        "name": "Relay Active",
+        "name": "Alarm Relay Active",
         "conditions": [
           {
-              "conditionParamId": 47,
-              "compareValue": "0",
-              "operator": "eq",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"green"
+            "conditionParamId": 47,
+            "compareValue": "0",
+            "operator": "eq",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "name": "Boost Mode Active",
+        "conditions": [
+          {
+            "conditionParamId": 23,
+            "compareValue": "Boost Mode",
+            "operator": "eq",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green",
+            "andConditions": [
+              {
+                "conditionParamId": 12,
+                "compareValue": "CHARGER",
+                "operator": "eq"
+              }
+            ]
+          },
+          {
+            "conditionParamId": 12,
+            "compareValue": "CHARGER",
+            "operator": "neq",
+            "isOn": false,
+            "isBlinking": false,
+            "color": "red",
+            "isHidden" : true
           }
         ]
       }
@@ -240,42 +381,38 @@
     "page": 1,
     "row": 2,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
-    "valueTextColor": "#2f4858",
-    "secondaryColor": "#2f4858",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       21
     ],
-    "showProgress" : false,
-    "splitNumber" : 4,
-    "labelDecimalPlaces" : 2,
-    "valueDecimalPlaces" : 2
+    "showProgress": false,
+    "splitNumber": 4,
+    "labelDecimalPlaces": 2,
+    "valueDecimalPlaces": 2
   },
   {
     "object": "progressgauge",
     "page": 1,
     "row": 2,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
-    "valueTextColor": "#2f4858",
-    "secondaryColor": "#2f4858",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       22
     ],
     "conditions": [
       {
-          "conditionParamId": 22,
-          "compareValue": "0",
-          "operator": "lt",
-          "fixedValue": "0"
+        "conditionParamId": 22,
+        "compareValue": "0",
+        "operator": "lt",
+        "fixedValue": "0"
       }
     ],
-    "showProgress" : false,
-    "splitNumber" : 4,
-    "labelDecimalPlaces" : 1,
-    "valueDecimalPlaces" : 1
+    "showProgress": false,
+    "splitNumber": 4,
+    "labelDecimalPlaces": 1,
+    "valueDecimalPlaces": 1
   },
   {
     "object": "datacardgroup",
@@ -302,11 +439,11 @@
     ],
     "conditions": [
       {
-          "conditionParamId": 16,
-          "compareValue": "DISABLED",
-          "operator": "eq",
-          "isDisabled" : true,
-          "fixedValue": "---"
+        "conditionParamId": 16,
+        "compareValue": "DISABLED",
+        "operator": "eq",
+        "isDisabled": true,
+        "fixedValue": "---"
       },
       {
         "conditionParamId": 36,
@@ -316,12 +453,12 @@
         "isHidden": false,
         "isDisabled": true,
         "andConditions": [
-            {
-              "conditionParamId": 16,
-              "compareValue": "ENABLED",
-              "operator": "eq"
-            }
-          ]  
+          {
+            "conditionParamId": 16,
+            "compareValue": "ENABLED",
+            "operator": "eq"
+          }
+        ]
       },
       {
         "conditionParamId": 36,
@@ -331,12 +468,12 @@
         "isHidden": false,
         "isDisabled": true,
         "andConditions": [
-            {
-              "conditionParamId": 16,
-              "compareValue": "ENABLED",
-              "operator": "eq"
-            }
-          ]  
+          {
+            "conditionParamId": 16,
+            "compareValue": "ENABLED",
+            "operator": "eq"
+          }
+        ]
       }
     ]
   },
@@ -359,17 +496,17 @@
     ],
     "conditions": [
       {
-          "conditionParamId": 9941,
-          "compareValue": "0",
-          "operator": "eq",
-          "isHidden" : true,
-          "andConditions": [
-            {
-              "conditionParamId": 9942,
-              "compareValue": "3",
-              "operator": "lt"
-            }
-          ]  
+        "conditionParamId": 9941,
+        "compareValue": "0",
+        "operator": "eq",
+        "isHidden": true,
+        "andConditions": [
+          {
+            "conditionParamId": 9942,
+            "compareValue": "3",
+            "operator": "lt"
+          }
+        ]
       }
     ]
   },
@@ -382,7 +519,7 @@
       20
     ]
   },
-    {
+  {
     "object": "datacard",
     "page": 1,
     "row": 4,
@@ -392,21 +529,21 @@
     ],
     "conditions": [
       {
-          "conditionParamId": 9941,
-          "compareValue": "0",
-          "operator": "eq",
-          "isHidden" : true,
-          "andConditions": [
-            {
-              "conditionParamId": 9942,
-              "compareValue": "3",
-              "operator": "lt"
-            }
-          ]  
+        "conditionParamId": 9941,
+        "compareValue": "0",
+        "operator": "eq",
+        "isHidden": true,
+        "andConditions": [
+          {
+            "conditionParamId": 9942,
+            "compareValue": "3",
+            "operator": "lt"
+          }
+        ]
       }
     ]
   },
-    {
+  {
     "object": "datacard",
     "page": 1,
     "row": 4,
@@ -425,37 +562,12 @@
       34,
       35
     ],
-        "conditions": [
-      {
-          "conditionParamId": 9941,
-          "compareValue": "4",
-          "operator": "neq",
-          "isHidden" : true
-      }
-    ]
-  },
-  {
-    "object": "image",
-    "page": 2,
-    "row": 1,
-    "side": "center",
-    "width": "30px",
-    "height": "30px",
-    "imageHeight": "40px",
-    "imageWidth": "40px",
-    "image": "checkBoxenDisabled.png",
     "conditions": [
       {
-        "conditionParamId": 12,
-        "compareValue": "CHARGER",
+        "conditionParamId": 9941,
+        "compareValue": "4",
         "operator": "neq",
-        "image": "checkBoxenDisabled.png"
-      },
-      {
-        "conditionParamId": 12,
-        "compareValue": "CHARGER",
-        "operator": "eq",
-        "image": "checkBoxenEnabled.png"
+        "isHidden": true
       }
     ]
   },
@@ -464,41 +576,29 @@
     "page": 2,
     "row": 1,
     "side": "center",
-    "name": "CHARGER", 
+    "name": "CHARGER",
     "nameFontSize": "24px",
-    "nameColor": "#CFC82D",
     "nameIsBold": true,
     "nameIsItalic": false,
-    "width": "405px",
+    "width": "400px",
     "height": "50px",
     "title": "CHARGER",
     "actionType": "setValue",
     "actionParamId": 12,
     "actionValue": 0,
-    "bitPosition": 3
-  },
-  {
-    "object": "image",
-    "page": 2,
-    "row": 1,
-    "side": "center",
-    "width": "30px",
-    "height": "30px",
-    "imageHeight": "40px",
-    "imageWidth": "40px",
-    "image": "checkBoxenDisabled.png",
+    "bitPosition": 3,
     "conditions": [
       {
         "conditionParamId": 12,
         "compareValue": "CHARGER",
-        "operator": "eq",
-        "image": "checkBoxenDisabled.png"
+        "operator": "neq",
+        "backgroundColor": "var(--toggleOff)"
       },
       {
         "conditionParamId": 12,
         "compareValue": "CHARGER",
-        "operator": "neq",
-        "image": "checkBoxenEnabled.png"
+        "operator": "eq",
+        "backgroundColor": "var(--toggleOn)"
       }
     ]
   },
@@ -507,18 +607,31 @@
     "page": 2,
     "row": 1,
     "side": "center",
-    "name": "PSU", 
+    "name": "PSU",
     "nameFontSize": "24px",
-    "nameColor": "#CFC82D",
     "nameIsBold": true,
     "nameIsItalic": false,
-    "width": "405px",
+    "width": "400px",
     "height": "50px",
     "title": "PSU",
     "actionType": "setValue",
     "actionParamId": 12,
     "actionValue": 1,
-    "bitPosition": 3
+    "bitPosition": 3,
+    "conditions": [
+      {
+        "conditionParamId": 12,
+        "compareValue": "CHARGER",
+        "operator": "eq",
+        "backgroundColor": "var(--toggleOff)"
+      },
+      {
+        "conditionParamId": 12,
+        "compareValue": "CHARGER",
+        "operator": "neq",
+        "backgroundColor": "var(--toggleOn)"
+      }
+    ]
   },
   {
     "object": "datalist",
@@ -603,7 +716,7 @@
         "compareValue": "CHARGER",
         "operator": "neq",
         "isHidden": false,
-        "isDisabled" : true
+        "isDisabled": true
       }
     ],
     "itemList": [
@@ -620,28 +733,28 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
       {
         "paramId": 76,
         "isEditable": true,
-          "conditions": [
+        "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -650,16 +763,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -668,16 +781,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -686,10 +799,10 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -698,16 +811,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "DISABLED",
+            "compareValue": "DISABLED",
             "compareParamId": 11,
             "operator": "eq",
-            "isHidden":true
+            "isHidden": true
           },
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -716,10 +829,10 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -728,16 +841,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -746,16 +859,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -764,16 +877,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           },
           {
-            "compareValue" : "2",
+            "compareValue": "2",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -787,16 +900,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "DISABLED",
+            "compareValue": "DISABLED",
             "compareParamId": 16,
             "operator": "eq",
-            "isHidden":true
+            "isHidden": true
           },
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -805,10 +918,10 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       }
@@ -833,7 +946,7 @@
         "compareValue": "CHARGER",
         "operator": "eq",
         "isHidden": false,
-        "isDisabled" : true
+        "isDisabled": true
       }
     ],
     "itemList": [
@@ -855,16 +968,16 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "DISABLED",
+            "compareValue": "DISABLED",
             "compareParamId": 16,
             "operator": "eq",
-            "isHidden":true
+            "isHidden": true
           },
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       },
@@ -873,10 +986,10 @@
         "isEditable": true,
         "conditions": [
           {
-            "compareValue" : "1",
+            "compareValue": "1",
             "compareParamId": 9942,
             "operator": "eq",
-            "isHidden":true 
+            "isHidden": true
           }
         ]
       }
@@ -886,20 +999,26 @@
     "object": "table",
     "page": 3,
     "row": 1,
-    "height" : "700px",
+    "height": "700px",
     "width": "1000px",
     "side": "center",
     "order": "group",
     "filter": true,
     "conditions": [
       {
-        "paramId": 9941,
+        "conditionParamId": 9941,
         "compareValue": "4",
         "operator": "neq",
         "isHidden": true
       }
     ],
-    "paramId": [ 123,124,125,126,9,133     
+    "paramId": [
+      123,
+      124,
+      125,
+      126,
+      9,
+      133
     ],
     "paramGroups": [
       "Set Point",
@@ -916,47 +1035,29 @@
     "object": "table",
     "page": 3,
     "row": 1,
-    "height" : "700px",
-    "width": "1000px",
-    "side": "center",
-     "order": "group",
-    "filter": true,
-    "conditions": [
-      {
-        "paramId": 9942,
-        "compareValue": "3",
-        "operator": "neq",
-        "isHidden": true
-      }
-    ],
-    "paramId": [ 123,124,125,9,14,15,16,17,41     
-    ],
-    "paramGroups": [
-      "Set Point",
-      "Temperature Parameters",
-      "Charge Parameters",
-      "Boost Parameters",
-      "Voltage Limits"
-    ]
-  },
-  {
-    "object": "table",
-    "page": 3,
-    "row": 1,
-    "height" : "700px",
+    "height": "700px",
     "width": "1000px",
     "side": "center",
     "order": "group",
     "filter": true,
     "conditions": [
       {
-        "paramId": 9942,
-        "compareValue": "2",
+        "conditionParamId": 9942,
+        "compareValue": "3",
         "operator": "neq",
         "isHidden": true
       }
     ],
-    "paramId": [ 123,124 ,9 ,14,15,16,17,41  
+    "paramId": [
+      123,
+      124,
+      125,
+      9,
+      14,
+      15,
+      16,
+      17,
+      41
     ],
     "paramGroups": [
       "Set Point",
@@ -970,20 +1071,62 @@
     "object": "table",
     "page": 3,
     "row": 1,
-    "height" : "700px",
+    "height": "700px",
     "width": "1000px",
     "side": "center",
-     "order": "group",
+    "order": "group",
     "filter": true,
     "conditions": [
       {
-        "paramId": 9942,
+        "conditionParamId": 9942,
+        "compareValue": "2",
+        "operator": "neq",
+        "isHidden": true
+      }
+    ],
+    "paramId": [
+      123,
+      124,
+      9,
+      14,
+      15,
+      16,
+      17,
+      41
+    ],
+    "paramGroups": [
+      "Set Point",
+      "Temperature Parameters",
+      "Charge Parameters",
+      "Boost Parameters",
+      "Voltage Limits"
+    ]
+  },
+  {
+    "object": "table",
+    "page": 3,
+    "row": 1,
+    "height": "700px",
+    "width": "1000px",
+    "side": "center",
+    "order": "group",
+    "filter": true,
+    "conditions": [
+      {
+        "conditionParamId": 9942,
         "compareValue": "1",
         "operator": "neq",
         "isHidden": true
       }
     ],
-    "paramId": [ 123 ,9   ,14,15,16,17,41 
+    "paramId": [
+      123,
+      9,
+      14,
+      15,
+      16,
+      17,
+      41
     ],
     "paramGroups": [
       "Set Point",
@@ -994,5 +1137,3 @@
     ]
   }
 ]
-
-
