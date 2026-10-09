@@ -111,7 +111,7 @@
   },
   {
     "name": "DAVR100",
-    "fileVersion": 3,
+    "fileVersion": 4,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
