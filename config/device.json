@@ -134,7 +134,7 @@
   },
   {
     "name": "DVR2400E",
-    "fileVersion": 3,
+    "fileVersion": 4,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
