@@ -1,12 +1,10 @@
 [
   {
     "object": "config",
-    "pageCount": 5,
+    "pageCount": 3,
     "pageTitle": [
       "Monitoring",
-      "Set Point",
       "Configuration",
-      "Protections",
       "Protections"
     ]
   },
@@ -17,7 +15,7 @@
     "side": "left",
     "title": "Controller State",
     "width": "280px",
-    "height": "500px",
+    "height": "440px",
     "itemList": [
       {
         "name": "AVR Ready",
@@ -61,6 +59,18 @@
         "conditions": [
           {
             "conditionParamId": 44,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
+          }
+        ]
+      },
+      {
+        "name": "12V Ready",
+        "conditions": [
+          {
+            "conditionParamId": 46,
             "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
@@ -113,40 +123,6 @@
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false
-          }
-        ]
-      },
-      {
-        "name": "12V Ready",
-        "conditions": [
-          {
-            "conditionParamId": 46,
-            "compareValue": "0",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "green"
-          }
-        ]
-      },
-      {
-        "name": "Heatsink NTC Fault",
-        "conditions": [
-          {
-            "conditionParamId": 274,
-            "compareValue": "0",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
-          },
-          {
-            "conditionParamId": 273,
-            "compareValue": "0",
-            "operator": "bitOne",
-            "isOn": true,
-            "isBlinking": false,
-            "color": "red"
           }
         ]
       }
@@ -246,7 +222,7 @@
         ]
       },
       {
-        "name": "Heatsink Temperature Alarm",
+        "name": "Winding Temperature Alarm",
         "conditions": [
           {
             "conditionParamId": 64,
@@ -258,7 +234,7 @@
         ]
       },
       {
-        "name": "Heatsink Temperature Limit",
+        "name": "Winding Temperature Limit",
         "conditions": [
           {
             "conditionParamId": 65,
@@ -308,27 +284,117 @@
     ]
   },
   {
-    "object": "progressgauge",
+    "object": "ledindicator",
     "page": 1,
-    "row": 1,
-    "side": "center",
-    "height": "170px",
-    "width": "180px",
-    "paramId": [
-      0,
-      1
-    ],
-    "conditions": [
+    "row": 2,
+    "side": "left",
+    "width": "280px",
+    "height": "400px",
+    "titleFontSize": "20px",
+    "titleIsBold": true,
+    "titleColor": "yellow",
+    "title": "Inputs",
+    "itemList": [
       {
-        "conditionParamId": 122,
-        "compareValue": "U – V – W",
-        "operator": "neq",
-        "isDisabled": true,
-        "andConditions": []
+        "name": "UP",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "DOWN",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "DQRP",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "DROOP-OFF",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "EXC-OFF",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "DVR RESET",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "IGBT-OC",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "PS0",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "PS1",
+        "conditions": [
+          {
+            "conditionParamId": 298,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "color": "yellow"
+          }
+        ]
       }
-    ],
-    "showProgress": false,
-    "splitNumber": 4
+    ]
   },
   {
     "object": "progressgauge",
@@ -337,6 +403,9 @@
     "side": "center",
     "height": "170px",
     "width": "180px",
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 0,
+    "criticalHigh": 10000,
     "paramId": [
       2
     ],
@@ -350,8 +419,21 @@
     "side": "center",
     "height": "170px",
     "width": "180px",
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 0,
+     "criticalHigh": 10000,
     "paramId": [
-      8
+      0,
+      1
+    ],
+    "conditions": [
+      {
+        "conditionParamId": 122,
+        "compareValue": "AVR3",
+        "operator": "neq",
+        "isDisabled": true,
+        "andConditions": []
+      }
     ],
     "showProgress": false,
     "splitNumber": 4
@@ -359,11 +441,14 @@
   {
     "object": "progressgauge",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "center",
     "height": "170px",
     "width": "180px",
+    "labelDecimalPlaces": 0,
+    "valueDecimalPlaces": 0,
     "paramId": [
+      8,
       14,
       20
     ],
@@ -371,52 +456,67 @@
     "splitNumber": 4
   },
   {
+    "object": "button",
+    "page": 1,
+    "row": 6,
+    "side": "left",
+    "title": "Protection Clear",
+    "image": "AlarmClear.png",
+    "imageHeight": "40px",
+    "imageWidth": "40px",
+    "actionType": "setValue",
+    "actionParamId": 103,
+    "actionValue": 1,
+    "height": "48px",
+    "width": "48px"
+  },
+  {
     "object": "text",
     "page": 1,
     "row": 6,
     "side": "left",
-    "width": "260px",
+    "width": "220px",
+    "height": "40px",
     "valueFontSize": "24px",
-    "valueColor": "#c67d7d",
     "conditions": [
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Pre Init",
         "operator": "eq",
         "text": "Pre Init"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Init",
         "operator": "eq",
         "text": "Init"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Startup",
         "operator": "eq",
         "text": "Startup"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Standby",
         "operator": "eq",
         "text": "Standby"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Soft Start Delay",
         "operator": "eq",
         "text": "Soft Start Delay"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Soft Start",
         "operator": "eq",
         "text": "Soft Start"
       },
       {
-        "paramId": 35,
+        "conditionParamId": 35,
         "compareValue": "Normal Operation",
         "operator": "eq",
         "text": "Normal Operation"
@@ -424,10 +524,44 @@
     ]
   },
   {
+    "object": "datacard",
+    "page": 1,
+    "row": 5,
+    "side": "center",
+    "paramId": [
+      14,  
+      20,
+      23,   
+      25,   
+      26,   
+      260,   
+      261,  
+      262,  
+      263,
+      22, 
+      264,
+      37   
+    ]
+  },
+  {
+    "object": "datacard",
+    "page": 1,
+    "row": 6,
+    "side": "center",
+    "paramId": [
+      150,
+      100,
+      101,
+      102,
+      216,
+      217
+    ]
+  },
+  {
     "object": "datacardgroup",
     "page": 1,
     "row": 2,
-    "width": "190px",
+    "width": "280px",
     "side": "right",
     "name": "Device HW/BL/SW version",
     "showUnits": false,
@@ -440,40 +574,35 @@
     ]
   },
   {
-    "object": "button",
-    "page": 1,
-    "row": 2,
-    "side": "right",
-    "title": "Protection Clear",
-    "image": "AlarmClear.png",
-    "imageHeight": "50px",
-    "imageWidth": "50px",
-    "actionType": "setValue",
-    "actionParamId": 103,
-    "actionValue": 1,
-    "height": "60px",
-    "width": "60px"
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 6,
+    "object": "datalist",
+    "page": 2,
+    "row": 1,
     "side": "center",
-    "paramId": [
-      37,
-      272
-    ]
-  },
-  {
-    "object": "datacard",
-    "page": 1,
-    "row": 7,
-    "side": "center",
-    "paramId": [
-      101,
-      102,
-      216,
-      217
+    "width": "250px",
+    "height": "47em",
+    "title": "Set Point",
+    "titleIsBold": true,
+    "itemList": [
+      {
+        "paramId": 111,
+        "isEditable": true
+      },
+      {
+        "paramId": 110,
+        "isEditable": true
+      },
+      {
+        "paramId": 112,
+        "isEditable": true
+      },
+      {
+        "paramId": 118,
+        "isEditable": true
+      },
+      {
+        "paramId": 119,
+        "isEditable": true
+      }
     ]
   },
   {
@@ -481,7 +610,9 @@
     "page": 2,
     "row": 1,
     "side": "center",
-    "filter": true,
+    "width": "1200px",
+    "height": "45em",
+    "filter": false,
     "paramId": [
       100,
       122,
@@ -501,17 +632,7 @@
       119,
       120,
       108,
-      109
-    ],
-    "paramGroups": []
-  },
-  {
-    "object": "table",
-    "page": 3,
-    "row": 1,
-    "side": "center",
-    "filter": true,
-    "paramId": [
+      109,
       101,
       102,
       103,
@@ -525,13 +646,40 @@
       203,
       204,
       218,
-      219
+      219,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326
     ],
     "paramGroups": []
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 1,
     "side": "center",
     "width": "250px",
@@ -585,7 +733,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 1,
     "side": "center",
     "width": "250px",
@@ -630,7 +778,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 1,
     "side": "center",
     "width": "250px",
@@ -693,7 +841,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 1,
     "side": "center",
     "width": "250px",
@@ -747,8 +895,8 @@
       {
         "paramId": 439,
         "nameIsBold": true,
-        "nameIsItalic": false,
         "nameColor": "var(--textPrimary)",
+        "nameIsItalic": false,
         "valueIsBold": false,
         "valueIsItalic": false
       }
@@ -756,7 +904,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 2,
     "side": "center",
     "width": "250px",
@@ -819,7 +967,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 2,
     "side": "center",
     "width": "250px",
@@ -882,12 +1030,12 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 2,
     "side": "center",
     "width": "250px",
     "height": "250px",
-    "title": "HTA Protection",
+    "title": "WTA Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
     "showItemBorder": true,
@@ -945,12 +1093,12 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 2,
     "side": "center",
     "width": "250px",
     "height": "250px",
-    "title": "HTL Protection",
+    "title": "WTL Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
     "showItemBorder": true,
@@ -1008,7 +1156,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 3,
     "side": "center",
     "width": "250px",
@@ -1071,7 +1219,7 @@
   },
   {
     "object": "datalist",
-    "page": 4,
+    "page": 3,
     "row": 3,
     "side": "center",
     "width": "250px",
@@ -1123,189 +1271,6 @@
       }
     ]
   },
-   {
-    "object": "dataTable",
-    "page": 5,
-    "row": 1,
-    "side": "center",
-    "filter": true,
-    "width": "1200px",
-    "height": "400px",
-    "columns": [
-      {
-        "title": "Description",
-        "width": "25%",
-        "align": "left"
-      },
-      {
-        "title": "Enabled",
-        "width": "15%",
-        "align": "center"
-      },
-      {
-        "title": "Treshold",
-        "width": "15%",
-        "align": "center"
-      },
-      {
-        "title": "Delay",
-        "width": "15%",
-        "align": "center"
-      },
-      {
-        "title": "Relay",
-        "width": "15%",
-        "align": "center"
-      },
-      {
-        "title": "Trip",
-        "width": "15%",
-        "align": "center"
-      }
-    ],
-    "rows": [
-      {
-        "rowConditions": [
-          {
-            "conditionParamId": 403,
-            "compareValue": "Enabled",
-            "operator": "eq"
-          }
-        ],
-        "cells": [
-          {
-            "type": "static",
-            "value": "OEX Protection"
-          },
-          {
-            "type": "param",
-            "paramId": 403
-          },
-          {
-            "type": "param",
-            "paramId": 400
-          },
-          {
-            "type": "param",
-            "paramId": 402
-          },
-          {
-            "type": "param",
-            "paramId": 406
-          },
-          {
-            "type": "static",
-            "value": "Undefined"
-          }
-        ]
-      },
-      {
-        "rowConditions": [
-          {
-            "conditionParamId": 451,
-            "compareValue": "Enabled",
-            "operator": "eq"
-          }
-        ],
-        "cells": [
-          {
-            "type": "static",
-            "value": "GCL Protection"
-          },
-          {
-            "type": "param",
-            "paramId": 451
-          },
-          {
-            "type": "param",
-            "paramId": 448
-          },
-          {
-            "type": "param",
-            "paramId": 450
-          },
-          {
-            "type": "param",
-            "paramId": 454
-          },
-          {
-            "type": "param",
-            "paramId": 455
-          }
-        ]
-      },
-      {
-        "rowConditions": [
-          {
-            "conditionParamId": 459,
-            "compareValue": "Enabled",
-            "operator": "eq"
-          }
-        ],
-        "cells": [
-          {
-            "type": "static",
-            "value": "WTA Protection"
-          },
-          {
-            "type": "param",
-            "paramId": 459
-          },
-          {
-            "type": "param",
-            "paramId": 456
-          },
-          {
-            "type": "param",
-            "paramId": 458
-          },
-          {
-            "type": "param",
-            "paramId": 462
-          },
-          {
-            "type": "param",
-            "paramId": 463
-          }
-        ]
-      },
-      {
-        "rowConditions": [
-          {
-            "conditionParamId": 467,
-            "compareValue": "Enabled",
-            "operator": "eq"
-          }
-        ],
-        "cells": [
-          {
-            "type": "static",
-            "value": "WTL Protection"
-          },
-          {
-            "type": "param",
-            "paramId": 467
-          },
-          {
-            "type": "param",
-            "paramId": 464
-          },
-          {
-            "type": "param",
-            "paramId": 466
-          },
-          {
-            "type": "param",
-            "paramId": 470
-          },
-          {
-            "type": "param",
-            "paramId": 471
-          }
-        ]
-      }
-    ]
-  },
   {
     "object": "dataoperation",
     "targetParamId": 0,
@@ -1337,48 +1302,6 @@
   {
     "object": "dataoperation",
     "targetParamId": 2,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        {
-          "type": "param",
-          "id": 134,
-          "operator": "*"
-        }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 100,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        {
-          "type": "param",
-          "id": 134,
-          "operator": "*"
-        }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 118,
-    "decimalPlaces": 0,
-    "operation": {
-      "steps": [
-        {
-          "type": "param",
-          "id": 134,
-          "operator": "*"
-        }
-      ]
-    }
-  },
-  {
-    "object": "dataoperation",
-    "targetParamId": 119,
     "decimalPlaces": 0,
     "operation": {
       "steps": [
