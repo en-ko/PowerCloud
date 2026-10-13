@@ -360,7 +360,7 @@
   },
   {
     "name": "DMP2.0-MK2",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "bMAddress": 10068
