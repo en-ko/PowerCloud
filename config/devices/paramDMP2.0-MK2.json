@@ -7139,6 +7139,38 @@
         "readOnly": false,
         "comment": "",
         "relation": []
+      },
+      {
+        "id": 10205,
+        "version": 9004,
+        "name": "Transfer on yellow alarm",
+        "group": "Engine and timers",
+        "unit": "",
+        "modbusAddress": 10205,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": false,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Off"
+          },
+          {
+            "value": 1,
+            "mask": "On"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
       }
     ]
   }
