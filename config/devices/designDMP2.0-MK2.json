@@ -2476,15 +2476,15 @@
     "width": "1200px",
     "paramId": [],
     "paramGroups": [
-      "Access",
-      "Mains protection",
-      "Alternator protection",
-      "Engine and timers",
-      "Aux inputs and outputs",
-      "Calibration",
-      "Service",
+      "Erişim",
+      "Şebeke koruma",
+      "Alternatör koruma",
+      "Motor ve zamanlayıcılar",
+      "Yardımcı giriş/çıkışlar",
+      "Kalibrasyon",
+      "Servis",
       "Panel",
-      "Canbus I/O module"
+      "Canbus I/O modülü"
     ]
   }
 ]

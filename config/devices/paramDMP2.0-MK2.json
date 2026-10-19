@@ -4,9 +4,9 @@
     "parameters": [
       {
         "id": 10000,
-        "version": 9003,
-        "name": "Product code word 1",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-1",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10000,
         "dataLength": 1,
@@ -27,9 +27,9 @@
       },
       {
         "id": 10001,
-        "version": 9003,
-        "name": "Product code word 2",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-2",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10001,
         "dataLength": 1,
@@ -50,9 +50,9 @@
       },
       {
         "id": 10002,
-        "version": 9003,
-        "name": "Product code word 3",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-3",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10002,
         "dataLength": 1,
@@ -73,9 +73,9 @@
       },
       {
         "id": 10003,
-        "version": 9003,
-        "name": "Product code word 4",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-4",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10003,
         "dataLength": 1,
@@ -96,9 +96,9 @@
       },
       {
         "id": 10004,
-        "version": 9003,
-        "name": "Product code word 5",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-5",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10004,
         "dataLength": 1,
@@ -119,9 +119,9 @@
       },
       {
         "id": 10005,
-        "version": 9003,
-        "name": "Product code word 6",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-6",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10005,
         "dataLength": 1,
@@ -142,9 +142,9 @@
       },
       {
         "id": 10006,
-        "version": 9003,
-        "name": "Product code word 7",
-        "group": "Product code",
+        "version": 9005,
+        "name": "Sabit Ürün Kodu-7",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10006,
         "dataLength": 1,
@@ -165,9 +165,9 @@
       },
       {
         "id": 10007,
-        "version": 9003,
-        "name": "Product code word 8",
-        "group": "Product code",
+        "version": 9005,
+        "name": "sabit Ürün Kodu-8",
+        "group": "Ürün kodu",
         "unit": "",
         "modbusAddress": 10007,
         "dataLength": 1,
@@ -188,9 +188,9 @@
       },
       {
         "id": 10008,
-        "version": 9003,
-        "name": "Password",
-        "group": "Access",
+        "version": 9005,
+        "name": "Parola",
+        "group": "Erişim",
         "unit": "",
         "modbusAddress": 10008,
         "dataLength": 1,
@@ -211,9 +211,9 @@
       },
       {
         "id": 10009,
-        "version": 9003,
-        "name": "Mains phase selection",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Şebeke Faz Seçimi",
+        "group": "Şebeke koruma",
         "unit": "",
         "modbusAddress": 10009,
         "dataLength": 1,
@@ -226,15 +226,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Single Phase"
+            "mask": "Tek Faz"
           },
           {
             "value": 2,
-            "mask": "Two Phase"
+            "mask": "2 Faz"
           },
           {
             "value": 3,
-            "mask": "Three Phase"
+            "mask": "3 Faz"
           }
         ],
         "dataOperation": {
@@ -247,9 +247,9 @@
       },
       {
         "id": 10010,
-        "version": 9003,
-        "name": "Minimum mains voltage single phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Minimum Şebeke Gerilimi Tek Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10010,
         "dataLength": 1,
@@ -270,9 +270,9 @@
       },
       {
         "id": 10011,
-        "version": 9003,
-        "name": "Minimum mains voltage three phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Minimum Şebeke Gerilimi 3 Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10011,
         "dataLength": 1,
@@ -293,9 +293,9 @@
       },
       {
         "id": 10012,
-        "version": 9003,
-        "name": "Maximum mains voltage single phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Maksimum Şebeke Gerilimi Tek Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10012,
         "dataLength": 1,
@@ -316,9 +316,9 @@
       },
       {
         "id": 10013,
-        "version": 9003,
-        "name": "Maximum mains voltage three phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Maksimum Şebeke Gerilimi 3 Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10013,
         "dataLength": 1,
@@ -339,9 +339,9 @@
       },
       {
         "id": 10014,
-        "version": 9003,
-        "name": "Mains hysteresis voltage single phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Histerezis Gerilimi Tek Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10014,
         "dataLength": 1,
@@ -362,9 +362,9 @@
       },
       {
         "id": 10015,
-        "version": 9003,
-        "name": "Mains hysteresis voltage three phase",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Histerezis Gerilimi 3 Faz",
+        "group": "Şebeke koruma",
         "unit": "V",
         "modbusAddress": 10015,
         "dataLength": 1,
@@ -385,9 +385,9 @@
       },
       {
         "id": 10016,
-        "version": 9003,
-        "name": "Mains voltage error delay",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Gerilim Hata Gecikmesi",
+        "group": "Şebeke koruma",
         "unit": "s",
         "modbusAddress": 10016,
         "dataLength": 1,
@@ -408,9 +408,9 @@
       },
       {
         "id": 10017,
-        "version": 9003,
-        "name": "Mains transfer time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Şebekeye Geçiş Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "s",
         "modbusAddress": 10017,
         "dataLength": 1,
@@ -431,9 +431,9 @@
       },
       {
         "id": 10018,
-        "version": 9003,
-        "name": "Maximum synchronisation time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Maksimum Senkronizasyon Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "s",
         "modbusAddress": 10018,
         "dataLength": 1,
@@ -454,9 +454,9 @@
       },
       {
         "id": 10019,
-        "version": 9003,
-        "name": "Synchronous working time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Senkron Çalışma Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "s",
         "modbusAddress": 10019,
         "dataLength": 1,
@@ -477,9 +477,9 @@
       },
       {
         "id": 10020,
-        "version": 9003,
-        "name": "Contactor delay time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Kontaktör Gecikmesi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10020,
         "dataLength": 1,
@@ -500,9 +500,9 @@
       },
       {
         "id": 10021,
-        "version": 9003,
-        "name": "Generator maximum working time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Grup Maksimum Çalışma Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "min",
         "modbusAddress": 10021,
         "dataLength": 1,
@@ -523,9 +523,9 @@
       },
       {
         "id": 10022,
-        "version": 9003,
-        "name": "Synchronisation voltage difference limit",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Voltaj Fark Limiti",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "V",
         "modbusAddress": 10022,
         "dataLength": 1,
@@ -546,9 +546,9 @@
       },
       {
         "id": 10023,
-        "version": 9003,
-        "name": "Synchronisation frequency difference limit",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Frekans Fark Limiti",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "Hz",
         "modbusAddress": 10023,
         "dataLength": 1,
@@ -569,9 +569,9 @@
       },
       {
         "id": 10024,
-        "version": 9003,
-        "name": "Equal aging priority selector",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Eşit Yaşlandırma Öncelik Seçici",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10024,
         "dataLength": 1,
@@ -584,11 +584,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Priority Selection"
+            "mask": "Öncelik Seçimi"
           },
           {
             "value": 2,
-            "mask": "Working Hours"
+            "mask": "Çalışma Saati"
           }
         ],
         "dataOperation": {
@@ -601,9 +601,9 @@
       },
       {
         "id": 10025,
-        "version": 9003,
-        "name": "Equal aging working difference time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Fark Çalışma Saati",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "h",
         "modbusAddress": 10025,
         "dataLength": 1,
@@ -624,9 +624,9 @@
       },
       {
         "id": 10026,
-        "version": 9003,
-        "name": "Alternator phase selection",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Faz Seçimi",
+        "group": "Alternatör koruma",
         "unit": "",
         "modbusAddress": 10026,
         "dataLength": 1,
@@ -639,15 +639,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Single Phase"
+            "mask": "Tek Faz"
           },
           {
             "value": 2,
-            "mask": "Two Phase"
+            "mask": "2 Faz"
           },
           {
             "value": 3,
-            "mask": "Three Phase"
+            "mask": "3 Faz"
           }
         ],
         "dataOperation": {
@@ -660,9 +660,9 @@
       },
       {
         "id": 10027,
-        "version": 9003,
-        "name": "Minimum alternator voltage single phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Minimum Alternatör Gerilimi Tek Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10027,
         "dataLength": 1,
@@ -683,9 +683,9 @@
       },
       {
         "id": 10028,
-        "version": 9003,
-        "name": "Minimum alternator voltage three phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Minimum Alternatör Gerilimi 3 Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10028,
         "dataLength": 1,
@@ -706,9 +706,9 @@
       },
       {
         "id": 10029,
-        "version": 9003,
-        "name": "Maximum alternator voltage single phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Maksimum Alternatör Gerilimi Tek Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10029,
         "dataLength": 1,
@@ -729,9 +729,9 @@
       },
       {
         "id": 10030,
-        "version": 9003,
-        "name": "Maximum alternator voltage three phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Maksimum Alternatör Gerilimi 3 Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10030,
         "dataLength": 1,
@@ -752,9 +752,9 @@
       },
       {
         "id": 10031,
-        "version": 9003,
-        "name": "Alternator hysteresis voltage single phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Histerezis Gerilimi Tek Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10031,
         "dataLength": 1,
@@ -775,9 +775,9 @@
       },
       {
         "id": 10032,
-        "version": 9003,
-        "name": "Alternator hysteresis voltage three phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Histerezis Gerilimi 3 Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10032,
         "dataLength": 1,
@@ -798,9 +798,9 @@
       },
       {
         "id": 10033,
-        "version": 9003,
-        "name": "Alternator voltage error delay",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Gerilimi Hata Gecikmesi",
+        "group": "Alternatör koruma",
         "unit": "s",
         "modbusAddress": 10033,
         "dataLength": 1,
@@ -821,9 +821,9 @@
       },
       {
         "id": 10034,
-        "version": 9003,
-        "name": "Alternator voltage setpoint single phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Gerilimi Set Değeri Tek Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10034,
         "dataLength": 1,
@@ -844,9 +844,9 @@
       },
       {
         "id": 10035,
-        "version": 9003,
-        "name": "Alternator voltage setpoint three phase",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Gerilimi Set Değeri 3 Faz",
+        "group": "Alternatör koruma",
         "unit": "V",
         "modbusAddress": 10035,
         "dataLength": 1,
@@ -867,9 +867,9 @@
       },
       {
         "id": 10036,
-        "version": 9003,
-        "name": "Alternator minimum frequency",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Minimum Frekans Değeri",
+        "group": "Alternatör koruma",
         "unit": "Hz",
         "modbusAddress": 10036,
         "dataLength": 1,
@@ -890,9 +890,9 @@
       },
       {
         "id": 10037,
-        "version": 9003,
-        "name": "Alternator maximum frequency",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Alternatör Maksimum Frekans Değeri",
+        "group": "Alternatör koruma",
         "unit": "Hz",
         "modbusAddress": 10037,
         "dataLength": 1,
@@ -913,9 +913,9 @@
       },
       {
         "id": 10038,
-        "version": 9003,
-        "name": "Test mode function",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Test Modu Fonksiyonu",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10038,
         "dataLength": 1,
@@ -936,9 +936,9 @@
       },
       {
         "id": 10039,
-        "version": 9003,
-        "name": "Horn time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Korna Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10039,
         "dataLength": 1,
@@ -959,9 +959,9 @@
       },
       {
         "id": 10040,
-        "version": 9003,
-        "name": "Low fuel level stoppage delay",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Minimum Yakıt Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10040,
         "dataLength": 1,
@@ -982,9 +982,9 @@
       },
       {
         "id": 10041,
-        "version": 9003,
-        "name": "Backlight time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Backlight Süre Ayarı",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "s",
         "modbusAddress": 10041,
         "dataLength": 1,
@@ -1005,9 +1005,9 @@
       },
       {
         "id": 10042,
-        "version": 9003,
-        "name": "Aux input 1 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-1 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10042,
         "dataLength": 1,
@@ -1020,83 +1020,83 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Up Button"
+            "mask": "Yukarı Butonu"
           },
           {
             "value": 2,
-            "mask": "Menu Button"
+            "mask": "Menü Butonu"
           },
           {
             "value": 3,
-            "mask": "Esc Button"
+            "mask": "Esc Butonu"
           },
           {
             "value": 4,
-            "mask": "Down Button"
+            "mask": "Aşağı Butonu"
           },
           {
             "value": 5,
-            "mask": "Mode Button"
+            "mask": "Mod Butonu"
           },
           {
             "value": 6,
-            "mask": "Priority Button"
+            "mask": "Öncelik Butonu"
           },
           {
             "value": 7,
-            "mask": "Off Button"
+            "mask": "Off Butonu"
           },
           {
             "value": 8,
-            "mask": "Mains Contactor Off Button"
+            "mask": "Şebeke Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 9,
-            "mask": "Mains Contactor On Button"
+            "mask": "Şebeke Kontaktör Devreye Al Butonu"
           },
           {
             "value": 10,
-            "mask": "Generator-2 Contactor Off Button"
+            "mask": "Jeneratör-2 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 11,
-            "mask": "Generator-2 Stop Button"
+            "mask": "Jeneratör-2 Stop Butonu"
           },
           {
             "value": 12,
-            "mask": "Generator-2 Start Button"
+            "mask": "Jeneratör-2 Start Butonu"
           },
           {
             "value": 13,
-            "mask": "Generator-2 Contactor On Button"
+            "mask": "Jeneratör-2 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Stop Button"
+            "mask": "Jeneratör-1 Stop Butonu"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Contactor Off Button"
+            "mask": "Jeneratör-1 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Contactor On Button"
+            "mask": "Jeneratör-1 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 17,
-            "mask": "Generator-1 Start Button"
+            "mask": "Jeneratör-1 Start Butonu"
           },
           {
             "value": 18,
-            "mask": "Alarm Stop Button"
+            "mask": "Alarm Stop Butonu"
           },
           {
             "value": 19,
-            "mask": "Emergency Stop Input"
+            "mask": "Acil Stop Girişi"
           }
         ],
         "dataOperation": {
@@ -1109,9 +1109,9 @@
       },
       {
         "id": 10043,
-        "version": 9003,
-        "name": "Aux input 1 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-1 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10043,
         "dataLength": 1,
@@ -1124,11 +1124,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -1141,9 +1141,9 @@
       },
       {
         "id": 10044,
-        "version": 9003,
-        "name": "Aux input 2 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-2 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10044,
         "dataLength": 1,
@@ -1156,83 +1156,83 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Up Button"
+            "mask": "Yukarı Butonu"
           },
           {
             "value": 2,
-            "mask": "Menu Button"
+            "mask": "Menü Butonu"
           },
           {
             "value": 3,
-            "mask": "Esc Button"
+            "mask": "Esc Butonu"
           },
           {
             "value": 4,
-            "mask": "Down Button"
+            "mask": "Aşağı Butonu"
           },
           {
             "value": 5,
-            "mask": "Mode Button"
+            "mask": "Mod Butonu"
           },
           {
             "value": 6,
-            "mask": "Priority Button"
+            "mask": "Öncelik Butonu"
           },
           {
             "value": 7,
-            "mask": "Off Button"
+            "mask": "Off Butonu"
           },
           {
             "value": 8,
-            "mask": "Mains Contactor Off Button"
+            "mask": "Şebeke Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 9,
-            "mask": "Mains Contactor On Button"
+            "mask": "Şebeke Kontaktör Devreye Al Butonu"
           },
           {
             "value": 10,
-            "mask": "Generator-2 Contactor Off Button"
+            "mask": "Jeneratör-2 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 11,
-            "mask": "Generator-2 Stop Button"
+            "mask": "Jeneratör-2 Stop Butonu"
           },
           {
             "value": 12,
-            "mask": "Generator-2 Start Button"
+            "mask": "Jeneratör-2 Start Butonu"
           },
           {
             "value": 13,
-            "mask": "Generator-2 Contactor On Button"
+            "mask": "Jeneratör-2 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Stop Button"
+            "mask": "Jeneratör-1 Stop Butonu"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Contactor Off Button"
+            "mask": "Jeneratör-1 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Contactor On Button"
+            "mask": "Jeneratör-1 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 17,
-            "mask": "Generator-1 Start Button"
+            "mask": "Jeneratör-1 Start Butonu"
           },
           {
             "value": 18,
-            "mask": "Alarm Stop Button"
+            "mask": "Alarm Stop Butonu"
           },
           {
             "value": 19,
-            "mask": "Emergency Stop Input"
+            "mask": "Acil Stop Girişi"
           }
         ],
         "dataOperation": {
@@ -1245,9 +1245,9 @@
       },
       {
         "id": 10045,
-        "version": 9003,
-        "name": "Aux input 2 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-2 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10045,
         "dataLength": 1,
@@ -1260,11 +1260,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -1277,9 +1277,9 @@
       },
       {
         "id": 10046,
-        "version": 9003,
-        "name": "Aux input 3 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-3 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10046,
         "dataLength": 1,
@@ -1292,83 +1292,83 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Up Button"
+            "mask": "Yukarı Butonu"
           },
           {
             "value": 2,
-            "mask": "Menu Button"
+            "mask": "Menü Butonu"
           },
           {
             "value": 3,
-            "mask": "Esc Button"
+            "mask": "Esc Butonu"
           },
           {
             "value": 4,
-            "mask": "Down Button"
+            "mask": "Aşağı Butonu"
           },
           {
             "value": 5,
-            "mask": "Mode Button"
+            "mask": "Mod Butonu"
           },
           {
             "value": 6,
-            "mask": "Priority Button"
+            "mask": "Öncelik Butonu"
           },
           {
             "value": 7,
-            "mask": "Off Button"
+            "mask": "Off Butonu"
           },
           {
             "value": 8,
-            "mask": "Mains Contactor Off Button"
+            "mask": "Şebeke Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 9,
-            "mask": "Mains Contactor On Button"
+            "mask": "Şebeke Kontaktör Devreye Al Butonu"
           },
           {
             "value": 10,
-            "mask": "Generator-2 Contactor Off Button"
+            "mask": "Jeneratör-2 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 11,
-            "mask": "Generator-2 Stop Button"
+            "mask": "Jeneratör-2 Stop Butonu"
           },
           {
             "value": 12,
-            "mask": "Generator-2 Start Button"
+            "mask": "Jeneratör-2 Start Butonu"
           },
           {
             "value": 13,
-            "mask": "Generator-2 Contactor On Button"
+            "mask": "Jeneratör-2 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Stop Button"
+            "mask": "Jeneratör-1 Stop Butonu"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Contactor Off Button"
+            "mask": "Jeneratör-1 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Contactor On Button"
+            "mask": "Jeneratör-1 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 17,
-            "mask": "Generator-1 Start Button"
+            "mask": "Jeneratör-1 Start Butonu"
           },
           {
             "value": 18,
-            "mask": "Alarm Stop Button"
+            "mask": "Alarm Stop Butonu"
           },
           {
             "value": 19,
-            "mask": "Emergency Stop Input"
+            "mask": "Acil Stop Girişi"
           }
         ],
         "dataOperation": {
@@ -1381,9 +1381,9 @@
       },
       {
         "id": 10047,
-        "version": 9003,
-        "name": "Aux input 3 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-3 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10047,
         "dataLength": 1,
@@ -1396,11 +1396,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -1413,9 +1413,9 @@
       },
       {
         "id": 10048,
-        "version": 9003,
-        "name": "Aux input 4 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-4 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10048,
         "dataLength": 1,
@@ -1428,83 +1428,83 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Up Button"
+            "mask": "Yukarı Butonu"
           },
           {
             "value": 2,
-            "mask": "Menu Button"
+            "mask": "Menü Butonu"
           },
           {
             "value": 3,
-            "mask": "Esc Button"
+            "mask": "Esc Butonu"
           },
           {
             "value": 4,
-            "mask": "Down Button"
+            "mask": "Aşağı Butonu"
           },
           {
             "value": 5,
-            "mask": "Mode Button"
+            "mask": "Mod Butonu"
           },
           {
             "value": 6,
-            "mask": "Priority Button"
+            "mask": "Öncelik Butonu"
           },
           {
             "value": 7,
-            "mask": "Off Button"
+            "mask": "Off Butonu"
           },
           {
             "value": 8,
-            "mask": "Mains Contactor Off Button"
+            "mask": "Şebeke Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 9,
-            "mask": "Mains Contactor On Button"
+            "mask": "Şebeke Kontaktör Devreye Al Butonu"
           },
           {
             "value": 10,
-            "mask": "Generator-2 Contactor Off Button"
+            "mask": "Jeneratör-2 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 11,
-            "mask": "Generator-2 Stop Button"
+            "mask": "Jeneratör-2 Stop Butonu"
           },
           {
             "value": 12,
-            "mask": "Generator-2 Start Button"
+            "mask": "Jeneratör-2 Start Butonu"
           },
           {
             "value": 13,
-            "mask": "Generator-2 Contactor On Button"
+            "mask": "Jeneratör-2 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Stop Button"
+            "mask": "Jeneratör-1 Stop Butonu"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Contactor Off Button"
+            "mask": "Jeneratör-1 Kontaktör Devreden Çıkar Butonu"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Contactor On Button"
+            "mask": "Jeneratör-1 Kontaktör Devreye Al Butonu"
           },
           {
             "value": 17,
-            "mask": "Generator-1 Start Button"
+            "mask": "Jeneratör-1 Start Butonu"
           },
           {
             "value": 18,
-            "mask": "Alarm Stop Button"
+            "mask": "Alarm Stop Butonu"
           },
           {
             "value": 19,
-            "mask": "Emergency Stop Input"
+            "mask": "Acil Stop Girişi"
           }
         ],
         "dataOperation": {
@@ -1517,9 +1517,9 @@
       },
       {
         "id": 10049,
-        "version": 9003,
-        "name": "Aux input 4 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Giriş-4 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10049,
         "dataLength": 1,
@@ -1532,11 +1532,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -1549,9 +1549,9 @@
       },
       {
         "id": 10050,
-        "version": 9003,
-        "name": "Aux output 1 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-1 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10050,
         "dataLength": 1,
@@ -1564,355 +1564,355 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Generator-1 Oil Pressure Switch"
+            "mask": "Jeneratör-1 Yağ Basınç Switchi"
           },
           {
             "value": 2,
-            "mask": "Generator-1 Temperature Switch"
+            "mask": "Jeneratör-1 Sıcaklık Switchi"
           },
           {
             "value": 3,
-            "mask": "Generator-1 Charge Fail Input"
+            "mask": "Jeneratör-1 Şarj Arızası Girişi"
           },
           {
             "value": 4,
-            "mask": "Generator-1 Aux Input 1"
+            "mask": "Jeneratör-1 Yardımcı Giriş 1"
           },
           {
             "value": 5,
-            "mask": "Generator-1 Aux Input 2"
+            "mask": "Jeneratör-1 Yardımcı Giriş 2"
           },
           {
             "value": 6,
-            "mask": "Generator-1 Aux Input 3"
+            "mask": "Jeneratör-1 Yardımcı Giriş 3"
           },
           {
             "value": 7,
-            "mask": "Generator-1 Aux Input 4"
+            "mask": "Jeneratör-1 Yardımcı Giriş 4"
           },
           {
             "value": 8,
-            "mask": "Generator-1 Aux Input 5"
+            "mask": "Jeneratör-1 Yardımcı Giriş 5"
           },
           {
             "value": 9,
-            "mask": "Generator-1 Aux Input 6"
+            "mask": "Jeneratör-1 Yardımcı Giriş 6"
           },
           {
             "value": 10,
-            "mask": "Generator-1 Starter Output"
+            "mask": "Jeneratör-1 Marş Çıkışı"
           },
           {
             "value": 11,
-            "mask": "Generator-1 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-1 Yakıt / Stop Solenoidi"
           },
           {
             "value": 12,
-            "mask": "Generator-1 Aux Output 1"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 1"
           },
           {
             "value": 13,
-            "mask": "Generator-1 Aux Output 2"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 2"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Aux Output 3"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 3"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Aux Output 4"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 4"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Low Frequency"
+            "mask": "Jeneratör-1 Düşük Frekans"
           },
           {
             "value": 17,
-            "mask": "Generator-1 High Frequency"
+            "mask": "Jeneratör-1 Yüksek Frekans"
           },
           {
             "value": 18,
-            "mask": "Generator-1 Low Engine Speed"
+            "mask": "Jeneratör-1 Düşük Motor Devri"
           },
           {
             "value": 19,
-            "mask": "Generator-1 High Engine Speed"
+            "mask": "Jeneratör-1 Yüksek Motor Devri"
           },
           {
             "value": 20,
-            "mask": "Generator-1 Charge Error"
+            "mask": "Jeneratör-1 Şarj Hatası"
           },
           {
             "value": 21,
-            "mask": "Generator-1 Low Battery Voltage"
+            "mask": "Jeneratör-1 Düşük Akü Gerilimi"
           },
           {
             "value": 22,
-            "mask": "Generator-1 High Battery Voltage"
+            "mask": "Jeneratör-1 Yüksek Akü Gerilimi"
           },
           {
             "value": 23,
-            "mask": "Generator-1 High Current"
+            "mask": "Jeneratör-1 Yüksek Akım"
           },
           {
             "value": 24,
-            "mask": "Generator-1 High Water Temperature"
+            "mask": "Jeneratör-1 Yüksek Su Sıcaklığı"
           },
           {
             "value": 25,
-            "mask": "Generator-1 Low Fuel"
+            "mask": "Jeneratör-1 Düşük Yakıt"
           },
           {
             "value": 26,
-            "mask": "Generator-1 Aux Input Error"
+            "mask": "Jeneratör-1 Yardımcı Giriş Hatası"
           },
           {
             "value": 27,
-            "mask": "Generator-1 Phase Sequence Error"
+            "mask": "Jeneratör-1 Faz Sırası Hatası"
           },
           {
             "value": 28,
-            "mask": "Generator-1 High Power"
+            "mask": "Jeneratör-1 Yüksek Güç"
           },
           {
             "value": 29,
-            "mask": "Generator-1 Starting Error"
+            "mask": "Jeneratör-1 Kalkış Hatası"
           },
           {
             "value": 30,
-            "mask": "Generator-1 Maintenance"
+            "mask": "Jeneratör-1 Bakım"
           },
           {
             "value": 31,
-            "mask": "Generator-1 Emergency Stop"
+            "mask": "Jeneratör-1 Acil Stop"
           },
           {
             "value": 32,
-            "mask": "Generator-1 Low Voltage"
+            "mask": "Jeneratör-1 Düşük Gerilim"
           },
           {
             "value": 33,
-            "mask": "Generator-1 High Voltage"
+            "mask": "Jeneratör-1 Yüksek Gerilim"
           },
           {
             "value": 34,
-            "mask": "Generator-1 High Oil Temperature"
+            "mask": "Jeneratör-1 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 35,
-            "mask": "Generator-1 Low Oil Pressure"
+            "mask": "Jeneratör-1 Düşük Yağ Basıncı"
           },
           {
             "value": 36,
-            "mask": "Generator-1 Low Radiator Water Level"
+            "mask": "Jeneratör-1 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 37,
-            "mask": "Generator-2 Oil Pressure Switch"
+            "mask": "Jeneratör-2 Yağ Basınç Switchi"
           },
           {
             "value": 38,
-            "mask": "Generator-2 Temperature Switch"
+            "mask": "Jeneratör-2 Sıcaklık Switchi"
           },
           {
             "value": 39,
-            "mask": "Generator-2 Charge Fail Input"
+            "mask": "Jeneratör-2 Şarj Arızası Girişi"
           },
           {
             "value": 40,
-            "mask": "Generator-2 Aux Input 1"
+            "mask": "Jeneratör-2 Yardımcı Giriş 1"
           },
           {
             "value": 41,
-            "mask": "Generator-2 Aux Input 2"
+            "mask": "Jeneratör-2 Yardımcı Giriş 2"
           },
           {
             "value": 42,
-            "mask": "Generator-2 Aux Input 3"
+            "mask": "Jeneratör-2 Yardımcı Giriş 3"
           },
           {
             "value": 43,
-            "mask": "Generator-2 Aux Input 4"
+            "mask": "Jeneratör-2 Yardımcı Giriş 4"
           },
           {
             "value": 44,
-            "mask": "Generator-2 Aux Input 5"
+            "mask": "Jeneratör-2 Yardımcı Giriş 5"
           },
           {
             "value": 45,
-            "mask": "Generator-2 Aux Input 6"
+            "mask": "Jeneratör-2 Yardımcı Giriş 6"
           },
           {
             "value": 46,
-            "mask": "Generator-2 Starter Output"
+            "mask": "Jeneratör-2 Marş Çıkışı"
           },
           {
             "value": 47,
-            "mask": "Generator-2 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-2 Yakıt / Stop Solenoidi"
           },
           {
             "value": 48,
-            "mask": "Generator-2 Aux Output 1"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 1"
           },
           {
             "value": 49,
-            "mask": "Generator-2 Aux Output 2"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 2"
           },
           {
             "value": 50,
-            "mask": "Generator-2 Aux Output 3"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 3"
           },
           {
             "value": 51,
-            "mask": "Generator-2 Aux Output 4"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 4"
           },
           {
             "value": 52,
-            "mask": "Generator-2 Low Frequency"
+            "mask": "Jeneratör-2 Düşük Frekans"
           },
           {
             "value": 53,
-            "mask": "Generator-2 High Frequency"
+            "mask": "Jeneratör-2 Yüksek Frekans"
           },
           {
             "value": 54,
-            "mask": "Generator-2 Low Engine Speed"
+            "mask": "Jeneratör-2 Düşük Motor Devri"
           },
           {
             "value": 55,
-            "mask": "Generator-2 High Engine Speed"
+            "mask": "Jeneratör-2 Yüksek Motor Devri"
           },
           {
             "value": 56,
-            "mask": "Generator-2 Charge Error"
+            "mask": "Jeneratör-2 Şarj Hatası"
           },
           {
             "value": 57,
-            "mask": "Generator-2 Low Battery Voltage"
+            "mask": "Jeneratör-2 Düşük Akü Gerilimi"
           },
           {
             "value": 58,
-            "mask": "Generator-2 High Battery Voltage"
+            "mask": "Jeneratör-2 Yüksek Akü Gerilimi"
           },
           {
             "value": 59,
-            "mask": "Generator-2 High Current"
+            "mask": "Jeneratör-2 Yüksek Akım"
           },
           {
             "value": 60,
-            "mask": "Generator-2 High Water Temperature"
+            "mask": "Jeneratör-2 Yüksek Su Sıcaklığı"
           },
           {
             "value": 61,
-            "mask": "Generator-2 Low Fuel"
+            "mask": "Jeneratör-2 Düşük Yakıt"
           },
           {
             "value": 62,
-            "mask": "Generator-2 Aux Input Error"
+            "mask": "Jeneratör-2 Yardımcı Giriş Hatası"
           },
           {
             "value": 63,
-            "mask": "Generator-2 Phase Sequence Error"
+            "mask": "Jeneratör-2 Faz Sırası Hatası"
           },
           {
             "value": 64,
-            "mask": "Generator-2 High Power"
+            "mask": "Jeneratör-2 Yüksek Güç"
           },
           {
             "value": 65,
-            "mask": "Generator-2 Starting Error"
+            "mask": "Jeneratör-2 Kalkış Hatası"
           },
           {
             "value": 66,
-            "mask": "Generator-2 Maintenance"
+            "mask": "Jeneratör-2 Bakım"
           },
           {
             "value": 67,
-            "mask": "Generator-2 Emergency Stop"
+            "mask": "Jeneratör-2 Acil Stop"
           },
           {
             "value": 68,
-            "mask": "Generator-2 Low Voltage"
+            "mask": "Jeneratör-2 Düşük Gerilim"
           },
           {
             "value": 69,
-            "mask": "Generator-2 High Voltage"
+            "mask": "Jeneratör-2 Yüksek Gerilim"
           },
           {
             "value": 70,
-            "mask": "Generator-2 High Oil Temperature"
+            "mask": "Jeneratör-2 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 71,
-            "mask": "Generator-2 Low Oil Pressure"
+            "mask": "Jeneratör-2 Düşük Yağ Basıncı"
           },
           {
             "value": 72,
-            "mask": "Generator-2 Low Radiator Water Level"
+            "mask": "Jeneratör-2 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 73,
-            "mask": "Panel Digital Input 1"
+            "mask": "Panel Dijital Giriş 1"
           },
           {
             "value": 74,
-            "mask": "Panel Digital Input 2"
+            "mask": "Panel Dijital Giriş 2"
           },
           {
             "value": 75,
-            "mask": "Panel Digital Input 3"
+            "mask": "Panel Dijital Giriş 3"
           },
           {
             "value": 76,
-            "mask": "Panel Digital Input 4"
+            "mask": "Panel Dijital Giriş 4"
           },
           {
             "value": 77,
-            "mask": "Mains Contactor"
+            "mask": "Şebeke Kontaktörü"
           },
           {
             "value": 78,
-            "mask": "Generator-1 Contactor"
+            "mask": "Jeneratör-1 Kontaktörü"
           },
           {
             "value": 79,
-            "mask": "Generator-2 Contactor"
+            "mask": "Jeneratör-2 Kontaktörü"
           },
           {
             "value": 80,
-            "mask": "CAN Bus Communication Error"
+            "mask": "CAN Bus Haberleşme Hatası"
           },
           {
             "value": 81,
-            "mask": "Synchronisation Error"
+            "mask": "Senkronizasyon Hatası"
           },
           {
             "value": 82,
-            "mask": "Low Mains Voltage"
+            "mask": "Düşük Şebeke Gerilimi"
           },
           {
             "value": 83,
-            "mask": "High Mains Voltage"
+            "mask": "Yüksek Şebeke Gerilimi"
           },
           {
             "value": 84,
-            "mask": "Low Mains Frequency"
+            "mask": "Düşük Şebeke Frekansı"
           },
           {
             "value": 85,
-            "mask": "High Mains Frequency"
+            "mask": "Yüksek Şebeke Frekansı"
           },
           {
             "value": 86,
-            "mask": "Phase Sequence Error"
+            "mask": "Faz Sırası Hatası"
           },
           {
             "value": 87,
-            "mask": "Generator Fault"
+            "mask": "Jeneratör Arızası veya Senkronizasyon Hatası (Korna)"
           }
         ],
         "dataOperation": {
@@ -1925,9 +1925,9 @@
       },
       {
         "id": 10051,
-        "version": 9003,
-        "name": "Aux output 1 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-1 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10051,
         "dataLength": 1,
@@ -1940,11 +1940,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -1957,9 +1957,9 @@
       },
       {
         "id": 10052,
-        "version": 9003,
-        "name": "Aux output 2 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-2 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10052,
         "dataLength": 1,
@@ -1972,355 +1972,355 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Generator-1 Oil Pressure Switch"
+            "mask": "Jeneratör-1 Yağ Basınç Switchi"
           },
           {
             "value": 2,
-            "mask": "Generator-1 Temperature Switch"
+            "mask": "Jeneratör-1 Sıcaklık Switchi"
           },
           {
             "value": 3,
-            "mask": "Generator-1 Charge Fail Input"
+            "mask": "Jeneratör-1 Şarj Arızası Girişi"
           },
           {
             "value": 4,
-            "mask": "Generator-1 Aux Input 1"
+            "mask": "Jeneratör-1 Yardımcı Giriş 1"
           },
           {
             "value": 5,
-            "mask": "Generator-1 Aux Input 2"
+            "mask": "Jeneratör-1 Yardımcı Giriş 2"
           },
           {
             "value": 6,
-            "mask": "Generator-1 Aux Input 3"
+            "mask": "Jeneratör-1 Yardımcı Giriş 3"
           },
           {
             "value": 7,
-            "mask": "Generator-1 Aux Input 4"
+            "mask": "Jeneratör-1 Yardımcı Giriş 4"
           },
           {
             "value": 8,
-            "mask": "Generator-1 Aux Input 5"
+            "mask": "Jeneratör-1 Yardımcı Giriş 5"
           },
           {
             "value": 9,
-            "mask": "Generator-1 Aux Input 6"
+            "mask": "Jeneratör-1 Yardımcı Giriş 6"
           },
           {
             "value": 10,
-            "mask": "Generator-1 Starter Output"
+            "mask": "Jeneratör-1 Marş Çıkışı"
           },
           {
             "value": 11,
-            "mask": "Generator-1 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-1 Yakıt / Stop Solenoidi"
           },
           {
             "value": 12,
-            "mask": "Generator-1 Aux Output 1"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 1"
           },
           {
             "value": 13,
-            "mask": "Generator-1 Aux Output 2"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 2"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Aux Output 3"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 3"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Aux Output 4"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 4"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Low Frequency"
+            "mask": "Jeneratör-1 Düşük Frekans"
           },
           {
             "value": 17,
-            "mask": "Generator-1 High Frequency"
+            "mask": "Jeneratör-1 Yüksek Frekans"
           },
           {
             "value": 18,
-            "mask": "Generator-1 Low Engine Speed"
+            "mask": "Jeneratör-1 Düşük Motor Devri"
           },
           {
             "value": 19,
-            "mask": "Generator-1 High Engine Speed"
+            "mask": "Jeneratör-1 Yüksek Motor Devri"
           },
           {
             "value": 20,
-            "mask": "Generator-1 Charge Error"
+            "mask": "Jeneratör-1 Şarj Hatası"
           },
           {
             "value": 21,
-            "mask": "Generator-1 Low Battery Voltage"
+            "mask": "Jeneratör-1 Düşük Akü Gerilimi"
           },
           {
             "value": 22,
-            "mask": "Generator-1 High Battery Voltage"
+            "mask": "Jeneratör-1 Yüksek Akü Gerilimi"
           },
           {
             "value": 23,
-            "mask": "Generator-1 High Current"
+            "mask": "Jeneratör-1 Yüksek Akım"
           },
           {
             "value": 24,
-            "mask": "Generator-1 High Water Temperature"
+            "mask": "Jeneratör-1 Yüksek Su Sıcaklığı"
           },
           {
             "value": 25,
-            "mask": "Generator-1 Low Fuel"
+            "mask": "Jeneratör-1 Düşük Yakıt"
           },
           {
             "value": 26,
-            "mask": "Generator-1 Aux Input Error"
+            "mask": "Jeneratör-1 Yardımcı Giriş Hatası"
           },
           {
             "value": 27,
-            "mask": "Generator-1 Phase Sequence Error"
+            "mask": "Jeneratör-1 Faz Sırası Hatası"
           },
           {
             "value": 28,
-            "mask": "Generator-1 High Power"
+            "mask": "Jeneratör-1 Yüksek Güç"
           },
           {
             "value": 29,
-            "mask": "Generator-1 Starting Error"
+            "mask": "Jeneratör-1 Kalkış Hatası"
           },
           {
             "value": 30,
-            "mask": "Generator-1 Maintenance"
+            "mask": "Jeneratör-1 Bakım"
           },
           {
             "value": 31,
-            "mask": "Generator-1 Emergency Stop"
+            "mask": "Jeneratör-1 Acil Stop"
           },
           {
             "value": 32,
-            "mask": "Generator-1 Low Voltage"
+            "mask": "Jeneratör-1 Düşük Gerilim"
           },
           {
             "value": 33,
-            "mask": "Generator-1 High Voltage"
+            "mask": "Jeneratör-1 Yüksek Gerilim"
           },
           {
             "value": 34,
-            "mask": "Generator-1 High Oil Temperature"
+            "mask": "Jeneratör-1 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 35,
-            "mask": "Generator-1 Low Oil Pressure"
+            "mask": "Jeneratör-1 Düşük Yağ Basıncı"
           },
           {
             "value": 36,
-            "mask": "Generator-1 Low Radiator Water Level"
+            "mask": "Jeneratör-1 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 37,
-            "mask": "Generator-2 Oil Pressure Switch"
+            "mask": "Jeneratör-2 Yağ Basınç Switchi"
           },
           {
             "value": 38,
-            "mask": "Generator-2 Temperature Switch"
+            "mask": "Jeneratör-2 Sıcaklık Switchi"
           },
           {
             "value": 39,
-            "mask": "Generator-2 Charge Fail Input"
+            "mask": "Jeneratör-2 Şarj Arızası Girişi"
           },
           {
             "value": 40,
-            "mask": "Generator-2 Aux Input 1"
+            "mask": "Jeneratör-2 Yardımcı Giriş 1"
           },
           {
             "value": 41,
-            "mask": "Generator-2 Aux Input 2"
+            "mask": "Jeneratör-2 Yardımcı Giriş 2"
           },
           {
             "value": 42,
-            "mask": "Generator-2 Aux Input 3"
+            "mask": "Jeneratör-2 Yardımcı Giriş 3"
           },
           {
             "value": 43,
-            "mask": "Generator-2 Aux Input 4"
+            "mask": "Jeneratör-2 Yardımcı Giriş 4"
           },
           {
             "value": 44,
-            "mask": "Generator-2 Aux Input 5"
+            "mask": "Jeneratör-2 Yardımcı Giriş 5"
           },
           {
             "value": 45,
-            "mask": "Generator-2 Aux Input 6"
+            "mask": "Jeneratör-2 Yardımcı Giriş 6"
           },
           {
             "value": 46,
-            "mask": "Generator-2 Starter Output"
+            "mask": "Jeneratör-2 Marş Çıkışı"
           },
           {
             "value": 47,
-            "mask": "Generator-2 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-2 Yakıt / Stop Solenoidi"
           },
           {
             "value": 48,
-            "mask": "Generator-2 Aux Output 1"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 1"
           },
           {
             "value": 49,
-            "mask": "Generator-2 Aux Output 2"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 2"
           },
           {
             "value": 50,
-            "mask": "Generator-2 Aux Output 3"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 3"
           },
           {
             "value": 51,
-            "mask": "Generator-2 Aux Output 4"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 4"
           },
           {
             "value": 52,
-            "mask": "Generator-2 Low Frequency"
+            "mask": "Jeneratör-2 Düşük Frekans"
           },
           {
             "value": 53,
-            "mask": "Generator-2 High Frequency"
+            "mask": "Jeneratör-2 Yüksek Frekans"
           },
           {
             "value": 54,
-            "mask": "Generator-2 Low Engine Speed"
+            "mask": "Jeneratör-2 Düşük Motor Devri"
           },
           {
             "value": 55,
-            "mask": "Generator-2 High Engine Speed"
+            "mask": "Jeneratör-2 Yüksek Motor Devri"
           },
           {
             "value": 56,
-            "mask": "Generator-2 Charge Error"
+            "mask": "Jeneratör-2 Şarj Hatası"
           },
           {
             "value": 57,
-            "mask": "Generator-2 Low Battery Voltage"
+            "mask": "Jeneratör-2 Düşük Akü Gerilimi"
           },
           {
             "value": 58,
-            "mask": "Generator-2 High Battery Voltage"
+            "mask": "Jeneratör-2 Yüksek Akü Gerilimi"
           },
           {
             "value": 59,
-            "mask": "Generator-2 High Current"
+            "mask": "Jeneratör-2 Yüksek Akım"
           },
           {
             "value": 60,
-            "mask": "Generator-2 High Water Temperature"
+            "mask": "Jeneratör-2 Yüksek Su Sıcaklığı"
           },
           {
             "value": 61,
-            "mask": "Generator-2 Low Fuel"
+            "mask": "Jeneratör-2 Düşük Yakıt"
           },
           {
             "value": 62,
-            "mask": "Generator-2 Aux Input Error"
+            "mask": "Jeneratör-2 Yardımcı Giriş Hatası"
           },
           {
             "value": 63,
-            "mask": "Generator-2 Phase Sequence Error"
+            "mask": "Jeneratör-2 Faz Sırası Hatası"
           },
           {
             "value": 64,
-            "mask": "Generator-2 High Power"
+            "mask": "Jeneratör-2 Yüksek Güç"
           },
           {
             "value": 65,
-            "mask": "Generator-2 Starting Error"
+            "mask": "Jeneratör-2 Kalkış Hatası"
           },
           {
             "value": 66,
-            "mask": "Generator-2 Maintenance"
+            "mask": "Jeneratör-2 Bakım"
           },
           {
             "value": 67,
-            "mask": "Generator-2 Emergency Stop"
+            "mask": "Jeneratör-2 Acil Stop"
           },
           {
             "value": 68,
-            "mask": "Generator-2 Low Voltage"
+            "mask": "Jeneratör-2 Düşük Gerilim"
           },
           {
             "value": 69,
-            "mask": "Generator-2 High Voltage"
+            "mask": "Jeneratör-2 Yüksek Gerilim"
           },
           {
             "value": 70,
-            "mask": "Generator-2 High Oil Temperature"
+            "mask": "Jeneratör-2 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 71,
-            "mask": "Generator-2 Low Oil Pressure"
+            "mask": "Jeneratör-2 Düşük Yağ Basıncı"
           },
           {
             "value": 72,
-            "mask": "Generator-2 Low Radiator Water Level"
+            "mask": "Jeneratör-2 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 73,
-            "mask": "Panel Digital Input 1"
+            "mask": "Panel Dijital Giriş 1"
           },
           {
             "value": 74,
-            "mask": "Panel Digital Input 2"
+            "mask": "Panel Dijital Giriş 2"
           },
           {
             "value": 75,
-            "mask": "Panel Digital Input 3"
+            "mask": "Panel Dijital Giriş 3"
           },
           {
             "value": 76,
-            "mask": "Panel Digital Input 4"
+            "mask": "Panel Dijital Giriş 4"
           },
           {
             "value": 77,
-            "mask": "Mains Contactor"
+            "mask": "Şebeke Kontaktörü"
           },
           {
             "value": 78,
-            "mask": "Generator-1 Contactor"
+            "mask": "Jeneratör-1 Kontaktörü"
           },
           {
             "value": 79,
-            "mask": "Generator-2 Contactor"
+            "mask": "Jeneratör-2 Kontaktörü"
           },
           {
             "value": 80,
-            "mask": "CAN Bus Communication Error"
+            "mask": "CAN Bus Haberleşme Hatası"
           },
           {
             "value": 81,
-            "mask": "Synchronisation Error"
+            "mask": "Senkronizasyon Hatası"
           },
           {
             "value": 82,
-            "mask": "Low Mains Voltage"
+            "mask": "Düşük Şebeke Gerilimi"
           },
           {
             "value": 83,
-            "mask": "High Mains Voltage"
+            "mask": "Yüksek Şebeke Gerilimi"
           },
           {
             "value": 84,
-            "mask": "Low Mains Frequency"
+            "mask": "Düşük Şebeke Frekansı"
           },
           {
             "value": 85,
-            "mask": "High Mains Frequency"
+            "mask": "Yüksek Şebeke Frekansı"
           },
           {
             "value": 86,
-            "mask": "Phase Sequence Error"
+            "mask": "Faz Sırası Hatası"
           },
           {
             "value": 87,
-            "mask": "Generator Fault"
+            "mask": "Jeneratör Arızası veya Senkronizasyon Hatası (Korna)"
           }
         ],
         "dataOperation": {
@@ -2333,9 +2333,9 @@
       },
       {
         "id": 10053,
-        "version": 9003,
-        "name": "Aux output 2 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-2 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10053,
         "dataLength": 1,
@@ -2348,11 +2348,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -2365,9 +2365,9 @@
       },
       {
         "id": 10054,
-        "version": 9003,
-        "name": "Aux output 3 function",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-3 Fonksiyonu",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10054,
         "dataLength": 1,
@@ -2380,355 +2380,355 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "Generator-1 Oil Pressure Switch"
+            "mask": "Jeneratör-1 Yağ Basınç Switchi"
           },
           {
             "value": 2,
-            "mask": "Generator-1 Temperature Switch"
+            "mask": "Jeneratör-1 Sıcaklık Switchi"
           },
           {
             "value": 3,
-            "mask": "Generator-1 Charge Fail Input"
+            "mask": "Jeneratör-1 Şarj Arızası Girişi"
           },
           {
             "value": 4,
-            "mask": "Generator-1 Aux Input 1"
+            "mask": "Jeneratör-1 Yardımcı Giriş 1"
           },
           {
             "value": 5,
-            "mask": "Generator-1 Aux Input 2"
+            "mask": "Jeneratör-1 Yardımcı Giriş 2"
           },
           {
             "value": 6,
-            "mask": "Generator-1 Aux Input 3"
+            "mask": "Jeneratör-1 Yardımcı Giriş 3"
           },
           {
             "value": 7,
-            "mask": "Generator-1 Aux Input 4"
+            "mask": "Jeneratör-1 Yardımcı Giriş 4"
           },
           {
             "value": 8,
-            "mask": "Generator-1 Aux Input 5"
+            "mask": "Jeneratör-1 Yardımcı Giriş 5"
           },
           {
             "value": 9,
-            "mask": "Generator-1 Aux Input 6"
+            "mask": "Jeneratör-1 Yardımcı Giriş 6"
           },
           {
             "value": 10,
-            "mask": "Generator-1 Starter Output"
+            "mask": "Jeneratör-1 Marş Çıkışı"
           },
           {
             "value": 11,
-            "mask": "Generator-1 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-1 Yakıt / Stop Solenoidi"
           },
           {
             "value": 12,
-            "mask": "Generator-1 Aux Output 1"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 1"
           },
           {
             "value": 13,
-            "mask": "Generator-1 Aux Output 2"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 2"
           },
           {
             "value": 14,
-            "mask": "Generator-1 Aux Output 3"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 3"
           },
           {
             "value": 15,
-            "mask": "Generator-1 Aux Output 4"
+            "mask": "Jeneratör-1 Yardımcı Çıkış 4"
           },
           {
             "value": 16,
-            "mask": "Generator-1 Low Frequency"
+            "mask": "Jeneratör-1 Düşük Frekans"
           },
           {
             "value": 17,
-            "mask": "Generator-1 High Frequency"
+            "mask": "Jeneratör-1 Yüksek Frekans"
           },
           {
             "value": 18,
-            "mask": "Generator-1 Low Engine Speed"
+            "mask": "Jeneratör-1 Düşük Motor Devri"
           },
           {
             "value": 19,
-            "mask": "Generator-1 High Engine Speed"
+            "mask": "Jeneratör-1 Yüksek Motor Devri"
           },
           {
             "value": 20,
-            "mask": "Generator-1 Charge Error"
+            "mask": "Jeneratör-1 Şarj Hatası"
           },
           {
             "value": 21,
-            "mask": "Generator-1 Low Battery Voltage"
+            "mask": "Jeneratör-1 Düşük Akü Gerilimi"
           },
           {
             "value": 22,
-            "mask": "Generator-1 High Battery Voltage"
+            "mask": "Jeneratör-1 Yüksek Akü Gerilimi"
           },
           {
             "value": 23,
-            "mask": "Generator-1 High Current"
+            "mask": "Jeneratör-1 Yüksek Akım"
           },
           {
             "value": 24,
-            "mask": "Generator-1 High Water Temperature"
+            "mask": "Jeneratör-1 Yüksek Su Sıcaklığı"
           },
           {
             "value": 25,
-            "mask": "Generator-1 Low Fuel"
+            "mask": "Jeneratör-1 Düşük Yakıt"
           },
           {
             "value": 26,
-            "mask": "Generator-1 Aux Input Error"
+            "mask": "Jeneratör-1 Yardımcı Giriş Hatası"
           },
           {
             "value": 27,
-            "mask": "Generator-1 Phase Sequence Error"
+            "mask": "Jeneratör-1 Faz Sırası Hatası"
           },
           {
             "value": 28,
-            "mask": "Generator-1 High Power"
+            "mask": "Jeneratör-1 Yüksek Güç"
           },
           {
             "value": 29,
-            "mask": "Generator-1 Starting Error"
+            "mask": "Jeneratör-1 Kalkış Hatası"
           },
           {
             "value": 30,
-            "mask": "Generator-1 Maintenance"
+            "mask": "Jeneratör-1 Bakım"
           },
           {
             "value": 31,
-            "mask": "Generator-1 Emergency Stop"
+            "mask": "Jeneratör-1 Acil Stop"
           },
           {
             "value": 32,
-            "mask": "Generator-1 Low Voltage"
+            "mask": "Jeneratör-1 Düşük Gerilim"
           },
           {
             "value": 33,
-            "mask": "Generator-1 High Voltage"
+            "mask": "Jeneratör-1 Yüksek Gerilim"
           },
           {
             "value": 34,
-            "mask": "Generator-1 High Oil Temperature"
+            "mask": "Jeneratör-1 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 35,
-            "mask": "Generator-1 Low Oil Pressure"
+            "mask": "Jeneratör-1 Düşük Yağ Basıncı"
           },
           {
             "value": 36,
-            "mask": "Generator-1 Low Radiator Water Level"
+            "mask": "Jeneratör-1 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 37,
-            "mask": "Generator-2 Oil Pressure Switch"
+            "mask": "Jeneratör-2 Yağ Basınç Switchi"
           },
           {
             "value": 38,
-            "mask": "Generator-2 Temperature Switch"
+            "mask": "Jeneratör-2 Sıcaklık Switchi"
           },
           {
             "value": 39,
-            "mask": "Generator-2 Charge Fail Input"
+            "mask": "Jeneratör-2 Şarj Arızası Girişi"
           },
           {
             "value": 40,
-            "mask": "Generator-2 Aux Input 1"
+            "mask": "Jeneratör-2 Yardımcı Giriş 1"
           },
           {
             "value": 41,
-            "mask": "Generator-2 Aux Input 2"
+            "mask": "Jeneratör-2 Yardımcı Giriş 2"
           },
           {
             "value": 42,
-            "mask": "Generator-2 Aux Input 3"
+            "mask": "Jeneratör-2 Yardımcı Giriş 3"
           },
           {
             "value": 43,
-            "mask": "Generator-2 Aux Input 4"
+            "mask": "Jeneratör-2 Yardımcı Giriş 4"
           },
           {
             "value": 44,
-            "mask": "Generator-2 Aux Input 5"
+            "mask": "Jeneratör-2 Yardımcı Giriş 5"
           },
           {
             "value": 45,
-            "mask": "Generator-2 Aux Input 6"
+            "mask": "Jeneratör-2 Yardımcı Giriş 6"
           },
           {
             "value": 46,
-            "mask": "Generator-2 Starter Output"
+            "mask": "Jeneratör-2 Marş Çıkışı"
           },
           {
             "value": 47,
-            "mask": "Generator-2 Fuel / Stop Solenoid"
+            "mask": "Jeneratör-2 Yakıt / Stop Solenoidi"
           },
           {
             "value": 48,
-            "mask": "Generator-2 Aux Output 1"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 1"
           },
           {
             "value": 49,
-            "mask": "Generator-2 Aux Output 2"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 2"
           },
           {
             "value": 50,
-            "mask": "Generator-2 Aux Output 3"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 3"
           },
           {
             "value": 51,
-            "mask": "Generator-2 Aux Output 4"
+            "mask": "Jeneratör-2 Yardımcı Çıkış 4"
           },
           {
             "value": 52,
-            "mask": "Generator-2 Low Frequency"
+            "mask": "Jeneratör-2 Düşük Frekans"
           },
           {
             "value": 53,
-            "mask": "Generator-2 High Frequency"
+            "mask": "Jeneratör-2 Yüksek Frekans"
           },
           {
             "value": 54,
-            "mask": "Generator-2 Low Engine Speed"
+            "mask": "Jeneratör-2 Düşük Motor Devri"
           },
           {
             "value": 55,
-            "mask": "Generator-2 High Engine Speed"
+            "mask": "Jeneratör-2 Yüksek Motor Devri"
           },
           {
             "value": 56,
-            "mask": "Generator-2 Charge Error"
+            "mask": "Jeneratör-2 Şarj Hatası"
           },
           {
             "value": 57,
-            "mask": "Generator-2 Low Battery Voltage"
+            "mask": "Jeneratör-2 Düşük Akü Gerilimi"
           },
           {
             "value": 58,
-            "mask": "Generator-2 High Battery Voltage"
+            "mask": "Jeneratör-2 Yüksek Akü Gerilimi"
           },
           {
             "value": 59,
-            "mask": "Generator-2 High Current"
+            "mask": "Jeneratör-2 Yüksek Akım"
           },
           {
             "value": 60,
-            "mask": "Generator-2 High Water Temperature"
+            "mask": "Jeneratör-2 Yüksek Su Sıcaklığı"
           },
           {
             "value": 61,
-            "mask": "Generator-2 Low Fuel"
+            "mask": "Jeneratör-2 Düşük Yakıt"
           },
           {
             "value": 62,
-            "mask": "Generator-2 Aux Input Error"
+            "mask": "Jeneratör-2 Yardımcı Giriş Hatası"
           },
           {
             "value": 63,
-            "mask": "Generator-2 Phase Sequence Error"
+            "mask": "Jeneratör-2 Faz Sırası Hatası"
           },
           {
             "value": 64,
-            "mask": "Generator-2 High Power"
+            "mask": "Jeneratör-2 Yüksek Güç"
           },
           {
             "value": 65,
-            "mask": "Generator-2 Starting Error"
+            "mask": "Jeneratör-2 Kalkış Hatası"
           },
           {
             "value": 66,
-            "mask": "Generator-2 Maintenance"
+            "mask": "Jeneratör-2 Bakım"
           },
           {
             "value": 67,
-            "mask": "Generator-2 Emergency Stop"
+            "mask": "Jeneratör-2 Acil Stop"
           },
           {
             "value": 68,
-            "mask": "Generator-2 Low Voltage"
+            "mask": "Jeneratör-2 Düşük Gerilim"
           },
           {
             "value": 69,
-            "mask": "Generator-2 High Voltage"
+            "mask": "Jeneratör-2 Yüksek Gerilim"
           },
           {
             "value": 70,
-            "mask": "Generator-2 High Oil Temperature"
+            "mask": "Jeneratör-2 Yüksek Yağ Sıcaklığı"
           },
           {
             "value": 71,
-            "mask": "Generator-2 Low Oil Pressure"
+            "mask": "Jeneratör-2 Düşük Yağ Basıncı"
           },
           {
             "value": 72,
-            "mask": "Generator-2 Low Radiator Water Level"
+            "mask": "Jeneratör-2 Düşük Radyatör Su Seviyesi"
           },
           {
             "value": 73,
-            "mask": "Panel Digital Input 1"
+            "mask": "Panel Dijital Giriş 1"
           },
           {
             "value": 74,
-            "mask": "Panel Digital Input 2"
+            "mask": "Panel Dijital Giriş 2"
           },
           {
             "value": 75,
-            "mask": "Panel Digital Input 3"
+            "mask": "Panel Dijital Giriş 3"
           },
           {
             "value": 76,
-            "mask": "Panel Digital Input 4"
+            "mask": "Panel Dijital Giriş 4"
           },
           {
             "value": 77,
-            "mask": "Mains Contactor"
+            "mask": "Şebeke Kontaktörü"
           },
           {
             "value": 78,
-            "mask": "Generator-1 Contactor"
+            "mask": "Jeneratör-1 Kontaktörü"
           },
           {
             "value": 79,
-            "mask": "Generator-2 Contactor"
+            "mask": "Jeneratör-2 Kontaktörü"
           },
           {
             "value": 80,
-            "mask": "CAN Bus Communication Error"
+            "mask": "CAN Bus Haberleşme Hatası"
           },
           {
             "value": 81,
-            "mask": "Synchronisation Error"
+            "mask": "Senkronizasyon Hatası"
           },
           {
             "value": 82,
-            "mask": "Low Mains Voltage"
+            "mask": "Düşük Şebeke Gerilimi"
           },
           {
             "value": 83,
-            "mask": "High Mains Voltage"
+            "mask": "Yüksek Şebeke Gerilimi"
           },
           {
             "value": 84,
-            "mask": "Low Mains Frequency"
+            "mask": "Düşük Şebeke Frekansı"
           },
           {
             "value": 85,
-            "mask": "High Mains Frequency"
+            "mask": "Yüksek Şebeke Frekansı"
           },
           {
             "value": 86,
-            "mask": "Phase Sequence Error"
+            "mask": "Faz Sırası Hatası"
           },
           {
             "value": 87,
-            "mask": "Generator Fault"
+            "mask": "Jeneratör Arızası veya Senkronizasyon Hatası (Korna)"
           }
         ],
         "dataOperation": {
@@ -2741,9 +2741,9 @@
       },
       {
         "id": 10055,
-        "version": 9003,
-        "name": "Aux output 3 type",
-        "group": "Aux inputs and outputs",
+        "version": 9005,
+        "name": "Çıkış-3 Tipi",
+        "group": "Yardımcı giriş/çıkışlar",
         "unit": "",
         "modbusAddress": 10055,
         "dataLength": 1,
@@ -2756,11 +2756,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -2773,9 +2773,9 @@
       },
       {
         "id": 10056,
-        "version": 9003,
-        "name": "Mains frequency calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Şebeke Frekans Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10056,
         "dataLength": 1,
@@ -2796,9 +2796,9 @@
       },
       {
         "id": 10057,
-        "version": 9003,
-        "name": "Generator 1 frequency calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör1 Frekans Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10057,
         "dataLength": 1,
@@ -2819,9 +2819,9 @@
       },
       {
         "id": 10058,
-        "version": 9003,
-        "name": "Generator 2 frequency calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör2 Frekans Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10058,
         "dataLength": 1,
@@ -2842,9 +2842,9 @@
       },
       {
         "id": 10059,
-        "version": 9003,
-        "name": "Mains R phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Şebeke R-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10059,
         "dataLength": 1,
@@ -2865,9 +2865,9 @@
       },
       {
         "id": 10060,
-        "version": 9003,
-        "name": "Generator 1 R phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör1 R-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10060,
         "dataLength": 1,
@@ -2888,9 +2888,9 @@
       },
       {
         "id": 10061,
-        "version": 9003,
-        "name": "Generator 2 R phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör2 R-Fazı kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10061,
         "dataLength": 1,
@@ -2911,9 +2911,9 @@
       },
       {
         "id": 10062,
-        "version": 9003,
-        "name": "Mains S phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Şebeke S-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10062,
         "dataLength": 1,
@@ -2934,9 +2934,9 @@
       },
       {
         "id": 10063,
-        "version": 9003,
-        "name": "Generator 1 S phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör1 S-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10063,
         "dataLength": 1,
@@ -2957,9 +2957,9 @@
       },
       {
         "id": 10064,
-        "version": 9003,
-        "name": "Generator 2 S phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör2 S-Fazı kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10064,
         "dataLength": 1,
@@ -2980,9 +2980,9 @@
       },
       {
         "id": 10065,
-        "version": 9003,
-        "name": "Mains T phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Şebeke T-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10065,
         "dataLength": 1,
@@ -3003,9 +3003,9 @@
       },
       {
         "id": 10066,
-        "version": 9003,
-        "name": "Generator 1 T phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör1 T-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10066,
         "dataLength": 1,
@@ -3026,9 +3026,9 @@
       },
       {
         "id": 10067,
-        "version": 9003,
-        "name": "Generator 2 T phase calibration constant",
-        "group": "Calibration",
+        "version": 9005,
+        "name": "Jeneratör2 T-Fazı Kalibrasyonu",
+        "group": "Kalibrasyon",
         "unit": "",
         "modbusAddress": 10067,
         "dataLength": 1,
@@ -3049,9 +3049,9 @@
       },
       {
         "id": 10068,
-        "version": 9003,
-        "name": "DMP2.0 reset",
-        "group": "Service",
+        "version": 9005,
+        "name": "DMP2.0 Reset",
+        "group": "Servis",
         "unit": "",
         "modbusAddress": 10068,
         "dataLength": 1,
@@ -3072,9 +3072,9 @@
       },
       {
         "id": 10069,
-        "version": 9003,
-        "name": "Spare 1",
-        "group": "Service",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Servis",
         "unit": "",
         "modbusAddress": 10069,
         "dataLength": 1,
@@ -3095,9 +3095,9 @@
       },
       {
         "id": 10070,
-        "version": 9003,
-        "name": "Spare 2",
-        "group": "Service",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Servis",
         "unit": "",
         "modbusAddress": 10070,
         "dataLength": 1,
@@ -3118,9 +3118,9 @@
       },
       {
         "id": 10071,
-        "version": 9003,
-        "name": "Spare 3",
-        "group": "Service",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Servis",
         "unit": "",
         "modbusAddress": 10071,
         "dataLength": 1,
@@ -3141,9 +3141,9 @@
       },
       {
         "id": 10072,
-        "version": 9003,
-        "name": "Spare 4",
-        "group": "Service",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Servis",
         "unit": "",
         "modbusAddress": 10072,
         "dataLength": 1,
@@ -3164,9 +3164,9 @@
       },
       {
         "id": 10073,
-        "version": 9003,
-        "name": "Spare 5",
-        "group": "Service",
+        "version": 9005,
+        "name": "DMP2.0-MK2 Yazılım Versiyonu",
+        "group": "Sürümler",
         "unit": "",
         "modbusAddress": 10073,
         "dataLength": 1,
@@ -3187,9 +3187,9 @@
       },
       {
         "id": 10074,
-        "version": 9003,
-        "name": "DMP2.0 software version",
-        "group": "Versions",
+        "version": 9005,
+        "name": "DMP2.0 Yazılım Versiyonu",
+        "group": "Sürümler",
         "unit": "",
         "modbusAddress": 10074,
         "dataLength": 1,
@@ -3210,9 +3210,9 @@
       },
       {
         "id": 10075,
-        "version": 9003,
-        "name": "DMP2.0 UKB software version",
-        "group": "Versions",
+        "version": 9005,
+        "name": "DMP2.0 UKB Yazılım Versiyonu",
+        "group": "Sürümler",
         "unit": "",
         "modbusAddress": 10075,
         "dataLength": 1,
@@ -3233,9 +3233,9 @@
       },
       {
         "id": 10076,
-        "version": 9003,
-        "name": "AMF5.1 J1 software version",
-        "group": "Versions",
+        "version": 9005,
+        "name": "AMF5.1 J1 Yazılım Versiyonu",
+        "group": "Sürümler",
         "unit": "",
         "modbusAddress": 10076,
         "dataLength": 1,
@@ -3256,9 +3256,9 @@
       },
       {
         "id": 10077,
-        "version": 9003,
-        "name": "AMF5.1 J2 software version",
-        "group": "Versions",
+        "version": 9005,
+        "name": "AMF5.1 J2 Yazılım Versiyonu",
+        "group": "Sürümler",
         "unit": "",
         "modbusAddress": 10077,
         "dataLength": 1,
@@ -3279,9 +3279,9 @@
       },
       {
         "id": 10078,
-        "version": 9003,
-        "name": "IP address octets 1-2",
-        "group": "Network",
+        "version": 9005,
+        "name": "IPAddress_12",
+        "group": "Ağ",
         "unit": "",
         "modbusAddress": 10078,
         "dataLength": 1,
@@ -3302,9 +3302,9 @@
       },
       {
         "id": 10079,
-        "version": 9003,
-        "name": "IP address octets 3-4",
-        "group": "Network",
+        "version": 9005,
+        "name": "IPAddress_34",
+        "group": "Ağ",
         "unit": "",
         "modbusAddress": 10079,
         "dataLength": 1,
@@ -3325,9 +3325,9 @@
       },
       {
         "id": 10080,
-        "version": 9003,
-        "name": "Mains R phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke R Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10080,
         "dataLength": 1,
@@ -3348,9 +3348,9 @@
       },
       {
         "id": 10081,
-        "version": 9003,
-        "name": "Mains S phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke S Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10081,
         "dataLength": 1,
@@ -3371,9 +3371,9 @@
       },
       {
         "id": 10082,
-        "version": 9003,
-        "name": "Mains T phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke T Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10082,
         "dataLength": 1,
@@ -3394,9 +3394,9 @@
       },
       {
         "id": 10083,
-        "version": 9003,
-        "name": "Mains R phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke R Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10083,
         "dataLength": 1,
@@ -3417,9 +3417,9 @@
       },
       {
         "id": 10084,
-        "version": 9003,
-        "name": "Mains S phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke S Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10084,
         "dataLength": 1,
@@ -3440,9 +3440,9 @@
       },
       {
         "id": 10085,
-        "version": 9003,
-        "name": "Mains T phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke T Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10085,
         "dataLength": 1,
@@ -3463,9 +3463,9 @@
       },
       {
         "id": 10086,
-        "version": 9003,
-        "name": "Mains frequency",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Şebeke Frekansı",
+        "group": "Ölçümler",
         "unit": "Hz",
         "modbusAddress": 10086,
         "dataLength": 1,
@@ -3486,9 +3486,9 @@
       },
       {
         "id": 10087,
-        "version": 9003,
-        "name": "Generator 1 R phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 R Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10087,
         "dataLength": 1,
@@ -3509,9 +3509,9 @@
       },
       {
         "id": 10088,
-        "version": 9003,
-        "name": "Generator 1 S phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 S Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10088,
         "dataLength": 1,
@@ -3532,9 +3532,9 @@
       },
       {
         "id": 10089,
-        "version": 9003,
-        "name": "Generator 1 T phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 T Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10089,
         "dataLength": 1,
@@ -3555,9 +3555,9 @@
       },
       {
         "id": 10090,
-        "version": 9003,
-        "name": "Generator 1 R phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 R Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10090,
         "dataLength": 1,
@@ -3578,9 +3578,9 @@
       },
       {
         "id": 10091,
-        "version": 9003,
-        "name": "Generator 1 S phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 S Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10091,
         "dataLength": 1,
@@ -3601,9 +3601,9 @@
       },
       {
         "id": 10092,
-        "version": 9003,
-        "name": "Generator 1 T phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 T Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10092,
         "dataLength": 1,
@@ -3624,9 +3624,9 @@
       },
       {
         "id": 10093,
-        "version": 9003,
-        "name": "Generator 1 frequency",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Frekansı",
+        "group": "Ölçümler",
         "unit": "Hz",
         "modbusAddress": 10093,
         "dataLength": 1,
@@ -3647,9 +3647,9 @@
       },
       {
         "id": 10094,
-        "version": 9003,
-        "name": "Generator 1 active power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "kW",
         "modbusAddress": 10094,
         "dataLength": 1,
@@ -3670,9 +3670,9 @@
       },
       {
         "id": 10095,
-        "version": 9003,
-        "name": "Generator 1 apparent power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 kVA değeri",
+        "group": "Ölçümler",
         "unit": "kVA",
         "modbusAddress": 10095,
         "dataLength": 1,
@@ -3693,9 +3693,9 @@
       },
       {
         "id": 10096,
-        "version": 9003,
-        "name": "Generator 1 reactive power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "kVAr",
         "modbusAddress": 10096,
         "dataLength": 1,
@@ -3716,9 +3716,9 @@
       },
       {
         "id": 10097,
-        "version": 9003,
-        "name": "Generator 1 Canbus data bits",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "",
         "modbusAddress": 10097,
         "dataLength": 1,
@@ -3739,9 +3739,9 @@
       },
       {
         "id": 10098,
-        "version": 9003,
-        "name": "Generator 1 engine running hours",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Motor Çalışma Saati",
+        "group": "Ölçümler",
         "unit": "h",
         "modbusAddress": 10098,
         "dataLength": 1,
@@ -3762,9 +3762,9 @@
       },
       {
         "id": 10099,
-        "version": 9003,
-        "name": "Generator 1 engine speed",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Motor Hızı",
+        "group": "Ölçümler",
         "unit": "rpm",
         "modbusAddress": 10099,
         "dataLength": 1,
@@ -3785,9 +3785,9 @@
       },
       {
         "id": 10100,
-        "version": 9003,
-        "name": "Generator 1 engine temperature",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Motor Sıcaklığı",
+        "group": "Ölçümler",
         "unit": "°C",
         "modbusAddress": 10100,
         "dataLength": 1,
@@ -3808,9 +3808,9 @@
       },
       {
         "id": 10101,
-        "version": 9003,
-        "name": "Generator 1 oil pressure",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Yağ Basıncı",
+        "group": "Ölçümler",
         "unit": "bar",
         "modbusAddress": 10101,
         "dataLength": 1,
@@ -3831,9 +3831,9 @@
       },
       {
         "id": 10102,
-        "version": 9003,
-        "name": "Generator 1 fuel level",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Yakıt Seviyesi",
+        "group": "Ölçümler",
         "unit": "%",
         "modbusAddress": 10102,
         "dataLength": 1,
@@ -3854,9 +3854,9 @@
       },
       {
         "id": 10103,
-        "version": 9003,
-        "name": "Generator 1 battery voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Batarya Voltajı",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10103,
         "dataLength": 1,
@@ -3877,9 +3877,9 @@
       },
       {
         "id": 10104,
-        "version": 9003,
-        "name": "Generator 1 charge alternator voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-1 Şarj Alternatör Voltajı",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10104,
         "dataLength": 1,
@@ -3900,9 +3900,9 @@
       },
       {
         "id": 10105,
-        "version": 9003,
-        "name": "Generator 2 R phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 R Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10105,
         "dataLength": 1,
@@ -3923,9 +3923,9 @@
       },
       {
         "id": 10106,
-        "version": 9003,
-        "name": "Generator 2 S phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 S Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10106,
         "dataLength": 1,
@@ -3946,9 +3946,9 @@
       },
       {
         "id": 10107,
-        "version": 9003,
-        "name": "Generator 2 T phase RMS voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 T Fazı RMS Gerilimi",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10107,
         "dataLength": 1,
@@ -3969,9 +3969,9 @@
       },
       {
         "id": 10108,
-        "version": 9003,
-        "name": "Generator 2 R phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 R Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10108,
         "dataLength": 1,
@@ -3992,9 +3992,9 @@
       },
       {
         "id": 10109,
-        "version": 9003,
-        "name": "Generator 2 S phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 S Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10109,
         "dataLength": 1,
@@ -4015,9 +4015,9 @@
       },
       {
         "id": 10110,
-        "version": 9003,
-        "name": "Generator 2 T phase RMS current",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 T Fazı RMS Akımı",
+        "group": "Ölçümler",
         "unit": "A",
         "modbusAddress": 10110,
         "dataLength": 1,
@@ -4038,9 +4038,9 @@
       },
       {
         "id": 10111,
-        "version": 9003,
-        "name": "Generator 2 frequency",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Frekansı",
+        "group": "Ölçümler",
         "unit": "Hz",
         "modbusAddress": 10111,
         "dataLength": 1,
@@ -4061,9 +4061,9 @@
       },
       {
         "id": 10112,
-        "version": 9003,
-        "name": "Generator 2 active power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "kW",
         "modbusAddress": 10112,
         "dataLength": 1,
@@ -4084,9 +4084,9 @@
       },
       {
         "id": 10113,
-        "version": 9003,
-        "name": "Generator 2 apparent power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 kVA değeri",
+        "group": "Ölçümler",
         "unit": "kVA",
         "modbusAddress": 10113,
         "dataLength": 1,
@@ -4107,9 +4107,9 @@
       },
       {
         "id": 10114,
-        "version": 9003,
-        "name": "Generator 2 reactive power",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "kVAr",
         "modbusAddress": 10114,
         "dataLength": 1,
@@ -4130,9 +4130,9 @@
       },
       {
         "id": 10115,
-        "version": 9003,
-        "name": "Generator 2 Canbus data bits",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Yedek",
+        "group": "Ölçümler",
         "unit": "",
         "modbusAddress": 10115,
         "dataLength": 1,
@@ -4153,9 +4153,9 @@
       },
       {
         "id": 10116,
-        "version": 9003,
-        "name": "Generator 2 engine running hours",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Motor Çalışma Saati",
+        "group": "Ölçümler",
         "unit": "h",
         "modbusAddress": 10116,
         "dataLength": 1,
@@ -4176,9 +4176,9 @@
       },
       {
         "id": 10117,
-        "version": 9003,
-        "name": "Generator 2 engine speed",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Motor Hızı",
+        "group": "Ölçümler",
         "unit": "rpm",
         "modbusAddress": 10117,
         "dataLength": 1,
@@ -4199,9 +4199,9 @@
       },
       {
         "id": 10118,
-        "version": 9003,
-        "name": "Generator 2 engine temperature",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Motor Sıcaklığı",
+        "group": "Ölçümler",
         "unit": "°C",
         "modbusAddress": 10118,
         "dataLength": 1,
@@ -4222,9 +4222,9 @@
       },
       {
         "id": 10119,
-        "version": 9003,
-        "name": "Generator 2 oil pressure",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jenetator-2 Yağ Basıncı",
+        "group": "Ölçümler",
         "unit": "bar",
         "modbusAddress": 10119,
         "dataLength": 1,
@@ -4245,9 +4245,9 @@
       },
       {
         "id": 10120,
-        "version": 9003,
-        "name": "Generator 2 fuel level",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Yakıt Seviyesi",
+        "group": "Ölçümler",
         "unit": "%",
         "modbusAddress": 10120,
         "dataLength": 1,
@@ -4268,9 +4268,9 @@
       },
       {
         "id": 10121,
-        "version": 9003,
-        "name": "Generator 2 battery voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Batarya Voltajı",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10121,
         "dataLength": 1,
@@ -4291,9 +4291,9 @@
       },
       {
         "id": 10122,
-        "version": 9003,
-        "name": "Generator 2 charge alternator voltage",
-        "group": "Measurements",
+        "version": 9005,
+        "name": "Jeneratör-2 Şarj Alternatör Voltajı",
+        "group": "Ölçümler",
         "unit": "V",
         "modbusAddress": 10122,
         "dataLength": 1,
@@ -4314,8 +4314,8 @@
       },
       {
         "id": 10123,
-        "version": 9003,
-        "name": "Panel LED state",
+        "version": 9005,
+        "name": "DMP2.0 Panel LED Bilgisi",
         "group": "Panel",
         "unit": "",
         "modbusAddress": 10123,
@@ -4337,8 +4337,8 @@
       },
       {
         "id": 10124,
-        "version": 9003,
-        "name": "Spare 12",
+        "version": 9005,
+        "name": "Yedek",
         "group": "Panel",
         "unit": "",
         "modbusAddress": 10124,
@@ -4360,8 +4360,8 @@
       },
       {
         "id": 10125,
-        "version": 9003,
-        "name": "Panel button press injection",
+        "version": 9005,
+        "name": "DMP2.0 Panel Buton Bilgisi",
         "group": "Panel",
         "unit": "",
         "modbusAddress": 10125,
@@ -4383,9 +4383,9 @@
       },
       {
         "id": 10126,
-        "version": 9003,
-        "name": "Generator 1 error status word 1",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-1 Hata Durum Bilgisi-1",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10126,
         "dataLength": 1,
@@ -4406,9 +4406,9 @@
       },
       {
         "id": 10127,
-        "version": 9003,
-        "name": "Generator 1 error status word 2",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-1 Hata Durum Bilgisi-2",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10127,
         "dataLength": 1,
@@ -4429,9 +4429,9 @@
       },
       {
         "id": 10128,
-        "version": 9003,
-        "name": "Generator 1 error type word 1",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-1 Hata Tipi Bilgisi-1",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10128,
         "dataLength": 1,
@@ -4452,9 +4452,9 @@
       },
       {
         "id": 10129,
-        "version": 9003,
-        "name": "Generator 1 error type word 2",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-1 Hata Tipi Bilgisi-2",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10129,
         "dataLength": 1,
@@ -4475,9 +4475,9 @@
       },
       {
         "id": 10130,
-        "version": 9003,
-        "name": "Generator 2 error status word 1",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-2 Hata Durum Bilgisi-1",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10130,
         "dataLength": 1,
@@ -4498,9 +4498,9 @@
       },
       {
         "id": 10131,
-        "version": 9003,
-        "name": "Generator 2 error status word 2",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-2 Hata Durum Bilgisi-2",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10131,
         "dataLength": 1,
@@ -4521,9 +4521,9 @@
       },
       {
         "id": 10132,
-        "version": 9003,
-        "name": "Generator 2 error type word 1",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-2 Hata Tipi Bilgisi-1",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10132,
         "dataLength": 1,
@@ -4544,9 +4544,9 @@
       },
       {
         "id": 10133,
-        "version": 9003,
-        "name": "Generator 2 error type word 2",
-        "group": "Errors",
+        "version": 9005,
+        "name": "Jeneratör-2 Hata Tipi Bilgisi-2",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10133,
         "dataLength": 1,
@@ -4567,9 +4567,9 @@
       },
       {
         "id": 10134,
-        "version": 9003,
-        "name": "DMP2.0 error status word",
-        "group": "Errors",
+        "version": 9005,
+        "name": "DMP2.0 Hata Durum Bilgisi",
+        "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10134,
         "dataLength": 1,
@@ -4590,9 +4590,9 @@
       },
       {
         "id": 10135,
-        "version": 9003,
-        "name": "Canbus I/O module input 1 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-1 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10135,
         "dataLength": 1,
@@ -4605,11 +4605,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4622,9 +4622,9 @@
       },
       {
         "id": 10136,
-        "version": 9003,
-        "name": "Canbus I/O module input 1 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-1 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10136,
         "dataLength": 1,
@@ -4637,11 +4637,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4654,9 +4654,9 @@
       },
       {
         "id": 10137,
-        "version": 9003,
-        "name": "Canbus I/O module input 2 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-2 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10137,
         "dataLength": 1,
@@ -4669,11 +4669,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4686,9 +4686,9 @@
       },
       {
         "id": 10138,
-        "version": 9003,
-        "name": "Canbus I/O module input 2 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-2 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10138,
         "dataLength": 1,
@@ -4701,11 +4701,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4718,9 +4718,9 @@
       },
       {
         "id": 10139,
-        "version": 9003,
-        "name": "Canbus I/O module input 3 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-3 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10139,
         "dataLength": 1,
@@ -4733,11 +4733,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4750,9 +4750,9 @@
       },
       {
         "id": 10140,
-        "version": 9003,
-        "name": "Canbus I/O module input 3 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-3 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10140,
         "dataLength": 1,
@@ -4765,11 +4765,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4782,9 +4782,9 @@
       },
       {
         "id": 10141,
-        "version": 9003,
-        "name": "Canbus I/O module input 4 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-4 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10141,
         "dataLength": 1,
@@ -4797,11 +4797,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4814,9 +4814,9 @@
       },
       {
         "id": 10142,
-        "version": 9003,
-        "name": "Canbus I/O module input 4 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-4 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10142,
         "dataLength": 1,
@@ -4829,11 +4829,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4846,9 +4846,9 @@
       },
       {
         "id": 10143,
-        "version": 9003,
-        "name": "Canbus I/O module input 5 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-5 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10143,
         "dataLength": 1,
@@ -4861,11 +4861,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4878,9 +4878,9 @@
       },
       {
         "id": 10144,
-        "version": 9003,
-        "name": "Canbus I/O module input 5 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-5 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10144,
         "dataLength": 1,
@@ -4893,11 +4893,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4910,9 +4910,9 @@
       },
       {
         "id": 10145,
-        "version": 9003,
-        "name": "Canbus I/O module input 6 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-6 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10145,
         "dataLength": 1,
@@ -4925,11 +4925,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -4942,9 +4942,9 @@
       },
       {
         "id": 10146,
-        "version": 9003,
-        "name": "Canbus I/O module input 6 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-6 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10146,
         "dataLength": 1,
@@ -4957,11 +4957,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -4974,9 +4974,9 @@
       },
       {
         "id": 10147,
-        "version": 9003,
-        "name": "Canbus I/O module input 7 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-7 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10147,
         "dataLength": 1,
@@ -4989,11 +4989,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5006,9 +5006,9 @@
       },
       {
         "id": 10148,
-        "version": 9003,
-        "name": "Canbus I/O module input 7 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-7 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10148,
         "dataLength": 1,
@@ -5021,11 +5021,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5038,9 +5038,9 @@
       },
       {
         "id": 10149,
-        "version": 9003,
-        "name": "Canbus I/O module input 8 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-8 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10149,
         "dataLength": 1,
@@ -5053,11 +5053,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5070,9 +5070,9 @@
       },
       {
         "id": 10150,
-        "version": 9003,
-        "name": "Canbus I/O module input 8 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-8 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10150,
         "dataLength": 1,
@@ -5085,11 +5085,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5102,9 +5102,9 @@
       },
       {
         "id": 10151,
-        "version": 9003,
-        "name": "Canbus I/O module input 9 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-9 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10151,
         "dataLength": 1,
@@ -5117,11 +5117,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5134,9 +5134,9 @@
       },
       {
         "id": 10152,
-        "version": 9003,
-        "name": "Canbus I/O module input 9 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-9 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10152,
         "dataLength": 1,
@@ -5149,11 +5149,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5166,9 +5166,9 @@
       },
       {
         "id": 10153,
-        "version": 9003,
-        "name": "Canbus I/O module input 10 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-10 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10153,
         "dataLength": 1,
@@ -5181,11 +5181,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5198,9 +5198,9 @@
       },
       {
         "id": 10154,
-        "version": 9003,
-        "name": "Canbus I/O module input 10 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-10 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10154,
         "dataLength": 1,
@@ -5213,11 +5213,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5230,9 +5230,9 @@
       },
       {
         "id": 10155,
-        "version": 9003,
-        "name": "Canbus I/O module input 11 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-11 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10155,
         "dataLength": 1,
@@ -5245,11 +5245,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5262,9 +5262,9 @@
       },
       {
         "id": 10156,
-        "version": 9003,
-        "name": "Canbus I/O module input 11 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-11 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10156,
         "dataLength": 1,
@@ -5277,11 +5277,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5294,9 +5294,9 @@
       },
       {
         "id": 10157,
-        "version": 9003,
-        "name": "Canbus I/O module input 12 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-12 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10157,
         "dataLength": 1,
@@ -5309,11 +5309,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5326,9 +5326,9 @@
       },
       {
         "id": 10158,
-        "version": 9003,
-        "name": "Canbus I/O module input 12 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-12 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10158,
         "dataLength": 1,
@@ -5341,11 +5341,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5358,9 +5358,9 @@
       },
       {
         "id": 10159,
-        "version": 9003,
-        "name": "Canbus I/O module input 13 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-13 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10159,
         "dataLength": 1,
@@ -5373,11 +5373,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5390,9 +5390,9 @@
       },
       {
         "id": 10160,
-        "version": 9003,
-        "name": "Canbus I/O module input 13 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-13 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10160,
         "dataLength": 1,
@@ -5405,11 +5405,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5422,9 +5422,9 @@
       },
       {
         "id": 10161,
-        "version": 9003,
-        "name": "Canbus I/O module input 14 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-14 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10161,
         "dataLength": 1,
@@ -5437,11 +5437,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5454,9 +5454,9 @@
       },
       {
         "id": 10162,
-        "version": 9003,
-        "name": "Canbus I/O module input 14 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-14 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10162,
         "dataLength": 1,
@@ -5469,11 +5469,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5486,9 +5486,9 @@
       },
       {
         "id": 10163,
-        "version": 9003,
-        "name": "Canbus I/O module input 15 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-15 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10163,
         "dataLength": 1,
@@ -5501,11 +5501,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5518,9 +5518,9 @@
       },
       {
         "id": 10164,
-        "version": 9003,
-        "name": "Canbus I/O module input 15 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-15 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10164,
         "dataLength": 1,
@@ -5533,11 +5533,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5550,9 +5550,9 @@
       },
       {
         "id": 10165,
-        "version": 9003,
-        "name": "Canbus I/O module input 16 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-16 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10165,
         "dataLength": 1,
@@ -5565,11 +5565,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5582,9 +5582,9 @@
       },
       {
         "id": 10166,
-        "version": 9003,
-        "name": "Canbus I/O module input 16 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-16 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10166,
         "dataLength": 1,
@@ -5597,11 +5597,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5614,9 +5614,9 @@
       },
       {
         "id": 10167,
-        "version": 9003,
-        "name": "Canbus I/O module input 17 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-17 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10167,
         "dataLength": 1,
@@ -5629,11 +5629,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5646,9 +5646,9 @@
       },
       {
         "id": 10168,
-        "version": 9003,
-        "name": "Canbus I/O module input 17 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-17 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10168,
         "dataLength": 1,
@@ -5661,11 +5661,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5678,9 +5678,9 @@
       },
       {
         "id": 10169,
-        "version": 9003,
-        "name": "Canbus I/O module input 18 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-18 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10169,
         "dataLength": 1,
@@ -5693,11 +5693,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5710,9 +5710,9 @@
       },
       {
         "id": 10170,
-        "version": 9003,
-        "name": "Canbus I/O module input 18 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-18 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10170,
         "dataLength": 1,
@@ -5725,11 +5725,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5742,9 +5742,9 @@
       },
       {
         "id": 10171,
-        "version": 9003,
-        "name": "Canbus I/O module input 19 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-19 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10171,
         "dataLength": 1,
@@ -5757,11 +5757,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5774,9 +5774,9 @@
       },
       {
         "id": 10172,
-        "version": 9003,
-        "name": "Canbus I/O module input 19 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-19 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10172,
         "dataLength": 1,
@@ -5789,11 +5789,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5806,9 +5806,9 @@
       },
       {
         "id": 10173,
-        "version": 9003,
-        "name": "Canbus I/O module input 20 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-20 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10173,
         "dataLength": 1,
@@ -5821,11 +5821,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5838,9 +5838,9 @@
       },
       {
         "id": 10174,
-        "version": 9003,
-        "name": "Canbus I/O module input 20 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Giriş-20 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10174,
         "dataLength": 1,
@@ -5853,11 +5853,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           }
         ],
         "dataOperation": {
@@ -5870,9 +5870,9 @@
       },
       {
         "id": 10175,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 1 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-1 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10175,
         "dataLength": 1,
@@ -5885,11 +5885,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5902,9 +5902,9 @@
       },
       {
         "id": 10176,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 1 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-1 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10176,
         "dataLength": 1,
@@ -5917,15 +5917,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           },
           {
             "value": 3,
-            "mask": "Analogue Input"
+            "mask": "Analog Giriş"
           }
         ],
         "dataOperation": {
@@ -5938,9 +5938,9 @@
       },
       {
         "id": 10177,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 2 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-2 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10177,
         "dataLength": 1,
@@ -5953,11 +5953,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -5970,9 +5970,9 @@
       },
       {
         "id": 10178,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 2 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-2 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10178,
         "dataLength": 1,
@@ -5985,15 +5985,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           },
           {
             "value": 3,
-            "mask": "Analogue Input"
+            "mask": "Analog Giriş"
           }
         ],
         "dataOperation": {
@@ -6006,9 +6006,9 @@
       },
       {
         "id": 10179,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 3 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-3 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10179,
         "dataLength": 1,
@@ -6021,11 +6021,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -6038,9 +6038,9 @@
       },
       {
         "id": 10180,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 3 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-3 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10180,
         "dataLength": 1,
@@ -6053,15 +6053,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           },
           {
             "value": 3,
-            "mask": "Analogue Input"
+            "mask": "Analog Giriş"
           }
         ],
         "dataOperation": {
@@ -6074,9 +6074,9 @@
       },
       {
         "id": 10181,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 4 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-4 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10181,
         "dataLength": 1,
@@ -6089,11 +6089,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -6106,9 +6106,9 @@
       },
       {
         "id": 10182,
-        "version": 9003,
-        "name": "Canbus I/O module analog input 4 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog Giriş-4 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10182,
         "dataLength": 1,
@@ -6121,15 +6121,15 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Active High"
+            "mask": "Aktif Yüksek"
           },
           {
             "value": 2,
-            "mask": "Active Low"
+            "mask": "Aktif Düşük"
           },
           {
             "value": 3,
-            "mask": "Analogue Input"
+            "mask": "Analog Giriş"
           }
         ],
         "dataOperation": {
@@ -6142,9 +6142,9 @@
       },
       {
         "id": 10183,
-        "version": 9003,
-        "name": "Canbus I/O module relay 1 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-1 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10183,
         "dataLength": 1,
@@ -6157,103 +6157,103 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "I/O Module Digital Input 1"
+            "mask": "I/O Modül Dijital Giriş 1"
           },
           {
             "value": 2,
-            "mask": "I/O Module Digital Input 2"
+            "mask": "I/O Modül Dijital Giriş 2"
           },
           {
             "value": 3,
-            "mask": "I/O Module Digital Input 3"
+            "mask": "I/O Modül Dijital Giriş 3"
           },
           {
             "value": 4,
-            "mask": "I/O Module Digital Input 4"
+            "mask": "I/O Modül Dijital Giriş 4"
           },
           {
             "value": 5,
-            "mask": "I/O Module Digital Input 5"
+            "mask": "I/O Modül Dijital Giriş 5"
           },
           {
             "value": 6,
-            "mask": "I/O Module Digital Input 6"
+            "mask": "I/O Modül Dijital Giriş 6"
           },
           {
             "value": 7,
-            "mask": "I/O Module Digital Input 7"
+            "mask": "I/O Modül Dijital Giriş 7"
           },
           {
             "value": 8,
-            "mask": "I/O Module Digital Input 8"
+            "mask": "I/O Modül Dijital Giriş 8"
           },
           {
             "value": 9,
-            "mask": "I/O Module Digital Input 9"
+            "mask": "I/O Modül Dijital Giriş 9"
           },
           {
             "value": 10,
-            "mask": "I/O Module Digital Input 10"
+            "mask": "I/O Modül Dijital Giriş 10"
           },
           {
             "value": 11,
-            "mask": "I/O Module Digital Input 11"
+            "mask": "I/O Modül Dijital Giriş 11"
           },
           {
             "value": 12,
-            "mask": "I/O Module Digital Input 12"
+            "mask": "I/O Modül Dijital Giriş 12"
           },
           {
             "value": 13,
-            "mask": "I/O Module Digital Input 13"
+            "mask": "I/O Modül Dijital Giriş 13"
           },
           {
             "value": 14,
-            "mask": "I/O Module Digital Input 14"
+            "mask": "I/O Modül Dijital Giriş 14"
           },
           {
             "value": 15,
-            "mask": "I/O Module Digital Input 15"
+            "mask": "I/O Modül Dijital Giriş 15"
           },
           {
             "value": 16,
-            "mask": "I/O Module Digital Input 16"
+            "mask": "I/O Modül Dijital Giriş 16"
           },
           {
             "value": 17,
-            "mask": "I/O Module Digital Input 17"
+            "mask": "I/O Modül Dijital Giriş 17"
           },
           {
             "value": 18,
-            "mask": "I/O Module Digital Input 18"
+            "mask": "I/O Modül Dijital Giriş 18"
           },
           {
             "value": 19,
-            "mask": "I/O Module Digital Input 19"
+            "mask": "I/O Modül Dijital Giriş 19"
           },
           {
             "value": 20,
-            "mask": "I/O Module Digital Input 20"
+            "mask": "I/O Modül Dijital Giriş 20"
           },
           {
             "value": 21,
-            "mask": "I/O Module Analogue Input 1"
+            "mask": "I/O Modül Analog Giriş 1"
           },
           {
             "value": 22,
-            "mask": "I/O Module Analogue Input 2"
+            "mask": "I/O Modül Analog Giriş 2"
           },
           {
             "value": 23,
-            "mask": "I/O Module Analogue Input 3"
+            "mask": "I/O Modül Analog Giriş 3"
           },
           {
             "value": 24,
-            "mask": "I/O Module Analogue Input 4"
+            "mask": "I/O Modül Analog Giriş 4"
           }
         ],
         "dataOperation": {
@@ -6266,9 +6266,9 @@
       },
       {
         "id": 10184,
-        "version": 9003,
-        "name": "Canbus I/O module relay 1 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-1 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10184,
         "dataLength": 1,
@@ -6281,11 +6281,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -6298,9 +6298,9 @@
       },
       {
         "id": 10185,
-        "version": 9003,
-        "name": "Canbus I/O module relay 2 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-2 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10185,
         "dataLength": 1,
@@ -6313,103 +6313,103 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "I/O Module Digital Input 1"
+            "mask": "I/O Modül Dijital Giriş 1"
           },
           {
             "value": 2,
-            "mask": "I/O Module Digital Input 2"
+            "mask": "I/O Modül Dijital Giriş 2"
           },
           {
             "value": 3,
-            "mask": "I/O Module Digital Input 3"
+            "mask": "I/O Modül Dijital Giriş 3"
           },
           {
             "value": 4,
-            "mask": "I/O Module Digital Input 4"
+            "mask": "I/O Modül Dijital Giriş 4"
           },
           {
             "value": 5,
-            "mask": "I/O Module Digital Input 5"
+            "mask": "I/O Modül Dijital Giriş 5"
           },
           {
             "value": 6,
-            "mask": "I/O Module Digital Input 6"
+            "mask": "I/O Modül Dijital Giriş 6"
           },
           {
             "value": 7,
-            "mask": "I/O Module Digital Input 7"
+            "mask": "I/O Modül Dijital Giriş 7"
           },
           {
             "value": 8,
-            "mask": "I/O Module Digital Input 8"
+            "mask": "I/O Modül Dijital Giriş 8"
           },
           {
             "value": 9,
-            "mask": "I/O Module Digital Input 9"
+            "mask": "I/O Modül Dijital Giriş 9"
           },
           {
             "value": 10,
-            "mask": "I/O Module Digital Input 10"
+            "mask": "I/O Modül Dijital Giriş 10"
           },
           {
             "value": 11,
-            "mask": "I/O Module Digital Input 11"
+            "mask": "I/O Modül Dijital Giriş 11"
           },
           {
             "value": 12,
-            "mask": "I/O Module Digital Input 12"
+            "mask": "I/O Modül Dijital Giriş 12"
           },
           {
             "value": 13,
-            "mask": "I/O Module Digital Input 13"
+            "mask": "I/O Modül Dijital Giriş 13"
           },
           {
             "value": 14,
-            "mask": "I/O Module Digital Input 14"
+            "mask": "I/O Modül Dijital Giriş 14"
           },
           {
             "value": 15,
-            "mask": "I/O Module Digital Input 15"
+            "mask": "I/O Modül Dijital Giriş 15"
           },
           {
             "value": 16,
-            "mask": "I/O Module Digital Input 16"
+            "mask": "I/O Modül Dijital Giriş 16"
           },
           {
             "value": 17,
-            "mask": "I/O Module Digital Input 17"
+            "mask": "I/O Modül Dijital Giriş 17"
           },
           {
             "value": 18,
-            "mask": "I/O Module Digital Input 18"
+            "mask": "I/O Modül Dijital Giriş 18"
           },
           {
             "value": 19,
-            "mask": "I/O Module Digital Input 19"
+            "mask": "I/O Modül Dijital Giriş 19"
           },
           {
             "value": 20,
-            "mask": "I/O Module Digital Input 20"
+            "mask": "I/O Modül Dijital Giriş 20"
           },
           {
             "value": 21,
-            "mask": "I/O Module Analogue Input 1"
+            "mask": "I/O Modül Analog Giriş 1"
           },
           {
             "value": 22,
-            "mask": "I/O Module Analogue Input 2"
+            "mask": "I/O Modül Analog Giriş 2"
           },
           {
             "value": 23,
-            "mask": "I/O Module Analogue Input 3"
+            "mask": "I/O Modül Analog Giriş 3"
           },
           {
             "value": 24,
-            "mask": "I/O Module Analogue Input 4"
+            "mask": "I/O Modül Analog Giriş 4"
           }
         ],
         "dataOperation": {
@@ -6422,9 +6422,9 @@
       },
       {
         "id": 10186,
-        "version": 9003,
-        "name": "Canbus I/O module relay 2 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-2 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10186,
         "dataLength": 1,
@@ -6437,11 +6437,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -6454,9 +6454,9 @@
       },
       {
         "id": 10187,
-        "version": 9003,
-        "name": "Canbus I/O module relay 3 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-3 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10187,
         "dataLength": 1,
@@ -6469,103 +6469,103 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "I/O Module Digital Input 1"
+            "mask": "I/O Modül Dijital Giriş 1"
           },
           {
             "value": 2,
-            "mask": "I/O Module Digital Input 2"
+            "mask": "I/O Modül Dijital Giriş 2"
           },
           {
             "value": 3,
-            "mask": "I/O Module Digital Input 3"
+            "mask": "I/O Modül Dijital Giriş 3"
           },
           {
             "value": 4,
-            "mask": "I/O Module Digital Input 4"
+            "mask": "I/O Modül Dijital Giriş 4"
           },
           {
             "value": 5,
-            "mask": "I/O Module Digital Input 5"
+            "mask": "I/O Modül Dijital Giriş 5"
           },
           {
             "value": 6,
-            "mask": "I/O Module Digital Input 6"
+            "mask": "I/O Modül Dijital Giriş 6"
           },
           {
             "value": 7,
-            "mask": "I/O Module Digital Input 7"
+            "mask": "I/O Modül Dijital Giriş 7"
           },
           {
             "value": 8,
-            "mask": "I/O Module Digital Input 8"
+            "mask": "I/O Modül Dijital Giriş 8"
           },
           {
             "value": 9,
-            "mask": "I/O Module Digital Input 9"
+            "mask": "I/O Modül Dijital Giriş 9"
           },
           {
             "value": 10,
-            "mask": "I/O Module Digital Input 10"
+            "mask": "I/O Modül Dijital Giriş 10"
           },
           {
             "value": 11,
-            "mask": "I/O Module Digital Input 11"
+            "mask": "I/O Modül Dijital Giriş 11"
           },
           {
             "value": 12,
-            "mask": "I/O Module Digital Input 12"
+            "mask": "I/O Modül Dijital Giriş 12"
           },
           {
             "value": 13,
-            "mask": "I/O Module Digital Input 13"
+            "mask": "I/O Modül Dijital Giriş 13"
           },
           {
             "value": 14,
-            "mask": "I/O Module Digital Input 14"
+            "mask": "I/O Modül Dijital Giriş 14"
           },
           {
             "value": 15,
-            "mask": "I/O Module Digital Input 15"
+            "mask": "I/O Modül Dijital Giriş 15"
           },
           {
             "value": 16,
-            "mask": "I/O Module Digital Input 16"
+            "mask": "I/O Modül Dijital Giriş 16"
           },
           {
             "value": 17,
-            "mask": "I/O Module Digital Input 17"
+            "mask": "I/O Modül Dijital Giriş 17"
           },
           {
             "value": 18,
-            "mask": "I/O Module Digital Input 18"
+            "mask": "I/O Modül Dijital Giriş 18"
           },
           {
             "value": 19,
-            "mask": "I/O Module Digital Input 19"
+            "mask": "I/O Modül Dijital Giriş 19"
           },
           {
             "value": 20,
-            "mask": "I/O Module Digital Input 20"
+            "mask": "I/O Modül Dijital Giriş 20"
           },
           {
             "value": 21,
-            "mask": "I/O Module Analogue Input 1"
+            "mask": "I/O Modül Analog Giriş 1"
           },
           {
             "value": 22,
-            "mask": "I/O Module Analogue Input 2"
+            "mask": "I/O Modül Analog Giriş 2"
           },
           {
             "value": 23,
-            "mask": "I/O Module Analogue Input 3"
+            "mask": "I/O Modül Analog Giriş 3"
           },
           {
             "value": 24,
-            "mask": "I/O Module Analogue Input 4"
+            "mask": "I/O Modül Analog Giriş 4"
           }
         ],
         "dataOperation": {
@@ -6578,9 +6578,9 @@
       },
       {
         "id": 10188,
-        "version": 9003,
-        "name": "Canbus I/O module relay 3 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-3 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10188,
         "dataLength": 1,
@@ -6593,11 +6593,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -6610,9 +6610,9 @@
       },
       {
         "id": 10189,
-        "version": 9003,
-        "name": "Canbus I/O module relay 4 function",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-4 Fonksiyonu",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10189,
         "dataLength": 1,
@@ -6625,103 +6625,103 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "None"
+            "mask": "Yok"
           },
           {
             "value": 1,
-            "mask": "I/O Module Digital Input 1"
+            "mask": "I/O Modül Dijital Giriş 1"
           },
           {
             "value": 2,
-            "mask": "I/O Module Digital Input 2"
+            "mask": "I/O Modül Dijital Giriş 2"
           },
           {
             "value": 3,
-            "mask": "I/O Module Digital Input 3"
+            "mask": "I/O Modül Dijital Giriş 3"
           },
           {
             "value": 4,
-            "mask": "I/O Module Digital Input 4"
+            "mask": "I/O Modül Dijital Giriş 4"
           },
           {
             "value": 5,
-            "mask": "I/O Module Digital Input 5"
+            "mask": "I/O Modül Dijital Giriş 5"
           },
           {
             "value": 6,
-            "mask": "I/O Module Digital Input 6"
+            "mask": "I/O Modül Dijital Giriş 6"
           },
           {
             "value": 7,
-            "mask": "I/O Module Digital Input 7"
+            "mask": "I/O Modül Dijital Giriş 7"
           },
           {
             "value": 8,
-            "mask": "I/O Module Digital Input 8"
+            "mask": "I/O Modül Dijital Giriş 8"
           },
           {
             "value": 9,
-            "mask": "I/O Module Digital Input 9"
+            "mask": "I/O Modül Dijital Giriş 9"
           },
           {
             "value": 10,
-            "mask": "I/O Module Digital Input 10"
+            "mask": "I/O Modül Dijital Giriş 10"
           },
           {
             "value": 11,
-            "mask": "I/O Module Digital Input 11"
+            "mask": "I/O Modül Dijital Giriş 11"
           },
           {
             "value": 12,
-            "mask": "I/O Module Digital Input 12"
+            "mask": "I/O Modül Dijital Giriş 12"
           },
           {
             "value": 13,
-            "mask": "I/O Module Digital Input 13"
+            "mask": "I/O Modül Dijital Giriş 13"
           },
           {
             "value": 14,
-            "mask": "I/O Module Digital Input 14"
+            "mask": "I/O Modül Dijital Giriş 14"
           },
           {
             "value": 15,
-            "mask": "I/O Module Digital Input 15"
+            "mask": "I/O Modül Dijital Giriş 15"
           },
           {
             "value": 16,
-            "mask": "I/O Module Digital Input 16"
+            "mask": "I/O Modül Dijital Giriş 16"
           },
           {
             "value": 17,
-            "mask": "I/O Module Digital Input 17"
+            "mask": "I/O Modül Dijital Giriş 17"
           },
           {
             "value": 18,
-            "mask": "I/O Module Digital Input 18"
+            "mask": "I/O Modül Dijital Giriş 18"
           },
           {
             "value": 19,
-            "mask": "I/O Module Digital Input 19"
+            "mask": "I/O Modül Dijital Giriş 19"
           },
           {
             "value": 20,
-            "mask": "I/O Module Digital Input 20"
+            "mask": "I/O Modül Dijital Giriş 20"
           },
           {
             "value": 21,
-            "mask": "I/O Module Analogue Input 1"
+            "mask": "I/O Modül Analog Giriş 1"
           },
           {
             "value": 22,
-            "mask": "I/O Module Analogue Input 2"
+            "mask": "I/O Modül Analog Giriş 2"
           },
           {
             "value": 23,
-            "mask": "I/O Module Analogue Input 3"
+            "mask": "I/O Modül Analog Giriş 3"
           },
           {
             "value": 24,
-            "mask": "I/O Module Analogue Input 4"
+            "mask": "I/O Modül Analog Giriş 4"
           }
         ],
         "dataOperation": {
@@ -6734,9 +6734,9 @@
       },
       {
         "id": 10190,
-        "version": 9003,
-        "name": "Canbus I/O module relay 4 type",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Röle-4 Tipi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10190,
         "dataLength": 1,
@@ -6749,11 +6749,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Normally Open"
+            "mask": "Normalde Açık"
           },
           {
             "value": 2,
-            "mask": "Normally Closed"
+            "mask": "Normalde Kapalı"
           }
         ],
         "dataOperation": {
@@ -6766,9 +6766,9 @@
       },
       {
         "id": 10191,
-        "version": 9003,
-        "name": "Canbus I/O module info word 1",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Bilgileri-1",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10191,
         "dataLength": 1,
@@ -6789,9 +6789,9 @@
       },
       {
         "id": 10192,
-        "version": 9003,
-        "name": "Canbus I/O module info word 2",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Bilgileri-2",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10192,
         "dataLength": 1,
@@ -6812,9 +6812,9 @@
       },
       {
         "id": 10193,
-        "version": 9003,
-        "name": "Canbus I/O module analog 1 value",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog-1 Değeri",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10193,
         "dataLength": 1,
@@ -6835,9 +6835,9 @@
       },
       {
         "id": 10194,
-        "version": 9003,
-        "name": "Canbus I/O module analog 2 value",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog-2 Değeri",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10194,
         "dataLength": 1,
@@ -6858,9 +6858,9 @@
       },
       {
         "id": 10195,
-        "version": 9003,
-        "name": "Canbus I/O module analog 3 value",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog-3 Değeri",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10195,
         "dataLength": 1,
@@ -6881,9 +6881,9 @@
       },
       {
         "id": 10196,
-        "version": 9003,
-        "name": "Canbus I/O module analog 4 value",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Analog-4 Değeri",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10196,
         "dataLength": 1,
@@ -6904,9 +6904,9 @@
       },
       {
         "id": 10197,
-        "version": 9003,
-        "name": "Mains phase sequence error selection",
-        "group": "Mains protection",
+        "version": 9005,
+        "name": "Şebeke Faz Sıra Hatası Seçimi",
+        "group": "Şebeke koruma",
         "unit": "",
         "modbusAddress": 10197,
         "dataLength": 1,
@@ -6919,11 +6919,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Enabled"
+            "mask": "Aktif"
           },
           {
             "value": 1,
-            "mask": "Disabled"
+            "mask": "Pasif"
           }
         ],
         "dataOperation": {
@@ -6936,9 +6936,9 @@
       },
       {
         "id": 10198,
-        "version": 9003,
-        "name": "Synchronous transfer frequency difference",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Senkron Geçiş Frekans Farkı",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "Hz",
         "modbusAddress": 10198,
         "dataLength": 1,
@@ -6959,9 +6959,9 @@
       },
       {
         "id": 10199,
-        "version": 9003,
-        "name": "Generator transition type",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Geçiş Tipi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10199,
         "dataLength": 1,
@@ -6970,15 +6970,15 @@
         "view": "",
         "minValue": 0,
         "maxValue": 1,
-        "defaultValue": 1,
+        "defaultValue": 0,
         "valueMask": [
           {
             "value": 0,
-            "mask": "Uninterrupted"
+            "mask": "Kesintisiz"
           },
           {
             "value": 1,
-            "mask": "Interrupted"
+            "mask": "Kesintili"
           }
         ],
         "dataOperation": {
@@ -6991,9 +6991,9 @@
       },
       {
         "id": 10200,
-        "version": 9003,
-        "name": "Alternator phase sequence error selection",
-        "group": "Alternator protection",
+        "version": 9005,
+        "name": "Jeneratör Faz Sıra Hatası Seçimi",
+        "group": "Alternatör koruma",
         "unit": "",
         "modbusAddress": 10200,
         "dataLength": 1,
@@ -7006,11 +7006,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Enabled"
+            "mask": "Aktif"
           },
           {
             "value": 1,
-            "mask": "Disabled"
+            "mask": "Pasif"
           }
         ],
         "dataOperation": {
@@ -7023,9 +7023,9 @@
       },
       {
         "id": 10201,
-        "version": 9003,
-        "name": "Interrupted transfer time",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Kesintili Geçiş Süresi",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "s",
         "modbusAddress": 10201,
         "dataLength": 1,
@@ -7046,9 +7046,9 @@
       },
       {
         "id": 10202,
-        "version": 9003,
-        "name": "Generator count",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Jeneratör Sayısı",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10202,
         "dataLength": 1,
@@ -7061,11 +7061,11 @@
         "valueMask": [
           {
             "value": 1,
-            "mask": "Single Generator"
+            "mask": "Tekli Jeneratör"
           },
           {
             "value": 2,
-            "mask": "Dual Generator"
+            "mask": "İkili Jeneratör"
           }
         ],
         "dataOperation": {
@@ -7078,8 +7078,8 @@
       },
       {
         "id": 10203,
-        "version": 9003,
-        "name": "Language selection",
+        "version": 9005,
+        "name": "Dil Seçimi",
         "group": "Panel",
         "unit": "",
         "modbusAddress": 10203,
@@ -7093,11 +7093,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Turkish"
+            "mask": "Türkçe"
           },
           {
             "value": 1,
-            "mask": "English"
+            "mask": "İngilizce"
           }
         ],
         "dataOperation": {
@@ -7110,9 +7110,9 @@
       },
       {
         "id": 10204,
-        "version": 9003,
-        "name": "Canbus I/O module selection",
-        "group": "Canbus I/O module",
+        "version": 9005,
+        "name": "Canbus I/O Module Seçimi",
+        "group": "Canbus I/O modülü",
         "unit": "",
         "modbusAddress": 10204,
         "dataLength": 1,
@@ -7125,11 +7125,11 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disabled"
+            "mask": "Pasif"
           },
           {
             "value": 1,
-            "mask": "Enabled"
+            "mask": "Aktif"
           }
         ],
         "dataOperation": {
@@ -7142,9 +7142,9 @@
       },
       {
         "id": 10205,
-        "version": 9004,
-        "name": "Transfer on yellow alarm",
-        "group": "Engine and timers",
+        "version": 9005,
+        "name": "Sarı Uyarıda Geçiş",
+        "group": "Motor ve zamanlayıcılar",
         "unit": "",
         "modbusAddress": 10205,
         "dataLength": 1,
@@ -7157,11 +7157,59 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Off"
+            "mask": "Kapalı"
           },
           {
             "value": 1,
-            "mask": "On"
+            "mask": "Açık"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 10206,
+        "version": 9005,
+        "name": "Seri",
+        "group": "Motor ve zamanlayıcılar",
+        "unit": "",
+        "modbusAddress": 10206,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": false,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 5,
+        "defaultValue": 2,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "130kVA İkili Seri (V2020)"
+          },
+          {
+            "value": 1,
+            "mask": "130kVA Tekli Seri (V2505; Jeneratör Sayısı 1 olur)"
+          },
+          {
+            "value": 2,
+            "mask": "250kVA Seri (V3012; varsayılan)"
+          },
+          {
+            "value": 3,
+            "mask": "EIRS 20kW Seri (V4015)"
+          },
+          {
+            "value": 4,
+            "mask": "EIRS 30kW Seri (V5019)"
+          },
+          {
+            "value": 5,
+            "mask": "9000 Seri (V9005; Kesintili geçiş)"
           }
         ],
         "dataOperation": {
