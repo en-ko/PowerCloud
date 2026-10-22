@@ -7209,7 +7209,39 @@
           },
           {
             "value": 5,
-            "mask": "9000 Seri (V9005; Kesintili geçiş)"
+            "mask": "9000 Seri (V9006; Kesintili geçiş)"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 10207,
+        "version": 9006,
+        "name": "RS485 Kontrol",
+        "group": "Panel",
+        "unit": "",
+        "modbusAddress": 10207,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": false,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Açık"
+          },
+          {
+            "value": 1,
+            "mask": "Kapalı"
           }
         ],
         "dataOperation": {
