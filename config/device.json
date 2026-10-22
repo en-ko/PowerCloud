@@ -209,6 +209,19 @@
     "fileVersion": 1,
     "type": "device",
     "deviceType": "Generator",
+    "background" :{
+      "backgroundImage": true,
+      "imageSize": {
+        "width": 88,
+        "height": 88
+      },
+      "backgroundColor": true,
+      "progressBarColor": true,
+      "maxPacketSize": 64,
+      "qrCode": true,
+      "qrCodeMaxLength": 1500,
+      "rgbaFormat": "bgra"
+    },
     "bMAddress": 19
   },
   {
