@@ -7349,7 +7349,7 @@
       {
         "id": 10210,
         "version": 9007,
-        "name": "DMP2.0 Hata Durum Bilgisi 2",
+        "name": "DMP2.0 Uyarı Durum Bilgisi",
         "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10210,
