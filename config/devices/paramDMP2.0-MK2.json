@@ -3120,7 +3120,7 @@
       },
       {
         "id": 10069,
-        "version": 9005,
+        "version": 9007,
         "name": "Bakım Periyodu",
         "group": "Servis",
         "unit": "h",
@@ -3143,7 +3143,7 @@
       },
       {
         "id": 10070,
-        "version": 9005,
+        "version": 9007,
         "name": "Bakım Sıfırla",
         "group": "Servis",
         "unit": "",
@@ -3166,7 +3166,7 @@
       },
       {
         "id": 10071,
-        "version": 9005,
+        "version": 9007,
         "name": "Kontaktör Geri Besleme Süresi",
         "group": "Yardımcı giriş/çıkışlar",
         "unit": "s",
@@ -7245,7 +7245,7 @@
           },
           {
             "value": 2,
-            "mask": "250kVA Seri (V3012; varsayılan)"
+            "mask": "250kVA Seri (V3013; varsayılan)"
           },
           {
             "value": 3,
@@ -7302,7 +7302,7 @@
       },
       {
         "id": 10208,
-        "version": 9006,
+        "version": 9007,
         "name": "Jeneratör-1 Kalan Bakım Saati",
         "group": "Ölçümler",
         "unit": "h",
@@ -7311,8 +7311,8 @@
         "coef": 0,
         "signed": true,
         "view": "",
-        "minValue": 0,
-        "maxValue": 65535,
+        "minValue": -32768,
+        "maxValue": 32767,
         "defaultValue": 0,
         "valueMask": [],
         "dataOperation": {
@@ -7325,7 +7325,7 @@
       },
       {
         "id": 10209,
-        "version": 9006,
+        "version": 9007,
         "name": "Jeneratör-2 Kalan Bakım Saati",
         "group": "Ölçümler",
         "unit": "h",
@@ -7334,8 +7334,8 @@
         "coef": 0,
         "signed": true,
         "view": "",
-        "minValue": 0,
-        "maxValue": 65535,
+        "minValue": -32768,
+        "maxValue": 32767,
         "defaultValue": 0,
         "valueMask": [],
         "dataOperation": {
@@ -7348,8 +7348,8 @@
       },
       {
         "id": 10210,
-        "version": 9006,
-        "name": "DMP2.0 Hata Durum Bilgisi 2",
+        "version": 9007,
+        "name": "DMP2.0 Uyarı Durum Bilgisi",
         "group": "Hatalar",
         "unit": "",
         "modbusAddress": 10210,
