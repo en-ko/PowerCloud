@@ -1015,7 +1015,7 @@
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 19,
+        "maxValue": 22,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -1097,6 +1097,18 @@
           {
             "value": 19,
             "mask": "Acil Stop Girişi"
+          },
+          {
+            "value": 20,
+            "mask": "Jeneratör-1 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 21,
+            "mask": "Jeneratör-2 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 22,
+            "mask": "Şebeke Kontaktör Geri Beslemesi"
           }
         ],
         "dataOperation": {
@@ -1151,7 +1163,7 @@
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 19,
+        "maxValue": 22,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -1233,6 +1245,18 @@
           {
             "value": 19,
             "mask": "Acil Stop Girişi"
+          },
+          {
+            "value": 20,
+            "mask": "Jeneratör-1 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 21,
+            "mask": "Jeneratör-2 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 22,
+            "mask": "Şebeke Kontaktör Geri Beslemesi"
           }
         ],
         "dataOperation": {
@@ -1287,7 +1311,7 @@
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 19,
+        "maxValue": 22,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -1369,6 +1393,18 @@
           {
             "value": 19,
             "mask": "Acil Stop Girişi"
+          },
+          {
+            "value": 20,
+            "mask": "Jeneratör-1 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 21,
+            "mask": "Jeneratör-2 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 22,
+            "mask": "Şebeke Kontaktör Geri Beslemesi"
           }
         ],
         "dataOperation": {
@@ -1423,7 +1459,7 @@
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 19,
+        "maxValue": 22,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -1505,6 +1541,18 @@
           {
             "value": 19,
             "mask": "Acil Stop Girişi"
+          },
+          {
+            "value": 20,
+            "mask": "Jeneratör-1 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 21,
+            "mask": "Jeneratör-2 Kontaktör Geri Beslemesi"
+          },
+          {
+            "value": 22,
+            "mask": "Şebeke Kontaktör Geri Beslemesi"
           }
         ],
         "dataOperation": {
@@ -3073,30 +3121,30 @@
       {
         "id": 10069,
         "version": 9005,
-        "name": "Yedek",
+        "name": "Bakım Periyodu",
         "group": "Servis",
-        "unit": "",
+        "unit": "h",
         "modbusAddress": 10069,
         "dataLength": 1,
         "coef": 0,
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 65535,
+        "maxValue": 32767,
         "defaultValue": 0,
         "valueMask": [],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
-        "readOnly": true,
+        "readOnly": false,
         "comment": "",
         "relation": []
       },
       {
         "id": 10070,
         "version": 9005,
-        "name": "Yedek",
+        "name": "Bakım Sıfırla",
         "group": "Servis",
         "unit": "",
         "modbusAddress": 10070,
@@ -3105,37 +3153,37 @@
         "signed": false,
         "view": "",
         "minValue": 0,
-        "maxValue": 65535,
+        "maxValue": 3,
         "defaultValue": 0,
         "valueMask": [],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
-        "readOnly": true,
+        "readOnly": false,
         "comment": "",
         "relation": []
       },
       {
         "id": 10071,
         "version": 9005,
-        "name": "Yedek",
-        "group": "Servis",
-        "unit": "",
+        "name": "Kontaktör Geri Besleme Süresi",
+        "group": "Yardımcı giriş/çıkışlar",
+        "unit": "s",
         "modbusAddress": 10071,
         "dataLength": 1,
         "coef": 0,
         "signed": false,
         "view": "",
-        "minValue": 0,
-        "maxValue": 65535,
-        "defaultValue": 0,
+        "minValue": 1,
+        "maxValue": 30,
+        "defaultValue": 2,
         "valueMask": [],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
-        "readOnly": true,
+        "readOnly": false,
         "comment": "",
         "relation": []
       },
@@ -7249,6 +7297,75 @@
           "operationValue": ""
         },
         "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 10208,
+        "version": 9006,
+        "name": "Jeneratör-1 Kalan Bakım Saati",
+        "group": "Ölçümler",
+        "unit": "h",
+        "modbusAddress": 10208,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 65535,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 10209,
+        "version": 9006,
+        "name": "Jeneratör-2 Kalan Bakım Saati",
+        "group": "Ölçümler",
+        "unit": "h",
+        "modbusAddress": 10209,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 65535,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 10210,
+        "version": 9006,
+        "name": "DMP2.0 Hata Durum Bilgisi 2",
+        "group": "Hatalar",
+        "unit": "",
+        "modbusAddress": 10210,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": false,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 65535,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
         "comment": "",
         "relation": []
       }

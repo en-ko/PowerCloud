@@ -3,9 +3,9 @@
     "object": "config",
     "pageCount": 3,
     "pageTitle": [
-      "Monitor",
-      "Errors",
-      "Parameters"
+      "İzleme",
+      "Arızalar",
+      "Parametreler"
     ]
   },
   {
@@ -15,7 +15,7 @@
     "side": "left",
     "width": "400px",
     "height": "540px",
-    "title": "Generator-1",
+    "title": "Jeneratör-1",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "13px",
@@ -55,6 +55,9 @@
         "paramId": 10098
       },
       {
+        "paramId": 10208
+      },
+      {
         "paramId": 10099
       },
       {
@@ -82,7 +85,7 @@
     "side": "center",
     "width": "700px",
     "height": "240px",
-    "title": "Mains",
+    "title": "Şebeke",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "13px",
@@ -119,7 +122,7 @@
     "side": "right",
     "width": "400px",
     "height": "540px",
-    "title": "Generator-2",
+    "title": "Jeneratör-2",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "13px",
@@ -157,6 +160,9 @@
       },
       {
         "paramId": 10116
+      },
+      {
+        "paramId": 10209
       },
       {
         "paramId": 10117
@@ -646,7 +652,7 @@
     "side": "left",
     "width": "400px",
     "height": "840px",
-    "title": "Generator-1 Errors",
+    "title": "Jeneratör-1 Arızaları",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "14px",
@@ -654,7 +660,7 @@
     "hideIfNoConditions": false,
     "itemList": [
       {
-        "name": "Low Generator Frequency",
+        "name": "Düşük Jeneratör Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -691,7 +697,7 @@
         ]
       },
       {
-        "name": "High Generator Frequency",
+        "name": "Yüksek Jeneratör Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -728,7 +734,7 @@
         ]
       },
       {
-        "name": "Low Engine Speed",
+        "name": "Düşük Motor Devri",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -765,7 +771,7 @@
         ]
       },
       {
-        "name": "High Engine Speed",
+        "name": "Yüksek Motor Devri",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -802,7 +808,7 @@
         ]
       },
       {
-        "name": "Generator Charge Fail",
+        "name": "Jeneratör Şarj Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -839,7 +845,7 @@
         ]
       },
       {
-        "name": "Low Battery Voltage",
+        "name": "Düşük Batarya Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -876,7 +882,7 @@
         ]
       },
       {
-        "name": "High Battery Voltage",
+        "name": "Yüksek Batarya Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -913,7 +919,7 @@
         ]
       },
       {
-        "name": "High Generator Current",
+        "name": "Yüksek Jeneratör Akımı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -950,7 +956,7 @@
         ]
       },
       {
-        "name": "High Engine Temperature",
+        "name": "Yüksek Motor Sıcaklığı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -987,7 +993,7 @@
         ]
       },
       {
-        "name": "Low Fuel Level",
+        "name": "Düşük Yakıt Seviyesi",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1024,7 +1030,7 @@
         ]
       },
       {
-        "name": "Auxiliary Input Fail",
+        "name": "Yedek Giriş Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1061,7 +1067,7 @@
         ]
       },
       {
-        "name": "Phase Sequence Error",
+        "name": "Faz Sıra Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1098,7 +1104,7 @@
         ]
       },
       {
-        "name": "High Power Error",
+        "name": "Yüksek Güç Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1135,7 +1141,7 @@
         ]
       },
       {
-        "name": "Generator Start Error",
+        "name": "Jeneratör Başlatma Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1172,7 +1178,7 @@
         ]
       },
       {
-        "name": "Maintenance Error",
+        "name": "Bakım Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1209,7 +1215,7 @@
         ]
       },
       {
-        "name": "Emergency Stop",
+        "name": "Acil Stop",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1246,7 +1252,7 @@
         ]
       },
       {
-        "name": "Low Generator Voltage",
+        "name": "Düşük Jeneratör Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1283,7 +1289,7 @@
         ]
       },
       {
-        "name": "High Generator Voltage",
+        "name": "Yüksek Jeneratör Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1320,7 +1326,7 @@
         ]
       },
       {
-        "name": "High Oil Temperature",
+        "name": "Yüksek Yağ Sıcaklığı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1357,7 +1363,7 @@
         ]
       },
       {
-        "name": "Low Oil Pressure",
+        "name": "Düşük Yağ Basıncı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1394,7 +1400,7 @@
         ]
       },
       {
-        "name": "Low Radiator Water Level",
+        "name": "Düşük Radyatör Su Seviyesi",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1439,7 +1445,7 @@
     "side": "center",
     "width": "800px",
     "height": "840px",
-    "title": "DMP2.0 Errors",
+    "title": "DMP2.0 Arızaları",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "14px",
@@ -1447,7 +1453,7 @@
     "hideIfNoConditions": false,
     "itemList": [
       {
-        "name": "CAN Bus Communication Error",
+        "name": "CAN Bus Haberleşme Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1462,7 +1468,7 @@
         ]
       },
       {
-        "name": "Synchronisation Error",
+        "name": "Senkron Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1477,7 +1483,7 @@
         ]
       },
       {
-        "name": "Low Mains Voltage",
+        "name": "Düşük Şebeke Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1492,7 +1498,7 @@
         ]
       },
       {
-        "name": "High Mains Voltage",
+        "name": "Yüksek Şebeke Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1507,7 +1513,7 @@
         ]
       },
       {
-        "name": "Low Mains Frequency",
+        "name": "Düşük Şebeke Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1522,7 +1528,7 @@
         ]
       },
       {
-        "name": "High Mains Frequency",
+        "name": "Yüksek Şebeke Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1537,7 +1543,7 @@
         ]
       },
       {
-        "name": "FRAM Write Error",
+        "name": "FRAM Yazma Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1552,7 +1558,7 @@
         ]
       },
       {
-        "name": "Mains Phase Sequence Error",
+        "name": "Şebeke Faz Sıra Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1567,7 +1573,7 @@
         ]
       },
       {
-        "name": "Generator-1 Phase Sequence Error",
+        "name": "Jeneratör-1 Faz Sıra Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1582,7 +1588,7 @@
         ]
       },
       {
-        "name": "Generator-2 Phase Sequence Error",
+        "name": "Jeneratör-2 Faz Sıra Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1597,7 +1603,7 @@
         ]
       },
       {
-        "name": "Generator-1 CAN Bus Communication Error",
+        "name": "Jeneratör-1 CAN Bus Haberleşme Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1612,7 +1618,7 @@
         ]
       },
       {
-        "name": "Generator-2 CAN Bus Communication Error",
+        "name": "Jeneratör-2 CAN Bus Haberleşme Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1627,7 +1633,7 @@
         ]
       },
       {
-        "name": "I/O Module CAN Bus Communication Error",
+        "name": "I/O Modül CAN Bus Haberleşme Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1642,7 +1648,7 @@
         ]
       },
       {
-        "name": "RS485 Communication Error",
+        "name": "RS485 Haberleşme Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1657,7 +1663,7 @@
         ]
       },
       {
-        "name": "Emergency Stop",
+        "name": "Acil Stop",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1668,6 +1674,81 @@
             "isOn": true,
             "isBlinking": false,
             "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Jeneratör-1 Bakım Zamanı",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10210,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Jeneratör-2 Bakım Zamanı",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10210,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Jeneratör-1 Kontaktör Hatası",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10210,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Jeneratör-2 Kontaktör Hatası",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10210,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "name": "Şebeke Kontaktör Hatası",
+        "nameIsBold": false,
+        "nameIsItalic": false,
+        "conditions": [
+          {
+            "conditionParamId": 10210,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "yellow"
           }
         ]
       }
@@ -1680,7 +1761,7 @@
     "side": "right",
     "width": "400px",
     "height": "840px",
-    "title": "Generator-2 Errors",
+    "title": "Jeneratör-2 Arızaları",
     "titleFontSize": "15px",
     "titleIsBold": true,
     "itemFontSize": "14px",
@@ -1688,7 +1769,7 @@
     "hideIfNoConditions": false,
     "itemList": [
       {
-        "name": "Low Generator Frequency",
+        "name": "Düşük Jeneratör Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1725,7 +1806,7 @@
         ]
       },
       {
-        "name": "High Generator Frequency",
+        "name": "Yüksek Jeneratör Frekansı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1762,7 +1843,7 @@
         ]
       },
       {
-        "name": "Low Engine Speed",
+        "name": "Düşük Motor Devri",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1799,7 +1880,7 @@
         ]
       },
       {
-        "name": "High Engine Speed",
+        "name": "Yüksek Motor Devri",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1836,7 +1917,7 @@
         ]
       },
       {
-        "name": "Generator Charge Fail",
+        "name": "Jeneratör Şarj Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1873,7 +1954,7 @@
         ]
       },
       {
-        "name": "Low Battery Voltage",
+        "name": "Düşük Batarya Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1910,7 +1991,7 @@
         ]
       },
       {
-        "name": "High Battery Voltage",
+        "name": "Yüksek Batarya Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1947,7 +2028,7 @@
         ]
       },
       {
-        "name": "High Generator Current",
+        "name": "Yüksek Jeneratör Akımı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1984,7 +2065,7 @@
         ]
       },
       {
-        "name": "High Engine Temperature",
+        "name": "Yüksek Motor Sıcaklığı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2021,7 +2102,7 @@
         ]
       },
       {
-        "name": "Low Fuel Level",
+        "name": "Düşük Yakıt Seviyesi",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2058,7 +2139,7 @@
         ]
       },
       {
-        "name": "Auxiliary Input Fail",
+        "name": "Yedek Giriş Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2095,7 +2176,7 @@
         ]
       },
       {
-        "name": "Phase Sequence Error",
+        "name": "Faz Sıra Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2132,7 +2213,7 @@
         ]
       },
       {
-        "name": "High Power Error",
+        "name": "Yüksek Güç Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2169,7 +2250,7 @@
         ]
       },
       {
-        "name": "Generator Start Error",
+        "name": "Jeneratör Başlatma Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2206,7 +2287,7 @@
         ]
       },
       {
-        "name": "Maintenance Error",
+        "name": "Bakım Hatası",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2243,7 +2324,7 @@
         ]
       },
       {
-        "name": "Emergency Stop",
+        "name": "Acil Stop",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2280,7 +2361,7 @@
         ]
       },
       {
-        "name": "Low Generator Voltage",
+        "name": "Düşük Jeneratör Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2317,7 +2398,7 @@
         ]
       },
       {
-        "name": "High Generator Voltage",
+        "name": "Yüksek Jeneratör Voltajı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2354,7 +2435,7 @@
         ]
       },
       {
-        "name": "High Oil Temperature",
+        "name": "Yüksek Yağ Sıcaklığı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2391,7 +2472,7 @@
         ]
       },
       {
-        "name": "Low Oil Pressure",
+        "name": "Düşük Yağ Basıncı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2428,7 +2509,7 @@
         ]
       },
       {
-        "name": "Low Radiator Water Level",
+        "name": "Düşük Radyatör Su Seviyesi",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -2474,17 +2555,136 @@
     "filter": true,
     "height": "800px",
     "width": "1200px",
-    "paramId": [],
-    "paramGroups": [
-      "Erişim",
-      "Şebeke koruma",
-      "Alternatör koruma",
-      "Motor ve zamanlayıcılar",
-      "Yardımcı giriş/çıkışlar",
-      "Kalibrasyon",
-      "Servis",
-      "Panel",
-      "Canbus I/O modülü"
-    ]
+    "paramId": [
+      10009,
+      10010,
+      10011,
+      10012,
+      10013,
+      10014,
+      10015,
+      10016,
+      10017,
+      10018,
+      10019,
+      10020,
+      10021,
+      10022,
+      10023,
+      10024,
+      10025,
+      10026,
+      10027,
+      10028,
+      10029,
+      10030,
+      10031,
+      10032,
+      10033,
+      10034,
+      10035,
+      10036,
+      10037,
+      10039,
+      10040,
+      10041,
+      10042,
+      10043,
+      10044,
+      10045,
+      10046,
+      10047,
+      10048,
+      10049,
+      10050,
+      10051,
+      10052,
+      10053,
+      10054,
+      10055,
+      10056,
+      10057,
+      10058,
+      10059,
+      10060,
+      10061,
+      10062,
+      10063,
+      10064,
+      10065,
+      10066,
+      10067,
+      10069,
+      10070,
+      10071,
+      10135,
+      10136,
+      10137,
+      10138,
+      10139,
+      10140,
+      10141,
+      10142,
+      10143,
+      10144,
+      10145,
+      10146,
+      10147,
+      10148,
+      10149,
+      10150,
+      10151,
+      10152,
+      10153,
+      10154,
+      10155,
+      10156,
+      10157,
+      10158,
+      10159,
+      10160,
+      10161,
+      10162,
+      10163,
+      10164,
+      10165,
+      10166,
+      10167,
+      10168,
+      10169,
+      10170,
+      10171,
+      10172,
+      10173,
+      10174,
+      10175,
+      10176,
+      10177,
+      10178,
+      10179,
+      10180,
+      10181,
+      10182,
+      10183,
+      10184,
+      10185,
+      10186,
+      10187,
+      10188,
+      10189,
+      10190,
+      10197,
+      10198,
+      10199,
+      10200,
+      10201,
+      10202,
+      10203,
+      10204,
+      10205,
+      10206,
+      10207
+    ],
+    "paramGroups": []
   }
 ]
