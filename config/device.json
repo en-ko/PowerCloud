@@ -209,6 +209,10 @@
     "fileVersion": 1,
     "type": "device",
     "deviceType": "Generator",
+    "rtc": true,
+    "rtcOptions": {
+      "yearFormat": "2digit"
+    },
     "background" :{
       "backgroundImage": true,
       "imageSize": {
