@@ -52,7 +52,7 @@
         "id": 2,
         "modbusAddress": 2,
         "version": 4013,
-        "name": "Vac RMS Voltage",
+        "name": "Vca RMS Voltage",
         "group": "Monitoring",
         "unit": "V",
         "dataLength": 1,
@@ -75,7 +75,7 @@
         "id": 6,
         "modbusAddress": 6,
         "version": 4013,
-        "name": "Vac Frequency",
+        "name": "Vab Frequency",
         "group": "Monitoring",
         "unit": "Hz",
         "dataLength": 1,
@@ -98,7 +98,7 @@
         "id": 7,
         "modbusAddress": 7,
         "version": 4013,
-        "name": "VW Frequency",
+        "name": "Vbc Frequency",
         "group": "Monitoring",
         "unit": "Hz",
         "dataLength": 1,
@@ -121,7 +121,7 @@
         "id": 8,
         "modbusAddress": 8,
         "version": 4013,
-        "name": "Vac Frequency",
+        "name": "Vca Frequency",
         "group": "Monitoring",
         "unit": "Hz",
         "dataLength": 1,
@@ -167,7 +167,7 @@
         "id": 20,
         "modbusAddress": 20,
         "version": 4013,
-        "name": "DROOP Current RMS",
+        "name": "Droop Current RMS",
         "group": "Monitoring",
         "unit": "% PU",
         "dataLength": 1,
@@ -182,7 +182,7 @@
           "operation": "/",
           "operationValue": "1024"
         },
-        "comment": "DROOP Current RMS measurement by 1 PU",
+        "comment": "Droop Current RMS measurement by 1 PU",
         "readOnly": true,
         "relation": []
       },
@@ -190,7 +190,7 @@
         "id": 22,
         "modbusAddress": 22,
         "version": 4013,
-        "name": "bRMS Current ",
+        "name": "Droop CT Current RMS",
         "group": "Monitoring",
         "unit": "A",
         "dataLength": 1,
@@ -213,7 +213,7 @@
         "id": 23,
         "modbusAddress": 23,
         "version": 4013,
-        "name": "1v65",
+        "name": "1V65",
         "group": "Monitoring",
         "unit": "",
         "dataLength": 1,
@@ -228,7 +228,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "1v65 ADC",
+        "comment": "1V65 ADC",
         "readOnly": true,
         "relation": []
       },
@@ -259,7 +259,7 @@
         "id": 26,
         "modbusAddress": 26,
         "version": 4013,
-        "name": "AUX Current ",
+        "name": "AUX Current",
         "group": "Monitoring",
         "unit": "mA",
         "dataLength": 1,
@@ -282,7 +282,7 @@
         "id": 27,
         "modbusAddress": 27,
         "version": 4013,
-        "name": "VOLTS Pot",
+        "name": "VOLTS Trimmer",
         "group": "Monitoring",
         "unit": "%",
         "dataLength": 1,
@@ -305,7 +305,7 @@
         "id": 28,
         "modbusAddress": 28,
         "version": 4013,
-        "name": "STAB Pot",
+        "name": "STAB Trimmer",
         "group": "Monitoring",
         "unit": "%",
         "dataLength": 1,
@@ -328,7 +328,7 @@
         "id": 29,
         "modbusAddress": 29,
         "version": 4013,
-        "name": "DROOP Pot",
+        "name": "DROOP Trimmer",
         "group": "Monitoring",
         "unit": "%",
         "dataLength": 1,
@@ -387,7 +387,7 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "N/A"
+            "mask": "Not Connected"
           },
           {
             "value": 1,
@@ -473,7 +473,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Actual voltage reference that is AVR trying to reach. In relation with Onboard VOLTS pot external pot UFRO LAM DROOP",
+        "comment": "Actual voltage reference that AVR is trying to reach. In relation with Onboard VOLTS trimmer, external pot, UFRO, LAM, Droop",
         "readOnly": true,
         "relation": [
           {
@@ -564,7 +564,7 @@
         "id": 43,
         "modbusAddress": 43,
         "version": 4013,
-        "name": "DAVR Ready",
+        "name": "AVR Ready",
         "group": "Monitoring",
         "unit": "",
         "dataLength": 1,
@@ -579,7 +579,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "AVR is ready to operate no latched errors",
+        "comment": "AVR is ready to operate, no latched errors",
         "readOnly": true,
         "relation": []
       },
@@ -648,7 +648,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "UFRO function is ongoing. detected Low Frequency",
+        "comment": "UFRO function is ongoing. Detected Low Frequency",
         "readOnly": true,
         "relation": []
       },
@@ -656,7 +656,7 @@
         "id": 50,
         "modbusAddress": 50,
         "version": 4013,
-        "name": "SHORT CIRCUIT",
+        "name": "Short Circuit",
         "group": "Monitoring",
         "unit": "",
         "dataLength": 1,
@@ -679,7 +679,7 @@
         "id": 51,
         "modbusAddress": 51,
         "version": 4013,
-        "name": "RELAY",
+        "name": "Relay",
         "group": "Monitoring",
         "unit": "",
         "dataLength": 1,
@@ -702,7 +702,7 @@
         "id": 52,
         "modbusAddress": 52,
         "version": 4013,
-        "name": "OUT TRIP",
+        "name": "Output Trip",
         "group": "Monitoring",
         "unit": "",
         "dataLength": 1,
@@ -717,7 +717,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "AVR Output Cutoff",
+        "comment": "AVR Output Trip",
         "readOnly": true,
         "relation": []
       },
@@ -763,7 +763,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Protection Activated",
+        "comment": "Overexcitation Protection Activated",
         "readOnly": true,
         "relation": []
       },
@@ -786,7 +786,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Loss Of Sense Protection Activated",
+        "comment": "Loss of Sensing Protection Activated",
         "readOnly": true,
         "relation": []
       },
@@ -809,7 +809,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Over Voltage Protection Activated",
+        "comment": "Generator Overvoltage Protection Activated",
         "readOnly": true,
         "relation": []
       },
@@ -832,7 +832,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Under Voltage Protection Activated",
+        "comment": "Generator Undervoltage Protection Activated",
         "readOnly": true,
         "relation": []
       },
@@ -993,7 +993,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Maximum ambient temperature of this AVR has ever exposed",
+        "comment": "Maximum ambient temperature this AVR has ever been exposed to",
         "readOnly": true,
         "relation": []
       },
@@ -1003,7 +1003,7 @@
         "version": 4013,
         "name": "Minutes",
         "group": "Monitoring",
-        "unit": "Min",
+        "unit": "min",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1026,7 +1026,7 @@
         "version": 4013,
         "name": "Hours",
         "group": "Monitoring",
-        "unit": "Hr",
+        "unit": "h",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1049,7 +1049,7 @@
         "version": 4013,
         "name": "Days",
         "group": "Monitoring",
-        "unit": "D",
+        "unit": "d",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1072,7 +1072,7 @@
         "version": 4013,
         "name": "Weeks",
         "group": "Monitoring",
-        "unit": "Wk",
+        "unit": "wk",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1095,7 +1095,7 @@
         "version": 4013,
         "name": "Years",
         "group": "Monitoring",
-        "unit": "Yr",
+        "unit": "yr",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1154,7 +1154,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Nominal RMS Reference Voltage. Effected by UFRO LAM DROOP and Pots.",
+        "comment": "Nominal RMS Reference Voltage. Affected by UFRO, LAM, Droop and Pots.",
         "readOnly": false,
         "relation": []
       },
@@ -1218,7 +1218,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "AVR auto start setting. If enabled AVR will start as soon as there is no errors.",
+        "comment": "AVR autostart setting. If enabled AVR will start as soon as there are no errors.",
         "readOnly": false,
         "relation": []
       },
@@ -1260,7 +1260,7 @@
         "version": 4013,
         "name": "Start Delay",
         "group": "Setpoint",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1273,7 +1273,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "AVR wait time in seconds while generator starting.",
+        "comment": "AVR wait time in seconds while generator is starting.",
         "readOnly": false,
         "relation": []
       },
@@ -1296,7 +1296,7 @@
           "operation": "/",
           "operationValue": "100.48"
         },
-        "comment": "AVR ramp up start frequency while generator starting. AVR will wait until sense frequency reaches this level.",
+        "comment": "AVR ramp up start frequency while generator is starting. AVR will wait until sense frequency reaches this level.",
         "readOnly": false,
         "relation": []
       },
@@ -1306,7 +1306,7 @@
         "version": 4013,
         "name": "Soft Start Time",
         "group": "Setpoint",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1319,7 +1319,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "AVR ramp up time while generator starting.",
+        "comment": "AVR ramp up time while generator is starting.",
         "readOnly": false,
         "relation": []
       },
@@ -1329,7 +1329,7 @@
         "version": 4013,
         "name": "Reference Change Ramp Limit Rate",
         "group": "Setpoint",
-        "unit": "V/S",
+        "unit": "V/s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1489,7 +1489,7 @@
         "version": 4013,
         "name": "DWELL Time",
         "group": "Setpoint",
-        "unit": "V/S",
+        "unit": "V/s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1502,7 +1502,7 @@
           "operation": "/",
           "operationValue": "10.24"
         },
-        "comment": "This rate will determine how fast should output voltage recover after derating. Increasing it will cause faster recover time.",
+        "comment": "This rate will determine how fast output voltage should recover after derating. Increasing it will cause faster recovery time.",
         "readOnly": false,
         "relation": []
       },
@@ -1523,18 +1523,18 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "NORMAL"
+            "mask": "Normal"
           },
           {
             "value": 1,
-            "mask": "ENKO"
+            "mask": "Advanced"
           }
         ],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Selection of the recover after derating mode. Should be changed according to block load performance of the system.",
+        "comment": "Selection of the recovery after derating mode. Should be changed according to block load performance of the system.",
         "readOnly": false,
         "relation": []
       },
@@ -1557,7 +1557,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Short Circuit Mode Threshold. AVR will get in to the short circuit supply mode after this threshold. Attention! This Mode will disable LOS GCL and GUV. Disables after Droop Current drops below threshold.",
+        "comment": "Short Circuit Mode Threshold. AVR will get into the short circuit supply mode after this threshold. Attention! This Mode will disable LOS, GCL and GUV. Disables after Droop Current drops below threshold.",
         "readOnly": false,
         "relation": []
       },
@@ -1622,30 +1622,30 @@
         "valueMask": [
           {
             "value": 0,
-            "mask": "Disbaled"
+            "mask": "Disabled"
           },
           {
             "value": 1,
-            "mask": "- 5 / + 5V"
+            "mask": "±5 V"
           },
           {
             "value": 2,
-            "mask": "4mA – 20mA"
+            "mask": "4–20 mA"
           },
           {
             "value": 3,
-            "mask": "0V – 10V"
+            "mask": "0–10 V"
           },
           {
             "value": 4,
-            "mask": "0 – 20mA"
+            "mask": "0–20 mA"
           }
         ],
         "dataOperation": {
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Auxiliary input mode selection. AUX input will effect output voltage. In case of external pot connection this input should be disabled.",
+        "comment": "Auxiliary input mode selection. AUX input will affect output voltage. In case of external pot connection this input should be disabled.",
         "readOnly": false,
         "relation": []
       },
@@ -1701,7 +1701,7 @@
         "version": 4013,
         "name": "Current Transfer Ratio",
         "group": "Configuration",
-        "unit": "1 P.U. A",
+        "unit": "1 PU A",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -1714,7 +1714,7 @@
           "operation": "1/",
           "operationValue": "1024.0"
         },
-        "comment": "Current transfer ratio This ratio determines 1PU DROOP current on CT input.",
+        "comment": "Current transfer ratio. This ratio determines 1 PU droop current on CT input.",
         "readOnly": false,
         "relation": []
       },
@@ -1722,7 +1722,7 @@
         "id": 137,
         "modbusAddress": 137,
         "version": 4013,
-        "name": "DROOP Mode",
+        "name": "Droop Mode",
         "group": "Configuration",
         "unit": "",
         "dataLength": 1,
@@ -1739,7 +1739,7 @@
           },
           {
             "value": 1,
-            "mask": "Line DROOP"
+            "mask": "Line Drop Compensation"
           },
           {
             "value": 2,
@@ -1754,7 +1754,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "DROOP function determines stator current's effect on output reference voltage.",
+        "comment": "Droop function determines stator current’s effect on output reference voltage.",
         "readOnly": false,
         "relation": []
       },
@@ -1762,7 +1762,7 @@
         "id": 138,
         "modbusAddress": 138,
         "version": 4013,
-        "name": "DROOP Phase Compensation",
+        "name": "Droop Phase Compensation",
         "group": "Configuration",
         "unit": "°",
         "dataLength": 1,
@@ -1777,7 +1777,7 @@
           "operation": "-",
           "operationValue": "60"
         },
-        "comment": "DROOP current phase compensation. Needed if there is phase shift between current and voltage.",
+        "comment": "Droop current phase compensation. Needed if there is phase shift between current and voltage.",
         "readOnly": false,
         "relation": []
       },
@@ -1996,7 +1996,7 @@
         "id": 217,
         "modbusAddress": 217,
         "version": 4013,
-        "name": "PWM DUTY",
+        "name": "PWM Duty",
         "group": "Configuration",
         "unit": "",
         "dataLength": 1,
@@ -2019,7 +2019,7 @@
         "id": 218,
         "modbusAddress": 218,
         "version": 4013,
-        "name": "Canbus Source Address",
+        "name": "CAN Bus Source Address",
         "group": "Configuration",
         "unit": "",
         "dataLength": 1,
@@ -2034,7 +2034,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "This AVR’s CANBus address to publish information",
+        "comment": "This AVR’s CAN bus address to publish information",
         "readOnly": false,
         "relation": []
       },
@@ -2042,7 +2042,7 @@
         "id": 219,
         "modbusAddress": 219,
         "version": 4013,
-        "name": "Canbus Destination Address",
+        "name": "CAN Bus Destination Address",
         "group": "Configuration",
         "unit": "",
         "dataLength": 1,
@@ -2057,7 +2057,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Assigned CANBus device address to accept parameters. 0 for all",
+        "comment": "Assigned CAN bus device address to accept parameters. 0 for all",
         "readOnly": false,
         "relation": []
       },
@@ -2080,7 +2080,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Raw ADC counts, 0..4095, of the external analog input while a VOLTAGE range is selected (AUX Input Mode = 1 or 3). Reads 0 in the 4-20mA mode and when the input is disabled. Use with the Aux Volt ADC Offset/Ratio pair (318/319).",
+        "comment": "Raw ADC counts, 0..4095, of the external analog input while a VOLTAGE range is selected (AUX Input Mode = 1 or 3). Reads 0 in the 4–20 mA mode and when the input is disabled. Use with the AUX Volt ADC Offset/Ratio pair (318/319).",
         "readOnly": true,
         "relation": []
       },
@@ -2103,7 +2103,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Raw ADC counts, 0..4095, of the external analog input while the 4-20mA range is selected (AUX Input Mode = 2). Reads 0 in the voltage modes and when the input is disabled. Use with the Aux Curr ADC Offset/Ratio pair (320/321).",
+        "comment": "Raw ADC counts, 0..4095, of the external analog input while the 4–20 mA range is selected (AUX Input Mode = 2). Reads 0 in the voltage modes and when the input is disabled. Use with the AUX Curr ADC Offset/Ratio pair (320/321).",
         "readOnly": true,
         "relation": []
       },
@@ -2126,7 +2126,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Raw ADC counts, 0..4095. Expected ~3723 at 25 degC.",
+        "comment": "Raw ADC counts, 0..4095. Expected ~3723 at 25 °C.",
         "readOnly": true,
         "relation": []
       },
@@ -2205,7 +2205,7 @@
         "version": 4013,
         "name": "Heatsink Temperature",
         "group": "Monitoring",
-        "unit": "C",
+        "unit": "°C",
         "dataLength": 1,
         "signed": true,
         "view": "decimal",
@@ -2218,7 +2218,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Heatsink NTC temperature, 0.1 degC resolution. Sensor EPCOS B57703M0103A017, R25=10k, B25/100=3988K.",
+        "comment": "Heatsink NTC temperature, 0.1 °C resolution. Sensor EPCOS B57703M0103A017, R25=10k, B25/100=3988 K.",
         "readOnly": true,
         "relation": []
       },
@@ -2287,7 +2287,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "DC bus voltage, 0.1 V resolution. Derived from the measured ADC/voltage table: V = 0.161857 x ADC + 0.908; ratio 1660, offset 0. Worst case error 1.65 V (0.25%) near 35 V, under 0.3 V above 400 V.",
+        "comment": "DC bus voltage, 0.1 V resolution. Derived from the measured ADC/voltage table: V = 0.161857 x ADC + 0.908; ratio 1660, offset 0. Worst case error 1.65 V (0.25 %) near 35 V, under 0.3 V above 400 V.",
         "readOnly": true,
         "relation": []
       },
@@ -2297,7 +2297,7 @@
         "version": 4013,
         "name": "MCU Temperature",
         "group": "Monitoring",
-        "unit": "C",
+        "unit": "°C",
         "dataLength": 1,
         "signed": true,
         "view": "decimal",
@@ -2310,7 +2310,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "STM32 internal die temperature, from the factory TS_CAL1/TS_CAL2 calibration. Filtered with a 32-sample EWMA at 10 Hz (time constant about 3.2 s). Assumes VREF+ = 3300 mV. Compare against 260 (heatsink NTC) to tell a hot heatsink apart from a hot enclosure; register 93 keeps the all-time peak in whole degC.",
+        "comment": "STM32 internal die temperature, from the factory TS_CAL1/TS_CAL2 calibration. Filtered with a 32-sample EWMA at 10 Hz (time constant about 3.2 s). Assumes VREF+ = 3300 mV. Compare against 260 (heatsink NTC) to tell a hot heatsink apart from a hot enclosure; register 93 keeps the all-time peak in whole °C.",
         "readOnly": true,
         "relation": []
       },
@@ -2362,7 +2362,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADT A input type selection. This parameter also effects related protections to selected type.",
+        "comment": "ADT A input type selection. This parameter also affects related protections to selected type.",
         "readOnly": false,
         "relation": []
       },
@@ -2460,7 +2460,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADT B input type selection. This parameter also effects related protections to selected type.",
+        "comment": "ADT B input type selection. This parameter also affects related protections to selected type.",
         "readOnly": false,
         "relation": []
       },
@@ -2558,7 +2558,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADT C input type selection. This parameter also effects related protections to selected type.",
+        "comment": "ADT C input type selection. This parameter also affects related protections to selected type.",
         "readOnly": false,
         "relation": []
       },
@@ -3072,7 +3072,7 @@
         "id": 318,
         "modbusAddress": 318,
         "version": 4013,
-        "name": "Aux Volt ADC Offset",
+        "name": "AUX Volt ADC Offset",
         "group": "Calibration",
         "unit": "",
         "dataLength": 1,
@@ -3095,7 +3095,7 @@
         "id": 319,
         "modbusAddress": 319,
         "version": 4013,
-        "name": "Aux Volt ADC Ratio",
+        "name": "AUX Volt ADC Ratio",
         "group": "Calibration",
         "unit": "",
         "dataLength": 1,
@@ -3110,7 +3110,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADC ratio (q10b) for the external analog input in the VOLTAGE ranges (AUX Input Mode = 1 or 3). Unity, because voltageAUX also drives trimmerAUX and must stay a 12-bit value centred on 2048. Full +/-14.8 % falls on +/-11.36 V. Calibrate against register 242.",
+        "comment": "ADC ratio (q10b) for the external analog input in the VOLTAGE ranges (AUX Input Mode = 1 or 3). Unity, because voltageAUX also drives trimmerAUX and must stay a 12-bit value centered on 2048. Full +/-14.8 % falls on +/-11.36 V. Calibrate against register 242.",
         "readOnly": false,
         "relation": []
       },
@@ -3118,7 +3118,7 @@
         "id": 320,
         "modbusAddress": 320,
         "version": 4013,
-        "name": "Aux Curr ADC Offset",
+        "name": "AUX Curr ADC Offset",
         "group": "Calibration",
         "unit": "",
         "dataLength": 1,
@@ -3133,7 +3133,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADC offset for the external analog input in the 4-20mA range (AUX Input Mode = 2). Shunt = (R10+R9+R6) || (R5||R8) = 2330 || 280 = 250 ohm, so 4 mA = 1.000 V = 2227 counts and 20 mA = 5.000 V = 2947 counts. Calibrate against register 243.",
+        "comment": "ADC offset for the external analog input in the 4–20 mA range (AUX Input Mode = 2). Shunt = (R10+R9+R6) || (R5||R8) = 2330 || 280 = 250 ohm, so 4 mA = 1.000 V = 2227 counts and 20 mA = 5.000 V = 2947 counts. Calibrate against register 243.",
         "readOnly": false,
         "relation": []
       },
@@ -3141,7 +3141,7 @@
         "id": 321,
         "modbusAddress": 321,
         "version": 4013,
-        "name": "Aux Curr ADC Ratio",
+        "name": "AUX Curr ADC Ratio",
         "group": "Calibration",
         "unit": "",
         "dataLength": 1,
@@ -3156,7 +3156,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "ADC ratio (q10b) for the external analog input in the 4-20mA range (AUX Input Mode = 2). Scaled so that register 26 (AUX Current) reads true milliamps: value = mA x 1024, within +0.018 mA over 4-20 mA. Calibrate against register 243.",
+        "comment": "ADC ratio (q10b) for the external analog input in the 4–20 mA range (AUX Input Mode = 2). Scaled so that register 26 (AUX Current) reads true milliamps: value = mA x 1024, within +0.018 mA over 4–20 mA. Calibrate against register 243.",
         "readOnly": false,
         "relation": []
       },
@@ -3294,7 +3294,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Trigger Threshold",
+        "comment": "Overexcitation Trigger Level",
         "readOnly": false,
         "relation": []
       },
@@ -3304,7 +3304,7 @@
         "version": 4013,
         "name": "OEX Delay",
         "group": "OEX",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -3317,7 +3317,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Delay Time",
+        "comment": "Overexcitation Delay Time",
         "readOnly": false,
         "relation": []
       },
@@ -3349,7 +3349,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Error Enable Flag",
+        "comment": "Overexcitation Error Enable Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3381,7 +3381,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Error Relay Trigger Flag",
+        "comment": "Overexcitation Error Relay Trigger Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3413,7 +3413,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Over Excitation Output Trip Flag",
+        "comment": "Overexcitation Output Trip Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3423,7 +3423,7 @@
         "version": 4013,
         "name": "LOS Delay",
         "group": "LOS",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -3436,7 +3436,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Loss Of Sense Delay Time",
+        "comment": "Loss of Sensing Delay Time",
         "readOnly": false,
         "relation": []
       },
@@ -3468,7 +3468,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Loss of Sense Error Enable Flag",
+        "comment": "Loss of Sensing Error Enable Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3500,7 +3500,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Loss Of Sense Error Relay Trigger Flag",
+        "comment": "Loss of Sensing Error Relay Trigger Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3532,7 +3532,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Loss Of Sense Output Trip Flag",
+        "comment": "Loss of Sensing Output Trip Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3540,7 +3540,7 @@
         "id": 425,
         "modbusAddress": 425,
         "version": 4013,
-        "name": "GOV Percentage",
+        "name": "GOV Threshold",
         "group": "GOV",
         "unit": "%",
         "dataLength": 1,
@@ -3555,7 +3555,7 @@
           "operation": "/",
           "operationValue": "16384"
         },
-        "comment": "Generator Over Voltage Trigger Level",
+        "comment": "Generator Overvoltage Trigger Level",
         "readOnly": false,
         "relation": []
       },
@@ -3565,7 +3565,7 @@
         "version": 4013,
         "name": "GOV Delay",
         "group": "GOV",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -3578,7 +3578,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Over Voltage Delay Time",
+        "comment": "Generator Overvoltage Delay Time",
         "readOnly": false,
         "relation": []
       },
@@ -3610,7 +3610,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Over Voltage Error Enable Flag",
+        "comment": "Generator Overvoltage Error Enable Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3642,7 +3642,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Over Voltage Relay Trigger Flag",
+        "comment": "Generator Overvoltage Relay Trigger Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3674,7 +3674,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Over Voltage Output Trip Flag",
+        "comment": "Generator Overvoltage Output Trip Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3682,7 +3682,7 @@
         "id": 433,
         "modbusAddress": 433,
         "version": 4013,
-        "name": "GUV Percentage",
+        "name": "GUV Threshold",
         "group": "GUV",
         "unit": "%",
         "dataLength": 1,
@@ -3697,7 +3697,7 @@
           "operation": "/",
           "operationValue": "16384"
         },
-        "comment": "Generator Under Voltage Trigger Level",
+        "comment": "Generator Undervoltage Trigger Level",
         "readOnly": false,
         "relation": []
       },
@@ -3707,7 +3707,7 @@
         "version": 4013,
         "name": "GUV Delay",
         "group": "GUV",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -3720,7 +3720,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Under Voltage Delay Time",
+        "comment": "Generator Undervoltage Delay Time",
         "readOnly": false,
         "relation": []
       },
@@ -3752,7 +3752,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Under Error Enable Flag",
+        "comment": "Generator Undervoltage Error Enable Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3784,7 +3784,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Under Voltage Relay Trigger Flag",
+        "comment": "Generator Undervoltage Relay Trigger Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3816,7 +3816,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Under Voltage Output Trip Flag",
+        "comment": "Generator Undervoltage Output Trip Flag",
         "readOnly": false,
         "relation": []
       },
@@ -3824,7 +3824,7 @@
         "id": 441,
         "modbusAddress": 441,
         "version": 4013,
-        "name": "SVU Percentage",
+        "name": "SVU Threshold",
         "group": "SVU",
         "unit": "%",
         "dataLength": 1,
@@ -3848,7 +3848,7 @@
         "version": 4013,
         "name": "SVU Delay",
         "group": "SVU",
-        "unit": "S",
+        "unit": "s",
         "modbusAddress": 442,
         "dataLength": 1,
         "coef": -3,
@@ -3863,7 +3863,7 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "",
+        "comment": "Stator Voltage Unbalance Delay Time",
         "relation": []
       },
       {
@@ -3991,7 +3991,7 @@
         "version": 4013,
         "name": "GCL Delay",
         "group": "GCL",
-        "unit": "",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -4068,7 +4068,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "",
+        "comment": "Generator Current Limit Relay Trigger Flag",
         "readOnly": false,
         "relation": []
       },
@@ -4100,7 +4100,7 @@
           "operation": "",
           "operationValue": ""
         },
-        "comment": "Generator Current Limit Masking on Startup Flag",
+        "comment": "Generator Current Limit Output Trip Flag",
         "readOnly": false,
         "relation": []
       },
@@ -4133,7 +4133,7 @@
         "version": 4013,
         "name": "WTA Delay",
         "group": "WTA",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -4275,7 +4275,7 @@
         "version": 4013,
         "name": "WTL Delay",
         "group": "WTL",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -4409,15 +4409,15 @@
           },
           {
             "value": 1,
-            "mask": "IEC A Standard"
+            "mask": "IEC A Standard Inverse"
           },
           {
             "value": 2,
-            "mask": "IEC B Very"
+            "mask": "IEC B Very Inverse"
           },
           {
             "value": 3,
-            "mask": "IEC C Extreme"
+            "mask": "IEC C Extremely Inverse"
           },
           {
             "value": 4,
@@ -4457,15 +4457,15 @@
           },
           {
             "value": 1,
-            "mask": "IEC A Standard"
+            "mask": "IEC A Standard Inverse"
           },
           {
             "value": 2,
-            "mask": "IEC B Very"
+            "mask": "IEC B Very Inverse"
           },
           {
             "value": 3,
-            "mask": "IEC C Extreme"
+            "mask": "IEC C Extremely Inverse"
           },
           {
             "value": 4,
@@ -4586,7 +4586,7 @@
         "version": 4013,
         "name": "MSF Delay",
         "group": "MSF",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -4607,7 +4607,7 @@
         "id": 483,
         "modbusAddress": 483,
         "version": 4013,
-        "name": "MSF Protection Enable",
+        "name": "MSF Enable",
         "group": "MSF",
         "unit": "",
         "dataLength": 1,
@@ -4705,7 +4705,7 @@
         "version": 4013,
         "name": "RDF Delay",
         "group": "RDF",
-        "unit": "S",
+        "unit": "s",
         "dataLength": 1,
         "signed": false,
         "view": "decimal",
@@ -4726,7 +4726,7 @@
         "id": 491,
         "modbusAddress": 491,
         "version": 4013,
-        "name": "RDF Protection Enable",
+        "name": "RDF Enable",
         "group": "RDF",
         "unit": "",
         "dataLength": 1,
@@ -5035,7 +5035,7 @@
       },
       {
         "alarmId": 1,
-        "alarmComment": "High DAVR Temperature",
+        "alarmComment": "High AVR Temperature",
         "Comment": "DAVR internal temperature is too high",
         "commentUnit": "°C",
         "severity": "high"
