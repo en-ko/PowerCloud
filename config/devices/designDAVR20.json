@@ -4,7 +4,7 @@
     "pageCount": 4,
     "pageTitle": [
       "Monitoring",
-      "Set Point",
+      "Setpoint",
       "Configuration",
       "Protections"
     ]
@@ -92,7 +92,7 @@
         ]
       }, 
       {
-        "name": "UFRO Enabled",
+        "name": "UFRO Active",
         "conditions": [
           {
               "conditionParamId": 49,
@@ -104,7 +104,7 @@
         ]
       }, 
       {
-        "name": "Output Cutoff",
+        "name": "Output Trip",
         "conditions": [
           {
               "conditionParamId": 52,
@@ -127,7 +127,7 @@
     "height": "505px",
     "itemList": [
       {
-        "name": "Over Excitation",
+        "name": "Overexcitation",
         "conditions": [
           {
               "conditionParamId": 55,
@@ -139,7 +139,7 @@
         ]
       },
       {
-        "name": "Loss Of Sense",
+        "name": "Loss of Sensing",
         "conditions": [
           {
               "conditionParamId": 57,
@@ -151,7 +151,7 @@
         ]
       }, 
       {
-        "name": "Generator Over Voltage",
+        "name": "Generator Overvoltage",
         "conditions": [
           {
               "conditionParamId": 58,
@@ -163,7 +163,7 @@
         ]
       }, 
       {
-        "name": "Generator Under Voltage",
+        "name": "Generator Undervoltage",
         "conditions": [
           {
               "conditionParamId": 59,
