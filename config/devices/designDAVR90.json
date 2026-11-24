@@ -1172,5 +1172,61 @@
         }
       ]
     }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 2,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 100,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 118,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
+  },
+  {
+    "object": "dataoperation",
+    "targetParamId": 119,
+    "decimalPlaces": 0,
+    "operation": {
+      "steps": [
+        {
+          "type": "param",
+          "id": 134,
+          "operator": "*"
+        }
+      ]
+    }
   }
 ]
