@@ -15,7 +15,7 @@
   },
   {
     "name": "DAVR20",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
@@ -33,7 +33,7 @@
   },
   {
     "name": "DAVR40",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true,
@@ -51,7 +51,7 @@
   },
   {
     "name": "DAVR4T",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true,
@@ -69,7 +69,7 @@
   },
   {
     "name": "DAVR45",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
@@ -93,7 +93,7 @@
   },
   {
     "name": "DAVR90",
-    "fileVersion": 2,
+    "fileVersion": 3,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
@@ -111,7 +111,7 @@
   },
   {
     "name": "DAVR100",
-    "fileVersion": 5,
+    "fileVersion": 6,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : true, 
