@@ -1678,7 +1678,7 @@
         ]
       },
       {
-        "name": "Jeneratör-1 Bakım Zamanı",
+        "name": "Jeneratör-1 Bakım Uyarısı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1693,7 +1693,7 @@
         ]
       },
       {
-        "name": "Jeneratör-2 Bakım Zamanı",
+        "name": "Jeneratör-2 Bakım Uyarısı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1708,7 +1708,7 @@
         ]
       },
       {
-        "name": "Jeneratör-1 Kontaktör Hatası",
+        "name": "Jeneratör-1 Kontaktör Uyarısı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1723,7 +1723,7 @@
         ]
       },
       {
-        "name": "Jeneratör-2 Kontaktör Hatası",
+        "name": "Jeneratör-2 Kontaktör Uyarısı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
@@ -1738,7 +1738,7 @@
         ]
       },
       {
-        "name": "Şebeke Kontaktör Hatası",
+        "name": "Şebeke Kontaktör Uyarısı",
         "nameIsBold": false,
         "nameIsItalic": false,
         "conditions": [
