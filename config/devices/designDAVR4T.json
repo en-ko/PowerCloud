@@ -22,12 +22,12 @@
         "name": "AVR Ready",
         "conditions": [
           {
-              "conditionParamId": 43,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false,
-              "color" :"green"
+            "conditionParamId": 43,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
           }
         ]
       },
@@ -35,95 +35,95 @@
         "name": "Calibration Ready",
         "conditions": [
           {
-              "conditionParamId": 41,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 41,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Configuration Ready",
         "conditions": [
           {
-              "conditionParamId": 42,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 42,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "USB Communication",
         "conditions": [
           {
-              "conditionParamId": 44,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 44,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      },       
+      },
       {
         "name": "EXT Pot Connected",
         "conditions": [
           {
-              "conditionParamId": 34,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 34,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Output Short Circuit",
         "conditions": [
           {
-              "conditionParamId": 50,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 50,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "UFRO Active",
         "conditions": [
           {
-              "conditionParamId": 49,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 49,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Relay Active",
         "conditions": [
           {
-              "conditionParamId": 51,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 51,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Output Trip",
         "conditions": [
           {
-              "conditionParamId": 52,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 52,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
       }
@@ -142,11 +142,11 @@
         "name": "Overexcitation",
         "conditions": [
           {
-              "conditionParamId": 55,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 55,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
       },
@@ -154,11 +154,11 @@
         "name": "Field IDMT Triggered",
         "conditions": [
           {
-              "conditionParamId": 53,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 53,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
       },
@@ -166,83 +166,83 @@
         "name": "Loss of Sensing",
         "conditions": [
           {
-              "conditionParamId": 57,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 57,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Generator Overvoltage",
         "conditions": [
           {
-              "conditionParamId": 58,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 58,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Generator Undervoltage",
         "conditions": [
           {
-              "conditionParamId": 59,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 59,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      },       
+      },
       {
         "name": "Stator Voltage Unbalance",
         "conditions": [
           {
-              "conditionParamId": 60,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 60,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Generator Current Limit",
         "conditions": [
           {
-              "conditionParamId": 61,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 61,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Winding Temperature Alarm",
         "conditions": [
           {
-              "conditionParamId": 64,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 64,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
-      }, 
+      },
       {
         "name": "Winding Temperature Limit",
         "conditions": [
           {
-              "conditionParamId": 65,
-              "compareValue": "0",
-              "operator": "bitOne",
-              "isOn": true,
-              "isBlinking": false
+            "conditionParamId": 65,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false
           }
         ]
       }
@@ -253,95 +253,95 @@
     "page": 1,
     "row": 1,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       0,
       1
     ],
     "conditions": [
       {
-          "conditionParamId": 122,
-          "compareValue": "U – V – W",
-          "operator": "neq",
-          "isDisabled" : true,
-          "andConditions": []
+        "conditionParamId": 122,
+        "compareValue": "U – V – W",
+        "operator": "neq",
+        "isDisabled": true,
+        "andConditions": []
       }
     ],
-    "showProgress" : false,
-    "splitNumber" : 4
+    "showProgress": false,
+    "splitNumber": 4
   },
   {
     "object": "progressgauge",
     "page": 1,
     "row": 1,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       2
     ],
-    "showProgress" : false,
-    "splitNumber" : 4
+    "showProgress": false,
+    "splitNumber": 4
   },
   {
     "object": "progressgauge",
     "page": 1,
     "row": 2,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       6,
       7
     ],
     "conditions": [
       {
-          "conditionParamId": 122,
-          "compareValue": "U – V – W",
-          "operator": "neq",
-          "isDisabled" : true,
-          "andConditions": []
+        "conditionParamId": 122,
+        "compareValue": "U – V – W",
+        "operator": "neq",
+        "isDisabled": true,
+        "andConditions": []
       }
     ],
-    "showProgress" : false,
-    "splitNumber" : 4
+    "showProgress": false,
+    "splitNumber": 4
   },
   {
     "object": "progressgauge",
     "page": 1,
     "row": 2,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       8
     ],
-    "showProgress" : false,
-    "splitNumber" : 4
+    "showProgress": false,
+    "splitNumber": 4
   },
   {
     "object": "progressgauge",
     "page": 1,
     "row": 3,
     "side": "center",
-    "height" :"170px",
-    "width" :"180px",
+    "height": "170px",
+    "width": "180px",
     "paramId": [
       14,
       20
     ],
-    "showProgress" : false,
-    "splitNumber" : 4
+    "showProgress": false,
+    "splitNumber": 4
   },
   {
     "object": "text",
     "page": 1,
     "row": 6,
     "side": "left",
-    "width" : "260px",
+    "width": "260px",
     "valueFontSize": "24px",
-    "valueColor" : "#c67d7d",
+    "valueColor": "#c67d7d",
     "conditions": [
       {
         "conditionParamId": 35,
@@ -414,7 +414,7 @@
     "name": "Device HW/SW version",
     "showUnits": false,
     "separator": ":",
-    "nameColor" : "#cfbe73",
+    "nameColor": "#cfbe73",
     "paramId": [
       9974,
       9975
@@ -457,14 +457,13 @@
       279
     ]
   },
-
   {
     "object": "table",
     "page": 2,
     "row": 1,
     "side": "center",
     "filter": true,
-    "paramId": [      
+    "paramId": [
       100,
       122,
       110,
@@ -487,14 +486,13 @@
     ],
     "paramGroups": []
   },
-
   {
     "object": "table",
     "page": 3,
     "row": 1,
     "side": "center",
     "filter": true,
-    "paramId": [      
+    "paramId": [
       101,
       102,
       103,
@@ -519,7 +517,6 @@
     ],
     "paramGroups": []
   },
-
   {
     "object": "datalist",
     "page": 4,
@@ -530,45 +527,48 @@
     "title": "OEX Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 403,
-        "textInputIds": [400,402],
-        "leftToggleId": 406
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 403,
+      "textInputIds": [
+        400,
+        402
+      ],
+      "leftToggleId": 406
     },
     "itemList": [
-        {
-            "paramId": 400,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 402,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 403,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 406,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 400,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 402,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 403,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 406,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -581,37 +581,39 @@
     "title": "LOS Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 419,          
-        "textInputIds": [418],
-        "leftToggleId": 422
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 419,
+      "textInputIds": [
+        418
+      ],
+      "leftToggleId": 422
     },
     "itemList": [
-        {
-            "paramId": 418,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 419,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 422,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 418,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 419,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 422,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -624,54 +626,57 @@
     "title": "GOV Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 427,          
-        "textInputIds": [425,426],
-        "leftToggleId": 430,
-        "rightToggleId": 431
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 427,
+      "textInputIds": [
+        425,
+        426
+      ],
+      "leftToggleId": 430,
+      "rightToggleId": 431
     },
     "itemList": [
-        {
-            "paramId": 425,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 426,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 427,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 430,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 431,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 425,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 426,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 427,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 430,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 431,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -684,54 +689,57 @@
     "title": "GUV Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 435,
-        "textInputIds": [433,434],
-        "leftToggleId": 438,
-        "rightToggleId": 439
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 435,
+      "textInputIds": [
+        433,
+        434
+      ],
+      "leftToggleId": 438,
+      "rightToggleId": 439
     },
     "itemList": [
-        {
-            "paramId": 433,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 434,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 435,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 438,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 439,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 433,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 434,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 435,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 438,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 439,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -744,54 +752,57 @@
     "title": "SVU Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 443,
-        "textInputIds": [441,442],
-        "leftToggleId": 446,
-        "rightToggleId": 447
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 443,
+      "textInputIds": [
+        441,
+        442
+      ],
+      "leftToggleId": 446,
+      "rightToggleId": 447
     },
     "itemList": [
-        {
-            "paramId": 441,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 442,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 443,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 446,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 447,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 441,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 442,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 443,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 446,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 447,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -804,54 +815,57 @@
     "title": "GCL Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 451,
-        "textInputIds": [448,450],
-        "leftToggleId": 454,
-        "rightToggleId": 455
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 451,
+      "textInputIds": [
+        448,
+        450
+      ],
+      "leftToggleId": 454,
+      "rightToggleId": 455
     },
     "itemList": [
-        {
-            "paramId": 448,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 450,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 451,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },        
-        {
-            "paramId": 454,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 455,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 448,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 450,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 451,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 454,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 455,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -864,54 +878,57 @@
     "title": "WTA Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 459,
-        "textInputIds": [456,458],
-        "leftToggleId": 462,
-        "rightToggleId": 463
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 459,
+      "textInputIds": [
+        456,
+        458
+      ],
+      "leftToggleId": 462,
+      "rightToggleId": 463
     },
     "itemList": [
-        {
-            "paramId": 456,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 458,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 459,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 462,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 463,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 456,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 458,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 459,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 462,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 463,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   },
   {
@@ -924,54 +941,57 @@
     "title": "WTL Protection",
     "titleIsBold": true,
     "titleColor": "#c67d7d",
-    "showItemBorder" : true,
-        "protectionSet": {
-        "topToggleId": 467,
-        "textInputIds": [464,466],
-        "leftToggleId": 470,
-        "rightToggleId": 471
+    "showItemBorder": true,
+    "protectionSet": {
+      "topToggleId": 467,
+      "textInputIds": [
+        464,
+        466
+      ],
+      "leftToggleId": 470,
+      "rightToggleId": 471
     },
     "itemList": [
-        {
-            "paramId": 464,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 466,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 467,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 470,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        },
-        {
-            "paramId": 471,  
-            "nameIsBold": true,
-            "nameIsItalic": false,
-            "nameColor": "var(--textPrimary)",
-            "valueIsBold": false,
-            "valueIsItalic": false
-        }
+      {
+        "paramId": 464,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 466,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 467,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 470,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      },
+      {
+        "paramId": 471,
+        "nameIsBold": true,
+        "nameIsItalic": false,
+        "nameColor": "var(--textPrimary)",
+        "valueIsBold": false,
+        "valueIsItalic": false
+      }
     ]
   }
 ]
