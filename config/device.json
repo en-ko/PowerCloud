@@ -268,7 +268,14 @@
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : false,
-    "bMAddress": 45
+    "bMAddress": 45,
+    "dbcLog": true,
+    "dbcLogOptions": {
+      "snapshotAddress": 1000,
+      "eventAddress": 1200,
+      "maxEventCount": 100,
+      "clearAddress": 54
+    }
   },
   {
     "name": "LEAKWISE",
