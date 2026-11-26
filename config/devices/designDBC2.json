@@ -57,7 +57,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
+            "isDisabled": true
           }
         ]
       },
@@ -86,7 +86,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
+            "isDisabled": true
           }
         ]
       },
@@ -169,7 +169,7 @@
                 "compareValue": "ENABLED",
                 "operator": "eq"
               }
-            ]            
+            ]
           },
           {
             "conditionParamId": 16,
@@ -178,7 +178,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
+            "isDisabled": true
           }
         ]
       },
@@ -207,7 +207,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
+            "isDisabled": true
           }
         ]
       },
@@ -227,7 +227,7 @@
                 "compareValue": "ENABLED",
                 "operator": "eq"
               }
-            ]            
+            ]
           },
           {
             "conditionParamId": 16,
@@ -236,7 +236,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
+            "isDisabled": true
           }
         ]
       },
@@ -256,7 +256,7 @@
                 "compareValue": "ENABLED",
                 "operator": "eq"
               }
-            ]            
+            ]
           },
           {
             "conditionParamId": 16,
@@ -265,8 +265,8 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isDisabled" : true
-          }          
+            "isDisabled": true
+          }
         ]
       },
       {
@@ -294,8 +294,8 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isHidden" : true
-          } 
+            "isHidden": true
+          }
         ]
       }
     ]
@@ -360,7 +360,7 @@
             "isOn": false,
             "isBlinking": false,
             "color": "red",
-            "isHidden" : true
+            "isHidden": true
           }
         ]
       }
@@ -638,8 +638,8 @@
     "page": 3,
     "row": 1,
     "side": "left",
-    "width": "400px",
-    "height": "730px",
+    "width": "340px",
+    "height": "630px",
     "title": "COMMON",
     "titleFontSize": "24px",
     "titleIsBold": true,
@@ -655,10 +655,6 @@
       }
     ],
     "itemList": [
-      {
-        "paramId": 41,
-        "isEditable": true
-      },
       {
         "paramId": 56,
         "isEditable": true
@@ -995,7 +991,66 @@
       }
     ]
   },
-  {
+
+{
+  "object": "text",
+  "page": 3,
+  "row": 2,
+  "side": "left",
+  "width": "340px",
+  "height": "40px",
+  "name": "Return To Factory Parameters",
+  "nameFontSize": "16px",
+  "nameIsBold": true,
+  "conditions": [
+    {
+      "conditionParamId": 9941,
+      "compareValue": "4",
+      "operator": "neq",
+      "isHidden": true
+    }
+  ]
+},
+{
+  "object": "button",
+  "page": 3,
+  "row": 3,
+  "side": "left",
+  "width": "100px",
+  "name": "User Reset",
+  "actionType": "setValue",
+  "actionParamId": 41,
+  "actionValue": 2, 
+  "conditions": [
+      {
+        "conditionParamId": 9941,
+        "compareValue": "4",
+        "operator": "neq",
+        "isHidden": true
+      }
+  ]
+},
+{
+  "object": "button",
+  "page": 3,
+  "row": 3,
+  "side": "left",
+  "width": "100px",
+  "name": "ENKO Reset",
+  "actionType": "setValue",
+  "actionParamId": 41,
+  "actionValue": 1, 
+  "conditions": [
+      {
+        "conditionParamId": 9941,
+        "compareValue": "4",
+        "operator": "neq",
+        "isHidden": true
+      }
+  ]
+},
+
+{
     "object": "table",
     "page": 3,
     "row": 1,
@@ -1056,8 +1111,7 @@
       14,
       15,
       16,
-      17,
-      41
+      17
     ],
     "paramGroups": [
       "Set Point",
@@ -1085,21 +1139,26 @@
       }
     ],
     "paramId": [
-      123,
-      124,
+      82,
+      83,
       9,
+      74,
+      75,
+      76,
+      78,
       14,
       15,
       16,
       17,
-      41
-    ],
-    "paramGroups": [
-      "Set Point",
-      "Temperature Parameters",
-      "Charge Parameters",
-      "Boost Parameters",
-      "Voltage Limits"
+      0,
+      2,
+      10,
+      11,
+      12,
+      18,
+      19,
+      88,
+      89
     ]
   },
   {
@@ -1120,20 +1179,14 @@
       }
     ],
     "paramId": [
-      123,
-      9,
+      74,
+      75,
+      78,
       14,
-      15,
       16,
-      17,
-      41
-    ],
-    "paramGroups": [
-      "Set Point",
-      "Temperature Parameters",
-      "Charge Parameters",
-      "Boost Parameters",
-      "Voltage Limits"
+      0,
+      2,
+      12
     ]
   }
 ]
