@@ -1000,6 +1000,238 @@
     "text_2": "Engine Run Signal"
   },
   {
+    "id": 1026,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Aktif",
+    "text_2": "Ext. Board DI9 Active"
+  },
+  {
+    "id": 1027,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Aktif",
+    "text_2": "Ext. Board DI10 Active"
+  },
+  {
+    "id": 1028,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Aktif",
+    "text_2": "Ext. Board DI11 Active"
+  },
+  {
+    "id": 1029,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Aktif",
+    "text_2": "Ext. Board DI12 Active"
+  },
+  {
+    "id": 1030,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Aktif",
+    "text_2": "Ext. Board DI13 Active"
+  },
+  {
+    "id": 1031,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Aktif",
+    "text_2": "Ext. Board DI14 Active"
+  },
+  {
+    "id": 1032,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Aktif",
+    "text_2": "Ext. Board DI15 Active"
+  },
+  {
+    "id": 1033,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Aktif",
+    "text_2": "Ext. Board DI16 Active"
+  },
+  {
+    "id": 1034,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Aktif",
+    "text_2": "Ext. Board DI17 Active"
+  },
+  {
+    "id": 1035,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Aktif",
+    "text_2": "Ext. Board DI18 Active"
+  },
+  {
+    "id": 1036,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Aktif",
+    "text_2": "Ext. Board DI19 Active"
+  },
+  {
+    "id": 1037,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Aktif",
+    "text_2": "Ext. Board DI20 Active"
+  },
+  {
+    "id": 1038,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG9 Kull. Tanımlı",
+    "text_2": "Ext. Board DI9 User Conf."
+  },
+  {
+    "id": 1039,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG10 Kull. Tanımlı",
+    "text_2": "Ext. Board DI10 User Conf."
+  },
+  {
+    "id": 1040,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG11 Kull. Tanımlı",
+    "text_2": "Ext. Board DI11 User Conf."
+  },
+  {
+    "id": 1041,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG12 Kull. Tanımlı",
+    "text_2": "Ext. Board DI12 User Conf."
+  },
+  {
+    "id": 1042,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG13 Kull. Tanımlı",
+    "text_2": "Ext. Board DI13 User Conf."
+  },
+  {
+    "id": 1043,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG14 Kull. Tanımlı",
+    "text_2": "Ext. Board DI14 User Conf."
+  },
+  {
+    "id": 1044,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG15 Kull. Tanımlı",
+    "text_2": "Ext. Board DI15 User Conf."
+  },
+  {
+    "id": 1045,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG16 Kull. Tanımlı",
+    "text_2": "Ext. Board DI16 User Conf."
+  },
+  {
+    "id": 1046,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG17 Kull. Tanımlı",
+    "text_2": "Ext. Board DI17 User Conf."
+  },
+  {
+    "id": 1047,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG18 Kull. Tanımlı",
+    "text_2": "Ext. Board DI18 User Conf."
+  },
+  {
+    "id": 1048,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG19 Kull. Tanımlı",
+    "text_2": "Ext. Board DI19 User Conf."
+  },
+  {
+    "id": 1049,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG20 Kull. Tanımlı",
+    "text_2": "Ext. Board DI20 User Conf."
+  },
+  {
+    "id": 1068,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "CANIO AI1 Sıc. Anahtarı",
+    "text_2": "CANIO AI1 Temp Switch"
+  },
+  {
+    "id": 1069,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "CANIO AI2 Sıc. Anahtarı",
+    "text_2": "CANIO AI2 Temp Switch"
+  },
+  {
+    "id": 1070,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "CANIO AI3 Sıc. Anahtarı",
+    "text_2": "CANIO AI3 Temp Switch"
+  },
+  {
+    "id": 1071,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "CANIO AI4 Sıc. Anahtarı",
+    "text_2": "CANIO AI4 Temp Switch"
+  },
+  {
+    "id": 1076,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Ön Isıtıcı",
+    "text_2": "Preheater"
+  },
+  {
     "id": 96,
     "pixel": 100,
     "font": "Arial Rounded MT Bold",
@@ -1430,6 +1662,14 @@
     "fontSize": "20",
     "text_1": "Rejenerasyon Anahtarı",
     "text_2": "Regen Switch"
+  },
+  {
+    "id": 1067,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Man. Yakıt Pompası Limit",
+    "text_2": "Manual Fuel Pump Limit"
   },
   {
     "id": 137,
@@ -2198,6 +2438,102 @@
     "fontSize": "20",
     "text_1": "ECU HEST Lambası",
     "text_2": "ECU HEST Lamp"
+  },
+  {
+    "id": 1014,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG9 Kull. Tanımlı",
+    "text_2": "Ext. Board DI9 User Conf."
+  },
+  {
+    "id": 1015,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG10 Kull. Tanımlı",
+    "text_2": "Ext. Board DI10 User Conf."
+  },
+  {
+    "id": 1016,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG11 Kull. Tanımlı",
+    "text_2": "Ext. Board DI11 User Conf."
+  },
+  {
+    "id": 1017,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG12 Kull. Tanımlı",
+    "text_2": "Ext. Board DI12 User Conf."
+  },
+  {
+    "id": 1018,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG13 Kull. Tanımlı",
+    "text_2": "Ext. Board DI13 User Conf."
+  },
+  {
+    "id": 1019,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG14 Kull. Tanımlı",
+    "text_2": "Ext. Board DI14 User Conf."
+  },
+  {
+    "id": 1020,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG15 Kull. Tanımlı",
+    "text_2": "Ext. Board DI15 User Conf."
+  },
+  {
+    "id": 1021,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG16 Kull. Tanımlı",
+    "text_2": "Ext. Board DI16 User Conf."
+  },
+  {
+    "id": 1022,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG17 Kull. Tanımlı",
+    "text_2": "Ext. Board DI17 User Conf."
+  },
+  {
+    "id": 1023,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG18 Kull. Tanımlı",
+    "text_2": "Ext. Board DI18 User Conf."
+  },
+  {
+    "id": 1024,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG19 Kull. Tanımlı",
+    "text_2": "Ext. Board DI19 User Conf."
+  },
+  {
+    "id": 1025,
+    "pixel": 255,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. DG20 Kull. Tanımlı",
+    "text_2": "Ext. Board DI20 User Conf."
   },
   {
     "id": 201,
@@ -4328,6 +4664,22 @@
     "text_2": "CEU Control Mode"
   },
   {
+    "id": 1072,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Ön Isıtma Sıc. Kaynağı",
+    "text_2": "Preheat Temp. Source"
+  },
+  {
+    "id": 1073,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Ön Isıtma Sıc. Eşiği",
+    "text_2": "Preheat Temp. Limit"
+  },
+  {
     "id": 429,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
@@ -4790,6 +5142,22 @@
     "fontSize": "20",
     "text_1": "Yakıt Pomp. Maks. Çlş. Sür.",
     "text_2": "Fuel Pump Max. Wrk. Time"
+  },
+  {
+    "id": 1074,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Ön Isıtma Gecikmesi",
+    "text_2": "Preheat Delay"
+  },
+  {
+    "id": 1075,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Ön Isıtıcı Süresi",
+    "text_2": "Preheater Time"
   },
   {
     "id": 484,
@@ -6836,64 +7204,64 @@
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve1",
-    "text_2": "Ext. Board Reserved1"
+    "text_1": "CANIO AI1 Sıc. Alt Sev.",
+    "text_2": "CANIO AI1 Temp Low Limit"
   },
   {
     "id": 731,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve2",
-    "text_2": "Ext. Board Reserved2"
+    "text_1": "CANIO AI1 Sıc. Üst Sev.",
+    "text_2": "CANIO AI1 Temp High Limit"
   },
   {
     "id": 732,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve3",
-    "text_2": "Ext. Board Reserved3"
+    "text_1": "CANIO AI2 Sıc. Alt Sev.",
+    "text_2": "CANIO AI2 Temp Low Limit"
   },
   {
     "id": 733,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve4",
-    "text_2": "Ext. Board Reserved4"
+    "text_1": "CANIO AI2 Sıc. Üst Sev.",
+    "text_2": "CANIO AI2 Temp High Limit"
   },
   {
     "id": 734,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve5",
-    "text_2": "Ext. Board Reserved5"
+    "text_1": "CANIO AI3 Sıc. Alt Sev.",
+    "text_2": "CANIO AI3 Temp Low Limit"
   },
   {
     "id": 735,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve6",
-    "text_2": "Ext. Board Reserved6"
+    "text_1": "CANIO AI3 Sıc. Üst Sev.",
+    "text_2": "CANIO AI3 Temp High Limit"
   },
   {
     "id": 736,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve7",
-    "text_2": "Ext. Board Reserved7"
+    "text_1": "CANIO AI4 Sıc. Alt Sev.",
+    "text_2": "CANIO AI4 Temp Low Limit"
   },
   {
     "id": 737,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve8",
-    "text_2": "Ext. Board Reserved8"
+    "text_1": "CANIO AI4 Sıc. Üst Sev.",
+    "text_2": "CANIO AI4 Temp High Limit"
   },
   {
     "id": 738,
@@ -7108,120 +7476,120 @@
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve10",
-    "text_2": "Ext. Board Reserved10"
+    "text_1": "Gnş. Kartı DG6 Kaynağı",
+    "text_2": "Ext. Board DI6 Source"
   },
   {
     "id": 765,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve11",
-    "text_2": "Ext. Board Reserved11"
+    "text_1": "Gnş. Kartı DG6 Polaritesi",
+    "text_2": "Ext. Board DI6 Polarity"
   },
   {
     "id": 766,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve12",
-    "text_2": "Ext. Board Reserved12"
+    "text_1": "Gnş. Kartı DG6 Aksiyonu",
+    "text_2": "Ext. Board DI6 Action"
   },
   {
     "id": 767,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve13",
-    "text_2": "Ext. Board Reserved13"
+    "text_1": "Gnş. Kartı DG6 Kont. Zam.",
+    "text_2": "Ext. Board DI6 Arming"
   },
   {
     "id": 768,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve14",
-    "text_2": "Ext. Board Reserved14"
+    "text_1": "Gnş. Kartı DG6 Akt. Gec.",
+    "text_2": "Ext. Board DI6 Act. Delay"
   },
   {
     "id": 769,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve15",
-    "text_2": "Ext. Board Reserved15"
+    "text_1": "Gnş. Kartı DG7 Kaynağı",
+    "text_2": "Ext. Board DI7 Source"
   },
   {
     "id": 770,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve16",
-    "text_2": "Ext. Board Reserved16"
+    "text_1": "Gnş. Kartı DG7 Polaritesi",
+    "text_2": "Ext. Board DI7 Polarity"
   },
   {
     "id": 771,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve17",
-    "text_2": "Ext. Board Reserved17"
+    "text_1": "Gnş. Kartı DG7 Aksiyonu",
+    "text_2": "Ext. Board DI7 Action"
   },
   {
     "id": 772,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve18",
-    "text_2": "Ext. Board Reserved18"
+    "text_1": "Gnş. Kartı DG7 Kont. Zam.",
+    "text_2": "Ext. Board DI7 Arming"
   },
   {
     "id": 773,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve19",
-    "text_2": "Ext. Board Reserved19"
+    "text_1": "Gnş. Kartı DG7 Akt. Gec.",
+    "text_2": "Ext. Board DI7 Act. Delay"
   },
   {
     "id": 774,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve20",
-    "text_2": "Ext. Board Reserved20"
+    "text_1": "Gnş. Kartı DG8 Kaynağı",
+    "text_2": "Ext. Board DI8 Source"
   },
   {
     "id": 775,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve21",
-    "text_2": "Ext. Board Reserved21"
+    "text_1": "Gnş. Kartı DG8 Polaritesi",
+    "text_2": "Ext. Board DI8 Polarity"
   },
   {
     "id": 776,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve22",
-    "text_2": "Ext. Board Reserved22"
+    "text_1": "Gnş. Kartı DG8 Aksiyonu",
+    "text_2": "Ext. Board DI8 Action"
   },
   {
     "id": 777,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve23",
-    "text_2": "Ext. Board Reserved23"
+    "text_1": "Gnş. Kartı DG8 Kont. Zam.",
+    "text_2": "Ext. Board DI8 Arming"
   },
   {
     "id": 778,
     "pixel": 290,
     "font": "Arial Rounded MT Bold",
     "fontSize": "20",
-    "text_1": "Gnş. Kartı Rezerve24",
-    "text_2": "Ext. Board Reserved24"
+    "text_1": "Gnş. Kartı DG8 Akt. Gec.",
+    "text_2": "Ext. Board DI8 Act. Delay"
   },
   {
     "id": 779,
@@ -7414,6 +7782,486 @@
     "fontSize": "20",
     "text_1": "Gnş. Kartı Ç8 Akt. Gec.",
     "text_2": "Ext. Board O8 Act. Delay"
+  },
+  {
+    "id": 954,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Kaynağı",
+    "text_2": "Ext. Board DI9 Source"
+  },
+  {
+    "id": 955,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Polaritesi",
+    "text_2": "Ext. Board DI9 Polarity"
+  },
+  {
+    "id": 956,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Aksiyonu",
+    "text_2": "Ext. Board DI9 Action"
+  },
+  {
+    "id": 957,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Kont. Zam.",
+    "text_2": "Ext. Board DI9 Arming"
+  },
+  {
+    "id": 958,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG9 Akt. Gec.",
+    "text_2": "Ext. Board DI9 Act. Delay"
+  },
+  {
+    "id": 959,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Kaynağı",
+    "text_2": "Ext. Board DI10 Source"
+  },
+  {
+    "id": 960,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Polaritesi",
+    "text_2": "Ext. Board DI10 Polarity"
+  },
+  {
+    "id": 961,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Aksiyonu",
+    "text_2": "Ext. Board DI10 Action"
+  },
+  {
+    "id": 962,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Kont. Zam.",
+    "text_2": "Ext. Board DI10 Arming"
+  },
+  {
+    "id": 963,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG10 Akt. Gec.",
+    "text_2": "Ext. Board DI10 Act. Delay"
+  },
+  {
+    "id": 964,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Kaynağı",
+    "text_2": "Ext. Board DI11 Source"
+  },
+  {
+    "id": 965,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Polaritesi",
+    "text_2": "Ext. Board DI11 Polarity"
+  },
+  {
+    "id": 966,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Aksiyonu",
+    "text_2": "Ext. Board DI11 Action"
+  },
+  {
+    "id": 967,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Kont. Zam.",
+    "text_2": "Ext. Board DI11 Arming"
+  },
+  {
+    "id": 968,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG11 Akt. Gec.",
+    "text_2": "Ext. Board DI11 Act. Delay"
+  },
+  {
+    "id": 969,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Kaynağı",
+    "text_2": "Ext. Board DI12 Source"
+  },
+  {
+    "id": 970,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Polaritesi",
+    "text_2": "Ext. Board DI12 Polarity"
+  },
+  {
+    "id": 971,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Aksiyonu",
+    "text_2": "Ext. Board DI12 Action"
+  },
+  {
+    "id": 972,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Kont. Zam.",
+    "text_2": "Ext. Board DI12 Arming"
+  },
+  {
+    "id": 973,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG12 Akt. Gec.",
+    "text_2": "Ext. Board DI12 Act. Delay"
+  },
+  {
+    "id": 974,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Kaynağı",
+    "text_2": "Ext. Board DI13 Source"
+  },
+  {
+    "id": 975,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Polaritesi",
+    "text_2": "Ext. Board DI13 Polarity"
+  },
+  {
+    "id": 976,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Aksiyonu",
+    "text_2": "Ext. Board DI13 Action"
+  },
+  {
+    "id": 977,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Kont. Zam.",
+    "text_2": "Ext. Board DI13 Arming"
+  },
+  {
+    "id": 978,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG13 Akt. Gec.",
+    "text_2": "Ext. Board DI13 Act. Delay"
+  },
+  {
+    "id": 979,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Kaynağı",
+    "text_2": "Ext. Board DI14 Source"
+  },
+  {
+    "id": 980,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Polaritesi",
+    "text_2": "Ext. Board DI14 Polarity"
+  },
+  {
+    "id": 981,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Aksiyonu",
+    "text_2": "Ext. Board DI14 Action"
+  },
+  {
+    "id": 982,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Kont. Zam.",
+    "text_2": "Ext. Board DI14 Arming"
+  },
+  {
+    "id": 983,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG14 Akt. Gec.",
+    "text_2": "Ext. Board DI14 Act. Delay"
+  },
+  {
+    "id": 984,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Kaynağı",
+    "text_2": "Ext. Board DI15 Source"
+  },
+  {
+    "id": 985,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Polaritesi",
+    "text_2": "Ext. Board DI15 Polarity"
+  },
+  {
+    "id": 986,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Aksiyonu",
+    "text_2": "Ext. Board DI15 Action"
+  },
+  {
+    "id": 987,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Kont. Zam.",
+    "text_2": "Ext. Board DI15 Arming"
+  },
+  {
+    "id": 988,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG15 Akt. Gec.",
+    "text_2": "Ext. Board DI15 Act. Delay"
+  },
+  {
+    "id": 989,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Kaynağı",
+    "text_2": "Ext. Board DI16 Source"
+  },
+  {
+    "id": 990,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Polaritesi",
+    "text_2": "Ext. Board DI16 Polarity"
+  },
+  {
+    "id": 991,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Aksiyonu",
+    "text_2": "Ext. Board DI16 Action"
+  },
+  {
+    "id": 992,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Kont. Zam.",
+    "text_2": "Ext. Board DI16 Arming"
+  },
+  {
+    "id": 993,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG16 Akt. Gec.",
+    "text_2": "Ext. Board DI16 Act. Delay"
+  },
+  {
+    "id": 994,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Kaynağı",
+    "text_2": "Ext. Board DI17 Source"
+  },
+  {
+    "id": 995,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Polaritesi",
+    "text_2": "Ext. Board DI17 Polarity"
+  },
+  {
+    "id": 996,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Aksiyonu",
+    "text_2": "Ext. Board DI17 Action"
+  },
+  {
+    "id": 997,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Kont. Zam.",
+    "text_2": "Ext. Board DI17 Arming"
+  },
+  {
+    "id": 998,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG17 Akt. Gec.",
+    "text_2": "Ext. Board DI17 Act. Delay"
+  },
+  {
+    "id": 999,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Kaynağı",
+    "text_2": "Ext. Board DI18 Source"
+  },
+  {
+    "id": 1000,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Polaritesi",
+    "text_2": "Ext. Board DI18 Polarity"
+  },
+  {
+    "id": 1001,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Aksiyonu",
+    "text_2": "Ext. Board DI18 Action"
+  },
+  {
+    "id": 1002,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Kont. Zam.",
+    "text_2": "Ext. Board DI18 Arming"
+  },
+  {
+    "id": 1003,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG18 Akt. Gec.",
+    "text_2": "Ext. Board DI18 Act. Delay"
+  },
+  {
+    "id": 1004,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Kaynağı",
+    "text_2": "Ext. Board DI19 Source"
+  },
+  {
+    "id": 1005,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Polaritesi",
+    "text_2": "Ext. Board DI19 Polarity"
+  },
+  {
+    "id": 1006,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Aksiyonu",
+    "text_2": "Ext. Board DI19 Action"
+  },
+  {
+    "id": 1007,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Kont. Zam.",
+    "text_2": "Ext. Board DI19 Arming"
+  },
+  {
+    "id": 1008,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG19 Akt. Gec.",
+    "text_2": "Ext. Board DI19 Act. Delay"
+  },
+  {
+    "id": 1009,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Kaynağı",
+    "text_2": "Ext. Board DI20 Source"
+  },
+  {
+    "id": 1010,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Polaritesi",
+    "text_2": "Ext. Board DI20 Polarity"
+  },
+  {
+    "id": 1011,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Aksiyonu",
+    "text_2": "Ext. Board DI20 Action"
+  },
+  {
+    "id": 1012,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Kont. Zam.",
+    "text_2": "Ext. Board DI20 Arming"
+  },
+  {
+    "id": 1013,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Gnş. Kartı DG20 Akt. Gec.",
+    "text_2": "Ext. Board DI20 Act. Delay"
   },
   {
     "id": 898,
@@ -7622,5 +8470,141 @@
     "fontSize": "20",
     "text_1": "DEF Tank Sıcaklığı",
     "text_2": "DEF Tank Temp"
+  },
+  {
+    "id": 1050,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "CANIO Durumu",
+    "text_2": "CANIO Status"
+  },
+  {
+    "id": 1051,
+    "pixel": 290,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "Bağlantı Yok",
+    "text_2": "No Link"
+  },
+  {
+    "id": 1052,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG9",
+    "text_2": "EXT. DI9"
+  },
+  {
+    "id": 1053,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG10",
+    "text_2": "EXT. DI10"
+  },
+  {
+    "id": 1054,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG11",
+    "text_2": "EXT. DI11"
+  },
+  {
+    "id": 1055,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG12",
+    "text_2": "EXT. DI12"
+  },
+  {
+    "id": 1056,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG13",
+    "text_2": "EXT. DI13"
+  },
+  {
+    "id": 1057,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG14",
+    "text_2": "EXT. DI14"
+  },
+  {
+    "id": 1058,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG15",
+    "text_2": "EXT. DI15"
+  },
+  {
+    "id": 1059,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG16",
+    "text_2": "EXT. DI16"
+  },
+  {
+    "id": 1060,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG17",
+    "text_2": "EXT. DI17"
+  },
+  {
+    "id": 1061,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG18",
+    "text_2": "EXT. DI18"
+  },
+  {
+    "id": 1062,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG19",
+    "text_2": "EXT. DI19"
+  },
+  {
+    "id": 1063,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "GNŞ. DG20",
+    "text_2": "EXT. DI20"
+  },
+  {
+    "id": 1064,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "DG",
+    "text_2": "DI"
+  },
+  {
+    "id": 1065,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "DÇ",
+    "text_2": "DO"
+  },
+  {
+    "id": 1066,
+    "pixel": 100,
+    "font": "Arial Rounded MT Bold",
+    "fontSize": "20",
+    "text_1": "AG",
+    "text_2": "AI"
   }
 ]
