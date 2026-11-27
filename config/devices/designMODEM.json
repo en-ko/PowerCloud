@@ -220,8 +220,8 @@
     "page": 1,
     "row": 3,
     "side": "center",
-    "width": "200px",
-    "height": "200px",
+    "width": "170px",
+    "height": "170px",
     "image": "ethernetRed.png",
     "conditions": [
       {
@@ -241,12 +241,20 @@
     ]
   },
   {
+    "object": "space",
+    "page": 1,
+    "row": 3,
+    "side": "center",
+    "width": "0px",
+    "height": "0px"
+  },
+  {
     "object": "image",
     "page": 1,
-    "row": 4,
+    "row": 3,
     "side": "center",
-    "width": "200px",
-    "height": "200px",
+    "width": "170px",
+    "height": "170px",
     "image": "rs485Red.png",
     "conditions": [
       {
@@ -265,22 +273,20 @@
     ]
   },
   {
-    "object": "image",
+    "object": "space",
     "page": 1,
-    "row": 4,
+    "row": 3,
     "side": "center",
-    "width": "200px",
-    "height": "200px",
-    "image": "gsmModemGray.png",
-    "conditions": []
+    "width": "0px",
+    "height": "0px"
   },
   {
     "object": "image",
     "page": 1,
-    "row": 5,
+    "row": 3,
     "side": "center",
-    "width": "200px",
-    "height": "200px",
+    "width": "170px",
+    "height": "170px",
     "conditions": [
       {
         "conditionParamId": 93,
@@ -301,54 +307,6952 @@
   {
     "object": "ledindicator",
     "page": 1,
-    "row": 1,
-    "side": "right",
+    "row": 4,
+    "side": "center",
     "width": "260px",
-    "height": "250px",
-    "title": "Alarm Status",
+    "height": "400px",
+    "hideIfNoConditions": true,
+    "title": "RS485 Devices",
     "itemList": [
       {
-        "name": "RS485",
+        "name": "ID 1",
         "conditions": [
           {
-            "conditionParamId": 88,
-            "compareValue": "Status: All Clear",
-            "operator": "eq",
-            "color": "green",
-            "isOn": true
+            "conditionParamId": 203,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
           }
         ]
       },
       {
-        "name": "ETHERNET",
+        "name": "ID 2",
         "conditions": [
           {
-            "conditionParamId": 89,
-            "compareValue": "Status: All Clear",
-            "operator": "eq",
-            "color": "green",
-            "isOn": true
+            "conditionParamId": 203,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
           }
         ]
       },
       {
-        "name": "GSM",
+        "name": "ID 3",
         "conditions": [
           {
-            "conditionParamId": 90,
-            "compareValue": "Status: All Clear",
-            "operator": "eq",
-            "color": "green",
-            "isOn": true
+            "conditionParamId": 203,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 4",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 5",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 6",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 7",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 8",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 9",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 10",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 11",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 12",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 13",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 14",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 15",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 16",
+        "conditions": [
+          {
+            "conditionParamId": 203,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 203,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 187,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 17",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 18",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 19",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 20",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 21",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 22",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 23",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 24",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 25",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 26",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 27",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 28",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 29",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 30",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 31",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 32",
+        "conditions": [
+          {
+            "conditionParamId": 204,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 204,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 188,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 33",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 34",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 35",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 36",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 37",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 38",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 39",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 40",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 41",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 42",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 43",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 44",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 45",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 46",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 47",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 48",
+        "conditions": [
+          {
+            "conditionParamId": 205,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 205,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 189,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 49",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 50",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 51",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 52",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 53",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 54",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 55",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 56",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 57",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 58",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 59",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 60",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 61",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 62",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 63",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 64",
+        "conditions": [
+          {
+            "conditionParamId": 206,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 206,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 190,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 65",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 66",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 67",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 68",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 69",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 70",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 71",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 72",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 73",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 74",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 75",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 76",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 77",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 78",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 79",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 80",
+        "conditions": [
+          {
+            "conditionParamId": 207,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 207,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 191,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 81",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 82",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 83",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 84",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 85",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 86",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 87",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 88",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 89",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 90",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 91",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 92",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 93",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 94",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 95",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 96",
+        "conditions": [
+          {
+            "conditionParamId": 208,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 208,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 192,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 97",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 98",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 99",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 100",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 101",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 102",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 103",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 104",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 105",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 106",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 107",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 108",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 109",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 110",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 111",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 112",
+        "conditions": [
+          {
+            "conditionParamId": 209,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 209,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 193,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 113",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 114",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 115",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 116",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 117",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 118",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 119",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 120",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 121",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 122",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 123",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 124",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 125",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 126",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 127",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 128",
+        "conditions": [
+          {
+            "conditionParamId": 210,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 210,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 194,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 129",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 130",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 131",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 132",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 133",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 134",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 135",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 136",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 137",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 138",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 139",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 140",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 141",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 142",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 143",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 144",
+        "conditions": [
+          {
+            "conditionParamId": 211,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 211,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 195,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 145",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 146",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 147",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 148",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 149",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 150",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 151",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 152",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 153",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 154",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 155",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 156",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 157",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 158",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 159",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 160",
+        "conditions": [
+          {
+            "conditionParamId": 212,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 212,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 196,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 161",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 162",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 163",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 164",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 165",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 166",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 167",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 168",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 169",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 170",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 171",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 172",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 173",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 174",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 175",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 176",
+        "conditions": [
+          {
+            "conditionParamId": 213,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 213,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 197,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 177",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 178",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 179",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 180",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 181",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 182",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 183",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 184",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 185",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 186",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 187",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 188",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 189",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 190",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 191",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 192",
+        "conditions": [
+          {
+            "conditionParamId": 214,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 214,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 198,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 193",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 194",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 195",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 196",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 197",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 198",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 199",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 200",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 201",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 202",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 203",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 204",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 205",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 206",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 207",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 208",
+        "conditions": [
+          {
+            "conditionParamId": 215,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 215,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 199,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 209",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 210",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 211",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 212",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 213",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 214",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 215",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 216",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 217",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 218",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 219",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 220",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 221",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 222",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 223",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 224",
+        "conditions": [
+          {
+            "conditionParamId": 216,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 216,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 200,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 225",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 226",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 227",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 228",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 229",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 230",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 231",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 232",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "7",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "7",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "7",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 233",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "8",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "8",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "8",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 234",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "9",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "9",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "9",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 235",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "10",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "10",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "10",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 236",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "11",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "11",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "11",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 237",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "12",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "12",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "12",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 238",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "13",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "13",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "13",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 239",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "14",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "14",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "14",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 240",
+        "conditions": [
+          {
+            "conditionParamId": 217,
+            "compareValue": "15",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 217,
+            "compareValue": "15",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 201,
+                "compareValue": "15",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 241",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "0",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "0",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "0",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 242",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "1",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "1",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "1",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 243",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "2",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "2",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "2",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 244",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "3",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "3",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "3",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 245",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "4",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "4",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "4",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 246",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "5",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "5",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "5",
+                "operator": "bitOne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ID 247",
+        "conditions": [
+          {
+            "conditionParamId": 218,
+            "compareValue": "6",
+            "operator": "bitOne",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "green"
+          },
+          {
+            "conditionParamId": 218,
+            "compareValue": "6",
+            "operator": "bitZero",
+            "isOn": true,
+            "isBlinking": false,
+            "color": "red",
+            "andConditions": [
+              {
+                "conditionParamId": 202,
+                "compareValue": "6",
+                "operator": "bitOne"
+              }
+            ]
           }
         ]
       }
     ]
   },
   {
+    "object": "datalist",
+    "page": 1,
+    "row": 4,
+    "side": "center",
+    "title": "RS485 Device Count",
+    "width": "280px",
+    "height": "400px",
+    "itemList": [
+      {
+        "paramId": 185
+      },
+      {
+        "paramId": 186
+      }
+    ]
+  },
+  {
     "object": "ledindicator",
     "page": 1,
-    "row": 2,
+    "row": 1,
     "side": "right",
     "width": "260px",
     "height": "250px",
@@ -359,7 +7263,7 @@
         "conditions": [
           {
             "conditionParamId": 92,
-            "compareValue": "Ready to Connect Ethernet",
+            "compareValue": "Ethernet Ready to Connect",
             "operator": "eq",
             "color": "green",
             "isOn": true,
@@ -372,7 +7276,7 @@
         "conditions": [
           {
             "conditionParamId": 93,
-            "compareValue": "Ready to Connect GSM",
+            "compareValue": "GSM Ready to Connect",
             "operator": "eq",
             "color": "green",
             "isOn": true,
@@ -385,7 +7289,7 @@
   {
     "object": "datalist",
     "page": 1,
-    "row": 3,
+    "row": 2,
     "side": "right",
     "title": "Serial Port",
     "width": "260px",
@@ -422,8 +7326,7 @@
       "General",
       "Ethernet",
       "RS485 Serial Port",
-      "LTE",
-      "Monitoring"
+      "LTE"
     ]
   }
 ]
