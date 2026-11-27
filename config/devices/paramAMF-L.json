@@ -3,42 +3,6 @@
     "fileVersion": 1,
     "parameters": [
       {
-        "id": 5,
-        "version": 1011,
-        "name": "Parameter Save",
-        "group": "General",
-        "unit": "",
-        "modbusAddress": 5,
-        "dataLength": 1,
-        "coef": 0,
-        "signed": true,
-        "view": "",
-        "minValue": 0,
-        "maxValue": 2,
-        "defaultValue": 0,
-        "valueMask": [
-          {
-            "value": 0,
-            "mask": "Default"
-          },
-          {
-            "value": 1,
-            "mask": "Backup"
-          },
-          {
-            "value": 2,
-            "mask": "Read from Backup"
-          }
-        ],
-        "dataOperation": {
-          "operation": "",
-          "operationValue": ""
-        },
-        "readOnly": false,
-        "comment": "This parameter is used to save device parameters and recall saved parameters.",
-        "relation": []
-      },
-      {
         "id": 6,
         "version": 1011,
         "name": "Language",
@@ -5170,7 +5134,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -5216,6 +5180,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -5470,10 +5438,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -5542,6 +5506,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -5556,6 +5524,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -5934,7 +6018,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 6,
         "valueMask": [
           {
@@ -5980,6 +6064,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -6234,10 +6322,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -6306,6 +6390,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -6320,6 +6408,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -6698,7 +6902,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -6744,6 +6948,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -6998,10 +7206,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -7070,6 +7274,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -7084,6 +7292,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -7462,7 +7786,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 2,
         "valueMask": [
           {
@@ -7508,6 +7832,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -7762,10 +8090,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -7834,6 +8158,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -7848,6 +8176,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -8226,7 +8670,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 9,
         "valueMask": [
           {
@@ -8272,6 +8716,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -8526,10 +8974,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -8598,6 +9042,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -8612,6 +9060,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -8990,7 +9554,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 10,
         "valueMask": [
           {
@@ -9036,6 +9600,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -9290,10 +9858,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -9362,6 +9926,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -9376,6 +9944,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -9754,7 +10438,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -9800,6 +10484,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -10054,10 +10742,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -10126,6 +10810,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -10140,6 +10828,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -10518,7 +11322,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 71,
         "valueMask": [
           {
@@ -10564,6 +11368,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -10818,10 +11626,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -10890,6 +11694,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -10904,6 +11712,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -11038,7 +11962,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -11116,6 +12040,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -11330,7 +12258,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -11408,6 +12336,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -11622,7 +12554,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -11700,6 +12632,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -11914,7 +12850,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -11992,6 +12928,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -12206,7 +13146,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -12284,6 +13224,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -12498,7 +13442,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 29,
         "valueMask": [
           {
@@ -12576,6 +13520,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -12790,7 +13738,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 1,
         "valueMask": [
           {
@@ -12868,6 +13816,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -16719,16 +17671,20 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 1,
+        "maxValue": 2,
         "defaultValue": 0,
         "valueMask": [
           {
             "value": 0,
-            "mask": "Passive"
+            "mask": "DMP 2.0"
           },
           {
             "value": 1,
-            "mask": "Active"
+            "mask": "AMFS+ IO"
+          },
+          {
+            "value": 2,
+            "mask": "CANIO"
           }
         ],
         "dataOperation": {
@@ -16736,7 +17692,191 @@
           "operationValue": ""
         },
         "readOnly": false,
-        "comment": "This parameter is used to select the Extension Board. When this parameter is set to 1, the inputs, outputs, and other related information of the Extension Board are activated.",
+        "comment": "This parameter is used to select the Extension Board. 0 selects DMP 2.0 communication. 1 selects the AMFS+ IO extension board. 2 selects the CANIO module.",
+        "relation": []
+      },
+      {
+        "id": 472,
+        "version": 1044,
+        "name": "CANIO AI1 Temp Low Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1802,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 240,
+        "defaultValue": 65,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI1 temperature switch off limit",
+        "relation": []
+      },
+      {
+        "id": 473,
+        "version": 1044,
+        "name": "CANIO AI1 Temp High Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1803,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 5,
+        "maxValue": 245,
+        "defaultValue": 100,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI1 temperature switch on limit",
+        "relation": []
+      },
+      {
+        "id": 474,
+        "version": 1044,
+        "name": "CANIO AI2 Temp Low Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1804,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 240,
+        "defaultValue": 65,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI2 temperature switch off limit",
+        "relation": []
+      },
+      {
+        "id": 475,
+        "version": 1044,
+        "name": "CANIO AI2 Temp High Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1805,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 5,
+        "maxValue": 245,
+        "defaultValue": 100,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI2 temperature switch on limit",
+        "relation": []
+      },
+      {
+        "id": 476,
+        "version": 1044,
+        "name": "CANIO AI3 Temp Low Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1806,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 240,
+        "defaultValue": 65,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI3 temperature switch off limit",
+        "relation": []
+      },
+      {
+        "id": 477,
+        "version": 1044,
+        "name": "CANIO AI3 Temp High Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1807,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 5,
+        "maxValue": 245,
+        "defaultValue": 100,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI3 temperature switch on limit",
+        "relation": []
+      },
+      {
+        "id": 478,
+        "version": 1044,
+        "name": "CANIO AI4 Temp Low Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1808,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 240,
+        "defaultValue": 65,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI4 temperature switch off limit",
+        "relation": []
+      },
+      {
+        "id": 479,
+        "version": 1044,
+        "name": "CANIO AI4 Temp High Limit",
+        "group": "Extension Board",
+        "unit": "°C",
+        "modbusAddress": 1809,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 5,
+        "maxValue": 245,
+        "defaultValue": 100,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "CANIO AI4 temperature switch on limit",
         "relation": []
       },
       {
@@ -16751,7 +17891,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -16829,6 +17969,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -16963,7 +18107,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17041,6 +18185,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -17175,7 +18323,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17253,6 +18401,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -17387,7 +18539,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17465,6 +18617,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -17599,7 +18755,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 34,
+        "maxValue": 35,
         "defaultValue": 0,
         "valueMask": [
           {
@@ -17677,6 +18833,10 @@
           {
             "value": 34,
             "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
           }
         ],
         "dataOperation": {
@@ -17800,6 +18960,654 @@
         "relation": []
       },
       {
+        "id": 506,
+        "version": 1044,
+        "name": "Extension Board Digital Input-6 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1836,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-6 is made.",
+        "relation": []
+      },
+      {
+        "id": 507,
+        "version": 1044,
+        "name": "Extension Board Digital Input-6 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1837,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-6 is made.",
+        "relation": []
+      },
+      {
+        "id": 508,
+        "version": 1044,
+        "name": "Extension Board Digital Input-6 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1838,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-6 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 509,
+        "version": 1044,
+        "name": "Extension Board Digital Input-6 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1839,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-6 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 511,
+        "version": 1044,
+        "name": "Extension Board Digital Input-7 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1841,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-7 is made.",
+        "relation": []
+      },
+      {
+        "id": 512,
+        "version": 1044,
+        "name": "Extension Board Digital Input-7 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1842,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-7 is made.",
+        "relation": []
+      },
+      {
+        "id": 513,
+        "version": 1044,
+        "name": "Extension Board Digital Input-7 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1843,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-7 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 514,
+        "version": 1044,
+        "name": "Extension Board Digital Input-7 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1844,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-7 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 516,
+        "version": 1044,
+        "name": "Extension Board Digital Input-8 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1846,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-8 is made.",
+        "relation": []
+      },
+      {
+        "id": 517,
+        "version": 1044,
+        "name": "Extension Board Digital Input-8 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1847,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-8 is made.",
+        "relation": []
+      },
+      {
+        "id": 518,
+        "version": 1044,
+        "name": "Extension Board Digital Input-8 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1848,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-8 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 519,
+        "version": 1044,
+        "name": "Extension Board Digital Input-8 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1849,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-8 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
         "id": 521,
         "version": 1022,
         "name": "Extension Board Output-1 Source",
@@ -17811,7 +19619,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -17857,6 +19665,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -18111,10 +19923,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -18183,6 +19991,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -18197,6 +20009,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -18251,7 +20179,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18297,6 +20225,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -18551,10 +20483,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -18623,6 +20551,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -18637,6 +20569,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -18691,7 +20739,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -18737,6 +20785,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -18991,10 +21043,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -19063,6 +21111,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -19077,6 +21129,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -19131,7 +21299,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19177,6 +21345,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -19431,10 +21603,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -19503,6 +21671,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -19517,6 +21689,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -19571,7 +21859,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -19617,6 +21905,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -19871,10 +22163,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -19943,6 +22231,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -19957,6 +22249,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -20011,7 +22419,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20057,6 +22465,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -20311,10 +22723,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -20383,6 +22791,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -20397,6 +22809,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -20451,7 +22979,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20497,6 +23025,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -20751,10 +23283,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -20823,6 +23351,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -20837,6 +23369,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -20891,7 +23539,7 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 98,
+        "maxValue": 127,
         "defaultValue": 8,
         "valueMask": [
           {
@@ -20937,6 +23585,10 @@
           {
             "value": 11,
             "mask": "Choke Outlet"
+          },
+          {
+            "value": 12,
+            "mask": "Glowplugs"
           },
           {
             "value": 14,
@@ -21191,10 +23843,6 @@
             "mask": "APU Shutdown"
           },
           {
-            "value": 94,
-            "mask": "ECU Power"
-          },
-          {
             "value": 77,
             "mask": "Ext. Board DI1 Active"
           },
@@ -21263,6 +23911,10 @@
             "mask": "Auxiliary Capacitor"
           },
           {
+            "value": 94,
+            "mask": "ECU Power"
+          },
+          {
             "value": 95,
             "mask": "DPF Lamp"
           },
@@ -21277,6 +23929,122 @@
           {
             "value": 98,
             "mask": "Engine Run Signal"
+          },
+          {
+            "value": 99,
+            "mask": "Ext. Board DI9 Active"
+          },
+          {
+            "value": 100,
+            "mask": "Ext. Board DI10 Active"
+          },
+          {
+            "value": 101,
+            "mask": "Ext. Board DI11 Active"
+          },
+          {
+            "value": 102,
+            "mask": "Ext. Board DI12 Active"
+          },
+          {
+            "value": 103,
+            "mask": "Ext. Board DI13 Active"
+          },
+          {
+            "value": 104,
+            "mask": "Ext. Board DI14 Active"
+          },
+          {
+            "value": 105,
+            "mask": "Ext. Board DI15 Active"
+          },
+          {
+            "value": 106,
+            "mask": "Ext. Board DI16 Active"
+          },
+          {
+            "value": 107,
+            "mask": "Ext. Board DI17 Active"
+          },
+          {
+            "value": 108,
+            "mask": "Ext. Board DI18 Active"
+          },
+          {
+            "value": 109,
+            "mask": "Ext. Board DI19 Active"
+          },
+          {
+            "value": 110,
+            "mask": "Ext. Board DI20 Active"
+          },
+          {
+            "value": 111,
+            "mask": "Ext. Board DI9 User Conf."
+          },
+          {
+            "value": 112,
+            "mask": "Ext. Board DI10 User Conf."
+          },
+          {
+            "value": 113,
+            "mask": "Ext. Board DI11 User Conf."
+          },
+          {
+            "value": 114,
+            "mask": "Ext. Board DI12 User Conf."
+          },
+          {
+            "value": 115,
+            "mask": "Ext. Board DI13 User Conf."
+          },
+          {
+            "value": 116,
+            "mask": "Ext. Board DI14 User Conf."
+          },
+          {
+            "value": 117,
+            "mask": "Ext. Board DI15 User Conf."
+          },
+          {
+            "value": 118,
+            "mask": "Ext. Board DI16 User Conf."
+          },
+          {
+            "value": 119,
+            "mask": "Ext. Board DI17 User Conf."
+          },
+          {
+            "value": 120,
+            "mask": "Ext. Board DI18 User Conf."
+          },
+          {
+            "value": 121,
+            "mask": "Ext. Board DI19 User Conf."
+          },
+          {
+            "value": 122,
+            "mask": "Ext. Board DI20 User Conf."
+          },
+          {
+            "value": 123,
+            "mask": "CANIO AI1 Temp Switch"
+          },
+          {
+            "value": 124,
+            "mask": "CANIO AI2 Temp Switch"
+          },
+          {
+            "value": 125,
+            "mask": "CANIO AI3 Temp Switch"
+          },
+          {
+            "value": 126,
+            "mask": "CANIO AI4 Temp Switch"
+          },
+          {
+            "value": 127,
+            "mask": "Preheater"
           }
         ],
         "dataOperation": {
@@ -21809,7 +24577,7 @@
         "signed": true,
         "view": "",
         "minValue": 1,
-        "maxValue": 255,
+        "maxValue": 247,
         "defaultValue": 1,
         "valueMask": [],
         "dataOperation": {
@@ -22404,6 +25172,2857 @@
         },
         "readOnly": false,
         "comment": "SPN-21 value required to filter the warning transmitted in the DM1 message.",
+        "relation": []
+      },
+      {
+        "id": 595,
+        "version": 1045,
+        "name": "RTC Year",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9919,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 99,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 596,
+        "version": 1045,
+        "name": "RTC Month",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9918,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 12,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 597,
+        "version": 1045,
+        "name": "RTC Day",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9917,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 31,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 598,
+        "version": 1045,
+        "name": "RTC Hour",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9916,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 23,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 599,
+        "version": 1045,
+        "name": "RTC Minute",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9915,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 59,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 600,
+        "version": 1045,
+        "name": "RTC Second",
+        "group": "Device",
+        "unit": "",
+        "modbusAddress": 9914,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 59,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 601,
+        "version": 1045,
+        "name": "Extension Board Digital Input-9 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1875,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-9 is made.",
+        "relation": []
+      },
+      {
+        "id": 602,
+        "version": 1045,
+        "name": "Extension Board Digital Input-9 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1876,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-9 is made.",
+        "relation": []
+      },
+      {
+        "id": 603,
+        "version": 1045,
+        "name": "Extension Board Digital Input-9 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1877,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-9 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 604,
+        "version": 1045,
+        "name": "Extension Board Digital Input-9 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1878,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-9 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 606,
+        "version": 1045,
+        "name": "Extension Board Digital Input-10 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1880,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-10 is made.",
+        "relation": []
+      },
+      {
+        "id": 607,
+        "version": 1045,
+        "name": "Extension Board Digital Input-10 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1881,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-10 is made.",
+        "relation": []
+      },
+      {
+        "id": 608,
+        "version": 1045,
+        "name": "Extension Board Digital Input-10 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1882,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-10 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 609,
+        "version": 1045,
+        "name": "Extension Board Digital Input-10 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1883,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-10 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 611,
+        "version": 1045,
+        "name": "Extension Board Digital Input-11 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1885,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-11 is made.",
+        "relation": []
+      },
+      {
+        "id": 612,
+        "version": 1045,
+        "name": "Extension Board Digital Input-11 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1886,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-11 is made.",
+        "relation": []
+      },
+      {
+        "id": 613,
+        "version": 1045,
+        "name": "Extension Board Digital Input-11 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1887,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-11 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 614,
+        "version": 1045,
+        "name": "Extension Board Digital Input-11 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1888,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-11 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 616,
+        "version": 1045,
+        "name": "Extension Board Digital Input-12 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1890,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-12 is made.",
+        "relation": []
+      },
+      {
+        "id": 617,
+        "version": 1045,
+        "name": "Extension Board Digital Input-12 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1891,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-12 is made.",
+        "relation": []
+      },
+      {
+        "id": 618,
+        "version": 1045,
+        "name": "Extension Board Digital Input-12 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1892,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-12 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 619,
+        "version": 1045,
+        "name": "Extension Board Digital Input-12 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1893,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-12 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 621,
+        "version": 1045,
+        "name": "Extension Board Digital Input-13 Source",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1895,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-13 is made.",
+        "relation": []
+      },
+      {
+        "id": 622,
+        "version": 1045,
+        "name": "Extension Board Digital Input-13 Polarity",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1896,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-13 is made.",
+        "relation": []
+      },
+      {
+        "id": 623,
+        "version": 1045,
+        "name": "Extension Board Digital Input-13 Action",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1897,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-13 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 624,
+        "version": 1045,
+        "name": "Extension Board Digital Input-13 Arming",
+        "group": "Extension Board",
+        "unit": "",
+        "modbusAddress": 1898,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-13 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 626,
+        "version": 1045,
+        "name": "Extension Board Digital Input-14 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1901,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-14 is made.",
+        "relation": []
+      },
+      {
+        "id": 627,
+        "version": 1045,
+        "name": "Extension Board Digital Input-14 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1902,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-14 is made.",
+        "relation": []
+      },
+      {
+        "id": 628,
+        "version": 1045,
+        "name": "Extension Board Digital Input-14 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1903,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-14 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 629,
+        "version": 1045,
+        "name": "Extension Board Digital Input-14 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1904,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-14 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 631,
+        "version": 1045,
+        "name": "Extension Board Digital Input-15 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1906,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-15 is made.",
+        "relation": []
+      },
+      {
+        "id": 632,
+        "version": 1045,
+        "name": "Extension Board Digital Input-15 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1907,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-15 is made.",
+        "relation": []
+      },
+      {
+        "id": 633,
+        "version": 1045,
+        "name": "Extension Board Digital Input-15 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1908,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-15 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 634,
+        "version": 1045,
+        "name": "Extension Board Digital Input-15 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1909,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-15 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 636,
+        "version": 1045,
+        "name": "Extension Board Digital Input-16 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1911,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-16 is made.",
+        "relation": []
+      },
+      {
+        "id": 637,
+        "version": 1045,
+        "name": "Extension Board Digital Input-16 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1912,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-16 is made.",
+        "relation": []
+      },
+      {
+        "id": 638,
+        "version": 1045,
+        "name": "Extension Board Digital Input-16 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1913,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-16 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 639,
+        "version": 1045,
+        "name": "Extension Board Digital Input-16 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1914,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-16 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 641,
+        "version": 1045,
+        "name": "Extension Board Digital Input-17 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1916,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-17 is made.",
+        "relation": []
+      },
+      {
+        "id": 642,
+        "version": 1045,
+        "name": "Extension Board Digital Input-17 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1917,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-17 is made.",
+        "relation": []
+      },
+      {
+        "id": 643,
+        "version": 1045,
+        "name": "Extension Board Digital Input-17 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1918,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-17 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 644,
+        "version": 1045,
+        "name": "Extension Board Digital Input-17 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1919,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-17 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 646,
+        "version": 1045,
+        "name": "Extension Board Digital Input-18 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1921,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-18 is made.",
+        "relation": []
+      },
+      {
+        "id": 647,
+        "version": 1045,
+        "name": "Extension Board Digital Input-18 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1922,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-18 is made.",
+        "relation": []
+      },
+      {
+        "id": 648,
+        "version": 1045,
+        "name": "Extension Board Digital Input-18 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1923,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-18 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 649,
+        "version": 1045,
+        "name": "Extension Board Digital Input-18 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1924,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-18 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 651,
+        "version": 1045,
+        "name": "Extension Board Digital Input-19 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1926,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-19 is made.",
+        "relation": []
+      },
+      {
+        "id": 652,
+        "version": 1045,
+        "name": "Extension Board Digital Input-19 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1927,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-19 is made.",
+        "relation": []
+      },
+      {
+        "id": 653,
+        "version": 1045,
+        "name": "Extension Board Digital Input-19 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1928,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-19 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 654,
+        "version": 1045,
+        "name": "Extension Board Digital Input-19 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1929,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-19 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 656,
+        "version": 1045,
+        "name": "Extension Board Digital Input-20 Source",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1931,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 35,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Input Inactive"
+          },
+          {
+            "value": 1,
+            "mask": "Emergency Stop"
+          },
+          {
+            "value": 2,
+            "mask": "Remote Start/Stop"
+          },
+          {
+            "value": 3,
+            "mask": "Remote Operation/Upload"
+          },
+          {
+            "value": 4,
+            "mask": "Panel Lock"
+          },
+          {
+            "value": 8,
+            "mask": "AVR Voltage Selection"
+          },
+          {
+            "value": 13,
+            "mask": "Start Button Simulation"
+          },
+          {
+            "value": 14,
+            "mask": "Stop Button Simulation"
+          },
+          {
+            "value": 24,
+            "mask": "Alarm Disable"
+          },
+          {
+            "value": 25,
+            "mask": "Alarm Reset"
+          },
+          {
+            "value": 26,
+            "mask": "Battle Mode"
+          },
+          {
+            "value": 27,
+            "mask": "Light Off"
+          },
+          {
+            "value": 28,
+            "mask": "APU Door"
+          },
+          {
+            "value": 29,
+            "mask": "User Configured"
+          },
+          {
+            "value": 30,
+            "mask": "Manual Fuel Pump"
+          },
+          {
+            "value": 31,
+            "mask": "PTO Supply"
+          },
+          {
+            "value": 32,
+            "mask": "Gen. Phase Selection"
+          },
+          {
+            "value": 33,
+            "mask": "Park Brake Switch"
+          },
+          {
+            "value": 34,
+            "mask": "Regeneration Switch"
+          },
+          {
+            "value": 35,
+            "mask": "Manual Fuel Pump Limit"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where the function selection of extension board digital input-20 is made.",
+        "relation": []
+      },
+      {
+        "id": 657,
+        "version": 1045,
+        "name": "Extension Board Digital Input-20 Polarity",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1932,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Close to Activate"
+          },
+          {
+            "value": 1,
+            "mask": "Open to Activate"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "It is the parameter where polarity selection of extension board digital input-20 is made.",
+        "relation": []
+      },
+      {
+        "id": 658,
+        "version": 1045,
+        "name": "Extension Board Digital Input-20 Action",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1933,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 1,
+        "maxValue": 4,
+        "defaultValue": 1,
+        "valueMask": [
+          {
+            "value": 1,
+            "mask": "Temporary Warning"
+          },
+          {
+            "value": 2,
+            "mask": "Permanent Warning"
+          },
+          {
+            "value": 3,
+            "mask": "Electrical Trip"
+          },
+          {
+            "value": 4,
+            "mask": "Shutdown"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-20 function is set as user configured then the alarm action function will operate according to the selection.",
+        "relation": []
+      },
+      {
+        "id": 659,
+        "version": 1045,
+        "name": "Extension Board Digital Input-20 Arming",
+        "group": "Extension Board 2",
+        "unit": "",
+        "modbusAddress": 1934,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 3,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Always"
+          },
+          {
+            "value": 1,
+            "mask": "From Safe Operation"
+          },
+          {
+            "value": 2,
+            "mask": "From Cranking"
+          },
+          {
+            "value": 3,
+            "mask": "Never"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the extension board digital input-20 function is set as user configured then the alarm of the input will be active according to the timing selection set in this parameter.",
+        "relation": []
+      },
+      {
+        "id": 661,
+        "version": 1045,
+        "name": "Preheat Temp. Source",
+        "group": "Engine",
+        "unit": "",
+        "modbusAddress": 371,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 6,
+        "defaultValue": 0,
+        "valueMask": [
+          {
+            "value": 0,
+            "mask": "Off"
+          },
+          {
+            "value": 1,
+            "mask": "AI2"
+          },
+          {
+            "value": 2,
+            "mask": "AI4"
+          },
+          {
+            "value": 3,
+            "mask": "CANIO AI1"
+          },
+          {
+            "value": 4,
+            "mask": "CANIO AI2"
+          },
+          {
+            "value": 5,
+            "mask": "CANIO AI3"
+          },
+          {
+            "value": 6,
+            "mask": "CANIO AI4"
+          }
+        ],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "Temperature input used for the cold or warm start preheat decision. Off disables the cold start sequence.",
+        "relation": []
+      },
+      {
+        "id": 662,
+        "version": 1045,
+        "name": "Preheat Temp. Limit",
+        "group": "Engine",
+        "unit": "°C",
+        "modbusAddress": 372,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -40,
+        "maxValue": 100,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "If the selected temperature is below this value the cold start preheat sequence is applied.",
+        "relation": []
+      },
+      {
+        "id": 663,
+        "version": 1045,
+        "name": "Preheat Delay",
+        "group": "Engine Timer",
+        "unit": "sec",
+        "modbusAddress": 641,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 300,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "In the cold start sequence the time from preheater on to glowplugs on.",
+        "relation": []
+      },
+      {
+        "id": 664,
+        "version": 1045,
+        "name": "Preheater Time",
+        "group": "Engine Timer",
+        "unit": "sec",
+        "modbusAddress": 642,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": 0,
+        "maxValue": 1800,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": false,
+        "comment": "In the cold start sequence the time the preheater output stays on after the engine starts.",
         "relation": []
       },
       {
@@ -24960,6 +30579,144 @@
         "relation": []
       },
       {
+        "id": 3114,
+        "version": 1045,
+        "name": "Inputs 2",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3114,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3115,
+        "version": 1045,
+        "name": "CANIO Relay Feedback",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3115,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3116,
+        "version": 1045,
+        "name": "CANIO AI1 Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3116,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3117,
+        "version": 1045,
+        "name": "CANIO AI2 Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3117,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3118,
+        "version": 1045,
+        "name": "CANIO AI3 Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3118,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3119,
+        "version": 1045,
+        "name": "CANIO AI4 Temperature",
+        "group": "Monitoring",
+        "unit": "°C",
+        "modbusAddress": 3119,
+        "dataLength": 1,
+        "coef": -1,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
         "id": 3201,
         "version": 1035,
         "name": "Alarm Register 1",
@@ -26061,6 +31818,144 @@
         },
         "readOnly": true,
         "comment": "Alarm status register 48 packed by firmware (2 faults per register). bit1: ECU Regen Inhibited active (bit0 source, bit2-7 level); bit9: ECU HEST Lamp active (bit8 source, bit10-15 level).",
+        "relation": []
+      },
+      {
+        "id": 3249,
+        "version": 1045,
+        "name": "Alarm Register 49",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3249,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3250,
+        "version": 1045,
+        "name": "Alarm Register 50",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3250,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3251,
+        "version": 1045,
+        "name": "Alarm Register 51",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3251,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3252,
+        "version": 1045,
+        "name": "Alarm Register 52",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3252,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3253,
+        "version": 1045,
+        "name": "Alarm Register 53",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3253,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
+        "relation": []
+      },
+      {
+        "id": 3254,
+        "version": 1045,
+        "name": "Alarm Register 54",
+        "group": "Monitoring",
+        "unit": "",
+        "modbusAddress": 3254,
+        "dataLength": 1,
+        "coef": 0,
+        "signed": true,
+        "view": "",
+        "minValue": -32768,
+        "maxValue": 32767,
+        "defaultValue": 0,
+        "valueMask": [],
+        "dataOperation": {
+          "operation": "",
+          "operationValue": ""
+        },
+        "readOnly": true,
+        "comment": "",
         "relation": []
       },
       {
