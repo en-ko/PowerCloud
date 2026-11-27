@@ -537,7 +537,7 @@
     "id": 25,
     "version": 1000,
     "name": "Slave ID",
-    "group": "RS485 Serial Port",
+    "group": "RS485 Serial Port Hidden",
     "unit": "",
     "modbusAddress": 205,
     "dataLength": 1,
@@ -1115,12 +1115,228 @@
     "relation": []
   },
   {
+    "id": 179,
+    "version": 1000,
+    "name": "Ethernet Client-1 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 415,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 180,
+    "version": 1000,
+    "name": "Ethernet Client-2 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 416,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 181,
+    "version": 1000,
+    "name": "Ethernet Client-3 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 417,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 182,
+    "version": 1000,
+    "name": "Ethernet Client-4 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 418,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 183,
+    "version": 1000,
+    "name": "Ethernet Client-5 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 419,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
+    "id": 184,
+    "version": 1000,
+    "name": "Ethernet Client-6 Status",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 420,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [
+      {
+        "value": 1,
+        "mask": "Closed"
+      },
+      {
+        "value": 2,
+        "mask": "Listen"
+      },
+      {
+        "value": 5,
+        "mask": "Established"
+      }
+    ],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": false,
+    "comment": "",
+    "relation": []
+  },
+  {
     "id": 102,
     "version": 1000,
     "name": "GSM Signal Level",
     "group": "Monitoring",
     "unit": "",
-    "modbusAddress": 415,
+    "modbusAddress": 421,
     "dataLength": 1,
     "coef": 0,
     "signed": true,
@@ -1136,7 +1352,789 @@
     "readOnly": false,
     "comment": "If the signal level is between 0-8, the signal is weak and there will be no communication. If it is between 8-32, the signal level is normal",
     "relation": []
-      }
+  },
+  {
+    "id": 185,
+    "version": 1000,
+    "name": "RS485 Live Device Count",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 422,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": 0,
+    "maxValue": 247,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Number of devices whose last result was OK or exception.",
+    "relation": []
+  },
+  {
+    "id": 186,
+    "version": 1000,
+    "name": "RS485 Lost Device Count",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 423,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": true,
+    "view": "",
+    "minValue": 0,
+    "maxValue": 247,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Number of devices whose last result was a timeout.",
+    "relation": []
+  },
+  {
+    "id": 187,
+    "version": 1000,
+    "name": "RS485 Seen Devices 1-16",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 424,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 1-16. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 188,
+    "version": 1000,
+    "name": "RS485 Seen Devices 17-32",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 425,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 17-32. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 189,
+    "version": 1000,
+    "name": "RS485 Seen Devices 33-48",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 426,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 33-48. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 190,
+    "version": 1000,
+    "name": "RS485 Seen Devices 49-64",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 427,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 49-64. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 191,
+    "version": 1000,
+    "name": "RS485 Seen Devices 65-80",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 428,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 65-80. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 192,
+    "version": 1000,
+    "name": "RS485 Seen Devices 81-96",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 429,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 81-96. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 193,
+    "version": 1000,
+    "name": "RS485 Seen Devices 97-112",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 430,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 97-112. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 194,
+    "version": 1000,
+    "name": "RS485 Seen Devices 113-128",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 431,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 113-128. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 195,
+    "version": 1000,
+    "name": "RS485 Seen Devices 129-144",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 432,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 129-144. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 196,
+    "version": 1000,
+    "name": "RS485 Seen Devices 145-160",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 433,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 145-160. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 197,
+    "version": 1000,
+    "name": "RS485 Seen Devices 161-176",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 434,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 161-176. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 198,
+    "version": 1000,
+    "name": "RS485 Seen Devices 177-192",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 435,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 177-192. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 199,
+    "version": 1000,
+    "name": "RS485 Seen Devices 193-208",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 436,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 193-208. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 200,
+    "version": 1000,
+    "name": "RS485 Seen Devices 209-224",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 437,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 209-224. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 201,
+    "version": 1000,
+    "name": "RS485 Seen Devices 225-240",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 438,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 225-240. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 202,
+    "version": 1000,
+    "name": "RS485 Seen Devices 241-247",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 439,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-6 = addresses 241-247. 1: at least one result received.",
+    "relation": []
+  },
+  {
+    "id": 203,
+    "version": 1000,
+    "name": "RS485 Live Devices 1-16",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 440,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 1-16. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 204,
+    "version": 1000,
+    "name": "RS485 Live Devices 17-32",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 441,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 17-32. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 205,
+    "version": 1000,
+    "name": "RS485 Live Devices 33-48",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 442,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 33-48. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 206,
+    "version": 1000,
+    "name": "RS485 Live Devices 49-64",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 443,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 49-64. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 207,
+    "version": 1000,
+    "name": "RS485 Live Devices 65-80",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 444,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 65-80. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 208,
+    "version": 1000,
+    "name": "RS485 Live Devices 81-96",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 445,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 81-96. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 209,
+    "version": 1000,
+    "name": "RS485 Live Devices 97-112",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 446,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 97-112. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 210,
+    "version": 1000,
+    "name": "RS485 Live Devices 113-128",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 447,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 113-128. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 211,
+    "version": 1000,
+    "name": "RS485 Live Devices 129-144",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 448,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 129-144. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 212,
+    "version": 1000,
+    "name": "RS485 Live Devices 145-160",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 449,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 145-160. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 213,
+    "version": 1000,
+    "name": "RS485 Live Devices 161-176",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 450,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 161-176. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 214,
+    "version": 1000,
+    "name": "RS485 Live Devices 177-192",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 451,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 177-192. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 215,
+    "version": 1000,
+    "name": "RS485 Live Devices 193-208",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 452,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 193-208. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 216,
+    "version": 1000,
+    "name": "RS485 Live Devices 209-224",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 453,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 209-224. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 217,
+    "version": 1000,
+    "name": "RS485 Live Devices 225-240",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 454,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-15 = addresses 225-240. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  },
+  {
+    "id": 218,
+    "version": 1000,
+    "name": "RS485 Live Devices 241-247",
+    "group": "Monitoring",
+    "unit": "",
+    "modbusAddress": 455,
+    "dataLength": 1,
+    "coef": 0,
+    "signed": false,
+    "view": "",
+    "minValue": -32768,
+    "maxValue": 32767,
+    "defaultValue": 0,
+    "valueMask": [],
+    "dataOperation": {
+      "operation": "",
+      "operationValue": ""
+    },
+    "readOnly": true,
+    "comment": "Bits 0-6 = addresses 241-247. 1: last result OK or exception, 0: timeout.",
+    "relation": []
+  }
     ],
     "alarms": [],
     "events": []
