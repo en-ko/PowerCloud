@@ -17697,7 +17697,7 @@
       },
       {
         "id": 472,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI1 Temp Low Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17720,7 +17720,7 @@
       },
       {
         "id": 473,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI1 Temp High Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17743,7 +17743,7 @@
       },
       {
         "id": 474,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI2 Temp Low Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17766,7 +17766,7 @@
       },
       {
         "id": 475,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI2 Temp High Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17789,7 +17789,7 @@
       },
       {
         "id": 476,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI3 Temp Low Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17812,7 +17812,7 @@
       },
       {
         "id": 477,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI3 Temp High Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17835,7 +17835,7 @@
       },
       {
         "id": 478,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI4 Temp Low Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -17858,7 +17858,7 @@
       },
       {
         "id": 479,
-        "version": 1044,
+        "version": 1045,
         "name": "CANIO AI4 Temp High Limit",
         "group": "Extension Board",
         "unit": "°C",
@@ -18961,7 +18961,7 @@
       },
       {
         "id": 506,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-6 Source",
         "group": "Extension Board",
         "unit": "",
@@ -19065,7 +19065,7 @@
       },
       {
         "id": 507,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-6 Polarity",
         "group": "Extension Board",
         "unit": "",
@@ -19097,7 +19097,7 @@
       },
       {
         "id": 508,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-6 Action",
         "group": "Extension Board",
         "unit": "",
@@ -19137,7 +19137,7 @@
       },
       {
         "id": 509,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-6 Arming",
         "group": "Extension Board",
         "unit": "",
@@ -19177,7 +19177,7 @@
       },
       {
         "id": 511,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-7 Source",
         "group": "Extension Board",
         "unit": "",
@@ -19281,7 +19281,7 @@
       },
       {
         "id": 512,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-7 Polarity",
         "group": "Extension Board",
         "unit": "",
@@ -19313,7 +19313,7 @@
       },
       {
         "id": 513,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-7 Action",
         "group": "Extension Board",
         "unit": "",
@@ -19353,7 +19353,7 @@
       },
       {
         "id": 514,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-7 Arming",
         "group": "Extension Board",
         "unit": "",
@@ -19393,7 +19393,7 @@
       },
       {
         "id": 516,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-8 Source",
         "group": "Extension Board",
         "unit": "",
@@ -19497,7 +19497,7 @@
       },
       {
         "id": 517,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-8 Polarity",
         "group": "Extension Board",
         "unit": "",
@@ -19529,7 +19529,7 @@
       },
       {
         "id": 518,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-8 Action",
         "group": "Extension Board",
         "unit": "",
@@ -19569,7 +19569,7 @@
       },
       {
         "id": 519,
-        "version": 1044,
+        "version": 1045,
         "name": "Extension Board Digital Input-8 Arming",
         "group": "Extension Board",
         "unit": "",
