@@ -95,7 +95,7 @@
         "conditions": [
           {
             "conditionParamId": 30,
-            "compareValue": "1",
+            "compareValue": "0",
             "operator": "bitOne",
             "isOn": true,
             "isBlinking": false,
