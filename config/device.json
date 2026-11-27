@@ -264,7 +264,7 @@
   },
   {
     "name": "DBC2",
-    "fileVersion": 3,
+    "fileVersion": 4,
     "type": "device",
     "deviceType": "Generator",
     "enableGClassTest" : false,
