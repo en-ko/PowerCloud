@@ -4288,8 +4288,8 @@
         "signed": true,
         "view": "",
         "minValue": 0,
-        "maxValue": 4,
-        "defaultValue": 1,
+        "maxValue": 1,
+        "defaultValue": 0,
         "valueMask": [
           {
             "value": 0,
